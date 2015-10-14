@@ -1,9 +1,9 @@
-# Calendar
+# Course Calendar
 
 ## Preseason
 TODO
 
-## Core
+## cs50
 
 ### Fundamentals
 
