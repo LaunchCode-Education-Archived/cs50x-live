@@ -1,9 +1,10 @@
 ##### Module 1 
 # Class 1
 
+#### Before Today:
 For homework you should have done: [class1-prep]()
 
-## Today
+### Today
 Do these things:
 
 ### Studio: Coversions
