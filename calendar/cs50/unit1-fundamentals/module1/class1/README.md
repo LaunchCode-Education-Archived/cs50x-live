@@ -4,8 +4,6 @@
 #### Before Today:
 For homework you should have done: [class1-prep]()
 
-***
-
 ### Today
 Do these things:
 
