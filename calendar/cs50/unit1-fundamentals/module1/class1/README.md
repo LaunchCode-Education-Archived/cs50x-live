@@ -1,11 +1,19 @@
 ##### Module 1 
 # Class 1
 
-#### Before Today:
+##### Before Today:
 For homework you should have done: [class1-prep]()
 
-### Today
-Do these things:
+##### Today
+We'll do these things:
+
+1- Q&A on the following topics:
+
+* getting user input
+* printing things
+* math in C
+
+2- Studio: Conversions
 
 ### Studio: Coversions
 TODO Some kind of exercise that involves mathematical conversions similar to pset1 / smart water
