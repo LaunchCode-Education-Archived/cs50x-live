@@ -1,7 +1,12 @@
-# Module 1 / Lesson 1
+##### Module 1
+# Class 2
+
+For homework you should have done: [class2-prep]()
 
 
-### Prep: [Homework 0.5]()
+## Today
+
+Do these things:
 
 ##### Studio: Guess
 Write a program that gives the user five chances to guess correctly a  number between 1 and 10. You can simply decide on a "correct answer" and hard-code that number into your code. Supposing for example that you decide to make 4 the correct answer, you will probably have a line like this:
@@ -51,8 +56,3 @@ Height: 3
 ```
 
 ***
-
-### Homework
-
-* [Class 2 Prep]()
-* Get started on [Pset1]()

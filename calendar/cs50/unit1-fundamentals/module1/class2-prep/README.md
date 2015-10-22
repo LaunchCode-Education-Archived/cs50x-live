@@ -1,9 +1,32 @@
-# Module 1 / Homework 1.5
+#### Module 1 
+# Prep for Class 2
 
 
 ##### Lecture: [Week 1, Continued]()
 
+
 ***
+
+### Conditions, Booleans
+
+##### Lecture Bites: [Conditions](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#conditions)
+
+##### Follow-Along: [conditions-0]()
+
+##### Follow-Along: [conditions-1]()
+
+##### Study: [Conditions]()
+
+##### Exercise: if(){}
+*TODO -- an exercise in which the ideal solution involves an if statement with no accompanying else branch*
+
+##### Short Watch: [Boolean Values](https://youtu.be/M058skV1iL0?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC)
+
+##### Exercise: || && !
+*TODO -- an exercise combining multiple boolean expressions*
+
+***
+
 
 ### Loops
 
