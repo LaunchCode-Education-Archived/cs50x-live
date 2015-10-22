@@ -5,13 +5,13 @@
 By the end of this module you will have completed Problem Set 1
 
 *** 
-### [Homework 0.5](./homework0.5)
-### [Lesson 1](./lesson1)
-### [Homework 1.5]()
-### [Lesson 2](./lesson2)
-### [Homework 2.5]()
-### [Lesson 3](./lesson3)
-### [Homework 3.5]()
+### [Prep for Class 1](./class1-prep)
+### [Class 1](./class1)
+### [Prep for Class 2](./class2-prep)
+### [Class 2](./class2)
+### [Class 3](./class3)
+### [Finish Pset1]()
+### [Prep for Module 2, Class 1](../module2/class1-prep)
 
 
 ***
