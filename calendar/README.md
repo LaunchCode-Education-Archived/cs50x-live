@@ -5,51 +5,77 @@ TODO
 
 ## cs50
 
-### Fundamentals
+### Unit 1: Fundamentals
 
-##### Pset1
-###### Lesson1
-###### Lesson2
-###### Lesson3
+#### Module 1
+1. Prep for Class 1
+2. Class 1
+3. Prep for Class 2
+4. Class 2
+5. Class 3
+6. Finish Pset1
 
-##### Pset2
-###### Lesson1
-###### Lesson2
-###### Lesson3
+##### Module 2
+1. Prep for Class 1
+2. Class 1
+3. Prep for Class 2
+4. Class 2
+5. Class 3
+6. Finish Pset2
 
-##### Pset3
-###### Lesson1
-###### Lesson2
-###### Lesson3
+##### Module 3
+1. Prep for Class 1
+2. Class 1
+3. Prep for Class 2
+4. Class 2
+5. Class 3
+6. Finish Pset3
 
-### Advanced-C
+### Unit 2: Advanced-C
 
-##### Pset4
-###### Lesson1
-###### Lesson2
-###### Lesson3
+##### Module 4
+1. Prep for Class 1
+2. Class 1
+3. Prep for Class 2
+4. Class 2
+5. Class 3
+6. Finish Pset4
 
-##### Pset5
-###### Lesson1
-###### Lesson2
-###### Lesson3
+##### Module 5
+1. Prep for Class 1
+2. Class 1
+3. Prep for Class 2
+4. Class 2
+5. Class 3
+6. Finish Pset5
 
 ### Web-Development
 
-##### Pset6
-###### Lesson1
-###### Lesson2
-###### Lesson3
+##### Module 6
+1. Prep for Class 1
+2. Class 1
+3. Prep for Class 2
+4. Class 2
+5. Class 3
+6. Finish Pset6
 
-##### Pset7
-###### Lesson1
-###### Lesson2
-###### Lesson3
+##### Module 7
+1. Prep for Class 1
+2. Class 1
+3. Prep for Class 2
+4. Class 2
+5. Class 3
+6. Finish Pset7
 
-##### Pset8
-###### Lesson1
-###### Lesson2
-###### Lesson3
+##### Module 8
+1. Prep for Class 1
+2. Class 1
+3. Prep for Class 2
+4. Class 2
+5. Class 3
+6. Finish Pset8
+
+
 
 ## Postseason
 TODO

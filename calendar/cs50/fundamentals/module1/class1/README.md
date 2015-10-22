@@ -51,3 +51,8 @@ Height: 3
 ```
 
 ***
+
+### Homework
+
+* [Class 2 Prep]()
+* Get started on [Pset1]()
