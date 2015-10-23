@@ -3,9 +3,6 @@
 
 **Due date**: Please finish before coming to [Class 1]()
 
-### Do the following things:
-
-
 | Task | Instructions | Link |
 |------|------|--------------|
 | Watch Lecture | Watch the lecture video for a high-level introduction to this week's concepts. We recommend you crank the speed up to 1.5x or 2.x. The material will be covered in finer detail later. | [Week 1]() |
