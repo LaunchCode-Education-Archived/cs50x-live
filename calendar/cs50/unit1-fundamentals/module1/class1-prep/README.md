@@ -1,7 +1,7 @@
 #### Module 1
 # Prep for Class 1
 
-**Due date**: Please finish before coming to [Class 1]()
+Before coming to [Class 1](), please complete the following tasks:
 
 | Task | Instructions | Link |
 |------|------|--------------|
