@@ -5,23 +5,17 @@
 
 ### Do the following things:
 
-##### Watch Lecture: [Week 1]()
 
-##### Lecture Bite: [w1/Introduction](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#introduction)
-
-##### Lecture Bite: [w1/C](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c)
-
-##### Lecture Bite: [w1/cs50 IDE](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#cs50_ide)
-
-##### Set up your IDE
-The Pset1 assignment contains instructions on how get started using the IDE, where you'll write all your code. Follow the instructions [here] (http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started).
-
-##### Hello World!
-While you're at it, go ahead and continue onto the [next section]() of Pset1, which will walk you through writing a *Hello, World* program. Stop when you get to the section titled *Shorts*.
-
-##### Follow-Along: [Hello-0]()
-
-##### Exercise: Haiku
+| Task | Instructions | Link |
+|------|------|--------------|
+| Watch Lecture | Watch the lecture video for a high-level introduction to this week's concepts. We recommend you crank the speed up to 1.5x or 2.x. The material will be covered in finer detail later. | [Week 1]() |
+| Lecture Bite | Read over the notes associated with a section of the lecture video. Optionally, rewatch that section. | [w1/Introduction](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#introduction)
+| Lecture Bite || [w1/C](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c)
+| Lecture Bite || [w1/cs50 IDE](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#cs50_ide)
+| Set up your IDE | The Pset1 assignment contains instructions on how get started using the IDE, where you'll write all your code. | [pset1/ide](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started).
+| Hello World! | While you're at it, go ahead and continue onto the next section of Pset1, which will walk you through writing a *Hello, World* program. Stop when you get to the section titled *Shorts*. | [pset1/helloworld]()
+| Follow-Along | Watch a video in which David Malan or another instructor writes some code. As you watch, follow along by creating your own copy of the same program. Afterwards, poke around and tinker with your program: Change something, re-run, break it, fix it. | [Hello-0]()
+| Exercise || [Haiku](./exercises/haiku)|
 Write a program that prints a 3-line Haiku to the console, like this:
 
 ```
