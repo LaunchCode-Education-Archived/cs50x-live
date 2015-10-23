@@ -12,16 +12,9 @@
 | Set up your IDE | The Pset1 assignment contains instructions on how get started using the IDE, where you'll write all your code. | [pset1/ide](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started).
 | Hello World! | While you're at it, go ahead and continue onto the next section of Pset1, which will walk you through writing a *Hello, World* program. Stop when you get to the section titled *Shorts*. | [pset1/helloworld]()
 | Follow-Along | Watch a video in which David Malan or another instructor writes some code. As you watch, follow along by creating your own copy of the same program. Afterwards, poke around and tinker with your program: Change something, re-run, break it, fix it. | [Hello-0]()
-| Exercise || [Haiku](./exercises)|
-
-
-***
-
-### Printing, User Input
-
-##### Lecture Bite: [w1/Writing Code]()
-
-##### Follow-Along: [Hello-1]()
+| Exercise | Do a simple exercise in your IDE. | [Haiku](./exercises) |
+| Lecture Bite | | [w1/Writing Code]() |
+| Follow-Along | | [Hello-1]() |
 
 ##### Follow-Along: [Hello-2]()
 
