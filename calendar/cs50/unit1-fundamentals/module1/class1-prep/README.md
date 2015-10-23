@@ -12,18 +12,8 @@
 | Set up your IDE | The Pset1 assignment contains instructions on how get started using the IDE, where you'll write all your code. | [pset1/ide](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started).
 | Hello World! | While you're at it, go ahead and continue onto the next section of Pset1, which will walk you through writing a *Hello, World* program. Stop when you get to the section titled *Shorts*. | [pset1/helloworld]()
 | Follow-Along | Watch a video in which David Malan or another instructor writes some code. As you watch, follow along by creating your own copy of the same program. Afterwards, poke around and tinker with your program: Change something, re-run, break it, fix it. | [Hello-0]()
-| Exercise || [Haiku](./exercises/haiku)|
-Write a program that prints a 3-line Haiku to the console, like this:
+| Exercise || [Haiku](./exercises)|
 
-```
-$ ./haiku
-TODO this should be
-a haiku that also provides
-a helpful hint
-```
-You can make up your own haiku or just use the one from the example.
-
-*TODO -- explain system for where they should put their code on Follow-Alongs and Exercises*
 
 ***
 
@@ -36,19 +26,6 @@ You can make up your own haiku or just use the one from the example.
 ##### Follow-Along: [Hello-2]()
 
 ##### Exercise: Book
-Write a program that prompts the user for the title of his or her favorite book, and then responds by initially agreeing enthusiastically, and then changing its mind, like so:
-
-```
-$ ./book
-What's your favorite book? Grapes of Wrath
-I love Grapes of Wrath!
-...actually, Grapes of Wrath is kind of meh.
-$ ./book
-$ What's your favorite book? Lord of the Rings
-I love Lord of the Rings!
-...actually, Lord of the Rings is kind of meh.
-```
-Place your source code in a file called **book.c**.
 
 ##### Lecture Bite: [w1-continued/C]()
 
@@ -67,14 +44,7 @@ Place your source code in a file called **book.c**.
 ##### Follow-Along: [f2c](https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4)
 
 ##### Exercise: Percentages
-Write a program that prompts the user for a non-negative numerator and a positive denominator and prints the fraction as a percent.
 
-```
-$ ./percentages
-non-negative numerator: 1
-positive denominator: 2
-50.00%
-```
 
 ##### Short Watch: [Precedence]()
 
