@@ -5,13 +5,18 @@
 By the end of this module you will have completed Problem Set 1
 
 *** 
-### [Prep for Class 1](./class1-prep)
-### [Class 1](./class1)
-### [Prep for Class 2](./class2-prep)
-### [Class 2](./class2)
-### [Class 3](./class3)
-### [Finish Pset1]()
-### [Prep for Module 2, Class 1](../module2/class1-prep)
+
+### Steps
+1. [Prep](./class1-prep) for Class 1
+2. Attend [Class 1](./class1)
+3. Start [Pset1]()
+3. [Prep](./class2-prep) for Class 2
+4. Attend [Class 2](./class2)
+5. [Prep] (./class3-prep) for Class 3
+6. Attend [Class 3](./class3)
+7. Attend [Class 4](./class4)
+8. Finish [Pset1]()
+9. [Prep](../module2/class1-prep) for Module 2, Class 1
 
 
 ***
