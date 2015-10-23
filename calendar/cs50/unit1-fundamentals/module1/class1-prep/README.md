@@ -1,10 +1,11 @@
-# Module 1 / Homework 0.5
+#### Module 1
+# Prep for Class 1
 
-**Due date**: Please finish before coming to class for [Lesson 1]()
+**Due date**: Please finish before coming to [Class 1]()
 
-##### Lecture: [Week 1]()
+## Do the following things in order:
 
-### Intro
+##### Watch Lecture: [Week 1]()
 
 ##### Lecture Bite: [w1/Introduction](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#introduction)
 
