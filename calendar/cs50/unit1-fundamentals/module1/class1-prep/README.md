@@ -3,7 +3,7 @@
 
 **Due date**: Please finish before coming to [Class 1]()
 
-## Do the following things in order:
+### Do the following things:
 
 ##### Watch Lecture: [Week 1]()
 
