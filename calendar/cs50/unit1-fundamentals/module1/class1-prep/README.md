@@ -5,7 +5,7 @@ Before coming to [Class 1](), please complete the following tasks:
 
 | Task | Link | Instructions |
 |------|------|--------------|
-Watch Lecture | [Week 1]() | Watch the lecture video for a high-level introduction to this week's concepts. We recommend you crank the speed up to 1.5x or 2.x. The material will be covered in finer detail later. 
+Watch Lecture | [Week 1 Lecture]() | Watch the lecture video, which will give you a high-level introduction to this week's concepts. We recommend you crank the speed up to 1.5x or 2.x. The material will be covered in finer detail later. 
 Lecture Bite | [w1/Introduction](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#introduction) | Read over the notes associated with a section of the lecture video. Optionally, rewatch that section. 
 Lecture Bite | [w1/C](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c) |
 Lecture Bite | [w1/cs50 IDE](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#cs50_ide)
