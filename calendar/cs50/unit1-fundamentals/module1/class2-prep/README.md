@@ -9,6 +9,8 @@
 
 ### Conditions, Booleans
 
+##### Doug's Playlist: [Conditional Statements](https://www.youtube.com/watch?v=kTnp_-nyocs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=4)
+
 ##### Lecture Bites: [Conditions](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#conditions)
 
 ##### Follow-Along: [conditions-0]()
@@ -36,6 +38,7 @@
 ##### Follow-Along: [Positive]()
 ##### Exercise: Simple for-loop
 *TODO*
+##### Doug's Playlist [Loops](https://www.youtube.com/watch?v=rBEwCpvwdPY&index=5&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA)
 ##### Exercise: Coordinates
 ##### Study: [Loops]()
 ***
