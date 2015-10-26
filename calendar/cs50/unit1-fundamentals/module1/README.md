@@ -23,8 +23,10 @@ By the end of this module you will have completed Problem Set 1
 ### Instructor Guide 
 (TODO move to separate REPO)
 
-#### Concepts to reinforce:
+#### Tricky Concepts:
 * assignment vs equality
+* nesting control flow
+  * specifically, for Mario one needs to write a for-loop within a for-loop
 
 ***
 
