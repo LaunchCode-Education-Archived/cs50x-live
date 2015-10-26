@@ -75,7 +75,7 @@ questions and answers, and our data-types should reflect what we are trying to r
 it doesn't make sense to speak of 46.3 correct answers, or 50.76 total questions. 
 So `num_correct` and `total` should be `int`s. But then how can we divide them?
 
-##### Typecasting to the rescue
+#### Typecasting to the rescue
 
 Typecasting allows us to convert between data-types:
 ```
