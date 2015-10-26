@@ -100,7 +100,7 @@ You can choose to cast just one of the variables, and leave the other alone.
 score = num_correct / (float) total;
 ```
 Still gives us `0.92`. When the compiler encounters a type mismatch, like dividing an `int` by a `float`,
-it will silently cast the `int` into a float for us under the hood, so we end up casting both.
+it will silently cast the `int` into a float under the hood for us, so we end up casting both anyway.
 
 Finally, note that the following will NOT work:
 ```
@@ -109,12 +109,18 @@ score = (float) (num_correct / total);
 In the above case, the computation happens first: `46 / 50` evaluates to `0`, which is then casted into a 
 float, `0.0`, which is then assigned to our variable.
 
-In fact the above is equivalent to our first attempt when we provided no casting at all:
+In fact, the above is equivalent to our first attempt, when we provided no casting at all:
 ```
 score = num_correct / total;
 ```
-Even without explicit casting here, the compiler notices that `score` is a float and silently casts `0` into `0.0` 
-before assigning it to `score`.
+Even without explicit casting here, the compiler notices that `score` is a float, so it silently casts `0` into `0.0` before assigning it to the variable.
+
+#### Morals of this story:
+* Try to choose the best data-type to model each piece of your code.
+* Sometimes you need to switch between data types
+  * For example, integer division truncates everything after the decmial point and you might not want that to happen
+* You can cast an expression from one data-type to another
+  * The syntax looks like `(newType) expression` where `newType` is something like `float` and `expression` is something like `num_correct` or `46` or `(1 + 2 + 3)`
 
 
 
