@@ -39,6 +39,7 @@
 ##### Exercise: Simple for-loop
 *TODO*
 ##### Doug's Playlist [Loops](https://www.youtube.com/watch?v=rBEwCpvwdPY&index=5&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA)
+#### Watch a Section [w1/section/loops](https://youtu.be/kpSLlIj97Ss?t=1419)
 ##### Exercise: Coordinates
 ##### Study: [Loops]()
 ***
