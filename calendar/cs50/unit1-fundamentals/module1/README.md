@@ -20,6 +20,12 @@ By the end of this module you will have completed Problem Set 1
 
 
 ***
+### Instructor Guide (TODO move to separate REPO)
+
+#### Concepts to reinforce:
+* assignment vs equality
+
+***
 
 #### *Glossary*
 
