@@ -79,7 +79,7 @@ So `num_correct` and `total` should be `int`s. But then how can we divide them?
 
 Typecasting allows us to convert between data-types:
 ```
-float f = (float) num_correct; // n is 46.0
+float f = (float) num_correct; // f is 46.0
 int i = (int) 8.84; // i is 8
 ```
 When casting, the compiler will do its best to choose the "equivalent" value for the new data-type. Notice
@@ -120,7 +120,7 @@ Even without explicit casting here, the compiler notices that `score` is a float
 * Sometimes you need to switch between data types
   * For example, integer division truncates everything after the decmial point and you might not want that to happen
 * You can cast an expression from one data-type to another
-  * The syntax looks like `(newType) expression` where `newType` is something like `float` and `expression` is something like `num_correct` or `46` or `(1 + 2 + 3)`
+  * The syntax for casting an expression into a different data type involves prefixing the expression with the name of the new type in parentheses, like so: `(newType) expression` where `newType` is something like `float` and `expression` is something like `num_correct` or `46` or `(1 + 2 + 3)`
 
 
 
