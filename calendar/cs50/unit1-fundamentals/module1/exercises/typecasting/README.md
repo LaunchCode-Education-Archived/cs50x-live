@@ -89,9 +89,11 @@ Now we can cast our `46` into a `46.0` and our `50` into `50.0`:
 ```
 score = (float) num_correct / (float) total;
 ```
-and `score` will actually have a value of `0.92`. Hooray!
+and `score` will have a value of `0.92`.
 
-A couple of things to note:
+Hooray!
+
+A couple of additional things to note:
 
 You can choose to cast just one of the variables, and leave the other alone.
 ```
