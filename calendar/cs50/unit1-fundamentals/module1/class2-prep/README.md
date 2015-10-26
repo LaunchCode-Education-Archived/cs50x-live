@@ -50,3 +50,4 @@
 ##### Short Watch: [Libraries](https://youtu.be/ED7QtgXDShY?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC) 
 ##### Short Watch: [Compilers]() 
 ##### Short Watch: [Clang and Make](https://youtu.be/U3zCxnj2w8M?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC)
+#### Watch a Section [w1/section/compilation process](https://youtu.be/XRvvitgap5Y?t=2549)
