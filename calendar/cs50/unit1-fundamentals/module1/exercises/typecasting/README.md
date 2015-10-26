@@ -1,0 +1,120 @@
+# Typecasting
+
+Say we are grading a multiple-choice quiz, and the student got `46` correct answers out of `50` total questions.
+
+Here's how we might we represent that knowledge in code:
+
+```
+int num_correct = 46;
+int total = 50;
+```
+
+Now let's say we want to calculate the student's score as a percentage value. How might we do that?
+
+Well in math terms, all we have to do is divide the number of correct answers by the total number questions, 
+like so: 
+
+`46 / 50` 
+
+which gives us `0.92`. 
+
+(For simplicity, let's just be happy with a value between 0 and 1,
+rather than an actual percentage out of 100 like `92%`.)
+
+So how do we write some code that calculates the score for us?
+
+First let's just declare a variable to hold the score:
+
+```
+int score;
+```
+
+Oops, this won't work. If we want `score` to be able to hold floating-point values like `0.92`,
+then `int` is not the right data-type for the job. Let's use a `float` instead:
+
+```
+float score;
+```
+
+Now that we have declared our variable, let's assign it a value:
+
+```
+score = num_correct / total;
+```
+
+Unfortunately, this will produce a value we might not be expecting: instead of `0.92`, we get `0.0`.
+
+Why? Because integer division is weird. Recall that `num_correct` and `total` are both `int`s.
+When dividing two `int`s, the computer produces a new `int` by throwing away (or *truncating*)
+everything after the decimal point:
+
+`3 / 4` -> `0.75` -> `0`
+
+`150 / 100` -> `1.5` -> `1`
+
+`46 / 50` -> 0.92 -> `0`
+
+So the fact that our `score` variable is of type `float` is nice, but that alone is not enough
+to produce the result we want. The problem is that the computer executes this line
+```
+score = num_correct / total;
+```
+ by **first** calculating the result of the expression on the right-hand side of the `=` sign:
+ 
+`num_correct / total` -> `46 / 50` -> `0` 
+
+and **then** assigns the resulting `0` into our variable.
+
+So additionally we need to somehow change our code so that we calculate the answer by dividing `float`s,
+like `46.0 / 50.0`, rather than dividing `int`s.
+
+But what can we do? Our variables `num_correct` and `total` are both `int`s already. 
+We could go back and change them to be `float`s, but in this case that doesn't feel right. 
+We're trying to represent a multiple-choice quiz here, with discrete, whole numbers of 
+questions and answers, and our data-types should reflect what we are trying to represent;
+it doesn't make sense to speak of 46.3 correct answers, or 50.76 total questions. 
+So `num_correct` and `total` should be `int`s. But then how can we divide them?
+
+##### Typecasting to the rescue
+
+Typecasting allows us to convert between data-types:
+```
+float f = (float) num_correct; // n is 46.0
+int i = (int) 8.84; // i is 8
+```
+When casting, the compiler will do its best to choose the "equivalent" value for the new data-type. Notice
+how the `8.84` got truncated.
+
+Now we can cast our `46` into a `46.0` and our `50` into `50.0`:
+```
+score = (float) num_correct / (float) total;
+```
+and `score` will actually have a value of `0.92`. Hooray!
+
+A couple of things to note:
+
+You can choose to cast just one of the variables, and leave the other alone.
+```
+score = num_correct / (float) total;
+```
+Still gives us `0.92`. When the compiler encounters a type mismatch, like dividing an `int` by a `float`,
+it will silently cast the `int` into a float for us under the hood, so we end up casting both.
+
+Finally, note that the following will NOT work:
+```
+score = (float) (num_correct / total);
+```
+In the above case, the computation happens first: `46 / 50` evaluates to `0`, which is then casted into a 
+float, `0.0`, which is then assigned to our variable.
+
+In fact the above is equivalent to our first attempt when we provided no casting at all:
+```
+score = num_correct / total;
+```
+Even without explicit casting here, the compiler notices that `score` is a float and silently casts `0` into `0.0` 
+before assigning it to `score`.
+
+
+
+
+
