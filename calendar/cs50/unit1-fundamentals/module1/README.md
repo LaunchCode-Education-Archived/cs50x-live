@@ -20,7 +20,8 @@ By the end of this module you will have completed Problem Set 1
 
 
 ***
-### Instructor Guide (TODO move to separate REPO)
+### Instructor Guide 
+(TODO move to separate REPO)
 
 #### Concepts to reinforce:
 * assignment vs equality
@@ -43,4 +44,4 @@ By the end of this module you will have completed Problem Set 1
 
 ***
 
-### [Pset 1 Assignment](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html)
+### [Pset 1](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html)
