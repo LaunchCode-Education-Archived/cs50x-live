@@ -65,15 +65,18 @@ score = num_correct / total;
 
 and **then** assigns the resulting `0` into our variable.
 
-So additionally we need to somehow change our code so that we calculate the answer by dividing `float`s,
-like `46.0 / 50.0`, rather than dividing `int`s.
+We need to somehow change our code so that it calculates the answer by dividing `float`s:
+`46.0 / 50.0`, rather than dividing `int`s: `46 / 50`.
 
-But our variables `num_correct` and `total` are both `int`s already. 
-We could go back and change them to be `float`s, but that feels wrong. 
-We're trying to represent a multiple-choice quiz here, with discrete, whole numbers of 
-questions and answers, and our data-types should reflect what we are trying to represent;
-it doesn't make sense to speak of 46.3 correct answers, or 50.76 total questions. 
-So `num_correct` and `total` should be `int`s. 
+But our variables `num_correct` and `total` are both `int`s, so how can we do that? 
+Should we go back and change that code to use `float`s instead, liek this?
+```
+float num_correct = 46.0;
+float total = 50.0;
+```
+That doesn't feel right. The data-types we choose should always reflect, as accurately as possible, the
+situation we are trying to model. Here we want to represent a multiple-choice quiz, with discrete, 
+whole numbers of questions and answers. It doesn't make sense to speak of 46.3 correct answers, or 50.76 total questions. So `num_correct` and `total` should be `int`s. 
 
 Ok, so then how are we going divide them?
 
