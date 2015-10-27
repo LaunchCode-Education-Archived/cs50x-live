@@ -73,7 +73,9 @@ We could go back and change them to be `float`s, but that feels wrong.
 We're trying to represent a multiple-choice quiz here, with discrete, whole numbers of 
 questions and answers, and our data-types should reflect what we are trying to represent;
 it doesn't make sense to speak of 46.3 correct answers, or 50.76 total questions. 
-So `num_correct` and `total` should be `int`s. But then how can we divide them?
+So `num_correct` and `total` should be `int`s. 
+
+Ok, so then how are we going divide them?
 
 #### Typecasting to the rescue
 
