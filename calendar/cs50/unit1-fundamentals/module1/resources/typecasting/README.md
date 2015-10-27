@@ -68,8 +68,8 @@ and **then** assigns the resulting `0` into our variable.
 So additionally we need to somehow change our code so that we calculate the answer by dividing `float`s,
 like `46.0 / 50.0`, rather than dividing `int`s.
 
-But what can we do? Our variables `num_correct` and `total` are both `int`s already. 
-We could go back and change them to be `float`s, but in this case that doesn't feel right. 
+But our variables `num_correct` and `total` are both `int`s already. 
+We could go back and change them to be `float`s, but that feels wrong. 
 We're trying to represent a multiple-choice quiz here, with discrete, whole numbers of 
 questions and answers, and our data-types should reflect what we are trying to represent;
 it doesn't make sense to speak of 46.3 correct answers, or 50.76 total questions. 
