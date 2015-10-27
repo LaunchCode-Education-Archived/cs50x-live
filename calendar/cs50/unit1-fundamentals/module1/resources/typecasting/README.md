@@ -21,7 +21,7 @@ which gives us `0.92`.
 (For simplicity, let's just be happy with a value between 0 and 1,
 rather than an actual percentage out of 100 like `92%`.)
 
-So how do we write some code that calculates the score for us?
+How can we do this calculation in C?
 
 First let's just declare a variable to hold the score:
 
