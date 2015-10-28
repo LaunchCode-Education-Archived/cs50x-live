@@ -4,6 +4,7 @@
 
 * multi-function programs
 * multiple files working together
+  * .h files 
 * arrays
   * syntax for creating
   * syntax for inserting
