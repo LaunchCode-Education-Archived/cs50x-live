@@ -50,12 +50,13 @@ By the end of this module you will have completed [Problem Set 1](http://cdn.cs5
 * typecasting
 * nesting control flow
 * more on functions
+* debugging! using print statements (and possibly the GUI debugger)
 
 ***
 ### Instructor Guide 
 (TODO move to separate REPO)
 
-#### Tricky Concepts:
+#### Tricky Concepts / Things to Emphasize:
 * assignment vs equality
 * nesting control flow
   * specifically for validating input, and for Mario where you need a for-loop within a for-loop
@@ -63,6 +64,7 @@ By the end of this module you will have completed [Problem Set 1](http://cdn.cs5
   * integer division
   * casting
 * calling a function, making sure types line up
+* How to debug!
 
 ***
 
