@@ -1,8 +1,12 @@
-# Condensation
-*TODO better name
+# Convoluted
 
-To get comfortable with variables, let's practice switching back and forth between long, 
-complicated one-line expresssions, and expressions that are spread out over multiple lines
-using variables.
+Try to avoid writing overly complicated one-liners of convoluted code.
 
-Fill in the missing code in [condensation.c]()
+Use variables to break your code up into clean, manageable steps spread over multiple lines.
+
+Good code == **readable** code
+
+Variables also help us to avoid repeating ourselves. If you find yourself writing the same 
+expression more than once, you should think about defining a variable to hold that expression.
+
+Check out [convoluted.c]() for an example.
