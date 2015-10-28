@@ -8,15 +8,15 @@
 3. [percentages]()
 
 #### Class 2 Prep
-1. conditions (TODO)
-1. assignment vs equality 
-1. calling a function like atoi() (TODO)
-1. variables (TODO)
-1. same loop three different ways (TODO)
+* conditions (TODO)
+* assignment vs equality 
+* calling a function like atoi() (TODO)
+* variables (TODO)
+* same loop three different ways (TODO)
 
 #### Class 3 Prep
-1. validating input (TODO)
-1. typecasting (TODO)
-2. more practice nesting control flow (TOD)
+* validating input (TODO)
+* typecasting (TODO)
+* more practice nesting control flow (TOD)
 
 *TODO -- explain system for where they should put their code on Follow-Alongs and Exercises*
