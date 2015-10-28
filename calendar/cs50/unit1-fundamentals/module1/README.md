@@ -19,10 +19,11 @@ By the end of this module you will have completed Problem Set 1
 9. [Prep](../module2/class1-prep) for Module 2, Class 1
 
 ***
-### Outline
+### Outline 
+(notes to ourselves. can become cleaner and front-facing if we want)
 
 ##### Class 1
-* basic setup
+* basic set up
 * printf
 * user input
 * math
