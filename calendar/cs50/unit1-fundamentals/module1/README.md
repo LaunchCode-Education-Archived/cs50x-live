@@ -58,7 +58,7 @@ By the end of this module you will have completed Problem Set 1
 #### Tricky Concepts:
 * assignment vs equality
 * nesting control flow
-  * specifically, for Mario one needs to write a for-loop within a for-loop
+  * specifically for validating input, and for Mario where you need a for-loop within a for-loop
 * weirdness with types
   * casting
 * calling a function, making sure types line up
