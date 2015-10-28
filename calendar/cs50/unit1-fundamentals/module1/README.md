@@ -60,6 +60,7 @@ By the end of this module you will have completed Problem Set 1
 * nesting control flow
   * specifically for validating input, and for Mario where you need a for-loop within a for-loop
 * weirdness with types
+  * integer division
   * casting
 * calling a function, making sure types line up
 
