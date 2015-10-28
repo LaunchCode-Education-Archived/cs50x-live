@@ -26,6 +26,7 @@ TODO split into three class periods
 * more practice with functions
   * sentence with no predicate
 * more practice with boolean exprs
+* more practice on how to debug
 
 ### Tricky Concepts / Things to Emphasize
 * when iterating over an array, keep a clear distinction in your mind between the variable representing 
