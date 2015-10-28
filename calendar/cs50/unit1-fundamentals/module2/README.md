@@ -17,16 +17,21 @@ TODO split into three class periods
 * chars
   * ascii 
   * typecasting ints to chars
-    resource: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting)
+    resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting), [walkthroughs/ascii-0](), [walkthroughs/ascii-1]()
 * arrays
   * resource: [walkthroughs/ages](https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU) 
+* the concept of memory
 * strings
-  * resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings)
-    * the stupid thing with strlen() inside a for-loop. TODO provide a resource to explain its not a big deal and equivalent to declaring the length in the previous line. maybe use as excuse to revisit for-loop syntax
+  * resources: 
+    * [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings)
+      * the stupid thing with strlen() inside a for-loop. TODO provide a resource to explain its not a big deal and equivalent to declaring the length in the previous line. maybe use as excuse to revisit for-loop syntax
+    * [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#more_on_strings), [walkthrough/string-0](), [walkthrough/string-1](), [walkthrough/string-2]()
   * indexing into them
   * iterating over them
   * the fact that they are arrays of chars (try to ignore the pointer aspect)
 * command-line args
+  * resources:
+    * [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#command_line_arguments), [walkthrough/argv-0](), [walkthrough/argv-1](), [walkthrough/argv-2]()
 * modulo operator
 * more practice with functions
   * decomp 
