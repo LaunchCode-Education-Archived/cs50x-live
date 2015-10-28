@@ -17,7 +17,7 @@ TODO split into three class periods
 * chars
   * ascii 
   * typecasting ints to chars
-    resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting), [walkthroughs/ascii-0](), [walkthroughs/ascii-1]()
+  * resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting), [walkthroughs/ascii-0](), [walkthroughs/ascii-1]()
 * arrays
   * resource: [walkthroughs/ages](https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU) 
 * the concept of memory
@@ -30,16 +30,14 @@ TODO split into three class periods
   * iterating over them
   * the fact that they are arrays of chars (try to ignore the pointer aspect)
 * command-line args
-  * resources:
-    * [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#command_line_arguments), [walkthrough/argv-0](), [walkthrough/argv-1](), [walkthrough/argv-2]()
+  * resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#command_line_arguments), [walkthrough/argv-0](), [walkthrough/argv-1](), [walkthrough/argv-2]()
 * modulo operator
 * more practice with functions
   * decomp 
     * resources: 
       * [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html)
         * also explains scope
-      * [walkthroughs/functions0]()
-      * [walkthroughs/functions1]()
+      * [walkthroughs/functions0](), [walkthroughs/functions1]()
     * exercise: TODO
   * dont use funcs like a sentence with no predicate
     * resource: TODO
