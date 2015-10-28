@@ -8,10 +8,11 @@
 3. [percentages]()
 
 #### Class 2 Prep
+1. conditions (TODO)
+1. assignment vs equality 
 1. calling a function like atoi() (TODO)
 1. variables (TODO)
 1. same loop three different ways (TODO)
-2. conditions (TODO)
 
 #### Class 3 Prep
 1. validating input (TODO)
