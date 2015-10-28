@@ -9,4 +9,4 @@ Good code == **readable** code
 Variables also help us to avoid repeating ourselves. If you find yourself writing the same 
 expression more than once, you should think about defining a variable to hold that expression.
 
-Check out [convoluted.c]() for an example.
+Check out [convoluted.c](./convoluted.c) for an example.
