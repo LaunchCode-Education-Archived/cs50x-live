@@ -2,7 +2,7 @@
 
 **Prereqs**: watch Week 0 Lectures, do Pset0
 
-By the end of this module you will have completed Problem Set 1
+By the end of this module you will have completed [Problem Set 1](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html)
 
 *** 
 
@@ -67,6 +67,7 @@ By the end of this module you will have completed Problem Set 1
 ***
 
 #### *Glossary*
+*TODO move this to "Module 0"*
 
 * **Lecture** : Just watch the video for a lecture. These lectures are very high-level and introductory, without going into a lot of detail. Probably best to grab a snack and crank up the speed to 1.5x *
 
@@ -80,6 +81,3 @@ By the end of this module you will have completed Problem Set 1
 
 ***
 
-***
-
-### [Pset 1](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html)
