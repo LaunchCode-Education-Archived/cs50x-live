@@ -24,6 +24,7 @@ TODO split into three class periods
 * command-line args
 * modulo operator
 * more practice with functions
+  * sentence with no predicate
 * more practice with boolean exprs
 
 ### Tricky Concepts / Things to Emphasize
