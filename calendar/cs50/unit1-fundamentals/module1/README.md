@@ -18,6 +18,37 @@ By the end of this module you will have completed Problem Set 1
 8. Finish [Pset1]()
 9. [Prep](../module2/class1-prep) for Module 2, Class 1
 
+***
+### Outline
+
+##### Class 1
+* basic setup
+* printf
+* user input
+* math
+  * order of ops 
+  * types
+  * integer division
+* a little bit of compilation, libraries
+  * #include <stdio> for printf <cs50.h> for GetString()
+  
+##### Class 2
+* conditions
+  * different types and syntax of each
+  * when to use which
+  * boolean exprs
+* loops
+  * different types and syntax of each
+  * when to use which
+* assignment vs equality 
+* calling a function like atoi()
+* variables
+
+##### Class 3
+* validating input
+* typecasting
+* nesting control flow
+* more on functions
 
 ***
 ### Instructor Guide 
@@ -27,6 +58,9 @@ By the end of this module you will have completed Problem Set 1
 * assignment vs equality
 * nesting control flow
   * specifically, for Mario one needs to write a for-loop within a for-loop
+* weirdness with types
+  * casting
+* calling a function, making sure types line up
 
 ***
 
