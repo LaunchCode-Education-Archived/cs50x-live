@@ -16,15 +16,29 @@ TODO split into three class periods
 
 * chars
   * ascii 
+  * typecasting ints to chars
+    resource: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting)
 * arrays
+  * resource: [walkthroughs/ages](https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU) 
 * strings
+  * resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings)
+    * the stupid thing with strlen() inside a for-loop. TODO provide a resource to explain its not a big deal and equivalent to declaring the length in the previous line. maybe use as excuse to revisit for-loop syntax
   * indexing into them
   * iterating over them
   * the fact that they are arrays of chars (try to ignore the pointer aspect)
 * command-line args
 * modulo operator
 * more practice with functions
-  * sentence with no predicate
+  * decomp 
+    * resources: 
+      * [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html)
+        * also explains scope
+      * [walkthroughs/functions0]()
+      * [walkthroughs/functions1]()
+    * exercise: TODO
+  * dont use funcs like a sentence with no predicate
+    * resource: TODO
+  * void return types, lack of input args, concept of side effects vs return values
 * more practice with boolean exprs
 * more practice on how to debug
 
@@ -41,3 +55,8 @@ the **index** at which you are reading, vs the actual **value** in the array at 
   * run frequently and use sanity checks
 * again, use variables smartly. 
   * If you can't come up with a good name, that means you dont fully understand what you're trying to do, so you should stop and figure that out first
+ 
+##### Useful functions
+* [isAlpha](https://reference.cs50.net/ctype.h/isalpha)
+* [isUpper](https://reference.cs50.net/ctype.h/isupper)
+  
