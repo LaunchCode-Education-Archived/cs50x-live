@@ -19,18 +19,18 @@ TODO split into three class periods
   * typecasting ints to chars
   * resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting), [walkthroughs/ascii-0](), [walkthroughs/ascii-1]()
 * arrays
-  * resource: [walkthroughs/ages](https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU) 
+  * resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#arrays), [walkthroughs/ages](https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU) 
 * the concept of memory
 * strings
   * resources: 
     * [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings)
       * the stupid thing with strlen() inside a for-loop. TODO provide a resource to explain its not a big deal and equivalent to declaring the length in the previous line. maybe use as excuse to revisit for-loop syntax
-    * [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#more_on_strings), [walkthrough/string-0](), [walkthrough/string-1](), [walkthrough/string-2]()
+    * [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#more_on_strings), [walkthrough/string-0](TODO), [walkthrough/string-1](), [walkthrough/string-2](TODO)
   * indexing into them
   * iterating over them
   * the fact that they are arrays of chars (try to ignore the pointer aspect)
 * command-line args
-  * resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#command_line_arguments), [walkthrough/argv-0](), [walkthrough/argv-1](), [walkthrough/argv-2]()
+  * resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#command_line_arguments), [walkthrough/argv-0](TODO), [walkthrough/argv-1](TODO), [walkthrough/argv-2](TODO)
 * modulo operator
 * more practice with functions
   * decomp 
@@ -44,8 +44,12 @@ TODO split into three class periods
   * void return types, lack of input args, concept of side effects vs return values
 * more practice with boolean exprs
 * more practice on how to debug
+* more practice including libraries and calling their functions
+  * resources: [walkthroughs/capitalize-0](TODO), [walkthroughs/capitalize-1](TODO), [walkthroughs/capitalize-2](TODO)
 
 ### Tricky Concepts / Things to Emphasize
+* c syntax for declaring an array is awful because the `[]` comes after the name of the variable rather than the name of the type, e.g. `string argv[]` rather than the more sensible `string[] argv`. This adds another little thing to impede understanding for beginners, something to be aware of and talk about explicitly.
+* a common mistake is to declare a variable at the wrong level of scope, e.g. you declare it inside of a loop, but you need to use it afterwards
 * when iterating over an array, keep a clear distinction in your mind between the variable representing 
 the **index** at which you are reading, vs the actual **value** in the array at that index
 * juggling a bunch of moving parts, especially in vigenere
