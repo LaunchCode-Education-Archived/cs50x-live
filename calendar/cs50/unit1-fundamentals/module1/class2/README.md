@@ -56,3 +56,7 @@ Height: 3
 ```
 
 ***
+
+### Homework
+* Do [class3-prep]()
+* Try to finish [Pset1/Mario]()
