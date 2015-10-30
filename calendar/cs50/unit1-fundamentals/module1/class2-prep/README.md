@@ -24,6 +24,8 @@
 
 ##### Short Watch: [Boolean Values](https://youtu.be/M058skV1iL0?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC)
 
+##### Doug's Playlist: [Operators](https://www.youtube.com/watch?v=JFieJW_kZq4&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=2)
+
 ##### Exercise: || && !
 *TODO -- an exercise combining multiple boolean expressions*
 
