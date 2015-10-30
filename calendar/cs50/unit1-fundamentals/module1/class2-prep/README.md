@@ -46,7 +46,6 @@
 ##### Study: [Loops]()
 ***
 
-##### Short Watch: [Type-Casting]()
 ##### Short Watch: [Variables]()
 
 ##### Short Watch: [Libraries](https://youtu.be/ED7QtgXDShY?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC) 
