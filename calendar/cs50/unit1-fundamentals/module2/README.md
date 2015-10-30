@@ -35,6 +35,7 @@ TODO split into three class periods
 * more practice with functions
   * decomp 
     * resources: 
+      * [lecture bite from week 1 again](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments)  
       * [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html)
         * also explains scope
       * [walkthroughs/functions0](), [walkthroughs/functions1]()
