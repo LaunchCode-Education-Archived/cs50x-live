@@ -10,6 +10,5 @@ Before coming to class please complete [class3-prep]().
 TODO Studio
 
 ### Homework
-1. Finish [Pset1]()
-2. [Prep]() for Module 2 / Class 1
+* Continue working on [Pset1](). Try to finish Mario and get some progress on Change
 
