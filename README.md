@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is the course calendar for students enrolled in LaunchCode cs50x Live.
 
-edit1
-=======
 Welcome to cs50x-live-2016.  
 
 ##Introduction to Computer Science -CS50x
