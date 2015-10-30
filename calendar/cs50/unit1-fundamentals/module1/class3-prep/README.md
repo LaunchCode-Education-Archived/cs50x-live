@@ -2,6 +2,10 @@
 
 # Prep for Class 3
 
+
+
+
+
 validating input
 
 typecasting
