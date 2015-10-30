@@ -12,7 +12,7 @@ Before coming to class please complete [class3-prep]().
 * nesting control flow
 * validating user input
 * more on functions
-* debugging! using print statements (and possibly the GUI debugger)
+* debugging using print statements (TODO: GUI debugger?)
 
 ##### Studio
 
