@@ -2,13 +2,6 @@
 
 # Prep for Class 3
 
-typecasting
-nesting control flow
-validating input
-more on functions
-debugging! using print statements (and possibly the GUI debugger)
-
-
 | Time Estimate  | Task | Resource| Instructions |
 |----------------|------|---------|--------------|
 || Read | [Typecasting](../resources/typecasting)
