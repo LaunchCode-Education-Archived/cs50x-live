@@ -11,5 +11,5 @@ TODO Studio
 
 ### Homework
 1. Finish [Pset1]()
-2. Prep for [Module2/Class1]() 
+2. [Prep]() for Module 2 / Class 1
 
