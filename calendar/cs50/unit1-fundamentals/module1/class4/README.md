@@ -4,7 +4,7 @@
 
 ### During Class
 
-Office Hours. Continue working on [Pset1](). If you get stuck, flag down a TA!
+Office Hours: continue working on [Pset1](). 
 
 ### Homework
 1. Finish [Pset1]()
