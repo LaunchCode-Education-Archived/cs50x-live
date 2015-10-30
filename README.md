@@ -19,6 +19,3 @@ Our goal at LaunchCode is to prepare you to find a job applying Computer Science
 
 Click [id]: <"https://github.com/Launch-Code/cs50x-live-2016/blob/master/Getstarted> to navigate to the Get Started page
 
-
-
->>>>>>> 64f441eb6d5710ca242e749bea33b1840ca24bcd
