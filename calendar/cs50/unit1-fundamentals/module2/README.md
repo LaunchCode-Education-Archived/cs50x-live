@@ -44,7 +44,7 @@ TODO split into three class periods
       * [walkthroughs/functions0](), [walkthroughs/functions1]()
     * exercise: TODO
   * dont use funcs like a sentence with no predicate
-    * resource: TODO
+    * resources: [shorts/Return Values](https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF), [resources/custom-something](TODO)
   * void return types, lack of input args, concept of side effects vs return values
 * more practice with boolean exprs
 * more practice on how to debug
