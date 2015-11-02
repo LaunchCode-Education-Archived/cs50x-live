@@ -14,6 +14,8 @@
 
 TODO split into three class periods
 
+### Topics 
+
 * chars
   * ascii 
   * typecasting ints to chars
