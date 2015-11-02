@@ -17,10 +17,11 @@ TODO split into three class periods
 * chars
   * ascii 
   * typecasting ints to chars
-  * resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting), [walkthroughs/ascii-0](), [walkthroughs/ascii-1]()
+  * resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting), [walkthroughs/ascii-0](TODO), [walkthroughs/ascii-1](TODO)
 * arrays
   * resources: [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#arrays), [walkthroughs/ages](https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU) 
 * the concept of memory
+  * resources: [walkthroughs/sizeof](TODO)
 * strings
   * resources: 
     * [lecture bite](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings)
