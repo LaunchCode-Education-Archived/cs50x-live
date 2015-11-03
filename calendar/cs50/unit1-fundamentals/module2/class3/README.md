@@ -4,7 +4,7 @@
 
 ### During Class Today
 
-**Office Hours**: Continue working on [Pset2](TODO). 
+**Office Hours**: Continue working on [Pset2](TODO). Instructors will be circulating to provide help.
 
 ### Homework
 1. Finish [Pset2](TODO)
