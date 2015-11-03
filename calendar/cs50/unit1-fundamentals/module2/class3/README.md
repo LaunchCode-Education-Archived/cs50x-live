@@ -1,11 +1,11 @@
-##### Module 1
+##### Module 2
 
-# Class 4
+# Class 2
 
-### During Class
+### During Class Today
 
-Office Hours: continue working on [Pset1](). 
+**Office Hours**: Continue working on [Pset2](TODO). 
 
 ### Homework
-1. Finish [Pset1]()
-2. [Prep]() for Module 2 / Class 1
+1. Finish [Pset2](TODO)
+2. [Prep](../module2/class1-prep) for Module 2 / Class 1
