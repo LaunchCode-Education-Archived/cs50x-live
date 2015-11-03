@@ -12,7 +12,8 @@ TODO | Follow-Along | [walkthroughs/functions-0](https://www.youtube.com/watch?v
 TODO | Resource | [Resource: Step Through](../resources.stepthrough) | TODO res: give a detailed picture of the ORDER in which code gets executed when you call a subroutine. Ideally use the debugger. Otherwise use print statements and maybe draw a picture / video
 20 mins | Watch | [Doug's Playlist / Functions](https://www.youtube.com/watch?v=jtuMIHebSu8&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=2)
 5 mins | Watch Video | [shorts/Scope](https://www.youtube.com/watch?v=UC5QAokAupo&index=8&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF)
-TODO | Watch Video | [shorts/Return Values](https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF), [resources/custom-something](TODO)
+TODO | Watch Video | [shorts/Return Values](https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF) | TODO: Potentially scrap this. Somewhat confusingly presented.  
+TODO | Read | [Resource: Return Values](../resources/returnvalues) | TODO res: give picture of return values as evaluating a statement.
 TODO | Read | [Lecture Notes: Week 2 / Functions](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#functions)
 10 mins | Watch Video | [Doug's Playlist / Variables and Scope](https://www.youtube.com/watch?v=pBqyy8NwzqY&index=3&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE)
 TODO | Read | [Resource: Scope](../resources/scope) | TODO res: buggy program with loop, need to pull out the variable to higher scope
