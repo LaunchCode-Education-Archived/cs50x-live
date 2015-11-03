@@ -2,8 +2,8 @@
 This module contains a series of practical references to help you navigate to success complete the program. Here you will find key terminology, helpful links,
 resources and FAQ’s as you begin to access the program.
 
-Legend
- ~Lecture Bite     ~Lecture Notes ~Assignments  ~Projects  ~homework  ~Labs
+**Legend**
+ ~**Lecture Bite** ~**Lecture Notes** ~**Assignments**  ~**Projects**  ~**homework**  ~**Labs**
 
 #Terminology
 *	**Lecture:** Just watch the video for a lecture. These lectures are very high-level and introductory, without going into a lot of detail. Probably best to grab a snack and crank up the speed to 1.5x *
@@ -16,8 +16,8 @@ Legend
 *	**Studio:**Time in the classroom to answer questions about the homework, practice exercises, receive coaching and feedback, and work towards completing your problem set.
 *	**Short watch:** online videos
 *	**PSET:** problem set specifications
+*	**Resources:** https://cs50.harvard.edu/#resources
 
-#Resources: https://cs50.harvard.edu/#resources
 #FAQ’s
 1.	**What is Self-Study mode?**
 Self-Study mode makes all the videos and assignments available to be done at your own pace, but without a certificate of completion at the end.
