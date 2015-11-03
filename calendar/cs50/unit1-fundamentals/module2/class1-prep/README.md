@@ -5,7 +5,7 @@
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 30-45 mins | Watch Video | [Lecture: Week 2](TODO) | 
-TODO | Read | [Resource: Calling Functions](../resources/atoi) | TODO res: review of how to call a library function. 
+TODO | Read | [Resource: Calling Functions](../resources/atoi) | TODO res: review of how to call a library function. Understanding return value vs side effect.
 TODO | Do Exercise | [Exercise: atoi](../exercises/atoi) | TODO exc: make them use atoi function
 TODO | Follow-Along | [walkthroughs/functions-0](https://www.youtube.com/watch?v=9zoRoz8Pq4E&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=13), [walkthroughs/functions-1](TODO)
 20 mins | Watch | [Doug's Playlist / Functions](https://www.youtube.com/watch?v=jtuMIHebSu8&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=2)
