@@ -1,4 +1,4 @@
-# Class 2
+# Class 1
 
 ### During Class Today
 1. Lecture / Q&A on the following topics
