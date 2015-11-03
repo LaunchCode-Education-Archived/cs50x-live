@@ -1,6 +1,6 @@
 ##### Module 2
 
-# Class 2
+# Class 3
 
 ### During Class Today
 
