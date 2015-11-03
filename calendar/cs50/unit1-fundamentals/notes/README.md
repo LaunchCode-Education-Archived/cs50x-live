@@ -1,9 +1,10 @@
 ##### Unit1: Fundamentals
 # Notes to Self
 
-##### Random crap that needs to be mentioned somewhere:
+##### Concepts that need to be mentioned somewhere:
 * `++` operator (and `--`)
 * `+=` operator (and `-=`, `*=`, etc)
+* the fact that `return` terminates the execution of a function, so you can return early
 
 ##### Out of order resources
 week1 walkthrough sizeof
