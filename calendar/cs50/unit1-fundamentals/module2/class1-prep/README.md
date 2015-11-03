@@ -9,6 +9,7 @@ TODO | Read | [Resource: Calling Functions](../resources/callingfunctions) | TOD
 TODO | Do Exercise | [Exercise: atoi](../exercises/atoi) | TODO exc: make them use atoi function
 TODO | Read | [Resource: Creating Functions](../resources/creatingfunctions) | TODO res: explain that in addition to using other people's functions like `printf` and `atoi`, we can also write our own. 
 TODO | Follow-Along | [walkthroughs/functions-0](https://www.youtube.com/watch?v=9zoRoz8Pq4E&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=13), [walkthroughs/functions-1](TODO)
+TODO | Resource | [Resource: Step Through](../resources.stepthrough) | TODO res: give a detailed picture of the ORDER in which code gets executed when you call a subroutine. Ideally use the debugger. Otherwise use print statements and maybe draw a picture / video
 20 mins | Watch | [Doug's Playlist / Functions](https://www.youtube.com/watch?v=jtuMIHebSu8&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=2)
 5 mins | Watch Video | [shorts/Scope](https://www.youtube.com/watch?v=UC5QAokAupo&index=8&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF)
 TODO | Watch Video [shorts/Return Values](https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF), [resources/custom-something](TODO)
