@@ -25,6 +25,8 @@ TODO | Follow-Along | [walkthroughs/capitalize-0](https://www.youtube.com/watch?
 
 
 # Prep for Class 2
+Time Estimate | Task | Link | Instructions
+--------------|------|------|-------------
 30-45 mins | Watch Video | [lectures/w2-continued](TODO)
 TODO | Read | [Lecture Notes: Week 2, Continued, More on Strings](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#more_on_strings)
 TODO | Follow-Along | [walkthroughs/sizeof](https://youtu.be/6o-w4CIWP84?list=PLhQjrBD2T380JCGC3qD3nGpqt8iIjx2fV) | TODO look this over, make sure it fits here
