@@ -25,26 +25,18 @@ Time Estimate | Task | Link | Instructions
 
 ### Math, Numeric Types
 
-##### Follow-Along: [adder](https://www.youtube.com/watch?v=xmZR2XiwOq4&index=1&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ)
-
-##### Lecture Bite: [Imprecision](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#imprecision)
-
-##### Lecture Bite: [Types](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#types)
-
-##### Watch a Section [w1/section/types](https://youtu.be/kpSLlIj97Ss?t=801)
-
-##### Follow-Along: [f2c](https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4)
-
-##### Exercise:
-
-##### Exercise: Percentages
-
-
-##### Short Watch: [Precedence]() but stop watching at 3:15
-
-##### Exercise: PEMDAS
-*TODO exercise requiring some PEMDAS*
-
-##### Study: [Math]()
+Time Estimate | Task | Link | Instructions
+--------------|------|------|-------------
+3.5 | Follow-Along | adder- | Watch the lecture video, which will give you a high-level introduction to et integer from a user. 
+60 mins | Lecture Bite | [w1/Introduction](http://http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#imprecision) | Read over the notes associated with a portion of the lecture video.  
+5-10 mins | Lecture Bite | [w1/C](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c) |Provide functions like GetString(), GetInt(), GetFloat(), GetLongLong()
+49 mins | Lecture Bite | [w1/cs50 IDE](http://http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#types)
+37 mins | Watch a selection | [pset1/ide](http://https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=youtu.be&t=801). | The Pset1 learn data types and variables.
+4 mins | follow-Along | f2c|(http://(https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4 | Getfloat convert to fahrenheit and celsius formula. 
+10-15 mins | Exercise |  | Need of more information. 
+10-20 mins | Exercise: Percentages  | more information | Poke around and tinker with your program: Change something, re-run, break it, fix 
+10-15 mins | Short Watch Precedence|  | Stop watching at 3:15 
+10-15 mins | Exercise:PEMDAS |  | Need of more information
+10-15 mins | Study Math |  | Need of more information. 
 
 
