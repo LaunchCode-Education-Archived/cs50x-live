@@ -22,7 +22,7 @@ TODO | Follow-Along | [walkthroughs/ages](https://www.youtube.com/watch?v=dYVU9n
 TODO | Exercise | [Exercise: Array Read](../exercises/array-read) | TODO exc: something that involves reading from an array using bracket notation
 TODO | Read | [Lecture Notes: Week 2, continued / Arrays](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#arrays)
 10 mins | Watch Video | [shorts/Arrays](https://www.youtube.com/watch?v=7mOJN1c1JEo&index=1&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF) | When he talks about "pointer arrays" and `malloc`, you won't understand. That's ok.
-15 mins | Watch Video | [Doug's Playlist / Arrays](https://www.youtube.com/watch?v=pBqyy8NwzqY&index=3&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE) 
+15 mins | Watch Video | [Doug's Playlist / Arrays](https://www.youtube.com/watch?v=pBqyy8NwzqY&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=3) 
 
 #### Command-Line Arguments
 Time Estimate | Task | Link | Instructions
