@@ -61,6 +61,7 @@ the **index** at which you are reading, vs the actual **value** in the array at 
 * command line arguments require good understanding of arrays. Your program receives the args as array of strings, aka an array of arrays. That's a lot to grok in a dense space
 * need to use library functions like isUpper() and isAlpha(). continue getting comfortable understanding how this process works.
   * people often neglect to actually use the result of a function call into their code, (eg by assigning it into a variable and then using the variable, or by embedding the fuction invocation into a larger expression). They just have a single line like `isAlpha(myChar);` which indicates they still dont quite get what's going on. Takes time and practice. So give them those reps.
+* The concept of `NULL` is introduced this module, but is never given much explicit attention and explanation. Elaborate on `NULL` a bit.
 * good workflow habits
   * write comments first, understand what you want to do before you implement.
   * run frequently and use sanity checks
