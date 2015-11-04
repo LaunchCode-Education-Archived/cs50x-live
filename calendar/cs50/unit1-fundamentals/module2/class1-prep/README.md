@@ -5,10 +5,11 @@
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 30-45 mins | Watch Video | [Lecture: Week 2](TODO) | 
-TODO | Read | [Lecture Notes: Week 2 / Typecasting](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting)
+10 mins | Watch Video | [Short: Typecasting](https://www.youtube.com/watch?v=4XTSxFSs3kI&list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC&index=9) | (again)
 TODO | Follow-Along | [Walkthrough: floats-0](https://www.youtube.com/watch?v=Eycgpd_HUIA&index=10&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU), [Walkthrough: floats-1](TODO), [walkthroughs/floats-2](TODO)
 TODO | Exercise | [Exercise: Percent](TODO move from module 1) |  
 TODO | Read | [Resource: Chars](../resources/Chars) | TODO briefly introduce the `char` type, and explain that strings we've seen so far are just a sequences of chars.
+TODO | Read | [Lecture Notes: Week 2 / Typecasting](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting)
 TODO | Follow-Along | [walkthroughs/ascii-0](TODO), [walkthroughs/ascii-1](TODO) | Note: Talks about equivalence between chars and ints. typecasting is a prereq.
 TODO | Read | [Resource: Calling Functions](../resources/callingfunctions) | TODO res: review of how to call a library function. Understanding return value vs side effect.
 TODO | Do Exercise | [Exercise: atoi](../exercises/atoi) | TODO exc: make them use atoi function
