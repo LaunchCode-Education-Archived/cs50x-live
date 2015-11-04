@@ -50,13 +50,3 @@ TODO | Read | [Resource: More on For-Loops](../resources/forloops) | TODO res: m
 TODO | Follow-Along | [walkthroughs/capitalize-0](https://www.youtube.com/watch?v=wYvnyO2PbT0&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=9), [walkthroughs/capitalize-1](TODO), [walkthroughs/capitalize-2](TODO), 
 
 
-**Where do these fit in?**
-
-Time Estimate | Task | Link | Instructions
---------------|------|------|-------------
-10 mins | Watch Video | [shorts/Global Variables](https://www.youtube.com/watch?v=F5feTW3CAZs&index=4&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF)
-10 mins | Watch Video | [Doug's Playlist / Magic Numbers](https://www.youtube.com/watch?v=z_Nh9yt4d_s&index=6&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE)
-TODO | Do Exercise | [Exercises / Modulo](TODO) | TODO exc: write a program that receives an int and prints each of its digits one at a time
-TODO | Do Exercise | [Exercises / Juggling](TODO) | TODO exc: something that involves iterating over multiple arrays at the same time
-
-
