@@ -27,7 +27,7 @@ TODO | Read | [Resource: More on For-Loops](../resources/forloops) | TODO res: m
 TODO | Read | [Lecture Notes: Week 2 / Typecasting](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting)
 TODO | Follow-Along | [Walkthrough: floats-0](https://www.youtube.com/watch?v=Eycgpd_HUIA&index=10&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU), [Walkthrough: floats-1](TODO), [walkthroughs/floats-2](TODO)
 TODO | Exercise | [Exercise: Percent](TODO move from module 1) |  
-TODO | Follow-Along | [walkthroughs/ascii-0](TODO), [walkthroughs/ascii-1](TODO)
+TODO | Follow-Along | [walkthroughs/ascii-0](TODO), [walkthroughs/ascii-1](TODO) | Note: Talks about equivalence between chars and ints. typecasting is a prereq.
 TODO | Follow-Along | [walkthroughs/capitalize-0](https://www.youtube.com/watch?v=wYvnyO2PbT0&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=9), [walkthroughs/capitalize-1](TODO), [walkthroughs/capitalize-2](TODO), 
 
 
