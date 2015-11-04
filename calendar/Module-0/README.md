@@ -1,5 +1,7 @@
 # Module 0
 
+Please work your way through the following material:
+
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 30-45 mins | Watch Video | [Lecture: Week 1](https://youtube.com/watch?v=zFenJJtAEzE) | Watch the lecture video. We recommend you crank the speed up to 1.5x or 2x. Topics will be covered in more detail later.
