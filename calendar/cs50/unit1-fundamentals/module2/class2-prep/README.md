@@ -2,6 +2,7 @@
 
 Before coming to [Class 2](../class2), please eat your way through the following material:
 
+#### Lecture
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 30-45 mins | Watch Video | [Lecture: Week 2, continued](TODO)
