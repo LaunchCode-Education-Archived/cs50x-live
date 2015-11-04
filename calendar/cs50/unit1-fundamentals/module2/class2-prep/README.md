@@ -29,6 +29,7 @@ Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 TODO | Read | [lecture-notes/Command-Line Arguments](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#command_line_arguments)
 10 mins | Watch Video | [shorts/Command-Line Arguments](https://www.youtube.com/watch?v=X8PmYwnbLKM&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF&index=3)
+TODO | Do Exercise | [Exercises: Each C.L. Arg](../exercises/each-cl-arg) | TODO exc: a program that simply prints each of its cl args
 20-30 mins | Do Exercise | [Indexes CL](TODO) | TODO exc: modify solution to [Indexes]() so that user input comes from the commandline
 TODO | Follow-Along | [walkthrough/argv-0](TODO), [walkthrough/argv-1](TODO), [walkthrough/argv-2](TODO)
 10 mins | Watch Video | [Doug's Playlist / Command-Line Arguments](https://www.youtube.com/watch?v=eDI5Wqjq2a0&index=5&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE)
@@ -39,6 +40,7 @@ TODO | CS50 Study | [CS50 Study / Command-line Arguments](https://study.cs50.net
 
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
+TODO | some stuff on `NULL`
 10 mins | Watch Video | [shorts/Global Variables](https://www.youtube.com/watch?v=F5feTW3CAZs&index=4&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF)
 10 mins | Watch Video | [Doug's Playlist / Magic Numbers](https://www.youtube.com/watch?v=z_Nh9yt4d_s&index=6&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE)
 TODO | Do Exercise | [Exercises / Modulo](TODO) | TODO exc: write a program that receives an int and prints each of its digits one at a time
