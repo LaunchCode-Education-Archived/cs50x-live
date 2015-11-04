@@ -2,14 +2,12 @@
 
 # Prep for Class 1
 
-**Lecture**
-
+#### Lecture:
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 30-45 mins | Watch Video | [Lecture: Week 2](TODO) | 
 
-**Typecasting, chars, ascii**
-
+#### Typecasting, Chars, ascii:
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 10 mins | Watch Video | [Short: Typecasting](https://www.youtube.com/watch?v=4XTSxFSs3kI&list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC&index=9) | (again)
@@ -19,8 +17,7 @@ TODO | Read | [Resource: Chars](../resources/Chars) | TODO briefly introduce the
 TODO | Read | [Lecture Notes: Week 2 / Typecasting](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting)
 TODO | Follow-Along | [walkthroughs/ascii-0](TODO), [walkthroughs/ascii-1](TODO) | Note: Talks about equivalence between chars and ints. typecasting is a prereq.
 
-**Functions**
-
+#### Functions:
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 TODO | Read | [Resource: Calling Functions](../resources/callingfunctions) | TODO res: review of how to call a library function. Understanding return value vs side effect.
@@ -33,8 +30,7 @@ TODO | Do Exercise | [Exercise: Next Num](../exercises/nextnum) | TODO exc: have
 TODO | Watch Video | [shorts/Return Values](https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF) | TODO: Potentially scrap this. Somewhat confusingly presented-- `void` as "simplest return type", and last example uses file i/o, which will be scary and unfamiliar.
 TODO | Read | [Resource: Return Values](../resources/returnvalues) | TODO res: give picture of return values as evaluating a statement.
 
-**Scope**
-
+#### Scope:
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 TODO | Read | [Lecture Notes: Week 2 / Functions](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#functions)
@@ -43,8 +39,7 @@ TODO | Read | [Lecture Notes: Week 2 / Functions](http://cdn.cs50.net/2015/fall/
 TODO | Read | [Resource: Scope](../resources/scope) | TODO res: buggy program with loop, need to pull out the variable to higher scope
 TODO | Exercise | [Exercise: Scope](../exercises/scope) | TODO exc: something that follows from resources/scope
 
-**Strings**
-
+#### Strings:
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 TODO | Read | [Lecture Notes: Week 2 / Representing Strings](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings)
