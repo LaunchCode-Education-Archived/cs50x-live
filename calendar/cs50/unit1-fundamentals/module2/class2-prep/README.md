@@ -30,3 +30,14 @@ TODO | Read | [lecture-notes/Command-Line Arguments](http://cdn.cs50.net/2015/fa
 TODO | Follow-Along | [walkthrough/argv-0](TODO), [walkthrough/argv-1](TODO), [walkthrough/argv-2](TODO)
 10 mins | Watch Video | [Doug's Playlist / Command-Line Arguments](https://www.youtube.com/watch?v=eDI5Wqjq2a0&index=5&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE)
 TODO | CS50 Study | [CS50 Study / Command-line Arguments](https://study.cs50.net/argv)
+
+
+**Where do these fit in?**
+
+Time Estimate | Task | Link | Instructions
+--------------|------|------|-------------
+10 mins | Watch Video | [shorts/Global Variables](https://www.youtube.com/watch?v=F5feTW3CAZs&index=4&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF)
+10 mins | Watch Video | [Doug's Playlist / Magic Numbers](https://www.youtube.com/watch?v=z_Nh9yt4d_s&index=6&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE)
+TODO | Do Exercise | [Exercises / Modulo](TODO) | TODO exc: write a program that receives an int and prints each of its digits one at a time
+TODO | Do Exercise | [Exercises / Juggling](TODO) | TODO exc: something that involves iterating over multiple arrays at the same time
+
