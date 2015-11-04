@@ -22,8 +22,8 @@ TODO | Exercise | [Exercise: Scope](../exercises/scope) | TODO exc: something th
 TODO | Read | [Resource: Chars](../resources/Chars) | TODO briefly introduce the `char` type, and explain that strings we've seen so far are just a sequences of chars.
 TODO | Read | [Lecture Notes: Week 2 / Representing Strings](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings)
 TODO | Follow-Along | [walkthroughs/string-0](https://www.youtube.com/watch?v=BYbuuUntOZ4&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=15), [walkthroughs/string-1](TODO), [walkthroughs/string-2](TODO)
-20-30 mins | Do Exercise | [Exercise: Indexes](../exercises/indexes) | TODO exc: print each character in a string along with its index
 TODO | Read | [Resource: More on For-Loops](../resources/forloops) | TODO res: more explanation on that strlen() thing in the for loop
+20-30 mins | Do Exercise | [Exercise: Indexes](../exercises/indexes) | TODO exc: print each character in a string along with its index
 TODO | Read | [Lecture Notes: Week 2 / Typecasting](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting)
 TODO | Follow-Along | [Walkthrough: floats-0](https://www.youtube.com/watch?v=Eycgpd_HUIA&index=10&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU), [Walkthrough: floats-1](TODO), [walkthroughs/floats-2](TODO)
 TODO | Exercise | [Exercise: Percent](TODO move from module 1) |  
