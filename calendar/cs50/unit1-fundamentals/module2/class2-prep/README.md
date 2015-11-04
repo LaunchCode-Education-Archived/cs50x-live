@@ -35,8 +35,8 @@ TODO | Do Exercise | [Exercise: Argv With Indexes](../exercises/argv-with-indexe
 TODO | Do Exercise | [Exercise: atoi](../exercises/atoi) | TODO exc: make them use atoi function
 10 mins | Watch Video | [Doug's Playlist / Command-Line Arguments](https://www.youtube.com/watch?v=eDI5Wqjq2a0&index=5&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE)
 20-30 mins | Do Exercise | [Indexes CL](TODO) | TODO exc: modify solution to [Adder](TODO) so that user input comes from the commandline
-10 mins | Watch Video | [shorts/Command-Line Arguments](https://www.youtube.com/watch?v=X8PmYwnbLKM&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF&index=3)
 TODO | Follow-Along | [walkthrough/argv-2](TODO)
+10 mins | Watch Video | [shorts/Command-Line Arguments](https://www.youtube.com/watch?v=X8PmYwnbLKM&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF&index=3)
 TODO | CS50 Study | [CS50 Study / Command-line Arguments](https://study.cs50.net/argv)
 
 **Where do these fit in?**
