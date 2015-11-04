@@ -19,6 +19,7 @@ TODO | Read | [Lecture Notes: Week 2 / Functions](http://cdn.cs50.net/2015/fall/
 5 mins | Watch Video | [shorts/Scope](https://www.youtube.com/watch?v=UC5QAokAupo&index=8&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF) | He mentions "stack frames" and memory towards the end. don't worry about it.
 TODO | Read | [Resource: Scope](../resources/scope) | TODO res: buggy program with loop, need to pull out the variable to higher scope
 TODO | Exercise | [Exercise: Scope](../exercises/scope) | TODO exc: something that follows from resources/scope
+TODO | Read | [Resource: Chars](../resources/Chars) | TODO briefly introduce the `char` type, and explain that strings we've seen so far are just a sequences of chars.
 TODO | Read | [Lecture Notes: Week 2 / Representing Strings](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings)
 TODO | Follow-Along | [walkthroughs/string-0](https://www.youtube.com/watch?v=BYbuuUntOZ4&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=15), [walkthroughs/string-1](TODO), [walkthroughs/string-2](TODO)
 20-30 mins | Do Exercise | [Exercise: Indexes](../exercises/indexes) | TODO exc: print each character in a string along with its index
