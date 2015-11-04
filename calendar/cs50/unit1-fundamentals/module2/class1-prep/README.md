@@ -14,6 +14,7 @@ Time Estimate | Task | Link | Instructions
 TODO | Follow-Along | [Walkthrough: floats-0](https://www.youtube.com/watch?v=Eycgpd_HUIA&index=10&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU), [Walkthrough: floats-1](TODO), [walkthroughs/floats-2](TODO)
 TODO | Exercise | [Exercise: Percent](TODO move from module 1) |  
 TODO | Read | [Resource: Chars](../resources/Chars) | TODO briefly introduce the `char` type, and explain that strings we've seen so far are just a sequences of chars.
+TODO | Read | [Resource: Three Letter Word](resources/threeletterword) | TODO an exmaple program that asks for three letters, one `char` at a time, and then prints "That spells %c%c%c!"
 TODO | Read | [Lecture Notes: Week 2 / Typecasting](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting)
 TODO | Follow-Along | [walkthroughs/ascii-0](TODO), [walkthroughs/ascii-1](TODO) | Note: Talks about equivalence between chars and ints. typecasting is a prereq.
 
