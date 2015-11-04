@@ -32,11 +32,11 @@ Time Estimate | Task | Link | Instructions
 TODO | Read | [lecture-notes/Command-Line Arguments](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#command_line_arguments)
 TODO | Follow-Along | [walkthrough/argv-0](https://www.youtube.com/watch?v=1VbHJz2L6dM&index=2&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU), [walkthrough/argv-1](https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU)
 TODO | Do Exercise | [Exercise: ](../exercises/argv-with-indexes) | TODO exc: same as walkthroughs/argv-1 but include the index of each element
+TODO | Do Exercise | [Exercise: atoi](../exercises/atoi) | TODO exc: make them use atoi function
 10 mins | Watch Video | [Doug's Playlist / Command-Line Arguments](https://www.youtube.com/watch?v=eDI5Wqjq2a0&index=5&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE)
 TODO | CS50 Study | [CS50 Study / Command-line Arguments](https://study.cs50.net/argv)
-TODO | atoi | move the atoi stuff here|
 20-30 mins | Do Exercise | [Indexes CL](TODO) | TODO exc: modify solution to [Adder](TODO) so that user input comes from the commandline
-10 mins | Watch Video | [shorts/Command-Line Arguments](https://www.youtube.com/watch?v=X8PmYwnbLKM&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF&index=3)
+10 mins | Watch Video | [shorts/Command-Line](TODO) Arguments](https://www.youtube.com/watch?v=X8PmYwnbLKM&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF&index=3)
 TODO | Follow-Along | [walkthrough/argv-2](TODO)
 
 **Where do these fit in?**
