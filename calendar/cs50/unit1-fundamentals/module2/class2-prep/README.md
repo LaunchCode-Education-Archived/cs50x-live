@@ -1,6 +1,6 @@
 # Prep for Class 2
 
-Before coming to [Class 2](../class2), please eat your way through the following material:
+Before coming to [Class 2](../class2), please work your way through the following material:
 
 #### Lecture
 Time Estimate | Task | Link | Instructions
