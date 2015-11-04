@@ -6,7 +6,7 @@ Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 30-45 mins | Watch Video | [Lecture: Week 2, continued](TODO)
 TODO | Read | [Lecture Notes: Week 2, continued / More on Strings](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#more_on_strings)
-TODO | Read | [Resrouce: Custom strlen](../resources/customstrlen) | TODO res: show example of custom implementation of strlen that iterates over a string and increments a counter until encoutering the `\0` character
+TODO | Read | [Resource: Custom strlen](../resources/customstrlen) | TODO res: show example of custom implementation of strlen that iterates over a string and increments a counter until encoutering the `\0` character
 TODO | Follow-Along | [walkthroughs/sizeof](https://youtu.be/6o-w4CIWP84?list=PLhQjrBD2T380JCGC3qD3nGpqt8iIjx2fV) | TODO look this over, make sure it fits here
 TODO | Read | [Lecture Notes: Week 2, continued / Arrays](http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#arrays)
 TODO | Follow-Along | [walkthroughs/ages](https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU) 
