@@ -8,13 +8,13 @@
 
 ### Unit 1: Fundamentals
 
-#### [Module 1](./cs50/module1)
-1. [Prep for Class 1](./cs50/module1/class1-prep)
-2. [Class 1](./cs50/module1/class1)
-3. Prep for Class 2
-4. Class 2
-5. Class 3
-6. Finish Pset1
+#### [Module 1](./cs50/unit1-fundamentals/module1)
+1. [Prep for Class 1](./cs50/unit1-fundamentals/module1/class1-prep)
+2. [Class 1](./cs50/unit1-fundamentals/module1/class1)
+3. [Prep for Class 2](./cs50/unit1-fundamentals/module1/class2-prep)
+4. [Class 2](./cs50/unit1-fundamentals/module1/class2)
+5. [Class 3](./cs50/unit1-fundamentals/module1/class3)
+6. Finish [Pset1](TODO)
 
 ##### Module 2
 1. Prep for Class 1
