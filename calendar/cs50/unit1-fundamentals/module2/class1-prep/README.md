@@ -49,4 +49,7 @@ TODO | Read | [Resource: More on For-Loops](../resources/forloops) | TODO res: m
 20-30 mins | Do Exercise | [Exercise: Indexes](../exercises/indexes) | TODO exc: print each character in a string along with its index
 TODO | Follow-Along | [walkthroughs/capitalize-0](https://www.youtube.com/watch?v=wYvnyO2PbT0&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=9), [walkthroughs/capitalize-1](TODO), [walkthroughs/capitalize-2](TODO), 
 
-
+#### The Modulo Operator `%`:
+TODO is there a CS50 resource that talks explicitly about this?
+TODO | Read | [Resource: Modulo](TODO) | TODO res: introduce `%` and give some examples
+TODO | Do Exercise | [Exercise: Clock](TODO) | TODO exc: write a program that receives an int number of hours and then calculates what time it will be that many horus in the future
