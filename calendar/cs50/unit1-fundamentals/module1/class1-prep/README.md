@@ -31,7 +31,7 @@ TODO | Lecture Notes | [Week 1, continued / Introduction](http://http://cdn.cs50
 5-10 mins | Lecture Notes | [Week 1, continued / C](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c) |
 10 mins | Lecture Notes | [Week 1 / types](http://http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#types)
 5 mins | Watch Video | [Section: Week 1 / data types](http://https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=youtu.be&t=801). | 
-20 mins | Follow-Along | [Walkthrough: f2c](http://(https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4) | Getfloat convert to fahrenheit and celsius formula. 
+20 mins | Follow-Along | [Walkthrough: f2c](https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4) |  
 10-15 mins | Do Exercise |  | Need of more information. 
 10-15 mins | Watch Video: | [Precedence](TODO)|  | Stop watching at 3:15 
 10-15 mins | Do Exercise | [Exercise: PEMDAS](TODO) |  | 
