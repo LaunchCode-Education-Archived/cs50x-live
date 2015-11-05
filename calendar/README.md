@@ -1,15 +1,16 @@
 # Course Calendar
 
 ## Preseason
-TODO
+1. [How to take this class](../how-to-take-this-class)
+2. [Module 0](./preseason/module0)
 
 ## cs50
 
 ### Unit 1: Fundamentals
 
-#### Module 1
-1. Prep for Class 1
-2. Class 1
+#### [Module 1](./cs50/module1)
+1. [Prep for Class 1](./cs50/module1/class1-prep)
+2. [Class 1](./cs50/module1/class1)
 3. Prep for Class 2
 4. Class 2
 5. Class 3
