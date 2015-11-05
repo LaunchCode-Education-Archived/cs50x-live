@@ -51,6 +51,7 @@ TODO | Follow-Along | [walkthroughs/capitalize-0](https://www.youtube.com/watch?
 
 #### The Modulo Operator `%`:
 TODO is there a CS50 resource that talks explicitly about this?
+
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 TODO | Read | [Resource: Modulo](TODO) | TODO res: introduce `%` and give some examples
