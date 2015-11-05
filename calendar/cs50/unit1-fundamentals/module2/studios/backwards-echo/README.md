@@ -32,7 +32,7 @@ $ ./mixedupecho HELLO!
 .H/EmLiLxOe!dHuEpLeLcOh!oH
 ```
 
-Notice how `"HELLO!"` is shorter than `./mixedupecho`, and so the program "wraps around" and starts over again at `'H'`whenever it reaches the end of the shorter string. 
+Notice how `"HELLO!"` is shorter than `"./mixedupecho"`, and so the program "wraps around" and starts over again at `'H'`whenever it reaches the end of the shorter string. 
 
 How can you implement that? The modulo `%` operator is your friend here. 
 Spcifically, note that `"HELLO!"[5] == '!'`, and `"HELLO!"[6]` is beyond the bounds of the array, but 
