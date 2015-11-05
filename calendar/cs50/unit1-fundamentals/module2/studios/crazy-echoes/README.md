@@ -32,7 +32,13 @@ $ ./mixedupecho HELLO!
 .H/EmLiLxOe!dHuEpLeLcOh!oH
 ```
 
-Notice how `"HELLO!"` is shorter than `"./mixedupecho"`, and so the program "wraps around" and starts over again at `'H'`whenever it reaches the end of the shorter string. 
+For this program, you can ignore any command-line arguments beyond the first two (including the program name itself):
+```
+$ ./mixedupecho HELLO! morestuff lalala
+.H/EmLiLxOe!dHuEpLeLcOh!oH
+```
+
+Notice how `"HELLO!"` is shorter than `"./mixedupecho"`, and so the program "wraps around" and starts over again at `'H'`whenever it reaches the end of the string. 
 
 How can you implement that? The modulo `%` operator is your friend here. 
 
@@ -42,8 +48,19 @@ But `"HELLO!"[6 % 6]` evaluates to `"HELLO!"[0]`, which yields `'H'`.
 
 And `"HELLO!"[7 % 6]` evaluates to `"HELLO!"[1]` ...
 
-For this one, you can ignore any command-line arguments beyond the first two (including the program name itself):
+To keep things simple, you can assume that the second argument will always be shorter than the first.
+In other words, the user will never provide a string longer than `"./mixedupecho"`, which is 13 characters long.
+``
+
+### Bonus (Optional)
+
+Just kidding about that last part. 
+
+Now you may NOT assume the second argument will be the shorter one. For example, the user might type this:
 ```
-$ ./mixedupecho HELLO! morestuff lalala
-.H/EmLiLxOe!dHuEpLeLcOh!oH
+$ ./mixedupecho GREENEGGSANDSPAM
+```
+in which case the output should be:
+```
+.G/RmEiExNeEdGuGpSeAcNhDoS.P/AeM
 ```
