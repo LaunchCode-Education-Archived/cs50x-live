@@ -32,9 +32,10 @@ $ ./mixedupecho HELLO!
 .H/EmLiLxOe!dHuEpLeLcOh!oH
 ```
 
-Notice how `"HELLO!"` is shorter than `./mixedupecho`, and so the program "wraps around" and starts over again at `'H'`
-whenever it reaches the end of the shorter string. How can you implement that? The modulo `%` operator is your friend 
-here. Spcifically, note that `"HELLO!"[5] == '!'`, and `"HELLO!"[6]` is beyond the bounds of the array, but 
+Notice how `"HELLO!"` is shorter than `./mixedupecho`, and so the program "wraps around" and starts over again at `'H'`whenever it reaches the end of the shorter string. 
+
+How can you implement that? The modulo `%` operator is your friend here. 
+Spcifically, note that `"HELLO!"[5] == '!'`, and `"HELLO!"[6]` is beyond the bounds of the array, but 
 `"HELLO"[6 % 6]"` evaluates to `"HELLO"[0]"`, and `"HELLO"[7 % 6]"` evaluates to `"HELLO"[1]"` ...
 
 For this one, you can ignore any command-line arguments beyond the first two (including the program name itself):
