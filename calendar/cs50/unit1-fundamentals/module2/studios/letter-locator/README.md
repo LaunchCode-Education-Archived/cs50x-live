@@ -1,4 +1,4 @@
-# Exercise: Letter Locator
+# Studio: Letter Locator
 
 Write a program that prompts the user for an alphabetic character,
 and then prints the position of that letter in the alphabet, starting with `A` at position `0`. Your program 
