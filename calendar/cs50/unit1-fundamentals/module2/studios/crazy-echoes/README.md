@@ -12,7 +12,7 @@ For example:
 
 ```
 $ ./backwardsecho hello 64
-ohce-sdrawkcab/. olleh 46
+ohcesdrawkcab/. olleh 46
 ```
 
 Notice that the order of the arguments should remain unchanged, i.e. `"./backwards-echo"` prints first, followed by 
