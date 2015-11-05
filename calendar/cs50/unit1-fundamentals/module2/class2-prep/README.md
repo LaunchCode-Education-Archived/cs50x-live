@@ -46,6 +46,4 @@ Time Estimate | Task | Link | Instructions
 TODO | some stuff about `NULL`
 10 mins | Watch Video | [shorts/Global Variables](https://www.youtube.com/watch?v=F5feTW3CAZs&index=4&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF)
 10 mins | Watch Video | [Doug's Playlist / Magic Numbers](https://www.youtube.com/watch?v=z_Nh9yt4d_s&index=6&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE)
-TODO | Do Exercise | [Exercises / Modulo](TODO) | TODO exc: write a program that receives an int and prints each of its digits one at a time
-TODO | Do Exercise | [Exercises / Juggling](TODO) | TODO exc: something that involves iterating over multiple arrays at the same time
-
+TODO | Read | [Resource: Global Constants] | TODO res: give an example of good use of global variables, a program that banishes its magic numbers by pulling htem out into global constants
