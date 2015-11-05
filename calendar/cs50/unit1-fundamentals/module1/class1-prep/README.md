@@ -35,6 +35,6 @@ TODO | Lecture Notes | [Week 1, continued / Introduction](http://http://cdn.cs50
 10-15 mins | Do Exercise |  | Need of more information. 
 10-15 mins | Watch Video: | [Precedence](TODO)|  | Stop watching at 3:15 
 10-15 mins | Do Exercise | [Exercise: PEMDAS](TODO) |  | 
-10-15 mins | CS50 Study | [Study: Math](study.cs50.net/math) | 
+10-15 mins | CS50 Study | [Study: Math](https://study.cs50.net/math) | 
 
 
