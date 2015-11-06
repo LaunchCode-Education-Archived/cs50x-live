@@ -12,5 +12,5 @@ Time Estimate | Task | Link | Instructions
 10 mins | Read | [Lecture Nodes: Week 1, continued / Algorithms](http://cdn.cs50.net/2015/fall/lectures/0/f/notes0f/notes0f.html#algorithms)
 10 mins | Watch Video | [Short: Algorithms](http://cs50.tv/2012/fall/shorts/algorithms/algorithms-720p.mp4)
 10 mins | Watch Video | [Short: Scratch](http://cs50.tv/2013/fall/shorts/scratch/scratch-720p.mp4)
-1-5 hours | Problem Set | [Pset0](http://cdn.cs50.net/2015/fall/psets/0/pset0/pset0.html)
+1-5 hours | Problem Set | [Pset0](http://cdn.cs50.net/2015/fall/psets/0/pset0/pset0.html) | When you're done, submit your project on Vocareum
 
