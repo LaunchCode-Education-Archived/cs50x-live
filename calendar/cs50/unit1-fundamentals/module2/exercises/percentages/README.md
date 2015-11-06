@@ -1,5 +1,6 @@
+##### Module 2
 
-### Percentages 
+# Percent
 
 Write a program that prompts the user for two positive integers: a numerator and a denominator, and prints the fraction as a percent. 
 
