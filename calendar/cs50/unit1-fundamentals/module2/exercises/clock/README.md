@@ -1,6 +1,6 @@
 # Exercise: Clock Sage
 
-Write a program that prompts the user for the current time, and an amount of hours in the future, and then "predicts" what time it will be in the future:
+Use the modulo `%` operator to write a program that prompts the user for the current time, and an amount of hours in the future, and then "predicts" what time it will be in the future:
 
 ```
 $ ./clocksage
