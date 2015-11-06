@@ -8,4 +8,4 @@
 2. Studio: [Crazy Echoes](../studios/crazy-echoes)
 
 ### Homework
-1. Continue working on Pset3
+1. Continue working on [Pset2](TODO)
