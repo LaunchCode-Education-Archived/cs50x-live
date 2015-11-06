@@ -2,7 +2,7 @@
 
 ### During Class Today
 
-1. **Lecture / Q&A on the following topics:**
+1. Lecture / Q&A on the following topics:
   * TODO put some
   * stuff here
 2. Studio: [Crazy Echoes](../studios/crazy-echoes)
