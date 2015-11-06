@@ -1,6 +1,8 @@
 # How to take this class
 
-Welcome to LaunchCode’s CS50x! We’ve made the curriculum for this class available for you here on Github. 
+TODO: Build up from **What is CS50?** to **What is CS50x (on edX)?** to **What is CS50x Live (with LaunchCode)?**
+
+Welcome to LaunchCode’s CS50x Live! We’ve made the curriculum for this class available for you here on Github. 
 Of course, the CS50x class itself and course materials are available for free through edX. 
 The curriculum here is meant to guide you through those resources. 
 Based off our previous experience offering this class, 
@@ -49,7 +51,7 @@ In most class sessions, students will work on studios. Studios are specially des
  
 There will also be Q&A during class sessions. The course instructor will answer questions from students that are related to that week’s topics. This time is meant to address general problems that can help most students, and is not intended to be used to solve specific student problems. 
 
-Every class session will also have time dedicated to office hours. This is unstructured time where students should work on the week’s assignment. Mentors, TFs, and instructors will be available to answer specific questions. 
+Every class session will also have time dedicated to office hours. This is unstructured time where students should work on the week’s problem set. Mentors, TFs, and instructors will be available to answer specific questions. 
 
 How to Succeed in this Class
 Make sure you complete the Prep Work before each class. This is essential to make sure you get the most out of the in-person class sessions. We’d rather you do the prep work before class and not finish your problem set. You’ll have to go back and finish the problem set eventually, but you will have been able to participate in class for that day. 
