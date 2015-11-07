@@ -5,14 +5,12 @@
 **Assignment** By the end of this module you will have completed [Pset 2]()
 
 ### Steps
-
-*TODO*
-
-***
-
-### Outline
-
-TODO split into three class periods
+1. [Prep](./class1-prep) for Class 1
+2. Go to [Class 1](./class1)
+3. [Prep](./class1-prep) for Class 2
+4. Go to [Class 2](./class2)
+5. Go to [Class 3](./class3) 
+6. Finish [Pset2](TODO)
 
 ### Topics 
 
