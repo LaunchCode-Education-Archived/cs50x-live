@@ -5,7 +5,7 @@
 Write a program that prompts the user for two positive integers: a numerator and a denominator, and prints the fraction as a percent. 
 
 ```
-$ ./percentages
+$ ./percent
 non-negative numerator: 2
 non-negative denominator: 3
 66.67%
