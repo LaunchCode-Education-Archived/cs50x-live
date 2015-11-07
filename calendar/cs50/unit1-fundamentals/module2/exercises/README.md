@@ -13,7 +13,3 @@
 2. links to 
 2. all class 2 prep 
 3. exercises here
-
-
-TODO find a home for this Decomp exercise:
-* Decomp (TODO) decompose a program with just main() into multiple functions
