@@ -35,7 +35,7 @@ TODO | Read | [Lecture Notes: Week 3, continued / Merge Sort](http://cdn.cs50.ne
 Time | Task | Link | Instructions
 -----|------|------|-------------
 10 mins | Watch Video | [Doug's Playlist: Algorithms Summary]() | TODO: make cheatsheet?
-TODO | CS50 Study | [binary search, bubble sort, insertion sort, selection sort, merge sort](https://study.cs50.net/binary_search?toc=binary_search,bubble_sort,insertion_sort,selection_sort,merge_sort)
+TODO | CS50 Study | [bubble sort, insertion sort, selection sort, merge sort](https://study.cs50.net/binary_search?toc=bubble_sort,insertion_sort,selection_sort,merge_sort)
 
 ##### Compiling, .h Files
 Time | Task | Link | Instructions
