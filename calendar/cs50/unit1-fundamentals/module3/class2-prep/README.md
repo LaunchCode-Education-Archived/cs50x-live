@@ -20,11 +20,15 @@ Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | CS50 Study | [loops, ascii, arrays, functions, argv](https://study.cs50.net/loops?toc=loops,ascii,arrays,functions,argv)
 
+#####  More Practice with Functions
+Time | Task | Link | Instructions
+-----|------|------|-------------
+TODO |
+
 ##### Merge Sort, Recursion
 Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | Read | [Lecture Notes: Week 3, continued / Merge Sort](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort)
-
 
 ##### Sorting Algs Summary
 Time | Task | Link | Instructions
