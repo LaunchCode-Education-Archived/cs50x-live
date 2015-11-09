@@ -58,6 +58,8 @@ TODO | Watch | [Doug's Playlist: Insertion Sort](TODO) |
 TODO | Watch | [Shorts: Insertion Sort](TODO) |
 
 ##### Algorithmic Efficiency (TODO move to class 2 prep?)
+Time | Task | Link | Instructions
+-----|------|------|-------------
 TODO | Read | [Lecture Notes: Week 3 / Algorithmic Efficiency](http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#algorithmic_efficiency)
 TODO | Watch Video | [Doug's Playlist: Computational Complexity](TODO)
 TODO | Read | Lecture Notes | 
