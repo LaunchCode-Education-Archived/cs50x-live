@@ -3,7 +3,7 @@
 # Class 3
 
 ### Before Class
-Before coming to class please complete [class3-prep]().
+Before coming to class please complete [Prep for Class 3](./class3-prep).
 
 ### During Class
 
