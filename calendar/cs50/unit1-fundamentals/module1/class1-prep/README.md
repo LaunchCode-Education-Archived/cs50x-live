@@ -3,8 +3,8 @@
 
 Before coming to [Class 1](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module1/class1), please complete the following tasks:
 
-Time Estimate | Task | Resource | Link | Instructions
---------------|------|----------|------|-------------
+Time Estimate | Task | Resource Type | Link | Instructions
+--------------|------|---------------|------|-------------
 30-45 mins | Watch | Lecture | [Week 1]() | Watch the lecture video, which will give you a high-level introduction to this week's concepts. We recommend you crank the speed up to 1.5x or 2.x. The material will be covered in finer detail later. 
 5 mins | Read | Lecture Notes | [Week 1 / Introduction](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#introduction) | Read over the notes associated with a portion of the lecture video. Optionally, rewatch that portion. 
 5-10 mins | Read | Lecture Notes | [Week 1 / C](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c) |
@@ -24,8 +24,8 @@ Time Estimate | Task | Resource | Link | Instructions
 
 #### Math, Numeric Types
 
-Time Estimate | Task | Link | Instructions
---------------|------|------|-------------
+Time Estimate | Task | Resource Type | Link | Instructions
+--------------|------|---------------|------|---------
 TODO | Follow-Along | Walkthrough | [adder](TODO) | 
 TODO | Read | Lecture Notes | [Week 1, continued / Introduction](http://http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#imprecision) | Read over the notes associated with a portion of the lecture video.  
 5-10 mins | Read | Lecture Notes | [Week 1, continued / C](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c) |
