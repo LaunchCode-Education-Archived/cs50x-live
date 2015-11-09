@@ -36,6 +36,8 @@ TODO | Watch Video | [Shorts:Asymtptic Notation](http://cs50.tv/2012/fall/shorts
 TODO | Watch Video | 
 
 ##### Alogrithms for Searching
+Time | Task | Link | Instructions
+-----|------|------|-------------
 TODO | Watch | [Doug's Playlist: Linear Search](TODO)
 TODO | Watch | [Shorts: Linear Search](TODO)
 TODO | Watch | [Doug's Playlist: Binary Search](TODO)
