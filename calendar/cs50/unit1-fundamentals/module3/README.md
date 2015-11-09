@@ -4,6 +4,7 @@
 
 ##### Class 1
 * sorting algs
+* time complxity analysis
 * module1 cs50 Study Guide
 * comf with arrays
 * debugger
@@ -13,9 +14,6 @@
 * module2 cs50 Study Guide
 * comf with functions
 * module3 cs50 Study Guide
-
-##### Which Class?
-* time complxity analysis
 * multiple files working together
 
 ### Concepts
