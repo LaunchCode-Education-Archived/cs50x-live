@@ -46,6 +46,7 @@ Time | Task | Link | Instructions
 -----|------|------|-------------
 30-45 mins | Watch Video | [Lecture: Week 3](https://www.youtube.com/watch?v=IEOO5UToo6A) | 
 
+
 ##### Sorting Algorithms
 Time | Task | Link | Instructions
 -----|------|------|-------------
@@ -75,3 +76,8 @@ TODO | Watch Video | [Doug's Playlist: GDB](TODO)
 Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | Study | [conditions, math, binary](https://study.cs50.net/loops?toc=conditions,math,binary) | TODO provide instructions
+
+##### More Practice with Arrays
+Time | Task | Link | Instructions
+-----|------|------|-------------
+TODO |
