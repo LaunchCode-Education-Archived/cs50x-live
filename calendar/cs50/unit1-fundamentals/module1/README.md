@@ -15,7 +15,7 @@ By the end of this module you will have completed [Problem Set 1](http://cdn.cs5
 5. [Prep] (./class3-prep) for Class 3
 6. Attend [Class 3](./class3)
 7. Attend [Class 4](./class4)
-8. Finish [Pset1]()
+8. Finish [Pset1](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html)
 9. [Prep](../module2/class1-prep) for Module 2, Class 1
 
 ***
