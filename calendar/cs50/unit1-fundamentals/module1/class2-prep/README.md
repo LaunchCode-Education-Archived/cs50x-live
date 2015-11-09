@@ -49,3 +49,5 @@
 ##### Short Watch: [Variables]()
 ##### Read [Convoluted](../resources/convoluted)
 
+###Now you're ready for [Class 2!](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module1/class2)
+
