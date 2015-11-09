@@ -2,7 +2,7 @@
 
 ## Preseason
 1. [How to take this class](../how-to-take-this-class)
-2. [Module 0](./preseason/module0)
+2. [Module 0](./module0)
 
 ## cs50
 
