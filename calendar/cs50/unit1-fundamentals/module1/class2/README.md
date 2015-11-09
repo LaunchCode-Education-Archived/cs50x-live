@@ -58,5 +58,5 @@ Height: 3
 ***
 
 ### Homework
-* Do [class3-prep](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module1/class3-prep)
+* Do [Prep for Class 3](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module1/class3-prep)
 * Try to finish [Pset1/Mario](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#itsa_mario)
