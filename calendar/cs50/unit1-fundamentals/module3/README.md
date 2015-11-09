@@ -6,12 +6,13 @@
 * binary search
 * time complexity analysis (maybe)
 * recursion (maybe)
+* multiple files working together
+  * .h files 
 * continue getting comfortable with
   * arrays
   * functions
-* multiple files working together
-  * .h files 
- 
+* review of a bunch of stuff from previous 2 weeks
+
 ### Tricky Concepts / Things to Emphasize
 
 * multiple files: first time the've seen a program composed of multiple files working together
