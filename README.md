@@ -1,21 +1,23 @@
 
-Welcome to cs50x-live-2016.  
+#This is LaunchCode's CS50x!
 
-##Introduction to Computer Science -CS50x
-This course teaches the essential ideas of Computer Science for an experienced and non-experienced audience. In CS50x-live-2016, students will experiment with short bits of "computer code" and bring to life the power and limitations of computers. Everything works within Github, so there is no extra software to download or install. CS50x-live-2016 will provide a general background on computers; no previous experience is required. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, PHP, and JavaScript plus SQL, CSS, and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. 
-##What is Computer Science?
-An introduction to discoveries and intellectual paradigms. It requires thinking both in abstract terms and in concrete terms. Designed for students with little or no previous background. Examines theoretical and practical limitations related to unsolvable and intractable computational problems. Ccomputer science has a wide range of specialties that include computer architecture, software systems, graphics, artificial intelligence, computational science, and software engineering. 
-##What you'll learn
+Hello, and welcome to LaunchCode's CS50x course! This course teaches the foundations of computer science and programming using world-class curriculum and mentored support. There's a lot to learn, but before you get started, you probably have a few questions
+
+##What is CS50x?
+CS50 is Harvard’s Introduction to Programming class for non-CS majors. CS50x is a free online version of the class offered through edX, a MOOC formed by Harvard and MIT. LaunchCode’s CS50x is an in-person version of CS50x with mentored support, curated content, additional exercises, and supplemental skill tracks.
+
+We’ve made the curriculum for this class available for you here on Github. Of course, the CS50x class itself and course materials are available for free through edX. The curriculum here is meant to guide you through those resources. Based off our previous experience offering this class, we have compiled and ordered the resources to best help you learn and digest the concepts and skills you need to know in order to succeed in this course. We’ve also developed our own additional exercises and activities that help reinforce those skills. But instead of adding extra work, these additional exercises should help you move through the problem sets and assignments more quickly.
+
+
+##What will I learn in this class?
 *	Key foundational concepts in computer science 
-*	Build your own versions of web applications
-*	A broad and robust understanding of computer science and programming
 *	How to think algorithmically and solve programming problems efficiently
-*	You’ll be ready for course concepts like abstraction, algorithms, data structures, encapsulation, resource management, security, and web development
-*	Become familiar with a number of languages, including C, PHP, and JavaScript plus SQL, CSS, and HTML
+*	Multiple programming languages, including C, PHP, and JavaScript plus SQL, HTML, and CSS. Assignments are inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. 
+*	How to build your own versions of web applications
 *	How to develop and present a project to others
-* How to think more methodically and to solve problems more effectively
 
-Our goal at LaunchCode is to prepare you to find a job applying Computer Science skills. We look forward to partnering with you through the CS50x-live program. 
+Our goal at LaunchCode is to put you on a path towards starting a career in technology, or to simply get you to where you want to go. We look forward to working with you as you start that journey with CS50x. 
 
-Click [id]: <"https://github.com/Launch-Code/cs50x-live-2016/blob/master/Getstarted> to navigate to the Get Started page
+###What's Next?
+First you'll want to read about how to take this class. Follow the link here: [How to Take This Class][https://github.com/Launch-Code/cs50x-live-2016/tree/master/how-to-take-this-class] 
 
