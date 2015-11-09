@@ -19,5 +19,5 @@ We’ve made the curriculum for this class available for you here on Github. Of 
 Our goal at LaunchCode is to put you on a path towards starting a career in technology, or to simply get you to where you want to go. We look forward to working with you as you start that journey with CS50x. 
 
 ###What's Next?
-First you'll want to read about how to take this class. Follow the link here: [How to Take This Class][https://github.com/Launch-Code/cs50x-live-2016/tree/master/how-to-take-this-class] 
+First you'll want to read about how to take this class. Follow the link here: [How to Take This Class](https://github.com/Launch-Code/cs50x-live-2016/tree/master/how-to-take-this-class) 
 
