@@ -2,6 +2,24 @@
 
 ### Outline
 
+##### Class 1
+* sorting algs
+* module1 cs50 Study Guide
+* comf with arrays
+* debugger
+
+##### Class 2
+* recursion
+* module2 cs50 Study Guide
+* comf with functions
+* module3 cs50 Study Guide
+
+##### Which Class?
+* time complxity analysis
+* multiple files working together
+
+### Concepts
+
 * the sorting algorithms
 * binary search
 * time complexity analysis (maybe)
