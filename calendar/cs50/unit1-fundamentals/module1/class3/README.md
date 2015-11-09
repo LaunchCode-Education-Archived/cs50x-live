@@ -3,7 +3,7 @@
 # Class 3
 
 ### Before Class
-Before coming to class please complete [LINK BROKEN](./module1/class3-prep).
+Before coming to class please complete [LINK BROKEN](../class3-prep).
 
 ### During Class
 
