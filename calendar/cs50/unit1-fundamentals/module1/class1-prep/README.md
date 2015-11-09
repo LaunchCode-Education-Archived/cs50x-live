@@ -1,7 +1,7 @@
 #### Module 1
 # Prep for Class 1
 
-Before coming to [Class 1](), please complete the following tasks:
+Before coming to [Class 1](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module1/class1), please complete the following tasks:
 
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
@@ -37,4 +37,4 @@ TODO | Lecture Notes | [Week 1, continued / Introduction](http://http://cdn.cs50
 10-15 mins | Do Exercise | [Exercise: PEMDAS](TODO) |  | 
 10-15 mins | CS50 Study | [Study: Math](https://study.cs50.net/math) | 
 
-
+###Now you're ready for [Class 1!](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module1/class1)
