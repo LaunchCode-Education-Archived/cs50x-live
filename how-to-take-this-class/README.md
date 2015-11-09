@@ -1,11 +1,5 @@
 # How to take this class
 
-###What is CS50x?
-
-CS50 is Harvard’s Introduction to Programming class for non-CS majors. CS50x is a free online version of the class offered through edX, a MOOC formed by Harvard and MIT. LaunchCode’s CS50x is an in-person version of CS50x with mentored support, curated content, additional exercises, and supplemental skill tracks. 
-
-We’ve made the curriculum for this class available for you here on Github. Of course, the CS50x class itself and course materials are available for free through edX. The curriculum here is meant to guide you through those resources. Based off our previous experience offering this class, we have compiled and ordered the resources to best help you learn and digest the concepts and skills you need to know in order to succeed in this course. We’ve also developed our own additional exercises and activities that help reinforce those skills. But instead of adding extra work, these additional exercises should help you move through the problem sets and assignments more quickly. 
-
 Before you start with the course materials, we highly encourage you to read the information here. Our curriculum uses specific terms that instruct you on how to complete that task. Eventually, this will become second nature, but in the beginning you may have to refer back to this section to make sure you know what to do. 
 
 
