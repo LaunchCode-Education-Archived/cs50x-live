@@ -20,8 +20,7 @@ Follow-Along | Walkthrough | [conditions-1](https://www.youtube.com/watch?v=-MUZ
 Do | Exercise | [Iffy](TODO) | *TODO -- an exercise in which the ideal solution involves an if statement with no accompanying else branch*
 Watch | Short | [Boolean Values](https://youtu.be/M058skV1iL0?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC)
 Watch | Doug's Playlist |  [Operators](https://www.youtube.com/watch?v=JFieJW_kZq4&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=2)
-Do | Exercise | [|| && !](TODO)
-*TODO -- an exercise combining multiple boolean expressions*
+Do | Exercise | [|| && !](TODO) | *TODO -- an exercise combining multiple boolean expressions*
 
 ##### Loops:
 Task | Resource Type | Link | Instructions
