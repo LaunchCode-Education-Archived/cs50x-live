@@ -3,10 +3,11 @@
 # Prep for Class 2
 
 ### Concepts
+* merge sort
 * recursion
-* module2 cs50 Study Guide
-* comf with functions
-* module3 cs50 Study Guide
+* module2 review
+* more practice with functions
+* more with the sorting algs
 
 ### Stuff to do:
 
