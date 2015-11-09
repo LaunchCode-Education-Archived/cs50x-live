@@ -16,7 +16,7 @@ Time | Task | Link | Instructions
 30-45 mins | Watch Video | [Lecture: Week 3](https://www.youtube.com/watch?v=IEOO5UToo6A) | 
 
 
-##### Sorting Algorithms
+##### Algorithms for Sorting
 Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | Read | [Lecture Notes: Week 3 / Sorting Algorithms](http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#sorting_algorithms)
@@ -32,7 +32,15 @@ Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | Read | [Lecture Notes: Week 3 / Algorithmic Efficiency](http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#algorithmic_efficiency)
 TODO | Watch Video | [Doug's Playlist: Computational Complexity](TODO)
-TODO | Read | Lecture Notes | 
+TODO | Watch Video | [Shorts:Asymtptic Notation](http://cs50.tv/2012/fall/shorts/asymptotic_notation/asymptotic_notation-720p.mp4)
+TODO | Watch Video | 
+
+##### Alogrithms for Searching
+TODO | Watch | [Doug's Playlist: Linear Search](TODO)
+TODO | Watch | [Shorts: Linear Search](TODO)
+TODO | Watch | [Doug's Playlist: Binary Search](TODO)
+TODO | Watch | [Shorts: Binary Search](TODO)
+TODO | CS50 Study | [binary search](https://study.cs50.net/binary_search?toc=binary_search)
 
 ##### Debugging
 Time | Task | Link | Instructions
