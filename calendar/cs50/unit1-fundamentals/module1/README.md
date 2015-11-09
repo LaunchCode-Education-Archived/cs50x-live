@@ -9,7 +9,7 @@ By the end of this module you will have completed [Problem Set 1](http://cdn.cs5
 ### Steps
 1. [Prep](./class1-prep) for Class 1
 2. Attend [Class 1](./class1)
-3. Start [Pset1]()
+3. Start [Pset1](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#smart_water)
 3. [Prep](./class2-prep) for Class 2
 4. Attend [Class 2](./class2)
 5. [Prep] (./class3-prep) for Class 3
