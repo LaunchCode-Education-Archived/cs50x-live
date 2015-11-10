@@ -2,7 +2,7 @@
 # Class 1
 
 ##### Before Today:
-For homework you should have done: [class1-prep]()
+For homework you should have done: [Prep for Class 1](../class1-prep)
 
 ##### Today
 We'll do these things:
