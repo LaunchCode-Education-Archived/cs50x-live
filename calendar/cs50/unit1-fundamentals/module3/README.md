@@ -2,33 +2,11 @@
 
 ### Outline
 
-##### Class 1
-* sorting algs
-* time complxity analysis
-* module1 cs50 Study Guide
-* comf with arrays
-* debugger
-
-##### Class 2
-* recursion
-* module2 cs50 Study Guide
-* comf with functions
-* module3 cs50 Study Guide
-* multiple files working together
-
-### Concepts
-
-* the sorting algorithms
-* binary search
-* time complexity analysis (maybe)
-* recursion (maybe)
-* multiple files working together
-  * .h files 
-* continue getting comfortable with
-  * arrays
-  * functions
-* review of a bunch of stuff from previous 2 weeks
-* 
+Class # | Before Class | During Class | Topics / Skills
+--------|--------------|--------------|----------------
+Class 1 | [Prep Work](../class1-prep) | [In Class](../class1) | sorting algorithms, time complxity analysis, module1 review, more practice with arrays, more debugging
+Class 2 | [Prep Work](../class2-prep) | [In Class](../class2) | recursion, merge sort, module2 review, more practice with functions, multiple files working together
+Class 3 | work on [Pset3]() | [In Class](../class3) | (office hours)
 
 ### Resources
 * Lecture
