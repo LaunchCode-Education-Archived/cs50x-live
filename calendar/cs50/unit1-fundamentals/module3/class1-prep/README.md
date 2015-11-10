@@ -9,6 +9,10 @@ Time | Task | Link | Instructions
 -----|------|------|-------------
 30-45 mins | Watch Video | [Lecture: Week 3](https://www.youtube.com/watch?v=IEOO5UToo6A) | 
 
+##### Module 1 Review (plus Arrays)
+Time | Task | Link | Instructions
+-----|------|------|-------------
+TODO | Study | [conditions, math, binary, arrays](https://study.cs50.net/loops?toc=conditions,math,binary,arrays) | Continue sharpening your skills on these concepts from the previous 2 modules. Be sure to do the exercises at the bottom of each section.
 
 ##### Algorithms for Sorting
 Time | Task | Link | Instructions
@@ -43,13 +47,3 @@ Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | Watch Video | [Section: GUI Debugger](https://www.youtube.com/watch?v=-G_klBQLgdc)
 TODO | Watch Video | [Doug's Playlist: GDB](TODO)
-
-##### Module 1 Review
-Time | Task | Link | Instructions
------|------|------|-------------
-TODO | Study | [conditions, math, binary](https://study.cs50.net/loops?toc=conditions,math,binary) | TODO provide instructions
-
-##### More Practice with Arrays
-Time | Task | Link | Instructions
------|------|------|-------------
-TODO |
