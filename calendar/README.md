@@ -11,7 +11,7 @@
 Module | Classes | Assignments|
 :-------:|:---------:|------------|
 [Module 1](./cs50/unit1-fundamentals/module1) | 3 | **Studios**: Conversions, Guess, Rect#ngle, Repeat. <br>**Problem Set 1** (Water, Mario, Greedy)|
-[Module 2](./cs50/unit1-fundamentals/module2)| 3 | **Studios**: <br>**Problem Set 2** |
+[Module 2](./cs50/unit1-fundamentals/module2)| 3 | **Studios**: Letter Locator, Crazy Echoes <br>**Problem Set 2** |
 [Module 3](./cs50/unit1-fundamentals/module3)| 3 | **Studios**: <br>**Problem Set 3** |
 
 
