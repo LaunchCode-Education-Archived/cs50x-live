@@ -1,12 +1,21 @@
 # Module1
 
-**Prereqs**: watch Week 0 Lectures, do Pset0
+**Prereqs**: You should have completed [Module 0](..../module0)
 
 By the end of this module you will have completed [Problem Set 1](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html)
 
 *** 
 
 ### Steps
+
+Class # | Before Class | During Class | Topics/Skills
+:--------:|:------------:|:------------:|-----------------------|
+**Class 1**| [Prep Work](./class1-prep) | [In Class](./class1) | CS50 IDE setup, printf, math, intro to libraries|
+**Class 2**| [Prep Work](./class2-prep) | [In Class](./class2) | conditions, loops, variables, assignment vs equality|
+**Class 3**| [Prep Work](./class3-prep) | [In Class](./class3) | validating input, typecasting, nesting control flow, functions, debugging!|
+
+
+### (Old format -- consider removing)
 1. [Prep](./class1-prep) for Class 1
 2. Attend [Class 1](./class1)
 3. Start [Pset1](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#smart_water)
