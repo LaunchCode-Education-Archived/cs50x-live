@@ -10,7 +10,7 @@
 
 Module | Classes | Assignments|
 -------|---------|------------|
-Module 1 |   3 | Studios: Conversions, Guess, Rect#ngle, Repeat. <br>Problem Set 1 (Water, Mario, Greedy)|
+Module 1 |   3 | **Studios**: Conversions, Guess, Rect#ngle, Repeat. <br>**Problem Set 1** (Water, Mario, Greedy)|
 
 ### Unit 1: Fundamentals
 
