@@ -9,8 +9,10 @@
 ###Unit 1: Fundamentals
 
 Module | Classes | Assignments|
--------|---------|------------|
-Module 1 |   3 | **Studios**: Conversions, Guess, Rect#ngle, Repeat. <br>**Problem Set 1** (Water, Mario, Greedy)|
+:-------:|:---------:|------------|
+[Module 1](./cs50/unit1-fundamentals/module1) | 3 | **Studios**: Conversions, Guess, Rect#ngle, Repeat. <br>**Problem Set 1** (Water, Mario, Greedy)|
+[Module 2](./cs50/unit1-fundamentals/module2)| 3 ||
+[Module 3](./cs50/unit1-fundamentals/module3)| 3 ||
 
 ### Unit 1: Fundamentals
 
