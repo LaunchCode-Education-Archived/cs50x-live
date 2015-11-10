@@ -14,11 +14,11 @@ Can you figure out what comes next?
 
 If you guessed fifty-five, that's correct! More generally, the pattern is this: Every number in this sequence is 
 the sum of the two previous numbers:
-`0 + 1` is `1`
-`1 + 1` is `2`
-`1 + 2` is `3`
-`2 + 3` is `5`
-...
+* `0 + 1` is `1`
+* `1 + 1` is `2`
+* `1 + 2` is `3`
+* `2 + 3` is `5`
+* ...
 
 More formally, we can describe the sequence as a list of numbers or "terms" labeled term 0, term 1, term 2 ...  
 along with the computation necessary to figure out the value of a given term:
