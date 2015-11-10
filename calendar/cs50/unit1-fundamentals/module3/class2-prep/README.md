@@ -2,24 +2,17 @@
 
 # Prep for Class 2
 
-### Concepts
-* merge sort
-* recursion
-* module2 review
-* more practice with functions
-* more with the sorting algs
-
-### Stuff to do:
-
-##### Lecture
-Time | Task | Link | Instructions
------|------|------|-------------
-30-45 mins | Watch Video | [Lecture: Week 3, continued](TODO)
+Before coming to [Class 2](../class2), please complete the following tasks...
 
 ##### Module 2 Review
 Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | CS50 Study | [loops, ascii, functions, argv](https://study.cs50.net/loops?toc=loops,ascii,functions,argv)
+
+##### Lecture
+Time | Task | Link | Instructions
+-----|------|------|-------------
+30-45 mins | Watch Video | [Lecture: Week 3, continued](TODO)
 
 #####  More Practice with Functions
 Time | Task | Link | Instructions
