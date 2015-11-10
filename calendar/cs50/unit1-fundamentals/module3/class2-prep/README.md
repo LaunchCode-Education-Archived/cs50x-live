@@ -19,7 +19,7 @@ Time | Task | Link | Instructions
 ##### Module 2 Review
 Time | Task | Link | Instructions
 -----|------|------|-------------
-TODO | CS50 Study | [loops, ascii, arrays, functions, argv](https://study.cs50.net/loops?toc=loops,ascii,arrays,functions,argv)
+TODO | CS50 Study | [loops, ascii, functions, argv](https://study.cs50.net/loops?toc=loops,ascii,functions,argv)
 
 #####  More Practice with Functions
 Time | Task | Link | Instructions
