@@ -6,7 +6,7 @@ Class # | Before Class | During Class | Topics / Skills
 --------|--------------|--------------|----------------
 Class 1 | [Prep Work](../class1-prep) | [In Class](../class1) | sorting algorithms, time complxity analysis, module1 review, more practice with arrays, more debugging
 Class 2 | [Prep Work](../class2-prep) | [In Class](../class2) | recursion, merge sort, module2 review, more practice with functions, multiple files working together
-Class 3 | work on [Pset3]() | [In Class](../class3) | (office hours)
+Class 3 | continue working on [Pset3]() | [In Class](../class3) | (office hours)
 
 ### Resources
 * Lecture
