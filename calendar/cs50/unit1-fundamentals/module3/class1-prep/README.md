@@ -2,13 +2,7 @@
 
 # Prep for Class 1
 
-### Concepts:
-* sorting algs
-* module1 cs50 Study Guide
-* comf with arrays
-* debugger
-
-### Stuff to do:
+Before coming to [Class 2](../class2), please complete the following tasks:
 
 ##### Lecture
 Time | Task | Link | Instructions
