@@ -6,7 +6,7 @@ Before coming to [Class 1](https://github.com/Launch-Code/cs50x-live-2016/tree/m
 ##### Lecture:
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Watch | Lecture | [Week 1]() | Watch the lecture video, which will give you a high-level introduction to this week's concepts. We recommend you crank the speed up to 1.5x or 2.x. The material will be covered in finer detail later. 
+Watch | Lecture | [Week 1](https://www.youtube.com/embed/YiiHNiSfmKI?autoplay=1&rel=0&start=0) | Watch the lecture video, which will give you a high-level introduction to this week's concepts. We recommend you crank the speed up to 1.5x or 2.x. The material will be covered in finer detail later. 
 
 ##### Getting set up:
 Task | Resource Type | Link | Instructions
