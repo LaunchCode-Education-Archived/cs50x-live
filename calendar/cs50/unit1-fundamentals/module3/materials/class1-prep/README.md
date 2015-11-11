@@ -20,10 +20,14 @@ Time | Task | Link | Instructions
 TODO | Read | [Lecture Notes: Week 3 / Sorting Algorithms](http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#sorting_algorithms)
 TODO | Watch | [Doug's Playlist: Bubble Sort](TODO) |
 TODO | Watch | [Shorts: Bubble Sort](TODO) |
+TODO | Do | [Exercise: Bubble Sort](../exercises/bubble-sort)
 TODO | Watch | [Doug's Playlist: Selection Sort](TODO) |
 TODO | Watch | [Shorts: Selection Sort](TODO) |
+TODO | Do | [Exercise: Selection Sort](../exercises/selection-sort)
 TODO | Watch | [Doug's Playlist: Insertion Sort](TODO) |
 TODO | Watch | [Shorts: Insertion Sort](TODO) |
+TODO | Do | [Exercise: Insertion Sort](../exercises/insertion-sort)
+
 
 ##### Algorithmic Efficiency
 Time | Task | Link | Instructions
