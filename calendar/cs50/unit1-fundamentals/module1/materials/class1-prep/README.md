@@ -22,11 +22,11 @@ Watch | Section | [Week 1 / IDE](https://www.youtube.com/watch?v=kpSLlIj97Ss) | 
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Follow-Along | Walkthrough | [Hello-0](https://www.youtube.com/watch?v=bQnyxpf0vk0) | Watch a video in which David Malan or another instructor writes some code. As you watch, follow along by creating your own copy of the same program. Afterwards, poke around and tinker with your program: Change something, re-run, break it, fix it.
-Do | Exercise | [Haiku](./exercises/haiku) | Do a simple exercise in your IDE.
+Do | Exercise | [Haiku](../exercises/haiku) | Do a simple exercise in your IDE.
 Read | Lecture Notes | [Week 1 / Writing Code]()
 Follow-Along | Walkthrough | [Hello-1](https://www.youtube.com/watch?v=Zfb73qVXgn8)
 Follow-Along | Walkthrough | [Hello-2](https://www.youtube.com/watch?v=LpEyhtpVHes)
-Do Exercise | Exercise | [Book](./exercises/book)
+Do Exercise | Exercise | [Book](../exercises/book)
 Read | Lecture Notes | [Week 1, continued / C](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#c)
 Read | Supplementary Resource | [String Replacement Cheatsheet](TODO) |
 
