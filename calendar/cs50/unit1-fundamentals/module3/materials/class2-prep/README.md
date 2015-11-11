@@ -26,7 +26,7 @@ TODO | Read | [Lecture Notes: Week 3, continued / Merge Sort](http://cdn.cs50.ne
 TODO | Watch Video | [Shorts: Merge Sort](https://www.youtube.com/watch?v=EeQ8pwjQxTM)
 TODO | Watch Video | [Doug's Playlist: Recursion](https://www.youtube.com/watch?v=VrrnjYgDBEk) | TODO: leave this for next module?
 TODO | Watch Video | [Shorts: Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY) | (actually it's a Zamyla vid from 2013)
-TODO | Do | [Exercise: Recursion](../exercises/fibonacci) |
+TODO | Do | [Exercise: Fibonacci](../exercises/fibonacci) |
 
 ##### Sorting Algs Summary
 Time | Task | Link | Instructions
