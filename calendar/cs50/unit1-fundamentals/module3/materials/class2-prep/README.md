@@ -26,7 +26,7 @@ TODO | Read | [Lecture Notes: Week 3, continued / Merge Sort](http://cdn.cs50.ne
 TODO | Watch Video | [Shorts: Merge Sort](https://www.youtube.com/watch?v=EeQ8pwjQxTM)
 TODO | Watch Video | [Doug's Playlist: Recursion](https://www.youtube.com/watch?v=VrrnjYgDBEk) | TODO: leave this for next module?
 TODO | Watch Video | [Shorts: Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY) | (actually it's a Zamyla vid from 2013)
-TODO | Follow-Along | [Supplement: Recursion](../supplementary-materials) | Build your own copy of the program, and then **step through it** using breakpoints in the CS50 IDE Debugger. This will help you get a feel for recursion.
+TODO | Follow-Along | [Supplement: Recursion](../supplementary-resources) | Build your own copy of the program, and then **step through it** using breakpoints in the CS50 IDE Debugger. This will help you get a feel for recursion.
 TODO | Do | [Exercise: Fibonacci](../exercises/fibonacci) |
 
 ##### Sorting Algs Summary
