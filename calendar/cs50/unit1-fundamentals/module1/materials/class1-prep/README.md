@@ -37,7 +37,7 @@ Follow-Along | Walkthrough | [adder](https://www.youtube.com/watch?v=xmZR2XiwOq4
 Read | Lecture Notes | [Week 1, continued / Introduction](http://http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#imprecision) | Read over the notes associated with a portion of the lecture video.  
 Read | Lecture Notes | [Week 1, continued / C](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c) |
 Read | Lecture Notes | [Week 1 / types](http://http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#types)
-5 mins | Watch | Section | [Week 1 / data types](http://https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=youtu.be&t=801). | 
+5 mins | Watch |  [Week 1 / data types](http://https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=youtu.be&t=801). | 
 Follow-Along | Walkthrough | [f2c](https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4) |  
 Do | Exercise | ?
 Watch | Short | [Precedence](https://www.youtube.com/watch?v=aUxqesKDdEc)|  | Stop watching at 3:15 
