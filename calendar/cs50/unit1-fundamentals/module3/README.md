@@ -4,9 +4,9 @@
 
 Class # | Before Class | During Class | Topics / Skills
 --------|--------------|--------------|----------------
-Class 1 | [Class 1 Prep Work](./class1-prep) | [Class 1](./class1) | sorting algorithms, time complxity analysis, module1 review, more practice with arrays, more debugging
-Class 2 | [Class 2 Prep Work](./class2-prep), start [Pset3](TODO) | [Class 2](./class2) | recursion, merge sort, module2 review, more practice with functions, multiple files working together
-Class 3 | continue [Pset3](TODO) | [Class 3](./class3) | (office hours)
+Class 1 | [Class 1 Prep Work](./materials/class1-prep) | [Class 1](./materials/class1) | sorting algorithms, time complxity analysis, module1 review, more practice with arrays, more debugging
+Class 2 | [Class 2 Prep Work](./materials/class2-prep), start [Pset3](TODO) | [Class 2](./materials/class2) | recursion, merge sort, module2 review, more practice with functions, multiple files working together
+Class 3 | continue [Pset3](TODO) | [Class 3](./materials/class3) | (office hours)
 
 ### Resources
 * Lecture
