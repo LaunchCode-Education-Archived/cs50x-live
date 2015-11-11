@@ -4,7 +4,6 @@
 
 ### During Class
 * Lecture / Q&A on the following topics:
-  * Debugging with the CS50 IDE Debugger
-  * The Sort algorithms
+  * Live demo of Bubble Sort stepping through with the CS50 IDE Debugger
   * Analysing algorithm efficiency
 * Studio: [TODO](TODO)
