@@ -10,7 +10,7 @@ Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
 **Class 1**| [Prep Work](./class1-prep) | [In Class](./class1) | chars, functions, scope, strings, modulo|
 **Class 2**| [Prep Work](./class2-prep) | [In Class](./class2) | more strings, arrays, command-line arguments |
-**Class 3**| [Prep Work](./class3-prep) | [In Class](./class3) | (office hours!)|
+**Class 3**| Continue [Pset2](http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html) | [In Class](./class3) | (office hours!)|
 
 
 ### Old format -- consider removing
