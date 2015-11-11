@@ -5,28 +5,28 @@
 Before coming to [Class 2](../class2), please complete the following tasks:
 
 ##### Lecture
-Time | Task | Link | Instructions
------|------|------|-------------
-30-45 mins | Watch Video | [Lecture: Week 3](https://www.youtube.com/watch?v=IEOO5UToo6A) | 
+Time | Task | Resource | Link | Instructions
+-----|------|----------|------|-------------
+30-45 mins | Watch | Lecture | [Week 3](https://www.youtube.com/watch?v=IEOO5UToo6A) | 
 
 ##### Module 1 Review (plus Arrays)
-Time | Task | Link | Instructions
------|------|------|-------------
-TODO | Study | [conditions, math, binary, arrays](https://study.cs50.net/loops?toc=conditions,math,binary,arrays) | Continue sharpening your skills on these concepts from the previous 2 modules. Be sure to do the exercises at the bottom of each section.
+Time | Task | Resource | Link | Instructions
+-----|------|----------|------|-------------
+TODO | Study | CS50 Study | [conditions, math, binary, arrays](https://study.cs50.net/loops?toc=conditions,math,binary,arrays) | Continue sharpening your skills on these concepts from the previous 2 modules. Be sure to do the exercises at the bottom of each section.
 
 ##### Algorithms for Sorting
-Time | Task | Link | Instructions
------|------|------|-------------
-TODO | Read | [Lecture Notes: Week 3 / Sorting Algorithms](http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#sorting_algorithms)
-TODO | Watch | [Doug's Playlist: Bubble Sort](TODO) |
-TODO | Watch | [Shorts: Bubble Sort](TODO) |
-TODO | Do | [Exercise: Bubble Sort](../exercises/bubble-sort)
-TODO | Watch | [Doug's Playlist: Selection Sort](TODO) |
-TODO | Watch | [Shorts: Selection Sort](TODO) |
-TODO | Do | [Exercise: Selection Sort](../exercises/selection-sort)
-TODO | Watch | [Doug's Playlist: Insertion Sort](TODO) |
-TODO | Watch | [Shorts: Insertion Sort](TODO) |
-TODO | Do | [Exercise: Insertion Sort](../exercises/insertion-sort)
+Time | Task | Resource | Link | Instructions
+-----|------|----------|------|-------------
+TODO | Read | Lecture Notes | [Week 3 / Sorting Algorithms](http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#sorting_algorithms)
+TODO | Watch | Doug's Playlist | [Bubble Sort](TODO) |
+TODO | Watch | Short | [Bubble Sort](TODO) |
+TODO | Do | Exercise | [Bubble Sort](../exercises/bubble-sort)
+TODO | Watch | Doug's Playlist | [Selection Sort](TODO) |
+TODO | Watch | Short | [Selection Sort](TODO) |
+TODO | Do | Exericse | [Selection Sort](../exercises/selection-sort)
+TODO | Watch | Doug's Playlist | [Insertion Sort](TODO) |
+TODO | Watch | Short | [Insertion Sort](TODO) |
+TODO | Do | Exercise | [Insertion Sort](../exercises/insertion-sort)
 
 
 ##### Algorithmic Efficiency
