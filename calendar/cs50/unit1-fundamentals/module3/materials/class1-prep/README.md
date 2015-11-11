@@ -2,12 +2,7 @@
 
 # Prep for Class 1
 
-Before coming to [Class 2](../class2), please complete the following tasks:
-
-##### Lecture
-Time | Task | Resource | Link | Instructions
------|------|----------|------|-------------
-30-45 mins | Watch | Lecture | [Week 3](https://www.youtube.com/watch?v=IEOO5UToo6A) | 
+Before coming to [Class 1](../class1), please complete the following tasks:
 
 ##### Module 1 Review (plus Arrays)
 Time | Task | Resource | Link | Instructions
@@ -19,6 +14,12 @@ Time | Task | Resource | Link | Instructions
 -----|------|----------|------|-------------
 TODO | Follow-Along | Section | [Debugging with Dan Armendariz](https://www.youtube.com/watch?v=-G_klBQLgdc)
 TODO | Watch Video | Doug's Playlist | [GDB](TODO) | Only watch this if you are running into issues with the CS50 IDE Debugger
+TODO | Do | Exercise | [Debug](TODO) | TODO exc: provide a program with a small bug that is tricky to find without using the debugger, have them fix it.
+
+##### Lecture
+Time | Task | Resource | Link | Instructions
+-----|------|----------|------|-------------
+30-45 mins | Watch | Lecture | [Week 3](https://www.youtube.com/watch?v=IEOO5UToo6A) | 
 
 ##### Algorithms for Sorting
 Time | Task | Resource | Link | Instructions
@@ -34,14 +35,13 @@ TODO | Watch | Doug's Playlist | [Insertion Sort](TODO) |
 TODO | Watch | Short | [Insertion Sort](TODO) |
 TODO | Do | Exercise | [Insertion Sort](../exercises/insertion-sort)
 
-
 ##### Algorithmic Efficiency
 Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | Read | [Lecture Notes: Week 3 / Algorithmic Efficiency](http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#algorithmic_efficiency)
 TODO | Watch Video | [Doug's Playlist: Computational Complexity](TODO)
 TODO | Watch Video | [Shorts:Asymtptic Notation](http://cs50.tv/2012/fall/shorts/asymptotic_notation/asymptotic_notation-720p.mp4)
-TODO | Watch Video | 
+TODO | Do | Exercise | [Something](TODO) | TODO exc: something for this stuff?
 
 ##### Alogrithms for Searching
 Time | Task | Link | Instructions
@@ -51,3 +51,5 @@ TODO | Watch | [Shorts: Linear Search](TODO)
 TODO | Watch | [Doug's Playlist: Binary Search](TODO)
 TODO | Watch | [Shorts: Binary Search](TODO)
 TODO | CS50 Study | [binary search](https://study.cs50.net/binary_search?toc=binary_search)
+TODO | Do | Exercise | [Something](TODO) | TODO exc: something for this stuff?
+
