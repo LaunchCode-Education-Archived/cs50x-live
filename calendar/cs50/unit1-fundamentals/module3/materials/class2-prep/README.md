@@ -23,9 +23,11 @@ TODO |
 Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | Read | [Lecture Notes: Week 3, continued / Merge Sort](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort)
+TODO | Watch Video | [Shorts: Merge Sort](https://www.youtube.com/watch?v=EeQ8pwjQxTM)
 TODO | Watch Video | [Doug's Playlist: Recursion](https://www.youtube.com/watch?v=VrrnjYgDBEk) | TODO: leave this for next module?
 TODO | Watch Video | [Shorts: Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY) | (actually it's a Zamyla vid from 2013)
 TODO | Do | [Exercise: Recursion](../exercises/fibonacci) |
+
 ##### Sorting Algs Summary
 Time | Task | Link | Instructions
 -----|------|------|-------------
@@ -36,7 +38,8 @@ TODO | CS50 Study | [bubble sort, insertion sort, selection sort, merge sort](ht
 Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | Read | [Lecture Notes: Week 3, continued / Compiling](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#compiling)
-TODO | Read | [Supplement: Multiple Files](../supplemental-resources/TODO) | TODO res: example of a program in which some work is pulled out and placed into a separate file
+TODO | Read | [Supplement: Spread Out](../supplemental-resources/spread-out) | TODO res: example of a program in which some work is pulled out and placed into a separate file
+TODO | DO | [Exercise: Spread Out](../exercises/spread-out) | TODO exc: make them refactor a program into multiple files
 
 ### Where do these belong?
   * [Week 3, continued / Bitwise Operators](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#bitwise_operators)
