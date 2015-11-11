@@ -43,4 +43,4 @@ Do | Exercise | ?
 Watch | Short | [Precedence](https://www.youtube.com/watch?v=aUxqesKDdEc)|  | Stop watching at 3:15 
 Do | Exercise | [Exercise: PEMDAS](TODO) |  | 
 
-### Now you're ready for [Class 1](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module1/class1)!
+### Now you're ready for [Class 1](../class1)!
