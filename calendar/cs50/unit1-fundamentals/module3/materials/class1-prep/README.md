@@ -50,4 +50,4 @@ TODO | CS50 Study | [binary search](https://study.cs50.net/binary_search?toc=bin
 Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | Watch Video | [Section: GUI Debugger](https://www.youtube.com/watch?v=-G_klBQLgdc)
-TODO | Watch Video | [Doug's Playlist: GDB](TODO)
+TODO | Watch Video | [Doug's Playlist: GDB](TODO) | Only watch this if you are running into issues with the CS50 IDE Debugger
