@@ -25,10 +25,10 @@ Do | Exercise | [|| && !](TODO) | *TODO -- an exercise combining multiple boolea
 ##### Loops:
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Read | Lecture Notes | [w1-continued/Loops](TODO)
-Read | Lecture Notes | [w1-continued/Loops, continued](TODO)
-Read | Short Watch: [Loops]()
-Follow-Along | Walkthrough | [Positive](TODO)
+Read | Lecture Notes | [w1-continued/Loops](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#loops)
+Read | Lecture Notes | [w1-continued/Loops, continued](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#loops_continued)
+Read | Short Watch: [Loops](https://www.youtube.com/watch?v=HHmiHx7GGLE)
+Follow-Along | Walkthrough | [Positive](https://www.youtube.com/watch?v=1CHoS1xZMIk)
 DO | Exercise | [Simple for-loop](TODO) | TODO
 Watch | Doug's Playlist | [Loops](https://www.youtube.com/watch?v=rBEwCpvwdPY&index=5&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA)
 Watch | Section | [Week 1 /loops](https://youtu.be/kpSLlIj97Ss?t=1419)
@@ -37,7 +37,7 @@ Do | Exercise | [Coordinates](TODO) | TODO
 ##### Variables: 
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Watch | Short | [Variables](TODO)
+Watch | Short | [Variables](https://www.youtube.com/watch?v=FPL_0lpzBjo)
 Read | Supplement | [Convoluted](../resources/convoluted)
 
 ### Now you're ready for [Class 2](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module1/class2)!
