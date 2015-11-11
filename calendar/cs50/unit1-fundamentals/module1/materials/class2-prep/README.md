@@ -40,5 +40,5 @@ Task | Resource Type | Link | Instructions
 Watch | Short | [Variables](https://www.youtube.com/watch?v=FPL_0lpzBjo)
 Read | Supplement | [Convoluted](../resources/convoluted)
 
-### Now you're ready for [Class 2](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module1/class2)!
+### Now you're ready for [Class 2](../class2)!
 
