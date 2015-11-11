@@ -26,7 +26,7 @@ First you'll want to perform some validation:
 
 After validating, you can go about printing the grid. 
 
-Note that you can access the elements of a nested array using multiple brackets. For example, if `words` looks like: 
+Note that you can access the elements of a nested array using multiple brackets, i.e. `[][]`. For example, if `words` looks like: 
 
 `[ "sun", "yes", "ear" ]` 
 
