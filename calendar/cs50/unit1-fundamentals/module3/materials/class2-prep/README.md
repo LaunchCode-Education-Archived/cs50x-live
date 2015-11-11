@@ -34,10 +34,13 @@ Time | Task | Link | Instructions
 10 mins | Watch Video | [Doug's Playlist: Algorithms Summary]() | TODO: make cheatsheet?
 TODO | CS50 Study | [bubble sort, insertion sort, selection sort, merge sort](https://study.cs50.net/binary_search?toc=bubble_sort,insertion_sort,selection_sort,merge_sort)
 
-##### Compiling, .h Files
+##### Compiling, Header Files
 Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | Read | [Lecture Notes: Week 3, continued / Compiling](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#compiling)
+TODO | Watch | [Shorts: Compilers](http://cs50.tv/2012/fall/shorts/compilers/compilers-720p.mp4)
+TODO | Watch | [Shorts: Clang, Make](http://cs50.tv/2012/fall/shorts/make_clang/make_clang-720p.mp4)
+TODO | Watch | [Shorts: Libraries](http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4)
 TODO | Read | [Supplement: Spread Out](../supplemental-resources/spread-out) | TODO res: example of a program in which some work is pulled out and placed into a separate file
 TODO | DO | [Exercise: Spread Out](../exercises/spread-out) | TODO exc: make them refactor a program into multiple files
 
