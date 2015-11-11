@@ -26,8 +26,13 @@ First you'll want to perform some validation:
 
 After validating, you can go about printing the grid. 
 
-Note that you can access the elements of a nested array using multiple brackets. For example, if `words` looks like `[ "sun", "yes", "ear" ]`, then
+Note that you can access the elements of a nested array using multiple brackets. For example, if `words` looks like: 
+
+`[ "sun", "yes", "ear" ]` 
+
+, then:
 * `words[0][0]` evaluates to `"sun"[0]` which evaluates to `'s'`
 * `words[2][1]` evaluates to `"ear"[1]` which evaluates to `'a'`
+
 Quiz: How would you get the first character of the second word, e.g. `'y'`?
 
