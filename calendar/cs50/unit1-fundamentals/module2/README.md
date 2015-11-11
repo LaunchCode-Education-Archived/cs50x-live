@@ -5,6 +5,15 @@
 **Assignment** By the end of this module you will have completed [Pset 2]()
 
 ### Steps
+
+Class # | Before Class | During Class | Topics/Skills
+:--------:|:------------:|:------------:|-----------------------|
+**Class 1**| [Prep Work](./class1-prep) | [In Class](./class1) | chars, functions, scope, strings, modulo|
+**Class 2**| [Prep Work](./class2-prep) | [In Class](./class2) | more strings, arrays, command-line arguments |
+**Class 3**| [Prep Work](./class3-prep) | [In Class](./class3) | (office hours!)|
+
+
+### Old format -- consider removing
 1. [Prep](./class1-prep) for Class 1
 2. Go to [Class 1](./class1)
 3. [Prep](./class1-prep) for Class 2
