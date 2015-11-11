@@ -1,7 +1,7 @@
 #### Module 1
 # Prep for Class 1
 
-Before coming to [Class 1](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module1/class1), please complete the following tasks:
+Before coming to [Class 1](../class1), please complete the following tasks:
 
 ##### Lecture:
 Task | Resource Type | Link | Instructions
