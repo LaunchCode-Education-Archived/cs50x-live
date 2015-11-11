@@ -21,26 +21,26 @@ Watch | Section | [Week 1 / IDE](https://www.youtube.com/watch?v=kpSLlIj97Ss) | 
 ##### Printf:
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Follow-Along | Walkthrough | [Hello-0]() | Watch a video in which David Malan or another instructor writes some code. As you watch, follow along by creating your own copy of the same program. Afterwards, poke around and tinker with your program: Change something, re-run, break it, fix it.
-Do | Exercise | [Haiku](./exercises) | Do a simple exercise in your IDE.
+Follow-Along | Walkthrough | [Hello-0](https://www.youtube.com/watch?v=bQnyxpf0vk0) | Watch a video in which David Malan or another instructor writes some code. As you watch, follow along by creating your own copy of the same program. Afterwards, poke around and tinker with your program: Change something, re-run, break it, fix it.
+Do | Exercise | [Haiku](./exercises/haiku) | Do a simple exercise in your IDE.
 Read | Lecture Notes | [Week 1 / Writing Code]()
-Follow-Along | Walkthrough | [Hello-1]()
-Follow-Along | Walkthrough | [Hello-2]()
+Follow-Along | Walkthrough | [Hello-1](https://www.youtube.com/watch?v=Zfb73qVXgn8)
+Follow-Along | Walkthrough | [Hello-2](https://www.youtube.com/watch?v=LpEyhtpVHes)
 Do Exercise | Exercise | [Book](./exercises/book)
-Read | Lecture Notes | [Week 1, continued / C]()
+Read | Lecture Notes | [Week 1, continued / C](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#c)
 Read | Supplementary Resource | [String Replacement Cheatsheet](TODO) |
 
 ##### Math, Numeric Types
 Task | Resource Type | Link | Instructions
 -----|---------------|------|---------
-Follow-Along | Walkthrough | [adder](TODO) | 
+Follow-Along | Walkthrough | [adder](https://www.youtube.com/watch?v=xmZR2XiwOq4) | 
 Read | Lecture Notes | [Week 1, continued / Introduction](http://http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#imprecision) | Read over the notes associated with a portion of the lecture video.  
 Read | Lecture Notes | [Week 1, continued / C](http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c) |
 Read | Lecture Notes | [Week 1 / types](http://http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#types)
 5 mins | Watch | Section | [Week 1 / data types](http://https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=youtu.be&t=801). | 
 Follow-Along | Walkthrough | [f2c](https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4) |  
 Do | Exercise | ?
-Watch | Short | [Precedence](TODO)|  | Stop watching at 3:15 
+Watch | Short | [Precedence](https://www.youtube.com/watch?v=aUxqesKDdEc)|  | Stop watching at 3:15 
 Do | Exercise | [Exercise: PEMDAS](TODO) |  | 
 
 ### Now you're ready for [Class 1](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module1/class1)!
