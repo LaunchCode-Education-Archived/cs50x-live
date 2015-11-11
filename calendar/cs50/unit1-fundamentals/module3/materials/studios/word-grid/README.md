@@ -19,3 +19,15 @@ uea
 nsr
 ```
 Notice how each word is written downwards, rather than accross.
+
+First you'll want to perform some validation:
+* make sure the user provided exactly 3 additional command-line arguments (in addition to the name of the program itself).
+* make sure each of those arguments is exactly 3 characters-long. (Use `strlen()`)
+
+After validating, you can go about printing the grid. 
+
+Note that you can access the elements of a nested array using multiple brackets. For example, if `words` looks like `[ "sun", "yes", "ear" ]`, then
+* `words[0][0]` evaluates to `"sun"[0]` which evaluates to `'s'`
+* `words[2][1]` evaluates to `"ear"[1]` which evaluates to `'a'`
+Quiz: How would you get the first character of the second word, e.g. `'y'`?
+
