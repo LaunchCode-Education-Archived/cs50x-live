@@ -14,6 +14,12 @@ Time | Task | Resource | Link | Instructions
 -----|------|----------|------|-------------
 TODO | Study | CS50 Study | [conditions, math, binary, arrays](https://study.cs50.net/loops?toc=conditions,math,binary,arrays) | Continue sharpening your skills on these concepts from the previous 2 modules. Be sure to do the exercises at the bottom of each section.
 
+##### Debugging
+Time | Task | Resource | Link | Instructions
+-----|------|----------|------|-------------
+TODO | Follow-Along | Section | [Debugging with Dan Armendariz](https://www.youtube.com/watch?v=-G_klBQLgdc)
+TODO | Watch Video | Doug's Playlist | [GDB](TODO) | Only watch this if you are running into issues with the CS50 IDE Debugger
+
 ##### Algorithms for Sorting
 Time | Task | Resource | Link | Instructions
 -----|------|----------|------|-------------
@@ -45,9 +51,3 @@ TODO | Watch | [Shorts: Linear Search](TODO)
 TODO | Watch | [Doug's Playlist: Binary Search](TODO)
 TODO | Watch | [Shorts: Binary Search](TODO)
 TODO | CS50 Study | [binary search](https://study.cs50.net/binary_search?toc=binary_search)
-
-##### Debugging
-Time | Task | Link | Instructions
------|------|------|-------------
-TODO | Watch Video | [Section: GUI Debugger](https://www.youtube.com/watch?v=-G_klBQLgdc)
-TODO | Watch Video | [Doug's Playlist: GDB](TODO) | Only watch this if you are running into issues with the CS50 IDE Debugger
