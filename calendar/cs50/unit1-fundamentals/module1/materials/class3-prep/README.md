@@ -5,7 +5,7 @@
 | Time Estimate  | Task | Resource| Instructions |
 |----------------|------|---------|--------------|
 || Read | [Typecasting](../resources/typecasting)
-|| Video: [shorts/Type-Casting]()
+|| Watch |[shorts/Type-Casting](https://www.youtube.com/watch?v=4XTSxFSs3kI)
 || Exercise | typecasting | TODO
 || Exercise | input | TODO exercise that requires using GetInt() and validating it (must fall in a certain range)
 || Video | [shorts/Libraries](https://youtu.be/ED7QtgXDShY?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC) |
