@@ -19,7 +19,7 @@ Follow-Along | Walkthrough | [conditions-1](https://www.youtube.com/watch?v=-MUZ
 Do | Exercise | [Age Restrictions](../exercises/age-restrictions) | 
 Watch | Short | [Boolean Values](https://youtu.be/M058skV1iL0?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC)
 Watch | Doug's Playlist | [Operators](https://www.youtube.com/watch?v=_FC-8QaaYgs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=3)
-Do | Exercise | [== vs =](TODO) | *TODO exc assignment vs equality*
+Do | Exercise | [Decade](../exercises/decade) 
 
 ##### Loops:
 Task | Resource Type | Link | Instructions
@@ -28,10 +28,9 @@ Read | Lecture Notes | [w1-continued/Loops](http://cdn.cs50.net/2015/fall/lectur
 Read | Lecture Notes | [w1-continued/Loops, continued](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#loops_continued)
 Watch | Short | [Loops](https://www.youtube.com/watch?v=HHmiHx7GGLE)
 Follow-Along | Walkthrough | [Positive](https://www.youtube.com/watch?v=1CHoS1xZMIk)
-DO | Exercise | [Simple for-loop](TODO) | TODO
+DO | Exercise | [Countdown](../exercises/countdown)
 Watch | Doug's Playlist | [Loops](https://www.youtube.com/watch?v=rBEwCpvwdPY&index=5&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA)
 Watch | Section | [Week 1 /loops](https://youtu.be/kpSLlIj97Ss?t=1419)
-Do | Exercise | [Coordinates](TODO) | TODO
 
 ##### Variables: 
 Task | Resource Type | Link | Instructions
