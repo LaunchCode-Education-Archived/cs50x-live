@@ -19,7 +19,7 @@ Follow-Along | Walkthrough | [conditions-1](https://www.youtube.com/watch?v=-MUZ
 Do | Exercise | [Age Restrictions](../exercises/age-restrictions) | 
 Watch | Short | [Boolean Values](https://youtu.be/M058skV1iL0?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC)
 Watch | Doug's Playlist | [Operators](https://www.youtube.com/watch?v=_FC-8QaaYgs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=3)
-Do | Exercise | [|| && !](TODO) | *TODO -- an exercise combining multiple boolean expressions*
+Do | Exercise | [== vs =](TODO) | *TODO exc assignment vs equality*
 
 ##### Loops:
 Task | Resource Type | Link | Instructions
