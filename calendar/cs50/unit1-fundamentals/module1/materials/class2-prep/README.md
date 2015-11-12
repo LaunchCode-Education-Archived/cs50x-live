@@ -1,8 +1,7 @@
 #### Module 1 
 # Prep for Class 2
 
-
-### Prep Work
+Before coming to class 2, please complete the following prep work:
 
 ##### Lecture:
 Task | Resource Type | Link | Instructions
