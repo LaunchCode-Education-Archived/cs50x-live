@@ -1,3 +1,9 @@
+/**
+ * marathon
+ * predicts the time at which a marathon runner will cross the finish line, 
+ * assuming they continue to run at a constant speed
+ */
+
 #include <stdio.h>
 
 int main(void)
@@ -8,8 +14,7 @@ int main(void)
   printf("How hours ago did you start? ");
   float hours_so_far = GetFloat();
   
-  float mph = miles_run / hours_so_far
-  
+  float mph = miles_run / hours_so_far;
   hours_remaining == 26.2 - miles_run / mph;
   
   prtintf("At this rate, you have %f hours left.", hours_remaining);
