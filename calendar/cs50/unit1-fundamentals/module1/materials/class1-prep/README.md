@@ -41,6 +41,6 @@ Read | Lecture Notes | [Week 1 / types](http://http://cdn.cs50.net/2015/fall/lec
 Follow-Along | Walkthrough | [f2c](https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4) |  
 Do | Exercise | ?
 Watch | Short | [Precedence](https://www.youtube.com/watch?v=aUxqesKDdEc)|  | Stop watching at 3:15 
-Do | Exercise | [Exercise: PEMDAS](TODO) |  | 
+Do | Exercise | [Exercise: PEMDAS](../exercises/pemdas) |  | 
 
 ### Now you're ready for [Class 1](../class1)!
