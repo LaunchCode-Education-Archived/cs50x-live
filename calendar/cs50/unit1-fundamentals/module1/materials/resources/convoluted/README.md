@@ -1,10 +1,8 @@
 # Convoluted
 
-*TODO check that [convoluted.c](./convoluted.c) actually runs*
-
 Variables can help us avoid writing overly complicated one-liners of convoluted code.
 
-Use variables to break your code up into clean, manageable steps spread over multiple lines.
+Use variables to break your code up into clean, manageable steps over multiple lines.
 
 Good code == **readable** code
 
