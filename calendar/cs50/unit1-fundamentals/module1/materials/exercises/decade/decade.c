@@ -18,6 +18,6 @@ int main(void)
   }
   else 
   {
-    printf("You gotcher whole life aheddaya.\n")
+    printf("You gotcher whole life aheddaya.\n");
   }
 }
