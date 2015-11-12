@@ -24,6 +24,12 @@ Count down from: 5
 BLAST OFF!
 ```
 
+```
+$ ./countdown
+Count down from: 0
+BLAST OFF!
+```
+
 Watch out for negative numbers! If the user gives you a negative number, you should continue prompting until they 
 behave more responsibly: 
 ```
@@ -41,7 +47,9 @@ Or optionally, you can implement the program such that whenever receiving a nega
 $ ./countdown
 Count down from: -2
 ```
+$ ./countdown
+Count down from: -2
 -2...
 -1...
 BLAST OFF!
-```
+``` 
