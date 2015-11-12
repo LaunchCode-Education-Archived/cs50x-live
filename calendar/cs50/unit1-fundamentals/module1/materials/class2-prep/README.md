@@ -26,7 +26,7 @@ Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Read | Lecture Notes | [w1-continued/Loops](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#loops)
 Read | Lecture Notes | [w1-continued/Loops, continued](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#loops_continued)
-Read | Short Watch: [Loops](https://www.youtube.com/watch?v=HHmiHx7GGLE)
+Watch | Short | [Loops](https://www.youtube.com/watch?v=HHmiHx7GGLE)
 Follow-Along | Walkthrough | [Positive](https://www.youtube.com/watch?v=1CHoS1xZMIk)
 DO | Exercise | [Simple for-loop](TODO) | TODO
 Watch | Doug's Playlist | [Loops](https://www.youtube.com/watch?v=rBEwCpvwdPY&index=5&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA)
