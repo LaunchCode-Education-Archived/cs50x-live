@@ -16,9 +16,9 @@ Watch | Doug's Playlist | [Conditional Statements](https://www.youtube.com/watch
 Read | Lecture Notes | [Conditions](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#conditions)
 Follow-Along | Walkthrough | [conditions-0](https://www.youtube.com/watch?v=kBRUERguBPc&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=2)
 Follow-Along | Walkthrough | [conditions-1](https://www.youtube.com/watch?v=-MUZL3kiPKI&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=3)
-Do | Exercise | [Age Limits](../exercises/age-restrictions) | 
+Do | Exercise | [Age Restrictions](../exercises/age-restrictions) | 
 Watch | Short | [Boolean Values](https://youtu.be/M058skV1iL0?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC)
-Watch | Doug's Playlist |  [Operators](https://www.youtube.com/watch?v=JFieJW_kZq4&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=2)
+Watch | Doug's Playlist | [Operators](https://www.youtube.com/watch?v=JFieJW_kZq4&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=2)
 Do | Exercise | [|| && !](TODO) | *TODO -- an exercise combining multiple boolean expressions*
 
 ##### Loops:
