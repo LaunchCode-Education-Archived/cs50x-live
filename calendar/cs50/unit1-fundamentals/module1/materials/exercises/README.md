@@ -3,16 +3,15 @@
 # Exercises
 
 #### Class 1 Prep
-1. [haiku]()
-2. [book]()
-3. [percentages]()
+1. [Haiku](./haiku)
+2. [Book](./book)
 
 #### Class 2 Prep
-* conditions (TODO)
+* [Age Restrictions](./age-restrictions)
 * assignment vs equality 
 * calling a function like atoi() (TODO)
 * variables (TODO)
-* same loop three different ways (TODO)
+* [Countdown](./countdown)
 
 #### Class 3 Prep
 * validating input (TODO)
