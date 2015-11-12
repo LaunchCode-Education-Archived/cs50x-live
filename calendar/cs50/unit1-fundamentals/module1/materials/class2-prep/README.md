@@ -28,9 +28,8 @@ Read | Lecture Notes | [w1-continued/Loops](http://cdn.cs50.net/2015/fall/lectur
 Read | Lecture Notes | [w1-continued/Loops, continued](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#loops_continued)
 Watch | Short | [Loops](https://www.youtube.com/watch?v=HHmiHx7GGLE)
 Follow-Along | Walkthrough | [Positive](https://www.youtube.com/watch?v=1CHoS1xZMIk)
-DO | Exercise | [Countdown](../exercises/countdown)
 Watch | Doug's Playlist | [Loops](https://www.youtube.com/watch?v=rBEwCpvwdPY&index=5&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA)
-Watch | Section | [Week 1 /loops](https://youtu.be/kpSLlIj97Ss?t=1419)
+DO | Exercise | [Countdown](../exercises/countdown)
 
 ##### Variables: 
 Task | Resource Type | Link | Instructions
