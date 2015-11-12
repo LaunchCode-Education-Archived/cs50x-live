@@ -37,9 +37,10 @@ Count down from: 3
 BLAST OFF!
 ```
 
-Or optionally, you can implement the program so that if it receives a negative number, it counts **up**:
+Or optionally, you can implement the program such that whenever receiving a negative number, it counts **up** rather than down:
 $ ./countdown
 Count down from: -2
+```
 -2...
 -1...
 BLAST OFF!
