@@ -4,8 +4,8 @@ Write a program that prints a 3-line Haiku to the console, like this:
 
 $ ./haiku
 ```
-TODO this should be
-a haiku that also provides
-a helpful hint
+Learning how to code
+is a thing I like to do
+more often than not
 ```
-You can make up your own haiku or just use the one from the example.
+Make up your own haiku, if feeling creative. You're even allowed to talk bad about coding.
