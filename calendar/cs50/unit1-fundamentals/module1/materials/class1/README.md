@@ -7,18 +7,11 @@ For homework you should have done: [Prep for Class 1](../class1-prep)
 ##### Today
 We'll do these things:
 
-1- Q&A on the following topics:
-
-* getting user input
-* printing things
-* math in C
-
-2- Studio: Conversions
-
-### Studio: Coversions
-TODO Some kind of exercise that involves mathematical conversions similar to pset1 / smart water
-
-***
+1. Q&A on the following topics:
+  * getting user input
+  * printing things
+  * math in C
+2. Studio: [Donuts](../studios/donuts)
 
 ### Homework
 
