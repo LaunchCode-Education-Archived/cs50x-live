@@ -44,8 +44,6 @@ BLAST OFF!
 ```
 
 Or optionally, you can implement the program such that whenever receiving a negative number, it counts **up** rather than down:
-$ ./countdown
-Count down from: -2
 ```
 $ ./countdown
 Count down from: -2
