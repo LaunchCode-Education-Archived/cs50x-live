@@ -42,6 +42,7 @@ TODO | Read | [Lecture Notes: Week 3, continued / Compiling](http://cdn.cs50.net
 TODO | Watch | [Shorts: Compilers](http://cs50.tv/2012/fall/shorts/compilers/compilers-720p.mp4)
 TODO | Watch | [Shorts: Clang, Make](http://cs50.tv/2012/fall/shorts/make_clang/make_clang-720p.mp4)
 TODO | Watch | [Shorts: Libraries](http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4)
+TODO | Watch | Section | [Compilation Process](https://youtu.be/XRvvitgap5Y?t=2549)
 TODO | Read | [Supplement: Spread Out](../supplemental-resources/spread-out) | TODO res: example of a program in which some work is pulled out and placed into a separate file
 TODO | DO | [Exercise: Spread Out](../exercises/spread-out) | TODO exc: make them refactor a program into multiple files
 
