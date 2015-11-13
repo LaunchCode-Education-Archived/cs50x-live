@@ -8,8 +8,8 @@
 
 #### Class 2 Prep
 * [Age Restrictions](./age-restrictions)
-* assignment vs equality 
-* calling a function like atoi() (TODO)
+* [Decade](./decade)
+* [Call Func](./call-func)
 * variables (TODO)
 * [Countdown](./countdown)
 
