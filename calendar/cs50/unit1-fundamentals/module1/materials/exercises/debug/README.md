@@ -30,7 +30,7 @@ have been creating by following-along with David Malan's Walkthrough videos.
   2. Add a breakpoint (little red dot) on line 17 (the first line inside of `main`) by clicking to the left of the number 17
   3. Run the program through the debugger by clicking the green `Debug` button at the top of the IDE.
   4. You should see that the program is paused at line 17. Advance to the next line by clicking the `Step Over`
-  icon in the top right. 
+  icon in the top right (next to the blue `Play / Pause` icon. 
   5. Continue stepping over each line and observe the changing values of variables in the right-hand panel.
   6. A couple times, you'll have to go back to the terminal and enter an integer, because the program is expecting 
   an integer from the user
