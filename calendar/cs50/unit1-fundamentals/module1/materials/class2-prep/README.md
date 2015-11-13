@@ -57,8 +57,8 @@ Read | Supplement | [Convoluted](../resources/convoluted)
 ##### Debugging
 | Task | Resource Type | Link | Instructions |
 |------|---------------|------|--------------|
-| Watch | Section | [Debugging with Dan Armendariz](https://www.youtube.com/watch?v=-G_klBQLgdc) | Watch the first 5.5 minutes, where he debugs a program using print statements
-| Do | Exercise | [Debug](../exercises/debug) | TODO exc: give them a 5-10 line program with a bug. Make them add print statements between each step. Problem becomes obvious
+| Follow-Along | Section | [Debugging with Dan Armendariz](https://www.youtube.com/watch?v=-G_klBQLgdc) | The Debugger is an awesome tool that will help you understand what the heck your code is doing by letting you observe, line by line, as it executes. As you watch this demo video, copy everything Dan does in your own IDE.
+| Do | Exercise | [Debug](../exercises/debug) | 
 
 ***
 
