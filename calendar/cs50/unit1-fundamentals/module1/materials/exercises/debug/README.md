@@ -37,7 +37,7 @@ have been creating by following-along with David Malan's Walkthrough videos.
   7. Hopefully this is giving you a more tangible feel for what happens when `adder` executes. 
   Feel free to tinker with the program and run it again.
 6. Repeat this proccess for each of the following source files:
-  * `src1w/conditions-0.c` 
+  * `src1w/conditions-1.c` 
   * `src1w/hello-1.c` 
   * `src1w/hello-2.c` 
   * `src1w/nonswitch.c`
