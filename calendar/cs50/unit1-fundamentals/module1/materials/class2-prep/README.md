@@ -50,7 +50,7 @@ Read | Supplement | [Convoluted](../resources/convoluted)
 |------|---------------|------|--------------|
 | Watch | Short | [Libraries](https://youtu.be/ED7QtgXDShY?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC) |
 | Read | Lecture Notes | [w1-continued/Functions and arguments](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments) | |
-| Do | Exercise | [Call Func](../exercises/call-func) | TODO exc: something to get them comfortable calling library functions like roundf()
+| Do | Exercise | [Call Func](../exercises/call-func) | TODO exc: something to get them comfortable calling library functions like round()
 
 ***
 
