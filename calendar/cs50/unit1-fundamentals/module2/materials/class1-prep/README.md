@@ -26,12 +26,12 @@ TODO | Follow-Along | [walkthroughs/ascii-0](TODO), [walkthroughs/ascii-1](TODO)
 #### Functions:
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
-TODO | Read | [Lecture Notes: Functions and Arguments](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments)
 TODO | Read | [Resource: Calling Functions](../resources/callingfunctions) | TODO res: review of how to call a library function. Understanding return value vs side effect.
 TODO | Do Exercise | [Exercise: strlen](../exercises/strlen) | TODO exc: make them use the strlen function
 TODO | Read | [Resource: Creating Functions](../resources/creatingfunctions) | TODO res: explain that in addition to using other people's functions like `printf` and `atoi`, we can also write our own. 
+TODO | Read | [Lecture Notes: Functions and Arguments](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments)
 TODO | Follow-Along | [walkthroughs/functions-0](https://www.youtube.com/watch?v=9zoRoz8Pq4E&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=13), [walkthroughs/functions-1](TODO)
-TODO | Resource | [Resource: Step Through](../resources.stepthrough) | TODO res: give a detailed picture of the ORDER in which code gets executed when you call a subroutine. Ideally use the debugger. Otherwise use print statements and maybe draw a picture / video
+TODO | Do Exercise | [Exercise: Step Into](../exercises/step-into) | TODO exc: make them step through source code from walkthroughs (cough0-4, functions0-1) in the Debugger, similar to module1/exercises/debug. Introduce the Step Into button.
 20 mins | Watch | [Doug's Playlist / Functions](https://www.youtube.com/watch?v=jtuMIHebSu8&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=2)
 TODO | Do Exercise | [Exercise: Next Num](../exercises/nextnum) | TODO exc: have them refactor a program that computes the next number after an input value, by pulling functionality out of main and into a function with signature `int successor(int n)`
 TODO | Watch Video | [shorts/Return Values](https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF) | TODO: Potentially scrap this. Somewhat confusingly presented-- `void` as "simplest return type", and last example uses file i/o, which will be scary and unfamiliar.
