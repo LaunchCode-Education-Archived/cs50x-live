@@ -11,7 +11,7 @@
 #### Class 2 Prep
 1. [Age Restrictions](./age-restrictions)
 2. [Decade](./decade)
-3. [Validate](./validate) (TODO)
+3. [Validate](./validate)
 4. [Countdown](./countdown)
 5. [Call Func](./call-func) (TODO)
 6. [Debug](./debug) (TODO)
