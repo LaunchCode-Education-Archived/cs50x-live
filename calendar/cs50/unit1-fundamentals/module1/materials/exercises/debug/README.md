@@ -36,4 +36,12 @@ have been creating by following-along with David Malan's Walkthrough videos.
   an integer from the user
   7. Hopefully this is giving you a more tangible feel for what happens when `adder` executes. 
   Feel free to tinker with the program and run it again.
-6. Repeat this proccess for each of the source code files you just downloaded.
+6. Repeat this proccess for each of the following source files:
+  1. `src1w/conditions-0.c` 
+  2. `src1w/hello-1.c` 
+  3. `src1w/hello-2.c` 
+  4. `src1w/nonswitch.c`
+  6. `src1f/f2c.c`
+  7. `src1w/thadgavin.c` (if you dare!)
+
+TODO some loop material??
