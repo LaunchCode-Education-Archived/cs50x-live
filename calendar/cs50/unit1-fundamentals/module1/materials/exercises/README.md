@@ -16,5 +16,5 @@
 5. [Call Func](./call-func)
 
 #### Maybe Somewhere ?
-* variables (TODO)
-* more practice nesting control flow (TODO)
+* [Variables](./variables) -- refactoring code to use more variables (TODO)
+* [Nest](./nest) -- more practice nesting control flow (TODO)
