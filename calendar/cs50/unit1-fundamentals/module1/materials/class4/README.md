@@ -3,8 +3,9 @@
 # Class 4
 
 ### During Class
-
-Office Hours: continue working on [Pset1](). 
+1. Studios
+  * [Repeat](../studios/repeat) 
+2. Office Hours: continue working on [Pset1](). 
 
 ### Homework
 1. Finish [Pset1]()
