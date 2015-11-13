@@ -11,9 +11,10 @@
 #### Class 2 Prep
 1. [Age Restrictions](./age-restrictions)
 2. [Decade](./decade)
-3. [Validate](./validate)
+3. [Validate](./validate) (TODO)
 4. [Countdown](./countdown)
-5. [Call Func](./call-func)
+5. [Call Func](./call-func) (TODO)
+6. [Debug](./debug) (TODO)
 
 #### Maybe Somewhere ?
 * [Variables](./variables) -- refactoring code to use more variables (TODO)
