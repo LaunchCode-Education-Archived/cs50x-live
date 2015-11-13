@@ -41,6 +41,7 @@ Read | Lecture Notes | [Week 1 / types](http://http://cdn.cs50.net/2015/fall/lec
 Watch | Doug's Playlist | [Datatypes](https://www.youtube.com/watch?v=JFieJW_kZq4&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=2)
 Watch | Section | [Week 1 / data types](http://https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=youtu.be&t=801). |
 Follow-Along | Walkthrough | [f2c](https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4) |  
+Do | Exercise | [Percent](../exercises/percent) |  
 Watch | Short | [Precedence](https://www.youtube.com/watch?v=aUxqesKDdEc)|  | Stop watching at 3:15 
 Do | Exercise | [Exercise: PEMDAS](../exercises/pemdas) |  | 
 
