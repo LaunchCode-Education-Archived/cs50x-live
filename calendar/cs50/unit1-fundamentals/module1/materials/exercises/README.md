@@ -14,7 +14,7 @@
 * [Validate](./validate)
 * [Countdown](./countdown)
 * [Call Func](./call-func)
-* variables (TODO)
 
-?
+Maybe Somewhere ?
+* variables (TODO)
 * more practice nesting control flow (TODO)
