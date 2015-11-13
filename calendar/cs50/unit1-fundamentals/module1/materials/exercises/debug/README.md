@@ -25,7 +25,7 @@ $ ls
 a bunch of .c files!
 4. You might notice that the names of some of them look familiar. Indeed, these are the same programs you
 have been creating by following-along with David Malan's Walkthrough videos.
-5. Now for the fun part: 
+5. Now the fun part: 
   1. Open up `adder.c`
   2. Add a breakpoint (little red dot) on line 17 (the first line inside of `main`) by clicking to the left of the number 17
   3. Run the program through the debugger by clicking the green `Debug` button at the top of the IDE.
