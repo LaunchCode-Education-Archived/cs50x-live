@@ -9,7 +9,7 @@ For homework you should have done: [Prep for Class 2](../class2-prep)
   * some stuff here
 2. Studios:
   * [Guess](../studios/guess)
-  * [Lovely Rectangle](../studios/lovely-rectangle)
+  * [Lovely Rectangle](../studios/rectangle)
 
 ### Homework
 * Do [Prep for Class 3](../class3-prep)
