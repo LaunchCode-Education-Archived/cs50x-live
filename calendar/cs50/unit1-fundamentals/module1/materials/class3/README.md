@@ -8,14 +8,13 @@ Before coming to class please complete [Prep for Class 3](../class3-prep).
 ### During Class
 
 1. Q&A / Lecture on the following topics:
-  * typecasting
   * nesting control flow
-  * validating user input
-  * more on functions
-  * debugging using print statements (TODO: GUI debugger?)
+  * calling library functions
 2. Studios
   * [Repeat](../studios/repeat) 
+2. Office Hours: continue working on [Pset1](). 
 
 ### Homework
-* Continue working on [Pset1](). Try to finish Mario and get some progress on Change
+1. Finish [Pset1]()
+2. [Prep]() for Module 2 / Class 1
 
