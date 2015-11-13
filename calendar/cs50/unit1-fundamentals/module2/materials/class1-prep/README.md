@@ -7,12 +7,17 @@ Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 30-45 mins | Watch Video | [Lecture: Week 2](TODO) | 
 
-#### Typecasting, Chars, ascii:
+#### Typecasting:
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
-10 mins | Watch Video | [Short: Typecasting](https://www.youtube.com/watch?v=4XTSxFSs3kI&list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC&index=9) | (again)
+10 mins | Watch Video | [Short: Typecasting](https://www.youtube.com/watch?v=4XTSxFSs3kI&list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC&index=9)
+Read | Supplement |[Typecasting](../resources/typecasting)
+Do | Exercise | [Typecasting](../exercises/typecasting) | TODO
 TODO | Follow-Along | [Walkthrough: floats-0](https://www.youtube.com/watch?v=Eycgpd_HUIA&index=10&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU), [Walkthrough: floats-1](TODO), [walkthroughs/floats-2](TODO)
-TODO | Exercise | [Exercise: Percent](TODO move from module 1) |  
+
+#### Chars, ASCII:
+Time Estimate | Task | Link | Instructions
+--------------|------|------|-------------
 TODO | Read | [Resource: Chars](../resources/Chars) | TODO briefly introduce the `char` type, and explain that strings we've seen so far are just a sequences of chars.
 TODO | Read | [Resource: Three Letter Word](resources/threeletterword) | TODO an exmaple program that asks for three letters, one `char` at a time, and then prints "That spells %c%c%c!"
 TODO | Read | [Lecture Notes: Week 2 / Typecasting](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting)
