@@ -19,7 +19,7 @@ Hello World! | Problem Set | [pset1/helloworld](http://cdn.cs50.net/2015/fall/ps
 Watch | Doug's Playlist | [Command-Line](https://www.youtube.com/watch?v=poT5Yd0Ag8I&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=1)
 Watch | Section | [Week 1 / IDE](https://www.youtube.com/watch?v=kpSLlIj97Ss) | Watch the first 13 minutes where they demo using the IDE, running some linux commands in the terminal, and writing a *hello, world* program
 
-##### Printf:
+##### Printing, Getting user input:
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Follow-Along | Walkthrough | [Hello-0](https://www.youtube.com/watch?v=bQnyxpf0vk0) | Watch a video in which David Malan or another instructor writes some code. As you watch, follow along by creating your own copy of the same program. Afterwards, poke around and tinker with your program: Change something, re-run, break it, fix it.
