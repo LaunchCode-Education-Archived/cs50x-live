@@ -3,7 +3,7 @@
 # Class 3
 
 ### Before Class
-Before coming to class please complete [Prep for Class 3](../class3-prep).
+No prep work. Toil away on [Pset1](TODO)
 
 ### During Class
 
