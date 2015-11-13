@@ -26,6 +26,7 @@ TODO | Follow-Along | [walkthroughs/ascii-0](TODO), [walkthroughs/ascii-1](TODO)
 #### Functions:
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
+TODO | Read | [Lecture Notes: Functions and Arguments](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments)
 TODO | Read | [Resource: Calling Functions](../resources/callingfunctions) | TODO res: review of how to call a library function. Understanding return value vs side effect.
 TODO | Do Exercise | [Exercise: strlen](../exercises/strlen) | TODO exc: make them use the strlen function
 TODO | Read | [Resource: Creating Functions](../resources/creatingfunctions) | TODO res: explain that in addition to using other people's functions like `printf` and `atoi`, we can also write our own. 
