@@ -12,5 +12,4 @@ For homework you should have done: [Prep for Class 2](../class2-prep)
   * [Lovely Rectangle](../studios/rectangle)
 
 ### Homework
-* Do [Prep for Class 3](../class3-prep)
 * Try to finish [Pset1/Mario](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#itsa_mario)
