@@ -8,6 +8,7 @@ Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Watch | Lecture | [Week 1, Continued](https://youtube.com/watch?v=YiiHNiSfmKI)
 
+***
 
 ##### Conditions, Booleans:
  Task | Resource Type | Link | Instructions
@@ -20,6 +21,8 @@ Do | Exercise | [Age Restrictions](../exercises/age-restrictions) |
 Watch | Short | [Boolean Values](https://youtu.be/M058skV1iL0?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC)
 Watch | Doug's Playlist | [Operators](https://www.youtube.com/watch?v=_FC-8QaaYgs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=3)
 Do | Exercise | [Decade](../exercises/decade) 
+
+***
 
 ##### Loops:
 Task | Resource Type | Link | Instructions
