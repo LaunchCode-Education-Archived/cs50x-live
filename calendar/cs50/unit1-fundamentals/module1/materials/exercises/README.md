@@ -9,11 +9,11 @@
 4. [Marathon](./marathon)
 
 #### Class 2 Prep
-* [Age Restrictions](./age-restrictions)
-* [Decade](./decade)
-* [Validate](./validate)
-* [Countdown](./countdown)
-* [Call Func](./call-func)
+1. [Age Restrictions](./age-restrictions)
+2. [Decade](./decade)
+3. [Validate](./validate)
+4. [Countdown](./countdown)
+5. [Call Func](./call-func)
 
 #### Maybe Somewhere ?
 * variables (TODO)
