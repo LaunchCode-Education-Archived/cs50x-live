@@ -47,4 +47,4 @@ Do | Exercise | [Exercise: PEMDAS](../exercises/pemdas) |  |
 
 ***
 
-Now you're ready for [Class 1](../class1)!
+####Now you're ready for [Class 1](../class1)!
