@@ -4,38 +4,13 @@
 
 **Assignment** By the end of this module you will have completed [Pset 2]()
 
-### Steps
+### Schedule
 
 Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
-**Class 1**| [Prep Work](./class1-prep) | [In Class](./class1) | chars, functions, scope, strings, modulo|
-**Class 2**| [Prep Work](./class2-prep) | [In Class](./class2) | more strings, arrays, command-line arguments |
-**Class 3**| Continue [Pset2](http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html) | [In Class](./class3) | (office hours!)|
-
-
-### Old format -- consider removing
-1. [Prep](./class1-prep) for Class 1
-2. Go to [Class 1](./class1)
-3. [Prep](./class1-prep) for Class 2
-4. Go to [Class 2](./class2)
-5. Go to [Class 3](./class3) 
-6. Finish [Pset2](TODO)
-
-### Topics 
-
-* chars
-  * ascii 
-  * typecasting ints to chars
-* arrays
-* memory
-* strings
-  * indexing into them
-  * iterating over them
-  * the fact that they are arrays of chars
-* command-line args
-* modulo operator
-* more practice with functions
-* more practice on how to debug
+**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | chars, functions, scope, strings, modulo|
+**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | more strings, arrays, command-line arguments |
+**Class 3**| Continue [Pset2](http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html) | [In Class](./materials/class3) | (office hours!)|
 
 ### Tricky Concepts / Things to Emphasize
 * c syntax for declaring an array is awful because the `[]` comes after the name of the variable rather than the name of the type, e.g. `string argv[]` rather than the more sensible `string[] argv`. This adds another little thing to impede understanding for beginners, something to be aware of and talk about explicitly.
@@ -55,7 +30,7 @@ the **index** at which you are reading, vs the actual **value** in the array at 
 * again, use variables smartly. 
   * If you can't come up with a good name, that means you dont fully understand what you're trying to do, so you should stop and figure that out first
  
-##### Useful functions
+##### Useful functions TODO move, delete, or keep this?
 * [isAlpha](https://reference.cs50.net/ctype.h/isalpha)
 * [isUpper](https://reference.cs50.net/ctype.h/isupper)
   
