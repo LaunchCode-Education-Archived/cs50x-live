@@ -28,6 +28,7 @@ Read | Lecture Notes | [w1-continued/Loops](http://cdn.cs50.net/2015/fall/lectur
 Read | Lecture Notes | [w1-continued/Loops, continued](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#loops_continued)
 Watch | Short | [Loops](https://www.youtube.com/watch?v=HHmiHx7GGLE)
 Follow-Along | Walkthrough | [Positive](https://www.youtube.com/watch?v=1CHoS1xZMIk)
+Do | Exercise | [Validate](../exercises/validate)
 Watch | Doug's Playlist | [Loops](https://www.youtube.com/watch?v=rBEwCpvwdPY&index=5&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA)
 DO | Exercise | [Countdown](../exercises/countdown)
 
@@ -36,6 +37,8 @@ Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Watch | Short | [Variables](https://www.youtube.com/watch?v=FPL_0lpzBjo)
 Read | Supplement | [Convoluted](../resources/convoluted)
+
+***
 
 ### Now you're ready for [Class 2](../class2)!
 
