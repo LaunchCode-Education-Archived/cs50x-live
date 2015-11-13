@@ -4,7 +4,7 @@
 
 You run a hip donut shop, the Loop Hole, which, in its short lifetime, has already rocked the donut market with 
 numerous disruptions, including:
-* a minimalist menu consisting of just one type of donut per day: Manager's Special. always Manager's Special.
+* a minimalist menu consisting of just one type of donut per day: Manager's Special. Always Manager's Special.
 * giving consumers the option to order fractional amounts of donuts, e.g. 1.7 donuts, please.
 * a progressive pay-what-you-want pricing system, in which the customer pays what s/he thinks is a fair price. (Of
 course, you do provide a "suggested price".)
