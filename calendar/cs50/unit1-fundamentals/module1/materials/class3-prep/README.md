@@ -4,9 +4,6 @@
 
 | Task | Resource Type | Link | Instructions |
 |------|---------------|------|--------------|
-| Read | Supplement |[Typecasting](../resources/typecasting)
-| Watch | Short | [Type-Casting](https://www.youtube.com/watch?v=4XTSxFSs3kI)
-| Do | Exercise | [Typecasting](../exercises/typecasting) | TODO
 | Do | Exercise | [Validate](../exercises/Validate) | TODO exercise that requires using GetInt() and validating it (must fall in a certain range)
 | Watch | Short | [Libraries](https://youtu.be/ED7QtgXDShY?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC) |
 | Read | Lecture Notes | [w1-continued/Functions and arguments](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments) | |
