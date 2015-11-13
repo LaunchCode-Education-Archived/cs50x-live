@@ -59,5 +59,5 @@ TODO | Follow-Along | [walkthroughs/capitalize-0](https://www.youtube.com/watch?
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
 TODO | Read | [Resource: Modulo](TODO) | TODO res: introduce `%` and give some examples
-Watch | Doug's Playlist | [Operators](https://www.youtube.com/watch?v=_FC-8QaaYgs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=3) | (Again. Just watch the part about `%` if you prefer)
+Watch | Doug's Playlist | [Operators](https://www.youtube.com/watch?v=_FC-8QaaYgs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=3) | (Again. Just watch the <a href="https://youtu.be/_FC-8QaaYgs?list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&t=119" target="_blank">part about modulo</a> if you prefer)
 TODO | Do Exercise | [Exercise: Clock](TODO) | TODO exc: write a program that receives an int number of hours and then calculates what time it will be that many horus in the future
