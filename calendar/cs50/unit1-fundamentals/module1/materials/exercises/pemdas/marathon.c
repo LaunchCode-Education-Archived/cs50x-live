@@ -18,6 +18,6 @@ int main(void)
   float mph = miles_run / hours_so_far;
   hours_remaining == 26.2 - miles_run / mph;
   
-  prtintf("At this rate, you have %f hours left.", hours_remaining);
+  printf("At this rate, you have %f hours left.", hours_remaining);
   
 }
