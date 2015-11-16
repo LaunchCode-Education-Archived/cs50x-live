@@ -34,6 +34,24 @@ Read | Lecture Notes | [Week 4 / Swap](http://cdn.cs50.net/2015/fall/lectures/4/
 Read | Lecture Notes | [Week 4 / Debugging](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide)
 Read | Lecture Notes | [Week 4 / Pointers](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers)
 Read | Lecture Notes | [Week 4, continued / Files, Headers and Hex](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#files_headers_and_hex)
-Read | Lecture Notes | [Week 4, continued /](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#structs)
-Read | Lecture Notes | [Week 4, continued /](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers)
-Read | Lecture Notes | [Week 4, continued /](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#memory_allocation)
+Read | Lecture Notes | [Week 4, continued / Structs](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#structs)
+Read | Lecture Notes | [Week 4, continued / Strings and Pointers](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers)
+Read | Lecture Notes | [Week 4, continued / Memory Allocation](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#memory_allocation)
+
+**Walkthroughs**
+
+Task | Type | Link | Notes
+-----|------|------|------
+Watch | Walkthrough | [compare-0](https://www.youtube.com/watch?v=Q9d8F9dXxbA&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=1) | comparing strings (broken)
+Watch | Walkthrough | [compare-1](https://www.youtube.com/watch?v=jE_bs-QNj3c&index=2&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | comparing strings (fixed)
+Watch | Walkthrough | [copy-0](https://www.youtube.com/watch?v=zwKBMSLYrk4&index=3&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | copy a string (broken)
+Watch | Walkthrough | [copy-1](https://www.youtube.com/watch?v=ebQSYaneMms&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=4) | copy string (fixed)
+Watch | Walkthrough | [noswap](https://www.youtube.com/watch?v=ETSddwPGjNM&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=5) | swap (broken)
+Watch | Walkthrough | [pointers](https://www.youtube.com/watch?v=1PoFw5_p0xk&index=6&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | print str one char at a time using pointers
+Watch | Walkthrough | [scanf-0](https://www.youtube.com/watch?v=l1sfaAyt6ac&index=7&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | custom GetInt
+Watch | Walkthrough | [scanf-1](https://www.youtube.com/watch?v=4zS7RTnRuWY&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=8) | custom GetString, buggy and dangerous
+Watch | Walkthrough | [scanf-2](https://www.youtube.com/watch?v=TJK6l_SBLnk&index=9&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | custom GetString (fixed)
+Watch | Walkthrough | [sigma-0](https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10) | sumtorial (iterative)
+Watch | Walkthrough | [sigma-1](https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | sumtorial (recursive)
+Watch | Walkthrough | [structs-0](https://www.youtube.com/watch?v=yMvRqKmbRm4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=12) | struct for a "student" object  
+Watch | Walkthrough | [stucts-1](https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | student structs written to csv file
