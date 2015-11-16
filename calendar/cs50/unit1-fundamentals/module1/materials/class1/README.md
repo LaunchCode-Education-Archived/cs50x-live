@@ -11,7 +11,7 @@ We'll do these things:
   * getting user input
   * printing things
   * math in C
-2. Studio: [Donuts](../studios/donuts)
+2. [Studio: Donuts](../studios/donuts)
 
 ### Homework
 
