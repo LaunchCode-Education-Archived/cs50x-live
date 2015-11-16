@@ -60,10 +60,10 @@ Watch | Walkthrough | [stucts-1](https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&ind
 
 Task | Type | Link | Notes
 -----|------|------|------
-Watch | Short | [File I/O](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
+Watch | Short | [File I/O](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | examples of reading from and writing to files. `fpoen` `fclose` `fgets` `fputs`
 Watch | Short | [GDB](https://www.youtube.com/watch?v=USPvePv1uzE&index=2&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
-Watch | Short | [Merge Sort](https://www.youtube.com/watch?v=USPvePv1uzE&index=2&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
-Watch | Short | [Pointers](https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4)
+Watch | Short | [Merge Sort](https://www.youtube.com/watch?v=USPvePv1uzE&index=2&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | TODO this probably was meant for week 3
+Watch | Short | [Pointers](https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4) | seems like a good intro; leads with "up till now, we've only seen..."
 Watch | Short | [Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY&index=5&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
 Watch | Short | [Strings](https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
 Watch | Short | [Structs](https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
@@ -91,3 +91,9 @@ Watch | Section | [Jaon Hirschorn on Pointers](https://youtu.be/SppBaGROtX0?t=37
 Task | Type | Link | Notes
 -----|------|------|------
 Study | CS50 Study | [file i/o, pointers, malloc](https://study.cs50.net/?toc=io,pointers,malloc)
+
+
+### Possible Supplements
+* talk explicitly about weird design-choices / conventions with pointers:
+  * the two different meanings of `*` 
+  * the convention of `char *s` instead of `char* s`
