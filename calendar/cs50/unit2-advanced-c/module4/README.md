@@ -57,6 +57,9 @@ Watch | Walkthrough | [structs-0](https://www.youtube.com/watch?v=yMvRqKmbRm4&li
 Watch | Walkthrough | [stucts-1](https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | student structs written to csv file
 
 **Shorts**
+
+Task | Type | Link | Notes
+-----|------|------|------
 Watch | Short | [File I/O](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
 Watch | Short | [GDB](https://www.youtube.com/watch?v=USPvePv1uzE&index=2&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
 Watch | Short | [Merge Sort](https://www.youtube.com/watch?v=USPvePv1uzE&index=2&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
