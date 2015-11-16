@@ -55,3 +55,36 @@ Watch | Walkthrough | [sigma-0](https://www.youtube.com/watch?v=C-J0fKmwKmw&list
 Watch | Walkthrough | [sigma-1](https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | sumtorial (recursive)
 Watch | Walkthrough | [structs-0](https://www.youtube.com/watch?v=yMvRqKmbRm4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=12) | struct for a "student" object  
 Watch | Walkthrough | [stucts-1](https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | student structs written to csv file
+
+**Shorts**
+Watch | Short | [File I/O](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
+Watch | Short | [GDB](https://www.youtube.com/watch?v=USPvePv1uzE&index=2&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
+Watch | Short | [Merge Sort](https://www.youtube.com/watch?v=USPvePv1uzE&index=2&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
+Watch | Short | [Pointers](https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4)
+Watch | Short | [Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY&index=5&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
+Watch | Short | [Strings](https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
+Watch | Short | [Structs](https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
+
+**Doug**
+
+Task | Type | Link | Notes
+-----|------|------|------
+Watch | Doug's Playlist [Hexedecimal](https://www.youtube.com/watch?v=nrFHGtGdOzA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq)
+Watch | Doug's Playlist [Pointers](https://www.youtube.com/watch?v=yOdd3uYC--A&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=2)
+Watch | Doug's Playlist [Dynamic Memory Allocation](https://www.youtube.com/watch?v=ywqB3ZTf8OE&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=3)
+Watch | Doug's Playlist [Structs](https://www.youtube.com/watch?v=6RLxPdZ59y0&index=4&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq)
+Watch | Doug's Playlist [Defining Custom Types](https://www.youtube.com/watch?v=wgv4xH_tVgA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=5) | typedef
+Watch | Doug's Playlist [Recursion](https://www.youtube.com/watch?v=VrrnjYgDBEk&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=6)
+Watch | Doug's Playlist [Call Stack](https://www.youtube.com/watch?v=beqqGIdabrE&index=7&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq)
+
+**Section**
+
+Task | Type | Link | Notes
+-----|------|------|------
+Watch | Section | [Jaon Hirschorn on Pointers](https://youtu.be/SppBaGROtX0?t=370) | really good
+
+**Study**
+
+Task | Type | Link | Notes
+-----|------|------|------
+Study | CS50 Study | [file i/o, pointers, malloc](https://study.cs50.net/?toc=io,pointers,malloc)
