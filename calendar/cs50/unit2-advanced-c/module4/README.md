@@ -17,12 +17,14 @@
 ### Resources
 
 **Lecture**
+
 Task | Type | Link | Notes
 -----|------|------|------
 Watch | Lecture | [Week 4](http://www.youtube.com/embed/SadMsthVUBM?autoplay=1&rel=0&start=0) |
 Watch | Lecture | [Week 4, continued](http://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=0) |
 
 **Lecture Notes**
+
 Task | Type | Link | Notes
 -----|------|------|------
 Read | Lecture Notes | [Week 4 / Recursion](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#recursion) |
