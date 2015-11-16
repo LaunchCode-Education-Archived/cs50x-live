@@ -29,7 +29,7 @@ Task | Type | Link | Notes
 -----|------|------|------
 Read | Lecture Notes | [Week 4 / Recursion](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#recursion) |
 Read | Lecture Notes | [Week 4 / Sigma](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#sigma)
-Read | Lecture Notes | [Week 4 / ](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide)
+Read | Lecture Notes | [Week 4 / IDE Debugger ](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide)
 Read | Lecture Notes | [Week 4 / Swap](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#swap)
 Read | Lecture Notes | [Week 4 / Debugging](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide)
 Read | Lecture Notes | [Week 4 / Pointers](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers)
