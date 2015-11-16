@@ -1,6 +1,6 @@
 ##### Module 1
 
-[Back to Class 1](..../materials/class1)
+[Back to Class 1](.../class1)
 
 # Studio: Donuts
 
