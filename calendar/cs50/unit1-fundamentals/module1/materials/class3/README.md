@@ -16,5 +16,5 @@ No prep work. Work away on [Pset1](http://cdn.cs50.net/2015/fall/psets/1/pset1/p
 
 ### Homework
 1. Finish [Pset1](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html)
-2. You're ready for [Module 2!](../../../module2) The next step is to start work on the [Prep for Module 2 / Class 1](../../../module2/class1-prep)
+2. You're ready for [Module 2!](../../../module2) The next step is to start work on the [Prep for Module 2 / Class 1](../../../module2/materials/class1-prep)
 
