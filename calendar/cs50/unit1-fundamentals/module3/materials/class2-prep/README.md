@@ -19,14 +19,24 @@ Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO |
 
-##### Merge Sort, Recursion
+##### Merge Sort
 Time | Task | Link | Instructions
 -----|------|------|-------------
 TODO | Read | [Lecture Notes: Week 3, continued / Merge Sort](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort)
 TODO | Watch Video | [Shorts: Merge Sort](https://www.youtube.com/watch?v=EeQ8pwjQxTM)
+
+##### Recursion
+Task | Type | Link | Notes
+-----|------|------|------
+Watch | Lecture | [Week 4](http://www.youtube.com/embed/SadMsthVUBM?autoplay=1&rel=0&start=0) | Watch the first 25 minues. We're going to dive a little more deeply into recursion now by jumping ahead to some Week 4 content.
+Read | Lecture Notes | [Week 4 / Recursion](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#recursion) |
+Read | Lecture Notes | [Week 4 / Sigma](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#sigma)
+Read | Lecture Notes | [Week 4 / IDE Debugger ](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide)
+TODO | Read | [Supplement: Recursion](../supplementary-resources) | 
+TODO | Follow-Along | [Walkthrough: sigma-0](https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10)
+TODO | Follow-Along | [Walkthrough: sigma-1](https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | Afterwards, step through your program inthe IDE Debugger, just like they did in class.
 TODO | Watch Video | [Doug's Playlist: Recursion](https://www.youtube.com/watch?v=VrrnjYgDBEk) | TODO: leave this for next module?
-TODO | Watch Video | [Shorts: Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY) | (actually it's a Zamyla vid from 2013)
-TODO | Follow-Along | [Supplement: Recursion](../supplementary-resources) | Build your own copy of the program, and then **step through it** using breakpoints in the CS50 IDE Debugger. This will help you get a feel for recursion.
+TODO | Watch Video | [Shorts: Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY) |
 TODO | Do | [Exercise: Fibonacci](../exercises/fibonacci) |
 
 ##### Sorting Algs Summary
