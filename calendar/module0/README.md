@@ -4,7 +4,7 @@ Please work your way through the following material:
 
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
-30-45 mins | Watch Video | [Lecture: Week 0](https://youtube.com/watch?v=zFenJJtAEzE) | Watch the lecture video. We recommend you crank the speed up to 1.5x or 2x. Topics will be covered in more detail later.
+30-45 mins | Watch Video | (<a href="https://youtube.com/watch?v=zFenJJtAEzE" target="_blank">Lecture: Week 0</a>) | Watch the lecture video. We recommend you crank the speed up to 1.5x or 2x. Topics will be covered in more detail later.
 10 mins | Read | [Lecture Notes: Week 1 / Binary](http://cdn.cs50.net/2015/fall/lectures/0/w/notes0w/notes0w.html#binary) | Read over the notes for this section of the lecture. Optionally, you can also rewatch that part of the video.
 10 mins | Watch Video | [Short: Binary](http://cs50.tv/2012/fall/shorts/binary/binary-720p.mp4)
 10 mins | Read | [Lecture Notes: Week 1 / Algorithms](http://cdn.cs50.net/2015/fall/lectures/0/w/notes0w/notes0w.html#algorithms)
