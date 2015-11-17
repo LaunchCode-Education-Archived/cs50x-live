@@ -1,6 +1,8 @@
+#####Module 1
+
 [Go back to Prep for Class 1](../../class1-prep)
 
-###Haiku
+#Exercise: Haiku
 
 Write a program that prints a 3-line Haiku to the console, like this:
 
