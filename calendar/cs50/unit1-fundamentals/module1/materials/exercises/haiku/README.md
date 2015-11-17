@@ -1,4 +1,6 @@
-Haiku
+Go back to [Class 1](../../class1)
+
+###Haiku
 
 Write a program that prints a 3-line Haiku to the console, like this:
 
