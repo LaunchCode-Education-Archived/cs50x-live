@@ -1,5 +1,7 @@
 ##### Module 1
 
+[Go back to Prep for Class 2](../../class2-prep)
+
 # Exercise: Validate
 
 Write a program that prompts the user for an even integer. If they try to swindle you with odd numbers, 
