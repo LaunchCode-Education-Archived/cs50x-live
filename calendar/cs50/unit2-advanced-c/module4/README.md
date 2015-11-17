@@ -84,7 +84,8 @@ Watch | Doug's Playlist [Call Stack](https://www.youtube.com/watch?v=beqqGIdabrE
 
 Task | Type | Link | Notes
 -----|------|------|------
-Watch | Section | [Jaon Hirschorn on Pointers](https://youtu.be/SppBaGROtX0?t=370) | really good
+Watch | Section | [Jason Hirschorn on Pointers](https://youtu.be/SppBaGROtX0?t=370) | really good
+Watch | Andi's Section | [Week 4](https://www.youtube.com/watch?v=hgJqcVcYCXU)
 
 **Study**
 
