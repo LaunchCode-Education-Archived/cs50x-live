@@ -14,4 +14,4 @@ Time Estimate | Task | Link | Instructions
 10 mins | Watch Video | <a href="http://cs50.tv/2013/fall/shorts/scratch/scratch-720p.mp4" target="_blank">Short: Scratch</a>
 1-5 hours | Problem Set | <a href="http://cdn.cs50.net/2015/fall/psets/0/pset0/pset0.html" target="_blank">Pset0</a> | When you're done, submit your project on Vocareum
 
-###Now you're ready for the first day of class! You're next assignment will be to [Prep for Class 1](../cs50/unit1-fundamentals/module1/materials/class1-prep)
+###Now you're ready for the first day of class! The best place to see the course materials is by viewing the [Course Calendar](../calendar)
