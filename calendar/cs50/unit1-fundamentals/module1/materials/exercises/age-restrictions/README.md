@@ -1,5 +1,7 @@
 ##### Module 1
 
+[Go back to Prep for Class 2](../../class2-prep)
+
 # Exercise: Age Restrictions
 
 Write a program that asks the user for their age, and then reports the set of societal activities the user is legally
