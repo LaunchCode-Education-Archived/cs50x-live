@@ -1,5 +1,5 @@
 ##### Module 1
-
+[Go back to Class 2](../../class2)
 # Studio: Lovely Rect<3ngle
 
 Write a program that "draws" a rectangle made of hearts `<3` on the console. 
