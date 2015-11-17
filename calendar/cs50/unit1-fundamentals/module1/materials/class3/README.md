@@ -3,7 +3,7 @@
 # Class 3
 
 ### Before Class
-No prep work. Toil away on [Pset1](TODO)
+No prep work. Work away on [Pset1](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html)
 
 ### During Class
 
@@ -12,9 +12,9 @@ No prep work. Toil away on [Pset1](TODO)
   * calling library functions
 2. Studios
   * [Repeat](../studios/repeat) 
-2. Office Hours: continue working on [Pset1](). 
+2. Office Hours: continue working on [Pset1](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html). 
 
 ### Homework
-1. Finish [Pset1]()
-2. [Prep]() for Module 2 / Class 1
+1. Finish [Pset1](http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html)
+2. You're ready for [Module 2!](../../../module2) The next step is to start work on the [Prep for Module 2 / Class 1](../../../module2/class1-prep)
 
