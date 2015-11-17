@@ -37,9 +37,9 @@ Task | Resource Type | Link | Instructions
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=xmZR2XiwOq4"target="_blank">adder</a> | 
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#imprecision" target="_blank">Week, 1 continued / Imprecision</a>| Read over the notes associated with a portion of the lecture video.  
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c" target="_blank">Week 1 / C</a> |
-Read | Lecture Notes | <a href="http://http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#types" target="_blank">Week 1 / types</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#types" target="_blank">Week 1 / types</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JFieJW_kZq4&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=2" target="_blank">Datatypes</a>
-Watch | Section | <a href="http://https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=youtu.be&t=801" target="_blank">Week 1 / data types</a> |
+Watch | Section | <a href="https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=youtu.be&t=801" target="_blank">Week 1 / data types</a> |
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4" target="_blank">f2c</a> |  
 Do | Exercise | [Percent](../exercises/percent) |  
 Watch | Short | <a href="https://www.youtube.com/watch?v=aUxqesKDdEc" target="_blank">Precedence</a>|  | Stop watching at 3:15 
