@@ -1,5 +1,7 @@
 ##### Module 1
 
+[Go back to Prep for Class 1](../../class1-prep)
+
 # Exercise: Percent
 
 Write a program that asks the user for two floating-point numbers, and then computes the ratio between 
