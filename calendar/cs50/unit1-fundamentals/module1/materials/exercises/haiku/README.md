@@ -1,4 +1,4 @@
-Go back to [Class 1 Prep](../../class1-prep)
+Go back to [Prep for Class 1](../../class1-prep)
 
 ###Haiku
 
