@@ -24,7 +24,7 @@ Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=bQnyxpf0vk0" target="_blank">Hello-0</a> | Watch a video in which David Malan or another instructor writes some code. As you watch, follow along by creating your own copy of the same program. Afterwards, poke around and tinker with your program: Change something, re-run, break it, fix it.
 Do | Exercise | [Haiku](../exercises/haiku) | Do a simple exercise in your IDE.
-Read | Lecture Notes | [Week 1 / Writing Code]<a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#writing_code" target="_blank">Week 1 / Writing Code</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#writing_code" target="_blank">Week 1 / Writing Code</a>
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=Zfb73qVXgn8" target="_blank">Hello-1</a>
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=LpEyhtpVHes" target="_blank">Hello-2</a>
 Do Exercise | Exercise | [Book](../exercises/book)
