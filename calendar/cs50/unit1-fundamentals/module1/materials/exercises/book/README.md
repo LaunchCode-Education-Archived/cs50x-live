@@ -1,6 +1,8 @@
+#####Module 1
+
 [Go back to Prep for Class 1](../../class1-prep)
 
-### Book
+# Book
 
 Write a program that prompts the user for the title of his or her favorite book, and then responds by initially agreeing enthusiastically, and then changing its mind, like so:
 
