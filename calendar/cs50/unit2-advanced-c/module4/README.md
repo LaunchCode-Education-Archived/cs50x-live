@@ -6,8 +6,8 @@
 
 Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
-**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | pointers
-**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | files, structs, malloc
+**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | files, structs, lead up to pointers
+**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | pointers, malloc
 **Class 3**|  | [In Class](./materials/class3) |
 
 
