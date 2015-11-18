@@ -14,6 +14,7 @@ Lecture | [Week 4](http://www.youtube.com/embed/SadMsthVUBM?autoplay=1&rel=0&sta
 Lecture Notes | [Week 4 / Swap](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#swap) | Read
 Lecture Notes | [Week 4 / Debugging](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide) | Read | steps through swap
 Lecture Notes | [Week 4 / Pointers](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers)| Read 
+Supplement | Read | [Swap summary](../supplementary-resources/swap-summary) | TODO res: summarize the problem
 
 ##### Lecture:
 
@@ -35,7 +36,7 @@ Task | Type | Link | Notes
 -----|------|------|------
 Watch | Doug's Playlist [Structs](https://www.youtube.com/watch?v=6RLxPdZ59y0&index=4&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq)
 Watch | Doug's Playlist [Defining Custom Types](https://www.youtube.com/watch?v=wgv4xH_tVgA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=5) | typedef
-Watch | Short | [Structs](https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | prereq `char*`
+Watch | Short | [Structs](https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | prereq `char*`; goes into recursive struct definitions like linked lists, and then talks alot about pointers
 Watch | Walkthrough | [structs-0](https://www.youtube.com/watch?v=yMvRqKmbRm4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=12) | struct for a "student" object  
 Watch | Walkthrough | [stucts-1](https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | student structs written to csv file
 
