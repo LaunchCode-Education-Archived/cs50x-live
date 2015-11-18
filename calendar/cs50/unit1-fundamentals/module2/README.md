@@ -1,3 +1,4 @@
+[Back to Course Calendar](../../..)
 # Module 2
 
 **Pre-reqs:** [Module 1]()
