@@ -109,6 +109,9 @@ Watch | Walkthrough | [compare-0](https://www.youtube.com/watch?v=Q9d8F9dXxbA&li
 Watch | Walkthrough | [compare-1](https://www.youtube.com/watch?v=jE_bs-QNj3c&index=2&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | comparing strings (fixed)
 Watch | Walkthrough | [pointers](https://www.youtube.com/watch?v=1PoFw5_p0xk&index=6&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | print str one char at a time using pointers
 Watch | Walkthrough | [noswap](https://www.youtube.com/watch?v=ETSddwPGjNM&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=5) | swap (broken)
+Watch | Walkthrough | [scanf-0](https://www.youtube.com/watch?v=l1sfaAyt6ac&index=7&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | custom GetInt
+Watch | Walkthrough | [scanf-1](https://www.youtube.com/watch?v=4zS7RTnRuWY&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=8) | custom GetString, buggy and dangerous
+Watch | Walkthrough | [scanf-2](https://www.youtube.com/watch?v=TJK6l_SBLnk&index=9&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | custom GetString (fixed)
 
 
 **malloc**
@@ -143,9 +146,7 @@ Watch | Doug's Playlist [Hexedecimal](https://www.youtube.com/watch?v=nrFHGtGdOz
 
 Task | Type | Link | Notes
 -----|------|------|------
-Watch | Walkthrough | [scanf-0](https://www.youtube.com/watch?v=l1sfaAyt6ac&index=7&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | custom GetInt
-Watch | Walkthrough | [scanf-1](https://www.youtube.com/watch?v=4zS7RTnRuWY&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=8) | custom GetString, buggy and dangerous
-Watch | Walkthrough | [scanf-2](https://www.youtube.com/watch?v=TJK6l_SBLnk&index=9&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | custom GetString (fixed)
+
 Watch | Short | [Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY&index=5&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
 Watch | Short | [Strings](https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
 Watch | Andi's Section | [Week 4](https://www.youtube.com/watch?v=hgJqcVcYCXU)
