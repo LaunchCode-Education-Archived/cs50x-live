@@ -8,13 +8,10 @@ Before coming to [Class 1](../class1), please complete the following tasks:
 
 Resource Type | Link | Task | Instructions
 --------------|------|------|-------------
-Lecture | [Week 4, continued](http://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=0) | Watch |
-only watch the first 25 minutes
+Lecture | [Week 4, continued](http://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=0) | Watch | only watch the first 25 minutes
 
 ##### Files, Hex
 
-Resource Type | Link | Task | Instructions
---------------|------|------|-------------
 Task | Type | Link | Notes
 -----|------|------|------
 Watch | Short | [File I/O](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | examples of reading from and writing to files. `fpoen` `fclose` `fgets` `fputs`
