@@ -2,17 +2,14 @@
 
 # Module 4
 
-### Topics
-* recursion
-  * sigma example
-* pointers
-  * introduced via the "swap" example
-  * stack, heap
-  * comparing strings doesnt work as expected
-* files
-  * headers
-  * hex
-* structs
+### Outline
+
+Class # | Before Class | During Class | Topics/Skills
+:--------:|:------------:|:------------:|-----------------------|
+**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | pointers
+**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | files, structs, malloc
+**Class 3**|  | [In Class](./materials/class3) |
+
 
 ### Resources
 
