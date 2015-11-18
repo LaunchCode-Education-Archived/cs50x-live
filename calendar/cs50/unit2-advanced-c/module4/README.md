@@ -29,7 +29,7 @@ Read | Lecture Notes | [Week 4 / Debugging](http://cdn.cs50.net/2015/fall/lectur
 Read | Lecture Notes | [Week 4 / Pointers](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers) | comparing strings example unfortunately `1` as mem address and uses "Mom" twice
 Read | Lecture Notes | [Week 4, continued / Files, Headers and Hex](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#files_headers_and_hex)
 Read | Lecture Notes | [Week 4, continued / Structs](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#structs)
-Read | Lecture Notes | [Week 4, continued / Strings and Pointers](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers)
+Read | Lecture Notes | [Week 4, continued / Strings and Pointers](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers) | idea: show them strcmp source, make them implement another version
 Read | Lecture Notes | [Week 4, continued / Memory Allocation](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#memory_allocation)
 
 **Walkthroughs**
