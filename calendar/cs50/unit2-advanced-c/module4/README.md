@@ -11,7 +11,7 @@ Class # | Before Class | During Class | Topics/Skills
 **Class 3**|  | [In Class](./materials/class3) |
 
 
-### Resources
+### Resources (by type)
 
 **Lecture**
 
@@ -29,7 +29,7 @@ Read | Lecture Notes | [Week 4 / Debugging](http://cdn.cs50.net/2015/fall/lectur
 Read | Lecture Notes | [Week 4 / Pointers](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers) | comparing strings example unfortunately `1` as mem address and uses "Mom" twice
 Read | Lecture Notes | [Week 4, continued / Files, Headers and Hex](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#files_headers_and_hex)
 Read | Lecture Notes | [Week 4, continued / Structs](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#structs)
-Read | Lecture Notes | [Week 4, continued / Strings and Pointers](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers) | idea: show them strcmp source, make them implement another version
+Read | Lecture Notes | [Week 4, continued / Strings and Pointers](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers) |
 Read | Lecture Notes | [Week 4, continued / Memory Allocation](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#memory_allocation)
 
 **Walkthroughs**
@@ -56,7 +56,6 @@ Task | Type | Link | Notes
 -----|------|------|------
 Watch | Short | [File I/O](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | examples of reading from and writing to files. `fpoen` `fclose` `fgets` `fputs`
 Watch | Short | [GDB](https://www.youtube.com/watch?v=USPvePv1uzE&index=2&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
-Watch | Short | [Merge Sort](https://www.youtube.com/watch?v=USPvePv1uzE&index=2&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | TODO this probably was meant for week 3
 Watch | Short | [Pointers](https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4) | seems like a good intro; leads with "up till now, we've only seen..."
 Watch | Short | [Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY&index=5&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
 Watch | Short | [Strings](https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
@@ -87,8 +86,28 @@ Task | Type | Link | Notes
 -----|------|------|------
 Study | CS50 Study | [file i/o, pointers, malloc](https://study.cs50.net/?toc=io,pointers,malloc)
 
-
-### Possible Supplements
+**Possible Supplements**
 * talk explicitly about weird design-choices / conventions with pointers:
   * the two different meanings of `*` 
   * the convention of `char *s` instead of `char* s`
+  * show them strcmp [source](http://www.opensource.apple.com/source/Libc/Libc-262/ppc/gen/strcmp.c), make them implement another version
+
+### Resources (by topic)
+
+**Pointers**
+Watch | Section | [Jason Hirschorn on Pointers](https://youtu.be/SppBaGROtX0?t=370) | really good
+Watch | Doug's Playlist [Pointers](https://www.youtube.com/watch?v=yOdd3uYC--A&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=2)
+Read | Lecture Notes | [Week 4 / Swap](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#swap)
+Read | Lecture Notes | [Week 4 / Debugging](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide) | steps through swap
+Read | Lecture Notes | [Week 4 / Pointers](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers) | comparing strings example unfortunately `1` as mem address and uses "Mom" twice
+Read | Lecture Notes | [Week 4, continued / Strings and Pointers](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers) |
+Watch | Short | [Pointers](https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4) | seems like a good intro; leads with "up till now, we've only seen..."
+Watch | Walkthrough | [compare-0](https://www.youtube.com/watch?v=Q9d8F9dXxbA&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=1) | comparing strings (broken)
+Watch | Walkthrough | [compare-1](https://www.youtube.com/watch?v=jE_bs-QNj3c&index=2&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | comparing strings (fixed)
+
+**malloc**
+Read | Lecture Notes | [Week 4, continued / Memory Allocation](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#memory_allocation)
+Watch | Doug's Playlist [Dynamic Memory Allocation](https://www.youtube.com/watch?v=ywqB3ZTf8OE&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=3)
+
+**structs**
+
