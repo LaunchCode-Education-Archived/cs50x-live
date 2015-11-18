@@ -139,20 +139,24 @@ Read | Lecture Notes | [Week 4, continued / Files, Headers and Hex](http://cdn.c
 Watch | Doug's Playlist [Hexedecimal](https://www.youtube.com/watch?v=nrFHGtGdOzA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq)
 
 
-**?**
+**Where?**
 
 Task | Type | Link | Notes
 -----|------|------|------
 Watch | Walkthrough | [scanf-0](https://www.youtube.com/watch?v=l1sfaAyt6ac&index=7&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | custom GetInt
 Watch | Walkthrough | [scanf-1](https://www.youtube.com/watch?v=4zS7RTnRuWY&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=8) | custom GetString, buggy and dangerous
 Watch | Walkthrough | [scanf-2](https://www.youtube.com/watch?v=TJK6l_SBLnk&index=9&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | custom GetString (fixed)
-Watch | Walkthrough | [sigma-0](https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10) | (already did this in module 3) sumtorial (iterative)
-Watch | Walkthrough | [sigma-1](https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | (already did this in module 3) sumtorial (recursive)
-Watch | Short | [GDB](https://www.youtube.com/watch?v=USPvePv1uzE&index=2&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
 Watch | Short | [Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY&index=5&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
 Watch | Short | [Strings](https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
-Watch | Doug's Playlist [Recursion](https://www.youtube.com/watch?v=VrrnjYgDBEk&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=6)
-Watch | Doug's Playlist [Call Stack](https://www.youtube.com/watch?v=beqqGIdabrE&index=7&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq)
 Watch | Andi's Section | [Week 4](https://www.youtube.com/watch?v=hgJqcVcYCXU)
 Study | CS50 Study | [file i/o, pointers, malloc](https://study.cs50.net/?toc=io,pointers,malloc)
 
+**Move or Ignore**
+
+Task | Type | Link | Notes
+-----|------|------|------
+Watch | Doug's Playlist [Recursion](https://www.youtube.com/watch?v=VrrnjYgDBEk&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=6)
+Watch | Doug's Playlist [Call Stack](https://www.youtube.com/watch?v=beqqGIdabrE&index=7&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq)
+Watch | Walkthrough | [sigma-0](https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10) | (already did this in module 3) sumtorial (iterative)
+Watch | Walkthrough | [sigma-1](https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | (already did this in module 3) sumtorial (recursive)
+Watch | Short | [GDB](https://www.youtube.com/watch?v=USPvePv1uzE&index=2&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
