@@ -31,3 +31,10 @@ Watch | Doug's Playlist [Dynamic Memory Allocation](https://www.youtube.com/watc
 Watch | Walkthrough | [copy-0](https://www.youtube.com/watch?v=zwKBMSLYrk4&index=3&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | copy a string (broken)
 Watch | Walkthrough | [copy-1](https://www.youtube.com/watch?v=ebQSYaneMms&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=4) | copy string (fixed)
 Watch | Short | [Strings](https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
+
+**Review**
+
+Task | Type | Link | Notes
+-----|------|------|------
+Study | CS50 Study | [file i/o, pointers, malloc](https://study.cs50.net/?toc=io,pointers,malloc)
+Watch | Andi's Section | [Week 4](https://www.youtube.com/watch?v=hgJqcVcYCXU)
