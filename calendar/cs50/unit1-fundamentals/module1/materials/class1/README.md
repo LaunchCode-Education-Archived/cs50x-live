@@ -1,5 +1,5 @@
 ##### [Module 1](../..) 
-[Back to Module 1](../..)
+
 # Class 1
 
 ##### Before Today:
