@@ -1,4 +1,5 @@
 ##### Module 1
+[Back to Module 1](../..)
 # Class 2
 
 For homework you should have done: [Prep for Class 2](../class2-prep)
