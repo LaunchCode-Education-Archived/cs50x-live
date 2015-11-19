@@ -1,7 +1,7 @@
 [Back to Course Calendar](../../..)
 # Module1
 
-**Prereqs**: You should have completed [Module 0](..../module0)
+**Prereqs**: You should have completed [Module 0](../../../module0)
 
 By the end of this module you will have completed <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Problem Set 1</a>
 
