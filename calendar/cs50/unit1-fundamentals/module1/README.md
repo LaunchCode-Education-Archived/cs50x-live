@@ -13,7 +13,7 @@ Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
 **Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | CS50 IDE setup, printf, math, intro to libraries|
 **Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | conditions, loops, variables, assignment vs equality|
-**Class 3**| Continue work on <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Problem Set 1</a> | [In Class](./materials/class3) | validating input, typecasting, nesting control flow, functions, debugging|
+**Class 3**| Work on <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Problem Set 1</a> | [In Class](./materials/class3) | validating input, typecasting, nesting control flow, functions, debugging|
 
 
 
