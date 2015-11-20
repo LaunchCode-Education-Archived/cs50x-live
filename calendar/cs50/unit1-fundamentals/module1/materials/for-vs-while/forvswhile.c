@@ -2,7 +2,8 @@
 
 // This example provides a side-by-side comparison of a while-loop and a for-loop.
 
-// for-loops simply provide a different syntax for accomplishing the same thing as while-loops.
+// for-loops just provide a different syntax for accomplishing the same thing as while-loops.
+
 // In fact, they are both composed of the same 4 basic components:
 //    INITIALIZE, CONDITION, BODY, MODIFY
 
@@ -11,7 +12,7 @@ int main(void)
   
   // WHILE LOOP -----------------------------------------
   
-  // INITIALIZE initialize some variable(s)
+  // INITIALIZE: initialize some variable(s)
   int i = 0;
   
   // CONDITION: should we enter the loop (again)?
