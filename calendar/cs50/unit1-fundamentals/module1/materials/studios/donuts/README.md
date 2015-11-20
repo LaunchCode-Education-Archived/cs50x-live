@@ -16,6 +16,7 @@ convenience of... the command-line terminal on their computer.
 
 In a file called donuts.c, write a program which introduces the flavor of the day, and then takes
 the user's order. Taking their order involves asking two questions: "How many donuts?" and "How much do you want to pay?"
+
 Finally, inform the user of the total cost of their order. Don't forget to include sales-tax, which is, lets say, 5%.
 
 Here's an example of how the finished program should behave:
