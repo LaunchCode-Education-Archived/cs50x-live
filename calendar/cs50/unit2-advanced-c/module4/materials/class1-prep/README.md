@@ -13,7 +13,7 @@ Resource Type | Link | Task | Instructions
 Lecture | [Week 4](http://www.youtube.com/embed/SadMsthVUBM?autoplay=1&rel=0&start=1525) | Watch | only watch the second half. we did the first half last week.
 Lecture Notes | [Week 4 / Swap](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#swap) | Read
 Lecture Notes | [Week 4 / Debugging](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide) | Read | steps through swap
-Lecture Notes | [Week 4 / Pointers](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers)| Read | Under the hood, a `string` is just a `pointer` to a `char`. This means that the "value" inside a `string` variable is not actually the contents of the text. Instead it is a number representing the memory address where the text is truly located-- more specifically, where the first `char` is located.  
+Lecture Notes | [Week 4 / Pointers](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers)| Read | Under the hood, a `string` is just a `pointer` to a `char`. This means that the "value" inside a `string` variable is not actually the contents of the text. Instead it is a number pointing to the memory address where the text is truly located-- more specifically, where the first `char` is located.  
 Walkthrough | [noswap](https://www.youtube.com/watch?v=ETSddwPGjNM&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=5) | Follow-Along |
 Supplement | [Swap summary](../supplementary-resources/swap-summary) | Read | TODO res: summarize the problem
 
