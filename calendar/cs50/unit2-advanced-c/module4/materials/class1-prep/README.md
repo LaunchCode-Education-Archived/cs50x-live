@@ -31,7 +31,8 @@ Watch | Short | [File I/O](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQ
 Read | Lecture Notes | [Week 4, continued / Files, Headers and Hex](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#files_headers_and_hex)
 Watch | Doug's Playlist [Hexedecimal](https://www.youtube.com/watch?v=nrFHGtGdOzA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq)
 
-**structs**
+
+##### Structs
 
 Task | Type | Link | Notes
 -----|------|------|------
