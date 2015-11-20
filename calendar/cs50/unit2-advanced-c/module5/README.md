@@ -29,6 +29,10 @@ Read | Lecture Notes | [Week 5, continued / Tries](http://cdn.cs50.net/2015/fall
 
 Task | Type | Link | Notes
 -----|------|------|------
+Watch | Walkthrough | [scanf-0](https://www.youtube.com/watch?v=l1sfaAyt6ac&list=PLhQjrBD2T381hO-XiBPrps4fzt4rVY3E8&index=1)
+Watch | Walkthrough| [scanf-1](https://www.youtube.com/watch?v=4zS7RTnRuWY&index=2&list=PLhQjrBD2T381hO-XiBPrps4fzt4rVY3E8)
+Watch | Walkthrough | [scanf-2](https://www.youtube.com/watch?v=TJK6l_SBLnk&list=PLhQjrBD2T381hO-XiBPrps4fzt4rVY3E8&index=3)
+
 
 
 **Shorts**
