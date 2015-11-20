@@ -19,7 +19,10 @@ int main(void)
   while(i < 10)
   {
     // BODY: do stuff
-    printf("A warm hello to the number %i\n", i);
+    printf("Let's pause and appreciate the number %i\n", i);
+    printf("A moment of contemplation please...\n");
+    printf("...\n");
+    printf("Thank you.\n");
     
     // MODIFY: modify variable(s)
     i = i + 1;
@@ -28,11 +31,14 @@ int main(void)
   
   // FOR LOOP -------------------------------------------
   
-  //  (INITIALIZE ; CONDITION ; MODIFY)
+  //  (INITIALIZE ; CONDITION ; MODIFY      )
   for (int i = 0  ; i < 10    ; i = i + 1   )
   {
     // BODY
-    printf("A warm hello to the number %i\n", i);
+    printf("Let's pause and appreciate the number %i\n", i);
+    printf("A moment of contemplation please...\n");
+    printf("...\n");
+    printf("Thank you.\n");
   }
   
   
