@@ -6,7 +6,7 @@
 
 You run a hip donut shop, the Loop Hole, which, in its short lifetime, has already rocked the donut market with 
 numerous disruptions, including:
-* a minimalist menu consisting of just one type of donut per day: Manager's Special. Always Manager's Special.
+* a minimalist menu consisting of just one type of donut per day: Manager's Special... always Manager's Special.
 * giving consumers the option to order fractional amounts of donuts, e.g. 1.7 donuts, please.
 * a progressive pay-what-you-want pricing system, in which the customer pays what s/he thinks is a fair price. (Of
 course, you do provide a "suggested price".)
@@ -15,7 +15,7 @@ Now it's time to implement your latest innovation, an app via which users can pr
 convenience of... the command-line terminal on their computer.
 
 In a file called donuts.c, write a program which introduces the flavor of the day, and then takes
-the user's order. Taking their order involves asking two questions: How many donuts? and How much do you want to pay?
+the user's order. Taking their order involves asking two questions: "How many donuts?" and "How much do you want to pay?"
 Finally, inform the user of the total cost of their order. Don't forget to include sales-tax, which is, lets say, 5%.
 
 Here's an example of how the finished program should behave:
