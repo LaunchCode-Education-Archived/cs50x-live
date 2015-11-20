@@ -21,17 +21,23 @@ int main(void)
     printf("A warm hello to the number %i\n", i);
     
     // MODIFY: modify variable(s)
-    i++;
+    i = i + 1;
   }
   
   
   // FOR LOOP -------------------------------------------
   
   //  (INITIALIZE ; CONDITION ; MODIFY)
-  for (int i = 0  ; i < 10    ; i++   )
+  for (int i = 0  ; i < 10    ; i = i + 1   )
   {
     // BODY
     printf("A warm hello to the number %i\n", i);
   }
   
+  
+  // Instead of
+  // i = i + 1
+  // you will usually see
+  // i++
+  // which is just a sexier syntax for incrementing i by 1. They are exactly the same.
 }
