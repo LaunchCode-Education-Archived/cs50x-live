@@ -4,7 +4,11 @@
 
 Before coming to [Class 1](../class1), please complete the following tasks:
 
+##### More practice with Recursion
 
+Resource Type | Link | Task | Instructions
+--------------|------|------|-------------
+CS50 Study | [recursion](https://study.cs50.net/recursion) | Study | 
 
 ##### Leading up to Pointers:
 
@@ -30,8 +34,10 @@ Task | Type | Link | Notes
 -----|------|------|------
 Read | Lecture Notes | [Week 4, continued / Files, Headers and Hex](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#files_headers_and_hex)
 Watch | Short | [File I/O](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | examples of reading from and writing to files. `fpoen` `fclose` `fgets` `fputs`
+Do | Exercise | [File Write](../exercises) | TODO exc: something that involves writing to a file
+Do | Exercise | [File Read](../exercises) | TODO exc: something that involves reading from a file
 Watch | Doug's Playlist | [Hexedecimal](https://www.youtube.com/watch?v=nrFHGtGdOzA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq)
-
+Di | Exercise | [Hex Converter](../exercises) | TODO: exc: write a program that converts back and forth from hex
 
 ##### Structs
 
