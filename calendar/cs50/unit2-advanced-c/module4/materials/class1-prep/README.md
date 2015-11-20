@@ -16,7 +16,7 @@ Lecture Notes | [Week 4 / Debugging](http://cdn.cs50.net/2015/fall/lectures/4/m/
 Lecture Notes | [Week 4 / Pointers](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers)| Read | Under the hood, a `string` is just a `pointer` to a `char`. This means that the "value" inside a `string` variable is not actually the contents of the text. Instead it is a number pointing to the memory address where the text is truly located-- more specifically, where the first `char` is located.  
 Walkthrough | [noswap](https://www.youtube.com/watch?v=ETSddwPGjNM&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=5) | Follow-Along |
 Walkthrough | [compare-0](https://www.youtube.com/watch?v=Q9d8F9dXxbA&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=1) | comparing strings (broken) | Watch
-Supplement | [Swap summary](../supplementary-resources/swap-summary) | Read | TODO res: summarize the problem
+Supplement | [Why Pointers](../supplementary-resources/why-pointers) | Read | TODO res: recap by summarizing the problem, why swap and compare dont work, but with pointers they will.
 
 ##### Lecture:
 
