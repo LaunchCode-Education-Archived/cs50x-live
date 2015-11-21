@@ -11,6 +11,8 @@ Read | Lecture Notes | [Week 4, continued / Strings and Pointers](http://cdn.cs5
 Watch | Doug's Playlist | [Pointers](https://www.youtube.com/watch?v=yOdd3uYC--A&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=2) | prereqs: hex (a little)
 Watch | Walkthrough | [compare-1](https://www.youtube.com/watch?v=jE_bs-QNj3c&index=2&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | comparing strings (fixed)
 Watch | Walkthrough | [pointers](https://www.youtube.com/watch?v=1PoFw5_p0xk&index=6&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | print str one char at a time using pointers
+Study | CS50 Study | [pointers](https://study.cs50.net/pointers)
+Do | Exercise | [Custom strcmp](../exercises/custom-strcmp) | TODO exc 
 Watch | Walkthrough | [scanf-0](https://www.youtube.com/watch?v=l1sfaAyt6ac&index=7&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | custom GetInt
 Watch | Walkthrough | [scanf-1](https://www.youtube.com/watch?v=4zS7RTnRuWY&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=8) | custom GetString, buggy and dangerous
 Watch | Walkthrough | [scanf-2](https://www.youtube.com/watch?v=TJK6l_SBLnk&index=9&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | custom GetString (fixed)
