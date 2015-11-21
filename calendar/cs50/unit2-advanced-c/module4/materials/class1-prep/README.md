@@ -37,7 +37,7 @@ Watch | Short | [File I/O](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQ
 Do | Exercise | [File Write](../exercises) | TODO exc: something that involves writing to a file
 Do | Exercise | [File Read](../exercises) | TODO exc: something that involves reading from a file
 Watch | Doug's Playlist | [Hexedecimal](https://www.youtube.com/watch?v=nrFHGtGdOzA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq)
-Di | Exercise | [Hex Converter](../exercises) | TODO: exc: write a program that converts back and forth from hex
+Do | Exercise | [Hex Converter](../exercises) | TODO: exc: write a program that converts back and forth from hex
 
 ##### Structs
 
