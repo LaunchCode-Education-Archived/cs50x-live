@@ -43,6 +43,10 @@ Task | Type | Link | Notes
 Watch | Short | [CS50 Library](http://cs50.tv/2012/fall/shorts/cs50_library/cs50_library-720p.mp4)
 Watch | Short | [Singly Linked Lists](http://cs50.tv/2012/fall/shorts/singly_linked_lists/singly_linked_lists-720p.mp4)
 Watch | Short | [Valgrind](http://cs50.tv/2012/fall/shorts/valgrind/valgrind-720p.mp4)
+Watch | Short | [Hash Tables](https://www.youtube.com/watch?v=h2d9b_nEzoA&index=1&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq)
+Watch | Short | [Queues](https://www.youtube.com/watch?v=SLOrrO7DlYo&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=2)
+Watch | Short | [Trees](https://www.youtube.com/watch?v=mFptHjTT3l8&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=3)
+Watch | Short | [Trees](https://www.youtube.com/watch?v=NKr6gWcXkIM&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=4)
 
 **Doug**
 
@@ -51,6 +55,12 @@ Task | Type | Link | Notes
 Watch | Doug's Playlist | [File Pointers](https://www.youtube.com/watch?v=QOD2hHiHpn0&index=1&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh)
 Watch | Doug's Playlist | [Singly-Linked Lists](https://www.youtube.com/watch?v=ZoG2hOIoTnA&index=2&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh) 
 Watch | Doug's Playlist | [Doubly-Linked Lists](https://www.youtube.com/watch?v=HmAEzp1taIE&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh&index=3)
+Watch | Doug's Playlist | [Stacks](https://www.youtube.com/watch?v=9Tp8wHD66lw&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj)
+Watch | Doug's Playlist | [Queues](https://www.youtube.com/watch?v=10jRKWI9s1k&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=2)
+Watch | Doug's Playlist | [Hash Tables](https://www.youtube.com/watch?v=tjtFkT97Xmc&index=3&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj)
+Watch | Doug's Plyalist | [Tries](https://www.youtube.com/watch?v=TRg9DQFu0kU&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=5)
+Watch | Doug's Playlist | [Data Structures Summary](https://www.youtube.com/watch?v=YiwRCN_SMuA&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=4)
+Watch | Doug's Playlist | []()
 
 
 **Section**
