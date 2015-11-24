@@ -52,7 +52,7 @@ Watch | Short | [Trees](https://www.youtube.com/watch?v=NKr6gWcXkIM&list=PLhQjrB
 
 Task | Type | Link | Notes
 -----|------|------|------
-Watch | Doug's Playlist | [File Pointers](https://www.youtube.com/watch?v=QOD2hHiHpn0&index=1&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh)
+Watch | Doug's Playlist | [File Pointers](https://www.youtube.com/watch?v=QOD2hHiHpn0&index=1&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh) | move to Module 4?
 Watch | Doug's Playlist | [Singly-Linked Lists](https://www.youtube.com/watch?v=ZoG2hOIoTnA&index=2&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh) 
 Watch | Doug's Playlist | [Doubly-Linked Lists](https://www.youtube.com/watch?v=HmAEzp1taIE&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh&index=3)
 Watch | Doug's Playlist | [Stacks](https://www.youtube.com/watch?v=9Tp8wHD66lw&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj)
