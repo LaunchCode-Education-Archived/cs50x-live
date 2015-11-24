@@ -12,7 +12,7 @@ Watch | Walkthrough| [scanf-1](https://www.youtube.com/watch?v=4zS7RTnRuWY&index
 Watch | Walkthrough | [scanf-2](https://www.youtube.com/watch?v=TJK6l_SBLnk&list=PLhQjrBD2T381hO-XiBPrps4fzt4rVY3E8&index=3)
 Watch | Short | [CS50 Library](http://cs50.tv/2012/fall/shorts/cs50_library/cs50_library-720p.mp4)
 Watch | Short | [Valgrind](http://cs50.tv/2012/fall/shorts/valgrind/valgrind-720p.mp4)
-Study | CS50 Study | [pointers, malloc](https://study.cs50.net/?toc=pointers,malloc) | malloc is good, do sooner rather than later
+Study | CS50 Study | [Malloc](https://study.cs50.net/?toc=malloc) | malloc is good, do sooner rather than later. Maybe module 4?
 
 
 ##### Linked Lists
@@ -24,7 +24,7 @@ Read | Lecture Notes | [Week 5, continued / Searching](http://cdn.cs50.net/2015/
 Watch | Short | [Singly Linked Lists](http://cs50.tv/2012/fall/shorts/singly_linked_lists/singly_linked_lists-720p.mp4)
 Watch | Doug's Playlist | [Singly-Linked Lists](https://www.youtube.com/watch?v=ZoG2hOIoTnA&index=2&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh) 
 Watch | Doug's Playlist | [Doubly-Linked Lists](https://www.youtube.com/watch?v=HmAEzp1taIE&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh&index=3)
-Study | CS50 Study | [linked lists](https://study.cs50.net/?toc=linked_lists) |
+Study | CS50 Study | [Linked Lists](https://study.cs50.net/?toc=linked_lists) |
 
 ##### Stacks and Queues
 Task | Type | Link | Notes
@@ -34,7 +34,7 @@ Read | Lecture Notes | [Week 5, continued / Stacks & Queues](http://cdn.cs50.net
 Watch | Short | [Queues](https://www.youtube.com/watch?v=SLOrrO7DlYo&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=2)
 Watch | Doug's Playlist | [Stacks](https://www.youtube.com/watch?v=9Tp8wHD66lw&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj)
 Watch | Doug's Playlist | [Queues](https://www.youtube.com/watch?v=10jRKWI9s1k&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=2)
-Study | CS50 Study | [stacks, queues](https://study.cs50.net/?toc=stacks,queues) | 
+Study | CS50 Study | [Stacks, Queues](https://study.cs50.net/?toc=stacks,queues) | 
 
 
 ##### Trees and Tries
@@ -44,7 +44,7 @@ Read | Lecture Notes | [Week 5, continued / Tries](http://cdn.cs50.net/2015/fall
 Watch | Short | [Trees](https://www.youtube.com/watch?v=mFptHjTT3l8&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=3)
 Watch | Short | [Tries](https://www.youtube.com/watch?v=NKr6gWcXkIM&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=4)
 Watch | Doug's Playlist | [Tries](https://www.youtube.com/watch?v=TRg9DQFu0kU&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=5)
-Study | CS50 Study | [trees, tries](https://study.cs50.net/?toc=trees,tries) | 
+Study | CS50 Study | [Trees, Tries](https://study.cs50.net/?toc=trees,tries) | 
 
 
 ##### Hash Tables
@@ -54,7 +54,7 @@ Read | Lecture Notes | [Week 5, continued / Hash Tables](http://cdn.cs50.net/201
 Watch | Short | [Hash Tables](https://www.youtube.com/watch?v=h2d9b_nEzoA&index=1&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq)
 Watch | Doug's Playlist | [Hash Tables](https://www.youtube.com/watch?v=tjtFkT97Xmc&index=3&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj)
 Read | Lecture Notes | [Week 5, continued / Compression](http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#compression) | stripping redundancy from data storage. examples: images of flags, videos, huffman coding. Not sure where this fits in but is very cool.
-Study | CS50 Study | [hash tables](https://study.cs50.net/?toc=hashtables) | 
+Study | CS50 Study | [Hash Tables](https://study.cs50.net/?toc=hashtables) | 
 
 ##### Data Structures Summary
 Task | Type | Link | Notes
@@ -62,6 +62,7 @@ Task | Type | Link | Notes
 Watch | Doug's Playlist | [Data Structures Summary](https://www.youtube.com/watch?v=YiwRCN_SMuA&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=4)
 Watch | Doug's Playlist | []()
 Read | Lecture Notes | [Week 6 / Data Structures Recap](http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#data_structures_recap)
+Study | CS50 Study | | maybe just conglomerate all the individual data structure ones here instead of spreading them out
 
 ##### TBD
 Task | Type | Link | Notes
