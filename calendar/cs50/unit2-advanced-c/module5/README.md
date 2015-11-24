@@ -87,6 +87,8 @@ Study | CS50 Study | [pointers, malloc, linked lists, hash tables, tries, trees,
   * you only need to free memory that came from the heap (was `malloc`ed)
   * but what if I didn't call malloc myself, e.g. GetString()? 
     * A better rule of thumb is: anything that's a pointer needs to be freed when youre done. 
+* When do I need to malloc something? 
+  * Whenever you need memory that will outlast the current function
 * hash-tables involve nested data structures, e.g.
   * an array of linked-lists
   * a trie of arrays
