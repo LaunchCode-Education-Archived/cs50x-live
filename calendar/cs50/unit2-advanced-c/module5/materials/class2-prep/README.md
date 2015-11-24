@@ -2,6 +2,11 @@
 
 # Class 2 Prep
 
+##### Lecture 
+Task | Type | Link | Notes
+-----|------|------|------
+Watch | Lecture | [Week 5, continued](https://www.youtube.com/watch?v=3p_Scm7qSfU)
+
 ##### Stacks and Queues
 Task | Type | Link | Notes
 -----|------|------|------
