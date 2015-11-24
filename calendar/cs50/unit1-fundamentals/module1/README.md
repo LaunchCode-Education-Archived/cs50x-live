@@ -1,5 +1,5 @@
 [Back to Course Calendar](../../..)
-# Module1
+# Module 1
 
 **Prereqs**: You should have completed [Module 0](../../../module0)
 
