@@ -7,29 +7,29 @@ Before coming to [Class 1](../class1), please complete the following tasks:
 ##### Lecture:
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Watch | Lecture | <a href="https://www.youtube.com/embed/YiiHNiSfmKI?autoplay=1&rel=0&start=0" target="_blank">Week 1</a> | Watch the lecture video, which will give you a high-level introduction to this week's concepts. We recommend you crank the speed up to 1.5x or 2.x. The material will be covered in finer detail later. 
+Watch | Lecture | <a href="https://www.youtube.com/embed/YiiHNiSfmKI?autoplay=1&rel=0&start=0" target="_blank">Week 1</a> | Watch the lecture video, which will give you a high-level introduction to this week's concepts. If you want, consider increasing the speed to 1.5x (only available in some browsers). The material will be covered in finer detail later. <br> Also, you can skip the portion of the video between 4:36-6:30 if you don't want to watch David Malan talk about information only relevant to Harvard students.
 
 ##### Getting set up:
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#introduction" target="_blank">Week 1 / Introduction</a> | Read over the notes associated with a portion of the lecture video. Optionally, rewatch that portion. 
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c" target="_blank">Week 1 / C</a> |
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#cs50_ide" target="_blank">Week 1 / cs50 IDE</a>
-Set up your IDE | Problem Set | <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">CS50 IDE</a> | The Pset1 assignment contains instructions on how get started using the IDE, where you'll write all your code. Follow those instructions so you can start coding!
-Hello World! | Problem Set | <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Pset1: Hello, World</a> | Now that you've got your IDE set up, go ahead and continue onto the next section of Pset1, which will walk you through writing a *Hello, World* program. Stop when you get to the section titled *Shorts*.
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=poT5Yd0Ag8I&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=1" target="_blank">Command-Line</a>
-Watch | Section | <a href="https://www.youtube.com/watch?v=kpSLlIj97Ss" target="_blank">Week 1 / IDE</a> | Watch the first 13 minutes where they demo using the IDE, running some linux commands in the terminal, and writing a *hello, world* program
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#introduction" target="_blank">Week 1 / Introduction</a> | Read over the (very brief) notes associated with "Introduction" portion of the lecture video. Optionally, rewatch that section of the video (0:00-4:36). <br>Stop at the *Announcements* header.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c" target="_blank">Week 1 / C</a> | Read over the notes for the "C" section. This will compare what we did in Scratch to code in C. <br>Stop at the *CS50 IDE* header (or just keep going, because the next task is to read that! See below for when to stop next). 
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#cs50_ide" target="_blank">Week 1 / cs50 IDE</a> | Read over the notes for the "CS50 IDE" section. This introduces you to the environment where we'll be writing code throughout the course. <br>Stop at the *Writing Code* header. 
+Set up your IDE | Problem Set | <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">CS50 IDE</a> | This component of Problem Set 1  contains instructions on how get started using the IDE, where you'll write all your code. Follow those instructions so you can start coding! <br> Stop at the *Hello, C* header (or just keep going, because the next task is to do that! See below for when to stop next). 
+Hello World! | Problem Set | <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Hello, World</a> | Now that you've got your IDE set up, go ahead and continue onto the next section of Pset1, which will walk you through writing a *Hello, World* program. You'll also learn about the Check50 code, which you can use to see if your CS50 assignments are correct. <br>Stop when you get to the section titled *Shorts*.
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=poT5Yd0Ag8I&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=1" target="_blank">Command-Line</a> | Watch the video from Doug's Playlist called *Command-Line*. This will introduce you to, you guessed it, the command-line!
+Watch | Section | <a href="https://www.youtube.com/watch?v=kpSLlIj97Ss" target="_blank">Week 1 / IDE</a> | Watch the first ~13 minutes where they demo using the IDE, running some linux commands in the terminal, and writing a *Hello, World* program. <br> Stop at the 13:15 minute mark.
 
 ##### Printing, Getting user input:
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=bQnyxpf0vk0" target="_blank">Hello-0</a> | Watch a video in which David Malan or another instructor writes some code. As you watch, follow along by creating your own copy of the same program. Afterwards, poke around and tinker with your program: Change something, re-run, break it, fix it.
-Do | Exercise | [Haiku](../exercises/haiku) | Do a simple exercise in your IDE.
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#writing_code" target="_blank">Week 1 / Writing Code</a>
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=Zfb73qVXgn8" target="_blank">Hello-1</a>
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=LpEyhtpVHes" target="_blank">Hello-2</a>
-Do Exercise | Exercise | [Book](../exercises/book)
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#c" target="_blank">Week 1, continued / C</a>
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=bQnyxpf0vk0" target="_blank">Hello-0</a> | Watch this video in which David Malan writes a *Hello, World* program. As you watch, follow along by creating your own copy of the same program. Afterwards, try poking around and tinkering with your program: Change something, re-run, break it, fix it.
+Do | Exercise | [Haiku](../exercises/haiku) | Do this simple *Haiku* exercise in your IDE. This should be similar to what you just did with David Malan (remember how to make a new line?).
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#writing_code" target="_blank">Week 1 / Writing Code</a> | Read over the "Writing Code" notes, and optionally rewatch that section of the lecture. This will go into more depth about the different components of the programs you've written so far.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=Zfb73qVXgn8" target="_blank">Hello-1</a> | Follow along (and type along!) with David Malan as he adds some complexity to the *Hello, World* program. Use a variable to say hello to yourself!
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=LpEyhtpVHes" target="_blank">Hello-2</a> | Continue to follow along as David adds another wrinkle to this program: taking input from the user.
+Do Exercise | Exercise | [Book](../exercises/book) | Do the *Book* exercise in your IDE. Remember how you got input from the user in the last Follow-Along. <br>TODO maybe split this into two exercises
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#c" target="_blank">Week 1, continued / C</a> | Read over these notes that talks about the components of your *Hello, World* program in C. We haven't watched this Lecture yet, so don't worry if this is unfamiliar. <br>Stop when you get to the header titled *Types*.
 Read | Supplementary Resource | [String Replacement Cheatsheet](TODO) |
 
 ##### Math, Numeric Types
