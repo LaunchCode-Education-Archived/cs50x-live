@@ -29,6 +29,7 @@ David Malan received homemade pesto! Thanks Santa!
 
 Use a linked-list of `typedef struct person`, which contains two fields:
 * `char* name`
+* `char* gift_given`
 * `char* gift_received`
 
 ### Part 2: Not-so-secret Santa
