@@ -2,7 +2,8 @@
 
 # Studio: Secret Santa
 
-(TODO add more explanation)
+(TODO add more explanation. and maybe change the rules bc currently they dont necessarily require the solution
+I'm going for, a linked list that cycles)
 
 ### Part 1
 
