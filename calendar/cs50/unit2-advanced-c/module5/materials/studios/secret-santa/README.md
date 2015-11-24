@@ -20,7 +20,7 @@ Name of person (q to stop): q
 What gift does David Malan give? a kazoo
 What gift does Andi Peng give? a linkedIn connection
 What gift does Doug Lloyd give? homemade pesto
-Twas the night before CS50 ...
+Twas the night before the day ...
 ... in the morning everyone rushed downtairs to rip open their boxes:
 Andi Peng received a kazoo! Thanks Santa!
 Doug Lloyd received a linkedIn connection! Thanks Santa!
@@ -45,7 +45,7 @@ Name of person (q to stop): q
 What gift does David Malan give? a kazoo
 What gift does Andi Peng give? a linkedIn connection
 What gift does Doug Lloyd give? homemade pesto
-Twas the night before CS50 ...
+Twas the night before the day ...
 ... in the morning everyone rushed downtairs to rip open their boxes:
 Andi Peng received a kazoo! Thanks David Malan!
 Doug Lloyd received a linkedIn connection! Thanks Andi Peng!
