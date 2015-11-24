@@ -3,6 +3,7 @@
 
 **Prereqs**: You should have completed [Module 0](../../../module0)
 
+####Synopsis
 In Module 1, you will write your first lines of code using a programming language called C. To do that, you'll be introduced to CS50's integrated development environment (or "IDE") that you'll use for the remainder of the course. During this Module you will dive more deeply into some of the concepts discussed in Module 0 such as loops, conditionals, and variables - except this time, _in code_. You'll learn how to take input from a user, and use that in your programs, and you'll also get your first taste of the debugger. 
 
 After the class sessions, you'll have a program for your own (hypothetical) donut store, a number guessing game, a way to make a romantic rectangle of hearts, and program that repeats after you. How fun!
@@ -11,7 +12,7 @@ By the end of this module you will have completed <a href="http://cdn.cs50.net/2
 
 *** 
 
-### Steps
+## Steps
 
 Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
