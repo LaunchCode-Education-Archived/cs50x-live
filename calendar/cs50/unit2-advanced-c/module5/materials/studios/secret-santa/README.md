@@ -4,6 +4,8 @@
 
 (TODO add more explanation)
 
+### Part 1
+
 Write a program that simulates some adorable people giving each other gifts, Secret-Santa style: each person gives a 
 gift to someone, and receives a gift from someone else. 
 
