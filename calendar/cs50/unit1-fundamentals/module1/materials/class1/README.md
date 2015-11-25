@@ -2,11 +2,13 @@
 
 # Class 1
 
-##### Before Today:
+##### Before Today
 For homework you should have done: [Prep for Class 1](../class1-prep)
 
 ##### Today
-We'll do these things:
+Ok, so there was a lot of information in Prep for Class 1. During class today, we'll go over the main concepts, and try to address questions that you have. The studio for today should help reinforce those concepts. For that, you will get into teams of 3-4 and work on a program for your new imaginary donut shop. 
+
+In class, we'll do these things:
 
 1. Q&A on the following topics:
   * getting user input
@@ -17,4 +19,4 @@ We'll do these things:
 ### Homework
 
 * [Class 2 Prep](../class2-prep)
-* Complete <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#smart_water" target="_blank">Pset1 / Smart Water</a>
+* Complete <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#smart_water" target="_blank">Problem Set 1: Water</a>
