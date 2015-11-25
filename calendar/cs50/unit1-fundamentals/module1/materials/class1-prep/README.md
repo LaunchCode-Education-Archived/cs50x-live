@@ -9,6 +9,8 @@ Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Watch | Lecture | <a href="https://www.youtube.com/embed/YiiHNiSfmKI?autoplay=1&rel=0&start=0" target="_blank">Week 1</a> | Watch the lecture video, which will give you a high-level introduction to this week's concepts. If you want, consider increasing the speed to 1.5x (only available in some browsers). The material will be covered in finer detail later. <br> Also, you can skip the portion of the video between 4:36-6:30 if you don't want to watch David Malan talk about information only relevant to Harvard students.
 
+***
+
 ##### Getting set up
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
@@ -19,6 +21,8 @@ Set up your IDE | Problem Set | <a href="http://cdn.cs50.net/2015/fall/psets/1/p
 Hello World! | Problem Set | <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Hello, World</a> | Now that you've got your IDE set up, go ahead and continue onto the next section of Pset1, which will walk you through writing a *Hello, World* program. You'll also learn about the Check50 code, which you can use to see if your CS50 assignments are correct. <br>Stop when you get to the section titled *Shorts*.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=poT5Yd0Ag8I&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=1" target="_blank">Command-Line</a> | Watch the video from Doug's Playlist called *Command-Line*. This will introduce you to, you guessed it, the command-line!
 Watch | Section | <a href="https://www.youtube.com/watch?v=kpSLlIj97Ss" target="_blank">Week 1 / IDE</a> | Watch the first ~13 minutes where they demo using the IDE, running some linux commands in the terminal, and writing a *Hello, World* program. <br> Stop at the 13:15 minute mark.
+
+***
 
 ##### Printing, Getting user input
 Task | Resource Type | Link | Instructions
@@ -31,6 +35,8 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=LpEyhtpVHe
 Do Exercise | Exercise | [Book](../exercises/book) | Do the *Book* exercise in your IDE. Remember how you got input from the user in the last Follow-Along. <br>TODO maybe split this into two exercises
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#c" target="_blank">Week 1, continued / C</a> | Read over these notes that talks about the components of your *Hello, World* program in C. We haven't watched this Lecture yet, so don't worry if this is unfamiliar. <br>Stop when you get to the header titled *Types*.
 Read | Supplementary Resource | [String Replacement Cheatsheet](TODO) |
+
+***
 
 ##### Math, Numeric Types
 Task | Resource Type | Link | Instructions
