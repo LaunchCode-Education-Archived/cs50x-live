@@ -14,4 +14,4 @@ Height: 3
 <3<3<3<3<3<3<3<3
 ```
 
-You may find it helpful to refer back to your solution to this studio when you work on Mario in the problem set (hint, hint).
+You may find it helpful to refer back to your solution to this studio when you work on Mario in the problem set ;)
