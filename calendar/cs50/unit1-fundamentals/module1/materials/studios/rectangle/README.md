@@ -2,7 +2,7 @@
 [Go back to Class 2](../../class2)
 # Studio: Lovely Rect<3ngle
 
-Write a program that "draws" a rectangle made of hearts `<3` on the console. 
+In a file called `rectangle.c` write a program that "draws" a rectangle made of hearts `<3` on the console. 
 Your program should prompt the user for a width and a height, and then print the corresponding rectangle:
 
 ```
@@ -13,3 +13,5 @@ Height: 3
 <3<3<3<3<3<3<3<3
 <3<3<3<3<3<3<3<3
 ```
+
+You may find it helpful to refer back to your solution to this studio when you work on Mario in the problem set (hint, hint).
