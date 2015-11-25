@@ -32,4 +32,6 @@ Notice the pattern? Whenever some number `n` is divisible by `3`, that's equival
 
 
 So to determine whether a number is even, you just need to check whether it is divisbile by `2`, or in other words,
-whether `n % 2` is `0`. If `n % 2` is not equal to `0`, then you have an odd number (remember how to say "not equal to" in code?). 
+whether `n % 2` is `0`. 
+
+If `n % 2` is not equal to `0`, then you have an odd number (remember how to say "not equal to" in code?). 
