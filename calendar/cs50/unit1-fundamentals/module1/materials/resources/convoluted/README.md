@@ -12,3 +12,5 @@ Variables also help us to avoid repeating ourselves. If you find yourself writin
 expression more than once, you should think about defining a variable to hold that expression.
 
 Check out [convoluted.c](./convoluted.c) for an example.
+
+Read the comments (denoted by the //) for explanations of each example. 
