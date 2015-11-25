@@ -28,15 +28,8 @@ division. Here's some examples:
 * `12 % 3` is `0`
 
 Notice the pattern? Whenever some number `n` is divisible by `3`, that's equivalent to saying
-`n / 3` has no remainder left over, so `n % 3` is `0`
+`n / 3` has no remainder left over, so `n % 3` is `0`.
 
 
 So to determine whether a number is even, you just need to check whether it is divisbile by `2`, or in other words,
-whether `n % 2` is `0`:
-
-```
-if (n % 2 == 0)
-{
-  // if we're in here, then n must be even!
-}
-```
+whether `n % 2` is `0`. If `n % 2` is not equal to `0`, then you have an odd number (remember how to say "not equal to" in code?). 
