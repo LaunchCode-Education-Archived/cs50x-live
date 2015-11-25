@@ -28,10 +28,10 @@ Doug Lloyd received a linkedIn connection! Thanks Santa!
 David Malan received homemade pesto! Thanks Santa!
 ```
 
-Use a linked-list of `typedef struct person`, which contains two fields:
+Use a linked-list of `typedef struct person`, which contains three fields:
 * `char* name`
-* `char* gift_given`
-* `char* gift_received`
+* `char* gift`
+* `struct person* receipient`
 
 ### Part 2: Not-so-secret Santa
 
