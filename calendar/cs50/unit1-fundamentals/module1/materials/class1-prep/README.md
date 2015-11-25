@@ -23,10 +23,10 @@ Watch | Section | <a href="https://www.youtube.com/watch?v=kpSLlIj97Ss" target="
 ##### Printing, Getting user input:
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=bQnyxpf0vk0" target="_blank">Hello-0</a> | Watch this video in which David Malan writes a *Hello, World* program. As you watch, follow along by creating your own copy of the same program. Afterwards, try poking around and tinkering with your program: Change something, re-run, break it, fix it.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=bQnyxpf0vk0" target="_blank">Hello-0</a> | Watch this video in which David Malan writes a *Hello, World* program. As you watch, follow along by creating your own copy of the same program in your IDE. Afterwards, try poking around and tinkering with your program: Change something, re-run, break it, fix it.
 Do | Exercise | [Haiku](../exercises/haiku) | Do this simple *Haiku* exercise in your IDE. This should be similar to what you just did with David Malan (remember how to make a new line?).
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#writing_code" target="_blank">Week 1 / Writing Code</a> | Read over the "Writing Code" notes, and optionally rewatch that section of the lecture. This will go into more depth about the different components of the programs you've written so far.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=Zfb73qVXgn8" target="_blank">Hello-1</a> | Follow along (and type along!) with David Malan as he adds some complexity to the *Hello, World* program. Use a variable to say hello to yourself!
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=Zfb73qVXgn8" target="_blank">Hello-1</a> | Follow along (and type along in your IDE!) with David Malan as he adds some complexity to the *Hello, World* program. Use a variable to say hello to yourself!
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=LpEyhtpVHes" target="_blank">Hello-2</a> | Continue to follow along as David adds another wrinkle to this program: taking input from the user.
 Do Exercise | Exercise | [Book](../exercises/book) | Do the *Book* exercise in your IDE. Remember how you got input from the user in the last Follow-Along. <br>TODO maybe split this into two exercises
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#c" target="_blank">Week 1, continued / C</a> | Read over these notes that talks about the components of your *Hello, World* program in C. We haven't watched this Lecture yet, so don't worry if this is unfamiliar. <br>Stop when you get to the header titled *Types*.
@@ -35,16 +35,16 @@ Read | Supplementary Resource | [String Replacement Cheatsheet](TODO) |
 ##### Math, Numeric Types
 Task | Resource Type | Link | Instructions
 -----|---------------|------|---------
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=xmZR2XiwOq4"target="_blank">adder</a> | 
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#imprecision" target="_blank">Week, 1 continued / Imprecision</a>| Read over the notes associated with a portion of the lecture video.  
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c" target="_blank">Week 1 / C</a> |
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#types" target="_blank">Week 1 / types</a>
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JFieJW_kZq4&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=2" target="_blank">Datatypes</a>
-Watch | Section | <a href="https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=youtu.be&t=801" target="_blank">Week 1 / data types</a> |
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4" target="_blank">f2c</a> |  
-Do | Exercise | [Percent](../exercises/percent) |  
-Watch | Short | <a href="https://www.youtube.com/watch?v=aUxqesKDdEc" target="_blank">Precedence</a>|  | Stop watching at 3:15 
-Do | Exercise | [Exercise: PEMDAS](../exercises/pemdas) |  | 
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=xmZR2XiwOq4"target="_blank">adder</a> | Follow along with David Malan to create a program that takes two numbers provided by the user and adds them together.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#imprecision" target="_blank">Week, 1 continued / Imprecision</a>| Read over the (brief) notes about imprecision. Unfortunately, the Modern Marvels link referenced does not work :( <br> Stop when you get to the *Annonuncements* header.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c" target="_blank">Week 1 / C</a> | TODO remove? This is repeated from above.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#types" target="_blank">Week 1 / Types</a> | Read the lecture notes about types. There are a lot of subsections, and you may find it beneficial to review this part of the lecture. Read all the way until the end of the notes for this lecture.
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JFieJW_kZq4&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=2" target="_blank">Datatypes</a> | Watch Doug's video about Datatypes.
+Watch | Section | <a href="https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=youtu.be&t=801" target="_blank">Week 1 / data types</a> | Pick up the section where we last left off at the ~13:15 minute mark. <br> Stop at the 15:15 minute mark.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4" target="_blank">f2c</a> |  Follow along with David Malan to create a program that converts temperatures in Farenheit to Celsius. 
+Do | Exercise | [Percent](../exercises/percent) | Try the *Percent* exercise to practice using floating-point numbers.
+Watch | Short | <a href="https://www.youtube.com/watch?v=aUxqesKDdEc" target="_blank">Precedence</a>|  Watch this short on Precedence / order of operations. <br> Stop at the 3:05 minute mark (if you go beyond, you'll hear about more advanced topics we won't be talking about for several weeks). 
+Do | Exercise | [Exercise: PEMDAS](../exercises/pemdas) |  TODO need to finish this exercise
 
 ***
 
