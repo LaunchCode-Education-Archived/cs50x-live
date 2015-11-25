@@ -4,12 +4,12 @@
 
 Before coming to [Class 1](../class1), please complete the following tasks:
 
-##### Lecture:
+##### Lecture
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Watch | Lecture | <a href="https://www.youtube.com/embed/YiiHNiSfmKI?autoplay=1&rel=0&start=0" target="_blank">Week 1</a> | Watch the lecture video, which will give you a high-level introduction to this week's concepts. If you want, consider increasing the speed to 1.5x (only available in some browsers). The material will be covered in finer detail later. <br> Also, you can skip the portion of the video between 4:36-6:30 if you don't want to watch David Malan talk about information only relevant to Harvard students.
 
-##### Getting set up:
+##### Getting set up
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#introduction" target="_blank">Week 1 / Introduction</a> | Read over the (very brief) notes associated with "Introduction" portion of the lecture video. Optionally, rewatch that section of the video (0:00-4:36). <br>Stop at the *Announcements* header.
@@ -20,7 +20,7 @@ Hello World! | Problem Set | <a href="http://cdn.cs50.net/2015/fall/psets/1/pset
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=poT5Yd0Ag8I&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=1" target="_blank">Command-Line</a> | Watch the video from Doug's Playlist called *Command-Line*. This will introduce you to, you guessed it, the command-line!
 Watch | Section | <a href="https://www.youtube.com/watch?v=kpSLlIj97Ss" target="_blank">Week 1 / IDE</a> | Watch the first ~13 minutes where they demo using the IDE, running some linux commands in the terminal, and writing a *Hello, World* program. <br> Stop at the 13:15 minute mark.
 
-##### Printing, Getting user input:
+##### Printing, Getting user input
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=bQnyxpf0vk0" target="_blank">Hello-0</a> | Watch this video in which David Malan writes a *Hello, World* program. As you watch, follow along by creating your own copy of the same program in your IDE. Afterwards, try poking around and tinkering with your program: Change something, re-run, break it, fix it.
