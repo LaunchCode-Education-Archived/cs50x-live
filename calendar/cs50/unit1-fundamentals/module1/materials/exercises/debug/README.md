@@ -29,22 +29,21 @@ a bunch of .c files!
 4. You might notice that the names of some of them look familiar. Indeed, these are the same programs you
 have been creating by following-along with David Malan's Walkthrough videos.
 5. Now the fun part: 
-  1. Open up `adder.c`
-  2. Add a breakpoint (little red dot) on line 17 (the first line inside of `main`) by clicking to the left of the number 17
+  1. Open up `adder.c` (located in the src1w folder)
+  2. Add a breakpoint (little red dot) on line 17 (this should be the first line inside of `main`) by clicking to the left of the number 17
   3. Run the program through the debugger by clicking the green `Debug` button at the top of the IDE.
   4. You should see that the program is paused at line 17. Advance to the next line by clicking the `Step Over`
-  icon in the top right (next to the blue `Play / Pause` icon. 
+  icon in the top right (next to the blue `Play / Pause` icon). 
   5. Continue stepping over each line and observe the changing values of variables in the right-hand panel.
   6. A couple times, you'll have to go back to the terminal and enter an integer, because the program is expecting 
   an integer from the user
   7. Hopefully this is giving you a more tangible feel for what happens when `adder` executes. 
   Feel free to tinker with the program and run it again.
-6. Repeat this proccess for each of the following source files:
+6. Repeat this process for each of the following source files:
   * `src1w/conditions-1.c` 
   * `src1w/hello-1.c` 
   * `src1w/hello-2.c` 
   * `src1w/nonswitch.c`
   * `src1f/f2c.c`
   * `src1w/thadgavin.c` (if you dare!)
-
-TODO some loop material??
+  Note that some of the files require user input. So, you'll have to switch back and forth between two roles: one of the user, and one of the debugger. Also, you don't have to put the first break point right under the main function - put it wherever looks interesting (and you can also have multiple break points!). 
