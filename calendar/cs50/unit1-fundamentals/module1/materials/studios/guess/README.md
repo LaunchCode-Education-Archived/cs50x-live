@@ -52,4 +52,4 @@ and then open up `guess5.c` and make changes there.
 
 #### Part 3
 
-Most likely, you've been using a `while` loop so far. Let's refactor to use a `for` loop, just for kicks. Write another program in a file called `guessfive.c`, which behaves exactly like `guess5`, but is implemented with a `for` loop instead. (If you already used a `for` loop in `guess5`, then use a `while` loop here.)
+Most likely, you've been using a `while` loop so far. Let's now refactor, and use a `for` loop instead, just for kicks. Write another program in a file called `guessfive.c`, which behaves exactly like `guess5`, but is implemented with a `for` loop. (But if you did use a `for` loop in `guess5`, then use a `while` loop here.)
