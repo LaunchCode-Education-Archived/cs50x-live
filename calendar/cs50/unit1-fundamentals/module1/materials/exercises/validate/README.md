@@ -16,7 +16,7 @@ Thanks! I got what I wanted.
 ```
 
 To determine whether a number is even, you can use the modulo operator `%`, which calculates the remainder after 
-division. 
+division. Here's some examples:
 
 * `3 % 3` is `0`
 * `4 % 3` is `1`
