@@ -4,3 +4,6 @@
 
 ### Studios
 * <a href="../studios/secret-santa" target="_blank">Secret Santa</a>
+  * todo Secret Santa kind of sucks. other ideas?
+    * LL implementation of GetString()
+    * chain of messages like [LOTR Torches](https://www.youtube.com/watch?v=i6LGJ7evrAg)
