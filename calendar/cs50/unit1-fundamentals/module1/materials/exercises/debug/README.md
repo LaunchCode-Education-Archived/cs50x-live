@@ -48,5 +48,3 @@ have been creating by following-along with David Malan's Walkthrough videos.
  
  Note that some of the files require user input. So, you'll have to switch back and forth between two roles: one of the user, and one of the debugger. Also, you don't have to put the first break point right under the main function - put it wherever looks interesting (and you can also have multiple break points!). 
 
-By the way, you can get any week's source code by following the steps above. You'll have to grab the correct URL, which changes based on the week number you're on, and if you want source code from the first or second lecture of the week. 
-
