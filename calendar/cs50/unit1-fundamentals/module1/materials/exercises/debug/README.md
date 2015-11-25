@@ -22,8 +22,7 @@ from Week 1 by running the following commands in your terminal:
   $ rm -f src1w.zip src1f.zip
   $ ls
   ```
-  (By the way, you can get any week's source code by following these steps. The zip file will be called src(#)(day) with the # being the week number, and the day being "w" for the first lecture, and "f" for the second lecture of the week.)
-
+  
 3. You should now have two new folders, `src1w/` and `src1f/`. If you look inside, you should see 
 a bunch of .c files!
 4. You might notice that the names of some of them look familiar. Indeed, these are the same programs you
@@ -48,3 +47,6 @@ have been creating by following-along with David Malan's Walkthrough videos.
   * `src1w/thadgavin.c` (if you dare!)
  
  Note that some of the files require user input. So, you'll have to switch back and forth between two roles: one of the user, and one of the debugger. Also, you don't have to put the first break point right under the main function - put it wherever looks interesting (and you can also have multiple break points!). 
+
+By the way, you can get any week's source code by following the steps above. You'll have to grab the correct URL, which will follow this standard: http://cdn.cs50.net/2015/fall/lectures/**#**/**day**/src**(#)** **(day)**.zip. The zip file will be called src(#)(day) with the # being the week number, and the day being "w" for the first lecture, and "f" for the second lecture of the week.)
+
