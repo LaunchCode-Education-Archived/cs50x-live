@@ -7,7 +7,7 @@ Before coming to [Class 2](../class2), please complete the following prep work:
 ##### Lecture:
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Watch | Lecture | <a href="https://youtube.com/watch?v=YiiHNiSfmKI" target="_blank">Week 1, Continued</a>
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=Y2vC3G8qVxw" target="_blank">Week 1, Continued</a> | Watch the week's second lecture. Again, feel free to watch on 1.5x speed if it suits you. 
 
 ***
 
@@ -19,9 +19,9 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=kBRUERguBPc&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=2" target="_blank">conditions-0</a>
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=-MUZL3kiPKI&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=3" target="_blank">conditions-1</a>
 Do | Exercise | [Age Restrictions](../exercises/age-restrictions) | 
-Watch | Short | <a href="https://youtu.be/M058skV1iL0?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC" target="_blank">Boolean Values</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=_FC-8QaaYgs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=3" target="_blank">Operators</a>
 Do | Exercise | [Decade](../exercises/decade) 
+Watch | Short | <a href="https://youtu.be/M058skV1iL0?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC" target="_blank">Boolean Values</a>
 
 ***
 
