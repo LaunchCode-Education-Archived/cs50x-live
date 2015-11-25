@@ -17,10 +17,14 @@ from Week 1 by running the following commands in your terminal:
 ```
 $ wget http://cdn.cs50.net/2015/fall/lectures/1/w/src1w.zip
 $ wget http://cdn.cs50.net/2015/fall/lectures/1/f/src1f.zip
-$ unzip src1w.zip src1f.zip
+$ unzip src1w.zip 
+$ unzip src1f.zip
 $ rm -f src1w.zip src1f.zip
 $ ls
 ```
+By the way, you can get any week's source code by following these steps. The zip file will be called src(#)(day) with the # being the week number, and the day being "w" for the first lecture, and "f" for the second lecture of the week.
+
+
 3. You should now have two new folders, `src1w/` and `src1f/`. If you look inside, you should see 
 a bunch of .c files!
 4. You might notice that the names of some of them look familiar. Indeed, these are the same programs you
