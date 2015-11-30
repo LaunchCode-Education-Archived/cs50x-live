@@ -1,5 +1,5 @@
 ##### Module 2
-[Back to Class 2](../../class2-prep)
+[Back to Class 2](../../class2)
 # Studio: Craaazy Echoes
 
 ### Part 1: Backwards Echo
