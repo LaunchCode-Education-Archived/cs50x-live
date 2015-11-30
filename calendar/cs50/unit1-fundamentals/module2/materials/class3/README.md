@@ -8,4 +8,4 @@
 
 ### Homework
 1. Finish [Problem Set 2](TODO)
-2. You're ready for [Module 3!](../../../module3). The next step is to start work on the [Prep for Module 3 / Class 1](../../../module3/class1-prep)
+2. You're ready for [Module 3!](../../../module3). The next step is to start work on the [Prep for Module 3 / Class 1](../../../module3/materials/class1-prep)
