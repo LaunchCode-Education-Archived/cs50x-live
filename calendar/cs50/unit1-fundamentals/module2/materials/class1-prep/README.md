@@ -23,8 +23,8 @@ Follow-Along| Walkthrough | <a href="https://www.youtube.com/watch?v=JqKDFhCaWC8
 Read | Resource |[Chars](../resources/Chars) | TODO briefly introduce the `char` type, and explain that strings we've seen so far are just a sequences of chars.
 Read |Resource| [Three Letter Word](resources/threeletterword) | TODO an exmaple program that asks for three letters, one `char` at a time, and then prints "That spells %c%c%c!"
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting" target="_blank">Week 2 / Typecasting</a> | Read the notes for the "Typecasting" section. This will explain typecasting using a program that converts alphabetical letters to their ASCII equivalents. <br> Stop at the *References* header.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=sELkIJyRHWg&index=5&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ascii-0</a>
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ifCoAx0r3es&index=6&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ascii-1</a>| Note: Talks about equivalence between chars and ints. typecasting is a prereq.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=sELkIJyRHWg&index=5&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ascii-0</a> | Follow David to write the same ASCII program you just read through in the Lecture Notes.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ifCoAx0r3es&index=6&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ascii-1</a>| Continue following David. Pay attention to when David talks about equivalence between chars and ints.
 
 #### Functions:
  Task | Resource Type| Link | Instructions
@@ -32,23 +32,23 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ifCoAx0r3e
 Read | Resource|  [Calling Functions](../resources/callingfunctions) | TODO res: review of how to call a library function. Understanding return value vs side effect.
 Do | Exercise | [Exercise: strlen](../exercises/strlen) | TODO exc: make them use the strlen function
 Read | Resource | [Creating Functions](../resources/creatingfunctions) | TODO res: explain that in addition to using other people's functions like `printf` and `atoi`, we can also write our own. 
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments" target="_blank">Functions and Arguments</a>
-Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=9zoRoz8Pq4E&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=13" target="_blank">functions-0</a>
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=7X9KUm5xej0&index=14&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">functions-1</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments" target="_blank">Functions and Arguments</a> | Read the "Functions and Arguments" section of the notes, which reviews how to define your own function. <br> Stop at the *Problem Set 1* header (don't be confused: these notes are from the previous week, but we find them helpful to include here). 
+Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=9zoRoz8Pq4E&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=13" target="_blank">functions-0</a> | Follow David to write a program in which you create your own function.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=7X9KUm5xej0&index=14&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">functions-1</a> | Now you'll implement a function that returns a return value. 
 Do | Exercise | [Step Into](../exercises/step-into) | TODO exc: make them step through source code from walkthroughs (cough0-4, functions0-1) in the Debugger, similar to module1/exercises/debug. Introduce the Step Into button.
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=jtuMIHebSu8&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=2" target="_blank">Functions</a>
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=jtuMIHebSu8&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=2" target="_blank">Functions</a> | Watch Doug's video where he breaks down functions. Feel free to practice with the problems he gives you.
 Do | Exercise | [Next Num](../exercises/nextnum) | TODO exc: have them refactor a program that computes the next number after an input value, by pulling functionality out of main and into a function with signature `int successor(int n)`
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Return Values</a> | TODO: Potentially scrap this. Somewhat confusingly presented-- `void` as "simplest return type", and last example uses file i/o, which will be scary and unfamiliar.
 Read | Resource | [Return Values](../resources/returnvalues) | TODO res: give picture of return values as evaluating a statement.
 
 #### Scope:
-Time Estimate | Task | Link | Instructions
---------------|------|------|-------------
-TODO | Read | [Lecture Notes: Week 2 / Functions](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#functions)
-10 mins | Watch Video | [Doug's Playlist / Variables and Scope](https://www.youtube.com/watch?v=pBqyy8NwzqY&index=3&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE)
-5 mins | Watch Video | [shorts/Scope](https://www.youtube.com/watch?v=UC5QAokAupo&index=8&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF) | He mentions "stack frames" and memory towards the end. don't worry about it.
-TODO | Read | [Resource: Scope](../resources/scope) | TODO res: buggy program with loop, need to pull out the variable to higher scope
-TODO | Exercise | [Exercise: Scope](../exercises/scope) | TODO exc: something that follows from resources/scope
+ Task | Resource Type| Link | Instructions
+------|------|------|-------------
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#functions" target="_blank">Week 2 / Functions</a>
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=pBqyy8NwzqY&index=3&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Variables and Scope</a>
+Watch | Shorts | <a href="https://www.youtube.com/watch?v=UC5QAokAupo&index=8&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Scope</a> | He mentions "stack frames" and memory towards the end. don't worry about it.
+Read | Resource | [Scope](../resources/scope) | TODO res: buggy program with loop, need to pull out the variable to higher scope
+Do| Exercise | [Scope](../exercises/scope) | TODO exc: something that follows from resources/scope
 
 #### Strings:
  Task | Resource Type| Link | Instructions
