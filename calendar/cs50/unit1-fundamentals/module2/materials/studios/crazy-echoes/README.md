@@ -1,5 +1,6 @@
+##### Module 2
+[Back to Class 2](../../class2-prep)
 # Studio: Craaazy Echoes
-
 
 ### Part 1: Backwards Echo
 
