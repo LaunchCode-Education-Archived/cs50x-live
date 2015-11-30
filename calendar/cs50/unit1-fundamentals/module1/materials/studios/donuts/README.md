@@ -14,7 +14,7 @@ course, you do provide a "suggested price".)
 Now it's time to implement your latest innovation, an app via which users can pre-order donuts remotely from the
 convenience of... the command-line terminal on their computer.
 
-In a file called donuts.c, write a program which introduces the flavor of the day, and then takes
+In a file called `donuts.c`, write a program which introduces the flavor of the day, and then takes
 the user's order. Taking their order involves asking two questions: "How many donuts?" and "How much do you want to pay?"
 
 Finally, inform the user of the total cost of their order. Don't forget to include sales-tax, which is, let's say, 5%.
