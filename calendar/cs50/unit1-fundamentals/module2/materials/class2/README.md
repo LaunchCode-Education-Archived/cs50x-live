@@ -11,3 +11,4 @@
 
 ### Homework
 1. Continue working on [Problem Set 2](TODO)
+2. Come to [Class 3!](../../class3)
