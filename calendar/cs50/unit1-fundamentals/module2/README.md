@@ -3,7 +3,13 @@
 
 **Pre-reqs:** [Module 1](../module1)
 
-**Assignment** By the end of this module you will have completed [Problem Set 2](http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html#getting_started)
+#### Synopsis 
+
+In Module 2, students will dive more deeply into data types and typecasting. While that doesn't sound mind-blowingly exciting, it will eventually allow us to do some real cryptography (the art of writing or solving secret codes) -- we'll use code to become codebreakers!
+
+Along the way, we'll use ASCII to write a program that tells the user the ASCII position of each letter in the alphabet, and create a program that takes arguments from the user and creates some craaazy echoes with them. 
+
+By the end of this module you will have completed [Problem Set 2](http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html#getting_started)
 
 ### Schedule
 
