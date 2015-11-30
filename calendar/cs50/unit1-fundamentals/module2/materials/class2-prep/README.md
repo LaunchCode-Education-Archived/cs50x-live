@@ -1,4 +1,4 @@
-##### Module 2
+##### [Module 2](../../)
 
 # Prep for Class 2
 
