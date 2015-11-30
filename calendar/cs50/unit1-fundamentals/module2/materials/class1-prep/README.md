@@ -13,32 +13,33 @@
 Watch| Short |<a href="https://www.youtube.com/watch?v=4XTSxFSs3kI&list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC&index=9)" target="_blank">Typecasting</a>
 Read | Supplement |[Typecasting](../resources/typecasting) | TODO this is in Module 1... want to move to Module 2?
 Do | Exercise | [Typecasting](../exercises/typecasting) | TODO
-Follow-Along | Walkthrough |[floats-0](https://www.youtube.com/watch?v=Eycgpd_HUIA&index=10&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU) | Following David, write a program that prints out a float.
-Follow-Along| Walkthrough| [floats-1](https://www.youtube.com/watch?v=26JLIimnyyM&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=11) | Keep following David to solve the problem from the previous video. 
-Follow-Along| Walkthrough | [floats-2](https://www.youtube.com/watch?v=JqKDFhCaWC8&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=12) | Continue the follow-along with David as he "blows your mind" with floating-points! 
+Follow-Along | Walkthrough |<a href="https://www.youtube.com/watch?v=Eycgpd_HUIA&index=10&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">floats-0</a> | Following David, write a program that prints out a float.
+Follow-Along| Walkthrough| <a href="https://www.youtube.com/watch?v=26JLIimnyyM&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=11" target="_blank">floats-1</a> | Keep following David to solve the problem from the previous video. 
+Follow-Along| Walkthrough | <a href="https://www.youtube.com/watch?v=JqKDFhCaWC8&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=12" target="_blank">floats-2</a> | Continue the follow-along with David as he "blows your mind" with floating-points! 
 
 #### Chars, ASCII:
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
 Read | Resource |[Chars](../resources/Chars) | TODO briefly introduce the `char` type, and explain that strings we've seen so far are just a sequences of chars.
 Read |Resource| [Three Letter Word](resources/threeletterword) | TODO an exmaple program that asks for three letters, one `char` at a time, and then prints "That spells %c%c%c!"
-Read | Lecture Notes | [Week 2 / Typecasting](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting) | Read the notes for the "Typecasting" section. This will explain typecasting using a program that converts alphabetical letters to their ASCII equivalents. <br> Stop at the *References* header.
-Follow-Along | Walkthrough | [ascii-0](TODO)
-Follow-Along | Walkthrough | [ascii-1](TODO) | Note: Talks about equivalence between chars and ints. typecasting is a prereq.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting" target="_blank">Week 2 / Typecasting</a> | Read the notes for the "Typecasting" section. This will explain typecasting using a program that converts alphabetical letters to their ASCII equivalents. <br> Stop at the *References* header.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=sELkIJyRHWg&index=5&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ascii-0</a>
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ifCoAx0r3es&index=6&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ascii-1</a>| Note: Talks about equivalence between chars and ints. typecasting is a prereq.
 
 #### Functions:
-Time Estimate | Task | Link | Instructions
---------------|------|------|-------------
-TODO | Read | [Resource: Calling Functions](../resources/callingfunctions) | TODO res: review of how to call a library function. Understanding return value vs side effect.
-TODO | Do Exercise | [Exercise: strlen](../exercises/strlen) | TODO exc: make them use the strlen function
-TODO | Read | [Resource: Creating Functions](../resources/creatingfunctions) | TODO res: explain that in addition to using other people's functions like `printf` and `atoi`, we can also write our own. 
-TODO | Read | [Lecture Notes: Functions and Arguments](http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments)
-TODO | Follow-Along | [walkthroughs/functions-0](https://www.youtube.com/watch?v=9zoRoz8Pq4E&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=13), [walkthroughs/functions-1](TODO)
-TODO | Do Exercise | [Exercise: Step Into](../exercises/step-into) | TODO exc: make them step through source code from walkthroughs (cough0-4, functions0-1) in the Debugger, similar to module1/exercises/debug. Introduce the Step Into button.
-20 mins | Watch | [Doug's Playlist / Functions](https://www.youtube.com/watch?v=jtuMIHebSu8&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=2)
-TODO | Do Exercise | [Exercise: Next Num](../exercises/nextnum) | TODO exc: have them refactor a program that computes the next number after an input value, by pulling functionality out of main and into a function with signature `int successor(int n)`
-TODO | Watch Video | [shorts/Return Values](https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF) | TODO: Potentially scrap this. Somewhat confusingly presented-- `void` as "simplest return type", and last example uses file i/o, which will be scary and unfamiliar.
-TODO | Read | [Resource: Return Values](../resources/returnvalues) | TODO res: give picture of return values as evaluating a statement.
+ Task | Resource Type| Link | Instructions
+------|------|------|-------------
+Read | Resource|  [Calling Functions](../resources/callingfunctions) | TODO res: review of how to call a library function. Understanding return value vs side effect.
+Do | Exercise | [Exercise: strlen](../exercises/strlen) | TODO exc: make them use the strlen function
+Read | Resource | [Creating Functions](../resources/creatingfunctions) | TODO res: explain that in addition to using other people's functions like `printf` and `atoi`, we can also write our own. 
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments" target="_blank">Functions and Arguments</a>
+Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=9zoRoz8Pq4E&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=13" target="_blank">functions-0</a>
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=7X9KUm5xej0&index=14&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">functions-1</a>
+Do | Exercise | [Step Into](../exercises/step-into) | TODO exc: make them step through source code from walkthroughs (cough0-4, functions0-1) in the Debugger, similar to module1/exercises/debug. Introduce the Step Into button.
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=jtuMIHebSu8&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=2" target="_blank">Functions</a>
+Do | Exercise | [Next Num](../exercises/nextnum) | TODO exc: have them refactor a program that computes the next number after an input value, by pulling functionality out of main and into a function with signature `int successor(int n)`
+Watch | Shorts | <a href="https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Return Values</a> | TODO: Potentially scrap this. Somewhat confusingly presented-- `void` as "simplest return type", and last example uses file i/o, which will be scary and unfamiliar.
+Read | Resource | [Return Values](../resources/returnvalues) | TODO res: give picture of return values as evaluating a statement.
 
 #### Scope:
 Time Estimate | Task | Link | Instructions
@@ -50,13 +51,18 @@ TODO | Read | [Resource: Scope](../resources/scope) | TODO res: buggy program wi
 TODO | Exercise | [Exercise: Scope](../exercises/scope) | TODO exc: something that follows from resources/scope
 
 #### Strings:
-Time Estimate | Task | Link | Instructions
---------------|------|------|-------------
-TODO | Read | [Lecture Notes: Week 2 / Representing Strings](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings)
-TODO | Follow-Along | [walkthroughs/string-0](https://www.youtube.com/watch?v=BYbuuUntOZ4&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=15), [walkthroughs/string-1](TODO), [walkthroughs/string-2](TODO)
-TODO | Read | [Resource: More on For-Loops](../resources/forloops) | TODO res: more explanation on that strlen() thing in the for loop
-20-30 mins | Do Exercise | [Exercise: Indexes](../exercises/indexes) | TODO exc: print each character in a string along with its index
-TODO | Follow-Along | [walkthroughs/capitalize-0](https://www.youtube.com/watch?v=wYvnyO2PbT0&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=9), [walkthroughs/capitalize-1](TODO), [walkthroughs/capitalize-2](TODO), 
+ Task | Resource Type| Link | Instructions
+------|------|------|-------------
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings" target="_blank">Week 2 / Representing Strings</a>)
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=BYbuuUntOZ4&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=15" target="_blank">string-0</a>
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=a2n7vKdRWKE&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=16" target="_blank">string-1</a>
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=p1e_6lkMGDg&index=17&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">string-2</a>
+Read | Resource |[More on For-Loops](../resources/forloops) | TODO res: more explanation on that strlen() thing in the for loop
+Do | Exercise | [Indexes](../exercises/indexes) | TODO exc: print each character in a string along with its index
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=wYvnyO2PbT0&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=9" target="_blank">capitalize-0</a>
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=h0hcz5zCBhU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=8"
+target="_blank">capitalize-1</a> 
+Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=wYvnyO2PbT0&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=9capitalize-2" target="_blank">capitalize-2</a>
 
 #### The Modulo Operator `%`:
 Time Estimate | Task | Link | Instructions
