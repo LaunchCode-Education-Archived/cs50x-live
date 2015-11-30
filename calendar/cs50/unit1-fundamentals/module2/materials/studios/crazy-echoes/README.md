@@ -3,7 +3,7 @@
 
 ### Part 1: Backwards Echo
 
-Write a program that accepts some command-line arguments, and then simply "echoes" those arguments back to the
+In a file called `backwardsecho.c` write a program that accepts some command-line arguments, and then simply "echoes" those arguments back to the
 cosole, similar to [(TODO find the walkthrough where they did this)](TODO). 
 
 The twist: each string should print out backwards. 
@@ -22,8 +22,7 @@ in reverse order.
 
 ### Part 2: Mixed-up Echo
 
-Now for another variation on the "echo" theme. Write another program that accepts some command-line arguments 
-and then echoes them back to the console.
+Now for another variation on the "echo" theme. In a file called `mixedupecho.c` write another program that accepts some command-line arguments and then echoes them back to the console.
 
 The twist this time: the echoes should "intermix" with each other, like so:
 
