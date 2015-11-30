@@ -3,25 +3,28 @@
 # Prep for Class 1
 
 #### Lecture:
-Time Estimate | Task | Link | Instructions
---------------|------|------|-------------
-30-45 mins | Watch Video | [Lecture: Week 2](https://www.youtube.com/watch?v=FgfLXemFoIo) | 
+ Task | Resource Type| Link | Instructions
+------|------|------|-------------
+ Watch | Lecture | [Week 2](https://www.youtube.com/watch?v=FgfLXemFoIo) | Watch this week's first lecture. You can skip from 9:00 to the 19:30 minute mark (David makes Harvard-specific announcements, and talks about their academic honesty guidelines). 
 
 #### Typecasting:
-Time Estimate | Task | Link | Instructions
---------------|------|------|-------------
-10 mins | Watch Video | [Short: Typecasting](https://www.youtube.com/watch?v=4XTSxFSs3kI&list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC&index=9)
-Read | Supplement |[Typecasting](../resources/typecasting)
+ Task | Resource Type| Link | Instructions
+------|------|------|-------------
+Watch| Short |<a href="https://www.youtube.com/watch?v=4XTSxFSs3kI&list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC&index=9)" target="_blank">Typecasting</a>
+Read | Supplement |[Typecasting](../resources/typecasting) | TODO this is in Module 1... want to move to Module 2?
 Do | Exercise | [Typecasting](../exercises/typecasting) | TODO
-TODO | Follow-Along | [Walkthrough: floats-0](https://www.youtube.com/watch?v=Eycgpd_HUIA&index=10&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU), [Walkthrough: floats-1](TODO), [walkthroughs/floats-2](TODO)
+Follow-Along | Walkthrough |[floats-0](https://www.youtube.com/watch?v=Eycgpd_HUIA&index=10&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU) | Following David, write a program that prints out a float.
+Follow-Along| Walkthrough| [floats-1](https://www.youtube.com/watch?v=26JLIimnyyM&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=11) | Keep following David to solve the problem from the previous video. 
+Follow-Along| Walkthrough | [floats-2](https://www.youtube.com/watch?v=JqKDFhCaWC8&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=12) | Continue the follow-along with David as he "blows your mind" with floating-points! 
 
 #### Chars, ASCII:
-Time Estimate | Task | Link | Instructions
---------------|------|------|-------------
-TODO | Read | [Resource: Chars](../resources/Chars) | TODO briefly introduce the `char` type, and explain that strings we've seen so far are just a sequences of chars.
-TODO | Read | [Resource: Three Letter Word](resources/threeletterword) | TODO an exmaple program that asks for three letters, one `char` at a time, and then prints "That spells %c%c%c!"
-TODO | Read | [Lecture Notes: Week 2 / Typecasting](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting)
-TODO | Follow-Along | [walkthroughs/ascii-0](TODO), [walkthroughs/ascii-1](TODO) | Note: Talks about equivalence between chars and ints. typecasting is a prereq.
+ Task | Resource Type| Link | Instructions
+------|------|------|-------------
+Read | Resource |[Chars](../resources/Chars) | TODO briefly introduce the `char` type, and explain that strings we've seen so far are just a sequences of chars.
+Read |Resource| [Three Letter Word](resources/threeletterword) | TODO an exmaple program that asks for three letters, one `char` at a time, and then prints "That spells %c%c%c!"
+Read | Lecture Notes | [Week 2 / Typecasting](http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting) | Read the notes for the "Typecasting" section. This will explain typecasting using a program that converts alphabetical letters to their ASCII equivalents. <br> Stop at the *References* header.
+Follow-Along | Walkthrough | [ascii-0](TODO)
+Follow-Along | Walkthrough | [ascii-1](TODO) | Note: Talks about equivalence between chars and ints. typecasting is a prereq.
 
 #### Functions:
 Time Estimate | Task | Link | Instructions
