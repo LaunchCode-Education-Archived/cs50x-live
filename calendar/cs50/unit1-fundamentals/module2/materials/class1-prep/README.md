@@ -5,7 +5,7 @@
 #### Lecture:
 Time Estimate | Task | Link | Instructions
 --------------|------|------|-------------
-30-45 mins | Watch Video | [Lecture: Week 2](TODO) | 
+30-45 mins | Watch Video | [Lecture: Week 2](https://www.youtube.com/watch?v=FgfLXemFoIo) | 
 
 #### Typecasting:
 Time Estimate | Task | Link | Instructions
