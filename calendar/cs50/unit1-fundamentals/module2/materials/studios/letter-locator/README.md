@@ -1,3 +1,5 @@
+##### Module 2
+[Back to Class 1](../../class1)
 # Studio: Letter Locator
 
 Write a program that prompts the user for an alphabetic character,
