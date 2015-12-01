@@ -9,6 +9,8 @@ Before coming to [Class 2](../class2), please work your way through the followin
 ------|------|------|-------------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=kEAH6u1ODNI" target="_blank">Week 2, continued</a> | Watch the week's second lecture, with Rob Bowden filling in for David. 
 
+***
+
 #### Strings, Under the hood
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
@@ -27,6 +29,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/w/notes
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=7mOJN1c1JEo&index=1&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Arrays</a> | This short will talk about when to use an array, and how to implement one. Rob talks about "pointer arrays" and `malloc` - don't worry about this for now.
 Watch | Doug's Playlist | [Arrays](https://www.youtube.com/watch?v=pBqyy8NwzqY&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=3) | TODO repeated from above? maybe remove / replace
  
+*** 
 
 #### Command-Line Arguments
  Task | Resource Type| Link | Instructions
@@ -50,3 +53,7 @@ TODO | ||some stuff about `NULL`
 Watch | Shorts| <a href="https://www.youtube.com/watch?v=F5feTW3CAZs&index=4&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Global Variables</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=z_Nh9yt4d_s&index=6&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Magic Numbers</a>
 Read | Resource | [Global Constants](../resources/global-constants) | TODO res: give an example of good use of global variables, a program that banishes its magic numbers by pulling them out into global constants
+
+***
+
+### Now you're ready for [Class 2](../class2)!
