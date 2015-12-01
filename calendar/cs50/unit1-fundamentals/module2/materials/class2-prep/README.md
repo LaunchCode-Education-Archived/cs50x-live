@@ -24,8 +24,8 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=7EdaoE46BTI&i
 Follow-Along | Walkthroughs | <a href="https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ages</a>
 Do | Exercise | [Array Read](../exercises/array-read) | TODO exc: something that involves reading from an array using bracket notation
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#arrays" target="_blank">Week 2, continued / Arrays</a>
-Watch | Shorts | <a href="https://www.youtube.com/watch?v=7mOJN1c1JEo&index=1&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Arrays</a>| When he talks about "pointer arrays" and `malloc`, you won't understand. That's ok.
-Watch | Doug's Playlist / Arrays](https://www.youtube.com/watch?v=pBqyy8NwzqY&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=3) | TODO repeated from above? maybe remove / replace
+Watch | Shorts | <a href="https://www.youtube.com/watch?v=7mOJN1c1JEo&index=1&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Arrays</a> | When he talks about "pointer arrays" and `malloc`, you won't understand. That's ok.
+Watch | Doug's Playlist | [Arrays](https://www.youtube.com/watch?v=pBqyy8NwzqY&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=3) | TODO repeated from above? maybe remove / replace
  
 
 #### Command-Line Arguments
