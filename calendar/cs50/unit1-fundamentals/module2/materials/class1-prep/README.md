@@ -10,7 +10,7 @@
 #### Typecasting:
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
-Watch| Short |<a href="https://www.youtube.com/watch?v=4XTSxFSs3kI&list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC&index=9)" target="_blank">Typecasting</a>
+Watch| Short |<a href="https://www.youtube.com/watch?v=4XTSxFSs3kI&list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC&index=9)" target="_blank">Typecasting</a> | Watch this short, which focuses on data types and typecasting. 
 Read | Supplement |[Typecasting](../resources/typecasting) | TODO this is in Module 1... want to move to Module 2?
 Do | Exercise | [Typecasting](../exercises/typecasting) | TODO
 Follow-Along | Walkthrough |<a href="https://www.youtube.com/watch?v=Eycgpd_HUIA&index=10&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">floats-0</a> | Following David, write a program that prints out a float.
@@ -44,9 +44,9 @@ Read | Resource | [Return Values](../resources/returnvalues) | TODO res: give pi
 #### Scope:
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#functions" target="_blank">Week 2 / Functions</a>
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=pBqyy8NwzqY&index=3&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Variables and Scope</a>
-Watch | Shorts | <a href="https://www.youtube.com/watch?v=UC5QAokAupo&index=8&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Scope</a> | He mentions "stack frames" and memory towards the end. don't worry about it.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#functions" target="_blank">Week 2 / Functions</a> | Read over the notes from the "Functions" section. Although the focus is on creating functions, pay specific attention to the parts that talk about declaring functions, and scope. <br> Stop when you get to the *Representing Strings* header. 
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=pBqyy8NwzqY&index=3&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Variables and Scope</a> | Doug discusses the importance of variables and scope, and how those relate to functions. 
+Watch | Shorts | <a href="https://www.youtube.com/watch?v=UC5QAokAupo&index=8&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Scope</a> | This short will provide some examples that highlight the importance of scope. Also, David mentions "stack frames" and memory towards the end - don't worry about that for now.
 Read | Resource | [Scope](../resources/scope) | TODO res: buggy program with loop, need to pull out the variable to higher scope
 Do| Exercise | [Scope](../exercises/scope) | TODO exc: something that follows from resources/scope
 
@@ -69,3 +69,5 @@ Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=wYvnyO2PbT0
 Read | Resource | [Modulo](TODO) | TODO res: introduce `%` and give some examples
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=_FC-8QaaYgs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=3) target="_blank">Operators</a>| (Again. Just watch the <a href="https://youtu.be/_FC-8QaaYgs?list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&t=119" target="_blank">part about modulo</a> if you prefer)
 Do | Exercise | [Clock](TODO) | TODO exc: write a program that receives an int number of hours and then calculates what time it will be that many horus in the future
+
+### Now you're ready for [Class 1](../class1)
