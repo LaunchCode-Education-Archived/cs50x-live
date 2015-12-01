@@ -9,7 +9,7 @@ For homework, you should have done [Prep for Class 1](../class1-prep)
 1. Lecture / Q&A on the following topics
   * TODO
   * TODO
-2. Studio: [Letter Locator](../studios/letter-locator)
+2. [Studio: Letter Locator](../studios/letter-locator)
 
 ### Homework
 1. [Class 2 Prep](../class2-prep) 
