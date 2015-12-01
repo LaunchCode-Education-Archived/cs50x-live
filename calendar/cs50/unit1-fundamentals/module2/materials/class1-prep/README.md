@@ -63,15 +63,15 @@ Do| Exercise | [Scope](../exercises/scope) | TODO exc: something that follows fr
 #### Strings:
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings" target="_blank">Week 2 / Representing Strings</a>
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=BYbuuUntOZ4&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=15" target="_blank">string-0</a>
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=a2n7vKdRWKE&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=16" target="_blank">string-1</a>
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=p1e_6lkMGDg&index=17&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">string-2</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings" target="_blank">Week 2 / Representing Strings</a> | Read the notes about "Representing Strings". This should be useful for the studio you'll do in Class 1.  
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=BYbuuUntOZ4&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=15" target="_blank">string-0</a> | Now follow-along as David Malan implements the string program you read through in the notes.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=a2n7vKdRWKE&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=16" target="_blank">string-1</a> | Keep going, as David talks about the instance where GetString returns NULL. 
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=p1e_6lkMGDg&index=17&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">string-2</a> | We can make this program even better by improving its efficiency. Follow David as he shows you how to do that.
 Read | Resource |[More on For-Loops](../resources/forloops) | TODO res: more explanation on that strlen() thing in the for loop
 Do | Exercise | [Indexes](../exercises/indexes) | TODO exc: print each character in a string along with its index
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=wYvnyO2PbT0&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=9" target="_blank">capitalize-0</a>
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=h0hcz5zCBhU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=8" target="_blank">capitalize-1</a> 
-Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=wYvnyO2PbT0&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=9capitalize-2" target="_blank">capitalize-2</a>
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=vp3TBL4WTbc&index=7&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">capitalize-0</a> | Follow David to create a program that capitalizes a string given by the user. 
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=h0hcz5zCBhU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=8" target="_blank">capitalize-1</a> | Continue following along as David introduces you to the `islower` and `toupper` functions.
+Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=wYvnyO2PbT0&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=9capitalize-2" target="_blank">capitalize-2</a> | Follow as David goes through the "man page" for the `toupper` function in order to further refine this program. 
 
 ***
 
@@ -79,7 +79,7 @@ Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=wYvnyO2PbT0
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
 Read | Resource | [Modulo](TODO) | TODO res: introduce `%` and give some examples
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=_FC-8QaaYgs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=3) target="_blank">Operators</a>| (Again. Just watch the <a href="https://youtu.be/_FC-8QaaYgs?list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&t=119" target="_blank">part about modulo</a> if you prefer)
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=_FC-8QaaYgs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=3" target="_blank">Operators</a>| Revisit Doug's video about Operators, or just watch the <a href="https://youtu.be/_FC-8QaaYgs?list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&t=119" target="_blank">part about modulo</a> if you prefer.
 Do | Exercise | [Clock](TODO) | TODO exc: write a program that receives an int number of hours and then calculates what time it will be that many horus in the future
 
 ***
