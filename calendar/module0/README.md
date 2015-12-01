@@ -7,6 +7,8 @@ You should complete *all* of Module 0 before coming to the first day of class. I
 
 So without further ado, let the learning begin!
 
+***
+
 ##### Lecture
 Task | Resource Type| Link | Instructions
 --------------|------|------|-------------
