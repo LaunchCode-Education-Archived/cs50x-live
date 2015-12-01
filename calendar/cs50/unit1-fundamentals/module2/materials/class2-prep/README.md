@@ -46,7 +46,7 @@ CS50 Study | [CS50 Study / Command-line Arguments](https://study.cs50.net/argv)
 
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
-TODO | some stuff about `NULL`
+TODO | ||some stuff about `NULL`
 Watch | Shorts| <a href="https://www.youtube.com/watch?v=F5feTW3CAZs&index=4&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Global Variables</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=z_Nh9yt4d_s&index=6&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Magic Numbers</a>
-Read | Resource | Global Constants](../resources/global-constants) | TODO res: give an example of good use of global variables, a program that banishes its magic numbers by pulling them out into global constants
+Read | Resource | [Global Constants](../resources/global-constants) | TODO res: give an example of good use of global variables, a program that banishes its magic numbers by pulling them out into global constants
