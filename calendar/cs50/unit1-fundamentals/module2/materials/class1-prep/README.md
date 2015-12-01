@@ -60,8 +60,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=p1e_6lkMGD
 Read | Resource |[More on For-Loops](../resources/forloops) | TODO res: more explanation on that strlen() thing in the for loop
 Do | Exercise | [Indexes](../exercises/indexes) | TODO exc: print each character in a string along with its index
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=wYvnyO2PbT0&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=9" target="_blank">capitalize-0</a>
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=h0hcz5zCBhU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=8"
-target="_blank">capitalize-1</a> 
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=h0hcz5zCBhU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=8" target="_blank">capitalize-1</a> 
 Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=wYvnyO2PbT0&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=9capitalize-2" target="_blank">capitalize-2</a>
 
 #### The Modulo Operator `%`:
