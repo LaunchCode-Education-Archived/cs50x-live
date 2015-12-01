@@ -53,7 +53,7 @@ Do| Exercise | [Scope](../exercises/scope) | TODO exc: something that follows fr
 #### Strings:
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings" target="_blank">Week 2 / Representing Strings</a>)
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#representing_strings" target="_blank">Week 2 / Representing Strings</a>
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=BYbuuUntOZ4&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=15" target="_blank">string-0</a>
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=a2n7vKdRWKE&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=16" target="_blank">string-1</a>
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=p1e_6lkMGDg&index=17&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">string-2</a>
