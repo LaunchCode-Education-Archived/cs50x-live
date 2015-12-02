@@ -41,7 +41,7 @@ Watch | Section | [Jason Hirschorn on Pointers](https://youtu.be/SppBaGROtX0?t=3
 
 Task | Type | Link | Notes
 -----|------|------|------
-Watch | Walkthrough | [sizeof](https://www.youtube.com/watch?v=6o-w4CIWP84&index=12&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ)
+Watch | Walkthrough | [sizeof](https://www.youtube.com/watch?v=6o-w4CIWP84&index=12&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ) | Learn about the `sizeof` operator. Harvard classifies this as belonging to Week 1, but we postponed it till now, since this is the context where you'll see `sizeof` being used.
 Read | Lecture Notes | [Week 4, continued / Memory Allocation](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#memory_allocation)
 Watch | Doug's Playlist [Dynamic Memory Allocation](https://www.youtube.com/watch?v=ywqB3ZTf8OE&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=3)
 Watch | Walkthrough | [copy-0](https://www.youtube.com/watch?v=zwKBMSLYrk4&index=3&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | copy a string (broken)
