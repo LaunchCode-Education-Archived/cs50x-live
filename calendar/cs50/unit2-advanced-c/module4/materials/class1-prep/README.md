@@ -47,8 +47,9 @@ Read | Lecture Notes | [Week 4, continued / Memory Allocation](http://cdn.cs50.n
 Watch | Doug's Playlist [Dynamic Memory Allocation](https://www.youtube.com/watch?v=ywqB3ZTf8OE&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=3)
 Watch | Walkthrough | [copy-0](https://www.youtube.com/watch?v=zwKBMSLYrk4&index=3&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | copy a string (broken)
 Watch | Walkthrough | [copy-1](https://www.youtube.com/watch?v=ebQSYaneMms&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=4) | copy string (fixed)
+Do | Exercise | <a href="../exercises/double-copy" target="_blank">Double Copy</a> | TODO exc: change the `copy-1` program so that it make a capitalized "double" copy of each string, ie "hello" -> "HelloHello"
 Watch | Short | [Strings](https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
-Do | Exercise | Swap Cycle | TODO exc: make them implement a function like `swap`, but with 3 variables instead of 2, in which `x` takes the value from `y`, `y` from `z` and `z` from `x`.
+Do | Exercise | <a href="../exercises/swap-cycle" target="_blank">Swap Cycle</a> | TODO exc: make them implement a function like `swap`, but with 3 variables instead of 2, in which `y` takes the value from `x`, `z` from `y` and `x` from `z`.
 
 
 
