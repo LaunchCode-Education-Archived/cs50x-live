@@ -37,7 +37,6 @@ Study | CS50 Study | [pointers](https://study.cs50.net/pointers)
 Do | Exercise | [Custom strcmp](../exercises/custom-strcmp) | TODO exc 
 Watch | Short | [Pointers](https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4) | prereqs: dereferencing, malloc
 Watch | Section | [Jason Hirschorn on Pointers](https://youtu.be/SppBaGROtX0?t=370) | really good
-Do | Exercise | Swap Cycle | TODO exc: make them implement a function like `swap`, but with 3 variables instead of 2, in which `x` takes the value from `y`, `y` from `z` and `z` from `x`.
 
 **malloc**
 
@@ -49,6 +48,7 @@ Watch | Doug's Playlist [Dynamic Memory Allocation](https://www.youtube.com/watc
 Watch | Walkthrough | [copy-0](https://www.youtube.com/watch?v=zwKBMSLYrk4&index=3&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | copy a string (broken)
 Watch | Walkthrough | [copy-1](https://www.youtube.com/watch?v=ebQSYaneMms&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=4) | copy string (fixed)
 Watch | Short | [Strings](https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
+Do | Exercise | Swap Cycle | TODO exc: make them implement a function like `swap`, but with 3 variables instead of 2, in which `x` takes the value from `y`, `y` from `z` and `z` from `x`.
 
 
 
