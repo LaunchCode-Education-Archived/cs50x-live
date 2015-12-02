@@ -53,13 +53,25 @@ Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=DQLbgo7Rzp
 ##### Shorts
 Task | Resource Type | Link | Notes
 -----|------|------|------
+Watch | Short | <a href="https://www.youtube.com/watch?v=kg0ZOmUREwc&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ&index=15" target="_blank">CSS</a> | 
+Watch | Short | <a href="https://www.youtube.com/watch?v=dM5V1epAbSs&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ&index=22" target="_blank">HTML</a> |
+Watch | Short | <a href="https://www.youtube.com/watch?v=dM5V1epAbSs&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ&index=22" target="_blank">HTTP</a>
+Watch | Short | <a href="https://www.youtube.com/watch?v=1YF8yIJE8mM&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ&index=31" target="_blank">PHP Syntax</a>
 
 ##### Doug Playlist
 Task | Resource Type | Link | Notes
 -----|------|------|------
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=oS_NAORY2Jw&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M&index=1" target="_blank">Internet Primer</a>
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=m-xgBan9V0U&index=2&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">IP</a>
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=uXa08E2gIa8&index=3&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">TCP</a>
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=iy6xhPB12V8&index=4&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">HTTP</a>
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=RNhQyOd29gk&index=5&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">CSS</a>
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=657YnQs2hVw&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M&index=6" target="_blank">HTML</a>
 
 ##### Section
 Task | Resource Type | Link | Notes
 -----|------|------|------
+Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=LGa-W39FXqg" target="_blank">Week 6</a>
+Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=FwBDYNYZ6ms" target="_blank">Week 7</a>
 
 ##### Study
