@@ -39,5 +39,7 @@ Watch | Short | [Singly Linked Lists](http://cs50.tv/2012/fall/shorts/singly_lin
 Watch | Doug's Playlist | [Singly-Linked Lists](https://www.youtube.com/watch?v=ZoG2hOIoTnA&index=2&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh) 
 Watch | Doug's Playlist | [Doubly-Linked Lists](https://www.youtube.com/watch?v=HmAEzp1taIE&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh&index=3)
 Study | CS50 Study | [Linked Lists](https://study.cs50.net/?toc=linked_lists) |
+Read | Supplement | TODO res: custom implementation of GetString that uses a linked list of chars, therefore doesnt need to realloc space in the same way
+Do | Exc | TOD exc: make the above more efficient by inserting each new char at the beginning of the list. But this means that in order to create the String object you have to iterate backwards over the list, which means you need to make it Doubly-Linked. 
 
 
