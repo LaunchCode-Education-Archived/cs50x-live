@@ -24,6 +24,7 @@ Watch | Doug's Playlist | [File Pointers](https://www.youtube.com/watch?v=QOD2hH
 Watch | Short | [File I/O](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | examples of reading from and writing to files. `fpoen` `fclose` `fgets` `fputs`
 Do | Exercise | [File Write](../exercises) | TODO exc: something that involves writing to a file
 Do | Exercise | [File Read](../exercises) | TODO exc: something that involves reading from a file
+TODO an exercise for each of the file io functions
 
 ##### Structs
 
@@ -36,6 +37,7 @@ Watch | Short | [Structs](https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&li
 Watch | Walkthrough | [structs-0](https://www.youtube.com/watch?v=yMvRqKmbRm4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=12) | struct for a "student" object  
 Watch | Walkthrough | [stucts-1](https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | student structs written to csv file
 Do | Exercise | | TODO exc : something with struXX
+TODO explain motivation for structs
 
 **Review**
 
