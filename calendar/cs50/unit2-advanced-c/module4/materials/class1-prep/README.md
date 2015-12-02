@@ -37,6 +37,7 @@ Study | CS50 Study | [pointers](https://study.cs50.net/pointers)
 Do | Exercise | [Custom strcmp](../exercises/custom-strcmp) | TODO exc 
 Watch | Short | [Pointers](https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4) | prereqs: dereferencing, malloc
 Watch | Section | [Jason Hirschorn on Pointers](https://youtu.be/SppBaGROtX0?t=370) | really good
+Do | Exercise | Swap Cycle | TODO exc: make them implement a function like `swap`, but with 3 variables instead of 2, in which `x` takes the value from `y`, `y` from `z` and `z` from `x`.
 
 **malloc**
 
