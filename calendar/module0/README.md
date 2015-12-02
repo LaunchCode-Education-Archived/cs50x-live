@@ -58,7 +58,7 @@ Do | Problem Set | <a href="http://cdn.cs50.net/2015/fall/psets/0/pset0/pset0.ht
 
 ***
 ##### Bonus Resources!
-Waiting for the first day of class, but can't wait to get coding? Try out the these resources that will introduce you to a programming language called Javascript. We'll return to Javascript later in CS50x, but for now, consider it good coding practice:
+Waiting for the first day of class, but can't wait to get coding? Try out the these resources, which will introduce you to a programming language called Javascript. We'll return to Javascript later in CS50x, but for now, consider it good coding practice:
 
 1. <a href="https://www.khanacademy.org/computing/computer-programming/programming" target="_blank">Khan Academy: Introduction to Javascript</a>
 2. <a href="https://www.codecademy.com/learn/javascript" target="_blank">Codeacademy's Javascript Track</a> 
