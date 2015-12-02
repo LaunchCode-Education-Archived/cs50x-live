@@ -28,7 +28,6 @@ Supplement | [Why Pointers](../supplementary-resources/why-pointers) | Read | TO
 Task | Type | Link | Notes
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=1545" target="_blank">Week 4 / Continued</a> | Just the second half. We'll do the first half in Class 2 Prep.
-Read | Lecture Notes | [Week 4 / Swap](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#swap), [Week 4 / Debugging](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide), [Week 4 / Pointers](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers) | quickly recall the "swap" problem"
 Read | Lecture Notes | [Week 4, continued / Strings and Pointers](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers) |
 Watch | Doug's Playlist | [Pointers](https://www.youtube.com/watch?v=yOdd3uYC--A&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=2) | prereqs: hex (a little)
 Watch | Walkthrough | [compare-1](https://www.youtube.com/watch?v=jE_bs-QNj3c&index=2&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | comparing strings (fixed)
