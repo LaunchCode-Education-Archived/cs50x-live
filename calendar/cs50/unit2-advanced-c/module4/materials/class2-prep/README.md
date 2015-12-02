@@ -3,12 +3,14 @@
 # Class 2 Prep
 
 ##### Reinforcement on Pointers, malloc
+Task | Type | Link | Notes
+-----|------|------|------
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=pointers,malloc" target="_blank">pointers, malloc</a> | If you still feel fuzzy on this stuff, that's par for the course. It's going to take time for everything to sink in. Keep your head up!
 
 ##### Lecture:
 
-Resource Type | Link | Task | Instructions
---------------|------|------|-------------
+Task | Type | Link | Notes
+-----|------|------|------
 Lecture | [Week 4, continued](http://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=0) | Watch | We already watched the second half, so you can stop after 25 minutes (but you may find a re-watch to be beneficial in this case).
 
 ##### Files, Hex
