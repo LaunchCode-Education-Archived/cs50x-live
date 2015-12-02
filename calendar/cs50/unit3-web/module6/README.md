@@ -4,7 +4,7 @@
 Task | Resource Type | Link | Notes
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=KWxwYbaAWxs" target="_blank">Week 6</a> | David travels to Yale to deliver this lecture. The first portion of the video (until 3:37) has unrelated announcements, as does minutes 14:00-15:44, so feel free to fast forward through those. You'll also review some portion of the video that you should have seen during the previous Module. The rest of the lecture is dedicated to our transition to web programming (exciting!). 
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=GUtPQIDSwrA" target="_blank">Week 7</a> | We're continuing with web programming in this lecture, with a focus on HTML and a bit about web servers. The first 4 minutes have Harvard-specific content, see feel free to skip that if you want. 
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=GUtPQIDSwrA" target="_blank">Week 7</a> | We're continuing with web programming in this lecture, with a focus on HTML and a bit about web servers. The first 4 minutes have Harvard-specific content, so feel free to skip that if you want. 
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=h_zmq88Ae3k" target="_blank">Week 7, continued</a> | This lecture will be a crash course introduction to a programming language called PHP, which is often used for web programming. 
 
 ##### Lecture Notes
