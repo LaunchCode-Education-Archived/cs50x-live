@@ -2,29 +2,36 @@
 
 # Class 2 Prep
 
-**Pointers**
+
+
+##### Lecture:
+
+Resource Type | Link | Task | Instructions
+--------------|------|------|-------------
+Lecture | [Week 4, continued](http://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=0) | Watch | only watch the first 25 minutes
+
+##### Files, Hex
 
 Task | Type | Link | Notes
 -----|------|------|------
-Read | Lecture Notes | [Week 4 / Swap](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#swap), [Week 4 / Debugging](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide), [Week 4 / Pointers](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers) | quickly recall the "swap" problem"
-Read | Lecture Notes | [Week 4, continued / Strings and Pointers](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers) |
-Watch | Doug's Playlist | [Pointers](https://www.youtube.com/watch?v=yOdd3uYC--A&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=2) | prereqs: hex (a little)
-Watch | Walkthrough | [compare-1](https://www.youtube.com/watch?v=jE_bs-QNj3c&index=2&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | comparing strings (fixed)
-Watch | Walkthrough | [pointers](https://www.youtube.com/watch?v=1PoFw5_p0xk&index=6&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | print str one char at a time using pointers
-Study | CS50 Study | [pointers](https://study.cs50.net/pointers)
-Do | Exercise | [Custom strcmp](../exercises/custom-strcmp) | TODO exc 
-Watch | Short | [Pointers](https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4) | prereqs: dereferencing, malloc
-Watch | Section | [Jason Hirschorn on Pointers](https://youtu.be/SppBaGROtX0?t=370) | really good
+Read | Lecture Notes | [Week 4, continued / Files, Headers and Hex](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#files_headers_and_hex)
+Watch | Doug's Playlist | [Hexedecimal](https://www.youtube.com/watch?v=nrFHGtGdOzA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq)
+Do | Exercise | [Hex Converter](../exercises) | TODO: exc: write a program that converts back and forth from hex
+Watch | Doug's Playlist | [File Pointers](https://www.youtube.com/watch?v=QOD2hHiHpn0&index=1&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh) | TODO prereq pointers
+Watch | Short | [File I/O](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | examples of reading from and writing to files. `fpoen` `fclose` `fgets` `fputs`
+Do | Exercise | [File Write](../exercises) | TODO exc: something that involves writing to a file
+Do | Exercise | [File Read](../exercises) | TODO exc: something that involves reading from a file
 
-**malloc**
+##### Structs
 
 Task | Type | Link | Notes
 -----|------|------|------
-Read | Lecture Notes | [Week 4, continued / Memory Allocation](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#memory_allocation)
-Watch | Doug's Playlist [Dynamic Memory Allocation](https://www.youtube.com/watch?v=ywqB3ZTf8OE&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=3)
-Watch | Walkthrough | [copy-0](https://www.youtube.com/watch?v=zwKBMSLYrk4&index=3&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | copy a string (broken)
-Watch | Walkthrough | [copy-1](https://www.youtube.com/watch?v=ebQSYaneMms&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=4) | copy string (fixed)
-Watch | Short | [Strings](https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)
+Read | Lecture Nodes | [Week 4, continued / Structs](http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#structs)
+Watch | Doug's Playlist | [Structs](https://www.youtube.com/watch?v=6RLxPdZ59y0&index=4&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq) | pointers around 5:00, sizeof, accessing fields with `->` operator
+Watch | Doug's Playlist | [Defining Custom Types](https://www.youtube.com/watch?v=wgv4xH_tVgA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=5) | typedef
+Watch | Short | [Structs](https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | prereq `char*`; goes into recursive struct definitions like linked lists, and then talks alot about pointers
+Watch | Walkthrough | [structs-0](https://www.youtube.com/watch?v=yMvRqKmbRm4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=12) | struct for a "student" object  
+Watch | Walkthrough | [stucts-1](https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | student structs written to csv file
 
 **Review**
 
