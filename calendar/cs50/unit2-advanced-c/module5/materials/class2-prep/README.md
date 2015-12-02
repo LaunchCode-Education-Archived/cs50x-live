@@ -40,5 +40,5 @@ Task | Type | Link | Notes
 -----|------|------|------
 Watch | Doug's Playlist | [Data Structures Summary](https://www.youtube.com/watch?v=YiwRCN_SMuA&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=4)
 Watch | Doug's Playlist | []()
-Read | Lecture Notes | [Week 6 / Data Structures Recap](http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#data_structures_recap) | This is from next week's lecture, but is useful now. You might also want to watch the linked video (stop at minute 14)
+Read | Lecture Notes | [Week 6 / Data Structures Recap](http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#data_structures_recap) | This is from next week's lecture, but is useful now. You might also want to watch the associated video (stop at minute 14)
 Study | CS50 Study | | maybe just conglomerate all the individual data structure ones here instead of spreading them out
