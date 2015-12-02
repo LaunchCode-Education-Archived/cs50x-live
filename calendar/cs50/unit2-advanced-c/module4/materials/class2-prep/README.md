@@ -2,13 +2,14 @@
 
 # Class 2 Prep
 
-
+##### Reinforcement on Pointers, malloc
+Study | CS50 Study | <a href="https://study.cs50.net/?toc=pointers,malloc" target="_blank">pointers, malloc</a> | If you still feel fuzzy on this stuff, that's par for the course. It's going to take time for everything to sink in. Keep your head up!
 
 ##### Lecture:
 
 Resource Type | Link | Task | Instructions
 --------------|------|------|-------------
-Lecture | [Week 4, continued](http://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=0) | Watch | only watch the first 25 minutes
+Lecture | [Week 4, continued](http://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=0) | Watch | We already watched the second half, so you can stop after 25 minutes (but you may find a re-watch to be beneficial in this case).
 
 ##### Files, Hex
 
@@ -32,6 +33,7 @@ Watch | Doug's Playlist | [Defining Custom Types](https://www.youtube.com/watch?
 Watch | Short | [Structs](https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP) | prereq `char*`; goes into recursive struct definitions like linked lists, and then talks alot about pointers
 Watch | Walkthrough | [structs-0](https://www.youtube.com/watch?v=yMvRqKmbRm4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=12) | struct for a "student" object  
 Watch | Walkthrough | [stucts-1](https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | student structs written to csv file
+Do | Exercise | | TODO exc : something with struXX
 
 **Review**
 
