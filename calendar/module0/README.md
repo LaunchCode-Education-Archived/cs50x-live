@@ -53,9 +53,11 @@ Watch | Walkthrough | <a href="https://www.youtube.com/watch?list=PLhQjrBD2T383n
 Watch | Short | <a href="https://www.youtube.com/watch?v=52JoFF4HMA4&index=41&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">Scratch</a> | Watch as Allison creates a game in Scratch, walking through all of the different steps. 
 Do | Problem Set | <a href="http://cdn.cs50.net/2015/fall/psets/0/pset0/pset0.html#itching_to_program" target="_blank">Problem Set 0</a> | Complete Problem Set 0! If you scroll up on that page, there will be a lot of information specific to Harvard - please ignore that, unless you just want to read it out of curiosity. Both the walkthroughs and "Scratch" short are embedded here; you don't have to watch them again. However, we do advise people (especially those who are less comfortable) to watch the long video from Zamyla called "Scratch". <br> *Please ignore the "How to Submit" section!* <br> When you have finished your project, you will submit your assignment on Vocareum. To do this, log in to your Vocareum account (you should have received your login credentials in an email), find the assignment on the left labeled "Problem Set 0", and *carefully* follow the instructions there. 
 
-***
+
 ###Now you're ready for the first day of class! The best place to see the course materials is by viewing the [Course Calendar](..)
 
+***
+##### Bonus Resources!
 Waiting for the first day of class, but can't wait to get coding? Try out the these resources that will introduce you to a programming language called Javascript. We'll return to Javascript later in CS50x, but for now, consider it good coding practice:
 
 1. <a href="https://www.khanacademy.org/computing/computer-programming/programming" target="_blank">Khan Academy: Introduction to Javascript</a>
