@@ -9,7 +9,7 @@ Before coming to [Class 1](../class1), please complete the following tasks:
 Resource Type | Link | Task | Instructions
 --------------|------|------|-------------
 CS50 Study | [recursion](https://study.cs50.net/recursion) | Study | 
-Lecture | <a href="http://www.youtube.com/embed/SadMsthVUBM?autoplay=1&rel=0&start=0" target="_blank">Week 4, (first 25 minutes)</a> | Watch | THIS IS OPTIONAL. We already saw this last week, but if you want some more recursion material, this might help.
+Lecture | <a href="http://www.youtube.com/embed/SadMsthVUBM?autoplay=1&rel=0&start=0" target="_blank">Week 4, (first 25 minutes)</a> | (re)Watch | THIS IS OPTIONAL. We already saw this last week, but if you want some more recursion material, this might help.
 
 ##### Leading up to Pointers:
 
