@@ -11,7 +11,7 @@ string exampleString = “hello!”;  // set up an example variable to use
 strlen(exampleString);
 ```
 
-But wait!  There’s an error here; we got the length of the string, but we didn’t do anything with it!  If we, say, wanted to print the length of the string, how could we do this?
+But wait!  Something is missing here; we got the length of the string, but we didn’t do anything with it!  If we, say, wanted to print the length of the string, how could we do this?
 
 ## Return Values
 
