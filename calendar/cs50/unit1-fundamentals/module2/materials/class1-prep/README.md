@@ -25,7 +25,7 @@ Follow-Along| Walkthrough | <a href="https://www.youtube.com/watch?v=JqKDFhCaWC8
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
 Read | Resource |[Chars](../resources/Chars) | TODO briefly introduce the `char` type, and explain that strings we've seen so far are just a sequences of chars.
-Read |Resource| [Three Letter Word](resources/threeletterword) | TODO an exmaple program that asks for three letters, one `char` at a time, and then prints "That spells %c%c%c!"
+Read |Resource| [Three Letter Word](../resources/chars/threeletterword.c) | TODO an exmaple program that asks for three letters, one `char` at a time, and then prints "That spells %c%c%c!"
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#typecasting" target="_blank">Week 2 / Typecasting</a> | Read the notes for the "Typecasting" section. This will explain typecasting using a program that converts alphabetical letters to their ASCII equivalents. <br> Stop at the *References* header.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=sELkIJyRHWg&index=5&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ascii-0</a> | Follow David to write the same ASCII program you just read through in the Lecture Notes.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ifCoAx0r3es&index=6&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ascii-1</a>| Continue following David. Pay attention to when David talks about equivalence between chars and ints.
