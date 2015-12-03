@@ -14,11 +14,6 @@ Time | Task | Link | Instructions
 -----|------|------|-------------
 30-45 mins | Watch Video | [Lecture: Week 3, continued](TODO)
 
-#####  More Practice with Functions
-Task | Resource Type | Link | Instructions
------|------|------|-------------
-Do | Exercise | | TODO exc: a program with a main function that calls a (so far) nonexeistent function. Make them create and implement the function
-
 ##### Merge Sort
 Time | Task | Link | Instructions
 -----|------|------|-------------
