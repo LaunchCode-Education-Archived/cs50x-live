@@ -16,7 +16,6 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=kEAH6u1ODNI" target="
 ------|------|------|-------------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#more_on_strings" target="_blank">Week 2, continued / More on Strings</a> | Review the notes on the first part of the lecture about strings. <br>Stop at the *Arrays* header. 
 Read | Resource | [Custom strlen](../resources/customstrlen) | TODO res: show example of custom implementation of strlen that iterates over a string and increments a counter until encoutering the `\0` character
-Follow-Along | Walkthrough | <a href="https://youtu.be/6o-w4CIWP84?list=PLhQjrBD2T380JCGC3qD3nGpqt8iIjx2fV" target="_blank">sizeof</a> | TODO look this over, make sure it fits here. Also, from 2014, so it's in the Appliance. 
 
 #### Arrays
  Task | Resource Type| Link | Instructions
