@@ -9,13 +9,6 @@ Time | Task | Resource | Link | Instructions
 -----|------|----------|------|-------------
 TODO | Study | CS50 Study | [conditions, math, binary, arrays](https://study.cs50.net/loops?toc=conditions,math,binary,arrays) | Continue sharpening your skills on these concepts from the previous 2 modules. Be sure to do the exercises at the bottom of each section.
 
-##### Debugging
-Time | Task | Resource | Link | Instructions
------|------|----------|------|-------------
-TODO | Follow-Along | Section | [Debugging with Dan Armendariz](https://www.youtube.com/watch?v=-G_klBQLgdc)
-TODO | Watch Video | Doug's Playlist | [GDB](TODO) | Only watch this if you are running into issues with the CS50 IDE Debugger
-TODO | Do | Exercise | [Debug](TODO) | TODO exc: provide a program with a small bug that is tricky to find without using the debugger, have them fix it.
-
 ##### Lecture
 Time | Task | Resource | Link | Instructions
 -----|------|----------|------|-------------
