@@ -31,8 +31,65 @@ Start by just thinking about the signature of the function.
 If you're stuck, I've written the answers at the bottom of this very long page. Scroll down.
 
  |
+ 
  |
+ 
 \ / 
+
+ V
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Answers:
+* 3 parameters
+* they should all be `string`s
+* There's no right answer, but I think here it makes sense to just use the same names we used inside main: `sender`, `recipient`, and `message`
+* return type should be `void`
+
+With these answers, the overal signature looks like:
+```
+void printMessage(string sender, string recipient, string message)
+```
+
+ 
+ 
+ 
 
 
 
