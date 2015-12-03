@@ -9,6 +9,12 @@ Time | Task | Resource | Link | Instructions
 -----|------|----------|------|-------------
 TODO | Study | CS50 Study | [conditions, math, binary, arrays](https://study.cs50.net/loops?toc=conditions,math,binary,arrays) | Continue sharpening your skills on these concepts from the previous 2 modules. Be sure to do the exercises at the bottom of each section.
 
+##### More Practice with Functions
+Time | Task | Resource | Link | Instructions
+-----|------|----------|------|-------------
+| Do | Exercise | <a href="../exercises/message" target="_blank">Message</a>
+| | | TODO more of these
+
 ##### Lecture
 Time | Task | Resource | Link | Instructions
 -----|------|----------|------|-------------
