@@ -30,13 +30,13 @@ Start by just thinking about the signature of the function.
 
 If you're stuck, I've written the answers below.
 
-Warning!
+**Warning!**
 
 
-Spoiler Alert!
+**Spoiler Alert!**
 
 
-Don't look until you're actually stuck!
+**Don't look until you're actually stuck!**
 
 
  
@@ -50,30 +50,3 @@ With these answers, the overal signature looks like:
 ```
 void printMessage(string sender, string recipient, string message)
 ```
-
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-TODO
-
-
-
-
-
