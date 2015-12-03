@@ -6,11 +6,14 @@
  */
 int main(void)
 {
+  printf("Name of sender: ");
+  string sender = GetString();
+  
   printf("Name of recipient: ");
   string recipient = GetString();
   
   printf("Message: ");
   string message = GetString();
   
-  printMessage(recipient, message);
+  printMessage(sender, recipient, message);
 }
