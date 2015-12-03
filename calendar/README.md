@@ -8,11 +8,11 @@
 
 ###Unit 1: Fundamentals
 
-Module | Classes | Assignments|
-:-------:|:---------:|------------|
-[Module 1](./cs50/unit1-fundamentals/module1) | 3 | **Studios**: Donuts, Guess, Lovely Rectangle, Repeat <br>**Problem Set 1** (Water, Mario, Greedy)|
-[Module 2](./cs50/unit1-fundamentals/module2)| 3 | **Studios**: Letter Locator, Crazy Echoes <br>**Problem Set 2** (Initials, Caeser, Vigenere) |
-[Module 3](./cs50/unit1-fundamentals/module3)| 3 | **Studios**: Word Grid <br>**Problem Set 3** (Generate, Helpers, Game of Fifteen)|
+Module | Classes | Assignments| Topics
+:-------:|:---------:|------------:|:-------:
+[Module 1](./cs50/unit1-fundamentals/module1) | 3 | **Studios**: Donuts, Guess, Lovely Rectangle, Repeat <br>**Problem Set 1** (Water, Mario, Greedy)| 
+[Module 2](./cs50/unit1-fundamentals/module2)| 3 | **Studios**: Letter Locator, Crazy Echoes <br>**Problem Set 2** (Initials, Caeser, Vigenere) | arrays, command-line args, 
+[Module 3](./cs50/unit1-fundamentals/module3)| 3 | **Studios**: Word Grid <br>**Problem Set 3** (Generate, Helpers, Game of Fifteen)| sorting algorithms, asymptotic complexity analysis, 
 
 
 ###Unit 2: Advanced C
@@ -26,7 +26,7 @@ Module | Classes | Assignments|
 
 Module | Classes | Assignments|
 :-------:|:---------:|------------|
-[Module 6](./cs50/unit3-web/module6)| 3 | **Studios**: <br>**Problem Set 6** |
-[Module 7](./cs50/unit3-web/module7)| 3 | **Studios**: <br>**Problem Set 7** |
-[Module 8](./cs50/unit3-web/module8)| 3 | **Studios**: <br>**Problem Set 8** |
+[Module 6](./cs50/unit3-web/module6)| 3 | **Studios**: <br>**Problem Set 6** | internet protocols, html, how servers work
+[Module 7](./cs50/unit3-web/module7)| 3 | **Studios**: <br>**Problem Set 7** | PHP SQL
+[Module 8](./cs50/unit3-web/module8)| 3 | **Studios**: <br>**Problem Set 8** | Javscript, APIs
 
