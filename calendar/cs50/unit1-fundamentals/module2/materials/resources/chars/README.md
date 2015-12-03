@@ -52,3 +52,14 @@ Finally, some background on how `char`s work.
 Just like with `int`s, each `char` is represented by a discrete sequence of bits.  We already learned about how the computer translates the bits that make up an `int` into an integer, using binary, or base-2 counting, rather than base-10. But how can a sequence of 0s and 1s represent a letter? Well, there's no "logical" pattern. Instead, the computer simply uses a standardized scheme called <a href="http://www.asciitable.com" target="_blank">ASCII</a>, which maps numbers to letters (and to other characters such as `$`, `#` and `~`). For example, the charcter `q` has an ASCII value of `113`. Again, there's no logical connection between `q` and `113`; ASCII is simply an arbitrary mapping that some people made up. The key is that every computer around the world "buys into" the same standardized scheme, so then they can use the scheme to communicate with each other.
 
 You don’t have to know or memorize the ASCII table!  Just know that just like how a computer can translate the bits of an `int` into an integer, it can translate the bits of a `char` into a letter. Under the hood, the computer represents the `char` 'q' as 01110001, the number 113 in binary.
+
+### An Example
+
+Check out <a href="threeletterword.c">threeletterword.c</a> for an example of `char`s in action. Our program simply asks the user for three `char`s, one at a time, and then prints out the resulting "word":
+```
+$ ./theeletterword
+char please: g
+char please: i
+char please: t
+That spells git!
+```
