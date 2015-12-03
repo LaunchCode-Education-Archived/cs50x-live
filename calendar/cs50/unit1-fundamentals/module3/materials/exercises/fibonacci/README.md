@@ -20,11 +20,11 @@ the sum of the two previous numbers:
 * `2 + 3` is `5`
 * ...
 
-More formally, we can describe the sequence as a list of numbers, or "terms" labeled term 0, term 1, term 2 ...  
+More formally, we can describe the sequence as a list of numbers, or "terms" labeled `term 0`, `term 1`, `term 2` ...  
 along with the computation necessary to figure out the value of a given term:
-* The value of term 0 is: `0`
-* The value of term 1 is: `1`
-* The value of term n is: (the value of term `n-2`) `+` (the value of term `n-1`)
+* The value of `term 0` is: `0`
+* The value of `term 1` is: `1`
+* The value of `term n` is: (the value of `term n-2`) `+` (the value of `term n-1`)
 
 Hmm, that looks an awful lot like a recursive function, with two base cases and a recursive case.
 
