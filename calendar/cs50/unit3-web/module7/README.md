@@ -22,3 +22,13 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes
 TODO | | | There's more PHP notes in the Week 8 lecture... maybe useful to add here.
 
 
+##### Walkthroughs
+Task | Resource Type | Link | Notes
+-----|------|------|------
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=TKZlfZDF8Y4&index=1&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">css-0</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=VwCSw2ts388&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=2" target="_blank">css-1</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=-7wiXVMh4XY&index=3&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">css-2</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=-C80Qik9OWw&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=4" target="_blank">froshims-0</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=blwsjq0lQb4&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=5" target="_blank">froshims-1</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=csboq6ZtqkI&index=6&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">froshims-2</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=mVs7EkALBuw&index=7&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">froshims-3</a>
