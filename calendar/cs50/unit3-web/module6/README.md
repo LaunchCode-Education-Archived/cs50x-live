@@ -24,6 +24,9 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes
 ##### Walkthroughs
 Task | Resource Type | Link | Notes
 -----|------|------|------
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=TKZlfZDF8Y4&index=1&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">css-0</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=VwCSw2ts388&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=2" target="_blank">css-1</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=-7wiXVMh4XY&index=3&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">css-2</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=whYnf7PFZ74&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=8" target="_blank">headings</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=1TgTA4o_AM8&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=9" target="_blank">hello, HTML</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=dW4giTKrgzo&index=10&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">image</a>
