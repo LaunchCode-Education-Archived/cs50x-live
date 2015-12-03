@@ -28,53 +28,17 @@ Start by just thinking about the signature of the function.
 * What should the return type be?
 
 
-If you're stuck, I've written the answers at the bottom of this very long page. Scroll down.
+If you're stuck, I've written the answers below.
 
- |
- 
- |
- 
-\ / 
+Warning!
 
- V
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+Spoiler Alert!
+
+
+Don't look until you're actually stuck!
+
+
  
 Answers:
 * 3 parameters
