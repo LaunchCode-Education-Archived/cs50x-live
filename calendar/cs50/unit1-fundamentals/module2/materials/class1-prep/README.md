@@ -34,9 +34,9 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ifCoAx0r3e
 #### Functions:
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
-Read | Resource|  [Calling Functions](../resources/callingfunctions) | TODO res: review of how to call a library function. Understanding return value vs side effect.
+Read | Resource|  [Calling Functions](../resources/calling-functions) | TODO res: review of how to call a library function. Understanding return value vs side effect.
 Do | Exercise | [Exercise: strlen](../exercises/strlen) | TODO exc: make them use the strlen function
-Read | Resource | [Creating Functions](../resources/creatingfunctions) | TODO res: explain that in addition to using other people's functions like `printf` and `atoi`, we can also write our own. 
+Read | Resource | [Creating Functions](../resources/our-own-functions) | TODO res: explain that in addition to using other people's functions like `printf` and `atoi`, we can also write our own. 
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments" target="_blank">Functions and Arguments</a> | Read the "Functions and Arguments" section of the notes, which reviews how to define your own function. <br> Stop at the *Problem Set 1* header (don't be confused: these notes are from the previous week, but we find them helpful to include here). 
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=jtuMIHebSu8&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=2" target="_blank">Functions</a> | Watch Doug's video where he breaks down functions. Feel free to practice with the problems he gives you.
 Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=9zoRoz8Pq4E&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=13" target="_blank">functions-0</a> | Follow David to write a program in which you create your own function.
