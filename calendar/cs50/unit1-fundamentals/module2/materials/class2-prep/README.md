@@ -37,7 +37,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/w/notes
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=1VbHJz2L6dM&index=2&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-0</a> | Follow David to create a program that takes command-line arguments. 
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-1</a> | Continue working on this program to make it print out all of the command-line arugments we get from the user. 
 Do | Exercise | [Argv With Indexes](../exercises/argv-with-indexes) | TODO exc: same as walkthroughs/argv-1 but include the index of each element
-Do | Exercise | [atoi](../exercises/atoi) | TODO exc: make them use atoi function
+Do | Exercise | [atoi](../exercises/atoi) | Use the atoi() function to fix the given code example.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=eDI5Wqjq2a0&index=5&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Command-Line Arguments</a> | Doug reviews command-line arguments in more depth. 
 Do | Exercise | [Indexes CL](TODO) | TODO exc: modify solution to [Adder](TODO) so that user input comes from the commandline
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=mXj188eyRFE&index=4&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-2</a> | Return to the `argv` program and follow David to make it print out all of the individual characters from the command-line arugments.
