@@ -13,7 +13,7 @@ TODO | Study | CS50 Study | [conditions, math, binary, arrays](https://study.cs5
 Time | Task | Resource | Link | Instructions
 -----|------|----------|------|-------------
 | Do | Exercise | [Message](../exercises/message)
-| | | TODO more of these
+| Read | Resource | [Return Halts Execution](../resources/return-halts-execution)
 
 ##### Lecture
 Time | Task | Resource | Link | Instructions
