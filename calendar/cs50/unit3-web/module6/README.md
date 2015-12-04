@@ -1,6 +1,11 @@
 
 ### Class 1
 
+##### Lecture 
+Task | Resource Type | Link | Notes
+-----|------|------|------
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=KWxwYbaAWxs" target="_blank">Week 6</a> | David travels to Yale to deliver this lecture. The first portion of the video (until 3:37) has unrelated announcements, as does minutes 14:00-15:44, so feel free to fast forward through those. You'll also review some portion of the video that you should have seen during the previous Module. The rest of the lecture is dedicated to our transition to web programming (exciting!). 
+
 ##### Architecture of the Web
 Task | Resource Type | Link | Notes
 -----|------|------|------
@@ -24,6 +29,11 @@ Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=qyJXI2v7N8
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=s1_kxTs5GfI&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=13" target="_blank">paragraphs</a>
 
 ### Class 2
+
+##### Lecture 
+Task | Resource Type | Link | Notes
+-----|------|------|------
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=GUtPQIDSwrA" target="_blank">Week 7</a> | We're continuing with web programming in this lecture, with a focus on HTML and a bit about web servers. The first 4 minutes have Harvard-specific content, so feel free to skip that if you want. 
 
 ##### Architecture of the Web, continued
 Task | Resource Type | Link | Notes
