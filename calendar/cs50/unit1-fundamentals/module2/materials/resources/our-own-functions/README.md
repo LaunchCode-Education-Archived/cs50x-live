@@ -12,7 +12,49 @@ Why would we do this?  There are two main reasons: it can save us time when we�
 
 As an example of the first point, we might write a program that takes in three strings, and outputs the lengths of each.  Without using functions, we could do this with loops:
 
-[do this with loops]
+```
+string exampleStringOne = GetString();
+int lengthOne = 0;
+bool keepGoing = true;
+while(keepGoing)
+{
+  if (exampleStringOne[lengthOne] == '\0')
+  {
+    keepGoing = false;
+  } else {
+    lengthOne = lengthOne + 1;
+  }
+}
+printf(“String one has %i characters.\n”, lengthOne);
+
+string exampleStringTwo = GetString();
+int lengthTwo = 0;
+keepGoing = true;
+while(keepGoing)
+{
+  if (exampleStringTwo[lengthTwo] == '\0')
+  {
+    keepGoing = false;
+  } else {
+    lengthTwo = lengthTwo + 1;
+  }
+}
+printf(“String two has %i characters.\n”, lengthTwo);
+
+string exampleStringThree = GetString();
+int lengthThree = 0;
+keepGoing = true;
+while(keepGoing)
+{
+  if (exampleStringThree[lengthThree] == '\0')
+  {
+    keepGoing = false;
+  } else {
+    lengthThree = lengthThree + 1;
+  }
+}
+printf(“String three has %i characters.\n”, lengthThree);
+```
 
 You’ll write the `strlen` function yourself later, so it’s not important to understand everything you see here right now.
 
@@ -44,11 +86,33 @@ Say we wanted to change strlen so it printed the length of its input string, in 
 
 With code like this:
 
-[strlen example]
+```
+...
+string exampleStringTwo = GetString();
+int lengthTwo = strlen(exampleStringTwo);
+printf(“String two has %i characters.\n”, lengthTwo);
+...
+```
 
 We just have to go find the code where we wrote the strlen function, and change it there, only once.  If we instead had this code:
 
-[example with loops]
+```
+...
+string exampleStringTwo = GetString();
+int lengthTwo = 0;
+keepGoing = true;
+while(keepGoing)
+{
+  if (exampleStringTwo[lengthTwo] == '\0')
+  {
+    keepGoing = false;
+  } else {
+    lengthTwo = lengthTwo + 1;
+  }
+}
+printf(“String two has %i characters.\n”, lengthTwo);
+...
+```
 
 We would have to do it three times, or as many times as we used strlen.
 
