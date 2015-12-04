@@ -17,6 +17,8 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#html" target="_blank">Week 7 / HTML</a> | Read the "HTML" notes to read how we can inspect the source code for any web page (in this case, Facebook), and why it looks the way it does.<br>Stop when you get to the *Web Servers* header.
 Watch | Short | <a href="https://www.youtube.com/watch?v=dM5V1epAbSs&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ&index=22" target="_blank">HTTP</a>
 
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#working_with_html" target="_blank">Week 7 / Working with HTML</a> | Read these notes for a deeper dive into HTML.
+
 
 ***
 
