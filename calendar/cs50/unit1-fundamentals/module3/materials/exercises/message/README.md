@@ -21,7 +21,8 @@ Count Chocula
 Notice line 18, in which we call the function `printMessage`, which does all the work of printing the stuff to the console. 
 Sounds great, except that `printMessage` does not exist yet. That's your job! 
 
-Start by just thinking about the signature of the function. 
+Start by just thinking about the signature of the function:
+
 1. How many input paramters does it take?
 2. What are the types of those paramters?
 3. What are some good names to give those parameters?
@@ -41,6 +42,7 @@ If you get stuck, here are the answers to the above questions:
 
 
 Answers:
+
 1. 3 parameters
 2. they should all be `string`s
 3. There's no right answer, but I think here it makes sense to just use the same names we used inside main: `sender`, `recipient`, and `message`
