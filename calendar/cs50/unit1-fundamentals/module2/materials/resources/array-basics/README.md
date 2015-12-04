@@ -17,7 +17,7 @@ Use brackets to define the data stored in an array.
 int myArray[10] = {0, 11, 24, 13, 44, 15, 60, 37, 8, 9};
 ```
 
-To access the data stored in an array, use square brackets with the index whose value you want. This can also be used for assigned a value to a given index.
+To access the data stored in an array, use square brackets with the index whose value you want. This can also be used for assigning a value to a given index.
 
 ```
 >$ printf(myArray[0]);
