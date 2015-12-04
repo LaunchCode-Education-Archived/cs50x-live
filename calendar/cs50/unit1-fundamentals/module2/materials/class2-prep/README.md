@@ -20,7 +20,7 @@ Read | Resource | [Custom strlen](../resources/customstrlen) | TODO res: show ex
 #### Arrays
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
-Read | Resource | [Array Basics](../resources/array-basics) | TODO Quick runthrough of array syntax basics: how to declare, read, write
+Read | Resource | [Array Basics](../resources/array-basics) | A quick runthrough of array syntax basics: how to declare, read, write
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=7EdaoE46BTI&index=4&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Arrays</a> | Doug talks about arrays, an important data structure.
 Follow-Along | Walkthroughs | <a href="https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ages</a> | Follow David to create a program that uses an array to get the ages of everyone in a room.
 Do | Exercise | [Array Read](../exercises/array-read) | TODO exc: something that involves reading from an array using bracket notation
