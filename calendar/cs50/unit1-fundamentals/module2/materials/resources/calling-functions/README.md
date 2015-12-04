@@ -31,7 +31,9 @@ printf(“The string has %i characters!\n”, exampleStringLength);
 
 ## Side Effects
 
-`strlen` takes a `string` and returns an `int`. The value of `strlen("hello")` is `5`, because  But some functions actually don't return any value at all. For example, `printf`. The `printf` function does not compute a value. Instead, printf *does* something. What is the "value" of `printf("hello")`? Nothing at all, but something has "happened" after we call it: namely the user now sees "hello" on their console.
+`strlen` takes a `string` and returns an `int`. The value of `strlen("hello")` is `5`, because its input argument has 5 letters.
+
+But some functions actually don't return any value at all. For example, `printf`. The `printf` function does not compute a value. Instead, printf *does* something. What is the "value" of `printf("hello")`? Nothing at all, but something has "happened" after we call it: namely the user now sees "hello" on their console.
 
 We call these interactions, either changes to the input or the outside world, "side effects".
 
