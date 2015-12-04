@@ -17,7 +17,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=oS_NAORY2Jw&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M&index=1" target="_blank">Internet Primer</a> | Here Doug gives a high-level overview of "how the internet works"
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=m-xgBan9V0U&index=2&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">IP</a> | Doug talks in depth about IP, the protocol by which data is sent from one computer to another.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=uXa08E2gIa8&index=3&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">TCP</a> | Doug talks about TCP, the protocol that allows a computer that is receiving some data to determine what to do with it.
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=iy6xhPB12V8&index=4&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">HTTP</a> 
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=iy6xhPB12V8&index=4&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">HTTP</a> | Doug talks about a bunch of HTML tags with lots of examples
 
 ##### HTML
 Task | Resource Type | Link | Notes
