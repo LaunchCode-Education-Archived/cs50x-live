@@ -2,11 +2,11 @@
 
 #include "stdio.h"
 
-// Global variables are almost always a bad idea though! 
-// int pi = 3.141593654;
+// Global variables are almost always a bad idea though! Look below at an altervative with #define
+int pi = 3.141593654;
 
-// Because this variable is never altered, a #define is a much better option
-#define PI 3.141593654
+// Because this variable is never altered, a #define is a better option. Note that different syntax and naming scheme. 
+// #define PI 3.141593654
 
 int main (void)
 {
