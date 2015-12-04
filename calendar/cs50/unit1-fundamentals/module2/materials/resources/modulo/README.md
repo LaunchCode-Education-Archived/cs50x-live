@@ -1,3 +1,9 @@
+##### Module 2
+
+[Go back to Prep for Class 1](../../class1-prep)
+
+# Resource: Modulo
+
 The modulo operation returns the remainder of one number divided by another.
 
 For example:
