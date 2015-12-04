@@ -12,7 +12,7 @@ TODO | Study | CS50 Study | [conditions, math, binary, arrays](https://study.cs5
 ##### More Practice with Functions
 Time | Task | Resource | Link | Instructions
 -----|------|----------|------|-------------
-| Do | Exercise | <a href="../exercises/message" target="_blank">Message</a>
+| Do | Exercise | [Message](../exercises/message)
 | | | TODO more of these
 
 ##### Lecture
