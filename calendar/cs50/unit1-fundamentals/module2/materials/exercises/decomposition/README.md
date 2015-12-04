@@ -4,10 +4,10 @@
 some piece of the funcitonality (especially something that is repeated) out into a separate function. Potentially
 use their code from [letterlocator](../letterlocator) (what is letter locator?) as the starting point.*
 
-Examine this file:/n
+Examine this file:'/n'
 
-  //TODO code for a file with a long 'main' function./n
-    // Write a blank function called capitalize(){//TODO}/n
+  //TODO code for a file with a long 'main' function.'/n'
+    // Write a blank function called capitalize(){//TODO}'/n'
     // ask how many names you want to enter?
     // ask for a first name, capitalize first letter
     // then ask for a last name, capitalize first letter
