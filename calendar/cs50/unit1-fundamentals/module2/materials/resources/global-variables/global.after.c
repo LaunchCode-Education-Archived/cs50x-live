@@ -1,6 +1,7 @@
 //source video: https://www.youtube.com/watch?v=F5feTW3CAZs&index=4&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF
 
 #include "stdio.h"
+#include "cs50.h"
 
 // Global variables are almost always a bad idea though! Look below at an altervative with #define
 int pi = 3.141593654;
