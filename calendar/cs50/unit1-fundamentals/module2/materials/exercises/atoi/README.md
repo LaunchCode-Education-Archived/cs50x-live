@@ -5,8 +5,10 @@
 In this exercise, you will use the standard library's atoi() to print an integer passed in as a string. 
 
 Ex:
-
+```
 $ ./atoi 67
+```
+
 The value entered is 67
 
 
