@@ -120,7 +120,7 @@ This same example illustrates our second scenario: what happens if we need to de
 
 Let’s say for some reason, each time we calculate the length of a string, it was returning a value 1 higher than we expected.  We need to fix this!  In the example where we calculate string lengths with function calls, we only need to look at one piece of code and fix it there.  If we instead calculated string lengths with loops, we would instead need to change three separate pieces of code.  This difference in the amount of work we’d need to do gets larger the more times we could’ve used a function call to strlen instead of a loop.
 
-Note that this is what would happen if we copy-pasted the code to calculate .  You might just be making more work for yourself later, and if you forget to fix any of the copy-pastes, you’ll now have to go find the bug and fix it again, only this time you’ll think you’ve already fixed it!
+Note that this is what would happen if we copy-pasted the code to calculate string lengths.  You might just be making more work for yourself later, and if you forget to fix any of the copy-pastes, you’ll now have to go find the bug and fix it again, only this time you’ll think you’ve already fixed it!
 
 So now that you’re about to write your own functions, here’s some basic advice on how to use them:
 - if you notice you’re doing the same thing repeatedly, try putting that thing into a function
