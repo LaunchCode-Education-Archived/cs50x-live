@@ -27,8 +27,9 @@ Start by just thinking about the signature of the function.
 * What are some good names to give those parameters?
 * What should the return type be?
 
+If you're stuck, I've written the answers to these questions below.
 
-If you're stuck, I've written the answers below.
+After you've written the function signature, go ahead and fill in the body of the function as well.
 
 **Warning!**
 
