@@ -2,7 +2,7 @@
 
 # Good Burger
 
-Here we'll finish a basic program to show the user a menu from a fast food restaurant ("Good Burger", then take down their order, and write it into a file.
+Here we'll finish a basic program to show the user a menu from a fast food restaurant (named "Good Burger"), then take down their order, and write it into a file.
 
 We already started the program for you!  The code is in [this file](./goodburger.c).
 
