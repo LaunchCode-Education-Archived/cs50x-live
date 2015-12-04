@@ -27,9 +27,9 @@ Start by just thinking about the signature of the function.
 * What are some good names to give those parameters?
 * What should the return type be?
 
-If you're stuck, I've written the answers to these questions below.
-
 After you've written the function signature, go ahead and fill in the body of the function as well.
+
+If you get stuck, here are the answers to the above questions:
 
 **Warning!**
 
@@ -40,7 +40,6 @@ After you've written the function signature, go ahead and fill in the body of th
 **Don't look until you're actually stuck!**
 
 
- 
 Answers:
 * 3 parameters
 * they should all be `string`s
