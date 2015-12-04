@@ -16,7 +16,7 @@ This exercise is very similar to the [ages](https://www.youtube.com/watch?v=dYVU
 Your program should work like this:
 
 ```
-./canyouvote
+$ ./canyouvote
 How many people want to vote? 3
 Age of person 1: 22
 Age of person 2: 30
