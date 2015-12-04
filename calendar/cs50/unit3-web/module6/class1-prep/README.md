@@ -24,7 +24,7 @@ Task | Resource Type | Link | Notes
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">Week 6 / HTML</a> | Read the notes on the "HTML" section to recap your first introduction to this markup language, which is essential for any web programming.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#working_with_html" target="_blank">Week 7 / Working with HTML</a> | Read these notes for a deeper dive into HTML.
-Watch | Short | <a href="https://www.youtube.com/watch?v=dM5V1epAbSs&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ&index=22" target="_blank">HTML</a> |
+Watch | Short | <a href="https://www.youtube.com/watch?v=dM5V1epAbSs&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ&index=22" target="_blank">HTML</a> | Daven talks about `<h1>`, `<img>`, `<a>`, `<div>` tags, and the `id` and `class` attributes
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=657YnQs2hVw&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M&index=6" target="_blank">HTML</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=whYnf7PFZ74&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=8" target="_blank">headings</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=1TgTA4o_AM8&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=9" target="_blank">hello, HTML</a>
