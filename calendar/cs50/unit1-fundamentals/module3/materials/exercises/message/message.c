@@ -17,3 +17,5 @@ int main(void)
   
   printMessage(sender, recipient, message);
 }
+
+// TODO create a function called printMessage
