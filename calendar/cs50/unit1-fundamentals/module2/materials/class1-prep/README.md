@@ -77,7 +77,7 @@ Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=wYvnyO2PbT0
 #### The Modulo Operator `%`:
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
-Read | Resource | [Modulo](TODO) | TODO res: introduce `%` and give some examples
+Read | Resource | [Modulo](../resources/modulo) | TODO res: introduce `%` and give some examples
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=_FC-8QaaYgs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=3" target="_blank">Operators</a>| Revisit Doug's video about Operators, or just watch the <a href="https://youtu.be/_FC-8QaaYgs?list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&t=119" target="_blank">part about modulo</a> if you prefer.
 Do | Exercise | [Clock](TODO) | TODO exc: write a program that receives an int number of hours and then calculates what time it will be that many horus in the future
 
