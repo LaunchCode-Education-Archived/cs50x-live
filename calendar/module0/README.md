@@ -1,3 +1,5 @@
+[See course calendar](../)
+
 # Module 0
 
 ### Synopsis
