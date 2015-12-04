@@ -1,11 +1,9 @@
 ##### Module 2
 [Return to Prep for Class 1](../../class1-prep)
 
-Let’s review how to use functions!  Over the course of your career as a programmer, you’ll use many, many functions, both those others have written, and those you’ve written yourself.
+# Resource: Calling Functions
 
-## Calling Functions
-
-As we’ve seen before, we can run a library function like so:
+Let’s review how to use functions!  Over the course of your career as a programmer, you’ll use many, many functions, both those others have written, and those you’ve written yourself. As we’ve seen before, we can run a library function like so:
 
 ```
 #include <cs50.h>
