@@ -5,7 +5,8 @@
 
 int main (void)
 {
-  int[] lottery_numbers = [1, 13, 4];
+  // The reason we want to do this is to group together common things. 
+  int lottery_numbers[] = [1, 13, 4];
 
   printf("The wining lottery numbers for this month: %d, %d, %d", 
     lottery_numbers[0], 
