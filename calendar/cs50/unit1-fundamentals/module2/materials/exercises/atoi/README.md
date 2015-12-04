@@ -6,27 +6,26 @@ In this exercise, you will use the standard library's atoi() to print an integer
 
 Ex:
 ```
-$ ./atoi 67
-```
-
+$ ./atoi
+Please enter a number:
 The value entered is 67
+```
 
 
 Fix the below code:
 
 ```
+#include<cs50.h>
 #include<stdio.h>
-#include<stdlib.h>
 
-int main (int argc, string argv[])
+int main ()
 {
 	int i;
 	string input;
 
-	input = argv[1];
-	i = ?;
-
-	printf ("The value entered is %d.", i);
+	input = GetString("Please enter a number:");
+	
+	printf ("The value entered is %d.", input);
 
 	return 0;
 }
