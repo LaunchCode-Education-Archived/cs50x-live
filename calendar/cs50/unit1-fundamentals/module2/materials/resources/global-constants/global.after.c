@@ -2,10 +2,11 @@
 
 #include "stdio.h"
 
+// Global variables are almost always a bad idea though! 
+// int pi = 3.141593654;
+
+// Because this variable is never altered, a #define is a much better option
 #define PI 3.141593654
-
-float area (float radius);
-
 
 int main (void)
 {
@@ -13,14 +14,8 @@ int main (void)
   float pizza_diameter = GetFloat();
   float pizza_radius = pizza_diameter / 2.0;
 
-  //How many square inches of pizza do you get
-  float pizza_area = area(pizza_radius);
+  // Area of a pizza is (Pi * radius * radius)
+  float pizza_area = pi * pizza_radius^2;
 
   printf("The pizza has %f square inches", pizza_area);
-}
-
-float area (float radius)
-{
-  // Area of a pizza is (Pi * radius * radius)
-  return PI * radius^2;
 }
