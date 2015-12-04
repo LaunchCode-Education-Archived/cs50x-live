@@ -3,8 +3,9 @@ The modulo operation returns the remainder of one number divided by another.
 For example:
 
 6 % 4 = 2
+
 3 % 2 = 1
-4 % 1 = 0
+
 15 % 3 = 0
 
 The modulo is used a lot in computer science, including the quintessential interview question, FizzBuzz.
