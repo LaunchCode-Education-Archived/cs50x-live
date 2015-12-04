@@ -1,6 +1,6 @@
 The modulo operation returns the remainder of one number divided by another.
 
-Ex:
+For example:
 6 % 4 = 2
 3 % 2 = 1
 4 % 1 = 0
