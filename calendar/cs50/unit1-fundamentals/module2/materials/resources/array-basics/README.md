@@ -1,3 +1,7 @@
+##### Module 2
+[Back to Prep for Class 2](../../class2-prep)
+# Resource: Array Basics
+
 Arrays are a data structure for storing a collection of values. For example:
 
 {0, 11, 24, 13, 44, 15, 60, 37, 8, 9}
