@@ -1,6 +1,6 @@
 ##### Module 2
 
-Exercise: How Maneee
+# Exercise: How Maneee
 
 [howmaneee.c](howmaneee.c) is a program that is supposed to count the occurrances of the letter 'e'
 in a string provided by the user:
