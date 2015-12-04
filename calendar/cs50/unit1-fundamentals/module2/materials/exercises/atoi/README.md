@@ -12,6 +12,7 @@ The value entered is 67
 
 Fix the below code:
 
+```
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -27,3 +28,4 @@ int main (int argc, string argv[])
 
 	return 0;
 }
+```
