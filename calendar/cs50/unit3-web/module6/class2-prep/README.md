@@ -14,12 +14,12 @@ Task | Resource Type | Link | Notes
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#http" target="_blank">Week 7 / HTTP</a> | Read the "HTTP" notes for a quick review of the `GET` request.<br>Stop when you get to the *HTML* header.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#web_servers" target="_blank">Week 7 / Web Servers</a> | Read over these notes, which talk about how web servers work. You can follow along to host your own web page through the CS50 IDE.<br>Stop when you get to the *Working with HTML* header.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#html" target="_blank">Week 7 / HTML</a> | Read the "HTML" notes to read how we can inspect the source code for any web page (in this case, Facebook), and why it looks the way it does.<br>Stop when you get to the *Web Servers* header.
 Watch | Short | <a href="https://www.youtube.com/watch?v=dM5V1epAbSs&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ&index=22" target="_blank">HTTP</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=oS_NAORY2Jw&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M&index=1" target="_blank">Internet Primer</a> | Here Doug gives a high-level overview of "how the internet works"
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=m-xgBan9V0U&index=2&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">IP</a> | Doug talks in depth about IP, the protocol by which data is sent from one computer to another.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=uXa08E2gIa8&index=3&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">TCP</a> | Doug talks about TCP, the protocol that allows a computer that is receiving some data to determine what to do with it.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=iy6xhPB12V8&index=4&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">HTTP</a> 
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#html" target="_blank">Week 7 / HTML</a> | Read the "HTML" notes to read how we can inspect the source code for any web page (in this case, Facebook), and why it looks the way it does.<br>Stop when you get to the *Web Servers* header.
 
 ***
 
