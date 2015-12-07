@@ -48,12 +48,10 @@ int charCounter(string theString)
 }
 ```
 
-<aside class=notes>
-Remember that `counter++` is just a fancy way of incrementing `counter` by `1`. These three statements are all equivalent:
+BTW, remember that `counter++` is just a fancy way of incrementing `counter` by `1`. These three statements are all equivalent:
 * `counter++;`
 * `counter += 1;`
 * `counter = counter + 1;`
-</aside>
 
 Take a look at [customstrlen.c](./customstrlen.c) for a complete example program that implements this function, and invokes it from inside `main`, resulting in behavior like this:
 
