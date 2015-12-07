@@ -1,5 +1,5 @@
 ##### Module 2
-
+[Back to Prep for Class 2](../../class2-prep)
 # Exercise: Can You Vote?
 
 Help the user figure out if their friends can vote!  For the purposes of the exercise, someone can vote as long as they are 18 or older.
