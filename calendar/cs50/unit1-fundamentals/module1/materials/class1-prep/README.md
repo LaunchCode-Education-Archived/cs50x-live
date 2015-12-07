@@ -32,7 +32,7 @@ Do | Exercise | [Haiku](../exercises/haiku) | Do this simple *Haiku* exercise in
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#writing_code" target="_blank">Week 1 / Writing Code</a> | Read over the "Writing Code" notes, and optionally rewatch that section of the lecture. This will go into more depth about the different components of the programs you've written so far.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=Zfb73qVXgn8" target="_blank">Hello-1</a> | Follow along (and type along in your IDE!) with David Malan as he adds some complexity to the *Hello, World* program. Use a variable to say hello to yourself!
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=LpEyhtpVHes" target="_blank">Hello-2</a> | Continue to follow along as David adds another wrinkle to this program: taking input from the user.
-Do Exercise | Exercise | [Book](../exercises/book) | Do the *Book* exercise in your IDE. Remember how you got input from the user in the last Follow-Along. <br>TODO maybe split this into two exercises
+Do | Exercise | [Book](../exercises/book) | Do the *Book* exercise in your IDE. Remember how you got input from the user in the last Follow-Along. <br>TODO maybe split this into two exercises
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#c" target="_blank">Week 1, continued / C</a> | Read over these notes that talks about the components of your *Hello, World* program in C. We haven't watched this Lecture yet, so don't worry if this is unfamiliar. <br>Stop when you get to the header titled *Types*.
 Read | Supplementary Resource | [String Replacement Cheatsheet](TODO) |
 
