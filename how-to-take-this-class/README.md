@@ -42,6 +42,8 @@ The typical class structure within a Module is to have studio and Q&A for the fi
 
 Before coming to your first day of class, you must complete Module 0. [Click here to start!](../calendar/module0)
 
+You can also check out the [Course Calendar](../calendar).
+
 
 ### Questions?
 
