@@ -9,7 +9,7 @@ In Module 2, students will dive more deeply into data types and typecasting. Whi
 
 Along the way, we'll use ASCII to write a program that tells the user the ASCII position of each letter in the alphabet, and create a program that takes arguments from the user and creates some craaazy echoes with them. 
 
-By the end of this module you will have completed [Problem Set 2](http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html#getting_started)
+By the end of this module you will have completed [Problem Set 2](http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html#getting_started).
 
 ### Schedule
 
