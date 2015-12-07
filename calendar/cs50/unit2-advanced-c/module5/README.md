@@ -104,7 +104,10 @@ Read | Lecture Notes | [Week 5, continued / Tries](http://cdn.cs50.net/2015/fall
 * malloc vs arrays. Both are pointers to contiguous chunks of memory, so what's the difference?
   * arrays are fixed-size, whereas memory that was `malloc`ed can be `realloc`ed
   * malloc memory comes from the heap, arrays from the ___ (TODO idk)
+   * by default at least, arrays are created on the stack - Brian
+  * malloc is passed a size of a chunk of memory to get, arrays you ask for a number of a dataype - Brian
   * does malloc require all its data to be of the same type? (TODO idk)
+   * similar to the above note: I believe malloc just gives you memory, and you do with it what you want - Brian
 * Sometimes I need to free memory, but other times I dont. What gives?
   * you only need to free memory that came from the heap (was `malloc`ed)
   * but what if I didn't call malloc myself, e.g. GetString()? 
