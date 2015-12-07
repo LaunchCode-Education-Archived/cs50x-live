@@ -1,13 +1,19 @@
 # Exercise: Decomposition
 
-Take a look at [census.c](./census.c), which is a program that (sort of) acts like a government census taker. It simply prompts the user for their name and US state, and then echoes that information back to the console, making sure to capitalize the first letter of each word.
+Take a look at [census.c](./census.c), which is a program that acts (sort of) like a government census taker. It simply prompts the user for some citizens. For each citizen, the user must enter a name and a US state. The program then echoes that information back to the console, making sure to capitalize the first letter of each word.
 
 ```
 $ ./census
+How many citizens? 2
 First name: david
 Last name: malan
 State of residence: massachusetts
+First name: mark
+Last name: zuckerberg
+State of residence: alaska
+Thanks! Now we can make sure the following people paid their taxes:
 David Malan from Massachusetts
+Mark Zuckerberg from Alaska
 ```
   
 Notice lines TODO.  
