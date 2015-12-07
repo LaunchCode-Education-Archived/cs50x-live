@@ -1,3 +1,4 @@
+[See course calendar](../calendar)
 # How to take this class
 
 Before you start with the course materials, we highly encourage you to read the information here. Our curriculum uses specific terms that instruct you on how to complete that task. Eventually, this will become second nature, but in the beginning you may have to refer back to this section to make sure you know what to do. 
@@ -14,10 +15,10 @@ Prep Work is broken down into specific tasks that are ordered chronologically. S
 
 Tasks are given specific names, which tell you (the student) how you should complete that task. Below is a glossary of those task names, and what they mean:
 
-###Task Glossary
+###Task / Resource Glossary
 * **Follow-Along**: Follow along with an instructor as he/she implements a program. As you watch the video, type your own personal copy of the program. 
-* **Exercise**: A short exercise students should complete that will help reinforce a specific concept or skill.
-* **Watch Video**: These are lectures, shorts, and other types of videos that will go over specific topics. 
+* **Do**: These are tasks that require students to actively create something on their own, most commonly by completing a short exercise designed to reinforce a specific concept or skill.
+* **Watch**: These are lectures, shorts, and other types of videos that will go over specific topics. 
 * **Read**: These tasks most commonly ask students to read notes from a portion of a lecture, or an additional resource.
 
 ###In Class
@@ -27,7 +28,7 @@ In most class sessions, students will work on **studios**. Studios are specially
  
 There will also be **Q&A** during class sessions. The course instructor will answer questions from students that are related to that week’s topics. This time is meant to address general problems that can help most students, and is not intended to be used to solve specific student problems. 
 
-Every class session will also have time dedicated to **office hours**. This is unstructured time where students should work on the week’s assignment. Mentors, TFs, and instructors will be available to answer specific questions. 
+Every class session will also have time dedicated to **office hours**. This is unstructured time where students should work on the week’s assignment. Mentors, teaching fellows (TFs), and instructors will be available to answer specific questions. 
 
 The typical class structure within a Module is to have studio and Q&A for the first two classes, and office hours for the third class (and fun for all 3!).
 
