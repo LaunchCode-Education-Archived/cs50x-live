@@ -30,3 +30,23 @@ character, `'\0'`, the `nul-terminator`, which is the last `char` in every `stri
 
 We'll represent the answer with a variable, `counter`, which we initialize to `0`. And now each time we encounter a new character, we simply increment `counter` by `1`.
 
+```
+int charCounter(string theString)
+{
+    int counter = 0;
+    
+    // until we see '\0', the nul terminator...
+    while(theString[counter] != '\0')
+    {
+        // ... continue incrementing counter
+        counter++;
+    }
+    
+    return counter;
+}
+```
+
+Remember that `counter++` is just a fancy way of incrementing `counter` by `1`. These three statements are all equivalent:
+* `counter++;`
+* `counter += 1;`
+* `counter = counter + 1;`
