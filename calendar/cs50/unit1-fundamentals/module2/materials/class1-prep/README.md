@@ -42,7 +42,7 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=jtuMIHebSu8&l
 Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=9zoRoz8Pq4E&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=13" target="_blank">functions-0</a> | Follow David to write a program in which you create your own function.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=7X9KUm5xej0&index=14&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">functions-1</a> | Now you'll implement a function that returns a return value. 
 Do | Exercise | [Step Into](../exercises/step-into) | TODO exc: make them step through source code from walkthroughs (cough0-4, functions0-1) in the Debugger, similar to module1/exercises/debug. Introduce the Step Into button.
-Do | Exercise | [Next Num](../exercises/nextnum) | TODO exc: have them refactor a program that computes the next number after an input value, by pulling functionality out of main and into a function with signature `int successor(int n)`
+Do | Exercise | [Next Num](../exercises/decomposition) | TODO... finish this, make sure it belongs here. (TODO exc: have them refactor a program that computes the next number after an input value, by pulling functionality out of main and into a function with signature `int successor(int n)`)
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Return Values</a> | TODO: Potentially scrap this. Somewhat confusingly presented-- `void` as "simplest return type", and last example uses file i/o, which will be scary and unfamiliar.
 Read | Resource | [Return Values](../resources/returnvalues) | TODO res: give picture of return values as evaluating a statement.
 
