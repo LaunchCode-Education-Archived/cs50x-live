@@ -1,8 +1,8 @@
 ##### Module 4
 [Back to Prep for Class 2](../../class2-prep)
-# Restaurant Menus
+# Exercise: Restaurant Menus
 
-Write a program that uses a text file of menu items to output a restaurant menu.
+In a file called `displayMenu.c` write a program that uses a text file of menu items to output a restaurant menu.
 
 We've provided some starter code for you ([here](./displayMenu.c)), but it's honestly very minimal. If you need or want help, the commands and functions you'll need are gone over in these videos: ([1](https://www.youtube.com/watch?v=QOD2hHiHpn0&index=1&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh), [2](https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP)), so look there first!
 
