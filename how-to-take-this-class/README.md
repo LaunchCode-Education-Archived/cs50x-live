@@ -1,4 +1,4 @@
-[See course calendar](../calendar)
+[See Course Calendar](../calendar)
 # How to take this class
 
 Before you start with the course materials, we highly encourage you to read the information here. Our curriculum uses specific terms that instruct you on how to complete that task. Eventually, this will become second nature, but in the beginning you may have to refer back to this section to make sure you know what to do. 
