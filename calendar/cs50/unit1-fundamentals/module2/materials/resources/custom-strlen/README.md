@@ -14,9 +14,9 @@ int len = strlen("Hello");
 
 How does `strlen` figure out the answer?
 
-Well, we now know enough about `strings` that we can actually write our own version of `strlen`. 
+Well, we actually know enough about `strings` now that we can do it ourselves. Let's write our own "custom" version of the `strlen` function.
 
-We will call our function `charCounter`. It will take a `string` parameter as input, and it will return an `int`
+Let's name our function `charCounter`. It will take a `string` parameter as input, and it will return an `int`.
 
 ```
 int charCounter(string theString)
@@ -25,10 +25,12 @@ int charCounter(string theString)
 }
 ```
 
-To figure out the length of the string, we can simply inspect each of its characters, one by one, until we find that special
-character, `'\0'`, the `nul-terminator`, which is the last `char` in every `string` and exists solely to signify the fact that "hey. this is the end of the string right here."
+To figure out the length of the string, we can simply inspect each of its characters, one by one, keeping track of the total as we go along, until we've reached the end. 
 
-We'll represent the answer with a variable, `counter`, which we initialize to `0`. And now each time we encounter a new character, we simply increment `counter` by `1`.
+We'll represent the answer with a variable, `counter`, which we initialize to `0`. And for each new character that we encounter, we simply increment `counter` by `1`.
+
+We know we've reached the end of the string when we find that special character, `'\0'`, the `nul-terminator`, which is the last `char` in every `string` and exists solely to signify: "Hey, this right here is the end of the string."
+
 
 ```
 int charCounter(string theString)
@@ -46,7 +48,17 @@ int charCounter(string theString)
 }
 ```
 
+<aside class=notes>
 Remember that `counter++` is just a fancy way of incrementing `counter` by `1`. These three statements are all equivalent:
 * `counter++;`
 * `counter += 1;`
 * `counter = counter + 1;`
+</aside>
+
+Take a look at [customstrlen.c](./customstrlen.c) for a complete example program that implements this function, and invokes it from inside `main`, resulting in behavior like this:
+
+```
+$ ./customstrlen
+Give me a string: Don't be silly!
+That string contains 15 characters!
+```
