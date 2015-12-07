@@ -59,6 +59,6 @@ Take a look at [customstrlen.c](./customstrlen.c) for a complete example program
 
 ```
 $ ./customstrlen
-Give me a string: Don't be silly!
-That string contains 15 characters!
+Give me a string: Don't be silly.
+That string is 15 characters long!
 ```
