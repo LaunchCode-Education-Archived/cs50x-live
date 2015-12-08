@@ -4,8 +4,6 @@
 
 # Exercise: How many oranges?
 
-TODO something that requires them to use the `round` function.
-
 Write a program that asks the user how many orange slices they want to eat this week, then prints out how many oranges the user should buy so they have enough slices.  Assume there are 8 slices in each orange!
 
 To do this, we'll need to use the `ceil` function found [here](https://reference.cs50.net/math.h/ceil), in the `math.h` library.
