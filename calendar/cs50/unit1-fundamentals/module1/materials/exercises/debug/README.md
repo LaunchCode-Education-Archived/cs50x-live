@@ -46,5 +46,7 @@ have been creating by following-along with David Malan's Walkthrough videos.
   * `src1f/f2c.c`
   * `src1w/thadgavin.c` (if you dare!)
  
- Note that some of the files require user input. So, you'll have to switch back and forth between two roles: one of the user, and one of the debugger. Also, you don't have to put the first break point right under the main function - put it wherever looks interesting (and you can also have multiple break points!). 
+ Note that some of the files require user input. So, you'll have to switch back and forth between two roles: one of the user, and one of the debugger. 
+
+Finally, note that you can place more than one breakpoint, and you can place them wherever you like. In the above example we placed it on the first line inside the main function; you can do that if you want, but you don't have to! Just poke around wherever your nose leads you.
 
