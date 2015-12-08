@@ -2,7 +2,7 @@
 [Back to Class 1](../../class1)
 # Studio: Letter Locator
 
-Write a program that prompts the user for an alphabetic character,
+In a file called `letterlocator.c` write a program that prompts the user for an alphabetic character,
 and then prints the position of that letter in the alphabet, starting with `A` at position `0`. Your program 
 should work for both capital and lowercase letters, but should reject any input that is not alphabetical, 
 like `'3'` or `'$'`.
