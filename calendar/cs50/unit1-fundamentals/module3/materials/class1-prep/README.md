@@ -12,8 +12,8 @@ TODO | Study | CS50 Study | [conditions, math, binary, arrays](https://study.cs5
 ##### More Practice with Functions
 Time | Task | Resource | Link | Instructions
 -----|------|----------|------|-------------
-| Do | Exercise | [Message](../exercises/message)
-| Read | Resource | [Return Halts Execution](../resources/return-halts-execution)
+| Do | Exercise | [Message](../exercises/message) | Practice writing functions by finishing this program to send messages from one user to another.
+| Read | Resource | [Return Halts Execution](../supplementary-resources/return-halts-execution) | Read about how the `return` statement changes flow through the code by "halting execution" of functions.
 
 ##### Lecture
 Time | Task | Resource | Link | Instructions
