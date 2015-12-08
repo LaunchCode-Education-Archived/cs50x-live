@@ -35,7 +35,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ifCoAx0r3e
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
 Read | Resource|  [Calling Functions](../resources/calling-functions) | Read over this resource to review how to call a library function, and understanding a return value vs a side effect.
-Do | Exercise | [Exercise: strlen](../exercises/strlen) | TODO exc: make them use the strlen function
+Do | Exercise | [Exercise: Small Talk](../exercises/small-talk) | Write a program that makes small-talk with the user, responding differently for lengths of inputs
 Read | Resource | [Creating Functions](../resources/our-own-functions) | This resource explains that in addition to using other people's functions like `printf` and `atoi`, we can also write our own functions. 
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments" target="_blank">Functions and Arguments</a> | Read the "Functions and Arguments" section of the notes, which reviews how to define your own function. <br> Stop at the *Problem Set 1* header (don't be confused: these notes are from the previous week, but we find them helpful to include here). 
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=jtuMIHebSu8&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE&index=2" target="_blank">Functions</a> | Watch Doug's video where he breaks down functions. Feel free to practice with the problems he gives you.
