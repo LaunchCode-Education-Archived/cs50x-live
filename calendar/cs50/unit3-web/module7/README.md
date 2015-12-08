@@ -13,7 +13,7 @@
 Task | Resource Type | Link | Notes
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=h_zmq88Ae3k" target="_blank">Week 7, continued</a> | This lecture will be a crash course introduction to a programming language called PHP, which is often used for web programming. 
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=rJeP65u84ec" target="_blank">Week 8</a>
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=rJeP65u84ec" target="_blank">Week 8</a> | Stop at 17:25
 
 
 ##### PHP
