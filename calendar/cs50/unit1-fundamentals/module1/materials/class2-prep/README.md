@@ -51,7 +51,7 @@ Read | Supplement | [Convoluted](../resources/convoluted) | An example of good v
 |------|---------------|------|--------------|
 | Watch | Short | <a href="https://youtu.be/ED7QtgXDShY?list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC" target="_blank">Libraries</a> | Watch this short video about libraries. This will give you a better idea of how programming languages work. 
 | Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#functions_and_arguments" target="_blank">Week 1, continued / Functions and Arguments</a> | As you read through the notes about functions and arguments, consider copying the example code into your IDE to familiarize yourself with user-defined functions. <br> Stop at the *Problem Set 1* header (although you'll probably just read it, because it's right there and it's two sentences long). 
-| Do | Exercise | [Call Func](../exercises/call-func) | TODO exc: something to get them comfortable calling library functions like round()
+| Do | Exercise | [Oranges](../exercises/oranges) | Get some practice using a library function!. You'll use a function from the `<math.h>` library called `ceil`.
 
 ***
 
