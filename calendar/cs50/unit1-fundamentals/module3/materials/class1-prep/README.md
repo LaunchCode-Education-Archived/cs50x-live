@@ -52,3 +52,4 @@ TODO | Watch | [Shorts: Binary Search](TODO)
 TODO | CS50 Study | [binary search](https://study.cs50.net/binary_search?toc=binary_search)
 TODO | Do | Exercise | [Something](TODO) | TODO exc: something for this stuff?
 
+When you're done, you're ready for [Class 1](../class1)!
