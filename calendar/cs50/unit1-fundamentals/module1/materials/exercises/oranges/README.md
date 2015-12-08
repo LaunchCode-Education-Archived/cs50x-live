@@ -29,3 +29,5 @@ float x = ceil(8.2);
 // the value of x is now 9.0
 ```
 
+Finally, don't forget to `#include` the `<math.h>` library at the top of your file!
+
