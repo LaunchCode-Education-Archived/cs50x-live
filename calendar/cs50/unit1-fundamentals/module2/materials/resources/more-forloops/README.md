@@ -18,8 +18,8 @@ for (int i = 0, n = strlen(my_string); i < n; i++)
 
 What makes this different from most "normal" `for-loops` you've seen? In this case, we initialize
 *two* variables rather than just one, namely:
-* an `int` called `i` gets set to `0` *and* 
-* an `int` called `n` gets set to `strlen(my_string)`.
+* an `int` called `i` gets set to `0`
+* an `int` called `n` gets set to `strlen(my_string)`
 
 We could have achieved the same outcome with this code:
 ```
