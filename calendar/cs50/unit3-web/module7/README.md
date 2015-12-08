@@ -1,6 +1,6 @@
 # Module 7
 
-### Pssobile Resources
+### Possible Supplements
 * PHP cheatsheet
 * Explaining the context in which a backend PHP file is run
 
