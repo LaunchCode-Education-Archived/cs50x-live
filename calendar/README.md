@@ -8,11 +8,11 @@
 
 ###Unit 1: Fundamentals
 
-Module | Classes | Assignments| Topics
-:-------:|:---------:|------------:|:-------:
+Module | Classes | Assignments| 
+:-------:|:---------:|------------:|
 [Module 1](./cs50/unit1-fundamentals/module1) | 3 | **Studios**: Donuts, Guess, Lovely Rectangle, Repeat <br>**Problem Set 1** (Water, Mario, Greedy)| 
-[Module 2](./cs50/unit1-fundamentals/module2)| 3 | **Studios**: Letter Locator, Crazy Echoes <br>**Problem Set 2** (Initials, Caeser, Vigenere) | arrays, command-line args, 
-[Module 3](./cs50/unit1-fundamentals/module3)| 3 | **Studios**: Word Grid <br>**Problem Set 3** (Find, Game of Fifteen)| sorting algorithms, asymptotic complexity analysis, 
+[Module 2](./cs50/unit1-fundamentals/module2)| 3 | **Studios**: Letter Locator, Crazy Echoes <br>**Problem Set 2** (Initials, Caeser, Vigenere) |
+[Module 3](./cs50/unit1-fundamentals/module3)| 3 | **Studios**: Word Grid <br>**Problem Set 3** (Find, Game of Fifteen)| 
 
 
 ###Unit 2: Advanced C
