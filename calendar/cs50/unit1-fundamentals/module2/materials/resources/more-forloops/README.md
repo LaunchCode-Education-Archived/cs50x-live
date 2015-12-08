@@ -17,7 +17,7 @@ for (int i = 0, n = strlen(my_string); i < n; i++)
 ```
 
 What makes this different from most "normal" `for-loops` you've seen? In this case, we initialize
-*two* variables rather than just one, namely:
+**two** variables rather than just one, namely:
 * an `int` called `i` gets set to `0`
 * an `int` called `n` gets set to `strlen(my_string)`
 
@@ -30,9 +30,9 @@ for (int i = 0, i < strlen(my_string); i++)
 }
 ```
 
-in which we initialize just one variable, `i`, and embed `strlen(my_str)` directly into the **condition** of the `for-loop` (the middle section of the three semicolons), rather than storing it in a variable `n` first, and then using `n` inside the **condition**.
+in which we initialize just one variable, `i`, and embed `strlen(my_str)` directly into the *condition* of the `for-loop` (the middle section of the three semicolons), rather than storing it in a variable `n` first, and then using `n` inside the *condition*.
 
-But the second way is "worse", because it is less efficient. Do you remember why? The reason is that the code inside the **condition** gets executed every time around, and so we end up calling the `strlen` function a bunch of times, while the first `for-loop` only needs to call `strlen` once.
+But the second way is "worse", because it is less efficient. Do you remember why? The reason is that the code inside the *condition* gets executed every time around, and so we end up calling the `strlen` function a bunch of times, while the first `for-loop` only needs to call `strlen` once.
 
 This explanation probably makes sense in a vague way, but nevertheless, you might still feel a little hazy on the details, because even normal `for-loop` syntax is very dense and cryptic, and when you saw the two variables declared, if youre like me, you said "Wait, what is this? That looks wrong. Can you do that?"
 
