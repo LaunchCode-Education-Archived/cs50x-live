@@ -7,6 +7,8 @@
 
 ### Resources by Topic
 
+#### Class 1
+
 ##### PHP
 Task | Resource Type | Link | Notes
 -----|------|------|------
@@ -52,7 +54,6 @@ Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=blwsjq0lQb
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=csboq6ZtqkI&index=6&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">froshims-2</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=mVs7EkALBuw&index=7&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">froshims-3</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=D0lQ9u5d3gA&list=PLhQjrBD2T3810Z6sRJdj148H0ANU2jJcO&index=1" target="_blank">counter</a>
-Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=3Jy0OIaHviI&index=2&list=PLhQjrBD2T3810Z6sRJdj148H0ANU2jJcO" target="_blank">mvc-0</a>
 Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 8</a>
 
 
