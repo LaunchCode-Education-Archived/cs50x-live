@@ -4,37 +4,79 @@
 
 # Resource: More for-loops
 
+Here, I want to briefly clear up something that you might find confusing.
 
-In most of their examples, CS50 iterates overs strings like this:
+When iterating over `strings`, a lot of CS50 examples use a `for-loop` like this:
 
 ```
-for (int i = 0, n = strlen(my_str); i < n; i++) 
+for (int i = 0, n = strlen(my_string); i < n; i++) 
 {
-    char c = my_str[i];
+    char c = my_string[i];
+    // and then do stuff with c
 }
 ```
 
-The thing that makes this example different from most "normal" `for-loops` you've seen is that in this case, we initialize
-two variables rather than just one. Namely, we initialize `i` to `0`, and `n` to `strlen(my_str)`.
+What makes this different from most "normal" `for-loops` you've seen? In this case, we initialize
+*two* variables rather than just one, namely:
+* an `int` called `i` is set to `0` *and* 
+* an `int` called `n` is set to `strlen(my_string)`.
 
-You might remember that they do this because it is more efficient to initialize `n` once at the beginning rather than
-calling `strlen` every time around the loop. 
-
-This explanation probably makes sense, but nevertheless, you might still feel a little hazy on the details, because even
-vanilla for-loop syntax is very dense and cryptic.
-
-The first thing to note is that you could accomplish the same exact thing like this:
-
+We could have achieved the same outcome with this code:
 ```
-int n = strlen(my_str);
+for (int i = 0, i < strlen(my_string); i++) 
+{
+    char c = my_string[i];
+    // and then do stuff with c
+}
+```
+
+in which we initialize just one variable, `i`, and embed `strlen(my_str)` directly into the **condition** of the `for-loop` (the middle section of the three semicolons), rather than storing it in a variable `n` first, and then using `n` inside the **condition**.
+
+But the second way is "worse", because it is less efficient. Do you remember why? The reason is that the code inside the **condition** gets executed every time around, and so we end up calling the `strlen` function a bunch of times, while the first `for-loop` only needs to call `strlen` once.
+
+This explanation probably makes sense in a vague way, but nevertheless, you might still feel a little hazy on the details, because even normal `for-loop` syntax is very dense and cryptic, and when you saw the two variables declared, if youre like me, you said "Wait, what is this? That looks wrong. Can you do that?"
+
+In fact, using fancy `for-loop` tricks is not even necessary to solve this problem. We can still loop over a string without having to call `strlen` multiple times, in a much more straitforward way:
+```
+int n = strlen(my_string);
 for (int i = 0; i < n; i++) 
 {
-    char c = my_str[i];
+    char c = my_string[i];
 }
 ```
 
-Here we have a completely "normal" loop, immediately preceeded by a completely normal variable declaration.
+Here we have a "normal" loop, immediately preceeded by a typical, every-day variable declaration.
 
-And then say, but as long as we're here, this is a good example of how you can do fancy things with for-loops. 
-You can initialize multiple variables, you can do different things instead of `i++`, etc.
+So hopefully the unfamiliarity of that fancy `for-loop` no longer seems as scary.
 
+In fact, the fancy version provides a nice example of how to take advantage of the extremely flexible nature of `for-loops` and break out of the box of `for(int i = 0; i < something; i++)`. The `for-loop` construct gives us a lot of options:
+* You can initialize one variable, or more than one, or none. 
+* Your condition can be anything, so long as it evaluates to `true` or `false`.
+* The modification step can be anything, not just `i++`.
+
+For example:
+
+```
+// loop backwards from 10 to 1
+for (int i = 10; i != 0; i--)
+{
+    // do stuff
+}
+```
+
+```
+// count up by 3s
+for (int i = 0; i < 100; i += 3)
+{
+    printf("%i is a multiple of 3\n", i);
+}
+```
+
+```
+// i goes up, j goes down (twice as fast), until they meet
+for (int i = 0, j = 100; i <= j; i++, j -= 2)
+{
+    int distance = j - i;
+    printf("The distance between the two things is %i\n", distance);
+}
+```
