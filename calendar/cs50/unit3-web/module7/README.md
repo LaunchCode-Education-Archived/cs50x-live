@@ -9,6 +9,13 @@
 
 #### Class 1
 
+##### Lecture
+Task | Resource Type | Link | Notes
+-----|------|------|------
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=h_zmq88Ae3k" target="_blank">Week 7, continued</a> | This lecture will be a crash course introduction to a programming language called PHP, which is often used for web programming. 
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=rJeP65u84ec" target="_blank">Week 8</a>
+
+
 ##### PHP
 Task | Resource Type | Link | Notes
 -----|------|------|------
@@ -23,6 +30,11 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=l5O-HKElXPc&l
 
 
 #### Class 2
+
+##### Lecture
+Task | Resource Type | Link | Notes
+-----|------|------|------
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=yoDrhOZCKWo" target="_blank">Week 8, continued</a>
 
 ##### MVC
 Task | Resource Type | Link | Notes
