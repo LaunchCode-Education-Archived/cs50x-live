@@ -4,9 +4,11 @@
 * PHP cheatsheet
 * Explaining the context in which a backend PHP file is run
 
-### Resources by Type
 
-##### Lecture
+### Resources by Topic
+
+
+### Resources by Type
 
 ##### Lecture 
 Task | Resource Type | Link | Notes
