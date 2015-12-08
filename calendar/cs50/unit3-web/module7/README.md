@@ -22,6 +22,7 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=abUuRqYUUaY&i
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=l5O-HKElXPc&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av&index=2" target="_blank">PHP for Web Development</a>
 
 
+#### Class 2
 
 ##### MVC
 Task | Resource Type | Link | Notes
