@@ -39,6 +39,7 @@ Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=D0lQ9u5d3g
 ##### Lecture
 Task | Resource Type | Link | Notes
 -----|------|------|------
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=rJeP65u84ec?start=1725" target="_blank">Week 8</a> | Starts at 17:25
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=yoDrhOZCKWo" target="_blank">Week 8, continued</a>
 
 ##### MVC
