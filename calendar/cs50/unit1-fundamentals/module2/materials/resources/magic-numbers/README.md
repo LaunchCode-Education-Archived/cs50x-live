@@ -2,7 +2,7 @@
 
 [Go back to Class 1 Prep](../../class2-prep)
 
-# Resource: Global Variables
+# Resource: Magic Numbers
 
 We have written a "pizza" program, which behaves like this:
 ```
