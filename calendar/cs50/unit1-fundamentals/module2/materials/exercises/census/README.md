@@ -1,4 +1,4 @@
-# Exercise: Decomposition
+# Exercise: Census
 
 Take a look at [census.c](./census.c), which is a program that acts (sort of) like a government census taker. It simply prompts the user for some citizens. For each citizen, the user must enter a name and a US state. The program then echoes that information back to the console, making sure to capitalize the first letter of each word.
 
