@@ -1,8 +1,5 @@
 # Module 7
 
-### Possible Supplements
-* PHP cheatsheet
-
 ### Resources by Topic
 
 #### Class 1
@@ -14,11 +11,12 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=h_zmq88Ae3k" target="
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=rJeP65u84ec" target="_blank">Week 8</a> | Stop at 17:25
 
 
-##### PHP
+##### PHP Syntax
 Task | Resource Type | Link | Notes
 -----|------|------|------
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=abUuRqYUUaY&index=1&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av" target="_blank">PHP Syntax</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#php" target="_blank">Week 7, continued / PHP, Syntax | Read the "PHP" and "Syntax" section of the notes. This will give a quick overview of the PHP language, and also show some translations of code we're familiar with in C into code in PHP.<br>Stop when you get to the *Using PHP to Send Texts* header. NOTE references to pset5 
+Read | Resource | PHP Syntax Cheatsheet | TODO res: PHP syntax cheatsheet. See <a href="https://www.youtube.com/watch?v=abUuRqYUUaY&index=1&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av" target="_blank">doug's Playlist: PHP Syntax</a>
 Do | Exercise | | TODO exc foreach loop; 
 Do | Exercise | | TODO exc associative array; 
 TODO | | | other exercises? checkout Doug PHP Syntax again
