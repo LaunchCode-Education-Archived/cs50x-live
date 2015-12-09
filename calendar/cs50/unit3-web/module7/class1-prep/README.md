@@ -1,6 +1,4 @@
-##### Module 7
-
-[Go back to Module 7](../)
+[Module 7](../)
 
 # Prep for Class 1
 
