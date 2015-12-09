@@ -9,6 +9,8 @@ Task | Resource Type | Link | Notes
 Watch | Lecture | <a href="https://youtu.be/rJeP65u84ec?t=1045" target="_blank">Week 8</a> | Starts at 17:25
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=yoDrhOZCKWo" target="_blank">Week 8, continued</a>
 
+***
+
 ##### MVC
 Task | Resource Type | Link | Notes
 -----|------|------|------
@@ -23,6 +25,7 @@ Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=IbfPIpPAbf
 Do | Exercise | | TODO exc: refactor something to use MVC (potentially intersperse a bunch of these with the follow-alongs)
 Study | CS50 Study | <a href="https://study.cs50.net/mvc?toc=mvc" target="_blank">MVC</a>
 
+***
 
 ##### SQL
 Task | Resource Type | Link | Notes
@@ -33,6 +36,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=BPOH5WLf3yM&index=4&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av" target="_blank">SQL</a>
 Watch | Short | <a href="https://www.youtube.com/watch?v=G58ujNjWEJY&index=44&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">SQL</a>
 
+***
 
 ##### TBD
 Task | Resource Type | Link | Notes
