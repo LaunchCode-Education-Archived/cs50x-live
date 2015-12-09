@@ -24,7 +24,7 @@ Walkthrough | [compare-0](https://www.youtube.com/watch?v=Q9d8F9dXxbA&list=PLhQj
 Supplement | [Why Pointers](../supplementary-resources/why-pointers) | Read | TODO res: recap by summarizing the problem, why swap and compare dont work, but with pointers they will.
 
 
-**Pointers**
+##### Pointers
 
 Task | Type | Link | Notes
 -----|------|------|------
@@ -38,7 +38,7 @@ Do | Exercise | [Custom strcmp](../exercises/custom-strcmp) | TODO exc
 Watch | Short | [Pointers](https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4) | prereqs: dereferencing, malloc
 Watch | Section | [Jason Hirschorn on Pointers](https://youtu.be/SppBaGROtX0?t=370) | really good
 
-**malloc**
+##### malloc
 
 Task | Type | Link | Notes
 -----|------|------|------
