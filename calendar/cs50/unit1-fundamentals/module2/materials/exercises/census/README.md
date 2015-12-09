@@ -5,14 +5,14 @@ Take a look at [census.c](./census.c), which is a program that acts (sort of) li
 ```
 $ ./census
 How many citizens? 2
-First name: david
-Last name: malan
+First name: henry
+Last name: thoreau
 State of residence: massachusetts
 First name: mark
 Last name: zuckerberg
 State of residence: alaska
 Thanks! Now we can make sure the following people paid their taxes:
-David Malan from Massachusetts
+Henry Thoreau from Massachusetts
 Mark Zuckerberg from Alaska
 ```
   
