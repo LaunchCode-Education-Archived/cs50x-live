@@ -15,8 +15,8 @@ int main (void)
   float pizza_circumference = circumference(pizza_diameter);
   float pizza_area = area( pizza_diameter / 2.0 );
   
-  printf("The pizza is %f inches around.", pizza_circumference);
-  printf("The pizza has %f square inches.", pizza_area);
+  printf("The pizza is %f inches around.\n", pizza_circumference);
+  printf("The pizza has %f square inches.\n", pizza_area);
 }
 
 /*
@@ -24,9 +24,11 @@ int main (void)
  */
 float area(float radius)
 {
-  return 3.141592654 * (radius * radius); // pi r squared
+  float pi = 3.141592654;
+  return pi * (radius * radius); // pi r squared
   
-  // our use of 3.14159... is a "magic number". It would be better to store it in a variable
+  // now we have 3.14159... stored in a variable called pi
+  // That's good, but...
 }
 
 /*
@@ -34,5 +36,9 @@ float area(float radius)
  */
 float circumference(float diameter)
 {
-  return 3.141592654 * diameter;
+  float pi = 3.141592654;
+  return pi * diameter;
+  
+  // ...but down here we end up needing to repeat ourselves by making another pi variable.
+  // Wouldn't it be nice if we could just create pi once, and then use it in both functions?
 }
