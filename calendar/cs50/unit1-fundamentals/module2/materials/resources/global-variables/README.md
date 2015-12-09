@@ -1,10 +1,17 @@
 ##### Module 2
 
-[Go back to Class 1 Prep](../../class1-prep)
+[Go back to Class 1 Prep](../../class2-prep)
 
 # Resource: Global Variables
 
-Take a look at the evolution of our `pizza` program:
+We have written a "pizza" program, which behaves like this:
+```
+TODO
+```
+
+Take a look at [pizza-0.c](./pizza-0.c). Notice that it makes use of two functions, each of which do some math using the value `3.14159...` aka `pi`. 
+
+The following table summarizes the evolution of our program as we continually improve it:
 
 Version | Improvement | Problem
 --------|-------------|-------- 
@@ -12,3 +19,5 @@ Version | Improvement | Problem
 [pizza-1.c](./pizza-1.c) | Replaces magic numbers with decriptively named variables. | Repetition is bad! Makes your code  harder to maintain because if you want to change something, you have to change it in multiple places.
 [pizza-2.c](./pizza-2.c) | Eliminates repetition by using a global variable. | Global variables are dangerous! Susceptible to being overwritten by any code anywhere. 
 [pizza-3.c](./pizza-3.c) | Replaces global variable with `#define`, a "pre-processor directive", so that the value cannot be overwritten. | nothing!
+
+Pre-processor directives allow you to do other fancy stuff beyond defining constant values, but this is probably the only context in which you'll use them during CS50.
