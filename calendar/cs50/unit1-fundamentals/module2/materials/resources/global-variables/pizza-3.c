@@ -3,9 +3,11 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// If we initialize pi out here, at the global scope, it will be accessible everywhere.
-float pi = 3.141592654;
-// BUT! this is generally a bad idea. What if some piece of code somewhere changes the value pi?
+// pi is always gonna be 3.14159..., so this variable should never be altered!
+// #define allows us to set a value once and have it remain constant.
+#define PI 3.141593654
+// notice the different syntax (no '=' aka assignment operator)
+// and the different naming scheme (ALL_CAPS)
 
 float area(float radius);
 float circumference(float diameter);
@@ -30,8 +32,7 @@ int main (void)
  */
 float area(float radius)
 {
-  // now we can just use pi here, because we declared it globally (see top of file)
-  return pi * (radius * radius); // pi r squared
+  return PI * (radius * radius); // pi r squared
 }
 
 /*
@@ -39,5 +40,5 @@ float area(float radius)
  */
 float circumference(float diameter)
 {
-  return pi * diameter;
+  return PI * diameter;
 }
