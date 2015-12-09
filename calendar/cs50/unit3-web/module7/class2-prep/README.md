@@ -1,6 +1,4 @@
-##### Module 7
-
-[Go back to Module 7](../..) TODO should this take them?
+[Module 7](../..)
 
 # Class 2 Prep
 
