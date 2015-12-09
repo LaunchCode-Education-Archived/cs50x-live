@@ -1,4 +1,4 @@
-[Module 7](../)
+[Module 7](../..)
 
 # Prep for Class 1
 
