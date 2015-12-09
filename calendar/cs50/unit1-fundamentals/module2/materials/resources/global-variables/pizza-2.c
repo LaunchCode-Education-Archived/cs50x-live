@@ -3,6 +3,10 @@
 #include <stdio.h>
 #include <cs50.h>
 
+// If we initialize pi out here, at the global scope, it will be accessible everywhere.
+float pi = 3.141592654;
+// BUT! this is generally a bad idea. What if some piece of code somewhere changes the value pi?
+
 float area(float radius);
 float circumference(float diameter);
 
@@ -11,10 +15,12 @@ int main (void)
   // Get the size of the pizza from the user
   printf("What's the diameter of the pizza? ");
   float pizza_diameter = GetFloat();
-
+  
+  // Calculate circumference and area of the pizza
   float pizza_circumference = circumference(pizza_diameter);
   float pizza_area = area( pizza_diameter / 2.0 );
   
+  // Tell the user all about their pizza
   printf("The pizza is %f inches around.\n", pizza_circumference);
   printf("The pizza has %f square inches.\n", pizza_area);
 }
@@ -24,11 +30,8 @@ int main (void)
  */
 float area(float radius)
 {
-  float pi = 3.141592654;
+  // now we can just use pi here, because we declared it globally (see top of file)
   return pi * (radius * radius); // pi r squared
-  
-  // now we have 3.14159... stored in a variable called pi
-  // That's good, but...
 }
 
 /*
@@ -36,9 +39,5 @@ float area(float radius)
  */
 float circumference(float diameter)
 {
-  float pi = 3.141592654;
   return pi * diameter;
-  
-  // ...but down here we end up needing to repeat ourselves by making another pi variable.
-  // Wouldn't it be nice if we could just create pi once, and then use it in both functions?
 }
