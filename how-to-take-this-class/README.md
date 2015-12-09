@@ -24,7 +24,7 @@ Tasks are given specific names, which tell you (the student) how you should comp
 ###In Class
 Class sessions will be used to do group work, review concepts, and to get questions answered while working through the week’s assignment. 
 
-In most class sessions, students will work on **studios**. Studios are specially designed exercises that are meant to focus on important skills and concepts relevant to that week. These are smaller than problem sets, intended to be completed during the class period, and should ultimately help students complete their problem sets. Students should work on studios in small groups of 3-4 students, unless instructed otherwise. 
+In most class sessions, students will work on **studios**. Studios are specially designed exercises that are meant to focus on important skills and concepts relevant to that week. These are smaller than problem sets, intended to be completed during the class period, and should ultimately help students complete their problem sets. Students should work on studios in small groups of 2-3 students, unless instructed otherwise. 
  
 There will also be **Q&A** during class sessions. The course instructor will answer questions from students that are related to that week’s topics. This time is meant to address general problems that can help most students, and is not intended to be used to solve specific student problems. 
 
