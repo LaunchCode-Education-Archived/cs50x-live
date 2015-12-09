@@ -23,6 +23,10 @@ Do | Exercise | | TODO exc foreach loop;
 Do | Exercise | | TODO exc associative array; 
 TODO | | | other exercises? checkout Doug PHP Syntax again
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#using_php_to_send_texts" target="_blank">Week 7, continued / Using PHP to Send Texts</a> | Review this section of the lecture where, using PHP, David (tries) to send a text message to everyone in class.<br>Stop when you get to the *Using PHP for Web Programming* header. <br> TODO exc array_push
+
+##### PHP on the Web
+Task | Resource Type | Link | Notes
+-----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#using_php_for_web_programming" target="_blank">Week 7, continued / Using PHP for Web Programming</a> | Read these notes, which review how we can use PHP to write code that generates web pages. 
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=l5O-HKElXPc&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av&index=2" target="_blank">PHP for Web Development</a> | Doug talks about the limitations of static HTML and why, in web development, we need a language like PHP on the backend to dynamically produce HTML content. He then shows us some examples of using PHP in this web context.
 Watch | Short | <a href="https://www.youtube.com/watch?v=WSKc1a25R6o&index=32&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">PHP Web Development</a>
@@ -35,6 +39,10 @@ Do | Exercise | hello2 | TODO exc: provide helpful message if form was filled ou
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=mVs7EkALBuw&index=7&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">froshims-3</a> | And finally, we do something with the successfully registered students: if they filled out the entire form, our backend script sends them a confirmation email.
 Do | Exercise | hello3 | TODO exc: add <select> to the form so that user can choose another greeting besides "Hello"
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#php" target="_blank">Week 8 / PHP</a> | review of interp, shebang, variable interpolation
+
+##### Sessions, Cookies
+Task | Resource Type | Link | Notes
+-----|------|------|------
 Watch | Short | <a href="https://www.youtube.com/watch?v=YxOAJ3ekqH4&index=30&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">PHP Sessions</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=D0lQ9u5d3gA&list=PLhQjrBD2T3810Z6sRJdj148H0ANU2jJcO&index=1" target="_blank">counter</a> | An example site that makes use of PHP sessions
 Do | Exercise | | TOD exc: something using PHP sessions
