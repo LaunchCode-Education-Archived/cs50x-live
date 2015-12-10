@@ -27,7 +27,7 @@ Watch | Lecture | [Week 4](http://www.youtube.com/embed/SadMsthVUBM?autoplay=1&r
 Read | Lecture Notes | [Week 4 / Recursion](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#recursion) |
 Read | Lecture Notes | [Week 4 / Sigma](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#sigma)
 Read | Lecture Notes | [Week 4 / IDE Debugger ](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide)
-TODO | Read | [Supplement: Recursion](../supplementary-resources) | 
+TODO | Read | [Supplement: Recursion](../supplementary-resources/recursion) | 
 TODO | Follow-Along | [Walkthrough: sigma-0](https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10)
 TODO | Follow-Along | [Walkthrough: sigma-1](https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | Afterwards, step through your program inthe IDE Debugger, just like they did in class.
 TODO | Watch Video | [Doug's Playlist: Recursion](https://www.youtube.com/watch?v=VrrnjYgDBEk) | TODO: leave this for next module?
