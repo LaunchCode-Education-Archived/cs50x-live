@@ -36,9 +36,8 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=G58ujNjWEJY&index=44&li
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes8w/notes8w.html#sql" target="_blank">Week 8, continued / SQL</a> | make sure they're comfortable using that cs50 query function
 |||| TODO res SQL cheatsheet?
 |||| TODO exc: SQL stuff. Maybe use Chris Bay's node workshopper?
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes8w/notes8w.html#transactions" target="_blank">Week 8, continued / Transactions</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes8w/notes8w.html#sql_injection" target="_blank">Week 8, continued / SQL Injection</a>
-
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes8w/notes8w.html#transactions" target="_blank">Week 8, continued / Transactions</a> | Sometimes you need to "lock" your SQL operations together into transactions, so that multiple operations are guaranteed to happen in sequence without interruption. 
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes8w/notes8w.html#sql_injection" target="_blank">Week 8, continued / SQL Injection</a> | You should never interpolate user input directly into the strings that hold your SQL queries. Doing so makes you vulnerable to a SQL injection attack! 
 
 ***
 
