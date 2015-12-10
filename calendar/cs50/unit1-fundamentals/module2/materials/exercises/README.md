@@ -11,7 +11,7 @@
 6. [Clock Sage](./clock-sage): Write a program that can tell time! (kind of!)
 
 ### Class 2 Prep
-1. TODO a list of
-2. links to 
-2. all class 2 prep 
-3. exercises here
+1. [Can you Vote?](./can-you-vote): Write a program that determines if a user is old enough to vote or not.
+2. [Argv with indexes](argv-with-indexes): (?)
+3. [atoi](atoi): Fix a program by making use of the function `atoi`
+4. [Command line calculator](TODO): (?)
