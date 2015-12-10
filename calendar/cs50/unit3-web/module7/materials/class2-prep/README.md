@@ -44,7 +44,6 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes
 ##### TBD
 Task | Resource Type | Link | Notes
 -----|------|------|------
-Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 8</a> | 
-TODO Move to Module 8
+Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 8</a> | TODO Move to Module 8
 
 
