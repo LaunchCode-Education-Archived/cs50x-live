@@ -8,6 +8,7 @@ The progam should expect the user to provide two command line arguments, which a
 
 This exercise is like a combination of these two videos:
 [argv-0](https://www.youtube.com/watch?v=1VbHJz2L6dM&index=2&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU)
+
 [Adder](https://www.youtube.com/watch?v=xmZR2XiwOq4)
 
 So if you need help, look at those first!
