@@ -54,3 +54,5 @@ TODO | DO | [Exercise: Spread Out](../exercises/spread-out) | TODO exc: make the
 ### Where do these belong?
   * [Week 3, continued / Bitwise Operators](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#bitwise_operators)
 
+
+Now that you're done, you can head to [Class 2](../class2).
