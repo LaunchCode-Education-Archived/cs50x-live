@@ -40,7 +40,7 @@ Time | Task | Link | Instructions
 TODO | Read | [Lecture Notes: Week 3 / Algorithmic Efficiency](http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#algorithmic_efficiency)
 TODO | Watch Video | [Doug's Playlist: Computational Complexity](TODO)
 TODO | Watch Video | [Shorts:Asymtptic Notation](http://cs50.tv/2012/fall/shorts/asymptotic_notation/asymptotic_notation-720p.mp4)
-TODO | Do | Exercise | [Something](TODO) | TODO exc: something for this stuff?
+TODO | Do | Exercise | [Something](../exercises/algorithmic-efficiency) | TODO exc: something for this stuff?
 
 ##### Alogrithms for Searching
 Time | Task | Link | Instructions
