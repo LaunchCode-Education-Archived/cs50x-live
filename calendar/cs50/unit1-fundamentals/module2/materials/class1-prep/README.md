@@ -54,7 +54,7 @@ Read | Resource | [Return Values](../resources/returnvalues) | TODO res: give pi
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/notes2m/notes2m.html#functions" target="_blank">Week 2 / Functions</a> | Read over the notes from the "Functions" section. Although the focus is on creating functions, pay specific attention to the parts that talk about declaring functions, and scope. <br> Stop when you get to the *Representing Strings* header. 
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=pBqyy8NwzqY&index=3&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Variables and Scope</a> | Doug discusses the importance of variables and scope, and how those relate to functions. 
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=UC5QAokAupo&index=8&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Scope</a> | This short will provide some examples that highlight the importance of scope. Also, David mentions "stack frames" and memory towards the end - don't worry about that for now.
-Read | Resource | [Scope](../resources/scope) | TODO res: buggy program with loop, need to pull out the variable to higher scope
+Read | Resource | [Scope](../resources/scope) | Here we look at a progam with a bug related to a looping variable and its scope.
 Do| Exercise | [How Maneee](../exercises/how-maneee) | Here we give you a buggy program that uses scope incorrectly. Try to fix it!
 
 ***
