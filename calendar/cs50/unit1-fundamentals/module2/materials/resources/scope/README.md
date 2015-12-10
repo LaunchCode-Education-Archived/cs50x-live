@@ -2,48 +2,49 @@
 [Back to Prep for Class 1](../../class1-prep)
 # Resource: Variable Scope
 
-Let’s look at another example of a bug due to variable scope.
-As we just learned, a variable’s “scope” refers to contexts in which a variable can be accessed.  If we compiled and ran the following code:
+Let’s look at another example of a bug due to variable scope. As we just learned, a variable’s “scope” refers to contexts in which a variable can be accessed.  Take a look at the following code:
+
 ```
 #include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
-  int i;
-  int maxNum = GetInt();
+  string hasAnE = GetString();
+  int maxn = strlen(hasAnE);
 
-  while(i <= 10)
+  for(int i = 0; i < maxn; i++)
   {
-    int i = 1;
-    printf(“%i! Ah, ah, ah, ah!\n”, );
-    i++;
+      if(hasAnE[i] == 'e'){
+          break;
+      }
   }
+  printf("Found the first 'e'!  It's at index %i\n", i);
 }
 ```
 
-We would see that the function would loop forever! 
-This is because we accidentally redeclared our looping variable, `i`, inside of our loop.  Inside the loop, our program decides to use the “int i” that we just declared instead of the one we declared before, due to scope.
+The code attempts to ask the user for a string, then print out the index of the first ‘e’ in their input. However, this code fails to compile.  Why is this?
+After the loop, we try to print out the variable `i` as the index where we found an ‘e’.  However, at that point in the code, we no longer have access to the variable `i`; because we’ve left the loop, it is no longer in our current “scope”.  Variables declared within a loop cannot be accessed outside of that loop.
 
-How can we fix this?  Here is some fixed code:
+How can we fix this?  Well, we need to make sure that the variable `i` is in scope when we try to print it out.  To do this, we can move the `printf` line inside the loop, like so:
+
 ```
 #include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
-  int i;
-  int maxNum = GetInt();
+  string hasAnE = GetString();
+  int maxn = strlen(hasAnE);
 
-  i = 1;
-  while(i <= 10)
+  for(int i = 0; i < maxn; i++)
   {
-    printf(“%i! Ah, ah, ah, ah!\n”, );
-    i++;
+      if(hasAnE[i] == 'e'){
+          printf("Found the first 'e'!  It's at index %i\n", i);
+          break;
+      }
   }
 }
 ```
 
-In the new code, we made sure to initialize our looping variable outside of the loop.  By not declaring a new variable, we didn’t block access to our original `int i`; we didn’t change the scope of the variable `i`.
-
-This example is a little contrived, but it is not uncommon for programs to have unintentional infinite loops because of little mistakes like these, where we accidentally lose access to a variable that we care about because of scope.
+This should compile correctly.  There are many ways to fix this program, but all of them must fix the fundamental problem with the original: when we wanted to access the variable `i`, it was not in scope.
