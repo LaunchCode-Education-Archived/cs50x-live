@@ -52,7 +52,7 @@ int main(void)
   }
 }
 ```
-**What is this algorithm’s time complexity, in terms of “n"?**
+**What is this algorithm’s time complexity, in terms of 'n'?**
 
 
 ### Question 3
