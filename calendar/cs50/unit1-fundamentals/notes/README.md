@@ -12,5 +12,6 @@ week2 lecture notees function decomposition
 week2 other stuff on functions
 
 ##### Guidance for TFs
-* If a student asks for help with their code, you are not just providing the answer, but also serving as a model for how someone should debug. So try to externalize and walk them through your thought process as much as possible. E.g. don't just tell them they should have initialized their variable outside the loop on line 16; have them step through their program in the debugger (or with print statements) and see how the variable gets re-clobbered on each iteration. Teach them "how to fish"
+* If a student asks for help with their code, you are not just providing the answer, but also serving as a model for how they might have arrived at that answer independently. So try to externalize and walk them through your thought process as much as possible. Rather than just telling them that, e.g., they should have initialized their variable *outside* the loop on line 16, instead run the debugger and step through the program together (or just print statements) and see for themselves how the variable gets overwritten on each iteration, and does not survive outside the scope of the loop. It's pretty much always a good thing if your explanation involves saying "Let's put a breakpoint at line 16 and see what happens."
+* While we do want to foster independence, it is even more important that people never feel stupid for having asked a question, or get the impression that asking for help is discouraged. On the contrary, providing help is exactly what we're here for.
 
