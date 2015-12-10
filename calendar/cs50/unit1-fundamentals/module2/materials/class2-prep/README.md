@@ -39,7 +39,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=Ja8YoR-u9T
 Do | Exercise | [Argv With Indexes](../exercises/argv-with-indexes) | Practice accessing the command line arguments by indexing into argv
 Do | Exercise | [atoi](../exercises/atoi) | Use the atoi() function to fix the given code example.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=eDI5Wqjq2a0&index=5&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Command-Line Arguments</a> | Doug reviews command-line arguments in more depth. 
-Do | Exercise | [Indexes CL](TODO) | TODO exc: modify solution to [Adder](TODO) so that user input comes from the commandline
+Do | Exercise | [Command-line Calculator](../exercises/command-line-calculator) | Extend the ideas you learned in [Adder](https://www.youtube.com/watch?v=xmZR2XiwOq4) and [argv-0](https://www.youtube.com/watch?v=1VbHJz2L6dM&index=2&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU) to add numbers that the user provides on the command line.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=mXj188eyRFE&index=4&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-2</a> | Return to the `argv` program and follow David to make it print out all of the individual characters from the command-line arugments.
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=X8PmYwnbLKM&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF&index=3" target="_blank">Command-Line Arguments</a> | Watch this short that talks more about command-line arguments, argc, and argv.
 Study | CS50 Study |  <a href="https://study.cs50.net/argv" target="_blank">Command-Line Arguments</a> | If helpful, you can test and review your knowledge of command-line arguments using CS50 Study. 
