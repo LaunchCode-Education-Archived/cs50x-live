@@ -1,5 +1,5 @@
 ##### Module 3
-[Back to Prep for Class 1](../../class2-prep)
+[Back to Prep for Class 1](../../class1-prep)
 # Exercise: Algorithmic Efficiency
 
 ### Question 1
