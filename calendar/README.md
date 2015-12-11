@@ -16,13 +16,13 @@
 | [Module 2](./cs50/unit1-fundamentals/module2) | You are going to focus on datatypes and typecasting to gain valuable insight. Doesn’t that sound exciting?  These topics will eventually lead you to do some real cryptography (the art of writing or solving secret codes) so you can become a real life codebreaker!! You will create programs to encrypt and decrypt secret messages with user defined functions, array constructs and strings. |
 | [Module 3](./cs50/unit1-fundamentals/module3) | You will learn about sorting algorithms and recursion, which will help you discover efficient methods to solving real world problems.  You will also review some of the topics in Modules 1 and 2 to reinforce your knowledge of arrays, debugging and creating functions.  |
 
-### Unit 2 Advanced C
+### Unit 2: Advanced C
 |Module | Overview |
 | :-------------: |-------------|
 | [Module 4](./cs50/unit2-advanced-c/module4) | You’re halfway through the course! This is the point when you will tackle more advanced concepts in the C programming language.  You will learn about digital forensics, recovering information, pointers, structs (a high-level data structure to define groups of variables) and memory allocation. |
 | [Module 5](./cs50/unit2-advanced-c/module5) | You will start off with a review of pointers and memory and then deep dive into other types of data structures that will allow you to develop more complex programs.  There are some limitations to the arrays that you have already learned about and these new data structures will help you to store and manage your data efficiently.  They are called Linked Lists, Stacks, Queues, Trees, Tries and Hash Tables. |
 
-### Unit 3 Web Development
+### Unit 3: Web Development
 |Module | Overview |
 | :-------------: |-------------|
 | [Module 6](./cs50/unit3-web/module6) | You are going to transition to Web Programming in this module.  You begin your journey with an introduction to PHP, a programming language often used for web programming. You will also learn about Traceroute, a program that displays the route (or path) that “messages” go through across the Internet. You will also discover the basics of different Internet Protocols that you’ve probably heard about such as HTTP and TCP/IP. We will also go over HTML, the programming language used to create web pages and web servers (used to serve up web pages). |
