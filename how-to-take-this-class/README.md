@@ -8,7 +8,7 @@ Before you start with the course materials, we highly encourage you to read the 
 
 In CS50x, there are 9 assignments, called “problem sets.” We’ve broken down this course into **Modules**, which correspond to each problem set assignment in CS50x. Each Module contains 3 class periods. Before each class period, there is **Prep Work** that you should complete before that class. The Prep Work will make sure you get the most out of each class period.
 
-Prep Work is broken down into specific tasks that are ordered chronologically. Students should complete the tasks in order, following the directions given by the task name, and the instructions to the right. So, here is an example of a (fake) Prep Work.
+Prep Work is broken down into specific tasks that are ordered chronologically. Students should complete the tasks in order, following the directions given by the task name, and the instructions to the right. So, here is an example of a (fake) Prep Work:
 
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
