@@ -4,7 +4,7 @@
 
 # Exercise: How many oranges?
 
-Write a program that asks the user how many orange slices they want to eat, then prints out how many oranges the user should buy so they have enough slices. Assume there are 8 slices in each orange!
+In a file called `howmanyoranges.c` write a program that asks the user how many orange slices they want to eat, then prints out how many oranges the user should buy so they have enough slices. Assume there are 8 slices in each orange!
 
 A run of your program should look like this:
 ```
