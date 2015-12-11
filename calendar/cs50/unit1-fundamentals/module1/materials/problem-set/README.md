@@ -6,7 +6,7 @@
 In this problem set, you'll solve some problems in C using the concepts you'll learn throughout Module 1. There are three components to this problem set: **Water**, **Mario**, and **Greedy**.
 
 ### Guidance
-(TODO LeAnne: whatever you think they need. Split this into multiple sections if you want)
+Coming soon!
 
 ### Components
 To review all information about the Problem Set, go here: <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Getting Started</a>. You will have seen a lot of this already, but it may be helpful to review.
