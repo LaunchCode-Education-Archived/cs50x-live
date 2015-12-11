@@ -20,7 +20,7 @@ After all that, you get to the meat of the Problem Set. However, this section ca
 * Most Problem Sets will have multiple components. We will include links in these Problem Set pages to each component, and make sure you know what you need to submit.
 
 #### How To Submit
-The last section of every Pset Spec is "How To Submit". *Please ignore this section!* For this class, you will be submitting your assignments on Vocareum. You should have received an invitation to join Vocareum as a student user; instructions for how to use Vocareum are included in your Student Guide. For each Problem Set, you will find instructions on Vocareum of how to properly submit your assignment (we will also include those instructions in each Problem Set page). 
+The last section of every Pset Spec is "How To Submit". **Please ignore this section!** For this class, you will be submitting your assignments on Vocareum. You should have received an invitation to join Vocareum as a student user; instructions for how to use Vocareum are included in your Student Guide. For each Problem Set, you will find instructions on Vocareum of how to properly submit your assignment (we will also include those instructions in each Problem Set page). 
 
 In addition to submitting on Vocareum, you can also choose to submit your assignments on edX. To do that, follow the instructions listed in the Pset Specs linked from in your Courseware CS50x dashboard on edX. If you submit all your assignments on edX, you'll receive a certificate from them. It's not too much extra work to do that, and you may find it cool to get that certificate, and in that case we encourage you to submit your assignments there. But, it is important to note that *we only require to submit your assignments on Vocareum*. 
 
