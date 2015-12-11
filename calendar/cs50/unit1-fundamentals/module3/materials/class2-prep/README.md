@@ -48,7 +48,7 @@ Watch | Lecture | [Shorts: Compilers](http://cs50.tv/2012/fall/shorts/compilers/
 Watch | Lecture | [Shorts: Clang, Make](http://cs50.tv/2012/fall/shorts/make_clang/make_clang-720p.mp4) | Watch this short about Clang and Make, two tools used to manage the building and compilation of code projects
 Watch | Lecture | [Shorts: Libraries](http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4) | Watch this short about libraries
 Watch | Lecture | [Section: Compilation Process](https://youtu.be/XRvvitgap5Y?t=2549) | Watch this lecture on the compilation process
-Read | Supplement | [Supplement: Spread Out](../resources/spread-out) | TODO res: example of a program in which some work is pulled out and placed into a separate file
+Read | Supplement | [Supplement: Spread Out](../resources/spread-out) | Here's an example of a program written as one big file, that is then broken into a few smaller, easy to understand files.
 Do | Exercise | [Exercise: Spread Out](../exercises/spread-out) | TODO exc: make them refactor a program into multiple files
 
 ### Where do these belong?
