@@ -9,7 +9,7 @@
 Welcome to your first exercise! Before you get started, here are a few quick instructions on how to set up the folder structure in your IDE, so you have a system for deciding where to put new files each exercise.
 
 1. Open up your CS50 IDE and log in.
-2. Inside the IDE, open up a new Terminal Window
+2. Inside the IDE, open up a new Terminal Window by clicking the little green plus sign at the bottom of the screen.
 3. Inside the terminal, make a new directory called `/module1`, and within that, a directory called `/exercises`:
 
   ```
