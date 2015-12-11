@@ -7,7 +7,12 @@
 ### Introduction
 
 Welcome to your first exercise! A few quick instructions on how to do one of these things:
-1. 
+1. Open up your CS50 IDE and log in.
+2. Inside the IDE, open up a new Terminal Window
+3. Inside the terminal, make a new directory called `module1`:
+```
+$ mkdir module3
+```
 
 ### 
 
