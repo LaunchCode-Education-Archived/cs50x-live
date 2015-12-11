@@ -36,11 +36,12 @@ You will have already seen most of the videos, but we recommend watching Zamyla'
 
 #### How To Submit
 
-*FILE NAME*: pset0.txt
+**FILE NAME**: pset0.txt
 
 INSTRUCTIONS: Once you have completed your Scratch project, copy the URL (web page address) of your game, and submit it on Vocareum as a "txt" file. On Vocareum you will see more specific instructions on how to submit your project.
 
 NOTE: Make sure you get the file name correct: "pset0.txt". You will not receive credit if you use a different name. 
 
+***
 
 Congratulations! You're done with CS50x's first problem set, and are ready for the first day of class. In the meantime, return to [Module 0](..) to see what else you can do while you wait for class to start. 
