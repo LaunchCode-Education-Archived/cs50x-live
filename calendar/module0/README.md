@@ -63,7 +63,7 @@ Do | Problem Set | [Problem Set 0](./problem-set) | Complete Problem Set 0! Read
 ##### Bonus Resources!
 Waiting for the first day of class, but can't wait to get coding? Try out the these resources, which will introduce you to a programming language called Javascript. We'll return to Javascript later in CS50x, but for now, consider it good coding practice:
 
-1. <a href="https://www.khanacademy.org/computing/computer-programming/programming" target="_blank">Khan Academy: Introduction to Javascript</a>
+1. <a href="https://www.khanacademy.org/computing/computer-programming/programming" target="_blank">Khan Academy's Introduction to Javascript: Drawing and Animation</a>
 2. <a href="https://www.codecademy.com/learn/javascript" target="_blank">Codeacademy's Javascript Track</a> 
 
 These are *completely optional*, but will definitely benefit you as you begin CS50x, so we encourage everyone to at least try one of these. 
