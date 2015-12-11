@@ -1,7 +1,7 @@
 ##### Module 0
 [Back to Module 0](..)
 
-#Problem Set 0
+### Introduction
 
 Welcome to your first problem set of CS50x! These Problem Set pages will help guide you through the Problem Set for each Module. As you will see, Harvard provides their own specifications for each Problem Set (for convenience, we'll call these "Pset Specs"). However, this can be confusing for students, since Harvard's Pset Specs can be _very_ long, and make reference to some policies at Harvard that won't be applicable to you. 
 
@@ -26,17 +26,22 @@ In addition to submitting on Vocareum, you can also choose to submit your assign
 
 ***
 
-### Problem Set 0
+#Problem Set 0
 
 Phew, that was long. But now you know all that, we won't have to do that again. 
 
-For Problem Set 0, your mission is to build a project in Scratch. You can find the project requirements on the Pset Spec here: <a href="http://cdn.cs50.net/2015/fall/psets/0/pset0/pset0.html#itching_to_program" target="_blank">Problem Set 0: Scratch</a>
+### Synopsis
+For Problem Set 0, your mission is to build a project in Scratch. Scratch is a graphical programming language developed by MIT. Through this, you will be able to implement some basic programming concepts in an easy and intuitive way. 
 
+### Guidance
 You will have already seen most of the videos, but we recommend watching Zamyla's video called "Scratch" (especially for those who are less comfortable).
 
 If you're interested, you can review some of what learned about binary and ASCII by watching the videos in this section: <a href="http://cdn.cs50.net/2015/fall/psets/0/pset0/pset0.html#1001000_1001001" target="_blank">1001000 1001001</a>. This is optional, but you may enjoy the refresher. 
 
-#### How To Submit
+### Components
+The only component for this Problem Set is to build your Scratch project. You can find the project requirements on the Pset Spec here: <a href="http://cdn.cs50.net/2015/fall/psets/0/pset0/pset0.html#itching_to_program" target="_blank">Problem Set 0: Scratch</a>
+
+### How To Submit
 
 FILE NAME: pset0.txt
 
