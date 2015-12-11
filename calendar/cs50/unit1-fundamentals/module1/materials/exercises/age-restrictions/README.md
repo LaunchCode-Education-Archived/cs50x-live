@@ -4,7 +4,7 @@
 
 # Exercise: Age Restrictions
 
-Write a program that asks the user for their age, and then reports the set of societal activities the user is legally
+In a program called `agerestrictions.c` write a program that asks the user for their age, and then reports the set of societal activities the user is legally
 entitled to participate in:
 
 ```
