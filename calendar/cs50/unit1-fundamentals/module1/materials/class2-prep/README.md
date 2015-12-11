@@ -42,7 +42,7 @@ Do | Exercise | [Countdown](../exercises/countdown) | Try the *Countdown* exerci
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Watch | Short | <a href="https://www.youtube.com/watch?v=FPL_0lpzBjo" target="_blank">Variables</a> | Watch this short that goes into more detail about variables, including declaring variables, naming conventions, and using variables with loops.  
-Read | Supplement | [Convoluted](../resources/convoluted) | An example of good vs bad ways of using variables.
+Read | Resource | [Convoluted](../resources/convoluted) | An example of good vs bad ways of using variables.
 
 ***
 
