@@ -29,9 +29,10 @@ Given the following array:
 {4, 7, 13, 18, 21, 42}
 
 carry out the process of using binary search for the number ’21'.  For each iteration of binary search, show:
-1. which elements of the array are between the “start” and “end” elements
-2. which element is the “middle” element; highlight it by putting it between square brackets (i.e., put it between [])
-3. next to the final iteration, write “final iteration"
+
+1.  which elements of the array are between the “start” and “end” elements
+2.  which element is the “middle” element; highlight it by putting it between square brackets (i.e., put it between [])
+3.  next to the final iteration, write “final iteration"
 
 For example, let's say we did this question with the following array: 
 
