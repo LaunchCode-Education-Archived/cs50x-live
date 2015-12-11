@@ -11,7 +11,9 @@ In [marathon.c](./marathon.c) we've given you some starter code that is supposed
 And tells them:
 - how many more hours they would need to finish a marathon at their current pace
 
-...But there's a bug in the code! Make a file called `marathon.c` in your IDE, copy over the starter code, and try to fix it so it returns the correct amount of time left.
+...But there's a bug in the code! A bug is an error or flaw in a computer program that causes it to produce an incorrect or unexpected result.
+
+Make a file called `marathon.c` in your IDE, copy over the starter code, and try to fix it so it returns the correct amount of time left.
 
 An example run of the corrected code:
 ```
