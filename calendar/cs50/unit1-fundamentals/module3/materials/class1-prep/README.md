@@ -31,13 +31,13 @@ Task | Resource | Link | Instructions
 -----|------|----------|------|-------------
 Read | Lecture Notes | [Week 3 / Sorting Algorithms](http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#sorting_algorithms)
 Watch | Doug's Playlist | [Bubble Sort](https://www.youtube.com/watch?v=Ui97-_n5xjo&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=4) |
-Watch | Short | [Bubble Sort](TODO) |
+Watch | Short | [Bubble Sort](https://www.youtube.com/watch?v=8Kp-8OGwphY&index=3&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE) |
 Do | Exercise | [Bubble Sort](../exercises/bubble-sort)
 Watch | Doug's Playlist | [Selection Sort](https://www.youtube.com/watch?v=lx9G71uLXIg&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=3) |
-Watch | Short | [Selection Sort](TODO) |
+Watch | Short | [Selection Sort](https://www.youtube.com/watch?v=f8hXR_Hvybo&index=7&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE) |
 Do | Exericse | [Selection Sort](../exercises/selection-sort)
 Watch | Doug's Playlist | [Insertion Sort](https://www.youtube.com/watch?v=TwGb6ohsvUU&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=5) |
-Watch | Short | [Insertion Sort](TODO) |
+Watch | Short | [Insertion Sort](https://www.youtube.com/watch?v=DFG-XuyPYUQ&index=4&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE) |
 Do | Exercise | [Insertion Sort](../exercises/insertion-sort)
 
 ***
@@ -56,9 +56,9 @@ Do | Exercise | [Algorithmic Efficiency Quiz](../exercises/algorithmic-efficienc
 Task | Resource | Link | Instructions
 -----|----------|------|-------------
 Watch | Doug's Playlist | [Linear Search](https://www.youtube.com/watch?v=vZWfKBdSgXI&index=7&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T)
-Watch | Short | [Linear Search](TODO)
+Watch | Short | [Linear Search](https://www.youtube.com/watch?v=CX2CYIJLwfg&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE&index=5)
 Watch | Doug's Playlist | [Binary Search](https://www.youtube.com/watch?v=5xlIPT1FRcA&index=8&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T)
-Watch | Short | [Binary Search](TODO)
+Watch | Short | [Binary Search](https://www.youtube.com/watch?v=D5SrAga1pno&index=2&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE)
 Study | CS50 Study | [binary search](https://study.cs50.net/binary_search?toc=binary_search)
 Do | Exercise | [Something](TODO) | TODO exc: something for this stuff?
 
