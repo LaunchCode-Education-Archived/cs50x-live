@@ -21,5 +21,5 @@ In class we'll review some of the important concepts covered in the prep for tod
   * [Lovely Rectangle](../studios/rectangle)
 
 ### Homework
-* Try to finish <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#itsa_mario" target="_blank">Problem Set 1: Mario</a>
-* There is no "prep work" before the next class, so work on the problem set and come to [Class 3!](../class3)
+* Keep working on [Problem Set 1](../problem-set). After today's class, you should be in a good position to complete Problem Set 1: Mario. 
+* There is no "prep work" before the next class, so work on the problem set and come to [Class 3](../class3)!
