@@ -7,7 +7,7 @@ Before coming to [Class 2](../class2), please complete the following tasks...
 ##### Module 2 Review
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-TODO | CS50 Study | [loops, ascii, functions, argv](https://study.cs50.net/loops?toc=loops,ascii,functions,argv)
+Study | CS50 Study | [loops, ascii, functions, argv](https://study.cs50.net/loops?toc=loops,ascii,functions,argv)
 
 ##### Lecture
 Task | Resource Type | Link | Instructions
@@ -38,7 +38,7 @@ Do | Exercise | [Exercise: Fibonacci](../exercises/fibonacci) |
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
 Watch | Lecture | [Doug's Playlist: Algorithms Summary]() | TODO: make cheatsheet?
-TODO | CS50 Study | [bubble sort, insertion sort, selection sort, merge sort](https://study.cs50.net/binary_search?toc=bubble_sort,insertion_sort,selection_sort,merge_sort)
+Study | CS50 Study | [bubble sort, insertion sort, selection sort, merge sort](https://study.cs50.net/binary_search?toc=bubble_sort,insertion_sort,selection_sort,merge_sort)
 
 ##### Compiling, Header Files
 Task | Resource Type | Link | Instructions
