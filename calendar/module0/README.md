@@ -10,7 +10,7 @@ Before coming to the first day of class, aka [Class 0](./class0), you should com
 So without further ado, let the learning begin!
 
 ***
-
+### Steps
 Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
 Class 0 | [Prep Work](./materials/class0-prep) | [In Class](./materials/class0) | binary, ascii, algorithms, pseudocode, Scratch
