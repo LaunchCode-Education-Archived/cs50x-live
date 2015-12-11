@@ -4,7 +4,7 @@
 
 # Exercise: Validate
 
-In a program called `validate.c` write a program that prompts the user for an even integer. If they try to swindle you with odd numbers, 
+In a program called `validate.c` write a program using a do-while loop that prompts the user for an even integer. If they try to swindle you with odd numbers, 
 just keep prompting them until you get your way:
 
 ```
