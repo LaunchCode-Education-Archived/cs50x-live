@@ -28,3 +28,8 @@
 | [Module 6](./cs50/unit3-web/module6) | You are going to transition to Web Programming in this module.  You begin your journey with an introduction to PHP, a programming language often used for web programming. You will also learn about Traceroute, a program that displays the route (or path) that “messages” go through across the Internet. You will also discover the basics of different Internet Protocols that you’ve probably heard about such as HTTP and TCP/IP. We will also go over HTML, the programming language used to create web pages and web servers (used to serve up web pages). |
 | [Module 7](./cs50/unit3-web/module7) | You will be deep diving into PHP Syntax, which will lead you to create a web form. You will continue developing web pages using PHP and HTML, while also learning to how to factor out redundant code that can be reused across several of your web pages using the PHP ~include~ statement. The module finishes up with an introduction to SQL, which will be used to display data from databases. |
 | [Module 8](./cs50/unit3-web/module8) | TBD |
+
+### Posteason: Skill Tracks
+|Module | Overview |
+| :-------------: |-------------|
+TBD | Coming Soon! Additional learning tracks on Object-Oriented programming and continued Web Development.
