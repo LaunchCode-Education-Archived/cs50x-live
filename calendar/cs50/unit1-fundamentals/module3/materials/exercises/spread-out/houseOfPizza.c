@@ -1,7 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <math.h>
+#include "mathHelper.h"
 
+// TODO: cut the function from this file, and put it into mathHelper.c
 int numberOfContainers(int numberOfUnits, int unitsPerContainer)
 {
     // calculate number of containers to order using ceil from math.h
