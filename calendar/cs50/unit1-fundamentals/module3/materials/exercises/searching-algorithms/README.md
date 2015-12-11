@@ -33,10 +33,16 @@ carry out the process of using binary search for the number ’21'.  For each it
 2) which element is the “middle” element; highlight it by putting it between square brackets (i.e., put it between [])
 3) next to the final iteration, write “final iteration"
 
-For example, if we did this question with the following array, searching for ‘0':
+For example, let's say we did this question with the following array: 
+
 {-6, 0, 1, 2, 3, 15, 20}
+
+searching for the number '0'.
+
 A correct answer would look like this:
+
 {-6, 0, 1, [2], 3, 15, 20}
+
 {-6, [0], 1} final iteration
 
 ### Question 4:
