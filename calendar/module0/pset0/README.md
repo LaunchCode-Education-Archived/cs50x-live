@@ -34,6 +34,8 @@ For Problem Set 0, your mission is to build a project in Scratch. You can find t
 
 You will have already seen most of the videos, but we recommend watching Zamyla's video called "Scratch" (especially for those who are less comfortable).
 
+If you're interested, you can review some of what learned about binary and ASCII by watching the videos in this section: <a href="http://cdn.cs50.net/2015/fall/psets/0/pset0/pset0.html#1001000_1001001" target="_blank">1001000 1001001</a>. This is optional, but you may enjoy the refresher. 
+
 #### How To Submit
 
 FILE NAME: pset0.txt
