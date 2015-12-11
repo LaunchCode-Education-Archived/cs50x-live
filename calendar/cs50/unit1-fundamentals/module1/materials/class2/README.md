@@ -1,10 +1,10 @@
 ##### [Module 1](../..)
 # Class 2
 
-###Before today
+###Before Class
 For homework you should have done: [Prep for Class 2](../class2-prep)
 
-### Today
+### During Class
 
 In class we'll review some of the important concepts covered in the prep for today, including loops, conditions, and functions. There will be two studios today that will emphasize those concepts, and should help ultimately help you with the next part of the problem set (Mario). 
 
