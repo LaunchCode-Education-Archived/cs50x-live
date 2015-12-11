@@ -4,7 +4,7 @@
 
 #Exercise: Book
 
-Write a program that prompts the user for the title of his or her favorite book, and then responds by initially agreeing enthusiastically, and then changing its mind, like so:
+Write a program called `book.c` that prompts the user for the title of his or her favorite book, and then responds by initially agreeing enthusiastically, and then changing its mind, like so:
 
 ```
 $ ./book
@@ -16,4 +16,5 @@ $ What's your favorite book? Lord of the Rings
 I love Lord of the Rings!
 ...actually, Lord of the Rings is kind of meh.
 ```
-Place your source code in a file called **book.c**.
+
+We suggest using two print statements for this one. 
