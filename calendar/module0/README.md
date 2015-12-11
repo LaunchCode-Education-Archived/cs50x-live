@@ -13,14 +13,14 @@ So without further ado, let the learning begin!
 
 ##### Lecture
 Task | Resource Type| Link | Instructions
---------------|------|*------*|-------------
+--------------|------|:------:|-------------
 Watch | Lecture | <a href="https://youtube.com/watch?v=zFenJJtAEzE" target="_blank">Week 0</a> | Your first task is to watch the first lecture! There will be some Harvard-specific information in there (and some information about the class at Yale), so feel free to fast forward through that if you want. 
 
 ***
 
 ##### Binary and ASCII
 Task | Resource Type| Link | Instructions
---------------|------|*------*|-------------
+--------------|------|:------:|-------------
 Read | Lecture Notes| <a href="http://cdn.cs50.net/2015/fall/lectures/0/w/notes0w/notes0w.html#binary" target="_blank">Week 1 / Binary</a> | Read over the portion of the lecture notes that talk about binary. Don't worry too much if this doesn't immediately click for you; mostly, it is just good to have an idea of what's going on in the computer at a lower level. <br>Stop when you get to the *Algorithms* header.
 Watch | Short| <a href="https://www.youtube.com/watch?v=hacBFrgtQjQ&index=7&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">Binary</a> | Watch this short that will explain binary numbers in more detail.
 Watch | Short | <a href="https://www.youtube.com/watch?v=UPlR4eMMCmI&index=5&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">ASCII</a> | Watch this short about ASCII. Again, don't worry if you don't understand this completely. We'll revisit this again later in the class.
