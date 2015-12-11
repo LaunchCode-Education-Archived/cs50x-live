@@ -19,4 +19,4 @@ In class, we'll do these things:
 ### Homework
 
 * [Class 2 Prep](../class2-prep)
-* Complete <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#smart_water" target="_blank">Problem Set 1: Water</a>
+* Check out the page for [Problem Set 1](../problem-set). After today's class, you should be in a great position to complete Problem Set 1: Water.
