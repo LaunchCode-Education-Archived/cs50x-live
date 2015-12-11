@@ -22,5 +22,5 @@ Our goal at LaunchCode is to put you on a path towards starting a career in tech
 ###What's Next?
 First you'll want to read about how to take this class. Please read over the Student Guide in detail as it will provide you with important information about this class, course expectations, and the course tools. You should have received that in an email, but for convenience we have also included a link to that here: <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a>
 
-Next, you can follow the link here to review some details on how to understand the course, and some advice that we hope will help along the way:[How to Take This Class](./how-to-take-this-class) 
+Next, you can follow the link here to review some details on how to understand the course, and some advice that we hope will help along the way: [How to Take This Class](./how-to-take-this-class) 
 
