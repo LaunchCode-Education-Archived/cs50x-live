@@ -16,7 +16,7 @@ Welcome to your first exercise! Before you get started, here are a few quick ins
   $ mkdir module1
   $ mkdir module1/exercises
   ```
-  NOTE: Don't type the dollar sign `$`. That's just a convention for specifying that the example is supposed to take place at the commandl-line prompt in a linux terminal window.
+  NOTE: Don't type the dollar sign `$`. That's just a convention for specifying that the example is supposed to take place at the command-line prompt in a linux terminal window.
   
 4. While you're at it, make a few other subfolders that you'll need:
 
