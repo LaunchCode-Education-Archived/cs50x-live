@@ -17,4 +17,4 @@ I love Lord of the Rings!
 ...actually, Lord of the Rings is kind of meh.
 ```
 
-We suggest using two print statements for this one. 
+HINT: We suggest using two print statements.
