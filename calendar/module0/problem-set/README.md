@@ -7,7 +7,7 @@ Welcome to your first problem set of CS50x! These Problem Set pages will help gu
 
 We'll use this Problem Set 0 page to help you understand the Harvard Pset Specs. After this, we'll assume it's old news to you, but you can always refer back to this page if you get confused about what you need to pay attention to, and what you can ignore. 
 
-### Problem Set Page Overview
+### Pset Spec Overview
 
 At the top of every Pset Spec, there is a brief description of the "Objectives" for that Problem Set. Feel free to read these over if you want, but it is not essential that you do. 
 
