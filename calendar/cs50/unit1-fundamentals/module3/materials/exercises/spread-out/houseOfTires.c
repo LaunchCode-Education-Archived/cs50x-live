@@ -1,29 +1,19 @@
-
-
 #include <cs50.h>
 #include <stdio.h>
 #include <math.h>
-#include "mathHelper.h"
-
-// TODO: cut the function from this file, and put it into mathHelper.c
-int numberOfContainers(int numberOfUnits, int unitsPerContainer)
-{
-    // calculate number of containers to order using ceil from math.h
-    float numberToOrder = ceil(((float)numberOfUnits)/unitsPerContainer);
-    return (int)numberToOrder;
-}
+// TODO: include the header file with our numberOfContainers function so we can use the function!
 
 int main(void)
 {
-    int slicesPerPizza = 8;
-    float pricePerPizza = 10.00;
+    int tiresPerCrate = 20;
+    float pricePerCrate = 1800.00;
 
-    // Display a message for the user, ask how many orange slices they want
-    printf("Welcome to Delmar House of Pizza!\n How many slices do you want?");
-    int numberOfSlices = GetInt();
+    // Display a message for the user, ask how many tires they want
+    printf("Welcome to Delmar House of Tires!\n How many tires do you want? ");
+    int numberOfTires = GetInt();
 
-    // Get the number of pizzas to order
-    int numberOfPizzas = numberOfContainers(numberOfSlices, slicesPerPizza);
-    float totalCost = numberOfPizzas*pricePerPizza;
-    printf("You need %i pizzas for %i slices.\nThat'll be %.2f!\n");
+    // Get the number of crates of tires to order
+    int numberOfCrates = numberOfContainers(numberOfTires, tiresPerCrate);
+    float totalCost = numberOfCrates*pricePerCrate;
+    printf("\n\nYou need %i crates for %i tires.\nThat'll be %.2f!\n", numberOfCrates, numberOfTires, totalCost);
 }
