@@ -40,7 +40,7 @@ If you're interested, you can review some of what learned about binary and ASCII
 
 FILE NAME: pset0.txt
 
-INSTRUCTIONS: Once you have completed your Scratch project, copy the URL (web page address) of your game, and submit it on Vocareum as a "txt" file. On Vocareum you will see more specific instructions on how to submit your project.
+INSTRUCTIONS: Once you have completed your Scratch project, copy the URL (web page address) of your game, and submit it on Vocareum as a "txt" file. To do this, log in to your Vocareum account (you should have received your login credentials in an email), find the assignment on the left labeled "Problem Set 0: Scratch", and *carefully* follow the instructions there. On Vocareum you will see more specific instructions on how to submit your project. Remember to submit your assignment before coming to the first day of class!
 
 NOTE: Make sure you get the file name correct: "pset0.txt". You will not receive credit if you use a different name. 
 
