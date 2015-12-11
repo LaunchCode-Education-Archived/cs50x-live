@@ -10,5 +10,5 @@
 2. [Studio: Crazy Echoes](../studios/crazy-echoes)
 
 ### Homework
-1. Continue working on [Problem Set 2](http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html#getting_ready)
+1. Continue working on [Problem Set 2](./problem-set)
 2. Come to [Class 3!](../class3)
