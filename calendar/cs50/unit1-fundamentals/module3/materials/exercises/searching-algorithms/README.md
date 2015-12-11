@@ -2,7 +2,7 @@
 [Back to Prep for Class 1](../../class1-prep)
 # Exercise: Searching Algorithms
 
-Question 1:
+### Question 1:
 Given the following array:
 
 {-2, 5, 20, 4, 8, 17}
@@ -15,7 +15,7 @@ Linear search for ‘8’:
 
 Linear search for ’21’:
 
-Question 2:
+### Question 2:
 
 Given the following array:
 
@@ -23,7 +23,7 @@ Given the following array:
 
 Would it be more appropriate to use linear search or binary search? Why?
 
-Question 3:
+### Question 3:
 Given the following array:
 
 {4, 7, 13, 18, 21, 42}
@@ -39,13 +39,13 @@ A correct answer would look like this:
 {-6, 0, 1, [2], 3, 15, 20}
 {-6, [0], 1} final iteration
 
-Question 4:
+### Question 4:
 
 Say we have ’n' elements and know that they are not yet sorted.
 
 What is the time complexity of sorting the array and then performing ‘m' search operations with binary search?  You may use any sorting algorithm you want, just say what it is, and what it’s time complexity is.
 
-Question 5:
+### Question 5:
 
 For an unsorted array of 256 elements in which we would need to search for 8 elements, would it be faster to use linear search or binary search?
 
