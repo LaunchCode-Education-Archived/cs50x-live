@@ -41,9 +41,9 @@ The typical class structure within a Module is to have studio and Q&A for the fi
 3. Explore! Tinker! We do our best to provide the resources we think you’ll need to succeed, but everyone learns differently. You may find resources that you really like, or find that you like to use the resources we provide in a different way. The important thing is that you learn the concepts and understand how to apply them in code. And remember: Google is your friend!
 
 
-###What’s Next?
+### What’s Next?
 
-Before coming to your first day of class, you must complete Module 0. [Click here to start!](../calendar/module0)
+Before coming to your first day of class, you must complete Module 0 / Class 0 Prep. [Click here to start!](../calendar/module0)
 
 You can also check out the [Course Calendar](../calendar).
 
