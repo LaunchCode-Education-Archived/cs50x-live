@@ -48,7 +48,7 @@ Watch | Section | <a href="https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=y
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4" target="_blank">f2c</a> |  Follow along with David Malan to create a program that converts temperatures in Farenheit to Celsius. 
 Do | Exercise | [Percent](../exercises/percent) | Try the *Percent* exercise to practice using floating-point numbers.
 Watch | Short | <a href="https://www.youtube.com/watch?v=aUxqesKDdEc" target="_blank">Precedence</a>|  Watch this short on Precedence / order of operations. <br> Stop at the 3:05 minute mark (if you go beyond, you'll hear about more advanced topics we won't be talking about for several weeks). 
-Do | Exercise | [Marathon](../exercises/pemdas) |  Fix a program that tells the user how much more time they have to run in a marathon. It's mostly written already, with a key bug.
+Do | Exercise | [Marathon](../exercises/marathon) |  Fix a program that tells the user how much more time they have to run in a marathon. It's mostly written already, with a key bug.
 
 ***
 
