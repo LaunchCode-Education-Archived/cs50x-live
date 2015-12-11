@@ -1,6 +1,16 @@
 ##### Module 3
 
-# Exercise: Spread Out
+# Exercise: Delmar House of Tires
 
-Refactor the program (TODO provide original version of program) by moving (some function, another function...) into a 
-separate file called (something.c). Don't forget to also create (something.h) and `#include` it back in (mainfile.c)
+Here we have a program for a restaurant called Delmar House of Pizza. The program asks the user how many slices of pizza they want, then tells them how many pizzas they have to order, and how much they have to pay for them.
+
+We have a similar store that sells tires by the crate, but their storefront program is not done. Edit the four files provided so that the programs for both Delmar House of Pizza and Delmar House of Tires function correctly.
+
+To do this, you should:
+
+1. Cut the "numberOfContainers" function from houseOfPizza.c into mathHelper.c, so we can use it in both houseOfPizza.c and houseOfTires.c
+2. Add an appropriate function prototype to mathHelper.h
+3. Add a line to #include mathHelper.h in houseOfPizza.c
+4. Add a line to #include mathHelper.h in houseOfTires.c
+
+After this, both houseOfPizza and houseOfTires should work correctly, and we hardly had to write any new code!
