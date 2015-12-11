@@ -14,3 +14,21 @@ To do this, you should:
 4. Add a line to #include mathHelper.h in [houseOfTires.c](./houseOfTires.c)
 
 After this, both houseOfPizza and houseOfTires should work correctly, and we hardly had to write any new code!
+
+Here's how the two programs should run after your edits:
+
+```
+$ ./houseOfPizza
+Welcome to Delmar House of Pizza!
+How many slices do you want? 12
+
+You need 2 pizzas for 12 slices.
+That'll be 20.00!
+
+$ ./houseOfTires
+Welcome to Delmar House of Tires!
+How many tires do you want? 75
+
+You need 4 crates for 75 tires.
+That'll be 7200.00!
+```
