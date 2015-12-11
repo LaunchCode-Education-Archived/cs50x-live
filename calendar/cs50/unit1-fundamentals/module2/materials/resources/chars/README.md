@@ -1,4 +1,4 @@
-##### [Module 2](../../..)
+##### Module 2
 [Go back to Prep for Class 1](../../class1-prep) 
 # Intro to Chars
 
