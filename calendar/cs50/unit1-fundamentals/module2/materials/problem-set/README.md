@@ -3,7 +3,7 @@
 # Problem Set 2 
 
 ### Synopsis
-Zhofrph wr Sureohp Vhw 2! Whoops, forgot to decrypt myself there. Welcome to Problem Set 2!
+Zhofrph wr Sureohp Vhw 2! Whoops, forgot to decrypt myself there... Welcome to Problem Set 2!
 
 In this problem set, you'll use what you've learned so far to dabble in some cryptography. To do this, you'll be introduced to some ciphers, which are codes used to encrypt messages. 
 
