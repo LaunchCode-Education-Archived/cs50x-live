@@ -10,5 +10,5 @@
 2. [Studio: Crazy Echoes](../studios/crazy-echoes)
 
 ### Homework
-1. Continue working on [Problem Set 2](./problem-set)
+1. Continue working on [Problem Set 2](../problem-set)
 2. Come to [Class 3!](../class3)
