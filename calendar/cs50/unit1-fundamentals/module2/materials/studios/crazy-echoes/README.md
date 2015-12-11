@@ -5,7 +5,7 @@
 ### Part 1: Backwards Echo
 
 In a file called `backwardsecho.c` write a program that accepts some command-line arguments, and then simply "echoes" those arguments back to the
-cosole, similar to [(TODO find the walkthrough where they did this)](TODO). 
+console, similar to the Module 2 Prep for Class 2 walkthrough  [argv-1](https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU). 
 
 The twist: each string should print out backwards. 
 
@@ -50,7 +50,7 @@ And `"HELLO!"[7 % 6]` evaluates to `"HELLO!"[1]` ...
 
 To keep things simple, you can assume that the second argument will always be shorter than the first.
 In other words, the user will never provide a string longer than `"./mixedupecho"`, which is 13 characters long.
-``
+
 
 ### Bonus (Optional)
 
