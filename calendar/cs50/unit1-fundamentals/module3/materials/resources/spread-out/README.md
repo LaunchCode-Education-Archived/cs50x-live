@@ -205,4 +205,6 @@ int main(void)
 
 This way, when we need to add new types of tax to taxmath.h and taxmath.c, we don’t have to think about all the other code we’ve put into taxprogram.c, and when we do something like add new user interface code to taxprogram.c, we don’t have to think about taxmath.h/c.
 
+It's still a lot of code overall, but should be much more managable to work with.
+
 Great!  Ugh, taxes.
