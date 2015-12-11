@@ -7,7 +7,7 @@ Before coming to [Class 2](../class2), please complete the following tasks...
 ##### Module 2 Review
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-Study | CS50 Study | [loops, ascii, functions, argv](https://study.cs50.net/loops?toc=loops,ascii,functions,argv)
+Study | CS50 Study | [loops, ascii, functions, argv](https://study.cs50.net/loops?toc=loops,ascii,functions,argv) | Review previous material on loops, ascii, functions, and argv
 
 ##### Lecture
 Task | Resource Type | Link | Instructions
@@ -43,11 +43,11 @@ Study | CS50 Study | [bubble sort, insertion sort, selection sort, merge sort](h
 ##### Compiling, Header Files
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-Read | Lecture Notes | [Lecture Notes: Week 3, continued / Compiling](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#compiling) | 
-Watch | Lecture | [Shorts: Compilers](http://cs50.tv/2012/fall/shorts/compilers/compilers-720p.mp4)
-Watch | Lecture | [Shorts: Clang, Make](http://cs50.tv/2012/fall/shorts/make_clang/make_clang-720p.mp4)
-Watch | Lecture | [Shorts: Libraries](http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4)
-Watch | Lecture | [Section: Compilation Process](https://youtu.be/XRvvitgap5Y?t=2549)
+Read | Lecture Notes | [Lecture Notes: Week 3, continued / Compiling](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#compiling) | Read about Code Compilation, the process by which your computer turns the code you write into instructions the machine can execute
+Watch | Lecture | [Shorts: Compilers](http://cs50.tv/2012/fall/shorts/compilers/compilers-720p.mp4) | Watch this short about compilers
+Watch | Lecture | [Shorts: Clang, Make](http://cs50.tv/2012/fall/shorts/make_clang/make_clang-720p.mp4) | Watch this short about Clang and Make, two tools used to manage the building and compilation of code projects
+Watch | Lecture | [Shorts: Libraries](http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4) | Watch this short about libraries
+Watch | Lecture | [Section: Compilation Process](https://youtu.be/XRvvitgap5Y?t=2549) | Watch this lecture on the compilation process
 Read | Supplement | [Supplement: Spread Out](../resources/spread-out) | TODO res: example of a program in which some work is pulled out and placed into a separate file
 Do | Exercise | [Exercise: Spread Out](../exercises/spread-out) | TODO exc: make them refactor a program into multiple files
 
