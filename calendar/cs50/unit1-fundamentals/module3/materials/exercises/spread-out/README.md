@@ -24,7 +24,9 @@ How many slices do you want? 12
 
 You need 2 pizzas for 12 slices.
 That'll be 20.00!
+```
 
+```
 $ ./houseOfTires
 Welcome to Delmar House of Tires!
 How many tires do you want? 75
