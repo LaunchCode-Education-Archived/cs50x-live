@@ -4,8 +4,7 @@
 
 # Exercise: Percent
 
-Write a program that asks the user for two floating-point numbers, and then computes the ratio between 
-them as a percent.
+In a file called `percent.c` write a program that asks the user for two floating-point numbers, and then computes the ratio between them as a percent.
 
 For example:
 
