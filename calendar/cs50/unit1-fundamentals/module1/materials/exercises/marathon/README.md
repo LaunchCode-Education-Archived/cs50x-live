@@ -24,3 +24,5 @@ At this rate, you have 8.480000 hours left.
 ```
 
 In the future, whenever we give you starter code, follow those steps (copy into your IDE, and work from there). 
+
+HINT: Remember your order of operations?
