@@ -55,11 +55,11 @@ Do | Exercise | [Algorithmic Efficiency Quiz](../exercises/algorithmic-efficienc
 ##### Alogrithms for Searching
 Task | Resource | Link | Instructions
 -----|----------|------|-------------
-Watch | Doug's Playlist | [Linear Search](https://www.youtube.com/watch?v=vZWfKBdSgXI&index=7&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T)
-Watch | Short | [Linear Search](https://www.youtube.com/watch?v=CX2CYIJLwfg&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE&index=5)
-Watch | Doug's Playlist | [Binary Search](https://www.youtube.com/watch?v=5xlIPT1FRcA&index=8&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T)
-Watch | Short | [Binary Search](https://www.youtube.com/watch?v=D5SrAga1pno&index=2&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE)
-Study | CS50 Study | [binary search](https://study.cs50.net/binary_search?toc=binary_search)
+Watch | Doug's Playlist | [Linear Search](https://www.youtube.com/watch?v=vZWfKBdSgXI&index=7&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T) | Learn about our first strategy for searching for a value in an array, "Linear Search"
+Watch | Short | [Linear Search](https://www.youtube.com/watch?v=CX2CYIJLwfg&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE&index=5) | Another perspective on Linear Search
+Watch | Doug's Playlist | [Binary Search](https://www.youtube.com/watch?v=5xlIPT1FRcA&index=8&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T) | Learn about a more advanced strategy for searching for a value in a sorted array, "Binary Search"
+Watch | Short | [Binary Search](https://www.youtube.com/watch?v=D5SrAga1pno&index=2&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE) | Another perspective on Binary Search
+Study | CS50 Study | [binary search](https://study.cs50.net/binary_search?toc=binary_search) | Study Binary Search, a fast, common algorithm when using arrays
 Do | Exercise | [Searching Algorithms Quiz](../exercises/searching-algorithms) | A short quiz on implementing and using array searching algorithms
 
 When you're done, you're ready for [Class 1](../class1)!
