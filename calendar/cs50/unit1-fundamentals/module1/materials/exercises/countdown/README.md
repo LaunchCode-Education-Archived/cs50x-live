@@ -2,7 +2,7 @@
 [Go back to Prep for Class 2](../../class2-prep)
 # Exercise: Countdown
 
-Write a program that performs an epic countdown from a user-specified integer:
+In a file called `countdown.c` write a program that performs an epic countdown from a user-specified integer:
 
 ```
 $ ./countdown
