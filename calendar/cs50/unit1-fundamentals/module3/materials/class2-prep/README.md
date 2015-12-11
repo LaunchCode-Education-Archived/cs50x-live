@@ -12,13 +12,13 @@ TODO | CS50 Study | [loops, ascii, functions, argv](https://study.cs50.net/loops
 ##### Lecture
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-30-45 mins | Watch Video | [Lecture: Week 3, continued](TODO)
+Watch | Lecture | [Lecture: Week 3, continued](TODO) | 
 
 ##### Merge Sort
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-TODO | Read | [Lecture Notes: Week 3, continued / Merge Sort](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort)
-TODO | Watch Video | [Shorts: Merge Sort](https://www.youtube.com/watch?v=EeQ8pwjQxTM)
+Read | Resource | [Lecture Notes: Week 3, continued / Merge Sort](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort) | 
+Watch | Lecture | [Shorts: Merge Sort](https://www.youtube.com/watch?v=EeQ8pwjQxTM) | 
 
 ##### Recursion
 Task | Resource Type | Link | Instructions
@@ -27,29 +27,29 @@ Watch | Lecture | [Week 4](http://www.youtube.com/embed/SadMsthVUBM?autoplay=1&r
 Read | Lecture Notes | [Week 4 / Recursion](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#recursion) |
 Read | Lecture Notes | [Week 4 / Sigma](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#sigma)
 Read | Lecture Notes | [Week 4 / IDE Debugger ](http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide)
-TODO | Read | [Supplement: Recursion](../supplementary-resources/recursion) | 
-TODO | Follow-Along | [Walkthrough: sigma-0](https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10)
-TODO | Follow-Along | [Walkthrough: sigma-1](https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | Afterwards, step through your program inthe IDE Debugger, just like they did in class.
-TODO | Watch Video | [Doug's Playlist: Recursion](https://www.youtube.com/watch?v=VrrnjYgDBEk) | TODO: leave this for next module?
-TODO | Watch Video | [Shorts: Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY) |
-TODO | Do | [Exercise: Fibonacci](../exercises/fibonacci) |
+Read | Resource | [Supplement: Recursion](../supplementary-resources/recursion) | 
+Follow-Along | Resource | [Walkthrough: sigma-0](https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10) | 
+Follow-Along | Resource | [Walkthrough: sigma-1](https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) | Afterwards, step through your program inthe IDE Debugger, just like they did in class.
+Watch | Lecture | [Doug's Playlist: Recursion](https://www.youtube.com/watch?v=VrrnjYgDBEk) | TODO: leave this for next module?
+Watch | Lecture | [Shorts: Recursion](https://www.youtube.com/watch?v=t4MSwiqfLaY) |
+Do | Exercise | [Exercise: Fibonacci](../exercises/fibonacci) | 
 
 ##### Sorting Algs Summary
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-10 mins | Watch Video | [Doug's Playlist: Algorithms Summary]() | TODO: make cheatsheet?
+Watch | Lecture | [Doug's Playlist: Algorithms Summary]() | TODO: make cheatsheet?
 TODO | CS50 Study | [bubble sort, insertion sort, selection sort, merge sort](https://study.cs50.net/binary_search?toc=bubble_sort,insertion_sort,selection_sort,merge_sort)
 
 ##### Compiling, Header Files
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-TODO | Read | [Lecture Notes: Week 3, continued / Compiling](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#compiling)
-TODO | Watch | [Shorts: Compilers](http://cs50.tv/2012/fall/shorts/compilers/compilers-720p.mp4)
-TODO | Watch | [Shorts: Clang, Make](http://cs50.tv/2012/fall/shorts/make_clang/make_clang-720p.mp4)
-TODO | Watch | [Shorts: Libraries](http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4)
-TODO | Watch | [Section: Compilation Process](https://youtu.be/XRvvitgap5Y?t=2549)
-TODO | Read | [Supplement: Spread Out](../supplementary-resources/spread-out) | TODO res: example of a program in which some work is pulled out and placed into a separate file
-TODO | DO | [Exercise: Spread Out](../exercises/spread-out) | TODO exc: make them refactor a program into multiple files
+Read | Lecture Notes | [Lecture Notes: Week 3, continued / Compiling](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#compiling) | 
+Watch | Lecture | [Shorts: Compilers](http://cs50.tv/2012/fall/shorts/compilers/compilers-720p.mp4)
+Watch | Lecture | [Shorts: Clang, Make](http://cs50.tv/2012/fall/shorts/make_clang/make_clang-720p.mp4)
+Watch | Lecture | [Shorts: Libraries](http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4)
+Watch | Lecture | [Section: Compilation Process](https://youtu.be/XRvvitgap5Y?t=2549)
+Read | Supplement | [Supplement: Spread Out](../supplementary-resources/spread-out) | TODO res: example of a program in which some work is pulled out and placed into a separate file
+Do | Exercise | [Exercise: Spread Out](../exercises/spread-out) | TODO exc: make them refactor a program into multiple files
 
 ### Where do these belong?
   * [Week 3, continued / Bitwise Operators](http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#bitwise_operators)
