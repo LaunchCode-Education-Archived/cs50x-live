@@ -1,5 +1,5 @@
-##### Module 2
-
+##### [Module 2](../../..)
+[Go back to Prep for Class 1](../../class1-prep) 
 # Intro to Chars
 
 We’ve seen the `string` datatype now, but how does it work?  We know that numbers like `int` and `float`, are represented by a finite chunk of binary bits, but strings can be of any length; how can we represent these?
