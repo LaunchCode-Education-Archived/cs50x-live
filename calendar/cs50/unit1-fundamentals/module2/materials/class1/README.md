@@ -2,10 +2,10 @@
 
 # Class 1
 
-##### Before Today
+### Before Class
 For homework, you should have done [Prep for Class 1](../class1-prep)
 
-##### Today
+### During Class
 1. Lecture / Q&A on the following topics
   * TODO
   * TODO
