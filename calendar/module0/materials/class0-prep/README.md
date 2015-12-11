@@ -46,6 +46,12 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=3YD66bHehhQ&index=48&li
 Watch | Short | <a href="https://www.youtube.com/watch?v=52JoFF4HMA4&index=41&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">Scratch</a> | Watch as Allison creates a game in Scratch, walking through all of the different steps. 
 Do | Problem Set | [Problem Set 0](./problem-set) | Complete Problem Set 0! Read through the Problem Set page, which will also include an overview of how to understand Harvard's Problem Set specification pages. When you have finished your project, you will submit your assignment on Vocareum. 
 
+***
+
+##### Lecture
+Task | Resource Type | Link | Instructions
+-----|---------------|------|-------------
+Watch | Lecture | <a href="https://www.youtube.com/embed/YiiHNiSfmKI?autoplay=1&rel=0&start=0" target="_blank">Week 1</a> | Watch the first lecture video from Week 1, which will give you a high-level introduction to this week's concepts. If you want, consider increasing the speed to 1.5x (only available in some browsers). The material will be covered in finer detail later. <br> Also, you can skip the portion of the video between 4:36-6:30 if you don't want to watch David Malan talk about information only relevant to Harvard students.
 
 ###Now you're ready for the first day of class, [Class 0](../class0)! The best place to see the course materials is by viewing the [Course Calendar](../../..)
 
