@@ -51,4 +51,5 @@ NOTE: Make sure you get the file name correct: "pset0.txt". If you use a differe
 
 ***
 
-Congratulations! You're done with CS50x's first problem set, and are ready for the first day of class. In the meantime, return to [Module 0](..) to see what else you can do while you wait for class to start. 
+### Congratulations! 
+You're done with CS50x's first problem set, and are ready for the first day of class. In the meantime, return to [Module 0](..) to see what else you can do while you wait for class to start. 
