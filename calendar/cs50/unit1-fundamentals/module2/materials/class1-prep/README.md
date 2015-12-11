@@ -43,7 +43,7 @@ Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=9zoRoz8Pq4E
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=7X9KUm5xej0&index=14&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">functions-1</a> | Now you'll implement a function that returns a return value. 
 Do | Exercise | [Step Into](../exercises/step-into) | TODO exc: make them step through source code from walkthroughs (cough0-4, functions0-1) in the Debugger, similar to module1/exercises/debug. Introduce the Step Into button.
 Do | Exercise | [Census](../exercises/census) | Get some practice calling a function. We give you some code and ask you to refactor it by replacing a repetitive code block with a call to a function.
-Watch | Shorts | <a href="https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Return Values</a> | TODO: Potentially scrap this. Somewhat confusingly presented-- `void` as "simplest return type", and last example uses file i/o, which will be scary and unfamiliar.
+Watch | Shorts | <a href="https://www.youtube.com/watch?v=gziiOF0uIX8&index=6&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Return Values</a> | You might find this video somewhat confusing, especially at the end where he does an example interacting with a file, which you haven't seen before. But you might also find it somewhat helpful, so we kept it in.
 Read | Resource | [Return Values](../resources/returnvalues) | TODO res: give picture of return values as evaluating a statement.
 
 ***
