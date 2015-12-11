@@ -47,7 +47,7 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=52JoFF4HMA4&index=41&li
 Do | Problem Set | [Problem Set 0](./problem-set) | Complete Problem Set 0! Read through the Problem Set page, which will also include an overview of how to understand Harvard's Problem Set specification pages. When you have finished your project, you will submit your assignment on Vocareum. 
 
 
-###Now you're ready for the first day of class! The best place to see the course materials is by viewing the [Course Calendar](..)
+###Now you're ready for the first day of class, [Class 0](../class0)! The best place to see the course materials is by viewing the [Course Calendar](../../..)
 
 ***
 ##### Bonus Resources!
