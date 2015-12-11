@@ -19,7 +19,7 @@
 ### Unit 2 Advanced C
 |Module | Overview |
 | :-------------: |-------------|
-| [Module 4](./cs50/unit2-advanced-c/module4) | Woohoo, you’re halfway through the course!! This is the point when you will tackle more advanced concepts in the C programming language.  You will learn about digital forensics, recovering information, pointers, structs (a high-level data structure to define groups of variables) and memory allocation. |
+| [Module 4](./cs50/unit2-advanced-c/module4) | You’re halfway through the course! This is the point when you will tackle more advanced concepts in the C programming language.  You will learn about digital forensics, recovering information, pointers, structs (a high-level data structure to define groups of variables) and memory allocation. |
 | [Module 5](./cs50/unit2-advanced-c/module5) | You will start off with a review of pointers and memory and then deep dive into other types of data structures that will allow you to develop more complex programs.  There are some limitations to the arrays that you have already learned about and these new data structures will help you to store and manage your data efficiently.  They are called Linked Lists, Stacks, Queues, Trees, Tries and Hash Tables. |
 
 ### Unit 3 Web Development
