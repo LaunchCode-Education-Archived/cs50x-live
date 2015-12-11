@@ -2,9 +2,9 @@
 
 # Class 3
 
-### During Class Today
+### During Class
 
-**Office Hours**: Continue working on [Problem Set 2](../problem-set). Instructors will be circulating to provide help.
+Office Hours: Continue working on [Problem Set 2](../problem-set). Instructors will be circulating to provide help.
 
 ### Homework
 1. Finish [Problem Set 2](../problem-set)
