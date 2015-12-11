@@ -2,6 +2,9 @@
 
 # Class 3
 
+### Before Class
+No Prep Work. Work away on [Problem Set 2](../problem-set).
+
 ### During Class
 
 Office Hours: Continue working on [Problem Set 2](../problem-set). Instructors will be circulating to provide help.
