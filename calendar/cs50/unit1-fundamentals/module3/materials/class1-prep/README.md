@@ -60,6 +60,6 @@ Watch | Short | [Linear Search](https://www.youtube.com/watch?v=CX2CYIJLwfg&list
 Watch | Doug's Playlist | [Binary Search](https://www.youtube.com/watch?v=5xlIPT1FRcA&index=8&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T)
 Watch | Short | [Binary Search](https://www.youtube.com/watch?v=D5SrAga1pno&index=2&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE)
 Study | CS50 Study | [binary search](https://study.cs50.net/binary_search?toc=binary_search)
-Do | Exercise | [Something](TODO) | TODO exc: something for this stuff?
+Do | Exercise | [Searching Algorithms Quiz](../exercises/searching-algorithms) | A short quiz on implementing and using array searching algorithms
 
 When you're done, you're ready for [Class 1](../class1)!
