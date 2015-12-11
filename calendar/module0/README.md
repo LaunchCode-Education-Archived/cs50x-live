@@ -11,6 +11,11 @@ So without further ado, let the learning begin!
 
 ***
 
+Class # | Before Class | During Class | Topics/Skills
+:--------:|:------------:|:------------:|-----------------------|
+Class 0 | [Prep Work](./materials/class0-prep) | In Class(./materials/class0) | binary, ascii, algorithms, pseudocode, Scratch
+
+
 ##### Lecture
 Task | Resource Type| Link | Instructions
 --------------|------|------|-------------
