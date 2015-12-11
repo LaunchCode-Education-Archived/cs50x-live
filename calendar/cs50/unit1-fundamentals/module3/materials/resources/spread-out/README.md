@@ -1,4 +1,4 @@
-# Example: Spread Out
+# Resource: Spread Out
 
 So far we've only been working with small programs in which all the source code lives together in a single file, 
 `myprogram.c`. But as we start writing larger, more complex programs, cramming everything into one file can make
