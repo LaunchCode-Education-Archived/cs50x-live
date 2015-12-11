@@ -1,6 +1,6 @@
 ##### Module 7
 
-[Go back to Class 2](../class2)
+[Go back to Class 2](../../class2)
 
 # Studio: Simple Site
 
