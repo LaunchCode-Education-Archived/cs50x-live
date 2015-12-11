@@ -8,10 +8,13 @@ Before you start with the course materials, we highly encourage you to read the 
 
 In CS50x, there are 9 assignments, called “problem sets.” We’ve broken down this course into **Modules**, which correspond to each problem set assignment in CS50x. Each Module contains 3 class periods. Before each class period, there is **Prep Work** that you should complete before that class. The Prep Work will make sure you get the most out of each class period.
 
-Prep Work is broken down into specific tasks that are ordered chronologically. Students should complete the tasks in order, following the directions given by the task name, and the instructions to the right. As an example, here is a screenshot of a Prep Work from Module 1:
+Prep Work is broken down into specific tasks that are ordered chronologically. Students should complete the tasks in order, following the directions given by the task name, and the instructions to the right. So, here is an example of a (fake) Prep Work.
 
-[insert screenshot here]
-
+Task | Resource Type | Link | Instructions
+-----|---------------|------|-------------
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=VaT3qsoHPQ8" target="_blank">How to Make the Best Chocolate Chip Cookies</a> | Before starting your learning journey, follow-along with this video to make some delicious cookies!
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Things Every Beginner Programmer Should Know</a> | Watch this short video that is _essential_ viewing for any beginner coder.
+Read | Lecture Notes | <a href="https://en.wikipedia.org/wiki/Rickrolling" target="_blank">Beginner Programmer Tips</a> | Read over these notes that will explain the previous lecture.
 
 Tasks are given specific names, which tell you (the student) how you should complete that task. Below is a glossary of those task names, and what they mean:
 
