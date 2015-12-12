@@ -77,7 +77,7 @@ Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=wYvnyO2PbT0
 #### The Modulo Operator `%`:
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
-Read | Resource | [Modulo](../resources/modulo) | Learn about the modulo operator, plus get your first look at the most popular CS interview question!
+Read | Resource | [Modulo](../resources/modulo) | Learn about the modulo operator by looking at a simple example program.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=_FC-8QaaYgs&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&index=3" target="_blank">Operators</a>| Revisit Doug's video about Operators, or just watch the <a href="https://youtu.be/_FC-8QaaYgs?list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA&t=119" target="_blank">part about modulo</a> if you prefer.
 Do | Exercise | [Clock Sage](../exercises/clock-sage) | Practice using the modulo operator to write a program that asks for an amount of time in hours, and then calculates what time it will be that many hours in the future.
 
