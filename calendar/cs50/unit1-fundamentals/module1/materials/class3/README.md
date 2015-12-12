@@ -12,7 +12,8 @@ No Prep Work. Work away on [Problem Set 1](../problem-set).
   * calling library functions
 2. Studios
   * [Repeat](../studios/repeat) 
-2. Office Hours: continue working on [Problem Set 1](../problem-set). 
+  * [Dollars and Cents](../studios/dollars-and-cents)
+3. Office Hours: continue working on [Problem Set 1](../problem-set). 
 
 ### Homework
 1. Finish [Problem Set 1](../problem-set)
