@@ -4,18 +4,25 @@
 
 # Resource: Modulo
 
-The modulo operation returns the remainder of one number divided by another.
+Recall that the modulo operator `%` returns the remainder when one number is divided by another.
 
 For example:
 
-6 % 4 = 2
+6 % 4 = 2 
 
 3 % 2 = 1
 
 15 % 3 = 0
 
-The modulo is used a lot in computer science, including the quintessential interview question, FizzBuzz.
+The modulo is used a lot in computer science, but here's a simple example. In [divisible.c](./divisibleby7.c), there's a simple program that says if a number, given by the user, is divisible by 7, like so:
 
-For the numbers 1 through 100, print Fizz if it is divisible by 3, print Buzz if it is divisible by 5, and print FizzBuzz if it is divisible by both. Otherwise, print the number.
+```
+$ ./divisibleby7
+Give me a number: 11
+That number is not divisible by 7, chief!
 
-Try it out for yourself!
+$ ./divisibleby7
+Give me a number: 21
+That number is divisible by 7, friend!
+```
+
