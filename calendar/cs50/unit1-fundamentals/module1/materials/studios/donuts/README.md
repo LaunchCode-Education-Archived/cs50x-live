@@ -37,4 +37,4 @@ Notice that the total price `$8.74999125` went way beyond 2 decimal places. Obvi
 round that to $8.75. Later in this module, you'll be introduced to a function called `round` which will allow 
 you to do just that. But for now, don't worry about it.
 
-Also, your program may give an answer with a slightly different number of decimal places than the example program above. This is just a precision issue, so don't worry about it!
+Also, don't be concerned if your program gives an answer with a *slightly* different number of decimal places than the example program above. This is just a precision issue.
