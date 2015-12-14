@@ -27,6 +27,7 @@ Note: this is also a good problem for learning to create your own functions. May
 ####Greedy:
 * Break this one up into an input piece, a quarters piece, a dimes piece, a nickels piece, and... do you need pennies? Make sure each individual bit of code works before moving on to the next!
 * The pset spec gives a code example for printing `0.01` to 50 decimal places:
+
   ```
   float f = 0.01;
   printf("%.50f\n", f);
