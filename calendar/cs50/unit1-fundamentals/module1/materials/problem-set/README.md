@@ -26,7 +26,12 @@ Note: this is also a good problem for learning to create your own functions. May
 
 ####Greedy:
 * Break this one up into an input piece, a quarters piece, a dimes piece, a nickels piece, and... do you need pennies? Make sure each individual bit of code works before moving on to the next!
-* Try out the pspec's code example for printing values up to 50 decimal places. Honestly - this is very important to this problem! You WILL find some surprising results. Make sure your final program can handle those results - otherwise, don't be surprised when check50 gives you the wrong kind of emojis!
+* The pset spec gives a code example for printing `0.01` to 50 decimal places:
+  ```
+  float f = 0.01;
+  printf("%.50f\n", f);
+  ```
+Do try this out for yourself and make sure you understand the inherent imprecision of the computer's representation of a `float` - this is very important to this problem! You WILL find some surprising results. Make sure your final program can handle those results - otherwise, don't be surprised when check50  gives you the wrong kind of emojis!
 
 ### Components
 To review all information about the Problem Set, go here: <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Getting Started</a>. You will have seen a lot of this already, but it may be helpful to review.
