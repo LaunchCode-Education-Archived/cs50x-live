@@ -8,7 +8,9 @@ In this problem set, you'll solve some problems in C using the concepts you'll l
 ### Guidance
 ####Water:
 <em>Use the source, Luke! Use the source!</em><br>
-Check out the source code example called “adder.c” under Week 1's Wednesday lecture. With a few tweaks, might this be the droids - er, code - you're looking for???
+Check out the source code example called “adder.c” under 
+<a href="http://cdn.cs50.net/2015/fall/lectures/1/w/src1w/" target="_blank">Week 1's Wednesday lecture source code examples</a>
+. With a few tweaks, might this be the droids - er, code - you're looking for???
 
 Remember: CS50's source code examples can take you a long way toward solving the pset problems!
 
