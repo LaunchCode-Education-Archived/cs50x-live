@@ -25,7 +25,7 @@ Class # | Before Class | During Class | Topics/Skills
 #### Helpful Links
 Link | Description
 :---:|:----
-<a href="http://cdn.cs50.net/2015/fall/lectures/1/w/src1w" target="_blank">src 1w</a> | Source code from Lecture: Week 1
-<a href="http://cdn.cs50.net/2015/fall/lectures/1/f/src1f" target="_blank">src 1f</a> | Source code from Lecture: Week 1 / Continued
+<a href="http://cdn.cs50.net/2015/fall/lectures/1/w/src1w" target="_blank">Source Code 1w</a> | Source code from Lecture: Week 1
+<a href="http://cdn.cs50.net/2015/fall/lectures/1/f/src1f" target="_blank">Source Code 1f</a> | Source code from Lecture: Week 1 / Continued
 
 
