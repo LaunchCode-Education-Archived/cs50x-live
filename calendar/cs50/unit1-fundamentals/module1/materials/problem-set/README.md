@@ -6,8 +6,22 @@
 In this problem set, you'll solve some problems in C using the concepts you'll learn throughout Module 1. There are three components to this problem set: **Water**, **Mario**, and **Greedy**.
 
 ### Guidance
-_**water**_: **Use the source, Luke! Use the source!**
+####water:
+<em>Use the source, Luke! Use the source!</em><br>
 Check out the source code example called “adder.c” under Week 1's Wednesday lecture. With a few tweaks, might this be the droids - er, code - you're looking for???
+
+Remember: CS50's source code examples can take you a long way toward solving the pset problems!
+
+####mario:
+* Draw up a few examples for this assignment. Can you find a relationship between the height, line number (starting with 0!), number of spaces on each line, and number of hashes on each line?
+* This is a good problem to begin practicing the art of breaking your code work into the smallest pieces possible!
+  - Get your input working first;
+  - THEN make sure the input part continues looping, er repeating, until a valid number is entered;
+  - NEXT, check out that you can loop through lines (printf() is your friend!);
+  - THEN, get your spaces working correctly (use a substitute character while you're testing!);
+  - FINALLY, get your hashes working correctly
+* Code a little and test; repeat, repeat, repeat!
+
 
 ### Components
 To review all information about the Problem Set, go here: <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Getting Started</a>. You will have seen a lot of this already, but it may be helpful to review.
