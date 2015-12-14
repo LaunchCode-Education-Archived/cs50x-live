@@ -24,7 +24,7 @@ Gimme a dollar amount: 7.2494328374
 Oh, I think you mean $7.250000000
 ```
 
-(It still looks stupid because of the traling `0`s but thats ok. We'll learn how to fix that some other time.)
+(It still looks stupid because of the trailing `0`s but thats ok. We'll learn how to fix that some other time.)
 
 Of course, in this case we do not want to round all the way down to the nearest integer. Doing so would have given us `$7.00`. Instead we want to round to the nearest 2 decimal places. Unfortunately, `round` isn't fancy enough to do that. But with a little bit of clever arithmetic, you can get around this no problem!
 
