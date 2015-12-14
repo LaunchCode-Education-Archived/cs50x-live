@@ -47,7 +47,7 @@ Task | Resource | Link | Instructions
 -----|------|------|-------------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#algorithmic_efficiency" target= "_blank">Week 3 / Algorithmic Efficiency</a>
 Watch Video | Doug's Playlist | <a href="https://www.youtube.com/watch?v=IM9sHGlYV5A&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=2" target= "_blank">Computational Complexity</a>
-Watch Video | Short | <a href="https://www.youtube.com/watch?v=iOq5kSKqeR4" target= "_blank">Asymtoptic Notation</a>
+Watch Video | Short | <a href="https://www.youtube.com/watch?v=iOq5kSKqeR4" target= "_blank">Asymptotic Notation</a>
 Do | Exercise | [Algorithmic Efficiency Quiz](../exercises/algorithmic-efficiency) | A short, 3-question quiz on defining algorithmic efficiency
 
 ***
