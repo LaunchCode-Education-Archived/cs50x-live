@@ -6,7 +6,8 @@
 In this problem set, you'll solve some problems in C using the concepts you'll learn throughout Module 1. There are three components to this problem set: **Water**, **Mario**, and **Greedy**.
 
 ### Guidance
-_Coming soon!_
+_**water**_: **Use the source, Luke! Use the source!**
+Check out the source code example called “adder.c” under Week 1's Wednesday lecture. With a few tweaks, might this be the droids - er, code - you're looking for???
 
 ### Components
 To review all information about the Problem Set, go here: <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Getting Started</a>. You will have seen a lot of this already, but it may be helpful to review.
