@@ -55,7 +55,7 @@ Watch | Lecture | <a href="https://www.youtube.com/embed/YiiHNiSfmKI?autoplay=1&
 
 ### Now you're ready for the first day of class, [Class 0](../class0)! 
 
-The best place to see the course materials is by viewing the [Course Calendar](../../..)
+In case you missed it, the best place for an overview the course materials is by viewing the [Course Calendar](../../..)
 
 ***
 ##### Bonus Resources!
