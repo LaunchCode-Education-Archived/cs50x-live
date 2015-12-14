@@ -31,8 +31,8 @@ int main(void)
   
   // FOR LOOP -------------------------------------------
   
-  //  (INITIALIZE ; CONDITION ; MODIFY      )
-  for (int i = 0  ; i < 10    ; i = i + 1   )
+  //  (INITIALIZE ; CONDITION ; MODIFY   )
+  for (int i = 0  ; i < 10    ; i = i + 1)
   {
     // BODY
     printf("Let's pause and appreciate the number %i\n", i);
@@ -42,9 +42,10 @@ int main(void)
   }
   
   
+  // NOTE: 
   // Instead of
   // i = i + 1
   // you will usually see
   // i++
-  // which is just a sexier syntax for incrementing i by 1. They are exactly the same.
+  // which is just a "sexier" syntax for incrementing i by 1. They are exactly the same.
 }
