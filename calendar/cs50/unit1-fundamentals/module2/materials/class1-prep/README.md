@@ -5,7 +5,7 @@
 #### Lecture:
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
- Watch | Lecture | [Week 2](https://www.youtube.com/watch?v=FgfLXemFoIo) | Watch this week's first lecture. You can skip from 9:00 to the 19:30 minute mark (David makes Harvard-specific announcements, and talks about their academic honesty guidelines). 
+ Watch | Lecture | <a href="https://www.youtube.com/watch?v=FgfLXemFoIo" target="_blank">Week 2</a> | Watch this week's first lecture. You can skip from 9:00 to the 19:30 minute mark (David makes Harvard-specific announcements, and talks about their academic honesty guidelines). 
 
 ***
 
