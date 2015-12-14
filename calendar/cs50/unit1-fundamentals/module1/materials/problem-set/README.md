@@ -5,8 +5,39 @@
 ### Synopsis
 In this problem set, you'll solve some problems in C using the concepts you'll learn throughout Module 1. There are three components to this problem set: **Water**, **Mario**, and **Greedy**.
 
+### Components
+The Pset Spec which outlines the assignment can be found 
+<a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html" target="_blank">Here</a>.
+
+To review all information about the Problem Set, scroll down to the section titled <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Getting Started</a>. You will have seen a lot of this already, but it may be helpful to review.
+
+The components of Problem Set 1 that you must do are:
+* <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#smart_water" target="_blank">Problem Set 1: Water</a>
+* <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#itsa_mario" target="_blank">Problem Set 1: Mario</a>
+* <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#time_for_change" target="_blank">Problem Set 1: Greedy</a>
+
 ### Guidance
-####Water:
+
+#### In General: How to approach a Problem Set
+
+- Begin a pset by having ready at-hand, and focusing on, these 3 things:
+  - the problem set specification (“pset spec” or “pspec”)
+  - the lecture notes (linked under each main lecture)
+  - the example source code from the current Module (we will provide this link)
+
+- The pset spec will . Those videos are most important to solving the pset problems!
+
+- The psets often have multiple assignments within them. Work on one at a time. (Ie, only read/watch items applicable to the one assignment you're currently working. Don't read/watch ahead.)
+
+- Define a strategy (as in pseudocode, drawings, whatever) BEFORE starting to code anything.
+
+- When ready to code, break the problem into the smallest pieces you can think of... then code a piece, test it, fix anything wrong; code the next piece, test it, fix it. Use printf() and the IDE's debugging tools like crazy!
+
+- If you begin working on one piece while another is not quite finished - remark out the unfinished code. This prevents errors from the unfinished code from looking like problems with the new code.
+
+#### Specific Guidance on Pset 1
+
+##### Water:
 <em>Use the source, Luke! Use the source!</em><br>
 Check out the source code example called “adder.c” under 
 <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/src1w/" target="_blank">Week 1's Wednesday lecture source code examples</a>
@@ -14,7 +45,7 @@ Check out the source code example called “adder.c” under
 
 Remember: CS50's source code examples can take you a long way toward solving the pset problems!
 
-####Mario:
+##### Mario:
 * Draw up a few examples for this assignment. Can you find a relationship between the height, line number (starting with 0!), number of spaces on each line, and number of hashes on each line?
 * This is a good problem to begin practicing the art of breaking your code work into the smallest pieces possible! Don't try to write the entire program all at once before you try running it. Do just a little bit, and immediately run to make sure that part works. Then do a little bit more, and make sure it works. Rinse and repeat. For example:
   - Get your input working first;
@@ -26,7 +57,7 @@ Remember: CS50's source code examples can take you a long way toward solving the
 
 Note: this is also a good problem for learning to create your own functions. Maybe, for example, you could turn the space- and hash-printing parts, say, into functions? Again, check out the example source code CS50 provides for possibilities!
 
-####Greedy:
+##### Greedy:
 * Break this one up into an input piece, a quarters piece, a dimes piece, a nickels piece, and... do you need pennies? Make sure each individual bit of code works before moving on to the next!
 * The pset spec gives a code example for printing `0.01` to 50 decimal places:
 
@@ -35,15 +66,6 @@ Note: this is also a good problem for learning to create your own functions. May
   printf("%.50f\n", f);
   ```
 Do try this out for yourself and make sure you understand the inherent imprecision of the computer's representation of a `float` - this is very important to this problem! You WILL find some surprising results. Make sure your final program can handle those results - otherwise, don't be surprised when check50  gives you the wrong kind of emojis!
-
-### Components
-To review all information about the Problem Set, go here: <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Getting Started</a>. You will have seen a lot of this already, but it may be helpful to review.
-
-Here are the components due for Problem Set 1:
-* <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#smart_water" target="_blank">Problem Set 1: Water</a>
-* <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#itsa_mario" target="_blank">Problem Set 1: Mario</a>
-* <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#time_for_change" target="_blank">Problem Set 1: Greedy</a>
-
 
 ### How To Submit 
 
