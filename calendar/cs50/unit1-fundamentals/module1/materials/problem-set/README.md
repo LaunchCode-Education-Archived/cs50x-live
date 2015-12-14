@@ -14,7 +14,7 @@ Remember: CS50's source code examples can take you a long way toward solving the
 
 ####Mario:
 * Draw up a few examples for this assignment. Can you find a relationship between the height, line number (starting with 0!), number of spaces on each line, and number of hashes on each line?
-* This is a good problem to begin practicing the art of breaking your code work into the smallest pieces possible! Don't try to write the entire program all at once and then run it. Do just a little bit, and immediately run to make sure it works. Then do a little bit more, and make sure it works. Rinse and repeat. For example:
+* This is a good problem to begin practicing the art of breaking your code work into the smallest pieces possible! Don't try to write the entire program all at once before you try running it. Do just a little bit, and immediately run to make sure that part works. Then do a little bit more, and make sure it works. Rinse and repeat. For example:
   - Get your input working first;
   - THEN make sure the input part continues looping until a valid number is entered;
   - NEXT, check out that you can loop through lines (printf() is your friend! use it to varify that things are workign properly);
