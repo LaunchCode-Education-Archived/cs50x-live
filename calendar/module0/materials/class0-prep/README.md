@@ -53,7 +53,9 @@ Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Watch | Lecture | <a href="https://www.youtube.com/embed/YiiHNiSfmKI?autoplay=1&rel=0&start=0" target="_blank">Week 1</a> | Watch the first lecture video from Week 1, which will give you a high-level introduction to this week's concepts. If you want, consider increasing the speed to 1.5x (only available in some browsers). The material will be covered in finer detail later. <br> Also, you can skip the portion of the video between 4:36-6:30 if you don't want to watch David Malan talk about information only relevant to Harvard students.
 
-###Now you're ready for the first day of class, [Class 0](../class0)! The best place to see the course materials is by viewing the [Course Calendar](../../..)
+### Now you're ready for the first day of class, [Class 0](../class0)! 
+
+The best place to see the course materials is by viewing the [Course Calendar](../../..)
 
 ***
 ##### Bonus Resources!
@@ -68,7 +70,7 @@ Finally, if you're interested, check out this super long but interesting and ent
 
 <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/" target="_blank">Paul Ford: What is Code?</a>
 
-. It paints a nice overall picture of the landscape of today's major coding languages and how they fit into the business world.
+It paints a nice overall picture of the landscape of today's major coding languages and how they fit into the business world.
 
 *** 
 
