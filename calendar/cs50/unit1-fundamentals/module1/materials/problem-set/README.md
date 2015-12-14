@@ -23,8 +23,8 @@ The assignments of Problem Set 1 that you must do are:
 
 - Begin a pset by having ready at-hand, and focusing on, these 3 things:
   - the problem set specification (“pset spec” or “pspec”)
-  - the lecture notes (linked under each main lecture)
-  - the example source code from the current Module (we will provide this link)
+  - the lecture notes (you can find these on the class prep pages for the current Module)
+  - the example source code from the current Module (you can find this at the bottom of the Module home page under "Helpful Links")
 
 - The pset spec will link out to various videos. You may have already seen some of these during Class Prep. Regardless, these videos are always very relevant to the problem at hand and are probably worth a (re)watch.
 
