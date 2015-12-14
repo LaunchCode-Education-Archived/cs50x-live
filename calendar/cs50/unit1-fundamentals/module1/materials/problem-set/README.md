@@ -6,22 +6,27 @@
 In this problem set, you'll solve some problems in C using the concepts you'll learn throughout Module 1. There are three components to this problem set: **Water**, **Mario**, and **Greedy**.
 
 ### Guidance
-####water:
+####Water:
 <em>Use the source, Luke! Use the source!</em><br>
 Check out the source code example called “adder.c” under Week 1's Wednesday lecture. With a few tweaks, might this be the droids - er, code - you're looking for???
 
 Remember: CS50's source code examples can take you a long way toward solving the pset problems!
 
-####mario:
+####Mario:
 * Draw up a few examples for this assignment. Can you find a relationship between the height, line number (starting with 0!), number of spaces on each line, and number of hashes on each line?
 * This is a good problem to begin practicing the art of breaking your code work into the smallest pieces possible!
   - Get your input working first;
-  - THEN make sure the input part continues looping, er repeating, until a valid number is entered;
+  - THEN make sure the input part continues looping until a valid number is entered;
   - NEXT, check out that you can loop through lines (printf() is your friend!);
   - THEN, get your spaces working correctly (use a substitute character while you're testing!);
   - FINALLY, get your hashes working correctly
 * Code a little and test; repeat, repeat, repeat!
 
+Note: this is also a good problem for learning to create your own functions. Maybe, for example, you could turn the space- and hash-printing parts, say, into functions? Again, check out the example source code CS50 provides for possibilities!
+
+####Greedy:
+* Break this one up into an input piece, a quarters piece, a dimes piece, a nickels piece, and... do you need pennies? Make sure each individual bit of code works before moving on to the next!
+* Try out the pspec's code example for printing values up to 50 decimal places. Honestly - this is very important to this problem! You WILL find some surprising results. Make sure your final program can handle those results - otherwise, don't be surprised when check50 gives you the wrong kind of emojis!
 
 ### Components
 To review all information about the Problem Set, go here: <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Getting Started</a>. You will have seen a lot of this already, but it may be helpful to review.
