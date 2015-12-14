@@ -5,13 +5,14 @@
 ### Synopsis
 In this problem set, you'll solve some problems in C using the concepts you'll learn throughout Module 1. There are three components to this problem set: **Water**, **Mario**, and **Greedy**.
 
-### Components
 The Pset Spec which describes the assignment can be found 
 <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html" target="_blank">Here</a>.
 
 To review all information about the Problem Set, scroll down to the section titled <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Getting Started</a>. You will have seen a lot of this already, but it may be helpful to review.
 
-The components of Problem Set 1 that you must do are:
+### Assignments
+
+The assignments of Problem Set 1 that you must do are:
 * <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#smart_water" target="_blank">Problem Set 1: Water</a>
 * <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#itsa_mario" target="_blank">Problem Set 1: Mario</a>
 * <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#time_for_change" target="_blank">Problem Set 1: Greedy</a>
@@ -25,9 +26,9 @@ The components of Problem Set 1 that you must do are:
   - the lecture notes (linked under each main lecture)
   - the example source code from the current Module (we will provide this link)
 
-- The pset spec will . Those videos are most important to solving the pset problems!
+- The pset spec will link out to various videos. You may have already seen some of these during Class Prep. Regardless, these videos are always very relevant to the problem at hand and are probably worth a (re)watch.
 
-- The psets often have multiple assignments within them. Work on one at a time. (Ie, only read/watch items applicable to the one assignment you're currently working. Don't read/watch ahead.)
+- The psets usually have multiple assignments within them. Work on one at a time. (Ie, only read/watch items applicable to the one assignment you're currently working. Don't read/watch ahead.)
 
 - Define a strategy (as in pseudocode, drawings, whatever) BEFORE starting to code anything.
 
