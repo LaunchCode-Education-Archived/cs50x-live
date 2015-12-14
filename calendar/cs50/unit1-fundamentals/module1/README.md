@@ -12,7 +12,7 @@ By the end of this module you will have completed [Problem Set 1](./materials/pr
 
 *** 
 
-## Steps
+### Steps
 
 Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
@@ -22,7 +22,7 @@ Class # | Before Class | During Class | Topics/Skills
 
 ***
 
-#### Helpful Links
+### Helpful Links
 Link | Description
 :---:|:----
 <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/src1w" target="_blank">Source Code 1w</a> | Source code from Lecture: Week 1
