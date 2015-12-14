@@ -63,3 +63,8 @@ Waiting for the first day of class, but can't wait to get coding? Try out the th
 2. <a href="https://www.codecademy.com/learn/javascript" target="_blank">Codeacademy's Javascript Track</a> 
 
 These are *completely optional*, but will definitely benefit you as you begin CS50x, so we encourage everyone to at least try one of these. 
+
+Also, if you're interested, check out this super long but interesting and entertaining article: 
+<a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/" target="_blank">Paul Ford: What is Code?</a>
+. It paints a nice overall picture of the landscape of today's major coding languages and how they fit into the business world.
+
