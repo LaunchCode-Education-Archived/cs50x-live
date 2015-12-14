@@ -44,7 +44,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/0/f/notes
 Watch | Walkthrough | <a href="https://www.youtube.com/watch?list=PLhQjrBD2T383nc2LUdF5XWbyrsqiYy4nq&v=tveoFN0NHE0" target="_blank">Week 0 Walkthroughs</a> | Watch this series of videos where David brings Scratch to life. You should watch them in order (they are properly sequenced in Youtube). You may notice that these Scratch programs were also referenced in the lecture notes. 
 Watch | Short | <a href="https://www.youtube.com/watch?v=3YD66bHehhQ&index=48&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">Threads</a> | Watch this short that talks more about threads, a concept covered at the end of the walkthroughs.
 Watch | Short | <a href="https://www.youtube.com/watch?v=52JoFF4HMA4&index=41&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">Scratch</a> | Watch as Allison creates a game in Scratch, walking through all of the different steps. 
-Do | Problem Set | [Problem Set 0](./problem-set) | Complete Problem Set 0! Read through the Problem Set page, which will also include an overview of how to understand Harvard's Problem Set specification pages. When you have finished your project, you will submit your assignment on Vocareum. 
+Do | Problem Set | [Problem Set 0](../problem-set) | Complete Problem Set 0! Read through the Problem Set page, which will also include an overview of how to understand Harvard's Problem Set specification pages. When you have finished your project, you will submit your assignment on Vocareum. 
 
 ***
 
