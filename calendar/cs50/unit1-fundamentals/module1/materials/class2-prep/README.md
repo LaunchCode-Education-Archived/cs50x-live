@@ -34,7 +34,7 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=HHmiHx7GGLE" target="_b
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=1CHoS1xZMIk" target="_blank">Positive</a> | Follow along with David to create a program using a do-while loop. Also take note of when he talks about scope near the end of the video.
 Do | Exercise | [Validate](../exercises/validate) | Do the *Validate* exercise to practice using a do-while loop. You'll use the modulo operator to make sure the user is giving you an even number.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=rBEwCpvwdPY&index=5&list=PLhQjrBD2T38117CFyiIB9x4NOR6979YwA" target="_blank">Loops</a> | Watch Doug's video about loops, which will provide a good recap of the different kinds of loops.
-Read | Resource | [For vs While](../resources/for-vs-while) | Here we briefly illustrate how `for` loops and `while` loops truly are just different syntaxes for accomplishing the same thing.
+Read | Resource | [For vs While](../resources/for-vs-while/forvswhile.c) | Here we briefly illustrate how `for` loops and `while` loops truly are just different syntaxes for accomplishing the same thing.
 Do | Exercise | [Countdown](../exercises/countdown) | Try the *Countdown* exercise for more practice with loops.
 
 ***
