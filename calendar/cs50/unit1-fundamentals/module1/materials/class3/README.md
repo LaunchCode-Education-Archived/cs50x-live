@@ -8,6 +8,7 @@ No Prep Work. Work away on [Problem Set 1](../problem-set).
 ### During Class
 
 Normally Class 3 will be reserved entirely for Office Hours, but today we will have you do a few studios which should prove to be very helpful on your problem set.
+
 1. Studios
   * [Repeat](../studios/repeat) 
   * [Dollars and Cents](../studios/dollars-and-cents)
