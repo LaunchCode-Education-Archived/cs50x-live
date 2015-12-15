@@ -16,8 +16,8 @@ Task | Resource Type | Link | Notes
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=abUuRqYUUaY&index=1&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av" target="_blank">PHP Syntax</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#php" target="_blank">Week 7, continued / PHP, Syntax | Read the "PHP" and "Syntax" section of the notes. This will give a quick overview of the PHP language, and also show some translations of code we're familiar with in C into code in PHP.<br>Stop when you get to the *Using PHP to Send Texts* header. NOTE references to pset5 
 Read | Resource | PHP Syntax Cheatsheet | TODO res: PHP syntax cheatsheet. See <a href="https://www.youtube.com/watch?v=abUuRqYUUaY&index=1&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av" target="_blank">doug's Playlist: PHP Syntax</a>
-Do | Exercise | | TODO exc foreach loop; 
-Do | Exercise | | TODO exc associative array; 
+Do | Exercise | [Exercise: Lotto numbers](../exercises/lottonumbers) | Learn about PHP foreach loops by finishing this program for reading lottery numbers
+Do | Exercise | [Exercise: Getting Takeout](../exercises/takeout) | Learn about PHP associative arrays by writing a program to get takeout orders
 TODO | | | other exercises? checkout Doug PHP Syntax again
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#using_php_to_send_texts" target="_blank">Week 7, continued / Using PHP to Send Texts</a> | Review this section of the lecture where, using PHP, David (tries) to send a text message to everyone in class.<br>Stop when you get to the *Using PHP for Web Programming* header. <br> TODO exc array_push
 
