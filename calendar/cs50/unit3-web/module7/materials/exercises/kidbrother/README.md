@@ -9,7 +9,7 @@ We’ve provided the start of a program for you.  When completed, the program sh
 - ask for each element in turn
 - then print out the elements in reverse order
 
-All you need to do to finish the program is write a loop to collect the user’s input.  **In this example, all you’ll have to do is use `array_push` for each element you see.**
+All you need to do to finish the program is write a loop to collect the user’s input.  **In this exercise, all you’ll have to do is use `array_push` for each element you see.**
 
 Example usage of the completed program:
 ```
