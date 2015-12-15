@@ -6,7 +6,7 @@ Before you start with the course materials, we highly encourage you to read the 
 
 ### Understanding the course calendar
 
-In CS50x, there are 9 assignments, called *Problem Sets*. We’ve broken down this course into *Modules*, one for each Problem Set assignment. Each Module will contain 3 class periods taking place over one and a half weeks.
+In CS50x, there are 9 assignments, called **Problem Sets**. We’ve broken down this course into **Modules**, one for each Problem Set assignment. Each Module will contain 3 class periods taking place over one and a half weeks.
 
 If you haven't already, go glance quickly at:
 1. The <a href="../calendar" target="_blank">Course Calendar</a>
@@ -14,7 +14,7 @@ If you haven't already, go glance quickly at:
 
 ### Class Prep Work
 
-Before each class period, there is *Prep Work* that you should complete before that class. The Prep Work will make sure you get the most out of each class period.
+Before each class period, there is **Prep Work** that you should complete before that class. The Prep Work will make sure you get the most out of each class period.
 
 Prep Work is broken down into specific tasks that are ordered chronologically. Students should complete the tasks in order, following the directions given by the task name, and the instructions to the right. So, here is an example of a (fake) Prep Work:
 
