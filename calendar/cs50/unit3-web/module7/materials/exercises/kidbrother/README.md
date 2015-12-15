@@ -1,6 +1,6 @@
 ##### Module 7
 [Back to Prep for Class 1](../../class1-prep)
-# Exercise: Kid Brother
+# Exercise: Annoying Kid Brother
 
 PHP provides two functions for arrays, array_push and array_pop, that you might find useful.  Let’s practice using them!
 
