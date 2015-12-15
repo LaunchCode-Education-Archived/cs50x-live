@@ -9,16 +9,22 @@ Task | Resource Type | Link | Instructions
 -----|------|------|-------------
 Study | CS50 Study | <a href="https://study.cs50.net/loops?toc=loops,ascii,functions,argv" target="_blank">loops, ascii, functions, argv</a>  | Review previous material on loops, ascii, functions, and argv
 
+***
+
 ##### Lecture
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=JovNemG-iu8" target="_blank">Lecture: Week 3, continued</a> | 
+
+***
 
 ##### Merge Sort
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
 Read | Resource | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort" target="_blank">Lecture Notes: Week 3, continued / Merge Sort</a> | 
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=EeQ8pwjQxTM" target="_blank">Shorts: Merge Sort</a> | 
+
+***
 
 ##### Recursion
 Task | Resource Type | Link | Instructions
@@ -34,11 +40,15 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=VrrnjYgDBEk" target="
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=t4MSwiqfLaY" target="_blank">Shorts: Recursion</a> |
 Do | Exercise | [Exercise: Fibonacci](../exercises/fibonacci) | 
 
+***
+
 ##### Sorting Algs Summary
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=B6l7AJYgCOI" target="_blank">Algorithms Summary</a> | TODO: make cheatsheet?
 Study | CS50 Study | <a href="https://study.cs50.net/binary_search?toc=bubble_sort,insertion_sort,selection_sort,merge_sort" target="_blank">bubble sort, insertion sort, selection sort, merge sort</a>
+
+***
 
 ##### Compiling, Header Files
 Task | Resource Type | Link | Instructions
@@ -51,8 +61,13 @@ Watch | Lecture | <a href="https://youtu.be/XRvvitgap5Y?t=2549" target="_blank">
 Read | Supplement | [Supplement: Ugh, Taxes!](../resources/spread-out) | Here's an example of a program written as one big file, that is then broken into a few smaller, easy to understand files.
 Do | Exercise | [Exercise: Delmar House of Tires](../exercises/spread-out) | Fix one program by pulling the code from another into a new file, so both programs can use the new file
 
-### Where do these belong?
-  * <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#bitwise_operators" target="_blank">Week 3, continued / Bitwise Operators</a>
+***
 
+##### Cool
+Task | Resource Type | Link | Instructions
+-----|------|------|-------------  
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#bitwise_operators" target="_blank">Week 3, continued / Bitwise Operators</a> | We're not quite sure where you'll use this, but according to the notes you will somehow. In any case, it's cool!
+
+***
 
 Now that you're done, you can head to [Class 2](../class2).
