@@ -4,9 +4,17 @@
 Before you start with the course materials, we highly encourage you to read the information here. Our curriculum uses specific terms that instruct you on how to complete that task. Eventually, this will become second nature, but in the beginning you may have to refer back to this section to make sure you know what to do. 
 
 
-###Understanding the course calendar
+### Understanding the course calendar
 
-In CS50x, there are 9 assignments, called “problem sets.” We’ve broken down this course into **Modules**, which correspond to each problem set assignment in CS50x. Each Module contains 3 class periods. Before each class period, there is **Prep Work** that you should complete before that class. The Prep Work will make sure you get the most out of each class period.
+In CS50x, there are 9 assignments, called *Problem Sets*. We’ve broken down this course into *Modules*, one for each Problem Set assignment. Each Module will contain 3 class periods taking place over one and a half weeks.
+
+If you haven't already, go glance quickly at:
+1. The <a href="../calendar" target="_blank">Course Calendar</a>
+2. The <a href="../calendar/cs50/unit1-fundamentals/module1" target="_blank">Module 1</a> page
+
+### Class Prep Work
+
+Before each class period, there is *Prep Work* that you should complete before that class. The Prep Work will make sure you get the most out of each class period.
 
 Prep Work is broken down into specific tasks that are ordered chronologically. Students should complete the tasks in order, following the directions given by the task name, and the instructions to the right. So, here is an example of a (fake) Prep Work:
 
@@ -44,9 +52,6 @@ The typical class structure within a Module is to have studio and Q&A for the fi
 ### What’s Next?
 
 Before coming to your first day of class, you must complete Module 0 / Class 0 Prep. [Click here to start!](../calendar/module0)
-
-You can also check out the [Course Calendar](../calendar).
-
 
 ### Questions?
 
