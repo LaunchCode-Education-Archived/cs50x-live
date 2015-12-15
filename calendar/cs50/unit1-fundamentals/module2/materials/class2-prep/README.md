@@ -44,8 +44,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=mXj188eyRF
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=X8PmYwnbLKM&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF&index=3" target="_blank">Command-Line Arguments</a> | Watch this short that talks more about command-line arguments, argc, and argv.
 Study | CS50 Study |  <a href="https://study.cs50.net/argv" target="_blank">Command-Line Arguments</a> | If helpful, you can test and review your knowledge of command-line arguments using CS50 Study. 
 
-**Where do these fit in?**
-
+#### Magic Numbers, Global Variables
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
 Watch | Shorts| <a href="https://www.youtube.com/watch?v=F5feTW3CAZs&index=4&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Global Variables</a>
