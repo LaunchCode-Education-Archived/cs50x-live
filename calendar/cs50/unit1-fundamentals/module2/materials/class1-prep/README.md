@@ -9,15 +9,15 @@
 
 ***
 
-#### Typecasting
+#### Types, Typecasting, Imprecision 
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
 Watch| Short |<a href="https://www.youtube.com/watch?v=4XTSxFSs3kI&list=PLhQjrBD2T381NKQHUCTezeyCYzbnN4GjC&index=9)" target="_blank">Typecasting</a> | Watch this short, which focuses on data types and typecasting. 
-Read | Resource |[Typecasting](../resources/typecasting) | Read over this resource that should help reinforce your knowledge of numeric types, and how/when to cast between them.
 Do | Exercise | [Typecasting](../exercises/typecasting) | TODO
 Follow-Along | Walkthrough |<a href="https://www.youtube.com/watch?v=Eycgpd_HUIA&index=10&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">floats-0</a> | Following David, write a program that prints out a float.
 Follow-Along| Walkthrough| <a href="https://www.youtube.com/watch?v=26JLIimnyyM&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=11" target="_blank">floats-1</a> | Keep following David to solve the problem from the previous video. 
 Follow-Along| Walkthrough | <a href="https://www.youtube.com/watch?v=JqKDFhCaWC8&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=12" target="_blank">floats-2</a> | Continue the follow-along with David as he "blows your mind" with floating-points! 
+Read | Resource |[Typecasting](../resources/typecasting) | Read over this resource that should help reinforce your knowledge of numeric types, and how/when to cast between them.
 
 ***
 
