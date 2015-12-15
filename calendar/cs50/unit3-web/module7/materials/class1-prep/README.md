@@ -20,7 +20,7 @@ Do | Exercise | [Exercise: Lotto numbers](../exercises/lottonumbers) | Learn abo
 Do | Exercise | [Exercise: Getting Takeout](../exercises/takeout) | Learn about PHP associative arrays by writing a program to get takeout orders
 Do | Exercise | [Exercise: Annoying Kid Brother](../exercises/kidbrother) | Learn about the PHP function `array_push` by completing a program that pesters you for a list, then repeats it to you in reverse.
 TODO | | | other exercises? checkout Doug PHP Syntax again
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#using_php_to_send_texts" target="_blank">Week 7, continued / Using PHP to Send Texts</a> | Review this section of the lecture where, using PHP, David (tries) to send a text message to everyone in class.<br>Stop when you get to the *Using PHP for Web Programming* header. <br> TODO exc array_push
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#using_php_to_send_texts" target="_blank">Week 7, continued / Using PHP to Send Texts</a> | Review this section of the lecture where, using PHP, David (tries) to send a text message to everyone in class.<br>Stop when you get to the *Using PHP for Web Programming* header.
 
 ***
 
