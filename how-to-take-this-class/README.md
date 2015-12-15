@@ -8,7 +8,7 @@ Before you start with the course materials, we highly encourage you to read the 
 
 In CS50x, there are 9 assignments, called **Problem Sets**. We’ve broken this course down into **Modules**, one for each Problem Set. Each Module will contain 3 class periods, taking place over one and a half weeks.
 
-If you haven't already, go glance quickly at:
+If you haven't done so already, go glance quickly at:
 
 1. The overall <a href="../calendar" target="_blank">Course Calendar</a>
 2. The <a href="../calendar/cs50/unit1-fundamentals/module1" target="_blank">Module 1</a> page
@@ -17,7 +17,7 @@ If you haven't already, go glance quickly at:
 
 Before each class period, there is **Prep Work** that you should complete before that class. The Prep Work will make sure you get the most out of each class period.
 
-Prep Work is broken down into specific tasks that are ordered chronologically. Students should complete the tasks in order, following the directions given by the task name, and the instructions to the right. So, here is an example of a (fake) Prep Work:
+Prep Work is broken down into specific tasks that are ordered chronologically. Students should complete the tasks in order, following the directions given by the task name, and the instructions to the right. Here is a (fake) example of some Prep Work tasks:
 
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
@@ -34,18 +34,21 @@ Tasks are given specific names, which tell you (the student) how you should comp
 * **Read**: These tasks most commonly ask students to read notes from a portion of a lecture, or an additional resource.
 
 ###In Class
-Class sessions will be used to do group work, review concepts, and to get questions answered while working through the week’s assignment. 
+Class sessions will be used to do group work, review concepts, and to get questions answered while working through the week’s Problem Set. 
 
 In most class sessions, students will work on **studios**. Studios are specially designed exercises that are meant to focus on important skills and concepts relevant to that week. These are smaller than problem sets, intended to be completed during the class period, and should ultimately help students complete their problem sets. Students should work on studios in small groups of 2-3 students, unless instructed otherwise. 
  
 There will also be **Q&A** during class sessions. The course instructor will answer questions from students that are related to that week’s topics. This time is meant to address general problems that can help most students, and is not intended to be used to solve specific student problems. 
 
-Every class session will also have time dedicated to **office hours**. This is unstructured time where students should work on the week’s assignment. Mentors, teaching fellows (TFs), and instructors will be available to answer specific questions. 
+Every class session will also have some time dedicated to **Office Hours**. This is unstructured time where students should work on the week’s assignment. Mentors, teaching fellows (TFs), and instructors will be available to answer specific questions. 
 
 The typical class structure within a Module is to have studio and Q&A for the first two classes, and office hours for the third class (and fun for all 3!).
 
-###How to Succeed in this Class
-1. Make sure you complete the Prep Work before each class. This is essential to make sure you get the most out of the in-person class sessions. We’d rather you do the prep work before class and not finish your problem set. You’ll have to go back and finish the problem set eventually, but you will have been able to participate in class for that day. 
+### Homework
+Outside of class, your homework on a given night (or day) will be some combination of the Problem Set for your current Module, and the Prep Work for an upcoming class. 
+
+### How to Succeed in this Class
+1. Make sure you complete the Prep Work before each class. This is essential to make sure you get the most out of the in-person class sessions. We’d rather you do the prep work before class and not finish your problem set. You’ll have to go back and finish the problem set eventually, and that's okay. But if you start falling behind on Prep Work it will be very difficult to catch up.
 2. We _highly recommend_ working in groups. We have noticed a strong correlation between success and students who had a consistent group. We will work to help facilitate the forming of groups, but will not force students to do this. You can choose to join a group that tries to stay together throughout the course, or change who you work with each class. 
 3. Explore! Tinker! We do our best to provide the resources we think you’ll need to succeed, but everyone learns differently. You may find resources that you really like, or find that you like to use the resources we provide in a different way. The important thing is that you learn the concepts and understand how to apply them in code. And remember: Google is your friend!
 
