@@ -6,18 +6,16 @@ Hello, and welcome to LaunchCode's CS50x course! This course teaches the foundat
 
 ## What is CS50x?
 
-CS50 is Harvard’s Introduction to Programming class for non-computer science majors. CS50x (notice the 'x') is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. LaunchCode’s CS50x is an in-person version of CS50x with mentored support, curated content, additional exercises, and supplemental skill tracks.
+CS50 is Harvard’s Introduction to Computer Science class for non-computer science majors. CS50x (notice the 'x') is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. LaunchCode’s CS50x is an in-person version of CS50x with mentored support, curated content, additional exercises, and supplemental skill tracks.
 
-CS50 is Harvard’s Introduction to Programming class for non-majors. CS50x is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. LaunchCode’s CS50x is an in-person version of CS50x with mentored support, curated content, additional exercises, and supplemental skill tracks.
-
-We’ve made the curriculum for this class available for you here on Github. Of course, the CS50x class itself and course materials are available for free through edX. The curriculum here is meant to guide you through those resources. Based off our previous experience offering this class, we have compiled and ordered the resources to help you learn and digest the concepts and skills you need to know in order to succeed in this course. We’ve also developed our own additional exercises and activities that help reinforce those skills. But instead of adding extra work, these additional exercises should help you move through the problem sets and assignments more quickly.
+We’ve made the curriculum for this class available for you here on Github. The CS50x class and course materials are also available for free through edX. The curriculum here is meant to guide you through those resources. Based off our previous experience offering this class, we have compiled and ordered the resources to help you learn and digest the concepts and skills you need to know in order to succeed in this course. We’ve also developed our own additional exercises and activities that help reinforce those skills. But instead of adding extra work, these additional exercises should help you move through the problem sets and assignments more quickly.
 
 
 ##What will I learn in this class?
 *	Key foundational concepts in computer science 
 *	How to think algorithmically and solve programming problems efficiently
 *	Multiple programming languages, including C, PHP, and JavaScript plus SQL, HTML, and CSS. Assignments are inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. 
-*	How to build your own versions of web applications
+*	How to build your own web applications
 *	How to develop and present a project to others
 
 Our goal at LaunchCode is to put you on a path towards starting a career in technology, or to simply get you to where you want to go. We look forward to working with you as you start that journey with CS50x. 
