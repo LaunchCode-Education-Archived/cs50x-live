@@ -6,7 +6,7 @@ Hello, and welcome to LaunchCode's CS50x course! This course teaches the foundat
 
 ## What is CS50x?
 
-CS50 is Harvard’s Introduction to Programming class for non-computer science majors. CS50x (notice the 'x') is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. LaunchCode’s CS50x is an in-person version of CS50x with mentored support, curated content, additional exercises, and supplemental skill tracks.
+CS50 is Harvard’s Introduction to Computer Science class for non-computer science majors. CS50x (notice the 'x') is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. LaunchCode’s CS50x is an in-person version of CS50x with mentored support, curated content, additional exercises, and supplemental skill tracks.
 
 CS50 is Harvard’s Introduction to Programming class for non-majors. CS50x is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. LaunchCode’s CS50x is an in-person version of CS50x with mentored support, curated content, additional exercises, and supplemental skill tracks.
 
