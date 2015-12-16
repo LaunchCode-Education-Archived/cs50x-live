@@ -42,4 +42,10 @@ Study | CS50 Study | <a href="https://study.cs50.net/?toc=linked_lists" target="
 Read | Supplement | |  TODO res: custom implementation of GetString that uses a linked list of chars, therefore doesnt need to realloc space in the same way
 Do | Exc |  | TOD exc: make the above more efficient by inserting each new char at the beginning of the list. But this means that in order to create the String object you have to iterate backwards over the list, which means you need to make it Doubly-Linked. 
 
+Other linked list ideas:
+* implement bubble sort
+* UK-ify strings
+* sorted list of names
+* implement getstring
+* LOTR
 
