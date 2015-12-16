@@ -54,4 +54,4 @@ NOTE: Make sure you get the file name correct: "pset0.txt". If you use a differe
 ***
 
 ### Congratulations! 
-You're done with CS50x's first problem set, and are almost ready for the first day of class. Rreturn to [Prep for Class 0](../class0-prep#scratch) to finish the Prep Work and see what else you can do while you wait for class to start. 
+You're done with CS50x's first problem set, and are almost ready for the first day of class. Return to [Prep for Class 0](../class0-prep#scratch) to finish the Prep Work and see what else you can do while you wait for class to start. 
