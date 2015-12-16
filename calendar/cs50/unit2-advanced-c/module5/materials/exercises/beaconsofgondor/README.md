@@ -4,11 +4,16 @@
 
 Gondor calls for aid!  Will Rohan answer?
 
-Inspired by the Based on the hit Academy Award tm winning film The Lord of The Rings: Return of the King, we’ve provided an exercise where, in order to complete it, you must write code to iterate through a singly-linked list.
+Inspired by the hit Academy Award(TM) winning film The Lord of The Rings: Return of the King, we’ve provided an exercise where, in order to complete it, you must write code to iterate through a singly-linked list.
 
 In the movie, the nation of Gondor has a warning beacon system where each beacon is a large bonfire, and is visible from one other beacon.  In order to send an alert to other nations, a soldier lights the first beacon, which causes the second beacon to be lit, and so on, until all of them are lit, signaling a call for help.
 
 It can be visualized like this:
+```
+Current status of the beacons of Gondor:
+* _ _ _ _ _ _ _ _ _
+```
+In the above lines, a "*" indicates a lit beacon, and a "_" indicates one that is not lit.  Only one beacon is currently lit.
 
 We’ve already provided code for a singly-linked list implementation, where each node represents one beacon of Gondor: each node has a bool to indicate whether it is lit or not, and a pointer to the next visible beacon.
 
