@@ -1,5 +1,5 @@
 ##### Module 0
-[Back to Prep for Class 0](../class0-prep)
+[Back to Prep for Class 0](../class0-prep#scratch)
 
 ### Introduction
 
