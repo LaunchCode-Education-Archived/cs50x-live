@@ -47,7 +47,7 @@ Outside of class, your homework on a given night (or day) will be some combinati
 ### How to Succeed in this Class
 1. Make sure you complete the Prep Work before each class. This is essential to make sure you get the most out of the in-person class sessions. We’d rather you do the prep work before class and not finish your problem set. You’ll have to go back and finish the problem set eventually, and that's okay. But if you start falling behind on Prep Work it will be very difficult to catch up.
 2. We _highly recommend_ working in groups. We have noticed a strong correlation between success and students who had a consistent group. We will work to help facilitate the forming of groups, but will not force students to do this. You can choose to join a group that tries to stay together throughout the course, or change who you work with each class. 
-3. Explore! Tinker! We do our best to provide the resources we think you’ll need to succeed, but everyone learns differently. You may find resources that you really like, or find that you like to use the resources we provide in a different way. The important thing is that you learn the concepts and understand how to apply them in code. And always remember: Google is your friend!
+3. Explore! Tinker! We do our best to provide the resources we think you’ll need to succeed, but everyone learns differently. You may find resources that you really like, or find that you like to use the resources we provide in a different way. The important thing is that you learn the concepts and understand how to apply them in code. 
 
 
 ### What’s Next?
