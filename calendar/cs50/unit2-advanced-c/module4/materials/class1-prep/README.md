@@ -8,6 +8,7 @@ Before coming to [Class 1](../class1), please complete the following tasks:
 
 Resource Type | Link | Task | Instructions
 --------------|------|------|-------------
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=beqqGIdabrE&index=7&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Call Stack</a>
 CS50 Study | <a href="https://study.cs50.net/recursion" target="_blank">recursion</a> | Study | 
 Lecture | <a href="https://www.youtube.com/watch?v=9WsyLL6KVBY" target="_blank">Week 4, (first 25 minutes)</a> | Rewatch | THIS IS OPTIONAL. We already saw this last week, but if you want some more recursion material, this might help.
 
