@@ -1,17 +1,14 @@
 [See Course Calendar](../calendar)
 # How to take this class
 
-Before you start with the course materials, we highly encourage you to read the information here. Our curriculum uses specific terms that instruct you on how to complete that task. Eventually, this will become second nature, but in the beginning you may have to refer back to this section to make sure you know what to do. 
+Before you start with the course materials, we highly encourage you to read the information here. Our curriculum uses specific terms that instruct you on how to complete each task. Eventually, this will become second nature, but in the beginning you may have to refer back to this section to make sure you know what to do. 
 
 
 ### Understanding the course calendar
 
 In CS50x, there are 9 assignments, called **Problem Sets**. We’ve broken this course down into **Modules**, one for each Problem Set. Each Module will contain 3 class periods, taking place over one and a half weeks.
 
-If you haven't done so already, go glance quickly at:
-
-1. The overall <a href="../calendar" target="_blank">Course Calendar</a>
-2. The <a href="../calendar/cs50/unit1-fundamentals/module1" target="_blank">Module 1</a> page
+If you haven't done so already, go glance quickly at the overall <a href="../calendar" target="_blank">Course Calendar</a>
 
 ### Class Prep Work
 
