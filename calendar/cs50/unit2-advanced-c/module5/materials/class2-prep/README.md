@@ -41,3 +41,10 @@ Task | Type | Link | Notes
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=YiwRCN_SMuA&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=4" target="_blank">Data Structures Summary</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#data_structures_recap" target="_blank">Week 6 / Data Structures Recap</a> | This is from next week's lecture, but is useful now. You might also want to watch the associated video (stop at minute 14)
 Study | CS50 Study | | maybe just conglomerate all the individual data structure ones here instead of spreading them out
+
+
+Exercises for Hash Tables and Tries
+* inventory
+* 
+*
+*
