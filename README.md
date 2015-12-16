@@ -15,7 +15,7 @@ We’ve made the curriculum for this class available for you here on Github. The
 *	Key foundational concepts in computer science 
 *	How to think algorithmically and solve programming problems efficiently
 *	Multiple programming languages, including C, PHP, and JavaScript plus SQL, HTML, and CSS. Assignments are inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. 
-*	How to build your own versions of web applications
+*	How to build your own web applications
 *	How to develop and present a project to others
 
 Our goal at LaunchCode is to put you on a path towards starting a career in technology, or to simply get you to where you want to go. We look forward to working with you as you start that journey with CS50x. 
