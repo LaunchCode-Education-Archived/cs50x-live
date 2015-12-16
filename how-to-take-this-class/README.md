@@ -30,7 +30,7 @@ Tasks are given specific names, which tell you how you should complete that task
 * **Watch**: These are lectures, shorts, and other types of videos that will go over specific topics. 
 * **Read**: These tasks most commonly ask students to read notes from a portion of a lecture, or an additional resource.
 
-###In Class
+### In Class
 Class sessions will be used to do group work, review concepts, and to get questions answered while working through the week’s Problem Set. 
 
 In most class sessions, students will work on **Studios**. Studios are specially designed exercises that are meant to focus on important skills and concepts relevant to that week. These are smaller than problem sets, intended to be completed during the class period, and are often designed specifically to help students on their upcoming problem sets. Students should work on studios in small groups of 2-3 students, unless instructed otherwise. 
@@ -39,7 +39,7 @@ There will also be **Q&A** during class sessions. The course instructor will ans
 
 Every class session will also have some time dedicated to **Office Hours**. This is unstructured time where students should work on the week’s assignment. Mentors, teaching fellows (TFs), and instructors will be available to answer specific questions. 
 
-The typical class structure within a Module is to have studio and Q&A for the first two classes, and office hours for the third class (and fun for all 3!).
+The typical class structure within a Module is to have Studio and Q&A for the first two classes, and Office Hours for the third class (and fun for all 3!).
 
 ### Homework
 Outside of class, your homework on a given night (or day) will be some combination of the Problem Set for your current Module, and the Prep Work for an upcoming class. 
@@ -47,7 +47,7 @@ Outside of class, your homework on a given night (or day) will be some combinati
 ### How to Succeed in this Class
 1. Make sure you complete the Prep Work before each class. This is essential to make sure you get the most out of the in-person class sessions. We’d rather you do the prep work before class and not finish your problem set. You’ll have to go back and finish the problem set eventually, and that's okay. But if you start falling behind on Prep Work it will be very difficult to catch up.
 2. We _highly recommend_ working in groups. We have noticed a strong correlation between success and students who had a consistent group. We will work to help facilitate the forming of groups, but will not force students to do this. You can choose to join a group that tries to stay together throughout the course, or change who you work with each class. 
-3. Explore! Tinker! We do our best to provide the resources we think you’ll need to succeed, but everyone learns differently. You may find resources that you really like, or find that you like to use the resources we provide in a different way. The important thing is that you learn the concepts and understand how to apply them in code. And remember: Google is your friend!
+3. Explore! Tinker! We do our best to provide the resources we think you’ll need to succeed, but everyone learns differently. You may find resources that you really like, or find that you like to use the resources we provide in a different way. The important thing is that you learn the concepts and understand how to apply them in code. And always remember: Google is your friend!
 
 
 ### What’s Next?
@@ -55,7 +55,5 @@ Outside of class, your homework on a given night (or day) will be some combinati
 Before coming to your first day of class, you must complete Module 0 / Class 0 Prep. [Click here to start!](../calendar/module0)
 
 ### Questions?
-
-Consult the [FAQ](./FAQ.md). 
 
 For any additional questions, contact us at info@launchcode.org
