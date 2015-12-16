@@ -11,4 +11,4 @@ Today is the first day of class! Although you've already begun learning, we want
 
 ### Homework
 
-* You're ready for [Module 1](../../../cs50/unit1-fundamentals/module1)! The next step is to start work on the [Prep for Module 1 / Class 1](../../../cs50/unit1-fundamentals/module1/materials/class1-prep)
+* You're ready for Module 1! 
