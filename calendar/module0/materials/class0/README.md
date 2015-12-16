@@ -2,13 +2,13 @@
 
 # Class 0
 
-##### Before Today
+#### Before Today
 For homework you should have done: [Prep for Class 0](../class0-prep)
 
-##### Today
+#### Today
 Today is the first day of class! Although you've already begun learning, we want to officially introduce you to the class, and the systems we'll be using. Some of this will be administrative (yawn), but it's all important stuff. The rest of the time will be office hours for you to begin your homework.
 
 
-### Homework
+#### Homework
 
 * You're ready for Module 1! 
