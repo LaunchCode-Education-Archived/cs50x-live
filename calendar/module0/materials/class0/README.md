@@ -10,5 +10,4 @@ Today is the first day of class! Although you've already begun learning, we want
 
 
 #### Homework
-
-* You're ready for Module 1! 
+You're ready for Module 1! 
