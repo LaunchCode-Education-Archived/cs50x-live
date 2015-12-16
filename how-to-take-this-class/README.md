@@ -6,7 +6,7 @@ Before you start with the course materials, we highly encourage you to read the 
 
 ### Understanding the course calendar
 
-In CS50x, there are 9 assignments, called **Problem Sets**. We’ve broken this course down into **Modules**, one for each Problem Set. Each Module will contain 3 class periods, taking place over one and a half weeks.
+In CS50x, there are 9 assignments, called **Problem Sets**. We’ve broken this course down into **Modules**, one for each Problem Set. Each Module (except for Module 0) will contain 3 class periods, taking place over one and a half weeks.
 
 If you haven't done so already, go glance quickly at the overall <a href="../calendar" target="_blank">Course Calendar</a>
 
