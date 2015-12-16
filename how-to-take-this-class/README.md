@@ -22,7 +22,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=VaT3qsoHPQ
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Things Every Beginner Programmer Should Know</a> | Watch this short video that is _essential_ viewing for any beginner coder.
 Read | Lecture Notes | <a href="https://en.wikipedia.org/wiki/Rickrolling" target="_blank">Beginner Programmer Tips</a> | Read over these notes that will explain the previous lecture.
 
-Tasks are given specific names, which tell you (the student) how you should complete that task. Below is a glossary of those task names, and what they mean:
+Tasks are given specific names, which tell you how you should complete that task. Below is a glossary of those task names, and what they mean:
 
 ###Task / Resource Glossary
 * **Follow-Along**: Follow along with an instructor as he/she implements a program. As you watch the video, type your own personal copy of the program. 
