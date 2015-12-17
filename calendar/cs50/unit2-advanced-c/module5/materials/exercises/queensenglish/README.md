@@ -22,5 +22,3 @@ Input string?: i love the color yellow
 Charlatan!  I use the Queen’s English:
 i louve the coulour yellouw
 ```
-
-What would happen if we used an array string?
