@@ -6,8 +6,17 @@ Revenge of the word grid
 
 ```
 $ ./wordgridsequel
-Gimme a word and a stretch factor: Hello 3
+Gimme a word and a stretch factor: Hello Chees 3
+
+You started with this word grid:
+Hello
+Chees
+
+Now you have this:
 HHHeeellllllooo
 HHHeeellllllooo
 HHHeeellllllooo
+CCChhheeeeeesss
+CCChhheeeeeesss
+CCChhheeeeeesss
 ```
