@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include <cs50.h>
+//#include <cs50.h>
 #include <stdlib.h>
+#include <string.h>
 
 typedef struct node
 {
@@ -8,40 +9,47 @@ typedef struct node
     struct node* next;
 } node;
 
-node* stringToList(string inputString)
+node* stringToList(char* inputString)
 {
     node* first = malloc(sizeof(node));
     first->myChar = 'a';
     first->next = NULL;
     node* current = first;
-    for(int i = 0, n = strlen(inputString); i < n; i++)
+
+    char* s;
+    for(s = inputString; *s != '\0'; s++)
     {
         node* newNode = malloc(sizeof(node));
-        newNode->myChar = inputString[i];
+        newNode->myChar = *s;
         newNode->next = NULL;
+        current->next = newNode;
         current = newNode;
     }
     return first->next;
 }
 
-string listToString(node* firstChar)
+char* listToString(node* firstChar)
 {
     // get the length of the string
     int totalLen = 0;
     node* current = firstChar;
     while(current != NULL)
     {
+        printf("inc total len, saw char: %c\n", current->myChar);
         totalLen++;
         current = current->next;
     }
 
-    char newString[totalLen] = "";
+    char *newString = malloc(sizeof(char)*(totalLen+1));
+    char *iter = newString;
     current = firstChar;
     for (int i = 0; i < totalLen; i++)
     {
-        newString[i] = current->myChar;
+        *iter = current->myChar;
         current = current->next;
+        iter++;
     }
+    *iter = '\0';
     return newString;
 }
 
@@ -49,7 +57,8 @@ int main(void)
 {
     // Read in an input string
     printf("Input string?: \n");
-    string myString = GetString();
+    //char* myString = GetString();
+    char myString[] = "yellow";
 
     // Convert that string into a linked list
     node* firstChar = stringToList(myString);
@@ -58,18 +67,11 @@ int main(void)
     // insert a 'u' afterwards
     node* current = firstChar;
     while(current != NULL){
-        if(current->myChar == 'o'){
-            node* newNode = malloc(sizeof(node));
-            newNode->myChar = 'u';
-            newNode->next = current->next;
-            current->next = newNode;
-            current = current->next;
-        }
-        current = current->next;
+    
     }
 
     // convert the list back into a string
-    string newString = listToString(firstChar);
+    char* newString = listToString(firstChar);
 
     // print out the "corrected" string
     printf("Charlatan! I use the Queen's English:\n");
