@@ -42,7 +42,7 @@ void printBin(int binNumber, node* table[]){
 
 void printAll(node* table[]){
     printf("Contents of all bins:\n");
-    for (int i = 0; i < 27, i++){
+    for (int i = 0; i < 27; i++){
         printBin(i, table);
     }
 }
@@ -61,6 +61,7 @@ int main(void){
 
     // Make a loop where you ask the user if they want to put a new toy in;
     // if they input "q", stop, else, take the string as a name
+
     while(true){
         char* input = GetString();
         if(strcmp() == 0){
@@ -78,4 +79,5 @@ int main(void){
             // - use the built in function to print out the bin just inserted into
         }
     }
+
 }
