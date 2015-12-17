@@ -1,6 +1,6 @@
 ##### Module 5
 [Back to Prep for Class 1](../../class1-prep)
-# Exercise: The Horn of Gondor
+# Exercise: The Beacons of Gondor
 
 Gondor calls for aid!  Will Rohan answer?
 
