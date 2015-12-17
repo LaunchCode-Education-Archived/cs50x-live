@@ -25,6 +25,8 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=5nsKtQuT6E8" target="_b
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=ZoG2hOIoTnA&index=2&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh" target="_blank">Singly-Linked Lists</a> 
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=HmAEzp1taIE&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh&index=3" target="_blank">Doubly-Linked Lists</a>
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=linked_lists" target="_blank">Linked Lists</a> |
+Do | Exercise | [The Beacons of Gondor](../exercises/beaconsofgondor) | Complete this exercise by implementing linked-list traversal
+Do | Exercise | [Queen's English](../exercises/queensenglish) | Complete this exercise by implementing linked-list insertion
 
 ##### Stacks and Queues
 Task | Type | Link | Notes
