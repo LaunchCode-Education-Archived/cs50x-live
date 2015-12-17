@@ -1,5 +1,5 @@
 #include <stdio.h>
-//#include <cs50.h>
+#include <cs50.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -57,8 +57,7 @@ int main(void)
 {
     // Read in an input string
     printf("Input string?: \n");
-    //char* myString = GetString();
-    char myString[] = "yellow";
+    char* myString = GetString();
 
     // Convert that string into a linked list
     node* firstChar = stringToList(myString);
