@@ -19,7 +19,7 @@ Prep Work is broken down into specific tasks that are ordered chronologically. S
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=VaT3qsoHPQ8" target="_blank">How to Make the Best Chocolate Chip Cookies</a> | Before starting your learning journey, follow-along with this video to make some delicious cookies!
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Things Every Beginner Programmer Should Know</a> | Watch this short video that is _essential_ viewing for any beginner coder.
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" target="_blank">Things Every Beginner Programmer Should Know</a> | Watch this short video that is _essential_ viewing for any beginner coder.
 Read | Lecture Notes | <a href="https://en.wikipedia.org/wiki/Rickrolling" target="_blank">Beginner Programmer Tips</a> | Read over these notes that will explain the previous lecture.
 
 Tasks are given specific names, which tell you how you should complete that task. Below is a glossary of those task names, and what they mean:
