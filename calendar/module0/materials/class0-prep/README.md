@@ -33,7 +33,7 @@ Watch | Short |  <a href="https://www.youtube.com/watch?v=HFLczUUHWNw&index=1&li
 Read | Resource | <a href="http://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding" target="_blank">What is Pseudocoding?</a> | Read this article about pseudocode from the Viking Code School. Throughout the article they will reference other parts of their curriculum - don't worry about that (though feel free to check it out if you're interested!). 
 Read | Resource | <a href="http://www.vikingcodeschool.com/software-engineering-basics/the-elements-of-pseudocode" target="_blank">The Elements of Pseudocode</a> | Continue on to the next section, which talks about the foundational components of pseudocode and code. 
 Read / Do | Resource | <a href="http://www.vikingcodeschool.com/software-engineering-basics/practice-with-pseudo-coding" target="_blank">Practice with Pseudocoding</a> | Try solving some problems by writing out solutions in pseudocode. 
-Do | Exercise | <a href="http://mgoadric.github.io/csci150/homework/origami.html" target="_blank">Dinosaur Origami</a> | *This is optional*. <br> This is a fun exercise you can do to practice your pseudocoding skills, and amuse some family and/or friends. This exercise was taken from a different class, so ignore some of the references to the class. You can also ignore the "Evaluation" or "What to Hand In" parts. 
+Do | Exercise | <a href="http://mgoadric.github.io/csci150/homework/origami.html" target="_blank">Dinosaur Origami</a> | *This is optional but encouraged*. <br> This is a fun exercise you can do to practice your pseudocoding skills, and amuse some family and/or friends. This exercise was taken from a different class, so ignore some of the references to the class. You can also ignore the "Evaluation" or "What to Hand In" parts. 
 
 ***
 
@@ -51,7 +51,7 @@ Do | Problem Set | [Problem Set 0](../problem-set) | Complete Problem Set 0! Rea
 ##### Lecture
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Watch | Lecture | <a href="https://www.youtube.com/embed/YiiHNiSfmKI?autoplay=1&rel=0&start=0" target="_blank">Week 1</a> | Watch the first lecture video from Week 1, which will give you a high-level introduction to this week's concepts. If you want, consider increasing the speed to 1.5x (only available in some browsers). The material will be covered in finer detail later. <br> Also, you can skip the portion of the video between 4:36-6:30 if you don't want to watch David Malan talk about information only relevant to Harvard students.
+Watch | Lecture | <a href="https://www.youtube.com/embed/YiiHNiSfmKI?autoplay=1&rel=0&start=0" target="_blank">Week 1</a> | Finally, watch the first lecture video from Week 1, which gives a high-level intro to some of the concepts you'll be learning in Module 1.
 
 ### Now you're ready for the first day of class, [Class 0](../class0)! 
 
