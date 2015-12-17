@@ -1,6 +1,6 @@
 ##### Module 4
 
-# Studio: Word Grid Sequel
+# Studio: Word Grid Stretch
 
 Revenge of the word grid
 
