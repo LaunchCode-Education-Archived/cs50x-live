@@ -26,3 +26,5 @@ First you'll want to read about how to take this class. Please read over the Stu
 Next, you can follow the link here to review some details on how to understand the course, and some advice that we hope will help along the way: [How to Take This Class](./how-to-take-this-class) 
 
 After you do that, you'll be ready to begin learning. You'll be working through the course calendar (which we recommend you bookmark): [Course Calendar](./calendar)
+
+You can also check out the [CS50x Wiki](../../wiki) for additional resources and important links for the course by clicking the **`Wiki`** tab underneath the repo name at the top of any page. 
