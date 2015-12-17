@@ -57,6 +57,7 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=h2d9b_nEzoA&index=1&lis
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=tjtFkT97Xmc&index=3&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj" target="_blank">Hash Tables</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#compression" target="_blank">Week 5, continued / Compression</a> | stripping redundancy from data storage. examples: images of flags, videos, huffman coding. Not sure where this fits in but is very cool.
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=hashtables" target="_blank">Hash Tables</a> | 
+Do | Exercise | [Toy Warehouse](../materials/exercises/toywarehouse) | Finish this program by implementing adding new entries to a hash table
 
 ##### Data Structures Summary
 Task | Type | Link | Notes
