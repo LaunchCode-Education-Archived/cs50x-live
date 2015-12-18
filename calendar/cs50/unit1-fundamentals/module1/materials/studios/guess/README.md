@@ -53,3 +53,5 @@ and then open up `guess5.c` and make changes there.
 #### Part 3
 
 Most likely, you've been using a `while` loop so far. Let's now refactor, and use a `for` loop instead, just for kicks. Write another program in a file called `guessfive.c`, which behaves exactly like `guess5`, but is implemented with a `for` loop. (But if you did use a `for` loop in `guess5`, then use a `while` loop here.)
+
+*You can grab a copy of these instructions from the CS50x Wiki <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki/Module-1#class-2-studio-guess" target="_blank">here</a>.  They are formatted as comments so that you can put it at the top of your program in the CS50 IDE.  Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments. 
