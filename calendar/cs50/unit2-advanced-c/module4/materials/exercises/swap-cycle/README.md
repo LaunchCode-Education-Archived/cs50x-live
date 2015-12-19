@@ -4,7 +4,7 @@
 
 # Exercise: Swap Cycle
 
-Now we've finally seen how to write that pesky `swap` function. Instead of passing the *values* of `x` and `y` into the function, we pass their `addresses`. This is called "passing by reference" (as opposed to "passing by value").
+Now we've finally seen how to write that pesky `swap` function. Instead of passing the *values* of `x` and `y` into the function, we pass their *addresses*. This is called "passing by reference" (as opposed to "passing by value").
 
 Here is a slight twist on swapping. 
 
