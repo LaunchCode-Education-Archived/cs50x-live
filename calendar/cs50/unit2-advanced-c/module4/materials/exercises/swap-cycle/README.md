@@ -6,7 +6,7 @@
 
 Now we've finally seen how to write that pesky `swap` function. Instead of passing the *values* of `x` and `y` into the function, we pass their *addresses*. This is called "passing by reference" (as opposed to "passing by value").
 
-Here is a slight twist on swapping. 
+Let's practice getting comfortable passing by reference, with a slight twist on the swap idea.
 
 In swapcycle.c, fill in the TODOS to create a program which implements and invokes a function called `swapCycle`, which takes *three* inputs, and swaps them around in a cycle, ala rock-paper-scissors, or <a href="http://genius.com/356508" target="_blank">king-god-nonbeliever</a>.
 
