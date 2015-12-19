@@ -18,7 +18,7 @@ y is 2
 z is 3
 Swapping ...
 After swap:
-x is 3
-y is 1
-z is 2
+x is 2
+y is 3
+z is 1
 ```
