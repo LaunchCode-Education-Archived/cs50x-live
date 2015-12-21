@@ -17,3 +17,5 @@ Whaddaya say, kid?
 i'm learning about pointers and stuff
 i'm learning about pointers and stuffi'm learning about pointers and stuff
 ```
+
+One more thing: you may not use `printf` more than once! This means that you'll need to build a single `string` which contains all the characters, and then print that string. Make sure you `malloc` enough space.
