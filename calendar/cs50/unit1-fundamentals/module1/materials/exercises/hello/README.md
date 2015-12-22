@@ -2,7 +2,7 @@
 
 [Go back to Class 1 Prep](../../class1-prep#printing-getting-user-input)
 
-# Exercise: Hello, World!
+# Exercise: Hello
 
 Shall we have you write your first program? At this point you should have all of your module and pset folders created.  If not please refer to the <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki/File-Management-Resource#setting-up-the-directory" target="_blank">File Management Resource</a> in the CS50x Wiki.
 
@@ -101,6 +101,20 @@ If not, reach out for help! Incidentally, if you find the terminal window too sm
 
 ##### Congrats!
 
-You’ve begun to program! You also (unknowingly) completed a portion of <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Pset 1</a>!
+You’ve begun to program! 
 
+Incidentally, you've also (unknowingly) just completed a portion of Pset 1! Namely, you did the section called <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Hello C</a>. Let's copy this work into your `/pset1` directory, so you don't have to redo it later when you are working on the rest of the problem set. 
+
+In your terminal, type
+```
+$ cp -r ~/workspace/module1/hello ~/workspace/pset1/hello
+```
+
+Then verify that this worked correctly by typing
+```
+$ ls ~/workspace/pset1
+hello/
+```
+
+You should see there is now a `hello/` directory inside `pset1/`.
 
