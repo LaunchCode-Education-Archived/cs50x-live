@@ -41,4 +41,6 @@ Also, don't be concerned if your program gives an answer with a *slightly* diffe
 
 *You can grab a copy of these instructions from the CS50x Wiki <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki/Module-1#class-1-studio-donuts" target="_blank">here</a>.  They are formatted as comments so that you can put it at the top of your program in the CS50 IDE.  Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments. 
 
+### How to Submit
 
+For detailed instructions on how to submit this Studio, see the Wiki page on Submitting Assignments.
