@@ -50,7 +50,7 @@ Watch | Walkthrough | <a href="https://www.youtube.com/watch?v=zwKBMSLYrk4&index
 Watch | Walkthrough | <a href="https://www.youtube.com/watch?v=ebQSYaneMms&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=4" target="_blank">copy-1</a> | copy string (fixed)
 Do | Exercise | <a href="../exercises/double-copy" target="_blank">Double Copy</a> | This is a slight twist on the `copy-1` program you just wrote.
 Watch | Short | <a href="https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Strings</a>
-Do | Exercise | <a href="../exercises/swap-cycle" target="_blank">Swap Cycle</a> | TODO exc: make them implement a function like `swap`, but with 3 variables instead of 2, in which `y` takes the value from `x`, `z` from `y` and `x` from `z`.
+Do | Exercise | [Swap Cycle](../exercises/swap-cycle) | TODO exc: make them implement a function like `swap`, but with 3 variables instead of 2, in which `y` takes the value from `x`, `z` from `y` and `x` from `z`.
 
 
 
