@@ -65,3 +65,8 @@ Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=6EkmABDGNG
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=U7W2U8qRI3I&index=7&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">form-0</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=r2iaKDH79oQ&index=8&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">form-1</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=eViManaIKkQ&index=9&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">form-2</a>
+
+####Study
+Task | Type | Link | Instructions
+-----|------|------|------
+Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a>
