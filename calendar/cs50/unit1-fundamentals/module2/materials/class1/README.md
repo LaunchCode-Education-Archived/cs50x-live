@@ -6,9 +6,16 @@
 For homework, you should have done [Prep for Class 1](../class1-prep)
 
 ### During Class
+Today's class will include a discussion about the various types that C has to offer. We will also go over the pieces of a function and how functions are used.
 1. Lecture / Q&A on the following topics
-  * TODO
-  * TODO
+  * Types
+	* What data types are available?
+	* How can we change the type of something?
+	* How do you know which type to use?
+  * Functions
+	* What are the pieces of a function?
+	* How do you use a function?
+	* What is scope?
 2. [Studio: Letter Locator](../studios/letter-locator)
 
 ### Homework
