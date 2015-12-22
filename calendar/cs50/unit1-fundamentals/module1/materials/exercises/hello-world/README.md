@@ -97,8 +97,9 @@ If not, reach out for help! Incidentally, if you find the terminal window too sm
 
 Woo hoo! You’ve begun to program!
 
-For a tour of the CS50 IDE you can go <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">here</a> and check out the video!
-
 ##### Congrats!
 
 You just wrote your first program! You also (unknowingly) completed a portion of <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Pset 1</a>!
+
+For a tour of the CS50 IDE you can go <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">here</a> and check out the video.
+
