@@ -8,17 +8,18 @@ Shall we have you write your first program? At this point you should have all of
 
 ### Create the Folder
 
-Make sure you are inside of the  `~workspace/module1/exercises` folder in the terminal window. 
+In the terminal window, navigate to the `~/workspace/module1/exercises` folder 
 
-If you are not sure where you are use the command `pwd` to list the directory you are at and if you are not in the `~workspace/module1/exercises` folder use the command `cd` then hit enter, and type the command `cd workspace/module1/exercises` to change directories.) 
+If you are not sure where you are located, use the command `pwd` to list the directory you are at and if you are not in the `~/workspace/module1/exercises` folder use the command `cd` then hit enter, and type the command `cd ~/workspace/module1/exercises` to change directories.) 
 ```
 $ pwd
 /home/ubuntu/workspace/ (You will see something similar to this)
-$ cd (Hit Enter)
-$ cd workspace/module1/exercises
-
+$ cd ~/workspace/module1/exercises
 ```
-Create a new folder called `hello` and `cd` into this directory.
+
+(Incidentally, `~` is the name of your system's "home" directory)
+
+Now create a new folder called `hello`, and `cd` into this directory.
 ```
 $ mkdir hello
 $ cd hello
@@ -26,7 +27,7 @@ $ cd hello
 
 ### Create the File
 
-You should now be inside of the  `~workspace/module1/exercises/hello` folder, where you will make a new file named `hello.c`.  You will use the command `ls` to list the contents of the folder `hello`.
+You should now be inside of the  `~/workspace/module1/exercises/hello` folder, where you will make a new file named `hello.c`. The linux command to create a file is `touch`. Then verify that the file was created by using the command `ls` to list the contents of the current folder.
 ```
 $ touch hello.c
 $ ls
@@ -47,9 +48,9 @@ int main(void)
 
 Notice how CS50 IDE adds "syntax highlighting" (i.e., color) as you type. Those colors aren’t actually saved inside of the file itself; they’re just added by CS50 IDE to make certain syntax stand out. Had you not saved the file as hello.c from the start, CS50 IDE wouldn’t know (per the filename’s extension) that you’re writing C code, in which case those colors would be absent.
 
-Do be sure that you type in this program just right, else you’re about to experience your first bug! In particular, capitalization matters, so don’t accidentally capitalize words (unless they’re between those two quotes). And don’t overlook that one semicolon. C is quite nitpicky!
+Do be sure that you type in this program just right, else you’re about to experience your first bug! In particular, capitalization matters, so don’t accidentally capitalize words (unless they’re between those two quotes). And don’t overlook that one semicolon. C, like most programming languages, is quite nitpicky!
 
-When done typing, select File > Save (or hit command- or control-s), but don’t quit. Recall that the leading asterisk in the tab’s name should then disappear. Click anywhere in the terminal window beneath your code, and be sure that you’re inside of `~/workspace/module1/exercises/hello` (Remember how? If not, type `cd` and then `Enter`, followed by `cd workspace/module1/exercises/hello` and then `Enter`.) Your prompt should be:
+When done typing, select File > Save (or hit command- or control-s), but don’t quit. Recall that the leading asterisk in the tab’s name should then disappear, indicating that the file has been saved. Click anywhere in the terminal window beneath your code, and be sure that you’re inside of `~/workspace/module1/exercises/hello` (Remember how? If not, type `cd` and then `Enter`, followed by `cd workspace/module1/exercises/hello` and then `Enter`.) Your prompt should be:
 ```
 username@ide50:~/workspace/module1/exercises/hello $
 ```
@@ -97,3 +98,7 @@ If not, reach out for help! Incidentally, if you find the terminal window too sm
 Woo hoo! You’ve begun to program!
 
 For a tour of the CS50 IDE you can go <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">here</a> and check out the video!
+
+##### Congrats!
+
+You just wrote your first program! You also (unknowingly) completed a portion of <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Pset 1</a>!
