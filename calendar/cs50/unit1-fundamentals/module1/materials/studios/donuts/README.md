@@ -43,4 +43,8 @@ Also, don't be concerned if your program gives an answer with a *slightly* diffe
 
 ### How to Submit
 
-TODO
+Done? Go ahead and submit your work on Vocareum.
+
+If you need a refresher on how to do this, check out these resources:
+* The Student Guide
+* [The Wiki](../../../../../../../../wiki/Submitting-Assignments)
