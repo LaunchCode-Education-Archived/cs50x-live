@@ -103,9 +103,9 @@ If not, reach out for help! Incidentally, if you find the terminal window too sm
 
 You’ve begun to program! 
 
-Incidentally, you've also (unknowingly) just completed a portion of Pset 1! Namely, you did the section called <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Hello C</a>. Let's copy this work into your `/pset1` directory, so you don't have to redo it later when you are working on the rest of the problem set. 
+Incidentally, you've also (unknowingly) just completed a portion of Pset 1! Namely, you did the section called <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Hello C</a>. 
 
-In your terminal, type
+Let's copy this work into your `/pset1` directory, so you don't have to redo it later when you are working on the rest of the problem set. In your terminal, type
 ```
 $ cp -r ~/workspace/module1/hello ~/workspace/pset1/hello
 ```
