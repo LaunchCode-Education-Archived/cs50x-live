@@ -23,3 +23,5 @@ Y is at position 25
 You will find the following functions very helpful:
 * [GetChar](https://reference.cs50.net/cs50.h/GetChar)
 * [isAlpha](https://reference.cs50.net/ctype.h/isalpha)
+
+*You can grab a copy of these instructions from the CS50x Wiki <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki/Module-2#class-1-studio-letter-locator" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.
