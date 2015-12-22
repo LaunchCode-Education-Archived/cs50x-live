@@ -36,6 +36,9 @@ hello.c
 You can now look at your directory on the upper left side of the CS50 IDE and  click the dropdown arrow next to the folders `module1`, `exercises` and then `hello`, to see the new file you just created. You can double click the `hello.c` file to start writing your program! (You will see a new tab with the name hello.c above the terminal window. This is where you will write your program) 
 
 ### Start Writing the Program
+
+First, checkout this quick <a href="https://youtu.be/HkQD6aw7oDc?t=101" target="_blank">video</a>, where Zamyla explains the steps as she writes the program.
+
 Proceed to write your first program by typing precisely these lines into the file:
 ```c
 #include <stdio.h>
@@ -95,11 +98,9 @@ at your prompt, followed by `Enter`! Hopefully you now see whatever you told pri
 
 If not, reach out for help! Incidentally, if you find the terminal window too small for your tastes, know that you can open one in a bigger tab by clicking the circled plus (+) icon to the right of your `hello.c` tab.
 
-Woo hoo! You’ve begun to program!
 
 ##### Congrats!
 
-You just wrote your first program! You also (unknowingly) completed a portion of <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Pset 1</a>!
+You’ve begun to program! You also (unknowingly) completed a portion of <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Pset 1</a>!
 
-For a tour of the CS50 IDE you can go <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">here</a> and check out the video.
 
