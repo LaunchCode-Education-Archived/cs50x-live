@@ -2,7 +2,7 @@
 
 [Go back to Class 1 Prep](../../class1-prep#printing-getting-user-input)
 
-# Exercise: Hello
+# Exercise: Hello, World!
 
 Shall we have you write your first program? At this point you should have all of your module and pset folders created.  If not please refer to the <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki/File-Management-Resource#setting-up-the-directory" target="_blank">File Management Resource</a> in the CS50x Wiki.
 
