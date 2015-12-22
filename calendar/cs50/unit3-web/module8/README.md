@@ -44,8 +44,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/12/m/note
 ####Section
 Task | Type | Link | Instructions
 -----|------|------|------
-Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be
-" target="_blank">Week 9</a>
+Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 9</a>
 
 ####Doug's Playlist
 Task | Type | Link | Instructions
