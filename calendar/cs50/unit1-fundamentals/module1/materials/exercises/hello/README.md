@@ -99,7 +99,7 @@ at your prompt, followed by `Enter`! Hopefully you now see whatever you told pri
 If not, reach out for help! Incidentally, if you find the terminal window too small for your tastes, know that you can open one in a bigger tab by clicking the circled plus (+) icon to the right of your `hello.c` tab.
 
 
-##### Congrats!
+### Congrats!
 
 You’ve begun to program! 
 
