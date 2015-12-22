@@ -37,7 +37,7 @@ You can now look at your directory on the upper left side of the CS50 IDE and  c
 
 ### Start Writing the Program
 
-First, checkout this quick <a href="https://youtu.be/HkQD6aw7oDc?t=101" target="_blank">video</a>, where Zamyla explains the steps as she writes the program.
+First, checkout this quick <a href="https://youtu.be/HkQD6aw7oDc?t=101" target="_blank">video</a>, where Zamyla explains the steps as she writes the program. (We skipped ahead past the intro where she talks about getting set up, because our setup process is a little different).
 
 Proceed to write your first program by typing precisely these lines into the file:
 ```c
