@@ -6,7 +6,10 @@
 
 We have written a "pizza" program, which behaves like this:
 ```
-TODO
+~/workspace $ ./pizza
+What's the diameter of the pizza? 12
+The pizza is 37.699112 inches around.
+The pizza has 113.097336 square inches.
 ```
 
 Take a look at [pizza-0.c](./pizza-0.c). Notice that it makes use of two functions, each of which do some math using the value `3.14159...` aka `pi`. 

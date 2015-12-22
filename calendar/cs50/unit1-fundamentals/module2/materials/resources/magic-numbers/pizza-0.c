@@ -17,8 +17,8 @@ int main (void)
   float pizza_area = area( pizza_diameter / 2.0 );
   
   // Tell the user all about their pizza
-  printf("The pizza is %f inches around.", pizza_circumference);
-  printf("The pizza has %f square inches.", pizza_area);
+  printf("The pizza is %f inches around.\n", pizza_circumference);
+  printf("The pizza has %f square inches.\n", pizza_area);
 }
 
 /*
