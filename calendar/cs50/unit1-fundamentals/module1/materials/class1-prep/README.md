@@ -5,7 +5,7 @@
 Before coming to [Class 1](../class1), please complete the following tasks:
 
 
-##### Getting set up
+#### Getting set up
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#introduction" target="_blank">Week 1 / Introduction</a> | Read over the (very brief) notes associated with "Introduction" portion of the lecture video. Optionally, rewatch that section of the video (0:00-4:36). <br>Stop at the *Announcements* header.
@@ -19,7 +19,7 @@ Watch | Section | <a href="https://www.youtube.com/watch?v=kpSLlIj97Ss" target="
 
 ***
 
-##### Printing, Getting user input
+#### Printing, Getting user input
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=bQnyxpf0vk0" target="_blank">Hello-0</a> | Watch this video in which David Malan writes a *Hello, World* program. As you watch, follow along by creating your own copy of the same program in your IDE. Afterwards, try poking around and tinkering with your program: Change something, re-run, break it, fix it. <br> *If you want to challenge yourself, before watching the video, you can grab the psuedocode from <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki/Module-1#class-1-task-hello-0" target="_blank"> here</a> to start writing the program in the CS50 IDE, follow the instructions and then watch the video to finish writing the program.
@@ -32,7 +32,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes
 Read | Supplementary Resource |<a href="https://github.com/Launch-Code/cs50x-live-2016/wiki/C-Language#format-codes" target="_blank">String Format Codes Cheatsheet</a> | Check out this cheatsheet of the most common string format codes for inserting values into a string, e.g. `%s`, `%f` etc. For now, just pay attention to the "Format Codes" section. 
 ***
 
-##### Math, Numeric Types
+#### Math, Numeric Types
 Task | Resource Type | Link | Instructions
 -----|---------------|------|---------
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=xmZR2XiwOq4"target="_blank">adder</a> | Follow along with David Malan to create a program that takes two numbers provided by the user and adds them together. <br> *The psuedocode for this Follow-Along is <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki/Module-1#class-1-task-adder" target="_blank"> here</a>.
@@ -47,4 +47,4 @@ Do | Exercise | [Marathon](../exercises/marathon) |  Fix a program that tells th
 
 ***
 
-####Now you're ready for [Class 1](../class1)!
+#### Now you're ready for [Class 1](../class1)!
