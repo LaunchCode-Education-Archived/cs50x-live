@@ -16,7 +16,7 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=l76Cz8RLO54&feature=y
 ####Short
 Task | Type | Link | Instructions
 -----|------|------|------
-Watch | Short | <a href="https://www.youtube.com/watch?v=GBKwdFEyJks&index=16&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank"></a>
+Watch | Short | <a href="https://www.youtube.com/watch?v=GBKwdFEyJks&index=16&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">DOM</a>
 
 ####Lecture Notes
 Task | Type | Link | Instructions
