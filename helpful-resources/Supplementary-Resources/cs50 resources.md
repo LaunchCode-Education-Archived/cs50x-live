@@ -11,6 +11,9 @@
 You will find slides and notes that specifically cover topics in the CS50x course.
 * <a href="https://study.cs50.net/" target="_blank" >CS50 Study</a>
 
+##CS50 IDE 
+<a href="https://cs50.readme.io/" target="_blank" >Getting Started</a>
+
 ##CSS  
 <a href="https://dzone.com/refcardz/corecss-part1" target="_blank" >Core CSS</a>
   
