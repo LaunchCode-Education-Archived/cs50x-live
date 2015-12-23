@@ -16,6 +16,9 @@ Task | Type | Link | Instructions
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#javascript" target="_blank">Week 9 / Javascript</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#syntax" target="_blank">Week 9 / Javascript Syntax</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#json" target="_blank">Week 9 / JSON</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=U7W2U8qRI3I&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb&index=7" target="_blank">form-0</a> | registration form with no validation
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=r2iaKDH79oQ&index=8&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">form-1</a> | includes client-side validation script
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=eViManaIKkQ&index=9&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">form-2</a> | refactors using jQuery
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JYIKYnbdu4E&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=2" target="_blank">JavaScript</a>
 Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a>
 
@@ -52,9 +55,6 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/note
 ##### TBD
 Task | Type | Link | Instructions
 -----|------|------|------
-Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=U7W2U8qRI3I&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb&index=7" target="_blank">form-0</a>
-Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=r2iaKDH79oQ&index=8&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">form-1</a>
-Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=eViManaIKkQ&index=9&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">form-2</a>
 Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 9</a>
 
 
