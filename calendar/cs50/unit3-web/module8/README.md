@@ -30,7 +30,6 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=FtefVGIgAfA&l
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=gKupwkz8ZBo&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb&index=1" target="_blank">ajax-0</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=fHuy443Gm-Y&index=2&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">ajax-1</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=HGVqC6hlqFI&index=3&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">ajax-2</a>
-Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=6Kb5CyWU3PY&index=4&list=PLhQjrBD2T382FjybRNOXyEdsjP9C" target="_blank">What is this!</a>
 
 ##### The DOM
 Task | Type | Link | Instructions
