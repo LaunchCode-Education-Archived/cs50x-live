@@ -22,6 +22,7 @@ $ touch haiku.c
 ```
 
 In general, you should always repeat this same process when completing an exercise:
+
 1. Navigate to the `exercises/` folder within the correct Module folder
 2. Make a subfolder with the name of the current exercise
 3. Navigate into that subfolder and create the file(s) you need for the exercise
