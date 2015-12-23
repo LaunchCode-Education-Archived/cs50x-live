@@ -29,3 +29,5 @@ Oh, I think you mean $7.250000000
 Of course, in this case we do not want to round all the way down to the nearest integer. Doing so would have given us `$7.00`. Instead we want to round to the nearest 2 decimal places. Unfortunately, `round` isn't fancy enough to do that. But with a little bit of clever arithmetic, you can get around this no problem!
 
 As a bonus, the work you do here will be very helpful for last section of Pset 1.
+
+*You can grab a copy of these instructions from the CS50x Wiki <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki/Module-1#class-3-studio-dollars-and-cents" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.
