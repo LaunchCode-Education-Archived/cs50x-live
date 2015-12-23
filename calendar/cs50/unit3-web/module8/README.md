@@ -1,5 +1,14 @@
 # Module 8
 
+### Resources by Topic
+
+##### Javascript
+
+##### AJAX
+
+##### The DOM
+
+
 ### Resources by Type
 
 ####Lectures
@@ -21,16 +30,16 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=GBKwdFEyJks&index=16&li
 ####Lecture Notes
 Task | Type | Link | Instructions
 -----|------|------|------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#javascript" target="_blank">Javascript</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#syntax" target="_blank">Syntax</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#json" target="_blank">JSON</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#document_object_model" target="_blank">Document Object Model</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#ajax_and_asynchronicity" target="_blank">Ajax and Asynchronicity</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/w/notes9w/notes9w.html#anonymous_functions_and_callbacks" target="_blank">Anonymous Functions and Callbacks</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/w/notes9w/notes9w.html#ajax" target="_blank">Ajax</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/w/notes9w/notes9w.html#giza_project" target="_blank">Giza Project</a> | Not sure if this is applicable
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/notes10m/notes10m.html#security" target="_blank">Security</a> | 
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/notes10m/notes10m.html#defenses" target="_blank">Defenses</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#javascript" target="_blank">Week 9 / Javascript</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#syntax" target="_blank">Week 9 / Javascript Syntax</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#json" target="_blank">Week 9 / JSON</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#document_object_model" target="_blank">Week 9 / Document Object Model</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#ajax_and_asynchronicity" target="_blank">Week 9 / Ajax and Asynchronicity</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/w/notes9w/notes9w.html#anonymous_functions_and_callbacks" target="_blank">Week 9 , Continued / Anonymous Functions and Callbacks</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/w/notes9w/notes9w.html#ajax" target="_blank">Week 9 , Continued / Ajax</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/w/notes9w/notes9w.html#giza_project" target="_blank">Week 9 , Continued / Giza Project</a> | Not sure if this is applicable
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/notes10m/notes10m.html#security" target="_blank">Week 10 / Security</a> | 
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/notes10m/notes10m.html#defenses" target="_blank">Week 10 / Defenses</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/w/notes10w/notes10w.html#natural_language_processing" target="_blank">Natural Language Processing</a> | Not sure if we'll care about this
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/w/notes10w/notes10w.html#speech_recognition" target="_blank">Speech Recognition</a> | Not sure if we'll care about this
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/w/notes10w/notes10w.html#question_answering" target="_blank">Question Answering</a> | not sure we'll care about this
