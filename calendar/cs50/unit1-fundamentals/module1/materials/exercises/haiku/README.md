@@ -27,7 +27,7 @@ In general, you should always repeat this same process when completing an exerci
 2. Make a subfolder with the name of the current exercise
 3. Navigate into that subfolder and create the file(s) you need for the exercise
 
-If lost, or your folders don't look right, remember that you can find detailed instructions for setting up your workspace in the Wiki on the <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki/File-Management-Resource" target="_blank">File Management Resource</a> page.
+If lost, or your folders don't look right, remember that you can find detailed instructions for setting up your workspace over on the Wiki, on the <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki/File-Management-Resource" target="_blank">File Management Resource</a> page.
 
 ### What to do
 
