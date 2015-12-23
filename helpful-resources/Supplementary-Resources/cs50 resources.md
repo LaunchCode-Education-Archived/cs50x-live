@@ -7,6 +7,10 @@
       
 <a href="http://www.howstuffworks.com/c.htm" target="_blank" >How C Programming Works</a>
 
+##CS50 
+You will find slides and notes that specifically cover topics in the CS50x course.
+* <a href="https://study.cs50.net/" target="_blank" >CS50 Study</a>
+
 ##CSS  
 <a href="https://dzone.com/refcardz/corecss-part1" target="_blank" >Core CSS</a>
   
