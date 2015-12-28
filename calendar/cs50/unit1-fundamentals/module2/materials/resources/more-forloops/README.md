@@ -1,6 +1,6 @@
 ##### Module 2
 
-[Back to Class 2 Prep](../../class1-prep)
+[Back to Class 1 Prep](../../class1-prep)
 
 # Resource: More for-loops
 
