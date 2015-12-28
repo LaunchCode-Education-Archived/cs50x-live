@@ -52,7 +52,7 @@ everything after the decimal point:
 
 `150 / 100` -> `1.5` -> `1`
 
-`46 / 50` -> 0.92 -> `0`
+`46 / 50` -> `0.92` -> `0`
 
 So the fact that our `score` variable is of type `float` is nice, but that alone is not enough
 to produce the result we want. The problem is that the computer executes this line
