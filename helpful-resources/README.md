@@ -11,9 +11,9 @@ For convenience we have also added quick link box that you will find to the righ
 
 ## Important Links
  
-* [Course Calendar](../../tree/master/calendar) (We highly recommended bookmarking this link)
-* <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit" target="_blank" alt="Student Guide">Student Guide</a>
+* [Course Calendar](../../calendar) (We highly recommended bookmarking this link)
+* <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank" alt="Student Guide">Student Guide</a> 
 * [Frequently Asked Questions - TODO]()
-* [Submitting Assignments - TODO]()
-* [Terminology - TODO]()
+* [Submitting Assignments](course-resources/submitting-assignments.md)
+* [Terminology](course-resources/terminology.md)
 
