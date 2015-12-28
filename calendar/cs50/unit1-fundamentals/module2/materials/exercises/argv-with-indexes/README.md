@@ -18,6 +18,6 @@ Argument 2: the
 Argument 3: cards
 ```
 
-If you need help, this program is very similar to the one in [this video](https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU), so look there first!
+If you need help, this program is very similar to the one in <a href="https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">this video</a>, so look there first!
 
 We've provided a tiny bit of starter code [here](./argvindex.c).
