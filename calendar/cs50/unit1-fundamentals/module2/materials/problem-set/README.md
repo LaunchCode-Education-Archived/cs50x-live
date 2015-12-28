@@ -17,12 +17,12 @@ There are a couple extra shorts that you may find useful to watch:
 Start using CS50’s reference tools, if you haven't already!
 
 These show what functions are available to you and the libraries to #include to use them (eg, ctype.h is required to use the toupper() function):
-* https://reference.cs50.net
-* https://cs50.harvard.edu/resources/cppreference.com/
+* <a href="https://reference.cs50.net" target="_blank">reference.cs50.net</a>
+* <a href="https://cs50.harvard.edu/resources/cppreference.com/" target="_blank">cs50.harvard.edu/resources/cppreference.com/</a>
 
 CS50's Study resource provides more concise examples and explanations of how to do certain tasks. It also has practice problems for you to solve (eg, ASCII demonstrates the relationships between the char 'A' and the int 65, and it gives you a sample conversion problem to work on):
 
-* https://study.cs50.net
+* <a href="https://study.cs50.net" target="_blank">study.cs50.net</a>
 
 ##### Vocabulary:
 command line: the line in Terminal on which you type commands, eg:<br>
@@ -88,4 +88,4 @@ INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will se
 
 If you are forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.
 
-You may also find it useful to review the <a href="https://github.com/Launch-Code/cs50x-live-2016/blob/master/calendar/module0/problem-set/README.md" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
+You may also find it useful to review the <a  href="https://github.com/Launch-Code/cs50x-live-2016/blob/master/calendar/module0/materials/problem-set/README.md" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
