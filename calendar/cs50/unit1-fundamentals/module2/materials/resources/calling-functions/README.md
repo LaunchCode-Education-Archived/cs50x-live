@@ -117,6 +117,9 @@ int x = printf("hello");
 ```
 
 This makes no sense. It would be like me saying:
+
 <blockquote>
-"The capital of Algeria is hey go take a nap you look tired."
+"The capital of Algeria is hey go eat something you look hungry!"
 </blockquote>
+
+The act of you eating a snack is not a tangible thing, let alone the glorious, thriving capital city of Algeria.
