@@ -3,7 +3,9 @@
 
 # Resource: Calling Functions
 
-Let’s review how to use functions!  Over the course of your career as a programmer, you’ll use many, many functions, some of which you’ve written yourself, as well as some written by other people. A function that was written by other people usually comes from a library, which we need to explicitly include at the top of our file, as we’ve seen previously. 
+Let’s review how to use functions!  Over the course of your career as a programmer, you’ll use many, many functions, some of which you’ve written yourself, and some written by other people. 
+
+A function that was written by other people usually comes from a library, which we need to explicitly include at the top of our file, as we’ve seen previously. 
 
 For example, we might want to use a function called `strlen` (short for "string length"), which is defined in a library called `string.h`. 
 
@@ -19,9 +21,9 @@ strlen(exampleString); // call the strlen function
 
 `strlen` takes a string and calculates the length of that string, i.e. how many characters it contains.
 
-Notice how we must add this line: `#include <string.h>`.
+In the example above, notice how we must add this line: `#include <string.h>`. Then, we proceed to create a string, and call the `strlen` function to get its length. "Calling" the function is done by writing the name of the function, `strlen`, followed by parentheses, `( )`, inside of which we provide whatever argument(s) the function needs, in this case `exampleString`.
 
-Then, we create a string, and call the `strlen` function to get its length. But wait!  Something is missing here. The function tells us the length of the string, but we didn’t do anything with the answer!  For example, if we wanted to print the length of the string, how could we do this?
+But wait!  Something is missing here. The function tells us the length of the string, but we didn’t do anything with the answer!  For example, let's say we wanted to write a print statement to inform the user about the length of the string. How could we do this?
 
 ## Return Values
 
