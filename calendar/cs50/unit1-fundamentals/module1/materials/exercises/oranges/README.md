@@ -22,7 +22,7 @@ You should buy 3 oranges!
 
 How can we do this?  We need to buy enough oranges so that there are *at least* as many slices available as the user wants to eat this week. We can do this by dividing the number of slices they want by the number of slices in each orange (8). For example, `17.0 / 8` yields `2.215` oranges. But because we don't live in a world where one can buy fractional amounts of things (except [donuts](../../studios/donuts) of course), we need to round up to the nearest next integer.
 
-To do this, we'll need to use the `ceil` function found [here](https://reference.cs50.net/math.h/ceil), in the `math.h` library.
+To do this, we'll need to use the `ceil` function found <a href="https://reference.cs50.net/math.h/ceil" target="_blank">here</a>, in the `math.h` library.
 
 ```
 float x = ceil(8.2);
