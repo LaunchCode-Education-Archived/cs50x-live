@@ -122,4 +122,4 @@ This makes no sense. It would be like me saying:
 "The capital of Algeria is hey go eat something you look hungry!"
 </blockquote>
 
-The act of you eating a snack is not a tangible thing, let alone the glorious, thriving capital city of Algeria.
+The act of you eating a snack is not a tangible thing, let alone the glorious, thriving city of Algiers, Algeria.
