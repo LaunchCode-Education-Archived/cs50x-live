@@ -3,38 +3,117 @@
 
 # Resource: Calling Functions
 
-Let’s review how to use functions!  Over the course of your career as a programmer, you’ll use many, many functions, some of which you’ve written yourself, as well as some written by other people. As we’ve seen previously, we can run a library function like so:
+Let’s review how to use functions!  Over the course of your career as a programmer, you’ll use many, many functions, some of which you’ve written yourself, as well as some written by other people. A function that was written by other people usually comes from a library, which we need to explicitly include at the top of our file, as we’ve seen previously. 
 
-```
+For example, we might want to use a function called `strlen` (short for "string length"), which is defined in a library called `string.h`. 
+
+```c
+#include <string.h>
+#include <stdio.h>
 #include <cs50.h>
+
 string exampleString = “hello!”;  // set up an example variable to use
 
-strlen(exampleString);
+strlen(exampleString); // call the strlen function
 ```
 
 `strlen` takes a string and calculates the length of that string, i.e. how many characters it contains.
 
-But wait!  Something is missing here. We computed the length of the string, but we didn’t do anything with it!  If we, say, wanted to print the length of the string, how could we do this?
+Notice how we must add this line: `#include <string.h>`.
+
+Then, we create a string, and call the `strlen` function to get its length. But wait!  Something is missing here. The function tells us the length of the string, but we didn’t do anything with the answer!  For example, if we wanted to print the length of the string, how could we do this?
 
 ## Return Values
 
-`strlen` is an example of a function that "gives back" a value.  We call this a return value.  To use the value that a function hands back to us, we can store it in a variable:
+`strlen` is an example of a function that "gives back" a value.  We call this a "return value". The return value is like the answer to a question. In this case, the question is "What is the length of this string?". 
 
-```
+One way to use the value that a function hands back to us, is to store it in a variable:
+
+```c
 string exampleString = “hello!”;
 
-// call strlen and store its return value in a variable
+// this line is pretty useless on its own.
+strlen(exampleString);
+
+// we need to call strlen AND store its return value in a variable
 int exampleStringLength = strlen(exampleString);
 
+// now we can refer to our variable in order to print its value
 printf(“The string has %i characters!\n”, exampleStringLength);
+
+printf(“The string has fewer than %i characters.\n”, exampleStringLength + 10);
 ```
+
+There are two steps to this process:
+1. call a function and store its return value in a variable
+2. use that variable to do stuff
+
+There is an alternative way which doesn't require the use of a variable: you can simply skip Step 1, and embed the function invocation directly into your code for Step 2:
+
+```c
+string exampleString = “hello!”;
+
+// here we print the length of the string by embedding the invocation of strlen directly into our print statement.
+printf(“The string has %i characters!\n”, strlen(exampleString));
+```
+
+There is no "right way" between these two styles. Depending on context, one style might make more sense than the other, or either might be fine. Over time, you will develop an instinct this type of thing, balancing a variety of concerns to write code that:
+* is easy for humans to read and understand
+* is not repetitive
+* makes efficient use of computer resources
+
+The main takeaway here is, don't just do this:
+
+```c
+strlen(exampleString);
+```
+
+Doing the above is sortof like writing a sentence that has a subject but no predicate.
+
+If I said this to you: 
+
+<blockquote>
+"The capital of Algeria."
+</blockquote>
+
+you would be like, "That's not a complete sentence, mate. Go on... what *about* the capital of Algeria?"
+
+You were probably expecting something more like:
+
+<blockquote>
+"The capital of Algeria is Algiers. 
+
+Algiers is a nice place."
+</blockquote>
+
+or, more succintly:
+
+<blockquote>
+"The capital of Algeria a nice place."
+</blockquote>
+
+Similarly, if you call a function with a return value, but you aren't *doing something* with that return value, you are probably on the wrong track.
+
 
 ## Side Effects
 
-`strlen` takes a `string` and returns an `int`. The value of `strlen("hello")` is `5`, because its input argument has 5 letters.
+Not every function has a return value.
 
-Some functions don't return any values, for example, `printf`. The `printf` function does not compute anything, instead, printf *does* something. The return value of `printf("hello")` is nothing, but something has "happened" after we call it: the user now sees "hello" on their console.
+Some functions don't return anything. For example, `printf`. The `printf` function does not compute anything. The return value of `printf("hello")` is nothing, or technically a special term calle d`void`.
 
-We call these interactions *side effects*. Side effects come in two forms: changes to the input and changes to the outside world. A function like `strlen`, which has a return value but does not alter the input or the outside world, does not have side effects.
+Instead, `printf` *does* something. After we call it, something has *happened*: the user now sees "hello" on their console.
 
-Why are side effects important?  Functions with side effects are common and useful, but can lead to bugs if you aren't careful. You should always be aware of what side effects are present in the functions that you use, so that you can examine these side effects if problems start to occur.
+Calling a function like `printf` is similar to an "imperative" sentence in Enlish: it's a "command", or instructions for what you want to happen. You're saying "Hey computer, go and print this string to the console".
+
+The result is what we call a *side effect*. When you call a function like `printf`, you don't get a value back, but you cause something to happen, you "affect" the state of the world in some way (in this case, the console on the user's computer now contains a new line of text.)
+
+This is why, in contrast to a function like `strlen`, the `printf` function is perfectly capable of standing "on its own" in a line of code. Indeed, it would be pretty weird to embed `printf` in a larger line of code, by doing something like storing its result in a variable:
+
+```c
+int x = printf("hello");
+```
+
+This makes no sense. It would be like me saying:
+<blockquote>
+"The capital of Algeria is hey go take a nap you look tired."
+</blockquote>
