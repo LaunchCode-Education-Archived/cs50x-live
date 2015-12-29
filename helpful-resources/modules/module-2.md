@@ -51,6 +51,10 @@ This studio will be made up of 2 separate programs, (`backwardsecho.c` and `mixe
   *      "./backwards-echo" prints first, followed by "hello", followed by "46". 
   * But when it comes time to print the string, you should print its characters in reverse order.
   *
+  */
+ ```
+ ```
+ /**
   * PART 2: Mixed-up Echo
   * Filename: mixedupecho.c
   * Save in Folder: ~/workspace/module2/studios/mixedupecho
