@@ -62,6 +62,10 @@ This studio will be made up of three separate programs, (`guess.c`, `guess5.c`, 
   *     Guess #3: 4
   *     Correct!
   * 
+  */
+```
+```
+ /**
   * Part 2
   * Filename: guess5.c
   * Save in Folder: ~/workspace/module1/studios/guess5
@@ -86,6 +90,10 @@ This studio will be made up of three separate programs, (`guess.c`, `guess5.c`, 
   *     Wrong!
   *     Sorry, you ran out of guesses.
   * 
+  */
+ ```
+ ```
+ /**
   * PART 3 
   * Filename: guessfive.c
   * Save in Folder: ~/workspace/module1/studios/guessfive
