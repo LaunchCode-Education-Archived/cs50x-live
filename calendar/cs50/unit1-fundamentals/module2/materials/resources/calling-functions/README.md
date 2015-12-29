@@ -47,6 +47,7 @@ printf(“The string has fewer than %i characters.\n”, exampleStringLength + 1
 ```
 
 There are two steps to this process:
+
 1. call a function and store its return value in a variable
 2. use that variable to do stuff
 
