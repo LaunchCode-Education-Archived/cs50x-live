@@ -92,6 +92,10 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * compile a program that consists of three files, mult.c, mult.h, and expt.c. Unfortunately we are missing 
  * those files: expt.c, mult.c and mult.h. (You will be given the starter code for expt.c in part 4)
  * 
+ */
+```
+```
+/**
  * PART 2:
  * File: mult.h
  * Save in Folder: ~/workspace/module3/studios/multiplication_and_exponents
@@ -107,7 +111,11 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * Believe it or not, the header file is now complete! It may seem silly to have only a single line of code in the 
  * header file, but for this example it is sufficient. More complex programs will require more complex header 
  * files, but this is fine for now.
- * 
+ *
+ */
+```
+```
+/**
  * PART 3:
  * File: mult.c
  * Save in Folder: ~/workspace/module3/studios/multiplication_and_exponents
@@ -128,6 +136,10 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * Hint: it may be useful to create a second (perhaps non-recursive) function that checks whether the integers are 
  * positive or negative and proceeds accordingly. Be sure to ask for help if you get stuck!
  * 
+ */
+```
+```
+/**
  * 
  * PART 4:
  * File: expt.c
@@ -174,7 +186,6 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * you would normally use * should be replaced with a function call to mult.
  * You should now be able to use make to run the provided test cases and check your work. Notice that for expt, 
  * the base (the first number) can be negative, but the exponent (the second number) cannot.
- * 
  * 
  */
 ```
