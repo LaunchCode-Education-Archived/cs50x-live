@@ -6,7 +6,7 @@
 
 Another useful function from `<math.h>` is `round`. This function takes a floating point number, and returns the nearest integer:
 
-```
+```c
 int x = round(4.7);
 // the value of x is 5
 
