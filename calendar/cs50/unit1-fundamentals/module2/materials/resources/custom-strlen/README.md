@@ -7,7 +7,7 @@
 We've already seen the `strlen` function, which returns the length of a `string`, in other words, the number of characters 
 inside the string.
 
-```
+```c
 int len = strlen("Hello");
 // the value of len is now 5
 ```
@@ -18,7 +18,7 @@ Well, we actually know enough about `strings` now that we can do it ourselves. L
 
 Let's name our function `charCounter`. It will take a `string` parameter as input, and it will return an `int`.
 
-```
+```c
 int charCounter(string theString)
 {
     // TODO figure out how many chars are in theString
@@ -32,7 +32,7 @@ We'll represent the answer with a variable, `counter`, which we initialize to `0
 We know we've reached the end of the string when we find that special character, `'\0'`, the `nul-terminator`, which is the last `char` in every `string` and exists solely to signify: "Hey, this right here is the end of the string."
 
 
-```
+```c
 int charCounter(string theString)
 {
     int counter = 0;
