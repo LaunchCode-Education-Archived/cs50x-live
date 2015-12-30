@@ -56,7 +56,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/note
 Task | Type | Link | Instructions
 -----|------|------|------
 Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 9</a>
-
+Follow-Along | Seminar | <a href="https://www.youtube.com/watch?v=bQXKCMdVT6o" target="_blank">jQuery</a> | jQuery is a Javascript library that makes it much easier to do a wide variety of things in Javascript. We've made this a **Follow-Along** because Vipul, the speaker, notes that his presentation is fairly interactive and should be followed.
 
 ##### Optional
 Task | Type | Link | Instructions
