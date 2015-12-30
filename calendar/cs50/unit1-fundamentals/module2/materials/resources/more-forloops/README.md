@@ -8,7 +8,7 @@ Here, I want to briefly clear up something that you might find confusing.
 
 When iterating over `strings`, a lot of CS50 examples use a `for-loop` like this:
 
-```
+```c
 for (int i = 0, n = strlen(my_string); i < n; i++) 
 {
     char c = my_string[i];
@@ -22,7 +22,7 @@ What makes this different from most "normal" `for-loops` you've seen? In this ca
 * an `int` called `n` gets set to `strlen(my_string)`
 
 We could have achieved the same outcome with this code:
-```
+```c
 for (int i = 0, i < strlen(my_string); i++) 
 {
     char c = my_string[i];
@@ -37,7 +37,7 @@ But the second way is "worse", because it is less efficient. Do you remember why
 This explanation probably makes sense in a vague way, but nevertheless, you might still feel a little hazy on the details, because even normal `for-loop` syntax is very dense and cryptic, and when you saw the two variables declared, if youre like me, you said "Wait, what is this? That looks wrong. Can you do that?"
 
 In fact, using fancy `for-loop` tricks is not even necessary to solve this problem. We can still loop over a string without having to call `strlen` multiple times, in a much more straitforward way:
-```
+```c
 int n = strlen(my_string);
 for (int i = 0; i < n; i++) 
 {
@@ -56,7 +56,7 @@ But the fancy version provides a nice example of how to take advantage of the ex
 
 For example:
 
-```
+```c
 // loop backwards from 10 to 1
 for (int i = 10; i != 0; i--)
 {
@@ -64,7 +64,7 @@ for (int i = 10; i != 0; i--)
 }
 ```
 
-```
+```c
 // count up by 3s
 for (int i = 0; i < 100; i += 3)
 {
@@ -72,7 +72,7 @@ for (int i = 0; i < 100; i += 3)
 }
 ```
 
-```
+```c
 // i goes up, j goes down (twice as fast), until they meet
 for (int i = 0, j = 100; i <= j; i++, j -= 2)
 {
