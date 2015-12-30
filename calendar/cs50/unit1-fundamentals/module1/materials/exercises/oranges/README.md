@@ -24,7 +24,7 @@ How can we do this?  We need to buy enough oranges so that there are *at least* 
 
 To do this, we'll need to use the `ceil` function found <a href="https://reference.cs50.net/math.h/ceil" target="_blank">here</a>, in the `math.h` library.
 
-```
+```c
 float x = ceil(8.2);
 // the value of x is now 9.0
 ```
