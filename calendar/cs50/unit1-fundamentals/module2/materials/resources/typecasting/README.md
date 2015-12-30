@@ -1,3 +1,6 @@
+##### Module 2
+[Go back to Prep for Class 1](../../class1-prep) 
+
 # Typecasting
 
 Say we are grading a multiple-choice quiz, and the student got `46` correct answers out of `50` total questions.
