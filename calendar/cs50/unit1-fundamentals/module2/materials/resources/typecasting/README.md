@@ -4,7 +4,7 @@ Say we are grading a multiple-choice quiz, and the student got `46` correct answ
 
 Here's how we might we represent that knowledge in code:
 
-```
+```c
 int num_correct = 46;
 int total = 50;
 ```
@@ -25,20 +25,20 @@ How can we do this calculation in C?
 
 First let's just declare a variable to hold the score:
 
-```
+```c
 int score;
 ```
 
 Oops, this won't work. If we want `score` to be able to hold floating-point values like `0.92`,
 then `int` is not the right data-type for the job. Let's use a `float` instead:
 
-```
+```c
 float score;
 ```
 
 Now that we have declared our variable, let's assign it a value:
 
-```
+```c
 score = num_correct / total;
 ```
 
@@ -56,7 +56,7 @@ everything after the decimal point:
 
 So the fact that our `score` variable is of type `float` is nice, but that alone is not enough
 to produce the result we want. The problem is that the computer executes this line
-```
+```c
 score = num_correct / total;
 ```
  by **first** calculating the result of the expression on the right-hand side of the `=` sign:
@@ -70,7 +70,7 @@ We need to somehow change our code so that it calculates the answer by dividing 
 
 But our variables `num_correct` and `total` are both `int`s, so how are we supposed to do that? 
 Should we go back and change our code to use `float`s instead, like this?
-```
+```c
 float num_correct = 46.0;
 float total = 50.0;
 ```
@@ -83,7 +83,7 @@ So how are we going divide them?
 #### Typecasting to the rescue
 
 Typecasting allows us to convert between data-types:
-```
+```c
 float f = (float) num_correct; // f is 46.0
 int i = (int) 8.84; // i is 8
 ```
@@ -91,7 +91,7 @@ When casting, the compiler will do its best to choose the "equivalent" value for
 how the `8.84` got truncated.
 
 Now we can cast our `46` into a `46.0` and our `50` into `50.0`:
-```
+```c
 score = (float) num_correct / (float) total;
 ```
 and `score` will have a value of `0.92`.
@@ -101,21 +101,21 @@ Hooray!
 A couple of additional things to note:
 
 You can choose to cast just one of the variables, and leave the other alone.
-```
+```c
 score = num_correct / (float) total;
 ```
 Still gives us `0.92`. When the compiler encounters a type mismatch, like dividing an `int` by a `float`,
 it will silently cast the `int` into a float under the hood for us, so we end up casting both anyway.
 
 Finally, note that the following will NOT work:
-```
+```c
 score = (float) (num_correct / total);
 ```
 In the above case, the computation happens first: `46 / 50` evaluates to `0`, which is then casted into a 
 float, `0.0`, which is then assigned to our variable.
 
 In fact, the above is equivalent to our first attempt, when we provided no casting at all:
-```
+```c
 score = num_correct / total;
 ```
 Even without explicit casting here, the compiler notices that `score` is a float, so it silently casts `0` into `0.0` before assigning it to the variable.
