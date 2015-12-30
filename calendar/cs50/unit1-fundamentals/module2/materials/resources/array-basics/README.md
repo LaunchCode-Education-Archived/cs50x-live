@@ -10,14 +10,14 @@ This is an array with 10 integer values.
 
 In C, arrays must be declared with a type, a name, and a size.
 
-```
+```c
 type name [ size ];
 int myArray[10];
 ```
 
 Use brackets to define the data stored in an array.
 
-```
+```c
 int myArray[10] = {0, 11, 24, 13, 44, 15, 60, 37, 8, 9};
 ```
 
