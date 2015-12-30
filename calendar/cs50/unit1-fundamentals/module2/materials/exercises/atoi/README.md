@@ -13,9 +13,9 @@ The value entered is 67
 ```
 
 
-Fix the below code:
+Fix the code below:
 
-```
+```c
 #include<cs50.h>
 #include<stdio.h>
 
