@@ -11,7 +11,7 @@ Then prompt the user for each age one-by-one.  After that, for each person, weâ€
 
 Basic template code is provided in [canyouvote.c](https://github.com/Launch-Code/cs50x-live-2016/blob/master/calendar/cs50/unit1-fundamentals/module2/materials/exercises/array-read/canyouvote.c)
 
-This exercise is very similar to the [ages](https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU) walkthrough; if you need help, look there first!
+This exercise is very similar to the <a href="https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ages</a> walkthrough; if you need help, look there first!
 
 Your program should work like this:
 
