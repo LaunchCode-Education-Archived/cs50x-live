@@ -14,13 +14,13 @@ Now we have a new data type to work with and think about: `char`.  How do we use
 
 To declare a variable with type `char`, we can do this:
 
-```
+```c
 char myChar = ‘q';
 ```
 
 This has a few differences from declaring a `string`, like this:
 
-```
+```c
 string myString = “qwe”;
 ```
 
@@ -29,7 +29,7 @@ A `char` is declared with single quotes (or apostrophes), while a string is decl
 So far, when writing programs, we’ve been asking the user for input, then storing their responses in `string` variables.  Can we do this with “char”s?  Yes!  You can use the `GetChar` function from the cs50 library, just like we’ve been using the `GetString` function before.
 
 This is how we asked the user for strings:
-```
+```c
 #include <cs50.h> // at the top of the file
 
 // ... somewhere else lower down in the file
@@ -38,7 +38,7 @@ printf(“%s is my favorite word!\n”, myString);
 ```
 
 This is how we ask the user for chars:
-````
+```c
 #include <cs50.h>
 char myChar = GetChar(); // wait for user input
 
