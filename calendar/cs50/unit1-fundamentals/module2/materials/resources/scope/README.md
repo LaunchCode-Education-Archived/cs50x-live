@@ -4,7 +4,7 @@
 
 Let’s look at another example of a bug due to variable scope. As we just learned, a variable’s “scope” refers to contexts in which a variable can be accessed.  Take a look at the following code:
 
-```
+```c
 #include <cs50.h>
 #include <stdio.h>
 
@@ -28,7 +28,7 @@ After the loop, we try to print out the variable `i` as the index where we found
 
 How can we fix this?  Well, we need to make sure that the variable `i` is in scope when we try to print it out.  To do this, we can move the `printf` line inside the loop, like so:
 
-```
+```c
 #include <cs50.h>
 #include <stdio.h>
 
