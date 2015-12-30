@@ -7,7 +7,7 @@
 Write a "guessing game" program, in which the user attempts to guess correctly a number between 1 and 10.
 You can simply decide on a "correct answer" and hard-code that number into your code. 
 Supposing for example that you decide to make 4 the correct answer, you will probably have a line like this:
-```
+```c
 int answer = 4;
 ```
 somewhere in your code, and your program should behave like this:
