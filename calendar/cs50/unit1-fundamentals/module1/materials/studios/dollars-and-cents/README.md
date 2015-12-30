@@ -1,6 +1,6 @@
 ##### Module 1
 
-[Go back to Class 2 Prep](../../class2-prep)
+[Go back to Class 3](../../class3)
 
 # Studio: Dollars and Cents
 
