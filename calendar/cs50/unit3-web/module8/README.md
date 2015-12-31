@@ -3,12 +3,12 @@
 ### Resources by Topic
 
 
+### Class 1 Prep 
+
 ##### Lecture
 Task | Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=FKLqzTdkDMc" target="_blank">Week 9</a>
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=l9gEGB0eOps" target="_blank">Week 9, continued</a> | special guests, virtual reality...
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=bpfiIlYzVGs" target="_blank">Week 10</a> | about security
 
 ##### Javascript
 Task | Type | Link | Instructions
@@ -22,6 +22,32 @@ Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=eViManaIKk
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JYIKYnbdu4E&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=2" target="_blank">JavaScript</a>
 Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a>
 
+##### The DOM
+Task | Type | Link | Instructions
+-----|------|------|------
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#document_object_model" target="_blank">Week 9 / Document Object Model</a>
+Watch | Short | <a href="https://www.youtube.com/watch?v=GBKwdFEyJks&index=16&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">DOM</a>
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=pkcDcIhVM30&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=1" target="_blank">DOM</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=6Kb5CyWU3PY&index=4&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">dom-0</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=HOLM-ok0KOI&index=5&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">dom-1</a>
+Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=6EkmABDGNGs&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb&index=6" target="_blank">dom-2</a>
+
+***
+
+### Class 2 Prep
+
+##### JS Review
+Task | Type | Link | Instructions
+-----|------|------|------
+Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a>
+Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 9</a>
+
+##### Lecture
+Task | Type | Link | Instructions
+-----|------|------|------
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=l9gEGB0eOps" target="_blank">Week 9, continued</a> | special guests, virtual reality...
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=bpfiIlYzVGs" target="_blank">Week 10</a> | about security
+
 
 ##### AJAX
 Task | Type | Link | Instructions
@@ -34,15 +60,10 @@ Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=gKupwkz8ZB
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=fHuy443Gm-Y&index=2&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">ajax-1</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=HGVqC6hlqFI&index=3&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">ajax-2</a>
 
-##### The DOM
+##### jQuery
 Task | Type | Link | Instructions
 -----|------|------|------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#document_object_model" target="_blank">Week 9 / Document Object Model</a>
-Watch | Short | <a href="https://www.youtube.com/watch?v=GBKwdFEyJks&index=16&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">DOM</a>
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=pkcDcIhVM30&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=1" target="_blank">DOM</a>
-Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=6Kb5CyWU3PY&index=4&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">dom-0</a>
-Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=HOLM-ok0KOI&index=5&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">dom-1</a>
-Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=6EkmABDGNGs&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb&index=6" target="_blank">dom-2</a>
+Follow-Along | Seminar | <a href="https://www.youtube.com/watch?v=bQXKCMdVT6o" target="_blank">jQuery</a> | jQuery is a Javascript library that makes it much easier to do a wide variety of things in Javascript. We've made this a **Follow-Along** because Vipul, the speaker, notes that his presentation is fairly interactive and should be followed.
 
 
 ##### Security
@@ -52,17 +73,14 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/note
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/notes10m/notes10m.html#defenses" target="_blank">Week 10 / Defenses</a>
 
 
-##### TBD
+##### Review
 Task | Type | Link | Instructions
 -----|------|------|------
 Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 9</a>
-Follow-Along | Seminar | <a href="https://www.youtube.com/watch?v=bQXKCMdVT6o" target="_blank">jQuery</a> | jQuery is a Javascript library that makes it much easier to do a wide variety of things in Javascript. We've made this a **Follow-Along** because Vipul, the speaker, notes that his presentation is fairly interactive and should be followed.
-Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a>
+
 
 ##### Supplementary Resources?
 * annonymous functions
-
-
 
 ##### Optional
 Task | Type | Link | Instructions
