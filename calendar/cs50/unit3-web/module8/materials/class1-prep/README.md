@@ -4,14 +4,14 @@
 
 Before coming to [Class 1](../class1), please complete the following tasks:
 
-### Lecture
+#### Lecture
 Task | Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=FKLqzTdkDMc" target="_blank">Week 9</a> | This lecture introduces you to another new language: Javascript. Javascript is the primary language for a website's "front-end", i.e. code that runs locally on the user's computer ("client-side"), rather than on your server's computer ("server-side"). 
 
 ***
 
-### Javascript
+#### Javascript
 Task | Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#javascript" target="_blank">Week 9 / Javascript</a> | These notes introduce Javascript, and talk about the ways in which it is similar to and different from C and PHP.
@@ -20,7 +20,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes
 
 ***
 
-### The DOM
+#### The DOM
 Task | Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#document_object_model" target="_blank">Week 9 / Document Object Model</a> | Javascript allows you to manipulate your webpage's HTML to dynamically do things such as insert a new element, remove an element, change some text, change a CSS style, and pretty much anything else you can imagine. To do this, it creates a big javascript object representing the entire HTML "tree" or elements.
