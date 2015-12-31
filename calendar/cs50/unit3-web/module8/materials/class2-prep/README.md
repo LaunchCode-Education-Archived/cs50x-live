@@ -19,7 +19,7 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=l9gEGB0eOps" target="
 
 ***
 
-##### AJAX
+### AJAX
 Task | Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#ajax_and_asynchronicity" target="_blank">Week 9 / Ajax and Asynchronicity</a>
@@ -32,14 +32,14 @@ Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=HGVqC6hlqF
 
 ***
 
-##### jQuery
+### jQuery
 Task | Type | Link | Instructions
 -----|------|------|------
 Follow-Along | Seminar | <a href="https://www.youtube.com/watch?v=bQXKCMdVT6o" target="_blank">jQuery</a> | jQuery is a Javascript library that makes it much easier to do a wide variety of things in Javascript. We've made this a **Follow-Along** task because Vipul, the speaker, notes that his presentation is fairly interactive and should be followed along with.
 
 ***
 
-##### Security
+### Security
 Task | Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=bpfiIlYzVGs" target="_blank">Week 10</a> | about security
@@ -48,7 +48,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/note
 
 ***
 
-##### Review
+### Review
 Task | Type | Link | Instructions
 -----|------|------|------
 Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 9</a>
