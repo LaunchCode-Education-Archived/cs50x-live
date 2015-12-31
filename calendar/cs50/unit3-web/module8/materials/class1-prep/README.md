@@ -30,8 +30,8 @@ Do | Exerise | JS Practice | TODO exc: a few exercises to practice using js (for
 Task | Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#document_object_model" target="_blank">Week 9 / Document Object Model</a> | Javascript allows you to manipulate your webpage's HTML to dynamically do things such as insert a new element, remove an element, change some text, change a CSS style, and pretty much anything else you can imagine. To do this, it creates a big javascript object representing the entire HTML "tree" or elements.
-Watch | Short | <a href="https://www.youtube.com/watch?v=GBKwdFEyJks&index=16&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">DOM</a> 
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=pkcDcIhVM30&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=1" target="_blank">DOM</a>
+Watch | Short | <a href="https://www.youtube.com/watch?v=GBKwdFEyJks&index=16&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">DOM</a> 
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=6Kb5CyWU3PY&index=4&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">dom-0</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=HOLM-ok0KOI&index=5&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">dom-1</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=6EkmABDGNGs&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb&index=6" target="_blank">dom-2</a>
