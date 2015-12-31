@@ -4,14 +4,14 @@
 
 Before coming to [Class 1](../class1), please complete the following tasks:
 
-##### Lecture
+### Lecture
 Task | Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=FKLqzTdkDMc" target="_blank">Week 9</a>
 
 ***
 
-##### Javascript
+### Javascript
 Task | Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#javascript" target="_blank">Week 9 / Javascript</a>
@@ -25,7 +25,7 @@ Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank"
 
 ***
 
-##### The DOM
+### The DOM
 Task | Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#document_object_model" target="_blank">Week 9 / Document Object Model</a>
