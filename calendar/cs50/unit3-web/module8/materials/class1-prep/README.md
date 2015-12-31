@@ -33,9 +33,9 @@ Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=6EkmABDGNG
 #### More Javascript
 Task | Type | Link | Instructions
 -----|------|------|------
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JYIKYnbdu4E&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=2" target="_blank">JavaScript</a> | Doug talks about Javascript, including the following topics: objects, the hidden trickiness of weakly typed languages, annonymous functions, the `array.map()` function, event handlers.
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=U7W2U8qRI3I&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb&index=7" target="_blank">form-0</a> | 
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=r2iaKDH79oQ&index=8&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">form-1</a> | Here we improve our registration form by adding a script that performs client-side validation on the form: in other-words, a script which checks whether the form was properly filled out, and does this locally **before** bothering to send a request over to the server.  
 Do | Exercise | Validation | TODO exc: give them a form and have them write a validation script for it.
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=eViManaIKkQ&index=9&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">form-2</a> | 
-Do | Exerise | JS Practice | TODO exc: a few exercises to practice using js (for in, for of, annon funcs, objects)
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JYIKYnbdu4E&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=2" target="_blank">JavaScript</a> | (Optional) You might want to rewatch this.
+Do | Exerise | JS Practice | TODO exc: a few exercises to practice using js (See Doug: JS)
