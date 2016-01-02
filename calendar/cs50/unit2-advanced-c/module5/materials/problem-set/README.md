@@ -9,7 +9,7 @@ In this problem set, you'll do (TODO someone: a few sentences, just a quick over
 ##### General Tips
 This guidance primarily refers to the hashtable structure. However, you can select whichever structure you'd prefer. The instructions remain basically the same:
 
-- skip anything in the probem set specification and videos that has to do with structures other than the one you've selected to code.
+- Skip anything in the probem set specification and videos that has to do with structures other than the one you've selected to code.
 
 - Start with just the problem set specification - don't worry about any of the videos until you're clear on the written stuff.
 
