@@ -134,8 +134,7 @@ node* ptr = first;     // - here, "first" would represent the location in our ha
 while (ptr != NULL)
 {
     if (ptr->n == n)   // - oops, we're not using an int! What should ours look like??? How about using strcmp here to check
-                       //   whether speller's word matches our lowercase one???
-    {
+    {                  //   whether speller's word matches our lowercase one???
         // stuff the example does that we don't need for ours – we need instead to return true, telling speller that we found the word!
     }
     ptr = ptr->next;
@@ -146,8 +145,35 @@ Gosh, these two examples look a whole lot like each other. Hmmm!!! Oh, and be su
 
 Once you've coded what you think will work – yep! Save, compile, test! Did the words in your story file that were not in your dictionary file get found? Again, some `printf` statements could be handy here! (Of course, please note, this could be also a very good way to practice your GDB skills!)
 
-Oh, also a note: we're not freeing any memory in check. We're not malloc'ing any new words, and we're not removing any words, so we're good to go. Wait – what about that new lowercase word variable we created? We didn’t use malloc, so we're good to go. C will clear that memory whenever check is done.
+Oh, also a note: we're not freeing any memory in check. We're not malloc'ing any new words, and we're not removing any words, so we're good to go. Wait – what about that new lowercase word variable we created? We didn’t use malloc, so we're good to go. C will clear that memory whenever `check` is done.
 
+##### `unload`
+Guess what Zamyla gave us in her unload video? The answer - almost!
+````
+node* cursor = head;
+while (cursor != NULL)
+{
+    node* temp = cursor;
+    cursor = cursor->next;
+    free(temp);
+}
+````
+
+There are only 2 things missing:
+* Remember, first, that "head" represents the start location in our hashtable array. Well, it turns out that we don't even need to use our hash function here! Simply loop through each element (`node` box) in the array. The `while` loop above, then, will clear out that location's linked nodes. How do we loop through an array? Hmm... We already know the size of the array... And, we've done this before a bunch of times now...
+
+* Finally, we need to tell speller we finished unloading the array and its associated linked lists, er, the hashtable. What should we return?
+
+Again, save, compile, and test. In this one, maybe you can `printf` the words while you're unloading them (just before you free temp, maybe?).
+
+When this one's done, you'll need to run valgrind (pronounced like "Val grinned" ;-) Try something like the following:
+````
+valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all ./speller ~cs50/pset5/texts/austinpowers.txt
+````
+
+If all is well, you should see: `All heap blocks were freed -- no leaks are possible`
+
+Then, congratulations! You're done with this pset!
 
 ### Get Started
 The assignment is <a href="http://cdn.cs50.net/2015/fall/psets/5/pset5/pset5.html" target="_blank">here</a>. Go get em tiger!
