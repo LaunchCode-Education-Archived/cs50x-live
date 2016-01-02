@@ -98,6 +98,56 @@ Zamyla's code for swapping `node` and `head`: Zamyla's example looks something l
 
 The note here is that "head", in our case, actually refers to the array location determined by your hash function. So, anywhere you see `head` in that code, replace it with something like `hashtable[hash_location]` – or whatever you called your array, with whatever you called the variable you created to hold your hash result for the current word inside the square brackets.
 
+##### `check`
+`check` is tricky because speller is sending us a `const char* word`. CS50 is doing that to save memory – `const char*` variable values get stored in the "stack" part of memory, which gets cleaned out as soon as your function is done running. You have to free memory in the "heap" (where normal pointer-type variables are stored) in order to get rid of the variable.
+
+Because our dictionary is loaded with all lowercase words, and the words speller sends us to check might be mixed- or uppercase, we have to make sure to compare the words in the same case. Since our loaded dictionary is lower, it probably makes sense to compare in lower – but we can't change a `const`, so what now???
+
+We'll have to create a new variable to hold the same length word as `check` sent us (mm, plus the nul terminator!). The format to set up this variable should look something like the word variable defined in our `node` typedef – except, instead of LENGTH + 1, we probably should use the length of the word speller gave us + 1. We've often used a function for getting the length of a string. Remember what that is???
+
+Next, we'll have to load that new variable with the word's characters, using `tolower` in the process. (Where have we read the characters of a word, one by one, before? `vigenere.c`, perhaps???
+
+Once you've filled in the new variable with matching lowercase letters from this function's "word" parameter, we'll have to add the nul terminator at the end. How 'bout something like:
+`lowercaseword[wordlength] = '\0';` - using your variable names, of course!
+
+Save, compile, and test!!! (eg, use `printf` to display both the word that speller gave us and the new, lowercase word that you just created)
+
+Now, we have to use our hash function again! Why? To make sure we're looking in the same place the word would appear in our loaded dictionary – assuming it's there, of course.
+
+Again, save, compile, and test – are you getting the hash result you expect for each word speller sends you?
+
+Now, the meat of the check function: traversing to see if the word from speller is present in your loaded hashtable. Zamyla gave us the following code for traversing a list: `node* cursor = head;` - remember that "head" here represents our hashtable's array location where our hash told us to start looking for the current word
+````
+while (cursor != NULL)
+{
+    // do stuff (like comparing whether cursor->word is the same as your new lowercase version of speller's word???
+    //   then returning true to tell speller we found it???)
+    //   strcmp might be handy here...
+    cursor = cursor->next;
+}
+````
+
+or, you can look at src5w.pdf. This is the source code under the 2nd lecture for week 5. In it, you'll find two samples of doing stuff with `node` structs. list-0 is very similar to our problem set. The only difference is that it uses an `int` variable, `n`, while we use a character array called `word`. The part of the example search function we need to use looks like this:
+````
+node* ptr = first;     // - here, "first" would represent the location in our hashtable array where our hash told us to begin
+                       //   looking for the current word (like "head" in Zamyla's example)
+while (ptr != NULL)
+{
+    if (ptr->n == n)   // - oops, we're not using an int! What should ours look like??? How about using strcmp here to check
+                       //   whether speller's word matches our lowercase one???
+    {
+        // stuff the example does that we don't need for ours – we need instead to return true, telling speller that we found the word!
+    }
+    ptr = ptr->next;
+}
+````
+
+Gosh, these two examples look a whole lot like each other. Hmmm!!! Oh, and be sure to code in there to return `false` if the word wasn't found in your while loop!
+
+Once you've coded what you think will work – yep! Save, compile, test! Did the words in your story file that were not in your dictionary file get found? Again, some `printf` statements could be handy here! (Of course, please note, this could be also a very good way to practice your GDB skills!)
+
+Oh, also a note: we're not freeing any memory in check. We're not malloc'ing any new words, and we're not removing any words, so we're good to go. Wait – what about that new lowercase word variable we created? We didn’t use malloc, so we're good to go. C will clear that memory whenever check is done.
+
 
 ### Get Started
 The assignment is <a href="http://cdn.cs50.net/2015/fall/psets/5/pset5/pset5.html" target="_blank">here</a>. Go get em tiger!
