@@ -16,7 +16,7 @@ Task | Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#ajax_and_asynchronicity" target="_blank">Week 9 / Ajax and Asynchronicity</a> | AJAX is the technique of sending additional HTTP requests after a page has loaded, without reloading the entire page. This section talks more about AJAX and gives some examples of its use.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/w/notes9w/notes9w.html#anonymous_functions_and_callbacks" target="_blank">Week 9 , Continued / Anonymous Functions and Callbacks</a> | These notes talk briefly about the concept of an annonymous function, which in certain contexts might be used as a "callback" to handle the occurance of some event.
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=FtefVGIgAfA&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=3" target="_blank">Ajax</a> | 
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=FtefVGIgAfA&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=3" target="_blank">Ajax</a> | Doug gives an example of using AJAX.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/w/notes9w/notes9w.html#ajax" target="_blank">Week 9 , Continued / Ajax</a> | These notes show how to implement AJAX in a page, with some examples. <br>Stop reading when you get to the section titled **Giza Project**</br>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=gKupwkz8ZBo&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb&index=1" target="_blank">ajax-0</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=fHuy443Gm-Y&index=2&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">ajax-1</a>
