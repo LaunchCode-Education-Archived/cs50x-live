@@ -15,7 +15,7 @@ Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&fe
 ### Lecture
 Task | Type | Link | Instructions
 -----|------|------|------
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=l9gEGB0eOps" target="_blank">Week 9, continued</a> | special guests, virtual reality...
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=l9gEGB0eOps" target="_blank">Week 9, continued</a> | In this (half) lecture, we learn more about annonymous functions and AJAX. <br>You can stop watching at minute 23, when a guest lecturer speaks about archaeology-- looks cool, but is optional.</br>
 
 ***
 
