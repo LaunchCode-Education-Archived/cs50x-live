@@ -4,7 +4,7 @@
 
 # Exercise: Hello
 
-Shall we have you write your first program? At this point you should have all of your module and pset folders created.  If not please refer to the <a href="../../../../../../../../helpful-resources/CS50-IDE/file-management-resource.md" target="_blank">File Management Resource</a> in the CS50x Wiki.
+Shall we have you write your first program? At this point you should have all of your module and pset folders created.  If not please refer to the <a href="../../../../../../../helpful-resources/CS50-IDE/file-management-resource.md" target="_blank">File Management Resource</a> in the CS50x Wiki.
 
 ### Create the Folder
 
