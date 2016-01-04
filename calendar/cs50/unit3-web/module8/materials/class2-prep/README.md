@@ -4,18 +4,18 @@
 
 Before coming to [Class 2](../class2), please complete the following tasks:
 
+### Lecture
+Task | Type | Link | Instructions
+-----|------|------|------
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=l9gEGB0eOps" target="_blank">Week 9, continued</a> | In this (half) lecture, we learn more about annonymous functions and AJAX. <br>You can stop watching at minute 23, when a guest lecturer speaks about archaeology-- looks cool, but is optional.</br>
+
+***
+
 ### JS Review
 Task | Type | Link | Instructions
 -----|------|------|------
 Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a>
 Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 9</a>
-
-***
-
-### Lecture
-Task | Type | Link | Instructions
------|------|------|------
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=l9gEGB0eOps" target="_blank">Week 9, continued</a> | In this (half) lecture, we learn more about annonymous functions and AJAX. <br>You can stop watching at minute 23, when a guest lecturer speaks about archaeology-- looks cool, but is optional.</br>
 
 ***
 
