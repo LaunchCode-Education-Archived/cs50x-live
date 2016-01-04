@@ -18,7 +18,7 @@ By the end of this module you will have completed [Problem Set 1](./materials/pr
 Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
 **Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | Javascript, the DOM |
-**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | AJAX, Security |
+**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | AJAX, more Javascript, jQuery, Security |
 **Class 3**| Work on [Problem Set 8](./materials/problem-set) | [In Class](./materials/class3) |
 
 ***
