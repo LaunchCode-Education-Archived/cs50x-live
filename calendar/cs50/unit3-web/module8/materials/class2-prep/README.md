@@ -11,13 +11,6 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=l9gEGB0eOps" target="
 
 ***
 
-### JS Review
-Task | Type | Link | Instructions
------|------|------|------
-Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a>
-
-***
-
 ### AJAX
 Task | Type | Link | Instructions
 -----|------|------|------
@@ -28,6 +21,16 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=FtefVGIgAfA&l
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=gKupwkz8ZBo&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb&index=1" target="_blank">ajax-0</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=fHuy443Gm-Y&index=2&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">ajax-1</a>
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=HGVqC6hlqFI&index=3&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">ajax-2</a>
+
+
+***
+
+### JS Review
+Task | Type | Link | Instructions
+-----|------|------|------
+Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a>
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JYIKYnbdu4E&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=2" target="_blank">JavaScript</a> | (Optional) You might want to rewatch this.
+Do | Exerise | JS Practice | TODO exc: a few exercises to practice using js (See Doug: JS)
 
 ***
 
@@ -50,4 +53,4 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/note
 ### Review
 Task | Type | Link | Instructions
 -----|------|------|------
-Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 9</a>
+Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 9</a> | (Optional.) Andi talks about Javascript, objects, the DOM, AJAX, and Pset 8.
