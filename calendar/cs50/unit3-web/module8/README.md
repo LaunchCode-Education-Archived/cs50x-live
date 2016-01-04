@@ -1,9 +1,10 @@
 # Module 8
 
-### Resources by Topic
 
-##### Supplementary Resources?
-* annonymous functions
+
+
+
+### Resources by Topic
 
 ##### Optional
 Task | Type | Link | Instructions
