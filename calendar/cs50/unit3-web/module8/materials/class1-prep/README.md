@@ -42,8 +42,3 @@ Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=r2iaKDH79o
 Do | Exercise | Validation | TODO exc: give them a form and have them write a validation script for it.
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=eViManaIKkQ&index=9&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">form-2</a> | Once again we refactor to use the jQuery `document.ready()` function, as we did in the <a href="https://www.youtube.com/watch?v=6EkmABDGNGs&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb&index=6" target="_blank">dom-2</a> Walkthrough.
 
-#### More Javascript
-Task | Type | Link | Instructions
------|------|------|------
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JYIKYnbdu4E&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=2" target="_blank">JavaScript</a> | (Optional) You might want to rewatch this.
-Do | Exerise | JS Practice | TODO exc: a few exercises to practice using js (See Doug: JS)
