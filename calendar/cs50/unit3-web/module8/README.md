@@ -23,7 +23,7 @@ Class # | Before Class | During Class | Topics/Skills
 
 ***
 
-##### Helpful Links
+### Helpful Links
 * <a href="http://cdn.cs50.net/2015/fall/lectures/9/w/src9m" target="_blank">Source Code</a> from Lecture: Week 9
 * <a href="http://cdn.cs50.net/2015/fall/lectures/9/f/src9w" target="_blank">Source Code</a> from Lecture: Week 9 / Continued
 
