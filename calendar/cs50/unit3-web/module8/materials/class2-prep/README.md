@@ -15,7 +15,6 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=l9gEGB0eOps" target="
 Task | Type | Link | Instructions
 -----|------|------|------
 Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a>
-Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 9</a>
 
 ***
 
