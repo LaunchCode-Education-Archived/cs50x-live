@@ -5,6 +5,7 @@
 
 #include <stdio.h>
 #include <cs50.h>
+#include <string.h>
 
 // FIXME there's something wrong with this code. It's not working!
 int main(void)
