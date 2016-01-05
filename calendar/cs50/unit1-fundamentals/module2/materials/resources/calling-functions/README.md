@@ -106,7 +106,7 @@ Some functions don't return anything. For example, `printf`. The `printf` functi
 
 Instead, `printf` *does* something. After we call it, something has *happened*: the user now sees "hello" on their console.
 
-Calling a function like `printf` is similar to an "imperative" sentence in Enlish: it's a "command", or instructions for what you want to happen. You're saying "Hey computer, go and print this string to the console".
+Calling a function like `printf` is similar to an "imperative" sentence in English: it's a "command", or instructions for what you want to happen. You're saying "Hey computer, go and print this string to the console".
 
 The result is what we call a *side effect*. When you call a function like `printf`, you don't get a value back, but you cause something to happen, you "affect" the state of the world in some way (in this case, the console on the user's computer now contains a new line of text.)
 
