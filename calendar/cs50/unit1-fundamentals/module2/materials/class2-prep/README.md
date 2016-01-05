@@ -26,8 +26,7 @@ Follow-Along | Walkthroughs | <a href="https://www.youtube.com/watch?v=dYVU9nFYy
 Do | Exercise | [Can You Vote?](../exercises/can-you-vote) | Write a program to read through an array of peoples' ages and outputs whether or not they are old enough to vote.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#arrays" target="_blank">Week 2, continued / Arrays</a> | Read through the notes on "Arrays", which will review the `ages` program you recently wrote.
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=7mOJN1c1JEo&index=1&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Arrays</a> | This short will talk about when to use an array, and how to implement one. Rob talks about "pointer arrays" and `malloc` - don't worry about this for now.
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=7EdaoE46BTI&index=4&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Arrays</a> | TODO repeated from above? maybe remove / replace
- 
+
 *** 
 
 #### Command-Line Arguments
