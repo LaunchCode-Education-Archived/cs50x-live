@@ -24,5 +24,5 @@ int main(void)
     }
   }
   
-  printf("The thing you just typed contains %i 'e's!", counter);
+  printf("The thing you just typed contains %i 'e's!\n", counter);
 }
