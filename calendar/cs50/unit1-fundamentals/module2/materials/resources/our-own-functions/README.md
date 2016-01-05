@@ -12,7 +12,7 @@ Why would we do this?  There are two main reasons: it can save us time when we�
 
 As an example of the first point, we might write a program that takes in three strings, and outputs the lengths of each.  Without using functions, we could do this with loops:
 
-```
+```c
 string exampleStringOne = GetString();
 int lengthOne = 0;
 bool keepGoing = true;
@@ -60,7 +60,7 @@ You’ll write the `strlen` function yourself later, so it’s not important to 
 
 But if we’ve written a function that calculates the length of a string, we can just use that instead:
 
-```
+```c
 // Ask the user for each string, outputting the length of the string each time
 
 string exampleStringOne = GetString();
@@ -86,7 +86,7 @@ Say we wanted to change strlen so it printed the length of its input string, in 
 
 With code like this:
 
-```
+```c
 ...
 string exampleStringTwo = GetString();
 int lengthTwo = strlen(exampleStringTwo);
@@ -96,7 +96,7 @@ printf(“String two has %i characters.\n”, lengthTwo);
 
 We just have to go find the code where we wrote the strlen function, and change it there, only once.  If we instead had this code:
 
-```
+```c
 ...
 string exampleStringTwo = GetString();
 int lengthTwo = 0;
