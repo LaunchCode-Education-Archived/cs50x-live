@@ -7,6 +7,7 @@ Let’s look at another example of a bug due to variable scope. As we just learn
 ```c
 #include <cs50.h>
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
@@ -31,6 +32,7 @@ How can we fix this?  Well, we need to make sure that the variable `i` is in sco
 ```c
 #include <cs50.h>
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
