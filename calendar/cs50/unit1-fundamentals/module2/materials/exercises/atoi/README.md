@@ -1,7 +1,7 @@
 ##### Module 2
 [Back to Prep for Class 2](../../class2-prep)
 
-
+TODO make resource explaining motivation and giving examples. Then provide this exercise with broken example code. 
 
 # Exercise: atoi
 
@@ -30,13 +30,8 @@ Fix the code below:
 
 int main ()
 {
-	int i;
-	string input;
+	string input = GetString("Please enter a number:");
 	
-	input = GetString("Please enter a number:");
-	
-	printf ("The value entered is %d.", input);
-	
-	return 0;
+	printf ("The next number is %i.", input + 1);
 }
 ```
