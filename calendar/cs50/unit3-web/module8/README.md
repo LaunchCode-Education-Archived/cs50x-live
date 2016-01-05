@@ -26,14 +26,9 @@ Class # | Before Class | During Class | Topics/Skills
 
 
 ***
-***
-***
 
 
-
-### Resources by Topic
-
-##### Optional
+##### Optional Stuff (TODO move elsewhere)
 Task | Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/w/notes9w/notes9w.html#giza_project" target="_blank">Week 9 , Continued / Giza Project</a> | Not sure if this is applicable
