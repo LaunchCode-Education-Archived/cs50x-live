@@ -3,7 +3,7 @@
 
 # Exercise: atoi
 
-In this exercise, you will use the standard library's atoi() to print an integer passed in as a string. 
+In this exercise, you will use the standard library's `atoi` function to print an integer passed in as a string. 
 
 Ex:
 ```
