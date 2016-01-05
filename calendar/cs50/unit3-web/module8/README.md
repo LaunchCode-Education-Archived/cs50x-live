@@ -4,7 +4,7 @@
 
 **Prereqs**: You should have completed [Module 7](../module7)
 
-#### Synopsis
+### Synopsis
 
 In Module 8, you will learn about Javascript.
 
