@@ -1,6 +1,8 @@
 ##### Module 2
 [Back to Prep for Class 2](../../class2-prep)
 
+
+
 # Exercise: atoi
 
 In this exercise, you will use the standard library's `atoi` function to print an integer passed in as a string. 
@@ -12,6 +14,7 @@ In this exercise, you will use the standard library's `atoi` function to print a
 I say *tries* because
 
 It should behave like this:
+
 ```
 $ ./atoi
 Please enter a number: 67
@@ -29,11 +32,11 @@ int main ()
 {
 	int i;
 	string input;
-
+	
 	input = GetString("Please enter a number:");
 	
 	printf ("The value entered is %d.", input);
-
+	
 	return 0;
 }
 ```
