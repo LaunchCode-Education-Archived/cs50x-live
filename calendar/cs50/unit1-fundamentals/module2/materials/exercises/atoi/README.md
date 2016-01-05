@@ -5,11 +5,17 @@
 
 In this exercise, you will use the standard library's `atoi` function to print an integer passed in as a string. 
 
-Ex:
+`atoi` takes a `string` like `"67"` as input, and tries to return the integer value "trapped insde" that string. For example:
+* `atoi("67")` is 67
+* `atoi("123")` is 123
+
+I say *tries* because
+
+It should behave like this:
 ```
 $ ./atoi
-Please enter a number:
-The value entered is 67
+Please enter a number: 67
+The next number is 68
 ```
 
 
