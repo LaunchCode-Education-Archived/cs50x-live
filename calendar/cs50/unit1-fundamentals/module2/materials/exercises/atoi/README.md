@@ -32,6 +32,6 @@ int main ()
 {
 	string input = GetString("Please enter a number:");
 	
-	printf ("The next number is %i.", input + 1);
+	printf ("The next number is %i\n", input + 1);
 }
 ```
