@@ -24,7 +24,8 @@ foreach ($things as $key => $value)
 
 lets us loop through an “associative array”, looking at each paired key and value together.
 
-We’ve provided some php code for you that declares a list of lottery numbers ($lottoNumbers), and an associative array ($drawnNumbers).  Each key in the associative array is the name of a lotto ticket buyer, and each corresponding value is the lotto number they drew.
+In [lottonumbers.php](./lottonumbers.php), we’ve provided some php code for you that declares a list of lottery numbers (in the variable `$lottoNumbers`), and an associative array (the variable `$drawnNumbers`).  Each key in the associative array is the name of a lotto ticket buyer, and each corresponding value is the lotto number they drew.
+
 Use these two loops to make the code:
 - print each of the lotto numbers
 - print each lotto participant, along with their number
