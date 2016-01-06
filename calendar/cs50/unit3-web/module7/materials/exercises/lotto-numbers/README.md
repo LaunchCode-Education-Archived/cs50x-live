@@ -1,6 +1,6 @@
 ##### Module 7
 [Back to Prep for Class 1](../../class1-prep)
-# Exercise: Lotto winners
+# Exercise: Lotto Numbers
 
 We just learned about “foreach” loops, which are a feature of PHP, but not C.  In PHP we can use the keyword `foreach` to declare two kinds of loops:
 
