@@ -5,7 +5,7 @@
 We just learned about “foreach” loops, which are in php, but not in C.  We can use the keyword “foreach” to declare two kinds of loops:
 
 This kind of loop:
-```
+```php
 foreach ($numbers as $number) {
     // do this with $number
 }
@@ -15,7 +15,7 @@ lets us loop through an array without having to use an indexing variable to expl
 
 This kind of loop:
 
-```
+```php
 foreach ($things as $key => $value)
 {
     // do stuff with $key and $value
