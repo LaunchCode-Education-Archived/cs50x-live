@@ -18,7 +18,7 @@ array_pop($dogs);
 // $dogs is now [ "Spot" ]
 ```
 
-We’ve provided the start of a program for you.  When completed, the program should:
+In [kidbrother.php](./kidbrother/php), we’ve provided the start of a program for you.  When completed, the program should:
 - ask the user how many elements to store
 - ask for each element in turn
 - then print out the elements in reverse order
