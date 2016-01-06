@@ -26,17 +26,18 @@ We just learned about “foreach” loops, which are a feature of PHP, but not C
 
 In [lottonumbers.php](./lottonumbers.php), we’ve provided some php code for you that declares a list of lottery numbers (in the variable `$lottoNumbers`), and an associative array (the variable `$drawnNumbers`).  Each key in the associative array is the name of a lotto ticket buyer, and each corresponding value is the lotto number they drew.
 
-In this file, use the two versions of `foreach` syntax to write code that:
-- prints each of the lotto numbers
-- prints each lotto participant, along with their number
+Add some code to this file, using the two versions of `foreach` syntax in order to:
+- print each of the lotto numbers
+- print each lotto participant, along with their number
 
-An example run of the completed code should look like this:
+When complete, the program should behave like this:
 ```
 $ php lottonumbers.php
-Tonight's numbers:
+Tonight's numbers: 123, 555, 23, 7129
 ...
 Participant's drawn numbers:
-name1: number1
-name2: number2
-name3: number3
+Sally: 23
+Ken: 3
+Jeremy: 8
+Rhonda: 7129
 ```
