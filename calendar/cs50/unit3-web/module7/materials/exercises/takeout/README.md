@@ -6,9 +6,9 @@ Phew, so much hard work, now I'm hungry.  Write a program to help us order takeo
 
 Your program should do the following:
 - Ask the user how many people to get orders for
-Then, for each person:
-- Ask for their name
-- Ask for their order
+- Then, for each person:
+  - Ask for their name
+  - Ask for their order
 
 After this is all done, output each person's name, then their order.  This double-checking step means hopefully no one is gonna order the wrong thing *again*.  **Right?  I'm looking at you, Tom.  I mean, I totally want the same thing every time.  Come on.**
 
