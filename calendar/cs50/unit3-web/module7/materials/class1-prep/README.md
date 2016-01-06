@@ -2,6 +2,8 @@
 
 # Prep for Class 1
 
+Before coming to [Class 1](../class1), please complete the following tasks:
+
 ##### Lecture
 Task | Resource Type | Link | Notes
 -----|------|------|------
