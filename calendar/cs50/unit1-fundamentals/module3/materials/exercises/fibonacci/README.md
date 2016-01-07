@@ -1,8 +1,9 @@
 ##### Module 3
+[Back to Prep for Class 2](../../class2-prep)
 
 # Exercise: Fibonacci
 
-You may have heard of the [Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_number), a famous math thing. 
+You may have heard of the <a href="https://en.wikipedia.org/wiki/Fibonacci_number" target="_blank">Fibonacci Sequence</a>, a famous math thing. 
 
 The Fibonacci Sequence is an infinite series of integers, beginning with:
 
