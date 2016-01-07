@@ -1,4 +1,5 @@
 ##### Module 3
+[Go back to Prep for Class 1](../../class1-prep)
 
 # `return` statements halt execution
 
@@ -10,7 +11,7 @@ Here’s an example in action.
 
 Let’s say there is a group of people, and they all want to go see a show.  The show might be dangerous, so it’s only for ages 18 and up!  We could use a function that takes in an array of ages and checks if the group can get in; if anyone in the group is too young, the whole group is barred.  We could do it like this:
 
-```
+```c
 bool allOldEnough(int ages[], int numPeople)
 {
     for (int i = 0; i < numPeople; i++){
