@@ -1,4 +1,4 @@
-##### [Back to Prep for Class 1](../../class2-prep)
+##### [Back to Prep for Class 2](../../class2-prep)
 
 # Example: Recursion
 
