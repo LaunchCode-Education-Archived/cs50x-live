@@ -1,3 +1,6 @@
+##### Module 3
+[Back to Prep for Class 2](../../class2-prep)
+
 # Resource: Spread Out
 
 So far we've only been working with small programs in which all the source code lives together in a single file, 
@@ -16,7 +19,7 @@ I know! This is boring as heck! On the other hand, the fact that it’s boring i
 Here’s the start of a program to ask the user about their income, and tell them about their total taxes.
 
 taxprogram.c:
-```
+```c
 #include <cs50.h>
 #include <stdio.h>
 
@@ -105,7 +108,7 @@ What can we do to make our programming task easier? One thing we could do is bre
 In this example, we could pull out the functions for calculating tax amounts into new files:
 
 taxmath.h:
-```
+```c
 // This file contains prototypes for the math functions in our tax program
 
 float taxIncome(float income);
@@ -115,7 +118,7 @@ float taxPercent(float amount, float percent);
 ```
 
 taxmath.c:
-```
+```c
 #include <cs50.h>
 #include <stdio.h>
 #include "taxmath.h"
@@ -169,7 +172,7 @@ float taxPercent(float amount, float percent)
 ```
 
 Here’s the new taxprogram.c:
-```
+```c
 #include <cs50.h>
 #include <stdio.h>
 #include "taxprogram.h"
