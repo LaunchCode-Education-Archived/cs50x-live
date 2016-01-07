@@ -101,7 +101,7 @@ froshims/
 </html>
 ```
 #### froshims-1
-You will need the `bootstrap.min.css` stylesheet located <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/froshims/bootstrap/css/" target="_blank">here</a>. You should already have it, but if you did not download all of the source code you can follow the [instructions](#Froshims-Instructions) above.
+You will need the `bootstrap.min.css` stylesheet located <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/froshims/bootstrap/css/" target="_blank">here</a>. You should already have it, but if you did not download all of the source code you can follow the [instructions](#froshims-instructions) above.
 ```html
 <?php
 
