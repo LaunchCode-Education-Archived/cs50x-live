@@ -4,7 +4,7 @@
 
 ### Question 1
 We have an algorithm to find the largest number in an array.  Given an array, it looks at each entry of the array in order, keeping track of the largest number its seen so far.  It can show up in a program like this:
-```
+```c
 #include <cs50.h>
 #include <stdio.h>
 
@@ -35,7 +35,7 @@ int main(void)
 We have an algorithm that prints a square grid of ‘x's.  For a given integer ’n’, it prints ’n’ rows, each of which contains ’n’ copies of the character ‘x’.
 
 It could show up in a program like this:
-```
+```c
 #include <cs50.h>
 #include <stdio.h>
 
