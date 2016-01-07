@@ -1,4 +1,4 @@
-# Source Code
+# Module 2 Source Code
 You will find the source code for the follow-alongs that you will complete during Module 2.  We have provided links to all of the files for CS50, so you will have access to some other files that we have not included in our curriculum. We highly recommend that you try to complete them on your own before you look at the code.  
 
 <a href="http://cdn.cs50.net/2015/fall/lectures/2/m/src2m/" target="_blank"><b>Lecture: Week 2  Source Code</b></a>
