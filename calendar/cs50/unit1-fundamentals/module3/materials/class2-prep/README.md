@@ -21,8 +21,8 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=JovNemG-iu8" target="
 ##### Merge Sort
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-Read | Resource | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort" target="_blank">Lecture Notes: Week 3, continued / Merge Sort</a> | 
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=EeQ8pwjQxTM" target="_blank">Shorts: Merge Sort</a> | 
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort" target="_blank">Lecture Notes: Week 3, continued / Merge Sort</a> | 
+Watch | Shorts | <a href="https://www.youtube.com/watch?v=EeQ8pwjQxTM" target="_blank"> Merge Sort</a> | 
 
 ***
 
