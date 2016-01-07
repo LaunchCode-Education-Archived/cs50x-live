@@ -33,7 +33,7 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=9WsyLL6KVBY" target="
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#recursion" target="_blank">Week 4 / Recursion</a> |
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#sigma" target="_blank">Week 4 / Sigma</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide" target="_blank">Week 4 / IDE Debugger</a>
-Read | Resource | [Supplement: Recursion](../supplementary-resources/recursion) | 
+Read | Resource | [Supplement: Recursion](../resources/recursion) | 
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10" target="_blank">sigma-0</a> | 
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">sigma-1</a> | Afterwards, step through your program in the IDE Debugger, just like they did in class.
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=VrrnjYgDBEk" target="_blank">Doug's Playlist: Recursion</a> | TODO: leave this for next module?
