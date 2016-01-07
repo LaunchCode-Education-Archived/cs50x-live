@@ -36,3 +36,4 @@ Note that you can access the elements of a nested array using multiple brackets,
 
 Quiz: How would you get the first character of the second word, e.g. `'y'`?
 
+*You can grab a copy of these instructions from the CS50x Wiki <a href="../../../../../../..//helpful-resources/modules/module-3.md#class-1-studio-word-grid" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.
