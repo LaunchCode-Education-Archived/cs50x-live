@@ -101,7 +101,7 @@ froshims/
 </html>
 ```
 #### froshims-1
-You will need the `bootstrap.min.css` stylesheet located <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/froshims/bootstrap/css/" target="_blank">here</a>. You should already have it, but if you did not download all of the source code you can follow [these instructions](#Prep-for-Class-1).
+You will need the `bootstrap.min.css` stylesheet located <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/froshims/bootstrap/css/" target="_blank">here</a>. You should already have it, but if you did not download all of the source code you can follow the [instructions](#Froshims-Instructions) above.
 ```html
 <?php
 
@@ -290,7 +290,7 @@ You will need the `bootstrap.min.css` stylesheet located <a href="http://cdn.cs5
 ## Prep for Class 2
 
 ### MVC Instructions
-There will be multiple files for these follow-alongs and you can download the official source code to get all of the files.  Class 1 Prep will only need the froshims directory so you will copy the entire zip file and then delete the other files / folders that are not needed by running the following commands in your terminal:
+There will be multiple files for these follow-alongs and you can download the official source code to get all of the files.  Class 2 Prep will only need the `mvc` directory so you will copy the entire zip file and then delete the other files / folders that are not needed by running the following commands in your terminal:
 
 Download the source code zip file in the `module7/followalongs` directory.
 ```
@@ -302,7 +302,7 @@ Unzip and delete the file
 $ unzip src8m.zip 
 $ rm -f src8m.zip 
 ```
-Change into the `src8m` directory and list the contents.  You should have 2 directories ` mvc/`, and `quote/` as well as 1 php file named `counter.php`, `hello` and `return`.  You will delete all of the folders / files except for `froshims/`.
+Change into the `src8m` directory and list the contents.  You should have 2 directories ` mvc/`, and `quote/` as well as 1 php file named `counter.php`.  You will delete all of the folders / files except for `mvc/`.
 ```
 $ cd src8m
 $ ls
