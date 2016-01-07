@@ -1,4 +1,4 @@
-##### Module 3
+##### [Module 3](../..)
 
 # Class 2
 
@@ -18,5 +18,5 @@ Recursion is a tricky, but important concept. Today we will go over the necessar
 2. Studio: [Multiplication and Exponents](../studios/multiplication-exponent)
 
 ### Homework
-1. Continue working on <a href="TODO" target="_blank">Pset 3</a>
+1. Continue working on <a href="../problem-set" target="_blank">Pset 3</a>
 
