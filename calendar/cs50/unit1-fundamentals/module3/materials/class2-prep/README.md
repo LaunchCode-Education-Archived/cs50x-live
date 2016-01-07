@@ -14,7 +14,7 @@ Study | CS50 Study | <a href="https://study.cs50.net/loops?toc=loops,ascii,funct
 ##### Lecture
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=JovNemG-iu8" target="_blank">Lecture: Week 3, continued</a> | 
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=JovNemG-iu8" target="_blank"> Week 3, continued</a> | 
 
 ***
 
@@ -53,7 +53,7 @@ Study | CS50 Study | <a href="https://study.cs50.net/binary_search?toc=bubble_so
 ##### Compiling, Header Files
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#compiling" target="_blank">Lecture Notes: Week 3, continued / Compiling</a> | Read about Code Compilation, the process by which your computer turns the code you write into instructions the machine can execute
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#compiling" target="_blank">Week 3, continued / Compiling</a> | Read about Code Compilation, the process by which your computer turns the code you write into instructions the machine can execute
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=CSZLNYF4Klo" target="_blank"> Compilers</a> | Watch this short about compilers
 Watch | Shorts | <a href="http://www.youtube.com/watch?v=U3zCxnj2w8M" target="_blank"> Clang, Make</a> | Watch this short about Clang and Make, two tools used to manage the building and compilation of code projects
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=ED7QtgXDShY" target="_blank"> Libraries</a> | Watch this short about libraries
