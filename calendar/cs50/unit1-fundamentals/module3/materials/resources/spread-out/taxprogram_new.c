@@ -1,6 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
-#include "taxprogram.h"
+#include "taxmath.h"
 
 int main(void)
 {
