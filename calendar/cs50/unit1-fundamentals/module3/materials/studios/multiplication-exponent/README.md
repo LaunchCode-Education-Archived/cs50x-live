@@ -1,5 +1,5 @@
 ##### Module 3
-
+[Back to Class 2](../../class2)
 # Studio: Multiplication and Exponents
 
 In this studio, you will be writing code that performs multiplication and exponents recursively.
