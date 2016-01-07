@@ -1,4 +1,4 @@
-##### Module 3
+##### [Module 3](../..)
 
 # Class 1
 
@@ -10,5 +10,5 @@ Today we'll spend some time discussing one of the most important topics in compu
 * Studio: [Word Grid](../studios/word-grid)
 
 ### Homework
-1. [Class 2 Prep](https://github.com/Launch-Code/cs50x-live-2016/tree/master/calendar/cs50/unit1-fundamentals/module3/materials/class2-prep)
-2. Get Started on [Problem Set 3](TODO).
+1. [Class 2 Prep](../class2-prep)
+2. Get Started on [Problem Set 3](../problem-set).
