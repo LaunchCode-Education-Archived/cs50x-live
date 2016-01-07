@@ -175,7 +175,7 @@ Here’s the new taxprogram.c:
 ```c
 #include <cs50.h>
 #include <stdio.h>
-#include "taxprogram.h"
+#include "taxmath.h"
 
 int main(void)
 {
