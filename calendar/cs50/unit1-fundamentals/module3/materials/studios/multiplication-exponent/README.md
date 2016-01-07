@@ -40,3 +40,5 @@ Header files are referenced with the `#include` statement. So to include our hea
 You are now ready to use your multiplication function to compute exponents. Your solution should be recursive, so loops are still not allowed. Make sure to use your `mult` function to perform multiplication! Anywhere that you would normally use `*` should be replaced with a function call to `mult`.
 
 You should now be able to use `make` to run the provided test cases and check your work. Notice that for `expt`, the base (the first number) can be negative, but the exponent (the second number) cannot.
+
+*You can grab a copy of these instructions from the CS50x Wiki <a href="../../../../../../..//helpful-resources/modules/module-3.md#class-2-studio-multiplication-and-exponents" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.
