@@ -20,23 +20,23 @@ These show what functions are available to you and the libraries you must `#incl
 * <a href="https://reference.cs50.net" target="_blank">reference.cs50.net</a>
 * <a href="https://cs50.harvard.edu/resources/cppreference.com/" target="_blank">cs50.harvard.edu/resources/cppreference.com/</a>
 
-##### Vocabulary:
-command line: the line in Terminal on which you type commands, eg:<br>
-`jharvard:~/workspace $ `
 
-The `jharvard:~/workspace $ ` part, specifically, is called the "prompt".
+##### Review of `argc` and `argv[]`:
 
-The following command line shows "command line arguments" for running Caesar: `./caesar` and `13`:
+```
 `$ ./caesar 13`
+```
 
-##### `argc` and `argv[]`:
-In the above example, `argc == 2` because there are two command line arguments.<br>
-And, the array `argv[]` contains two string (`char *`) elements - the name of the program and the number - in the order they appear on the command line:
+In the above example, `argc == 2` because there are two command line arguments.
+
+
+And the array `argv[]` contains two string elements - the name of the program and the number - in the order they appear on the command line:
 ````
 argv[0] == "./caesar"
 argv[1] == "13"
 ````
-A string (or `char *`) is an array itself, containing `char` values, so:
+
+Remember that each string is an array itself (an array of `char`s). Thus:
 ````
 argv[0][0] == '.'
 argv[0][1] == '/'
@@ -47,7 +47,7 @@ argv[1][1] == '3'
 ````
 
 ##### Caesar:
-Key here (pun intended ;-) is the need to understand the relationship between a char, its integer value, and a position in the alphabet.
+The key here (pun intended ;-) is the need to understand the relationship between a char, its integer value, and a position in the alphabet.
 
 For example, the char 'A' has an ASCII (integer) value of 65, but its position in the alphabet would be 0 (in computer terms). 'B' is 65 ASCII and 1 alphabet, and so on.
 
