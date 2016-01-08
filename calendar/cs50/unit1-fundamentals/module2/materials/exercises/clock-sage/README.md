@@ -1,5 +1,5 @@
 ##### Module 2
-[Go back to Prep for Class 1](../../class1-prep)
+[Go back to Prep for Class 1](../../class1-prep#the-modulo-operator-)
 # Exercise: Clock Sage
 
 Use the modulo `%` operator to write a program that prompts the user for the current time, and an amount of hours in the future, and then "predicts" what time it will be in the future:
