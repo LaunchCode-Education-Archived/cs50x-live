@@ -32,8 +32,10 @@ Here are the components due for Problem Set 2:
 
 ##### Command-line Arguments: A Quick Review
 
+If a user enters a command in their terminal like this:
+
 ```
-`$ ./caesar 13`
+$ ./caesar 13
 ```
 
 In the above example, `argc == 2` because there are two command line arguments.
