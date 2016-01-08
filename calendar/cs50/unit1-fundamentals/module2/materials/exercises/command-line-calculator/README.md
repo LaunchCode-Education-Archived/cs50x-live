@@ -1,5 +1,5 @@
 ##### Module 2
-[Back to Prep for Class 2](../../class2-prep)
+[Back to Prep for Class 2](../../class2-prep#command-line-arguments)
 # Exercise: Command-line Calculator
 
 Let's practice using command line arguments by implementing a simple command line adder.
