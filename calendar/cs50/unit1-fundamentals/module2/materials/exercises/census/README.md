@@ -2,7 +2,7 @@
 [Go back to Prep for Class 1](../../class1-prep#functions)
 # Exercise: Census
 
-Take a look at [census-0.c](./census-0.c), which is a program that acts (sort of) like a government census taker. It basically just prompts the user for some basic info, and then echoes that info back to the console:
+In a file called [census-0.c](./census-0.c), we have written a program that acts (sort of) like a government census taker. It basically just prompts the user for some basic info, and then echoes that info back to the console:
 
 ```
 $ ./census-0
@@ -37,7 +37,7 @@ Email address (must be at least 2 characters long):
 ...
 ```
   
-If you look at the source-code for census-0.c, you might notice that it is **very** repetitive. For each "field", we have more or less the same code doing the same thing again and again:
+If you look at the source-code for [census-0.c](./census-0.c), you might notice that it is **very** repetitive. For each "field", we have more or less the same code doing the same thing again and again:
 * prompt the user for their info
 * call `GetString()`
 * check whether their response was valid
