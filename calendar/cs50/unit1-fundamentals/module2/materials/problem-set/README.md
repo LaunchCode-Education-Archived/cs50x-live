@@ -47,7 +47,7 @@ argv[0] == "./caesar"
 argv[1] == "13"
 ````
 
-Remember that each string is an array itself (an array of `char`s). Thus:
+Further, temember that each `string` is an `array` itself (an array of `char`s). Thus:
 ````
 argv[0][0] == '.'
 argv[0][1] == '/'
