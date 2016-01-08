@@ -5,7 +5,7 @@ int main ()
 {
 
   // validation: make sure they provided a CL argument
-  if (argc < 1) 
+  if (argc < 2) 
   {
     printf("Please provide one integer.\n");
     printf("usage: previous n\n");
