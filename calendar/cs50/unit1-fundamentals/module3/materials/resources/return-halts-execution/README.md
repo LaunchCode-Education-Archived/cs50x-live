@@ -1,5 +1,5 @@
 ##### Module 3
-[Go back to Prep for Class 1](../../class1-prep)
+[Go back to Prep for Class 1](../../class1-prep#more-practice-with-functions)
 
 # `return` statements halt execution
 
