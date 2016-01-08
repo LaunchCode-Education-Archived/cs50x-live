@@ -9,7 +9,7 @@ We want the user to tell us:
 
 Then prompt the user for each age one-by-one.  After that, for each person, we’ll output if they can vote or not (if they’re at least 18 or not).
 
-Basic template code is provided in [canyouvote.c](https://github.com/Launch-Code/cs50x-live-2016/blob/master/calendar/cs50/unit1-fundamentals/module2/materials/exercises/array-read/canyouvote.c)
+Basic template code is provided in [canyouvote.c](./canyouvote.c)
 
 This exercise is very similar to the <a href="https://www.youtube.com/watch?v=dYVU9nFYybU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">ages</a> walkthrough; if you need help, look there first!
 
