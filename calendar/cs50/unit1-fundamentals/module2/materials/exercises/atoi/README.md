@@ -1,7 +1,7 @@
 ##### Module 2
 [Back to Prep for Class 2](../../class2-prep#command-line-arguments)
 
-# Exercise: atoi
+# Exercise: Previous
 
 One tricky thing about command-line arguments is that our program always receives the arguments as `string`s. Even a program like this:
 
@@ -14,7 +14,7 @@ still receives that `2016` as a string: `"2016"`. Sure, it happens to be text in
 
 But that's no good. We want to be able to treat that number as an actual number, like an `int`, so we can do numbery things with it, like decide how many digits of Pi to calculate.
 
-So how can we recover an integer that is "trapped inside" a string? The `atoi` function does just that.
+So how can we recover an integer that is "trapped inside" a string? There is a function called `atoi` which does just that!
 
 `atoi` takes a `string` like `"67"` as input, and (attempts to) return the integer value trapped inside that string. For example:
 * `atoi("67")` is `67`
