@@ -1,5 +1,5 @@
 ##### Module 3
-[Back to Prep for Class 2](../../class2-prep)
+[Back to Prep for Class 2](../../class2-prep#recursion)
 
 # Exercise: Fibonacci
 
