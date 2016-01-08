@@ -20,10 +20,6 @@ These show what functions are available to you and the libraries you must `#incl
 * <a href="https://reference.cs50.net" target="_blank">reference.cs50.net</a>
 * <a href="https://cs50.harvard.edu/resources/cppreference.com/" target="_blank">cs50.harvard.edu/resources/cppreference.com/</a>
 
-CS50's Study resource provides more concise examples and explanations of how to do certain tasks. It also has practice problems for you to solve (eg, ASCII demonstrates the relationships between the char 'A' and the int 65, and it gives you a sample conversion problem to work on):
-
-* <a href="https://study.cs50.net" target="_blank">study.cs50.net</a>
-
 ##### Vocabulary:
 command line: the line in Terminal on which you type commands, eg:<br>
 `jharvard:~/workspace $ `
@@ -31,7 +27,7 @@ command line: the line in Terminal on which you type commands, eg:<br>
 The `jharvard:~/workspace $ ` part, specifically, is called the "prompt".
 
 The following command line shows "command line arguments" for running Caesar: `./caesar` and `13`:
-`jharvard:~/workspace $ ./caesar 13`
+`$ ./caesar 13`
 
 ##### `argc` and `argv[]`:
 In the above example, `argc == 2` because there are two command line arguments.<br>
