@@ -1,6 +1,6 @@
 ##### Module 2
 
-[Go back to Class 1 Prep](../../class2-prep)
+[Go back to Class 1 Prep](../../class2-prep#magic-numbers-global-variables)
 
 # Resource: Magic Numbers
 
