@@ -1,3 +1,3 @@
-##### Module 5
+##### [Module 5](../../)
 
 # Class 2
