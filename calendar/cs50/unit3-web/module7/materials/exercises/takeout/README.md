@@ -1,5 +1,5 @@
 ##### Module 7
-[Back to Prep for Class 1](../../class1-prep)
+[Back to Prep for Class 1](../../class1-prep#php-syntax)
 # Exercise: Getting Takeout
 
 Phew, so much hard work, now I'm hungry.  Write a program to help us order takeout food by helping us take down orders.
@@ -13,9 +13,9 @@ Your program should do the following:
 After this is all done, output each person's name, then their order.  This double-checking step means hopefully no one is gonna order the wrong thing *again*.  **Right?  I'm looking at you, Tom.  I mean, I totally want the same thing every time.  Come on.**
 
 How should we do this?  Some hints:
-- if you want help for taking input from the user, try looking [here](https://youtu.be/abUuRqYUUaY?t=29m50s)
-- if you want to know how to use a php loop with an indexing variable, look [here](http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#php)
-- you should use an associative array to store the data!  This is a good opportunity to learn how to use this important data structure.  For syntax help on associative arrays, look [here](http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#php) (the same set of notes as the previous link)
+- if you want help for taking input from the user, try looking <a href="https://youtu.be/abUuRqYUUaY?t=29m50s" target="_blank">here</a>
+- if you want to know how to use a php loop with an indexing variable, look <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#php" target="_blank">here</a>
+- you should use an associative array to store the data!  This is a good opportunity to learn how to use this important data structure.  For syntax help on associative arrays, look <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#php" target="_blank">here</a> (the same set of notes as the previous link)
 
 example run:
 ```
