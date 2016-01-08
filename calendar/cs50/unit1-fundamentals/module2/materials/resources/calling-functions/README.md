@@ -1,5 +1,5 @@
 ##### Module 2
-[Return to Prep for Class 1](../../class1-prep)
+[Return to Prep for Class 1](../../class1-prep#functions)
 
 # Resource: Calling Functions
 
