@@ -1,5 +1,5 @@
 ##### Module 2
-[Go to back to Prep for Class 1](../../class1-prep)
+[Go to back to Prep for Class 1](../../class1-prep#functions)
 # Exercise: Small Talk
 
 Write a program that engages the user in a little idle chit-chat. You should prompt the user with a small-talky
