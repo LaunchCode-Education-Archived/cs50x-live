@@ -52,9 +52,10 @@ int main(void)
 string promptAndValidate(string fieldname)
 {
     string answer = "";
-    while( strlen(answer) < 2 ) 
+    int minimumlength = 2;
+    while( strlen(answer) < minimumlength ) 
     {
-        printf("%s (must be at least 2 characters long):\n", fieldname);
+        printf("%s (must be at least %i characters long):\n", answer, minimumlength);
         answer = GetString();
     }  
     return answer;
