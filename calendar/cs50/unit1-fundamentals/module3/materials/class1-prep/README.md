@@ -5,14 +5,14 @@
 Before coming to [Class 1](../class1), please complete the following tasks:
 
 ##### Module 1 Review (plus Arrays)
-Task | Resource | Link | Instructions
+Task | Resource Type | Link | Instructions
 -----|------|----------|------|-------------
 Study | CS50 Study | <a href="https://study.cs50.net/loops?toc=conditions,math,binary,arrays" target= "_blank">conditions, math, binary, arrays</a> | Continue sharpening your skills on these concepts from the previous 2 modules. Be sure to do the exercises at the bottom of each section.
 
 ***
 
 ##### More Practice with Functions
-Task | Resource | Link | Instructions
+Task | Resource Type | Link | Instructions
 -----|------|----------|------|-------------
 | Do | Exercise | [Message](../exercises/message) | Practice writing functions by finishing this program to send messages from one user to another.
 | Read | Resource | [Return Halts Execution](../resources/return-halts-execution) | Read about how the `return` statement changes flow through the code by "halting execution" of functions.
@@ -20,14 +20,14 @@ Task | Resource | Link | Instructions
 ***
 
 ##### Lecture
-Task | Resource | Link | Instructions
+Task | Resource Type | Link | Instructions
 -----|------|----------|------|-------------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=IEOO5UToo6A" target= "_blank">Week 3</a> | 
 
 ***
 
 ##### Algorithms for Sorting
-Task | Resource | Link | Instructions
+Task | Resource Type | Link | Instructions
 -----|------|----------|------|-------------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#sorting_algorithms" target= "_blank">Week 3 / Sorting Algorithms</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=Ui97-_n5xjo&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=4" target= "_blank">Bubble Sort</a> |
@@ -43,7 +43,7 @@ Do | Exercise | [Insertion Sort](../exercises/insertion-sort)
 ***
 
 ##### Algorithmic Efficiency
-Task | Resource | Link | Instructions
+Task | Resource Type | Link | Instructions
 -----|------|------|-------------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#algorithmic_efficiency" target= "_blank">Week 3 / Algorithmic Efficiency</a>
 Watch Video | Doug's Playlist | <a href="https://www.youtube.com/watch?v=IM9sHGlYV5A&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=2" target= "_blank">Computational Complexity</a>
@@ -53,7 +53,7 @@ Do | Exercise | [Algorithmic Efficiency Quiz](../exercises/algorithmic-efficienc
 ***
 
 ##### Alogrithms for Searching
-Task | Resource | Link | Instructions
+Task | Resource Type | Link | Instructions
 -----|----------|------|-------------
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=vZWfKBdSgXI&index=7&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T" target= "_blank">Linear Search</a> | Learn about our first strategy for searching for a value in an array, "Linear Search"
 Watch | Short | <a href="https://www.youtube.com/watch?v=CX2CYIJLwfg&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE&index=5" target= "_blank">Linear Search</a> | Another perspective on Linear Search
