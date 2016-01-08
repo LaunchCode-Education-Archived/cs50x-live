@@ -30,7 +30,7 @@ Here are the components due for Problem Set 2:
   * <a href="https://cs50.harvard.edu/resources/cppreference.com/" target="_blank">cs50.harvard.edu/resources/cppreference.com/</a>
 
 
-##### A Quick of `argc` and `argv[]`:
+##### Command-line Arguments: A Quick Review
 
 ```
 `$ ./caesar 13`
