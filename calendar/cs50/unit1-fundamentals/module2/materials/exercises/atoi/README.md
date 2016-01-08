@@ -1,5 +1,5 @@
 ##### Module 2
-[Back to Prep for Class 2](../../class2-prep)
+[Back to Prep for Class 2](../../class2-prep#command-line-arguments)
 
 TODO make resource explaining motivation and giving examples. Then provide this exercise with broken example code. 
 
