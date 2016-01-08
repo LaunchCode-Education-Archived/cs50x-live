@@ -29,8 +29,7 @@ In [previous.c](./previous.c), we have attempted to write a program that receive
 It should behave like this:
 
 ```
-$ ./previous
-Please enter an integer: 67
+$ ./previous 67
 The previous number is 66
 ```
 
