@@ -36,3 +36,5 @@ The previous number is 66
 Unfortunately, we forgot to convert our argument to an `int` using `atoi`. That's your job! 
 
 The `<string.h>` library is where `atoi` is defined, so don't forget to include it at the top of the file.
+
+FYI, <a href="http://stackoverflow.com/questions/2909768/where-did-the-name-atoi-come-from" target="_blank">Where did the name "atoi" come from?</a>
