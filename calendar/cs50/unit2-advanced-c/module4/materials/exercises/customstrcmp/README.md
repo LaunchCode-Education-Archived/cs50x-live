@@ -1,5 +1,5 @@
 ##### Module 4
-[Back to Prep for Class 1](../../class1-prep)
+[Back to Prep for Class 1](../../class1-prep#pointers)
 # Exercise: Custom strcmp
 
 To practice using pointers, we’ll be implementing our own strcmp function.
