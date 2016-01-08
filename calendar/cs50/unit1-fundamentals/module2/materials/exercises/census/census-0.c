@@ -9,7 +9,7 @@ int main(void)
     
     // get first name and make sure it's valid
     string firstname = "";
-    while( strlen(firstname) < 1 ) 
+    while( strlen(firstname) < 2 ) 
     {
         printf("First name (must be at least 2 characters long):\n");
         firstname = GetString();
@@ -17,7 +17,7 @@ int main(void)
     
     // get last name and make sure it's valid
     string lastname = "";
-    while( strlen(lastname) < 1 ) 
+    while( strlen(lastname) < 2 ) 
     {
         printf("First name (must be at least one 2 characters long):\n");
         lastname = GetString();
@@ -25,7 +25,7 @@ int main(void)
     
     // get state and make sure it's valid
     string state = "";
-    while( strlen(state) < 1 ) 
+    while( strlen(state) < 2 ) 
     {
         printf("State of residence (must be at least 2 characters long):\n");
         state = GetString();
@@ -33,7 +33,7 @@ int main(void)
     
     // get email and make sure it's valid
     string email = "";
-    while( strlen(email) < 1 ) 
+    while( strlen(email) < 2 ) 
     {
         printf("Email address (must be at least 2 characters long):\n");
         email = GetString();
