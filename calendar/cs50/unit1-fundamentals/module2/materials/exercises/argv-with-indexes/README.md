@@ -1,5 +1,5 @@
 ##### Module 2
-[Back to Prep for Class 2](../../class2-prep)
+[Back to Prep for Class 2](../../class2-prep#command-line-arguments)
 # Exercise: Argv indexing
 
 We've now been introduced to the idea that the variable `argv` is an array of `string`s, and represents the command line arguments passed to a program.
