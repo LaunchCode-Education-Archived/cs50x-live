@@ -1,5 +1,5 @@
 ##### Module 2
-[Back to Prep for Class 1](../../class1-prep)
+[Back to Prep for Class 1](../../class1-prep#scope)
 # Resource: Variable Scope
 
 Let’s look at another example of a bug due to variable scope. As we just learned, a variable’s “scope” refers to contexts in which a variable can be accessed.  Take a look at the following code:
