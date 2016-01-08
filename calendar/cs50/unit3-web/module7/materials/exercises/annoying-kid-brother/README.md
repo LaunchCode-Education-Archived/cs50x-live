@@ -1,5 +1,5 @@
 ##### Module 7
-[Back to Prep for Class 1](../../class1-prep)
+[Back to Prep for Class 1](../../class1-prep#php-syntax)
 # Exercise: Annoying Kid Brother
 
 Unlike in C, arrays in PHP can be dynamically resized. PHP provides two functions for arrays, `array_push` and `array_pop`, that you will find useful. Let’s practice using them!
