@@ -6,7 +6,7 @@ int main ()
 
   if (argc != 1) 
   {
-    printf("Please provide one integer.\n")
+    printf("Please provide one integer.\n");
     printf("usage: previous n\n");
   }
   
