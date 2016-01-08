@@ -1,15 +1,15 @@
-##### Module 5
+##### [Module 5](../../)
 
 # Class 1 Prep
 
 ##### Lecture:
-Task | Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=RsIP1gRneOs" target="_blank">Week 5</a> |
 
 
 ##### More on Pointers, Memory
-Task | Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=malloc" target="_blank">Malloc</a> | Maybe module 4?
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#more_on_pointers" target="_blank">Week 5 / More On Pointers</a> | need to malloc or youll get a seg fault
@@ -18,7 +18,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=l1sfaAyt6a
 Do | Exercise | | TODO exc: require them to implement a pass-by-ref function.
 
 ##### A few pitfalls with memory
-Task | Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#memory_and_valgrind" target="_blank">Week 5 / Memory and Valgrind</a> | example use of valgrind to find a leak and an invalid write
 Watch | Short | <a href="https://www.youtube.com/watch?v=fvTsFjDuag8" target="_blank">Valgrind</a>
@@ -30,7 +30,7 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=L02X-XNT5No" target="_b
 Do | Exercise | | TODO exc: make them step through the library functions in debugger
 
 ##### Linked Lists
-Task | Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#linked_lists" target="_blank">Week 5 / Linked Lists</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#linked_lists_continued" target="_blank">Week 5, continued / Linked Lists, continued</a> | recap on LLs pros and cons
@@ -40,7 +40,7 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=ZoG2hOIoTnA&i
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=HmAEzp1taIE&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh&index=3" target="_blank">Doubly-Linked Lists</a>
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=linked_lists" target="_blank">Linked Lists</a> |
 Read | Supplement | |  TODO res: custom implementation of GetString that uses a linked list of chars, therefore doesnt need to realloc space in the same way
-Do | Exc |  | TOD exc: make the above more efficient by inserting each new char at the beginning of the list. But this means that in order to create the String object you have to iterate backwards over the list, which means you need to make it Doubly-Linked. 
+Do | Exercise |  | TOD exc: make the above more efficient by inserting each new char at the beginning of the list. But this means that in order to create the String object you have to iterate backwards over the list, which means you need to make it Doubly-Linked. 
 
 Other linked list ideas:
 * implement bubble sort
@@ -49,3 +49,4 @@ Other linked list ideas:
 * implement getstring
 * LOTR
 
+### Now you're ready for [Class 1](../class1)
