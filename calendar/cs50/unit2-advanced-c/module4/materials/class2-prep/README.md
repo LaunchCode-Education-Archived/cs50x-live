@@ -44,3 +44,5 @@ Task | Resource Type | Link | Instructions
 -----|------|------|------
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=io,pointers,malloc" target="_blank">file i/o, pointers, malloc</a> |
 Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=hgJqcVcYCXU" target="_blank">Week 4</a> |
+
+### Now you're ready for [Class 2](../class2)
