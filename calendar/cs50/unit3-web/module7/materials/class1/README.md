@@ -12,4 +12,4 @@ Before coming to class please complete [Class 1 Prep](../class1-prep)
   * [Mult Table](../studios/mult-table)
 
 ### Homework
-1. [Prep](../class2-prep) for Class 2
+1. [Prep for Class 2](../class2-prep) 
