@@ -1,6 +1,6 @@
 ##### Module 2
 
-[Back to Class 2 Prep](../../class2-prep)
+[Back to Class 2 Prep](../../class2-prep#strings-under-the-hood)
 
 # Resource: Custom strlen
 
