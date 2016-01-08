@@ -41,7 +41,7 @@ $ ./caesar 13
 In the above example, `argc == 2` because there are two command line arguments.
 
 
-And the array `argv[]` contains two string elements - the name of the program and the number - in the order they appear on the command line:
+And the array `argv[]` contains those two arguments as string elements - one for the name of the program and one for the number - in the same order as they appear on the command line:
 ````
 argv[0] == "./caesar"
 argv[1] == "13"
