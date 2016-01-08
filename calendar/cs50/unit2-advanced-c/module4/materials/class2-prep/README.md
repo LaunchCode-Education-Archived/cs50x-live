@@ -2,6 +2,8 @@
 
 # Class 2 Prep
 
+Before coming to [Class 2](../class2), please complete the following tasks:
+
 ##### Reinforcement on Pointers, malloc
 Task | Resource Type | Link | Instructions
 -----|------|------|------
