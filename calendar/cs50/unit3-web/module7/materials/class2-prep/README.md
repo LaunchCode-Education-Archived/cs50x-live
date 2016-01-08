@@ -4,7 +4,7 @@
 
 
 ##### Lecture
-Task | Resource Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://youtu.be/rJeP65u84ec?t=1045" target="_blank">Week 8</a> | Starts at 17:25
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=yoDrhOZCKWo" target="_blank">Week 8, continued</a>
@@ -12,7 +12,7 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=yoDrhOZCKWo" target="
 ***
 
 ##### MVC
-Task | Resource Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=XdCxfJki4t4&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av&index=3" target="_blank">MVC</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#mvc" target="_blank">Week 8 / MVC</a> 
@@ -29,7 +29,7 @@ Study | CS50 Study | <a href="https://study.cs50.net/mvc?toc=mvc" target="_blank
 ***
 
 ##### SQL
-Task | Resource Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=BPOH5WLf3yM&index=4&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av" target="_blank">SQL</a> | Doug talks about databases and SQL, bushing on all these topics: phpmyadmin, the SQL data types, primary keys, the basic SQL query commands: INSERT, SELECT, UPDATE, and DELETE, selecting with JOIN, and the `query` funciton in php
 Watch | Short | <a href="https://www.youtube.com/watch?v=G58ujNjWEJY&index=44&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">SQL</a> | Christopher goes over the main SQL commands using delicious cupcakes.
@@ -42,8 +42,8 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes
 ***
 
 ##### TBD
-Task | Resource Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 8</a> | TODO Move to Module 8
 
-
+### Now you're ready for [Class 2](../class2)
