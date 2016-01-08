@@ -1,5 +1,5 @@
 ##### Module 2
-[Back to Prep for Class 1](../../class1-prep)
+[Back to Prep for Class 1](../../class1-prep#functions)
 # Resource: Writing Your Own Functions
 
 Up until now, we’ve been making use of functions provided in the cs50 library to do things like read in `string`s and `char`s from our programs’ users, and functions like `strlen` to get the length of a string.  These functions had to come from somewhere: they were written by the people of cs50 and put together into a library for us to use.
