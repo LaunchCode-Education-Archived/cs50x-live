@@ -16,7 +16,7 @@ There are a couple extra shorts that you may find useful to watch:
 
 Start using CS50’s reference tools, if you haven't already!
 
-These show what functions are available to you and the libraries to #include to use them (eg, ctype.h is required to use the toupper() function):
+These show what functions are available to you and the libraries you must `#include` in order to use them (e.g., `<ctype.h>` is required to use the `toupper()` function):
 * <a href="https://reference.cs50.net" target="_blank">reference.cs50.net</a>
 * <a href="https://cs50.harvard.edu/resources/cppreference.com/" target="_blank">cs50.harvard.edu/resources/cppreference.com/</a>
 
