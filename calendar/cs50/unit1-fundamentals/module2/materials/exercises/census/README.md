@@ -37,6 +37,11 @@ Email address (must be at least 2 characters long):
 ...
 ```
   
-Notice lines TODO.  
-This loop capitalizes the first letter in each word passed to it.  A similar loop is used again for last name...and then again for state. Do you see it?  This is an opportunity to make your code more eloquent! Instead of repeating this code three times, use a FUNCTION.  Notice that there is a function above 'main' called 'capitalize'.  This will do the same work as all those redundant loops.  Your job is to replace each loop in `main` with a call to `capitalize`.
+If you look at the source-code for census.c, you might notice that it is **very** repetitive. As you might guess, we did a bunch of copy-pasting, and in fact, all that copy-pasting led to a bug on line 22! We accidentally prompt for "First name" again, even though, by that point, we are supposed to be asking for the user's last name:
+```c
+22. printf("First name (must be at least one 2 characters long):\n");
+23. lastname = GetString();
+```
+
+This is a great opportunity to make our code more eloquent! That's where you come in. Instead of repeating the same code block 4 times, let's use a function.  Notice that there is a function above 'main' called 'capitalize'.  This will do the same work as all those redundant loops.  Your job is to replace each loop in `main` with a call to `capitalize`.
   
