@@ -1,5 +1,5 @@
 ##### Module 2
-[Back to Prep for Class 2](../../class2-prep)
+[Back to Prep for Class 2](../../class2-prep#arrays)
 # Resource: Array Basics
 
 Arrays are a data structure for storing a collection of values. For example:
