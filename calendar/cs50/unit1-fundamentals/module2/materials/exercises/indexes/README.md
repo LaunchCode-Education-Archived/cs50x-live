@@ -1,5 +1,5 @@
 ##### Module 2
-[Back to Prep for Class 1](../../class1-prep)
+[Back to Prep for Class 1](../../class1-prep#strings)
 # Exercise: String with Indexes
 
 Write a program that receives a string from the user, and then loops over the string and prints each character
