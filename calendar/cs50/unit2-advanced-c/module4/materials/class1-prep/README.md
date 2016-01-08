@@ -35,7 +35,7 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=yOdd3uYC--A&l
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=jE_bs-QNj3c&index=2&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">compare-1</a> | comparing strings (fixed)
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=1PoFw5_p0xk&index=6&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">pointers</a> | print str one char at a time using pointers
 Study | CS50 Study | <a href="https://study.cs50.net/pointers" target="_blank">pointers</a>
-Do | Exercise | [Custom strcmp](./materials/exercises/custom-strcmp) | Practice using pointers by implementing your own version of the `strcmp` function
+Do | Exercise | [Custom strcmp](../exercises/customstrcmp) | Practice using pointers by implementing your own version of the `strcmp` function
 Watch | Short | <a href="https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4" target="_blank">Pointers</a> | prereqs: dereferencing, malloc
 Watch | Section | <a href="https://youtu.be/SppBaGROtX0?t=370" target="_blank">Jason Hirschorn on Pointers</a> | really good
 
