@@ -2,20 +2,39 @@
 [Go back to Prep for Class 1](../../class1-prep#functions)
 # Exercise: Census
 
-Take a look at [census.c](./census.c), which is a program that acts (sort of) like a government census taker. It simply prompts the user for some citizens. For each citizen, the user must enter a name and a US state. The program then echoes that information back to the console, making sure to capitalize the first letter of each word.
+Take a look at [census.c](./census.c), which is a program that acts (sort of) like a government census taker. It basically just prompts the user for some basic info, and then echoes that info back to the console:
 
 ```
 $ ./census
-How many citizens? 2
-First name: henry
-Last name: thoreau
-State of residence: massachusetts
-First name: mark
-Last name: zuckerberg
-State of residence: alaska
-Thanks! Now we can make sure the following people paid their taxes:
-Henry Thoreau from Massachusetts
-Mark Zuckerberg from Alaska
+Hello, thank you for signing up for: The United States
+I'll need to get some info from you please...
+
+First name (must be at least 2 characters long):
+Henry
+Last name (must be at least one 2 characters long):
+Thoreau
+State of residence (must be at least 2 characters long):
+Massachusetts
+Email address (must be at least 2 characters long):
+hdt@transcendentalists.org
+
+Great thanks, lemme just enter that into my system here...
+Henry Thoreau from Massachusetts, at hdt@transcendentalists.org
+Excellent! Please pay your taxes in April, or you'll be hearing from us (check your spam folder).
+```
+
+It also performs some (very weak) validation on the user input. It will continually re-prompt for a given field until receiving a response that is at least 2 characters long:
+
+```
+...
+State of residence (must be at least 2 characters long):
+M
+State of residence (must be at least 2 characters long):
+x
+State of residence (must be at least 2 characters long):
+jabberwocky
+Email address (must be at least 2 characters long):
+...
 ```
   
 Notice lines TODO.  
