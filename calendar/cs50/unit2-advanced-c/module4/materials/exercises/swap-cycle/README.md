@@ -1,6 +1,6 @@
 ##### Module 4
 
-[Back to Class 1 Prep](../../class1-prep)
+[Back to Class 1 Prep](../../class1-prep#malloc)
 
 # Exercise: Swap Cycle
 
