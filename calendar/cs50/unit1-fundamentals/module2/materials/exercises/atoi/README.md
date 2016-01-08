@@ -10,7 +10,7 @@ $ pidigits 2016
 The 2016th digit of Pi is: 9
 ```
 
-still receives that `2016` as a string: `"2016"`. Sure, it happens to be text in which every character is numeric. But as far as the compiler is concerned, as string like `"2016"` is no different from any other string like `"puppies"` or `"  ##\n ###\n####"`.
+still receives that `2016` as a string: `"2016"`. Sure, it happens to be text in which every character is numeric. But as far as the compiler is concerned, as string like `"2016"` is no different from any other string like `"puppies"` or `"Pyramids of Giza:\n  ##\n ###\n####"`.
 
 `atoi` takes a `string` like `"67"` as input, and tries to return the integer value "trapped insde" that string. For example:
 * `atoi("67")` is 67
