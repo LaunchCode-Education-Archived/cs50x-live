@@ -3,19 +3,19 @@
 # Class 2 Prep
 
 ##### Reinforcement on Pointers, malloc
-Task | Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=pointers,malloc" target="_blank">pointers, malloc</a> | If you still feel fuzzy on this stuff, that's par for the course. It's going to take time for everything to sink in. Keep your head up!
 
 ##### Lecture:
 
-Task | Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
  Watch  | Lecture | <a href="http://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=0" target="_blank">Week 4, continued</a> |  We already watched the second half, so you can stop after 25 minutes (but you may find a re-watch to be beneficial in this case).
 
 ##### Files, Hex
 
-Task | Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#files_headers_and_hex" target="_blank">Week 4, continued / Files, Headers and Hex</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=nrFHGtGdOzA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Hexedecimal</a>
@@ -27,20 +27,20 @@ Do | Exercise | [Restaurant Menu](../exercises/fileread) | Implement a menu disp
 
 ##### Structs
 
-Task | Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Nodes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#structs" target="_blank">Week 4, continued / Structs</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=6RLxPdZ59y0&index=4&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Structs</a> | pointers around 5:00, sizeof, accessing fields with `->` operator
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=wgv4xH_tVgA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=5" target="_blank">Defining Custom Types</a> | typedef
 Watch | Short | <a href="https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Structs</a> | prereq `char*`; goes into recursive struct definitions like linked lists, and then talks alot about pointers
-Watch | Walkthrough | <a href="https://www.youtube.com/watch?v=yMvRqKmbRm4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=12" target="_blank">structs-0</a> | struct for a "student" object  
-Watch | Walkthrough | <a href="https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">stucts-1</a> | student structs written to csv file
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=yMvRqKmbRm4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=12" target="_blank">structs-0</a> | struct for a "student" object  
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">stucts-1</a> | student structs written to csv file
 Do | Exercise | | TODO exc : something with struXX
 TODO explain motivation for structs
 
 **Review**
 
-Task | Type | Link | Notes
+Task | Resource Type | Link | Instructions
 -----|------|------|------
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=io,pointers,malloc" target="_blank">file i/o, pointers, malloc</a> |
 Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=hgJqcVcYCXU" target="_blank">Week 4</a> |
