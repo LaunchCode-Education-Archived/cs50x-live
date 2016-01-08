@@ -1,11 +1,16 @@
 ##### Module 2
 [Back to Prep for Class 2](../../class2-prep#command-line-arguments)
 
-TODO make resource explaining motivation and giving examples. Then provide this exercise with broken example code. 
-
 # Exercise: atoi
 
-In this exercise, you will use the standard library's `atoi` function to print an integer passed in as a string. 
+One tricky thing about command-line arguments is that our program always receives the arguments as `string`s. Even a program like this:
+
+```
+$ pidigits 2016
+The 2016th digit of Pi is: 9
+```
+
+still receives that `2016` as a string: `"2016"`. Sure, it happens to be text in which every character is numeric. But as far as the compiler is concerned, as string like `"2016"` is no different from any other string like `"puppies"` or `"  ##\n ###\n####"`.
 
 `atoi` takes a `string` like `"67"` as input, and tries to return the integer value "trapped insde" that string. For example:
 * `atoi("67")` is 67
