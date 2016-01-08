@@ -53,4 +53,4 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&lis
 Do | Exercise | [Swap Cycle](../exercises/swap-cycle) | TODO exc: make them implement a function like `swap`, but with 3 variables instead of 2, in which `y` takes the value from `x`, `z` from `y` and `x` from `z`.
 
 
-
+### Now you're ready for [Class 1](../class1)
