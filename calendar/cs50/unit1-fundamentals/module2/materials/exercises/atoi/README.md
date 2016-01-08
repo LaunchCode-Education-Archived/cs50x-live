@@ -24,27 +24,16 @@ So how can we recover an integer that is "trapped inside" a string? The `atoi` f
 
 Notice that you must provide a string that is totally unamiguously an integer, otherwise you get back `0` as a "sentinal value" representing "Hey I dont know how to interpret this string you gave me."
 
-In [atoi.c](./atoi.c), we have attempted to write a program that
+In [previous.c](./atoi.c), we have attempted to write a program that receives an integer from the command-line, and then reports the number that is 1 less.
 
 It should behave like this:
 
 ```
-$ ./atoi
-Please enter a number: 67
-The next number is 68
+$ ./previous
+Please enter an integer: 67
+The previous number is 66
 ```
 
+Unfortunately, we forgot to convert our argument to an `int` using `atoi`. That's your job! 
 
-Fix the code below:
-
-```c
-#include<cs50.h>
-#include<stdio.h>
-
-int main ()
-{
-	string input = GetString("Please enter a number:");
-	
-	printf ("The next number is %i\n", input + 1);
-}
-```
+The `<string.h>` library is where `atoi` is defined, so don't forget to include it at the top of the file.
