@@ -1,5 +1,5 @@
 ##### Module 3
-[Back to Prep for Class 1](../../class1-prep)
+[Back to Prep for Class 1](../../class1-prep#alogrithms-for-searching)
 # Exercise: Searching Algorithms
 
 ### Question 1:
