@@ -37,7 +37,7 @@ Email address (must be at least 2 characters long):
 ...
 ```
   
-If you look at the source-code for census.c, you might notice that it is **very** repetitive. For each "field", we have more or less the same code doing the same thing again and again:
+If you look at the source-code for census-0.c, you might notice that it is **very** repetitive. For each "field", we have more or less the same code doing the same thing again and again:
 * prompt the user for their info
 * call `GetString()`
 * check whether their response was valid
