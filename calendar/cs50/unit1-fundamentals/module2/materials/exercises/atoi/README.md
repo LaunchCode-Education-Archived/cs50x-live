@@ -24,7 +24,7 @@ So how can we recover an integer that is "trapped inside" a string? There is a f
 
 Notice that you must provide a string that is totally unamiguously an integer, otherwise you get back `0` as a "sentinal value" representing "Hey I dont know how to interpret this string you gave me."
 
-In [previous.c](./atoi.c), we have attempted to write a program that receives an integer from the command-line, and then reports the number that is 1 less.
+In [previous.c](./previous.c), we have attempted to write a program that receives an integer from the command-line, and then reports the number that is 1 less.
 
 It should behave like this:
 
