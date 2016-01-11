@@ -8,7 +8,7 @@ Just as they could write functions and package them up for us, we can write func
 
 ## Why write your own functions?
 
-Why would we do this?  There are two main reasons: it can save us time when we’re first writing code, and also save us time when we have to change or debug it.
+Why would we do this?  There are two main reasons: it can save us from writing repeitive code, and also save us time when we have to change or debug it.
 
 As an example of the first point, we might write a program that takes in three strings, and outputs the lengths of each.  Without using functions, we could do this with loops:
 
@@ -78,11 +78,11 @@ printf(“String three has %i characters.\n”, lengthThree);
 
 This saved us a considerable amount of writing, and as these little routines get more and more complicated, the time you save by putting them in functions instead of rewriting them over and over just gets bigger and bigger.
 
-As an added benefit, the resulting code is far easier to read: as long as we know that “strlen” calculates the length of a string, we can see the idea expressed in the code much easier when it uses strlen than when it uses loops, where we’d have to read and understand each loop to understand what they’re doing.
+As an added benefit, the resulting code is far easier to read: as long as we know that `strlen` calculates the length of a string, we can see the idea expressed in the code much easier when it uses `strlen` than when it uses loops, where we’d have to read and understand each loop to understand what they’re doing.
 
 Here is an example of the second point: saving time when changing or debugging code.
 
-Say we wanted to change strlen so it printed the length of its input string, in addition to having it in the return value.
+Say we wanted to change `strlen` so it printed the length of its input string, in addition to having it in the return value.
 
 With code like this:
 
