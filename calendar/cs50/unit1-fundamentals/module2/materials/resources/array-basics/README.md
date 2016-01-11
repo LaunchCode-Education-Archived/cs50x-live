@@ -15,7 +15,7 @@ type name [ size ];
 int myArray[10];
 ```
 
-Use brackets to define the data stored in an array.
+Use curly braces `{ }` to what goes inside the array.
 
 ```c
 int myArray[10] = {0, 11, 24, 13, 44, 15, 60, 37, 8, 9};
