@@ -50,8 +50,8 @@ Study | CS50 Study |  <a href="https://study.cs50.net/argv" target="_blank">Comm
 #### Magic Numbers, Global Variables
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
-Watch | Shorts| <a href="https://www.youtube.com/watch?v=F5feTW3CAZs&index=4&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Global Variables</a> | Joe introduces the concept of the global variable, which is a variable that is not limited to a local scope, like the normal "local" variables we have been using so far, 
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=z_Nh9yt4d_s&index=6&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Magic Numbers</a> | Doug introduces the concept of "magic numbers", why we want to avoid them, and how we can do so.
+Watch | Shorts| <a href="https://www.youtube.com/watch?v=F5feTW3CAZs&index=4&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF" target="_blank">Global Variables</a> | Joe introduces the concept of the global variable, which is a variable that is not limited to a local scope, like the normal "local" variables we have been using so far.
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=z_Nh9yt4d_s&index=6&list=PLhQjrBD2T383cKxax1sP6rKA3Q1JGrgcE" target="_blank">Magic Numbers</a> | Doug introduces the concept of "magic numbers", explaining why we want to avoid them  and how we can do so.
 Read | Resource | [Magic Numbers](../resources/magic-numbers) | Look over an example program that eliminates its magic numbers while avoiding the danger of global variables.
 
 ***
