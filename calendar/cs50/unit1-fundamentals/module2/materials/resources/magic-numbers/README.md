@@ -22,7 +22,7 @@ Eventually, after a couple more improvements, we arrived a a nice solution in [p
 
 In the table below, we summarize the evolution of our program as we continually improved it. Click on each link to see the changes that we made.
 
-Version | Improvement | but | Problem
+Version | Improvement |     | Problem
 --------|-------------|-----|-------- 
 [pizza-0.c](./pizza-0.c) | (pizza is yummy) | but... | Magic numbers are bad! Makes your code difficult for others to read and understand.
 [pizza-1.c](./pizza-1.c) | Replaces magic numbers with decriptively named variables. | but... | Repetition is bad! Makes your code  harder to maintain because if you want to change something, you have to change it in multiple places.
