@@ -9,7 +9,7 @@ In Module 2, we will learn:
 * how to write our own functions
 * how to inspect and manipulate strings
 * how to accept user input as "command line arguments"
-* learn about some new data types like 'char' and 'array'. 
+* learn about some new data types like `char` and `array`
 
 These skills will eventually allow us to do some real cryptography (the art of writing or solving secret codes) -- we'll use code to become codebreakers!
 
