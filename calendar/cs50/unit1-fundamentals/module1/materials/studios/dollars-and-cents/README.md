@@ -30,4 +30,4 @@ Of course, in this case we do not want to round all the way down to the nearest 
 
 As a bonus, the work you do here will be very helpful for last section of Pset 1.
 
-*You can grab a copy of these instructions from the CS50x Wiki <a href="../../../../../../../../helpful-resources/modules/module-1.md#class-3-studio-dollars-and-cents" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.
+*You can grab a copy of these instructions from the CS50x Wiki <a href="../../../../../../../helpful-resources/modules/module-1.md#class-3-studio-dollars-and-cents" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.
