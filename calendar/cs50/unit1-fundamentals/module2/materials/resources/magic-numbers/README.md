@@ -20,7 +20,7 @@ We fixed this problem in a new version, [pizza-1.c](./pizza-1.c). But that versi
 
 Eventually, after a couple more improvements, we arrived a a nice solution in [pizza-3.c](./pizza-3.c).
 
-In a table below, we summarize the evolution of our program as we continually improved it. Click on each link to see the changes that we made.
+In the table below, we summarize the evolution of our program as we continually improved it. Click on each link to see the changes that we made.
 
 Version | Improvement | Problem
 --------|-------------|-------- 
