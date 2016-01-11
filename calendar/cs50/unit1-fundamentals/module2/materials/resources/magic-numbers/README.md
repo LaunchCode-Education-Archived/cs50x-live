@@ -16,7 +16,7 @@ Take a look at [pizza-0.c](./pizza-0.c). Notice that it makes use of two functio
 
 There is a problem with the code: it uses that `3.14159...` value as a magic number, inserting it directly into our code in multiple places. 
 
-We fixed this problem in a new version, [pizza-1.c](./pizza-1.c). But this version still wasn't perfect... 
+We fixed this problem in a new version, [pizza-1.c](./pizza-1.c). But that version still wasn't perfect... 
 
 Eventually, after a couple more improvements, we arrived a a nice solution in [pizza-3.c](./pizza-3.c).
 
