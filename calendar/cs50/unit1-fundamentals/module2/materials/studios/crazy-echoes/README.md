@@ -54,13 +54,13 @@ In other words, the user will never provide a string longer than `"./mixedupecho
 
 ### Bonus (Optional)
 
-Just kidding about that last part. 
+Let's take away that last part ("To keep things simple..."). 
 
 Now you may NOT assume the second argument will be the shorter one. For example, the user might type this:
 ```
 $ ./mixedupecho GREENEGGSANDSPAM
 ```
-in which case the output should be:
+in which case, the *first* argument will have to wrap around, and so your output should be:
 ```
 .G/RmEiExNeEdGuGpSeAcNhDoS.P/AeM
 ```
