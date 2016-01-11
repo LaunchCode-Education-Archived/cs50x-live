@@ -2,7 +2,11 @@
 
 # Class 2
 
-### During Class Today
+### Before Class
+
+Before coming to class, you should have completed [Class 2 Prep](../class2-prep).
+
+### During Class
 This class will be focused on arrays - how to create them, how to use them, and what they should be used for.
 
 1. Lecture / Q&A on the following topics:
