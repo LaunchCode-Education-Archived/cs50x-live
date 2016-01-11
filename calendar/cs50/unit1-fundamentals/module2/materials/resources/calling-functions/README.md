@@ -102,7 +102,7 @@ Similarly, if you call a function with a return value, but you aren't *doing som
 
 Not every function has a return value.
 
-Some functions don't return anything. For example, `printf`. The `printf` function does not compute anything. The return value of `printf("hello")` is nothing, or technically a special term calle d`void`.
+Some functions don't return anything. For example, `printf`. The `printf` function does not compute anything. The return value of `printf("hello")` is nothing, or technically a special term called `void`.
 
 Instead, `printf` *does* something. After we call it, something has *happened*: the user now sees "hello" on their console.
 
