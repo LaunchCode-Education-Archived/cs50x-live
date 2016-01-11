@@ -159,18 +159,6 @@ This studio will be made up of three separate programs, (`guess.c`, `guess5.c`, 
    * Oh na na, what's my name.
    * Oh na na, what's my name.
    * 
-   * Twist 2: ROUND - Modify your program to accept a double type, rather than an int, 
-   * for the "how many times" argument. This means that the user's input might not be a whole number. 
-   * So in order to decide how many times to repeat the phrase, your program should 
-   * take the input value and round it to the nearest integer.
-   *
-   * Example: 
-   * Give me a phrase: I <3 LaunchCode
-   * How many times should I say it? (Positive number please): 1.7
-   * I <3 LaunchCode
-   * I <3 LaunchCode
-   * Hint: use the round function (reference here). Note that you'll need to 
-   * include the Math library at the top of your .c file
    * 
    */
 ```
