@@ -17,6 +17,8 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=kEAH6u1ODNI" target="
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#more_on_strings" target="_blank">Week 2, continued / More on Strings</a> | Review the notes on the first part of the lecture about strings. <br>Stop at the *Arrays* header. 
 Read | Resource | [Custom strlen](../resources/custom-strlen) | A from-scratch implementation of the `strlen` function, to help illustrate how to write your own function, and give some insight into the `char`s that make up `string`s
 
+***
+
 #### Arrays
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
@@ -42,6 +44,8 @@ Do | Exercise | [Command-line Calculator](../exercises/command-line-calculator) 
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=mXj188eyRFE&index=4&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-2</a> | Return to the `argv` program and follow David to make it print out all of the individual characters from the command-line arugments. <br> You can grab the pseudocode <a href="../../../../../../helpful-resources/modules/module-2.md#class-2-task-argv-2" target="_blank">here</a>.
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=X8PmYwnbLKM&list=PLhQjrBD2T381wyZt81eGNZuZ4rzOos-AF&index=3" target="_blank">Command-Line Arguments</a> | Watch this short that talks more about command-line arguments, argc, and argv.
 Study | CS50 Study |  <a href="https://study.cs50.net/argv" target="_blank">Command-Line Arguments</a> | If helpful, you can test and review your knowledge of command-line arguments using CS50 Study. 
+
+***
 
 #### Magic Numbers, Global Variables
  Task | Resource Type| Link | Instructions
