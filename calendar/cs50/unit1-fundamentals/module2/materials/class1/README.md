@@ -18,7 +18,7 @@ Today's class will include a discussion about the various types that C has to of
 	* How do you use a function?
 	* What is scope?
 
-2. [Studio: Letter Locator](../studios/letter-locator)
+2. Studio: [Letter Locator](../studios/letter-locator)
 
 ### Homework
 1. [Class 2 Prep](../class2-prep) 
