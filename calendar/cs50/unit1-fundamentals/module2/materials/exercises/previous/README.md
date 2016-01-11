@@ -33,7 +33,7 @@ $ ./previous 67
 The previous number is 66
 ```
 
-Unfortunately, we forgot to convert our argument to an `int` using `atoi`. That's your job! 
+Unfortunately, we forgot to convert our argument to an `int` using `atoi`. That's your job! Go ahead and fix the code so that the program works as intended.
 
 The `<string.h>` library is where `atoi` is defined, so don't forget to include it at the top of the file.
 
