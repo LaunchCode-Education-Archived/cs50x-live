@@ -1,0 +1,28 @@
+template:
+    url: https://github.com/digshake/Template-Light
+# Base URL of the published website
+baseUrl: http://digshake.github.io/cs50x-live-2016-city
+
+# Used to link to the GitHub project
+github:
+    user: digshake 
+    repo: cs50x-live-2016-city 
+
+title: LaunchCode's CS50x - City
+
+# The left menu bar
+menu:
+    items:
+        calendar:
+            text: Calendar 
+            # You can use relative urls
+            relativeUrl: calendar/ 
+        studentguide:
+            text: Student Guide
+            absoluteUrl: https://docs.google.com/document/d/linktoyourcitysstudentguide
+        helpfulresources:
+            text: Helpful Resources
+            relativeUrl: helpful-resources/
+        howtotake:
+            text: How To Take This Class
+            relativeUrl: how-to-take-this-class/
