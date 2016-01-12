@@ -3,7 +3,7 @@ You will find the source code for the follow-alongs that you will complete durin
 
 <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/src4m/" target="_blank"><b>Lecture: Week 4 Source Code</b></a>
 
-<a href="http://cdn.cs50.net/2015/fall/lectures/4/w/src4w/" target="_blank"><b>2015 Fall Week 4, continued Source Code</b></a>
+<a href="http://cdn.cs50.net/2015/fall/lectures/4/w/src4w/" target="_blank"><b>Lecture: Week 4, continued Source Code</b></a>
 
 
 
