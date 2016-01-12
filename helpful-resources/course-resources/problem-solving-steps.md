@@ -10,7 +10,7 @@ You can overcome any obstacle using some combination of the following techniques
 
 **``Ask Yourself``** 
   
-See if there is anything in the [course materials](../tree/master/calendar) or your notes that can help you. You can also read through the [Frequently Asked Questions](https://github.com/Launch-Code/cs50x-live-2016/wiki/FAQ "FAQ") section of this Wiki.
+See if there is anything in the [course materials](../../calendar) or your notes that can help you. 
 
 Make sure you are formulating the right question to get the the right answers. You will get a lot of mileage out of simply taking the time to formulate exactly what your question is. This technique is often referred to as <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" target="_blank">Rubber Ducky Debugging</a>.
 
