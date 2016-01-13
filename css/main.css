@@ -16,8 +16,8 @@ table, th, td {
     border: 1px solid #ddd;
 }
 
-tbody tr:nth-child(odd) {
-   background-color: #eee;
+tbody tr:nth-child(even) {
+   background-color: rgb(230, 230, 230);
 }
 
 th, td {
