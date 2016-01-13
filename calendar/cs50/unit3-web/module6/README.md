@@ -15,8 +15,8 @@ By the end of this module you will have completed [Problem Set 6](./materials/pr
 
 Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
-**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | architecture of the web, traceroute, tcp/ip, http |
-**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | more http, html, html forms, css |
+**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | architecture of the web, traceroute, TCP/IP, HTTP |
+**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | more HTTP, HTML, HTML forms, CSS |
 **Class 3**| Work on [Problem Set 6](./materials/problem-set) | [In Class](./materials/class3) | (office hours!)|
 
 
