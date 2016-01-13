@@ -14,14 +14,10 @@ int main(void)
   int exampleArray[] = {12, -2, 0, 15, 27, 20, 6};
   int exampleSize = 7;
 
-  bool seenOne = false;
-  int currentMax = 0;
-
-  for (int i = 0; i < exampleSize; i++)
+  int currentMax = exampleArray[0];
+  for (int i = 1; i < exampleSize; i++)
   {
-    if (!seenOne){
-      currentMax = exampleArray[i];
-    } else if (exampleArray[i] > currentMax){
+    if (exampleArray[i] > currentMax){
       currentMax = exampleArray[i];
     }
   }
