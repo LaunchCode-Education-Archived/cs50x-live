@@ -8,6 +8,7 @@ Before coming to class please complete <a href="../class2-prep" target="_blank">
 
 ### During Class
 Recursion is a tricky, but important concept. Today we will go over the necessary pieces of recursion and step through many examples to get a feel for how recursion works.
+
 1. Lecture / Q&A on the following topics:
   * What is recursion?
   * Identifying the recursive substructure of a problem
