@@ -62,4 +62,4 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=D5SrAga1pno&index=2&lis
 Study | CS50 Study | <a href="https://study.cs50.net/binary_search?toc=binary_search" target= "_blank">binary search</a> | Study Binary Search, a fast, common algorithm when using arrays
 Do | Exercise | [Searching Algorithms Quiz](../exercises/searching-algorithms) | A short quiz on implementing and using array searching algorithms
 
-### When you're done, you're ready for [Class 1](../class1)!
+### Now you're ready for [Class 1](../class1)!
