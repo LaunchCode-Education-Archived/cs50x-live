@@ -326,7 +326,7 @@ int main(void)
 typedef struct
 {
     string name;
-    string dorm;
+    string house;
 }
 student;
 ```
@@ -363,21 +363,21 @@ int main(void)
         printf("Student's name: ");
         students[i].name = GetString();
 
-        printf("Student's dorm: ");
-        students[i].dorm = GetString();
+        printf("Student's house: ");
+        students[i].house = GetString();
     }
 
     // now print students
     for (int i = 0; i < STUDENTS; i++)
     {
-        printf("%s is in %s.\n", students[i].name, students[i].dorm);
+        printf("%s is in %s.\n", students[i].name, students[i].house);
     }
 
     // free memory
     for (int i = 0; i < STUDENTS; i++)
     {
         free(students[i].name);
-        free(students[i].dorm);
+        free(students[i].house);
     }
 }
 ```
@@ -414,8 +414,8 @@ int main(void)
         printf("Student's name: ");
         students[i].name = GetString();
 
-        printf("Student's dorm: ");
-        students[i].dorm = GetString();
+        printf("Student's house: ");
+        students[i].house = GetString();
     }
 
     // save students to disk
@@ -424,7 +424,7 @@ int main(void)
     {
         for (int i = 0; i < STUDENTS; i++)
         {
-            fprintf(file, "%s,%s\n", students[i].name, students[i].dorm);
+            fprintf(file, "%s,%s\n", students[i].name, students[i].house);
         }
         fclose(file);
     }
@@ -433,7 +433,7 @@ int main(void)
     for (int i = 0; i < STUDENTS; i++)
     {
         free(students[i].name);
-        free(students[i].dorm);
+        free(students[i].house);
     }
 }
 ```
