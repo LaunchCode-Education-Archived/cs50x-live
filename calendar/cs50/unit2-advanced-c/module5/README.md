@@ -1,3 +1,25 @@
+[Back to Course Calendar](../../..)
+# Module 5
+
+**Pre-reqs:** [Module 4](../module4)
+
+#### Synopsis 
+
+
+
+By the end of this module you will have completed [Problem Set 5](./materials/problem-set).
+
+*** 
+
+### Steps
+
+Class # | Before Class | During Class | Topics/Skills
+:--------:|:------------:|:------------:|-----------------------|
+**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | more on pointers and memory, linked lists |
+**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | stacks and queues, hash tables, tree and tries |
+**Class 3**| Work on [Problem Set 5](./materials/problem-set) | [In Class](./materials/class3) | (office hours!)|
+
+
 ### Resources (by topic)
 
 ##### More on Pointers, Memory
