@@ -54,51 +54,73 @@
 
                 
                 <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
-                    <h1 id="helpful-resources">Helpful Resources</h1>
-<h1 id="welcome-to-the-launchcode-cs50x-wiki">Welcome to the LaunchCode CS50x Wiki!</h1>
-<p>We've created this Wiki for you as an additional source to find important links to useful materials such as cheat sheets, internal/external resources and course information that can be used throughout the duration of the course. Throughout the curriculum, we have provided links to some of these resources, where we believe that they will help you most. </p>
-<p>There are links to resources listed below for your convenience.  </p>
-<h2 id="important-links">Important Links</h2>
-<ul>
-<li><a href="../calendar">Course Calendar</a> (We highly recommended bookmarking this link)</li>
-<li><a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank" alt="Student Guide">Student Guide</a> </li>
-<li><a href="course-resources/submitting-assignments.html">Submitting Assignments</a></li>
-<li><a href="CS50-IDE/file-management-resource.html">File Management for CS50x</a>
-<ul>
-<li>Details how to structure your files in the CS50 IDE</li>
-</ul></li>
-</ul>
-<h2 id="helpful-links">Helpful Links</h2>
-<ul>
-<li><a href="Supplementary-Resources/cs50-resources.html">CS50 Resources</a>
-<ul>
-<li>External resources listed by topic.</li>
-</ul></li>
-<li><a href="Supplementary-Resources/command-line-shortcuts.html">Command Line Shortcuts</a>
-<ul>
-<li>Shortcuts that will help you become a command line ninja.</li>
-</ul></li>
-<li><a href="Supplementary-Resources/terminal-commands.html">Terminal Commands</a>
-<ul>
-<li>List of commands you will be using in the CS50 IDE to create / remove / navigate directories and folders.</li>
-</ul></li>
-<li><a href="course-resources/problem-solving-steps.html">Problem Solving Steps</a>
-<ul>
-<li>Steps to follow if you're feeling a little lost.</li>
-</ul></li>
-<li><a href="course-resources/directory-of-concepts.html">Directory of Concepts</a>
-<ul>
-<li>List of all of the topics you will encounter throughout the course. (There are links to each Module / Class they are located in)</li>
-</ul></li>
-<li><a href="course-resources/terminology.html">Terminology</a>
-<ul>
-<li>List of some terms used in the course.</li>
-</ul></li>
-<li>Source Code: (<a href="source-code/m1-source-code.html">Module 1</a>, <a href="source-code/m2-source-code.html">Module 2</a>, <a href="source-code/m3-source-code.html">Module 3</a>, <a href="source-code/m4-source-code.html">Module 4</a>, <a href="source-code/m5-source-code.html">Module 5</a>, <a href="source-code/m6-source-code.html">Module 6</a>, <a href="source-code/m7-source-code.html">Module 7</a>, <a href="source-code/m8-source-code.html">Module 8</a>)
-<ul>
-<li>The source code for each followalong you will complete.  We recommend that you try to complete the task prior to viewing the code.</li>
-</ul></li>
-</ul>
+                    <h1 id="module-5-source-code">Module 5 Source Code</h1>
+<p>You will find the source code for the follow-alongs that you will complete during Module 5.  We have provided links to all of the files for CS50, so you will have access to some other files that we have not included in our curriculum. We highly recommend that you try to complete them on your own before you look at the code.  </p>
+<p><a href="http://cdn.cs50.net/2015/fall/lectures/5/m/src5m/" target="_blank"><b>Lecture Week 5 Source Code</b></a></p>
+<h2 id="prep-for-class-1">Prep for Class 1</h2>
+<h4 id="scanf-0">scanf-0</h4>
+<pre><code class="language-c">/**
+ * scanf-0.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Reads a number from the user into an int.
+ *
+ * Demonstrates scanf and address-of operator.
+ */
+
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    int x;
+    printf("Number please: ");
+    scanf("%i", &amp;x);
+    printf("Thanks for the %i!\n", x);
+}</code></pre>
+<h4 id="scanf-1">scanf-1</h4>
+<pre><code class="language-c">/**
+ * scanf-1.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Reads a string from the user into memory it shouldn't.
+ *
+ * Demonstrates possible attack!
+ */
+
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    char* buffer;
+    printf("String please: ");
+    scanf("%s", buffer);
+    printf("Thanks for the %s!\n", buffer);
+}</code></pre>
+<h4 id="scanf-2">scanf-2</h4>
+<pre><code class="language-c">/**
+ * scanf-2.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Reads a string from the user into an array (dangerously).
+ *
+ * Demonstrates potential buffer overflow!
+ */
+
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    char buffer[16];
+    printf("String please: ");
+    scanf("%s", buffer);
+    printf("Thanks for the %s!\n", buffer);
+}</code></pre>
                 </section>
 
             </div>
