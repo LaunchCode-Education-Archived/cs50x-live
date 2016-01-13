@@ -13,11 +13,11 @@ body {
 }
 
 table, th, td {
-    border: 1px solid gray;
+    border: 1px solid #ddd;
 }
 
 tbody tr:nth-child(odd) {
-   background-color: #ddd;
+   background-color: #eee;
 }
 
 th, td {
