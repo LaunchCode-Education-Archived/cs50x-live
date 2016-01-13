@@ -1,7 +1,7 @@
 [Back to Course Calendar](../../..)
 # Module 2
 
-**Pre-reqs:** [Module 1](../module1)
+**Pre-reqs:** You should have completed [Module 1](../module1)
 
 #### Synopsis 
 
