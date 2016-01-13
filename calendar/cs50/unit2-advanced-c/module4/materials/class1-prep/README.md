@@ -9,8 +9,10 @@ Before coming to [Class 1](../class1), please complete the following tasks:
 Task | Resource Type | Link  | Instructions
 --------------|------|------|-------------
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=beqqGIdabrE&index=7&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Call Stack</a> | Watch these videos on the Call Stack, a fundamental concept in computer science that's especially helpful in understanding recursion.
-Study | CS50 Study | <a href="https://study.cs50.net/recursion" target="_blank">recursion</a> | Review these materials detailing how recusion works
+Study | CS50 Study | <a href="https://study.cs50.net/recursion" target="_blank">recursion</a> | Review these materials detailing how recursion works
 Rewatch | Lecture | <a href="https://www.youtube.com/watch?v=9WsyLL6KVBY" target="_blank">Week 4, (first 25 minutes)</a>  | THIS IS OPTIONAL. We already saw this last week, but if you want some more recursion material, this might help.
+
+*** 
 
 ##### Leading up to Pointers:
 
@@ -24,6 +26,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ETSddwPGjN
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=Q9d8F9dXxbA&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=1" target="_blank">compare-0</a> | comparing strings (broken)  
 Read | Supplement | [Why Pointers](../supplementary-resources/why-pointers) | TODO res: recap by summarizing the problem, why swap and compare dont work, but with pointers they will.
 
+*** 
 
 ##### Pointers
 
@@ -38,6 +41,8 @@ Study | CS50 Study | <a href="https://study.cs50.net/pointers" target="_blank">p
 Do | Exercise | [Custom strcmp](../exercises/customstrcmp) | Practice using pointers by implementing your own version of the `strcmp` function
 Watch | Short | <a href="https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4" target="_blank">Pointers</a> | prereqs: dereferencing, malloc
 Watch | Section | <a href="https://youtu.be/SppBaGROtX0?t=370" target="_blank">Jason Hirschorn on Pointers</a> | really good
+
+*** 
 
 ##### malloc
 
