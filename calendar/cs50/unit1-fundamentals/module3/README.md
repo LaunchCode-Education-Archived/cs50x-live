@@ -1,7 +1,11 @@
 [Back to Course Calendar](../../..)
 # Module 3
 
-### Outline
+**Pre-reqs:** [Module 2](../module2)
+
+#### Synopsis 
+
+### Schedule
 
 Class # | Before Class | During Class | Topics / Skills
 --------|--------------|--------------|----------------
