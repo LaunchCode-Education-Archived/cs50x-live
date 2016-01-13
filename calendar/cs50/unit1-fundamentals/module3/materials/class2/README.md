@@ -15,6 +15,7 @@ Recursion is a tricky, but important concept. Today we will go over the necessar
     * Base case
 	* Recursive step
 	* Optional helper function
+	
 2. Studio: [Multiplication and Exponents](../studios/multiplication-exponent)
 
 ### Homework
