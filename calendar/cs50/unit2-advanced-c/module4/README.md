@@ -1,12 +1,12 @@
-##### Unit 2: Advanced C
-
 [Back to Course Calendar](../../..)
 
 # Module 4
 
-**Pre-reqs:** [Module 3](../../unit1-fundamentals/module3)
+**Pre-reqs:** You should have completed [Module 3](../../unit1-fundamentals/module3)
 
 #### Synopsis 
+
+By the end of this module you will have completed [Problem Set 4](./materials/problem-set).
 
 ***
 
