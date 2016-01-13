@@ -199,7 +199,7 @@ The pseudocode will be formatted as comments so you can copy it over to the CS50
 ```
  /**
   * Filename: sigma-0.c
-  * Save in Folder: ~/workspace/module3/follow-alongs/sigma
+  * Save in Folder: ~/workspace/module3/followalongs/sigma
   * 
   * Include the stdio library
   * Include the cs50 library
@@ -219,13 +219,13 @@ The pseudocode will be formatted as comments so you can copy it over to the CS50
 ```
 
 ### Class 2 Task: Sigma-1
-This is a continuation of Sigma-0, please follow the instructions below. You will use terminal commands to copy the `sigma-0.c` file. Make sure you are in the `module3/follow-alongs/sigma` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.)
+This is a continuation of Sigma-0, please follow the instructions below. You will use terminal commands to copy the `sigma-0.c` file. Make sure you are in the `module3/followalongs/sigma` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.)
 ```
  /**
   * This is a continuation of the last program and you should copy sigma-0.c so you do not have to 
   * write the whole program. Use the command below, open up sigma-1.c and watch the video
   * to complete the task.  
-  * Make sure you are in this Folder: ~/workspace/module3/follow-alongs/sigma
+  * Make sure you are in this Folder: ~/workspace/module3/followalongs/sigma
   *
   *      cp sigma-0.c sigma-1.c
   *
