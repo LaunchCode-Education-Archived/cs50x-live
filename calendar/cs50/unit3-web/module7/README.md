@@ -1,7 +1,18 @@
+[Back to Course Calendar](../../..)
 # Module 7
+
+**Pre-reqs:** [Module 6](../module6)
+
+#### Synopsis 
+
+By the end of this module you will have completed [Problem Set 7](./materials/problem-set).
+
+*** 
+
+### Steps
 
 Class # | Before Class | During Class | Topics / Skills
 --------|--------------|--------------|----------------
-Class 1 | [Class 1 Prep Work](./materials/class1-prep) | [Class 1](./materials/class1) | PHP syntax, PHP on the Web
-Class 2 | [Class 2 Prep Work](./materials/class2-prep) | [Class 2](./materials/class2) | The MVC Paradigm, SQL
-Class 3 | continue [Pset7](./materials/problem-set) | [Class 3](./materials/class3) | (office hours)
+**Class 1** | [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | PHP syntax, PHP on the Web, sessions, cookies
+**Class 2** | [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | The MVC Paradigm, SQL
+**Class 3** | Continue [Problem Set 7](./materials/problem-set) | [In Class](./materials/class3) | (office hours)
