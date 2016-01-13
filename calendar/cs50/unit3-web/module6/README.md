@@ -1,3 +1,23 @@
+[Back to Course Calendar](../../..)
+# Module 6
+
+**Pre-reqs:** [Module 5](../../unit2-advanced-c/module5)
+
+#### Synopsis 
+
+
+
+By the end of this module you will have completed [Problem Set 6](./materials/problem-set).
+
+*** 
+
+### Steps
+
+Class # | Before Class | During Class | Topics/Skills
+:--------:|:------------:|:------------:|-----------------------|
+**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | architecture of the web, traceroute, tcp/ip, http |
+**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | more http, html, html forms, css |
+**Class 3**| Work on [Problem Set 6](./materials/problem-set) | [In Class](./materials/class3) | (office hours!)|
 
 
 ### Resources (by type)
