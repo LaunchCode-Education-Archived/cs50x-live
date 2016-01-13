@@ -11,8 +11,9 @@ To do this, you should:
 
 1. Cut the "numberOfContainers" function from [houseOfPizza.c](./houseOfPizza.c) into [mathHelper.c](./mathHelper.c), so we can use it in both [houseOfPizza.c](./houseOfPizza.c) and [houseOfTires.c](./houseOfTires.c)
 2. Add an appropriate function prototype to mathHelper.h
-3. Add a line to #include mathHelper.h in [houseOfPizza.c](./houseOfPizza.c)
-4. Add a line to #include mathHelper.h in [houseOfTires.c](./houseOfTires.c)
+3. Add a line to `#include` mathHelper.h in [houseOfTires.c](./houseOfTires.c).
+4. Add a line to `#include` mathHelper.h in [houseOfPizza.c](./houseOfPizza.c). (Actually we have already done this for you)
+
 
 After this, both houseOfPizza and houseOfTires should work correctly, and we hardly had to write any new code!
 
