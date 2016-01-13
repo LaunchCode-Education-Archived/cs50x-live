@@ -32,7 +32,7 @@ Here are the components due for Problem Set 2:
 
 ##### Command-line Arguments: A Quick Review
 
-If a user enters a command in their terminal like this:
+Let's say a user enters a command in their terminal like this:
 
 ```
 $ ./caesar 13
@@ -58,7 +58,7 @@ argv[1][1] == '3'
 ````
 
 ##### Caesar:
-The key here (pun intended ;-) is the need to understand the relationship between a char, its integer value, and a position in the alphabet.
+The key here (pun intended :wink:) is the need to understand the relationship between a char, its integer value, and a position in the alphabet.
 
 For example, the char 'A' has an ASCII (integer) value of 65, but its position in the alphabet would be 0 (in computer terms). 'B' is 65 ASCII and 1 alphabet, and so on.
 
