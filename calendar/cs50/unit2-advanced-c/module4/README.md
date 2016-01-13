@@ -1,8 +1,16 @@
 ##### Unit 2: Advanced C
 
+[Back to Course Calendar](../../..)
+
 # Module 4
 
-### Outline
+**Pre-reqs:** [Module 3](../../unit1-fundamentals/module3)
+
+#### Synopsis 
+
+
+
+### Schedule
 
 Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
