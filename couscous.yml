@@ -1,12 +1,12 @@
 template:
     url: https://github.com/LaunchCodeEducation/Template-Light
 # Base URL of the published website
-baseUrl: http://LaunchCodeEducation.github.io/cs50x-live-2016-stlouis
+baseUrl: http://LaunchCodeEducation.github.io/cs50x-stlouis
 
 # Used to link to the GitHub project
 github:
     user: LaunchCodeEducation 
-    repo: cs50x-live-2016-stlouis 
+    repo: cs50x-stlouis 
 
 title: LaunchCode's CS50x - St. Louis 
 
