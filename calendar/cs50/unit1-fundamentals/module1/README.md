@@ -20,10 +20,4 @@ Class # | Before Class | During Class | Topics/Skills
 **Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | conditions, loops, variables, calling functions, nesting control flow, debugging |
 **Class 3**| Work on [Problem Set 1](./materials/problem-set) | [In Class](./materials/class3) |
 
-***
-
-##### Helpful Links
-* <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/src1w" target="_blank">Source Code</a> from Lecture: Week 1
-* <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/src1f" target="_blank">Source Code</a> from Lecture: Week 1 / Continued
-
 
