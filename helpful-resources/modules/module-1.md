@@ -159,18 +159,6 @@ This studio will be made up of three separate programs, (`guess.c`, `guess5.c`, 
    * Oh na na, what's my name.
    * Oh na na, what's my name.
    * 
-   * Twist 2: ROUND - Modify your program to accept a double type, rather than an int, 
-   * for the "how many times" argument. This means that the user's input might not be a whole number. 
-   * So in order to decide how many times to repeat the phrase, your program should 
-   * take the input value and round it to the nearest integer.
-   *
-   * Example: 
-   * Give me a phrase: I <3 LaunchCode
-   * How many times should I say it? (Positive number please): 1.7
-   * I <3 LaunchCode
-   * I <3 LaunchCode
-   * Hint: use the round function (reference here). Note that you'll need to 
-   * include the Math library at the top of your .c file
    * 
    */
 ```
@@ -222,7 +210,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
  /**
   * Filename: hello-0.c
-  * Save in Folder: ~/workspace/module1/follow_alongs/hello
+  * Save in Folder: ~/workspace/module1/followalongs/hello
   * 
   * Include the stdio library
   * Add main method
@@ -238,7 +226,7 @@ If you’re not sure what to do check <a href="http://cdn.cs50.net/2015/fall/lec
 ```
  /**
   * Filename: hello-1.c
-  * Save in Folder: ~/workspace/module1/follow_alongs/hello
+  * Save in Folder: ~/workspace/module1/followalongs/hello
   * 
   * Include the stdio library
   * Add main method
@@ -257,7 +245,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
  /**
   * Filename: hello-2.c
-  * Save in Folder: ~/workspace/module1/follow_alongs/hello
+  * Save in Folder: ~/workspace/module1/followalongs/hello
   * 
   * Include the stdio library
   * Add main method
@@ -277,7 +265,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
  /**
   * Filename: adder.c
-  * Save in Folder: ~/workspace/module1/follow_alongs/adder
+  * Save in Folder: ~/workspace/module1/followalongs/adder
   * 
   * Include the stdio library
   * Include the cs50 library
@@ -299,7 +287,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
  /**
   * Filename: f2c.c
-  * Save in Folder: ~/workspace/module1/follow_alongs/f2c
+  * Save in Folder: ~/workspace/module1/followalongs/f2c
   * 
   * Include the stdio library
   * Include the cs50 library
@@ -321,7 +309,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
  /**
   * Filename: conditions-0.c
-  * Save in Folder: ~/workspace/module1/follow_alongs/conditions
+  * Save in Folder: ~/workspace/module1/followalongs/conditions
   * 
   * Include the stdio library
   * Include the cs50 library
@@ -341,7 +329,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
  /**
   * Filename: conditions-1.c
-  * Save in Folder: ~/workspace/module1/follow_alongs/conditions
+  * Save in Folder: ~/workspace/module1/followalongs/conditions
   * 
   * Include the stdio library
   * Include the cs50 library
@@ -361,7 +349,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
  /**
   * Filename: positive.c
-  * Save in Folder: ~/workspace/module1/follow_alongs/positive
+  * Save in Folder: ~/workspace/module1/followalongs/positive
   * 
   * Include the stdio library
   * Include the cs50 library
@@ -380,7 +368,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
  /**
   * Filename: count.c
-  * Save in Folder: ~/workspace/module1/follow_alongs/count
+  * Save in Folder: ~/workspace/module1/followalongs/count
   * 
   * Include the stdio library
   * Include the cs50 library
