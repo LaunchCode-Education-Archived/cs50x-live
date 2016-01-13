@@ -8,15 +8,16 @@
 
 #### Synopsis 
 
+***
 
-
-### Schedule
+### Steps
 
 Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
-**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | pointers, malloc
-**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | file io, structs
-**Class 3**|  | [In Class](./materials/class3) |
+**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | more practice with recursion, pointers, malloc
+**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | hexadecimal, file io, structs
+**Class 3**| Work on [Problem Set 4](./materials/problem-set) | [In Class](./materials/class3) | (office hours)
+
 
 
 ### Resources (by type)
