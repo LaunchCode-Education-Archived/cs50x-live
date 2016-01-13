@@ -16,10 +16,6 @@ table, th, td {
     border: 1px solid #ddd;
 }
 
-th {
-   background-color: #f0f0f0;
-}
-
 tbody tr:nth-child(even) {
    background-color: #f0f0f0;
 }
