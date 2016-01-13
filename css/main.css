@@ -3,7 +3,7 @@ html {
     min-height: 100%;
 }
 body {
-    font-size: 19px;
+    font-size: 15px;
 }
 
 @media (min-width: 1200px) {
@@ -48,7 +48,7 @@ footer p {
 }
 
 h3 {
-    font-size: 23px;
+    font-size: 19px;
 }
 
 li {
