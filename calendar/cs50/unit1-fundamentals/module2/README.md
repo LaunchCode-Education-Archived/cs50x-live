@@ -15,7 +15,9 @@ These skills will eventually allow us to do some real cryptography (the art of w
 
 By the end of this module you will have completed [Problem Set 2](./materials/problem-set).
 
-### Schedule
+*** 
+
+### Steps
 
 Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
