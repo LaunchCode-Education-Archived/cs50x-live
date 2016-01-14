@@ -17,19 +17,19 @@ menu:
             text: Calendar 
             # You can use relative urls
             relativeUrl: calendar/ 
-        studentguide:
-            text: Student Guide
-            absoluteUrl: https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing
         helpfulresources:
             text: Helpful Resources
             relativeUrl: helpful-resources/
         howtotake:
             text: How To Take This Class
             relativeUrl: how-to-take-this-class/
+        studentguide:
+            text: Student Guide
+            absoluteUrl: https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing
         vocareum:
             text: Vocareum
             absoluteUrl: http://labs.vocareum.com/main/
         piazza:
             text: Piazza
-            absoluteUrl: piazza.com/wustl/spring2016/cs50x
+            absoluteUrl: http://piazza.com/wustl/spring2016/cs50x
 
