@@ -39,7 +39,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=C-J0fKmwKm
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">sigma-1</a> | Afterwards, step through your program in the IDE Debugger, just like they did in class. <br>You can find the pseudocode for this walkthrough <a href="../../../../../../helpful-resources/modules/module-3.md#class-2-task-sigma-1" target="_blank">here</a>.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=VrrnjYgDBEk" target="_blank"> Recursion</a> | TODO: leave this for next module?
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=t4MSwiqfLaY" target="_blank"> Recursion</a> |
-Do | Exercise | ['Fibonacci](../exercises/fibonacci) | 
+Do | Exercise | [Fibonacci](../exercises/fibonacci) | 
 
 ***
 
