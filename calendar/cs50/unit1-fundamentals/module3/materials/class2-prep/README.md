@@ -34,7 +34,7 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=9WsyLL6KVBY" target="
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#recursion" target="_blank">Week 4 / Recursion</a> |
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#sigma" target="_blank">Week 4 / Sigma</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide" target="_blank">Week 4 / IDE Debugger</a>
-Read | Resource | [Supplement: Recursion](../resources/recursion) | 
+Read | Resource | [Recursion](../resources/recursion) | 
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10" target="_blank">sigma-0</a> | You can find the pseudocode for this walkthrough <a href="../../../../../../helpful-resources/modules/module-3.html#class-2-task-sigma-0" target="_blank">here</a>.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">sigma-1</a> | Afterwards, step through your program in the IDE Debugger, just like they did in class. <br>You can find the pseudocode for this walkthrough <a href="../../../../../../helpful-resources/modules/module-3.html#class-2-task-sigma-1" target="_blank">here</a>.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=VrrnjYgDBEk" target="_blank"> Recursion</a> | TODO: leave this for next module?
@@ -59,7 +59,7 @@ Watch | Shorts | <a href="https://www.youtube.com/watch?v=CSZLNYF4Klo" target="_
 Watch | Shorts | <a href="http://www.youtube.com/watch?v=U3zCxnj2w8M" target="_blank"> Clang, Make</a> | Watch this short about Clang and Make, two tools used to manage the building and compilation of code projects
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=ED7QtgXDShY" target="_blank"> Libraries</a> | Watch this short about libraries
 Watch | Section | <a href="https://youtu.be/XRvvitgap5Y?t=2549" target="_blank"> Compilation Process</a> | Watch this lecture on the compilation process
-Read | Resource | [Supplement: Ugh, Taxes!](../resources/spread-out) | Here's an example of a program written as one big file, that is then broken into a few smaller, easy to understand files.
+Read | Resource | [Ugh, Taxes!](../resources/spread-out) | Here's an example of a program written as one big file, that is then broken into a few smaller, easy to understand files.
 Do | Exercise | [Delmar House of Tires](../exercises/spread-out) | Fix one program by pulling the code from another into a new file, so both programs can use the new file
 
 ***
