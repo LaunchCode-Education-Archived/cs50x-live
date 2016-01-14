@@ -1,6 +1,6 @@
 ##### Module 4
 
-[Back to Class 1 Prep](../../class1-prep/README.md#malloc)
+[Back to Class 1 Prep](../../class1-prep/README.html#malloc)
 
 # Exercise: Double Copy
 
