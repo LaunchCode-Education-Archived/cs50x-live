@@ -39,9 +39,10 @@ printf(“%s is my favorite word!\n”, myString);
 
 This is how we ask the user for chars:
 ```c
-#include <cs50.h>
-char myChar = GetChar(); // wait for user input
+#include <cs50.h> // at the top of the file
 
+// ... somewhere else lower down in the file
+char myChar = GetChar(); // wait for user input
 printf(“%c is my favorite letter!\n”, myChar);
 ```
 
