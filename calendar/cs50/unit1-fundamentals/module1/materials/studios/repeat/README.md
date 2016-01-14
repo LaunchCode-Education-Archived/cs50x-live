@@ -29,4 +29,4 @@ Oh na na, what's my name.
 Oh na na, what's my name.
 ```
 
-*You can grab a copy of these instructions from the Helpful Resources <a href="../../../../../../../helpful-resources/modules/module-1.md#class-3-studio-repeat" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.
+*You can grab a copy of these instructions from the Helpful Resources <a href="../../../../../../../helpful-resources/modules/module-1.html#class-3-studio-repeat" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.
