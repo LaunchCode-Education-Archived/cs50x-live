@@ -9,6 +9,7 @@ We have a similar store that sells tires by the crate, but their storefront prog
 
 To do this, you should:
 
+0. Copy all these files into your IDE, including the [Makefile](./Makefile)
 1. Cut the "numberOfContainers" function from [houseOfPizza.c](./houseOfPizza.c) into [mathHelper.c](./mathHelper.c), so we can use it in both [houseOfPizza.c](./houseOfPizza.c) and [houseOfTires.c](./houseOfTires.c)
 2. Add an appropriate function prototype to mathHelper.h
 3. Add a line to `#include` mathHelper.h in [houseOfTires.c](./houseOfTires.c).
