@@ -56,6 +56,6 @@ Before coming to your first day of class, you must complete Module 0 / Class 0 P
 
 ### Questions?
 
-Consult the [FAQ](./FAQ.md). 
+Consult the [FAQ](./FAQ.html). 
 
 For any additional questions, contact us at info@launchcode.org
