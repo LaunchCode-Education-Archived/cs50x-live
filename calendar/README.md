@@ -19,6 +19,9 @@
 | Module 5 | Thursday Mar 3 | *Coming Soon.* You will start off with a review of `pointers` and memory, and then learn about data structures that will allow you to develop more complex programs. There are some limitations to the `arrays` that you have already learned about, and these new data structures-- Linked Lists, Stacks, Queues, Trees, Tries and Hash Tables-- will help you to store and manage your data in novel ways. In Problem Set 5, you will leverage the power of these data structures to write a lightning-fast algorithm to search through a giant dictionary of words. |
 
 ### Spring Break!
+|Module | Start Date | Overview |
+| :-------------: | :-----: |-------------|
+| Spring `<br>` | Tuesday Mar 15 | No class on Tuesday the 15th and Thursday the 17th.
 
 ### Unit 3: Web Development
 |Module | Start Date | Overview |
