@@ -22,6 +22,7 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=JovNemG-iu8" target="
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort" target="_blank">Lecture Notes: Week 3, continued / Merge Sort</a> | 
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=sWtYJv_YXbo&index=6&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T" target="_blank"> Merge Sort</a>
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=EeQ8pwjQxTM" target="_blank"> Merge Sort</a> | 
 
 ***
