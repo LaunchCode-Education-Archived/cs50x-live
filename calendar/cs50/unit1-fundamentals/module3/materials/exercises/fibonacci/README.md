@@ -30,7 +30,7 @@ along with the computation necessary to figure out the value of a given term:
 Hmm, that looks an awful lot like a recursive function, with two base cases and a recursive case.
 
 Your challenge: Implement the function
-```
+```c
 int fib(int n);
 ```
 which uses recursion to compute and return the value of nth term of the Fibonacci Sequence.
