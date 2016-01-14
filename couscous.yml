@@ -17,12 +17,12 @@ menu:
             text: Calendar 
             # You can use relative urls
             relativeUrl: calendar/ 
-        studentguide:
-            text: Student Guide
-            absoluteUrl: https://docs.google.com/document/d/linktoyourcitysstudentguide
-        helpfulresources:
-            text: Helpful Resources
-            relativeUrl: helpful-resources/
         howtotake:
             text: How To Take This Class
             relativeUrl: how-to-take-this-class/
+        helpfulresources:
+            text: Helpful Resources
+            relativeUrl: helpful-resources/
+        studentguide:
+            text: Student Guide
+            absoluteUrl: https://docs.google.com/document/d/linktoyourcitysstudentguide
