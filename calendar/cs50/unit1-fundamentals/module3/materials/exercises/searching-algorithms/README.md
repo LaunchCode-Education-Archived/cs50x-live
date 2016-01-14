@@ -13,7 +13,7 @@ Linear search for ‘5’:
 
 Linear search for ‘8’:
 
-Linear search for ’21’:
+Linear search for ’20’:
 
 ### Question 2:
 
@@ -48,9 +48,9 @@ A correct answer would look like this:
 
 ### Question 4:
 
-Say we have ’n' elements and know that they are not yet sorted.
+Say we have `n` elements and know that they are not yet sorted.
 
-What is the time complexity of sorting the array and then performing ‘m' search operations with binary search?  You may use any sorting algorithm you want, just say what it is, and what it’s time complexity is.
+What is the time complexity of sorting the array and then performing `m` search operations with binary search?  You may use any sorting algorithm you want, just say what it is, and what it’s time complexity is.
 
 ### Question 5:
 
