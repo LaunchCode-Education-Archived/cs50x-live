@@ -16,10 +16,10 @@ bool allOldEnough(int ages[], int numPeople)
 {
     for (int i = 0; i < numPeople; i++){
         if (ages[i] < 18){
-            printf(“Person %i isn’t old enough, they’re only %i!\n”, i+1, ages[i]);
+            printf("Person %i isn’t old enough, they’re only %i!\n", i+1, ages[i]);
             return false;
         } else {
-            printf(“Person %i is old enough.”, i+1);
+            printf("Person %i is old enough.\n", i+1);
         }
     }
     return true;
