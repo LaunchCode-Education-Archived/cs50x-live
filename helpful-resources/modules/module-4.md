@@ -92,7 +92,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
   */
 ```
 ### Class 1 Task: Compare-1
-This is a continuation of Compare-0, please follow the instructions below.  You will use terminal commands to copy the `compare-0.c` file.  Make sure you are in the `module4/followalongs/compare` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of Compare-0, please follow the instructions below.  You will use terminal commands to copy the `compare-0.c` file.  Make sure you are in the `module4/followalongs/compare` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy compare-0.c file so you do not have to 
@@ -182,7 +182,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
   */
 ```
 ### Class 1 Task: Copy-1
-This is a continuation of Copy-0, please follow the instructions below.  You will use terminal commands to copy the `copy-0.c` file.  Make sure you are in the `module4/followalongs/copy` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of Copy-0, please follow the instructions below.  You will use terminal commands to copy the `copy-0.c` file.  Make sure you are in the `module4/followalongs/copy` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy copy-0.c file so you do not have to 
@@ -243,7 +243,7 @@ You can find a structs refresher <a href="http://cdn.cs50.net/2015/fall/lectures
 ```
 
 ### Class 2 Task: Structs-1
-This is a continuation of Structs-0, please follow the instructions below.  You will use terminal commands to copy the `structs-0.c` file.  Make sure you are in the `module4/followalongs/structs` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of Structs-0, please follow the instructions below.  You will use terminal commands to copy the `structs-0.c` file.  Make sure you are in the `module4/followalongs/structs` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy structs-0.c so you do not have to 
