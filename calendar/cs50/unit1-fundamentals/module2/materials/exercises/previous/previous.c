@@ -1,7 +1,7 @@
 #include<cs50.h>
 #include<stdio.h>
 
-int main ()
+int main (int argc, string argv[])
 {
 
   // validation: make sure they provided a CL argument
@@ -13,7 +13,7 @@ int main ()
   }
   
   string input = argv[1];
-  printf ("The previous number is %i\n", input - 1);
+  printf ("The previous number is %i\n", atoi(input) - 1);
   
   return 0;
 }
