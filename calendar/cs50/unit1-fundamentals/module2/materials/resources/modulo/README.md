@@ -8,11 +8,11 @@ Recall that the modulo operator `%` returns the remainder when one number is div
 
 For example:
 
-6 % 4 = 2 
+`6 % 4 = 2`
 
-3 % 2 = 1
+`3 % 2 = 1`
 
-15 % 3 = 0
+`15 % 3 = 0`
 
 The modulo is used a lot in computer science, but here's a simple example. In [divisibleby7.c](./divisibleby7.c), there's a simple program that says if a number, given by the user, is divisible by 7, like so:
 
