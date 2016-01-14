@@ -12,7 +12,7 @@ int main ()
     return 1;
   }
   
-  string input = argv[0];
+  string input = argv[1];
   printf ("The previous number is %i\n", input - 1);
   
   return 0;
