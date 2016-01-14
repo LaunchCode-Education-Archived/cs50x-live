@@ -87,4 +87,4 @@ INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will se
 
 If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.
 
-For general guidance on problem sets, you may also find it useful to review the <a  href="../../../../../module0/materials/problem-set/README.md" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
+For general guidance on problem sets, you may also find it useful to review the <a  href="../../../../../module0/materials/problem-set/README.html" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
