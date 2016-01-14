@@ -14,6 +14,7 @@ For example, we might want to use a function called `strlen` (short for "string 
 #include <stdio.h>
 #include <cs50.h>
 
+// ... somewhere else lower down in the file
 string exampleString = “hello!”;  // set up an example variable to use
 
 strlen(exampleString); // call the strlen function
