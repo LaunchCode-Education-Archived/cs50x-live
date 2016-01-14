@@ -35,8 +35,8 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#sigma" target="_blank">Week 4 / Sigma</a>
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide" target="_blank">Week 4 / IDE Debugger</a>
 Read | Resource | [Supplement: Recursion](../resources/recursion) | 
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10" target="_blank">sigma-0</a> | You can find the pseudocode for this walkthrough <a href="../../../../../../helpful-resources/modules/module-3.md#class-2-task-sigma-0" target="_blank">here</a>.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">sigma-1</a> | Afterwards, step through your program in the IDE Debugger, just like they did in class. <br>You can find the pseudocode for this walkthrough <a href="../../../../../../helpful-resources/modules/module-3.md#class-2-task-sigma-1" target="_blank">here</a>.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10" target="_blank">sigma-0</a> | You can find the pseudocode for this walkthrough <a href="../../../../../../helpful-resources/modules/module-3.html#class-2-task-sigma-0" target="_blank">here</a>.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">sigma-1</a> | Afterwards, step through your program in the IDE Debugger, just like they did in class. <br>You can find the pseudocode for this walkthrough <a href="../../../../../../helpful-resources/modules/module-3.html#class-2-task-sigma-1" target="_blank">here</a>.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=VrrnjYgDBEk" target="_blank"> Recursion</a> | TODO: leave this for next module?
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=t4MSwiqfLaY" target="_blank"> Recursion</a> |
 Do | Exercise | [Fibonacci](../exercises/fibonacci) | 
@@ -46,7 +46,7 @@ Do | Exercise | [Fibonacci](../exercises/fibonacci) |
 ##### Sorting Algs Summary
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=B6l7AJYgCOI" target="_blank">Algorithms Summary</a> | You can check Helpful Resources <a href="../../../../../../helpful-resources/Supplementary-Resources/algorithms-summary.md" target="_blank">here</a> for a supplemental resource on Agorithms.</a>
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=B6l7AJYgCOI" target="_blank">Algorithms Summary</a> | You can check Helpful Resources <a href="../../../../../../helpful-resources/Supplementary-Resources/algorithms-summary.html" target="_blank">here</a> for a supplemental resource on Agorithms.</a>
 Study | CS50 Study | <a href="https://study.cs50.net/binary_search?toc=bubble_sort,insertion_sort,selection_sort,merge_sort" target="_blank">bubble sort, insertion sort, selection sort, merge sort</a>
 
 ***
