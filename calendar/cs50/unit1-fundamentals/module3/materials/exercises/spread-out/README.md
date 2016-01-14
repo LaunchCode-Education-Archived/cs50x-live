@@ -19,6 +19,9 @@ To do this, you should:
 2. Add an appropriate function prototype to `mathHelper.h`
 3. Add a line to `#include` mathHelper.h in `houseOfTires.c`
 4. Add a line to `#include` mathHelper.h in `houseOfPizza.c`. (Actually we have already done this for you!)
+5. You can now compile your programs using the `makefile` you copied over.  It will compile all of your programs at once for you by running the command `make`.  
+ * When you copy over the makefile make sure you save it as `makefile` without using any extension. 
+ * You will learn more about make files in Class 2 and [pset3](../../problem-set).
 
 
 After this, both houseOfPizza and houseOfTires should work correctly, and we hardly had to write any new code!
