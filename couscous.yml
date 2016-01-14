@@ -26,3 +26,10 @@ menu:
         howtotake:
             text: How To Take This Class
             relativeUrl: how-to-take-this-class/
+		vocareum:
+			text: Vocareum
+			absoluteUrl: http://labs.vocareum.com/main/
+		piazza:
+			text: Piazza
+			absoluteUrl: piazza.com/wustl/spring2016/cs50x
+
