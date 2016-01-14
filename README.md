@@ -26,7 +26,7 @@ Next, you can follow the link here to review some details on how to understand t
 
 After you do that, you'll be ready to begin learning. You'll be working through the course calendar (which we recommend you bookmark): [Course Calendar](./calendar)
 
-You can also check out the <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki" target="_blank">CS50x Wiki</a> for additional resources and important links for the course by clicking the **`Wiki`** tab underneath the repo name at the top of any page. 
+You can also check out the <a href="./helpful-resources" target="_blank">Helpful Resources</a> section for additional resources and important links for the course.
 
 ***
 
