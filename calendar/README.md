@@ -13,8 +13,8 @@
 | Module 3 | Thu, Feb 11 | *Coming Soon.* Module 3 is all about analyzing and improving the performance of algorithms. You'll also be introduced to a beautiful and mind-bending concept called recursion. Additionally, we will go back and review some of the topics from Modules 1 and 2 to reinforce your comfort with those concepts. In Problem Set 3, you'll implement an algorithm to sort a very large list very efficiently, and another algorithm to search quickly through that list to find a "needle in the haystack".
 
 ### Unit 2: Advanced C
-|Module | Overview |
-| :-------------: |-------------|
+|Module | Start Date | Overview |
+| :-------------: | :-----: |-------------|
 | Module 4 | Tue, Feb 23 | *Coming Soon.* This is the point when you will tackle more advanced concepts in the C programming language. In Module 4 you will learn much more about where and how data is stored in the computer's memory, and how to leverage and manage your program's use of that memory using `pointers` and dynamic memory allocation. Additionally you'll be introduced to `structs`, a high-level data structure to define groups of data, and file i/o, the process by which a program can read and write data to and from an external file. In Problem Set 4, you will perform "digital forensics", sifting through the raw data of a digital camera to recover its deleted (top-secret) images. |
 | Module 5 | Thu, Mar 3 | *Coming Soon.* You will start off with a review of `pointers` and memory, and then learn about data structures that will allow you to develop more complex programs. There are some limitations to the `arrays` that you have already learned about, and these new data structures-- Linked Lists, Stacks, Queues, Trees, Tries and Hash Tables-- will help you to store and manage your data in novel ways. In Problem Set 5, you will leverage the power of these data structures to write a lightning-fast algorithm to search through a giant dictionary of words. |
 
