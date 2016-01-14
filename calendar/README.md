@@ -3,7 +3,7 @@
 ### Preseason
 |Module | Start Date | Overview |
 | :-------------: | :-----: |-------------|
-| [Module 0](./module0) | Tue, Jan 19 | This Module introduces you to CS50x and gives you the foundation you’ll need before you start programming. You will be introduced to binary counting, algorithms, and additional concepts you’ll need to begin thinking like a computer programmer. By the end of the module, you will be familiar with pseudocode, and a graphical language called Scratch, which you'll use to complete Problem Set 0. |
+| [Module 0](./module0) | Tuesday, Jan 19 | This Module introduces you to CS50x and gives you the foundation you’ll need before you start programming. You will be introduced to binary counting, algorithms, and additional concepts you’ll need to begin thinking like a computer programmer. By the end of the module, you will be familiar with pseudocode, and a graphical language called Scratch, which you'll use to complete Problem Set 0. |
 
 ### Unit 1: Fundamentals
 |Module | Start Date | Overview |
