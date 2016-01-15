@@ -66,8 +66,9 @@
                 <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
                     <h1 id="module-4-source-code">Module 4 Source Code</h1>
 <p>You will find the source code for the follow-alongs that you will complete during Module 4.  We have provided links to all of the files for CS50, so you will have access to some other files that we have not included in our curriculum. We highly recommend that you try to complete them on your own before you look at the code.  </p>
-<p><a href="http://cdn.cs50.net/2015/fall/lectures/4/m/src4m/" target="_blank"><b>Lecture: Week 4 Source Code</b></a></p>
-<p><a href="http://cdn.cs50.net/2015/fall/lectures/4/w/src4w/" target="_blank"><b>Lecture: Week 4, continued Source Code</b></a></p>
+<p><a href="http://cdn.cs50.net/2015/fall/lectures/4/m/src4m/" target="_blank"><b>2015 Lecture: Week 4 Source Code</b></a></p>
+<p><a href="http://cdn.cs50.net/2015/fall/lectures/4/w/src4w/" target="_blank"><b>2015 Lecture: Week 4, continued Source Code</b></a></p>
+<p><a href="http://cdn.cs50.net/2014/fall/lectures/4/w/src4w/" target="_blank"><b>2014 Lecture: Week 4, continued Source Code</b></a></p>
 <h2 id="prep-for-class-1">Prep for Class 1</h2>
 <h4 id="noswap">noswap</h4>
 <pre><code class="language-c">/**
@@ -343,6 +344,25 @@ int main(void)
     return 0;
 }</code></pre>
 <h2 id="prep-for-class-2">Prep for Class 2</h2>
+<h4 id="structsh">structs.h</h4>
+<pre><code class="language-c">/**
+ * structs.h
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Defines a student.
+ */
+
+#include &lt;cs50.h&gt;
+
+// structure representing a student
+typedef struct
+{
+    string name;
+    string house;
+}
+student;</code></pre>
 <h4 id="structs-0">structs-0</h4>
 <pre><code class="language-c">/**
  * structs-0.c
@@ -373,21 +393,21 @@ int main(void)
         printf("Student's name: ");
         students[i].name = GetString();
 
-        printf("Student's dorm: ");
-        students[i].dorm = GetString();
+        printf("Student's house: ");
+        students[i].house = GetString();
     }
 
     // now print students
     for (int i = 0; i &lt; STUDENTS; i++)
     {
-        printf("%s is in %s.\n", students[i].name, students[i].dorm);
+        printf("%s is in %s.\n", students[i].name, students[i].house);
     }
 
     // free memory
     for (int i = 0; i &lt; STUDENTS; i++)
     {
         free(students[i].name);
-        free(students[i].dorm);
+        free(students[i].house);
     }
 }</code></pre>
 <h4 id="structs-1">structs-1</h4>
@@ -421,8 +441,8 @@ int main(void)
         printf("Student's name: ");
         students[i].name = GetString();
 
-        printf("Student's dorm: ");
-        students[i].dorm = GetString();
+        printf("Student's house: ");
+        students[i].house = GetString();
     }
 
     // save students to disk
@@ -431,7 +451,7 @@ int main(void)
     {
         for (int i = 0; i &lt; STUDENTS; i++)
         {
-            fprintf(file, "%s,%s\n", students[i].name, students[i].dorm);
+            fprintf(file, "%s,%s\n", students[i].name, students[i].house);
         }
         fclose(file);
     }
@@ -440,7 +460,7 @@ int main(void)
     for (int i = 0; i &lt; STUDENTS; i++)
     {
         free(students[i].name);
-        free(students[i].dorm);
+        free(students[i].house);
     }
 }</code></pre>
                 </section>
