@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(void)
+int main(int argc, string argv[])
 {
     // Output the restaurant's welcome message:
     printf("Welcome to Better Burger, way better than Good Burger!\n");
