@@ -84,7 +84,6 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * If you try to run it you'll see that there are some issues:
  *      ~/workspace/module3/studios/multiplication_and_exponents $ make
  *      g++ expt.c mult.c mult.h -o expt
- *      g++: error: expt.c: No such file or directory
  *      g++: error: mult.c: No such file or directory
  *      g++: error: mult.h: No such file or directory
  * 
@@ -100,10 +99,11 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * File: mult.h
  * Save in Folder: ~/workspace/module3/studios/multiplication_and_exponents
  * 
- * Let's create the mult.h. This is the header file for the multiplication function, and should 
+ * Your first task will be to create those files. Let's start with `mult.h`. 
+ * This is the header file for the multiplication function, and should 
  * include the function prototype. A prototype defines what a function uses for its inputs and 
  * outputs, but does not define what the function does. It is used to tell other parts of your 
- * program what kinds of functions are available for use.To keep things simple, our multiplication 
+ * program what kinds of functions are available for use. To keep things simple, our multiplication 
  * function will focus on integers. 
  *
  * Our function should take two integers as input and return an integer as output. This should 
@@ -122,6 +122,7 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * 
  * Let's move on to mult.c. This file should contain the entire multiplication function. Fortunately you have already 
  * written the function definition - that's what the prototype is! Go ahead and copy it into the mult.c file.
+ * 
  * All that's left now is to write the function body - how do we want our multiplication function to behave? 
  * It would be easy to use the multiplication operator (*) and call it a day, but we're going to give you some 
  * restrictions to make this a little bit more challenging. Specifically, you are not allowed to use the multiplication operator. 

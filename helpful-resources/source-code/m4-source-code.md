@@ -1,11 +1,11 @@
 # Module 4 Source Code
 You will find the source code for the follow-alongs that you will complete during Module 4.  We have provided links to all of the files for CS50, so you will have access to some other files that we have not included in our curriculum. We highly recommend that you try to complete them on your own before you look at the code.  
 
-<a href="http://cdn.cs50.net/2015/fall/lectures/4/m/src4m/" target="_blank"><b>Lecture: Week 4 Source Code</b></a>
+<a href="http://cdn.cs50.net/2015/fall/lectures/4/m/src4m/" target="_blank"><b>2015 Lecture: Week 4 Source Code</b></a>
 
-<a href="http://cdn.cs50.net/2015/fall/lectures/4/w/src4w/" target="_blank"><b>Lecture: Week 4, continued Source Code</b></a>
+<a href="http://cdn.cs50.net/2015/fall/lectures/4/w/src4w/" target="_blank"><b>2015 Lecture: Week 4, continued Source Code</b></a>
 
-
+<a href="http://cdn.cs50.net/2014/fall/lectures/4/w/src4w/" target="_blank"><b>2014 Lecture: Week 4, continued Source Code</b></a>
 
 
 ## Prep for Class 1
@@ -308,6 +308,29 @@ int main(void)
 
 ## Prep for Class 2
 
+#### structs.h
+
+```c
+/**
+ * structs.h
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Defines a student.
+ */
+
+#include <cs50.h>
+
+// structure representing a student
+typedef struct
+{
+    string name;
+    string house;
+}
+student;
+```
+
 #### structs-0
 
 ```c
@@ -340,24 +363,25 @@ int main(void)
         printf("Student's name: ");
         students[i].name = GetString();
 
-        printf("Student's dorm: ");
-        students[i].dorm = GetString();
+        printf("Student's house: ");
+        students[i].house = GetString();
     }
 
     // now print students
     for (int i = 0; i < STUDENTS; i++)
     {
-        printf("%s is in %s.\n", students[i].name, students[i].dorm);
+        printf("%s is in %s.\n", students[i].name, students[i].house);
     }
 
     // free memory
     for (int i = 0; i < STUDENTS; i++)
     {
         free(students[i].name);
-        free(students[i].dorm);
+        free(students[i].house);
     }
 }
 ```
+
 #### structs-1
 
 ```c
@@ -391,8 +415,8 @@ int main(void)
         printf("Student's name: ");
         students[i].name = GetString();
 
-        printf("Student's dorm: ");
-        students[i].dorm = GetString();
+        printf("Student's house: ");
+        students[i].house = GetString();
     }
 
     // save students to disk
@@ -401,7 +425,7 @@ int main(void)
     {
         for (int i = 0; i < STUDENTS; i++)
         {
-            fprintf(file, "%s,%s\n", students[i].name, students[i].dorm);
+            fprintf(file, "%s,%s\n", students[i].name, students[i].house);
         }
         fclose(file);
     }
@@ -410,7 +434,7 @@ int main(void)
     for (int i = 0; i < STUDENTS; i++)
     {
         free(students[i].name);
-        free(students[i].dorm);
+        free(students[i].house);
     }
 }
 ```
