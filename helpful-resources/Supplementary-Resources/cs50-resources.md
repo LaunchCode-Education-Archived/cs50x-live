@@ -8,11 +8,15 @@
 <a href="http://www.howstuffworks.com/c.htm" target="_blank" >How C Programming Works</a>
 
 ##CS50 
-You will find slides and notes that specifically cover topics in the CS50x course.
-* <a href="https://study.cs50.net/" target="_blank" >CS50 Study</a>
+<a href="https://study.cs50.net/" target="_blank" >CS50 Study</a>
+
+* You will find slides and notes that specifically cover topics in the CS50x course.
 
 ##CS50 IDE 
 <a href="https://cs50.readme.io/" target="_blank" >Getting Started</a>
+
+<a href="https://manual.cs50.net/style/" target="_blank" >Style Guide</a>
+* Code style conventions
 
 ##CSS  
 <a href="https://dzone.com/refcardz/corecss-part1" target="_blank" >Core CSS</a>
