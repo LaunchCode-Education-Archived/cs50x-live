@@ -15,3 +15,5 @@ Why and when would we want to do this? Here is some general guidance:
 - if you notice that you’re writing a piece of code that seems very complicated, try putting it into a function.  The piece of code that calls your function will now be simpler
 
 This should let you write code that’s easier to understand, and easier to fix and change later, while letting you spend less effort than you would have otherwise.
+
+You will see some examples of writing custom functions over the rest of this section of prep materials.
