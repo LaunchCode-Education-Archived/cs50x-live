@@ -6,7 +6,7 @@
 In this problem set, you'll do (TODO someone: a few sentences, just a quick overview.)
 
 ### Guidance
-While searching and sorting, you will be getting more experienced with arrays. You're also gaining experience reading and figuring out how someone else's code works! (This is a good example of why something like `style50` standards are a good thing to use with your own code.)
+While searching and sorting, you will be getting more experienced with arrays. You're also gaining experience reading and figuring out how someone else's code works! (This is a good example of why something like `style50` standards are a good thing to use with your own code. You can find more information about it <a href="https://manual.cs50.net/style/" target="_blank">here</a>)
 
 Make sure you *break your work into the smallest pieces you possibly can*! Do *one thing at a time*, and *make sure it's working before going on to something else*.
 
