@@ -119,7 +119,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
 
 ### Class 1 Task: Floats-1
-This is a continuation of Floats-0, please follow the instructions below.  You will use terminal commands to copy the `floats-0.c` file.  Make sure you are in the `module2/followalongs/floats` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of Floats-0, please follow the instructions below.  You will use terminal commands to copy the `floats-0.c` file.  Make sure you are in the `module2/followalongs/floats` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy floats-0.c so you do not have to 
@@ -133,7 +133,7 @@ This is a continuation of Floats-0, please follow the instructions below.  You w
 ```
 
 ### Class 1 Task: Floats-2
-This is a continuation of Floats-1, please follow the instructions below.  You will use terminal commands to copy the `floats-1.c` file.  Make sure you are in the `module2/followalongs/floats` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of Floats-1, please follow the instructions below.  You will use terminal commands to copy the `floats-1.c` file.  Make sure you are in the `module2/followalongs/floats` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy floats-1.c file so you do not have to 
@@ -165,7 +165,7 @@ This is a continuation of Floats-1, please follow the instructions below.  You w
 ```
 
 ### Class 1 Task: ASCII-1
-This is a continuation of ASCII-0, please follow the instructions below.  You will use terminal commands to copy the `ascii-0.c` file.  Make sure you are in the `module2/followalongs/ascii` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of ASCII-0, please follow the instructions below.  You will use terminal commands to copy the `ascii-0.c` file.  Make sure you are in the `module2/followalongs/ascii` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy ascii-0.c file so you do not have to 
@@ -199,7 +199,7 @@ This is a continuation of ASCII-0, please follow the instructions below.  You wi
 ```
 
 ### Class 1 Task: Functions-1
-This is a continuation of Functions-0, please follow the instructions below.  You will use terminal commands to copy the `functions-0.c` file.  Make sure you are in the `module2/followalongs/functions` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of Functions-0, please follow the instructions below.  You will use terminal commands to copy the `functions-0.c` file.  Make sure you are in the `module2/followalongs/functions` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy functions-0.c file so you do not have to 
@@ -231,7 +231,7 @@ This is a continuation of Functions-0, please follow the instructions below.  Yo
 ```
 
 ### Class 1 Task: String-1
-This is a continuation of String-0, please follow the instructions below.  You will use terminal commands to copy the `string-0.c` file.  Make sure you are in the `module2/followalongs/string` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of String-0, please follow the instructions below.  You will use terminal commands to copy the `string-0.c` file.  Make sure you are in the `module2/followalongs/string` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy string-0.c so you do not have to 
@@ -245,7 +245,7 @@ This is a continuation of String-0, please follow the instructions below.  You w
 ```
 
 ### Class 1 Task: String-2
-This is a continuation of String-0, please follow the instructions below.  You will use terminal commands to copy the `string-0.c` file.  Make sure you are in the `module2/followalongs/string` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of String-0, please follow the instructions below.  You will use terminal commands to copy the `string-0.c` file.  Make sure you are in the `module2/followalongs/string` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy string-1.c so you do not have to 
@@ -277,7 +277,7 @@ This is a continuation of String-0, please follow the instructions below.  You w
 ```
 
 ### Class 1 Task: Capitalize-1
-This is a continuation of Capitalize-0, please follow the instructions below.  You will use terminal commands to copy the `capitalize-0.c` file.  Make sure you are in the `module2/followalongs/capitalize/` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of Capitalize-0, please follow the instructions below.  You will use terminal commands to copy the `capitalize-0.c` file.  Make sure you are in the `module2/followalongs/capitalize/` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy capitalize-0.c so you do not have to 
@@ -291,7 +291,7 @@ This is a continuation of Capitalize-0, please follow the instructions below.  Y
 ```
 
 ### Class 1 Task: Capitalize-2
-This is a continuation of Capitalize-0, please follow the instructions below.  You will use terminal commands to copy the `capitalize-0.c` file.  Make sure you are in the `module2/followalongs/capitalize` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of Capitalize-0, please follow the instructions below.  You will use terminal commands to copy the `capitalize-0.c` file.  Make sure you are in the `module2/followalongs/capitalize` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy capitalize-1.c so you do not have to 
@@ -345,7 +345,7 @@ This is a continuation of Capitalize-0, please follow the instructions below.  Y
 ```
 
 ### Class 2 Task: Argv-1
-This is a continuation of Argv-0, please follow the instructions below.  You will use terminal commands to copy the `argv-0.c` file.  Make sure you are in the `module2/followalongs/argv` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of Argv-0, please follow the instructions below.  You will use terminal commands to copy the `argv-0.c` file.  Make sure you are in the `module2/followalongs/argv` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy argv-0.c so you do not have to 
@@ -359,7 +359,7 @@ This is a continuation of Argv-0, please follow the instructions below.  You wil
 ```
 
 ### Class 2 Task: Argv-2
-This is a continuation of Argv-1, please follow the instructions below.  You will use terminal commands to copy the `argv-1.c` file.  Make sure you are in the `module2/followalongs/argv` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
+This is a continuation of Argv-1, please follow the instructions below.  You will use terminal commands to copy the `argv-1.c` file.  Make sure you are in the `module2/followalongs/argv` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
 ```
  /**
   * This is a continuation of the last program and you should copy argv-1.c so you do not have to 
