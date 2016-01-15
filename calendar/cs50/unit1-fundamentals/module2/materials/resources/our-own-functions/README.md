@@ -34,7 +34,7 @@ int lengthThree = strlen(exampleStringThree);
 printf(“String three has %i characters.\n”, lengthThree);
 ```
 
-But without it, we would need to do a bunch of extra computation to figure out the length of the string, and we would have to do it three times, one for each string:
+But without it, we would need to do a bunch of extra computation to figure out the length of the string. And the kicker is that we would have to do it three times, one for each string:
 
 ```c
 string exampleStringOne = GetString();
@@ -92,13 +92,13 @@ printf(“String three has %i characters.\n”, lengthThree);
 
 Yuck. 
 
-If noone has written a function for us, we should write it ourselves!
+Clearly it's much nicer to be able to just call the function. If only someone had written it for us... 
+
+But the good news is that we can just write it ourselves!
 
 
 
-
-
-This saved us a considerable amount of writing, and as these little routines get more and more complicated, the time you save by putting them in functions instead of rewriting them over and over just gets bigger and bigger.
+This saves us a considerable amount of writing, and as these little routines get more and more complicated, the time you save by putting them in functions instead of rewriting them over and over just gets bigger and bigger.
 
 As an added benefit, the resulting code is far easier to read: as long as we know that `strlen` calculates the length of a string, we can see the idea expressed in the code much easier when it uses `strlen` than when it uses loops, where we’d have to read and understand each loop to understand what they’re doing.
 
