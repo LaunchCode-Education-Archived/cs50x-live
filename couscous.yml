@@ -25,11 +25,14 @@ menu:
             relativeUrl: how-to-take-this-class/
         studentguide:
             text: Student Guide
-            absoluteUrl: https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing target="_blank"
+            absoluteUrl: https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing
+            attributes: target="_blank"
         vocareum:
             text: Vocareum
-            absoluteUrl: http://labs.vocareum.com/main/ target="_blank"
+            absoluteUrl: http://labs.vocareum.com/main/
+            attributes: target="_blank"
         piazza:
             text: Piazza
-            absoluteUrl: http://piazza.com/wustl/spring2016/cs50x target="_blank"
+            absoluteUrl: http://piazza.com/wustl/spring2016/cs50x
+            attributes: target="_blank"
 
