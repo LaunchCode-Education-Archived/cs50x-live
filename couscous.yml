@@ -1,7 +1,7 @@
 template:
     url: https://github.com/LaunchCodeEducation/Template-Light
 # Base URL of the published website
-baseUrl: http://LaunchCodeEducation.github.io/cs50x-stlouis
+baseUrl: http://education.launchcode.org/cs50x-stlouis
 
 # Used to link to the GitHub project
 github:
@@ -35,5 +35,3 @@ menu:
             text: Piazza
             absoluteUrl: http://piazza.com/wustl/spring2016/cs50x
             attributes: target="_blank"
-
-
