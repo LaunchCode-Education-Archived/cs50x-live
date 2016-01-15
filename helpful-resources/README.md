@@ -1,8 +1,6 @@
 # Helpful Resources
 
-# Welcome to the LaunchCode CS50x Wiki!
-
-We've created this Wiki for you as an additional source to find important links to useful materials such as cheat sheets, internal/external resources and course information that can be used throughout the duration of the course. Throughout the curriculum, we have provided links to some of these resources, where we believe that they will help you most. 
+This is where you will find important links to useful materials such as cheat sheets, internal / external resources and course information that can be used throughout the duration of the course. Throughout the curriculum, we have provided links to some of these resources, where we believe that they will help you most. 
 
 There are links to resources listed below for your convenience.  
 
