@@ -35,8 +35,8 @@ Read | Lecture Nodes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=6RLxPdZ59y0&index=4&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Structs</a> | pointers around 5:00, sizeof, accessing fields with `->` operator
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=wgv4xH_tVgA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=5" target="_blank">Defining Custom Types</a> | typedef
 Watch | Short | <a href="https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Structs</a> | prereq `char*`; goes into recursive struct definitions like linked lists, and then talks alot about pointers
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=yMvRqKmbRm4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=12" target="_blank">structs-0</a> | struct for a "student" object  
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">stucts-1</a> | student structs written to csv file
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=yMvRqKmbRm4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=12" target="_blank">structs-0</a> | Follow David as he creates a struct for a "student" object.  <br>You can grab the pseudocode <a href="../../../../../../helpful-resources/modules/module-4.html#class-2-task-structs-0" target="_blank">here</a>.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">stucts-1</a> | Keep following David as he creates a program to write student structs to a csv file. You've seen this program before and can find instructions to start the program <a href="../../../../../../helpful-resources/modules/module-4.html#class-2-task-structs-1" target="_blank">here</a>.
 Do | Exercise | | TODO exc : something with struXX
 TODO explain motivation for structs
 
