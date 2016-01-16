@@ -6,16 +6,16 @@
 
         <title>LaunchCode&#039;s CS50x - St. Louis</title>
 
-        <link rel="stylesheet" href="http://LaunchCodeEducation.github.io/cs50x-stlouis/css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://LaunchCodeEducation.github.io/cs50x-stlouis/css/font-awesome.min.css">
-        <link rel="stylesheet" href="http://LaunchCodeEducation.github.io/cs50x-stlouis/css/highlight.dark.css">
-        <link rel="stylesheet" href="http://LaunchCodeEducation.github.io/cs50x-stlouis/css/main.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
     </head>
     <body>
 
         <header class="navbar navbar-default navbar-fixed-top">
 
-            <a class="navbar-brand" href="http://LaunchCodeEducation.github.io/cs50x-stlouis/">
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
                 LaunchCode&#039;s CS50x - St. Louis
             </a>
 
@@ -29,33 +29,33 @@
 
                         <ul class="nav nav-pills nav-stacked">
                                                             <li class="">
-                                    <a href="http://LaunchCodeEducation.github.io/cs50x-stlouis/calendar/">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
                                         Calendar
                                     </a>
                                 </li>
                                                             <li class="">
-                                    <a href="http://LaunchCodeEducation.github.io/cs50x-stlouis/helpful-resources/">
-                                        Helpful Resources
-                                    </a>
-                                </li>
-                                                            <li class="">
-                                    <a href="http://LaunchCodeEducation.github.io/cs50x-stlouis/how-to-take-this-class/">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
                                         How To Take This Class
                                     </a>
                                 </li>
                                                             <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
                                     <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
-                                        Student Guide
+                                        ‹ Student Guide
                                     </a>
                                 </li>
                                                             <li class="">
                                     <a href="http://labs.vocareum.com/main/">
-                                        Vocareum
+                                        ‹ Vocareum
                                     </a>
                                 </li>
                                                             <li class="">
                                     <a href="http://piazza.com/wustl/spring2016/cs50x">
-                                        Piazza
+                                        ‹ Piazza
                                     </a>
                                 </li>
                                                     </ul>
@@ -142,7 +142,6 @@ int main(void)</code></pre>
 * If you try to run it you'll see that there are some issues:
 *      ~/workspace/module3/studios/multiplication_and_exponents $ make
 *      g++ expt.c mult.c mult.h -o expt
-*      g++: error: expt.c: No such file or directory
 *      g++: error: mult.c: No such file or directory
 *      g++: error: mult.h: No such file or directory
 * 
@@ -156,10 +155,11 @@ int main(void)</code></pre>
 * File: mult.h
 * Save in Folder: ~/workspace/module3/studios/multiplication_and_exponents
 * 
-* Let's create the mult.h. This is the header file for the multiplication function, and should 
+* Your first task will be to create those files. Let's start with `mult.h`. 
+* This is the header file for the multiplication function, and should 
 * include the function prototype. A prototype defines what a function uses for its inputs and 
 * outputs, but does not define what the function does. It is used to tell other parts of your 
-* program what kinds of functions are available for use.To keep things simple, our multiplication 
+* program what kinds of functions are available for use. To keep things simple, our multiplication 
 * function will focus on integers. 
 *
 * Our function should take two integers as input and return an integer as output. This should 
@@ -176,6 +176,7 @@ int main(void)</code></pre>
 * 
 * Let's move on to mult.c. This file should contain the entire multiplication function. Fortunately you have already 
 * written the function definition - that's what the prototype is! Go ahead and copy it into the mult.c file.
+* 
 * All that's left now is to write the function body - how do we want our multiplication function to behave? 
 * It would be easy to use the multiplication operator (*) and call it a day, but we're going to give you some 
 * restrictions to make this a little bit more challenging. Specifically, you are not allowed to use the multiplication operator. 
