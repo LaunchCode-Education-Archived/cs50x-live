@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        ‹ Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        ‹ Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        ‹ Piazza
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h1 id="module-2-source-code">Module 2 Source Code</h1>
+<p>You will find the source code for the follow-alongs that you will complete during Module 2.  We have provided links to all of the files for CS50, so you will have access to some other files that we have not included in our curriculum. We highly recommend that you try to complete them on your own before you look at the code.  </p>
+<p><a href="http://cdn.cs50.net/2015/fall/lectures/2/m/src2m/" target="_blank"><b>Lecture: Week 2  Source Code</b></a></p>
+<p><a href="http://cdn.cs50.net/2015/fall/lectures/2/w/src2w/" target="_blank"><b>Lecture: Week 2, continued Source Code</b></a></p>
+<p><a href="http://cdn.cs50.net/2014/fall/lectures/2/m/src2m/" target="_blank"><b>Lecture: Week 2 Source Code (2014)</b></a></p>
+<p><a href="http://cdn.cs50.net/2014/fall/lectures/2/w/src2w/" target="_blank"><b>Lecture: Week 2 Source Code (2014)</b></a></p>
+<h2 id="prep-for-class-1">Prep for Class 1</h2>
+<h4 id="floats-0">floats-0</h4>
+<pre><code class="language-c">/**
+ * floats-0.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Tries to print 1/10 as a floating-point value.
+ *
+ * Demonstrates truncation.
+ */
+
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    float f = 1 / 10;
+    printf("%.1f\n", f);
+}</code></pre>
+<h4 id="floats-1">floats-1</h4>
+<pre><code class="language-c">/**
+ * floats-1.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Prints 1/10 as a floating-point value to one decimal place.
+ *
+ * Demonstrates division of floating-point values.
+ */
+
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    float f = 1.0 / 10.0;
+    printf("%.1f\n", f);
+}</code></pre>
+<h4 id="floats-2">floats-2</h4>
+<pre><code class="language-c">/**
+ * floats-2.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Prints 1/10 as a floating-point value to 28 decimal places.
+ *
+ * Demonstrates imprecision of floating-point values.
+ */
+
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    float f = 1.0 / 10.0;
+    printf("%.28f\n", f);
+}</code></pre>
+<h4 id="ascii-0">ascii-0</h4>
+<pre><code class="language-c">/**
+ * ascii-0.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Displays the mapping between alphabetical ASCII characters and
+ * their decimal equivalents.
+ *
+ * Demonstrates casting from int to char.
+ */
+
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    // display mapping for uppercase letters
+    for (int i = 65; i &lt; 65 + 26; i++)
+    {
+        printf("%c: %i\n", (char) i, i);
+    }
+
+    // separate uppercase from lowercase
+    printf("\n");
+
+    // display mapping for lowercase letters
+    for (int i = 97; i &lt; 97 + 26; i++)
+    {
+        printf("%c: %i\n", (char) i, i);
+    }
+}</code></pre>
+<h4 id="ascii-1">ascii-1</h4>
+<pre><code class="language-c">/**
+ * ascii-1.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Displays the mapping between alphabetical ASCII characters and
+ * their decimal equivalents.
+ *
+ * Demonstrates casting from char to int.
+ */
+
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    // display mapping for uppercase letters
+    for (char c = 'A'; c &lt;= 'Z'; c++)
+    {
+        printf("%c: %i\n", c, (int) c);
+    }
+
+    // separate uppercase from lowercase
+    printf("\n");
+
+    // display mapping for lowercase letters
+    for (char c = 'a'; c &lt;= 'z'; c++)
+    {
+        printf("%c: %i\n", c, (int) c);
+    }
+}</code></pre>
+<h4 id="function-0">function-0</h4>
+<pre><code class="language-c">/**
+ * function-0.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Prints a user's name.
+ *
+ * Demonstrates a function (not from a library) with a side effect.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+
+// prototype
+void PrintName(string name);
+
+int main(void)
+{
+    printf("Your name: ");
+    string s = GetString();
+    PrintName(s);
+}
+
+/**
+ * Says hello to someone by name.
+ */
+void PrintName(string name)
+{
+    printf("hello, %s\n", name);
+}</code></pre>
+<h4 id="function-1">function-1</h4>
+<pre><code class="language-c">/**
+ * function-1.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Demands that user provide a positive integer.
+ *
+ * Demonstrates use of a function (not from a library) with a return value.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+
+// prototype
+int GetPositiveInt();
+
+int main(void)
+{
+    int n = GetPositiveInt();
+    printf("Thanks for the %i!\n", n);
+}
+
+/**
+ * Gets a positive integer from a user.
+ */
+int GetPositiveInt(void)
+{
+    int n;
+    do
+    {
+        printf("Please give me a positive int: ");
+        n = GetInt();
+    }
+    while (n &lt; 1);
+    return n;
+}</code></pre>
+<h4 id="string-0">string-0</h4>
+<pre><code class="language-c">/**
+ * string-0.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Prints a string, one character per line.
+ *
+ * Demonstrates strings as arrays of chars and use of strlen.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int main(void)
+{
+    // get line of text
+    string s = GetString();
+
+    // print string, one character per line
+    for (int i = 0; i &lt; strlen(s); i++)
+    {
+        printf("%c\n", s[i]);
+    }
+}</code></pre>
+<h4 id="string-1">string-1</h4>
+<pre><code class="language-c">/**
+ * string-1.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Prints a string, one character per line.
+ *
+ * Demonstrates error checking.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int main(void)
+{
+    // get line of text
+    string s = GetString();
+
+    // print string, one character per line
+    if (s != NULL)
+    {
+        for (int i = 0; i &lt; strlen(s); i++)
+        {
+            printf("%c\n", s[i]);
+        }
+    }
+}</code></pre>
+<h4 id="string-2">string-2</h4>
+<pre><code class="language-c">/**
+ * string-2.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Prints a string, one character per line.
+ *
+ * Demonstrates optimization of a loop.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int main(void)
+{
+    // get line of text
+    string s = GetString();
+
+    // print string, one character per line
+    if (s != NULL)
+    {
+        for (int i = 0, n = strlen(s); i &lt; n; i++)
+        {
+            printf("%c\n", s[i]);
+        }
+    }
+}</code></pre>
+<h4 id="capitalize-0">capitalize-0</h4>
+<p><a href="http://cdn.cs50.net/2015/fall/lectures/3/w/src3w/" target="_blank">Lecture: Week 3</a></p>
+<pre><code class="language-c">/**
+ * capitalize-0.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Capitalizes a given string.
+ *
+ * Demonstrates casting and iteration over strings as arrays of chars.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int main(void)
+{
+    // get line of text
+    string s = GetString();
+
+    // capitalize text
+    for (int i = 0, n = strlen(s); i &lt; n; i++)
+    {
+        if (s[i] &gt;= 'a' &amp;&amp; s[i] &lt;= 'z')
+        {
+            printf("%c", s[i] - ('a' - 'A'));
+        }
+        else
+        {
+            printf("%c", s[i]);
+        }
+    }
+    printf("\n");
+}</code></pre>
+<h4 id="capitalize-1">capitalize-1</h4>
+<pre><code class="language-c">/**
+ * capitalize-1.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Capitalizes a given string.
+ *
+ * Demonstrates islower and toupper.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;ctype.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int main(void)
+{
+    // get line of text
+    string s = GetString();
+
+    // capitalize text
+    for (int i = 0, n = strlen(s); i &lt; n; i++)
+    {
+        if (islower(s[i]))
+        {
+            printf("%c", toupper(s[i]));
+        }
+        else
+        {
+            printf("%c", s[i]);
+        }
+    }
+    printf("\n");
+}</code></pre>
+<h4 id="capitalize-2">capitalize-2</h4>
+<pre><code class="language-c">/**
+ * capitalize-2.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Capitalizes a given string.
+ *
+ * Demonstrates further simplification of code with toupper.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;ctype.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int main(void)
+{
+    // get line of text
+    string s = GetString();
+
+    // capitalize text
+    for (int i = 0, n = strlen(s); i &lt; n; i++)
+    {
+        printf("%c", toupper(s[i]));
+    }
+    printf("\n");
+}</code></pre>
+<h2 id="prep-for-class-2">Prep for Class 2</h2>
+<h4 id="ages">ages</h4>
+<pre><code class="language-c">/**
+ * ages.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Ages people by a year.
+ *
+ * Demonstrates arrays.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    // determine number of people
+    int n;
+    do
+    {
+        printf("Number of people in room: ");
+        n = GetInt();
+    }
+    while (n &lt; 1);
+
+    // declare array in which to store everyone's age
+    int ages[n];
+
+    // get everyone's age
+    for (int i = 0; i &lt; n; i++)
+    {
+        printf("Age of person #%i: ", i + 1);
+        ages[i] = GetInt();
+    }
+
+    // report everyone's age a year hence
+    printf("Time passes...\n");
+    for (int i = 0; i &lt; n; i++)
+    {
+        printf("A year from now, person #%i will be %i years old.\n", i + 1, ages[i] + 1);
+    }
+}</code></pre>
+<h4 id="argv-0">argv-0</h4>
+<pre><code class="language-c">/**
+ * argv-0.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Prints program's first command-line argument; assumes it's present.
+ *
+ * Demonstrates use of argv.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+
+int main(int argc, string argv[])
+{
+    printf("%s\n", argv[1]);
+}</code></pre>
+<h4 id="argv-1">argv-1</h4>
+<pre><code class="language-c">/**
+ * argv-1.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Prints command-line arguments, one per line.
+ *
+ * Demonstrates use of argv.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+
+int main(int argc, string argv[])
+{
+    // print arguments
+    for (int i = 0; i &lt; argc; i++)
+    {
+        printf("%s\n", argv[i]);
+    }
+}</code></pre>
+<h4 id="argv-2">argv-2</h4>
+<pre><code class="language-c">/**
+ * argv-2.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Prints command-line arguments, one character per line.
+ *
+ * Demonstrates argv as a two-dimensional array.
+ */
+
+#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int main(int argc, string argv[])
+{
+    // print arguments
+    for (int i = 0; i &lt; argc; i++)
+    {
+        for (int j = 0, n = strlen(argv[i]); j &lt; n; j++)
+        {
+            printf("%c\n", argv[i][j]);
+        }
+        printf("\n");
+    }
+}</code></pre>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
