@@ -76,7 +76,7 @@ INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will se
 
 If you forget how to use Vocareum, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocareum.
 
-You may also find it useful to review the <a href="../../../../../module0/materials/problem-set/README.html" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
+You may also find it useful to review the <a href="../../../../../module0/materials/problem-set/" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
 
 ***
 Congratulations on completing [Module 1](../..)! Return to the [Course Calendar](../../../../..) to see what's next.
