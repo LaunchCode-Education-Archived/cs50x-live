@@ -124,7 +124,7 @@ void print_age(int age)
 }
 ```
 Output:
-```
+```nohighlight
 $ You are 5 years old.
 ```
  

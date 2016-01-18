@@ -4,7 +4,7 @@
 We are providing instructions formatted as comments that you can copy over to the IDE.
 
 ### Class 1 Studio: Word-Grid
-```
+```c
 /**
   * Filename: wordgrid.c
   * Save in Folder: ~/workspace/module3/studios/wordgrid
@@ -60,7 +60,7 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
 * PART 2: You will save in a file called `mult.h` (for the function prototype). 
 * PART 3: You will save in a file called `mult.c` (for the function implementation) 
 * PART 4: You will save in a file called `expt.c`.  The starter code is provided in PART 4 **(there are no asterisks `*` preceding the code that will be copied to the file)**.  If you need help please ask! :smile:  
-```
+```c
 /**
  * 
  * Save All Files in Folder: ~/workspace/module3/studios/multiplication_and_exponents 
@@ -93,7 +93,7 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * 
  */
 ```
-```
+```c
 /**
  * PART 2:
  * File: mult.h
@@ -114,7 +114,7 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  *
  */
 ```
-```
+```c
 /**
  * PART 3:
  * File: mult.c
@@ -139,7 +139,7 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * 
  */
 ```
-```
+```c
 /**
  * 
  * PART 4:
@@ -197,7 +197,7 @@ The pseudocode will be formatted as comments so you can copy it over to the CS50
 
 ### Class 2 Task: Sigma-0
 
-```
+```c
  /**
   * Filename: sigma-0.c
   * Save in Folder: ~/workspace/module3/followalongs/sigma
@@ -221,7 +221,7 @@ The pseudocode will be formatted as comments so you can copy it over to the CS50
 
 ### Class 2 Task: Sigma-1
 This is a continuation of Sigma-0, please follow the instructions below. You will use terminal commands to copy the `sigma-0.c` file. Make sure you are in the `module3/followalongs/sigma` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.)
-```
+```c
  /**
   * This is a continuation of the last program and you should copy sigma-0.c so you do not have to 
   * write the whole program. Use the command below, open up sigma-1.c and watch the video

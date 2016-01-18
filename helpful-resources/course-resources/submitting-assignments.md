@@ -23,7 +23,7 @@ Please make sure you use the <a href="http://cdn.cs50.net/2015/fall/psets/1/pset
 When you are submitting Studios you should always use the inputs in the example to check your results against the results that are given in the Studio instructions. This will ensure you that have completed the assignment correctly.
   
 Studio 1 Example:
-```
+```nohighlight
 $ ./donuts
 Welcome to the Loop Hole!
 Today's Manager's Special is:
