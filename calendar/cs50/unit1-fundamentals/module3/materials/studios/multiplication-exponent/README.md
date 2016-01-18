@@ -7,11 +7,11 @@ In this studio, you will be writing code that performs multiplication and expone
 
 Since these two functions are separate from each other, we will use separate files for them. You may want to take a look at <a href="../../resources/spread-out">this resource about multiple files</a> before working on this studio.
 
-As a starting point you are provided with some files for the exponentiation function. `expt.c` includes starter code for the exponentiation function as well as some tests for multiplication and exponentiation in a main method.
+As a starting point you are provided with some files for the exponentiation function. [expt.c](expt.html) includes starter code for the exponentiation function as well as some tests for multiplication and exponentiation in a main method.
 
-You have also been supplied a `Makefile`, but if you try to run it you'll see that there are some issues:
+You have also been supplied a [Makefile](Makefile.html), but if you try to run it you'll see that there are some issues:
 
-``` 
+```nohighlight
 ~/workspace $ make
 g++ expt.c mult.c mult.h -o expt
 g++: error: mult.c: No such file or directory

@@ -13,7 +13,7 @@ Let's explore this by writing a program that receives three 3-character `string`
 (in other words a grid of 9 `chars`), 
 and prints the grid to the conosle, with each word in its own **column**, like so:
 
-```
+```nohighlight
 $ ./wordgrid sun yes ear
 sye
 uea
