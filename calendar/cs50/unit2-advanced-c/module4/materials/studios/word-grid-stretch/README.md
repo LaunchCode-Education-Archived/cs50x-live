@@ -4,7 +4,7 @@
 
 Revenge of the word grid
 
-```
+```nohighlight
 $ ./wordgridsequel
 Gimme a word and a stretch factor: Hello Chees 3
 

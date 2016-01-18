@@ -13,7 +13,7 @@ The code to show the menu has already been written, you just need to fill in the
 - close the file
 
 The program should run like this:
-```
+```nohighlight
 $ ./goodburger
 Welcome to Good Burger! Can I take your order?
 MENU:
@@ -29,7 +29,7 @@ Which menu item would you like? 0
 ```
 
 The resulting output file should be formatted like this:
-```
+```nohighlight
 Order 1) Fries
 Order 2) Cheeseburger
 Order 3) Water

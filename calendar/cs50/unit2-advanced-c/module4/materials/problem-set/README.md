@@ -19,7 +19,7 @@ As always, Zamyla is your friend - AND break your coding into the smallest piece
 * 
 Finally, a note on `fread()` and `fwrite()`: make sure you understand the parameters - especially the middle two. For the details, read on:  
 Your "man" page shows this:
-````
+````c
     size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);
     size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream);
 ````

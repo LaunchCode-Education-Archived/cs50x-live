@@ -6,7 +6,7 @@
 
 Write a program that prompts the user for a `string`, and then then echoes back a "double" copy of the string. For example:
 
-```
+```nohighlight
 $ ./doublecopy
 Whaddaya say, kid?
 hello
