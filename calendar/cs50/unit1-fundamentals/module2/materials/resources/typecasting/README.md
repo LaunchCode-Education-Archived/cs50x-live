@@ -130,6 +130,6 @@ Even without explicit casting here, the compiler notices that `score` is a float
 * You can cast an expression from one data-type to another
   * The syntax for casting an expression into a different data type involves prefixing the expression with the name of the new type in parentheses, like so: `(newType) expression` where `newType` is something like `float` and `expression` is something like `num_correct` or `46` or `(1 + 2 + 3)`
 
-Check out [quizscore.c](./quizscore.c) for the sourcecode version of this example;
+Check out [quizscore.c](./quizscore.html) for the sourcecode version of this example;
 
 

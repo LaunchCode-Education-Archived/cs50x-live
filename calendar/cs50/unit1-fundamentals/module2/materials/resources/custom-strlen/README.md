@@ -53,9 +53,9 @@ BTW, remember that `counter++` is just a fancy way of incrementing `counter` by 
 * `counter += 1;`
 * `counter = counter + 1;`
 
-Take a look at [customstrlen.c](./customstrlen.c) for a complete example program that implements this function, and invokes it from inside `main`, resulting in behavior like this:
+Take a look at [customstrlen.c](./customstrlen.html) for a complete example program that implements this function, and invokes it from inside `main`, resulting in behavior like this:
 
-```
+```nohighlight
 $ ./customstrlen
 Please enter a string: Don't be silly.
 That string is 15 characters long!

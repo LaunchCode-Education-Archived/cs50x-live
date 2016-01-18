@@ -13,7 +13,7 @@ This exercise is like a combination of these two videos:
 So if you need help, look at those first!
 
 Usage for the program should look like this:
-```
+```nohighlight
 $ ./clc 5 2
 Result: 7.000000000
 $ ./clc 2.2 3.3

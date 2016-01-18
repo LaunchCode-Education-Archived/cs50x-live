@@ -34,7 +34,7 @@ Here are the components due for Problem Set 2:
 
 Let's say a user enters a command in their terminal like this:
 
-```
+```nohighlight
 $ ./caesar 13
 ```
 
@@ -42,13 +42,13 @@ In the above example, `argc == 2` because there are two command line arguments.
 
 
 And the array `argv[]` contains those two arguments as string elements - one for the name of the program and one for the number - in the same order as they appear on the command line:
-````
+````nohighlight
 argv[0] == "./caesar"
 argv[1] == "13"
 ````
 
 Further, remember that each `string` is an `array` itself (an array of `char`s). Thus:
-````
+````nohighlight
 argv[0][0] == '.'
 argv[0][1] == '/'
 argv[0][2] == 'c'

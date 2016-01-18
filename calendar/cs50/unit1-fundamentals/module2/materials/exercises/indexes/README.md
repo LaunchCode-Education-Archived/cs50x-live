@@ -5,7 +5,7 @@
 Write a program that receives a string from the user, and then loops over the string and prints each character
 along with the index of that character, like so:
 
-```
+```nohighlight
 $ ./stringindexes
 Give me a string please: Bagel
 The character at index 0 is B

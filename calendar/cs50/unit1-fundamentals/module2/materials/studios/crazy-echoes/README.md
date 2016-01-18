@@ -11,7 +11,7 @@ The twist: each string should print out backwards.
 
 For example:
 
-```
+```nohighlight
 $ ./backwardsecho hello 64
 ohcesdrawkcab/. olleh 46
 ```
@@ -27,13 +27,13 @@ Now for another variation on the "echo" theme. In a file called `mixedupecho.c` 
 
 The twist this time: the echoes should "intermix" with each other, like so:
 
-```
+```nohighlight
 $ ./mixedupecho HELLO!
 .H/EmLiLxOe!dHuEpLeLcOh!oH
 ```
 
 For this program, you can ignore any command-line arguments beyond the first two (including the program name itself):
-```
+```nohighlight
 $ ./mixedupecho HELLO! morestuff lalala
 .H/EmLiLxOe!dHuEpLeLcOh!oH
 ```
@@ -57,11 +57,11 @@ In other words, the user will never provide a string longer than `"./mixedupecho
 Let's take away that last part ("To keep things simple..."). 
 
 Now you may NOT assume the second argument will be the shorter one. For example, the user might type this:
-```
+```nohighlight
 $ ./mixedupecho GREENEGGSANDSPAM
 ```
 in which case, the *first* argument will have to wrap around, and so your output should be:
-```
+```nohighlight
 .G/RmEiExNeEdGuGpSeAcNhDoS.P/AmM
 ```
 

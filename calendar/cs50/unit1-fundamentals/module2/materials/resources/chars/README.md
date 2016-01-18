@@ -56,8 +56,8 @@ You don’t have to know or memorize the ASCII table!  Just know that just like 
 
 ### An Example
 
-Check out <a href="threeletterword.c">threeletterword.c</a> for an example of `char`s in action. Our program simply asks the user for three `char`s, one at a time, and then prints out the resulting "word":
-```
+Check out [threeletterword.c](threeletterword.html) for an example of `char`s in action. Our program simply asks the user for three `char`s, one at a time, and then prints out the resulting "word":
+```nohighlight
 $ ./theeletterword
 char please: g
 char please: i

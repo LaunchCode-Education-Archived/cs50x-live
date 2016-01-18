@@ -4,7 +4,7 @@
 
 Use the modulo `%` operator to write a program that prompts the user for the current time, and an amount of hours in the future, and then "predicts" what time it will be in the future:
 
-```
+```nohighlight
 $ ./clocksage
 What is the hour? 3
 How far into the future shall I cast mine eye? (number of hours plz): 5

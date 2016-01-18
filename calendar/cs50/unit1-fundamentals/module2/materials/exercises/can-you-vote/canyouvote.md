@@ -1,3 +1,4 @@
+```c
 #include <stdio.h>
 #include <cs50.h>
 
@@ -12,3 +13,4 @@ int main(void)
     // Output if each person can vote or not (they can vote if they're 18 or older!)
 
 }
+```

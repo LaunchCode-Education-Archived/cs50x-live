@@ -7,7 +7,7 @@ and then prints the position of that letter in the alphabet, starting with `A` a
 should work for both capital and lowercase letters, but should reject any input that is not alphabetical, 
 like `'3'` or `'$'`.
 
-```
+```nohighlight
 $ ./letterlocator
 Give me a letter: A
 A is at position 0

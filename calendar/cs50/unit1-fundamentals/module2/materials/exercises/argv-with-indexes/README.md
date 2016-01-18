@@ -10,7 +10,7 @@ Let's get used to indexing into argv!
 Write a program that prints each of its command line arguments on its own line, along with the index of the argument.
 
 The program should run like this:
-```
+```nohighlight
 $ ./argvindex I love the cards
 Argument 0: I
 Argument 1: love
@@ -20,4 +20,4 @@ Argument 3: cards
 
 If you need help, this program is very similar to the one in <a href="https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">this video</a>, so look there first!
 
-We've provided a tiny bit of starter code [here](./argvindex.c).
+We've provided a tiny bit of starter code [here](./argvindex.html).

@@ -9,7 +9,7 @@ based on the length of the user's answer:
 * If the user's answer was too long (greater than 50 characters), the program gets bored of listening.
 * If the user's answer was just right (between 20 and 50 characters), the program responds positively.
 
-```
+```nohighlight
 $ ./smalltalk
 How's your day going? fine
 Not much of a talker, I see. Maybe elaborate a little more next time.
