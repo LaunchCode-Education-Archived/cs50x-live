@@ -16,8 +16,8 @@ And tells them:
 Make a file called `marathon.c` in your IDE, copy over the starter code, and try to fix it so it returns the correct amount of time left.
 
 An example run of the corrected code:
-```
-$. marathon
+```nohighlight
+$./marathon
 How many miles have you run so far? 5
 How many hours ago did you start? 2
 At this rate, you have 8.480000 hours left.
