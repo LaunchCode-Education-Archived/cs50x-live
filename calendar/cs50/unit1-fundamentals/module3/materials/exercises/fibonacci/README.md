@@ -7,7 +7,7 @@ You may have heard of the <a href="https://en.wikipedia.org/wiki/Fibonacci_numbe
 
 The Fibonacci Sequence is an infinite series of integers, beginning with:
 
-```
+```nohighlight
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ...
 ```
 
@@ -35,11 +35,11 @@ int fib(int n);
 ```
 which uses recursion to compute and return the value of nth term of the Fibonacci Sequence.
 
-A skeleton program is already stubbed out for you in [fibonacci.c](./fibonacci.c)
+A skeleton program is already stubbed out for you in [fibonacci.c](./fibonacci.html)
 
 The finished product should behave like this:
 
-```
+```nohighlight
 $ ./fibonacci 3
 2
 $ ./fibonacci 10

@@ -3,9 +3,9 @@
 
 # Example: Recursion
 
-Check out [sigma.c](./sigma.c), an example of a program that uses a recursive function:
+Check out [sigma.c](./sigma.html), an example of a program that uses a recursive function:
 
-```
+```c
 int sigma(int m);
 ```
 

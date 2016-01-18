@@ -9,17 +9,17 @@ We have a similar store that sells tires by the crate, but their storefront prog
 
 To do this, you should:
 
-1. Cut the "numberOfContainers" function from [houseOfPizza.c](./houseOfPizza.c) into [mathHelper.c](./mathHelper.c), so we can use it in both [houseOfPizza.c](./houseOfPizza.c) and [houseOfTires.c](./houseOfTires.c)
+1. Cut the "numberOfContainers" function from [houseOfPizza.c](./houseOfPizza.html) into [mathHelper.c](./mathHelper.html), so we can use it in both [houseOfPizza.c](./houseOfPizza.html) and [houseOfTires.c](./houseOfTires.html)
 2. Add an appropriate function prototype to mathHelper.h
-3. Add a line to `#include` mathHelper.h in [houseOfTires.c](./houseOfTires.c).
-4. Add a line to `#include` mathHelper.h in [houseOfPizza.c](./houseOfPizza.c). (Actually we have already done this for you)
+3. Add a line to `#include` mathHelper.h in [houseOfTires.c](./houseOfTires.html).
+4. Add a line to `#include` mathHelper.h in [houseOfPizza.c](./houseOfPizza.html). (Actually we have already done this for you)
 
 
 After this, both houseOfPizza and houseOfTires should work correctly, and we hardly had to write any new code!
 
 Here's how the two programs should run after your edits:
 
-```
+```nohighlight
 $ ./houseOfPizza
 Welcome to Delmar House of Pizza!
 How many slices do you want? 12
@@ -28,7 +28,7 @@ You need 2 pizzas for 12 slices.
 That'll be 20.00!
 ```
 
-```
+```nohighlight
 $ ./houseOfTires
 Welcome to Delmar House of Tires!
 How many tires do you want? 75

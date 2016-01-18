@@ -2,9 +2,9 @@
 [Go back to Prep for Class 1](../../class1-prep#more-practice-with-functions)
 # Exercise: Message
 
-Check out <a href="message.c" target="_blank">message.c</a>, the beginnings of a program that will allow the user to 
+Check out [message.c](message.html), the beginnings of a program that will allow the user to 
 "send a message" to someone, like so:
-```
+```nohighlight
 $ ./message
 Name of sender: Count Chocula
 Name of recipient: Count Vanilla
@@ -49,6 +49,6 @@ Answers:
 4. return type should be `void`
 
 With these answers, the overal signature looks like:
-```
+```c
 void printMessage(string sender, string recipient, string message)
 ```
