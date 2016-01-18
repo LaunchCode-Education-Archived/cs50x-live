@@ -9,10 +9,19 @@ We have a similar store that sells tires by the crate, but their storefront prog
 
 To do this, you should:
 
-1. Cut the "numberOfContainers" function from [houseOfPizza.c](./houseOfPizza.html) into [mathHelper.c](./mathHelper.html), so we can use it in both [houseOfPizza.c](./houseOfPizza.html) and [houseOfTires.c](./houseOfTires.html)
-2. Add an appropriate function prototype to mathHelper.h
-3. Add a line to `#include` mathHelper.h in [houseOfTires.c](./houseOfTires.html).
-4. Add a line to `#include` mathHelper.h in [houseOfPizza.c](./houseOfPizza.html). (Actually we have already done this for you)
+0. Copy all these files into your IDE:
+  * [houseOfPizza.c](./houseOfPizza.html)
+  * [houseOfTires.c](./houseOfTires.html)
+  * [mathHelper.h](./mathHelperHeader.html)
+  * [mathHelper.c](./mathHelper.html)
+  * [Makefile](./Makefile.html)
+1. Cut the `numberOfContainers` function from `houseOfPizza.c` into `mathHelper.c`, so we can use it in both `houseOfPizza.c` and `houseOfTires.c`
+2. Add an appropriate function prototype to `mathHelper.h`
+3. Add a line to `#include` mathHelper.h in `houseOfTires.c`
+4. Add a line to `#include` mathHelper.h in `houseOfPizza.c`. (Actually we have already done this for you!)
+5. You can now compile your programs using the `makefile` you copied over.  It will compile all of your programs at once for you by running the command `make`.  
+ * When you copy over the makefile make sure you save it as `makefile` without using any extension. 
+ * You will learn more about make files in Class 2 and [pset3](../../problem-set).
 
 
 After this, both houseOfPizza and houseOfTires should work correctly, and we hardly had to write any new code!
