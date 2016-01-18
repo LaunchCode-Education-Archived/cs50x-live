@@ -18,7 +18,7 @@ Remember when your donut shop was charging customers crazy fractional dollar amo
 
 In a file called `daollarsandcents.c` write a program that prompts the user for a floating point dollar amount, and then tells them the *actual* dollar amount:
 
-```
+```nohighlight
 $ ./dollarsandcents
 Gimme a dollar amount: 7.2494328374
 Oh, I think you mean $7.250000000

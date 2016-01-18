@@ -4,7 +4,7 @@
 
 # Exercise: Marathon
 
-In [marathon.c](./marathon.c) we've given you some starter code that is supposed to:
+In [marathon.c](./marathon.html) we've given you some starter code that is supposed to:
 - ask the user how many miles they've run
 - ask how many hours they've spent running it
 
