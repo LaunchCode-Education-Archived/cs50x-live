@@ -14,7 +14,7 @@ The full process, for storing any new item, looks like this:
 - add it to the list at that location
 - print out the new inventory at that location
 
-We’ve provided a function for hashing based on the first letter of a toy’s name, as well as a basic struct for linked lists, and an initialization of an array for use as a hash table.  We’ve also provided the code to print out the contents of a key in the hash table.
+We’ve [provided a function](toywarehouse.html) for hashing based on the first letter of a toy’s name, as well as a basic struct for linked lists, and an initialization of an array for use as a hash table.  We’ve also provided the code to print out the contents of a key in the hash table.
 
 To finish this program, you’ll need to write the code to:
 - use the hash function
@@ -22,6 +22,6 @@ To finish this program, you’ll need to write the code to:
 - print out the contents of that list using our provided printing function
 
 Usage of a correct implementation of this code will look like this:
-```
+```nohighlight
 $ 
 ```

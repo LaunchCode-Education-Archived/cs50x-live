@@ -70,7 +70,7 @@ Some additional details:
 `fscanf`: Zamyla's example just kind of hangs out there – how are you supposed to use it? Well, you have two options. `fscanf` works something like `fread` – which you used in `recover.c`. Looking at the man page (or the CS50 references page), you'll find that `fscanf` gives a return value when it successfully reads an item. You can use that return value to determine when you've reached the end of the dictionary word file, like this:
 
 - as the condition of your while loop:
-````
+````c
 while (fscanf(yourdictfilevariable, "%s", new_node->word) == 1)
 {
    // process the word
@@ -78,7 +78,7 @@ while (fscanf(yourdictfilevariable, "%s", new_node->word) == 1)
 ````
 
 - or, on its own within the while loop:
-````
+````c
 while (true)
 {
    int yourendoffilecheckervariable = fscanf(yourdictfilevariable, "%s", new_node->word) == 1);
@@ -91,7 +91,7 @@ while (true)
 ````
 
 Zamyla's code for swapping `node` and `head`: Zamyla's example looks something like this –
-````
+````c
  new_node->next = head;
  head = new->node;
 ````
@@ -117,7 +117,7 @@ Now, we have to use our hash function again! Why? To make sure we're looking in 
 Again, save, compile, and test – are you getting the hash result you expect for each word speller sends you?
 
 Now, the meat of the check function: traversing to see if the word from speller is present in your loaded hashtable. Zamyla gave us the following code for traversing a list: `node* cursor = head;` - remember that "head" here represents our hashtable's array location where our hash told us to start looking for the current word
-````
+````c
 while (cursor != NULL)
 {
     // do stuff (like comparing whether cursor->word is the same as your new lowercase version of speller's word???
@@ -128,7 +128,7 @@ while (cursor != NULL)
 ````
 
 or, you can look at src5w.pdf. This is the source code under the 2nd lecture for week 5. In it, you'll find two samples of doing stuff with `node` structs. list-0 is very similar to our problem set. The only difference is that it uses an `int` variable, `n`, while we use a character array called `word`. The part of the example search function we need to use looks like this:
-````
+````c
 node* ptr = first;     // - here, "first" would represent the location in our hashtable array where our hash told us to begin
                        //   looking for the current word (like "head" in Zamyla's example)
 while (ptr != NULL)
@@ -149,7 +149,7 @@ Oh, also a note: we're not freeing any memory in check. We're not malloc'ing any
 
 ##### `unload`
 Guess what Zamyla gave us in her unload video? The answer - almost!
-````
+````c
 node* cursor = head;
 while (cursor != NULL)
 {
@@ -167,7 +167,7 @@ There are only 2 things missing:
 Again, save, compile, and test. In this one, maybe you can `printf` the words while you're unloading them (just before you free temp, maybe?).
 
 When this one's done, you'll need to run valgrind (pronounced like "Val grinned" ;-) Try something like the following:
-````
+````nohighlight
 valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all ./speller ~cs50/pset5/texts/austinpowers.txt
 ````
 

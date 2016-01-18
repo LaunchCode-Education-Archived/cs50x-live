@@ -8,7 +8,7 @@ In this exercise, we’ll ask the user for a string, then output that string in 
 
 In order to do this efficiently, we’ll represent a string as a singly linked list. Up until now, we’ve been representing strings as arrays, but for operations like the one we’re doing, where we don’t know the final size of the string beforehand, linked lists can often be useful.
 
-We’ve provided code that:
+We’ve provided [code](queensenglish.html) that:
 - implements a singly linked list of chars
 - translates a given `string` to this linked list representation
 - translates a linked list representation to a `string`, given the first node in the list
@@ -16,7 +16,7 @@ We’ve provided code that:
 What do you need to do?  Finish the program by writing code to loop through the linked list and, whenever you see an “o”, insert a new node with a “u”.  The code we’ve provided will take care of outputting your modified string.  You can assume the entire input is in lower-case, so there’s no need to check for upper-case “O”.
 
 An example run of the completed code:
-```
+```nohighlight
 $ ./queensenglish
 Input string?: i love the color yellow
 Charlatan!  I use the Queen’s English:
