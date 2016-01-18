@@ -24,14 +24,14 @@ We just learned about “foreach” loops, which are a feature of PHP, but not C
     
     lets us loop through an “associative array”, looking at each paired key and value together. 
 
-In [lottonumbers.php](./lottonumbers.php), we’ve provided some php code for you that declares a list of lottery numbers (in the variable `$lottoNumbers`), and an associative array (the variable `$drawnNumbers`).  Each key in the associative array is the name of a lotto ticket buyer, and each corresponding value is the lotto number they drew.
+In [lottonumbers.php](./lottonumbers.html), we’ve provided some php code for you that declares a list of lottery numbers (in the variable `$lottoNumbers`), and an associative array (the variable `$drawnNumbers`).  Each key in the associative array is the name of a lotto ticket buyer, and each corresponding value is the lotto number they drew.
 
 Add some code to this file, using the two versions of `foreach` syntax in order to:
 - print each of the lotto numbers
 - print each lotto participant, along with their number
 
 When complete, the program should behave like this:
-```
+```nohighlight
 $ php lottonumbers.php
 Tonight's numbers: 123, 555, 23, 7129
 ...

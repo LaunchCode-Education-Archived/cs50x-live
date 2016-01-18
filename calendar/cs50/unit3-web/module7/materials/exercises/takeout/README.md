@@ -18,7 +18,7 @@ How should we do this?  Some hints:
 - you should use an associative array to store the data!  This is a good opportunity to learn how to use this important data structure.  For syntax help on associative arrays, look <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#php" target="_blank">here</a> (the same set of notes as the previous link)
 
 example run:
-```
+```nohighlight
 $ php takeout
 How many orders? 3
 Order 0 name: Danny
