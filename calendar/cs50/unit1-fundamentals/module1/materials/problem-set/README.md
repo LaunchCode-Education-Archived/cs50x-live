@@ -24,7 +24,7 @@ The assignments of Problem Set 1 that you must do are:
 - Begin a pset by having ready at-hand, and focusing on, these 3 things:
   - the problem set specification (“pset spec” or “pspec”)
   - the lecture notes (you can find these on the class prep pages for the current Module)
-  - the example source code from the current Module (you can find this at the bottom of the Module home page under "Helpful Links")
+  - the example source code from the current Module (you can find this in <a href="../../../../../../helpful-resources" target="_blank">Helpful Resources</a> under "Source Code")
 
 - The pset spec will link out to various videos. You may have already seen some of these during Class Prep. Regardless, these videos are always very relevant to the problem at hand and are probably worth a (re)watch.
 
@@ -76,7 +76,7 @@ INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will se
 
 If you forget how to use Vocareum, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocareum.
 
-You may also find it useful to review the <a href="https://github.com/Launch-Code/cs50x-live-2016/blob/master/calendar/module0/materials/problem-set/README.html" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
+You may also find it useful to review the <a href="../../../../../module0/materials/problem-set/" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
 
 ***
 Congratulations on completing [Module 1](../..)! Return to the [Course Calendar](../../../../..) to see what's next.

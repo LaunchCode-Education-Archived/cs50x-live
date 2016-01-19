@@ -5,7 +5,7 @@
 In a file called `rectangle.c` write a program that "draws" a rectangle made of hearts `<3` on the console. 
 Your program should prompt the user for a width and a height, and then print the corresponding rectangle:
 
-```
+```nohighlight
 $ ./rectangle
 Width: 8
 Height: 3

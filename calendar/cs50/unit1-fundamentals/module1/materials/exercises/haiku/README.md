@@ -8,7 +8,7 @@
 
 Navigate into `module1/exercises` and make a new folder called `/haiku`:
 
-```
+```nohighlight
 $ cd ~/workspace/module1/exercises
 $ mkdir haiku
 $ ls
@@ -16,7 +16,7 @@ haiku/  hello/
 ```
 
 In that folder, create a file called `haiku.c`:
-```
+```nohighlight
 $ cd haiku
 $ touch haiku.c
 ```
@@ -33,7 +33,7 @@ If lost, or your folders don't look right, remember that you can find detailed i
 
 Open up `haiku.c`, and write a program that prints a 3-line Haiku to the console, like this:
 
-```
+```nohighlight
 $ ./haiku
 Learning how to code
 is a thing I like to do

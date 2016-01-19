@@ -11,7 +11,7 @@ watching what happens might inadvertently help clear up some lingering confusion
 you might have accumulated over the course of learning so many new concepts in such a short time span.
 
 #### Instructions:
-1. In your IDE, navigate to the place where you normally do exercises. (TODO, more specific?)
+1. In your IDE, navigate to the place where you normally do exercises.
 2. Instead of creating a new `.c` file like you normally do, download all of the official source code
 from Week 1 by running the following commands in your terminal:
   ```

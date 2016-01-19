@@ -6,7 +6,7 @@
 
 Write a program called `book.c` that prompts the user for the title of his or her favorite book, and then responds by initially agreeing enthusiastically, and then changing its mind, like so:
 
-```
+```nohighlight
 $ ./book
 What's your favorite book? Grapes of Wrath
 I love Grapes of Wrath!
