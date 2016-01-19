@@ -5,7 +5,7 @@
 
 #### Synopsis 
 
-In this module you will be introduced to the way in which computer scientists analyze the efficiency of algorithms. "Efficient", in this context, just means "fast", but a certain kind of fast. Specifically, an algorithm is deemed more efficient than another if it performs better for **very large** inputs; its performance on smaller inputs is not important. You will learn about "asymtotic analysis", a method for classifying algorithms based on how their performance changes as the size of their inputs grows. 
+In this module you will be introduced to the way in which computer scientists analyze the efficiency of algorithms. "Efficient" just means "fast", but a certain kind of fast. Specifically, an algorithm is deemed more efficient than another if it performs better for **very large** inputs; its performance on smaller inputs is not important. You will learn about "asymtotic analysis", a method for classifying algorithms based on how their performance changes as the size of their inputs grows. 
 
 If all that sounds a little intense, well, it is! But you won't be required to carry out a lot of asymtotic analysis yourself; you'll just need to get the hang of the basic idea. The running example throughout the module will be a comparison between a handful of different "sorting" algorithms, which, given a jumbled list of things, sorts the list into order as quickly as possible. You will implement one of these algorithms yourself in Problem Set 3.
 
