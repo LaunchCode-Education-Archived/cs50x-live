@@ -1,14 +1,14 @@
 template:
-    url: https://github.com/digshake/Template-Light
+    url: https://github.com/LaunchCodeEducation/Template-Light
 # Base URL of the published website
-baseUrl: http://digshake.github.io/cs50x-live-2016-city
+baseUrl: http://education.launchcode.org/cs50x-yourcitygoeshere
 
 # Used to link to the GitHub project
 github:
-    user: digshake 
-    repo: cs50x-live-2016-city 
+    user: LaunchCodeEducation 
+    repo: cs50x-yourcitygoeshere 
 
-title: LaunchCode's CS50x - City
+title: LaunchCode's CS50x - Your City
 
 # The left menu bar
 menu:
@@ -17,12 +17,21 @@ menu:
             text: Calendar 
             # You can use relative urls
             relativeUrl: calendar/ 
-        studentguide:
-            text: Student Guide
-            absoluteUrl: https://docs.google.com/document/d/linktoyourcitysstudentguide
+        howtotake:
+            text: How To Take This Class
+            relativeUrl: how-to-take-this-class/    
         helpfulresources:
             text: Helpful Resources
             relativeUrl: helpful-resources/
-        howtotake:
-            text: How To Take This Class
-            relativeUrl: how-to-take-this-class/
+        studentguide:
+            text: ‹ Student Guide
+            absoluteUrl: linktoyourstudentguidegoeshere
+            attributes: target="_blank"
+        vocareum:
+            text: ‹ Vocareum
+            absoluteUrl: http://labs.vocareum.com/main/
+            attributes: target="_blank"
+        piazza:
+            text: ‹ Piazza
+            absoluteUrl: http://piazza.com/wustl/spring2016/cs50x
+            attributes: target="_blank"
