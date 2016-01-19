@@ -19,11 +19,11 @@ By the end of this module you will have completed [Problem Set 2](./materials/pr
 
 ### Steps
 
-Class # | Before Class | During Class | Topics/Skills
-:--------:|:------------:|:------------:|-----------------------|
-**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | chars, functions, scope, strings, modulo|
-**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | more strings, arrays, command-line arguments |
-**Class 3**| Work on [Problem Set 2](./materials/problem-set) | [In Class](./materials/class3) | (office hours!)|
+Class # | Date | Before Class | During Class | Topics/Skills
+:--------:|:---:|:------------:|:------------:|-----------------------|
+Class 1 | Tue 2/2 | [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | chars, functions, scope, strings, modulo|
+Class 2 | Thu 2/4 | [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | more strings, arrays, command-line arguments |
+Class 3 | Tue 2/9 | Work on [Problem Set 2](./materials/problem-set) | [In Class](./materials/class3) | (office hours!)|
 
 
   
