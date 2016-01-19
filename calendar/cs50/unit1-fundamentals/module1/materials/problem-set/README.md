@@ -2,7 +2,7 @@
 
 # Problem Set 1
 
-### Synopsis
+## Synopsis
 In this problem set, you'll solve some problems in C using the concepts you'll learn throughout Module 1. There are three components to this problem set: **Water**, **Mario**, and **Greedy**.
 
 The Pset Spec which describes the assignment can be found 
@@ -10,14 +10,14 @@ The Pset Spec which describes the assignment can be found
 
 To review all information about the Problem Set, scroll down to the section titled <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Getting Started</a>. You will have seen a lot of this already, but it may be helpful to review.
 
-### Assignments
+## Assignments
 
 The assignments of Problem Set 1 that you must do are:
 * <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#smart_water" target="_blank">Problem Set 1: Water</a>
 * <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#itsa_mario" target="_blank">Problem Set 1: Mario</a>
 * <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#time_for_change" target="_blank">Problem Set 1: Greedy</a>
 
-### Guidance
+## Guidance
 
 #### In General: How to approach a Problem Set
 
@@ -68,7 +68,7 @@ Note: this is also a good problem for learning to create your own functions. May
   ```
 Do try this out for yourself and make sure you understand the inherent imprecision of the computer's representation of a `float` - this is very important to this problem! You WILL find some surprising results. Make sure your final program can handle those results - otherwise, don't be surprised when check50  gives you the wrong kind of emojis!
 
-### How To Submit 
+## How To Submit 
 
 FILE NAMES: water.c, mario.c, greedy.c
 
