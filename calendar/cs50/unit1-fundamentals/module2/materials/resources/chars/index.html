@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        ‹ Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        ‹ Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        ‹ Piazza
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-2">Module 2</h5>
+<p><a href="../../class1-prep#chars-ascii">Go back to Prep for Class 1</a> </p>
+<h1 id="intro-to-chars">Intro to Chars</h1>
+<p>We’ve seen the <code>string</code> datatype now, but how does it work?  We know that numbers like <code>int</code> and <code>float</code>, are represented by a finite chunk of binary bits, but strings can be of any length; how can we represent these?</p>
+<p>Just like words in real life are a list of letters, strings are a list of “letters,” and each “letter” is a finite piece of data we call a <code>char</code>.</p>
+<p>How are these chars organized?  In the computer’s memory, they’re just placed one after another, so a string of three letters, like “mom” or “car”, is represented by three <code>char</code>s right next to each other in memory.  This structure, where multiple pieces of the same kind of data are stored right next to each other, is called an <code>array</code>.</p>
+<p>We’ll talk more about arrays later, but the important thing right now is that a <code>string</code>, which we’ve been working with, is made up of a sequence of a smaller data type, a <code>char</code>.</p>
+<p>Now we have a new data type to work with and think about: <code>char</code>.  How do we use it?</p>
+<p>To declare a variable with type <code>char</code>, we can do this:</p>
+<pre><code class="language-c">char myChar = ‘q';</code></pre>
+<p>This has a few differences from declaring a <code>string</code>, like this:</p>
+<pre><code class="language-c">string myString = “qwe”;</code></pre>
+<p>A <code>char</code> is declared with single quotes (or apostrophes), while a string is declared with double quotes (quotation marks).  Also, a char can be at most 1 character, which a string can be any number of them.</p>
+<p>So far, when writing programs, we’ve been asking the user for input, then storing their responses in <code>string</code> variables.  Can we do this with “char”s?  Yes!  You can use the <code>GetChar</code> function from the cs50 library, just like we’ve been using the <code>GetString</code> function before.</p>
+<p>This is how we asked the user for strings:</p>
+<pre><code class="language-c">#include &lt;cs50.h&gt; // at the top of the file
+
+// ... somewhere else lower down in the file
+string myString = GetString(); // wait for user input
+printf(“%s is my favorite word!\n”, myString);</code></pre>
+<p>This is how we ask the user for chars:</p>
+<pre><code class="language-c">#include &lt;cs50.h&gt; // at the top of the file
+
+// ... somewhere else lower down in the file
+char myChar = GetChar(); // wait for user input
+printf(“%c is my favorite letter!\n”, myChar);</code></pre>
+<p>Notice that in <code>printf</code>, we used <code>%c</code> instead of <code>%s</code>.  <code>printf</code> is coded so that when it sees <code>%s</code>, it expects a string, but if it sees <code>%c</code>, it expects a <code>char</code>.</p>
+<p>Finally, some background on how <code>char</code>s work.</p>
+<p>Just like with <code>int</code>s, each <code>char</code> is represented by a discrete sequence of bits.  We already learned about how the computer translates the bits that make up an <code>int</code> into an integer, using binary, or base-2 counting, rather than base-10. But how can a sequence of 0s and 1s represent a letter? Well, there's no &quot;logical&quot; pattern. Instead, the computer simply uses a standardized scheme called <a href="http://www.asciitable.com" target="_blank">ASCII</a>, which maps numbers to letters (and to other characters such as <code>$</code>, <code>#</code> and <code>~</code>, and even &quot;numeric&quot; characters like <code>3</code> or <code>8</code>). For example, the character <code>q</code> has an ASCII value of <code>113</code>. Again, there's no logical connection between <code>q</code> and <code>113</code>; ASCII is simply an arbitrary mapping that some people made up. The key is that every computer around the world &quot;buys into&quot; the same standardized scheme, so then they can use the scheme to communicate with each other.</p>
+<p>You don’t have to know or memorize the ASCII table!  Just know that just like how a computer can translate the bits of an <code>int</code> into an integer, it can translate the bits of a <code>char</code> into a letter. Under the hood, the computer represents the <code>char</code> 'q' as 01110001, the number 113 in binary.</p>
+<h3 id="an-example">An Example</h3>
+<p>Check out <a href="threeletterword.html">threeletterword.c</a> for an example of <code>char</code>s in action. Our program simply asks the user for three <code>char</code>s, one at a time, and then prints out the resulting &quot;word&quot;:</p>
+<pre><code class="language-nohighlight">$ ./theeletterword
+char please: g
+char please: i
+char please: t
+That spells git!</code></pre>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

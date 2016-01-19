@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        ‹ Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        ‹ Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        ‹ Piazza
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-2">Module 2</h5>
+<p><a href="../../class1-prep#functions">Return to Prep for Class 1</a></p>
+<h1 id="resource-calling-functions">Resource: Calling Functions</h1>
+<p>Let’s review how to use functions!  Over the course of your career as a programmer, you’ll use many, many functions, some of which you’ve written yourself, and some written by other people. </p>
+<p>A function that was written by other people usually comes from a library, which we need to explicitly include at the top of our file, as we’ve seen previously. </p>
+<p>For example, we might want to use a function called <code>strlen</code> (short for &quot;string length&quot;), which is defined in a library called <code>string.h</code>. </p>
+<pre><code class="language-c">#include &lt;string.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;cs50.h&gt;
+
+// ... somewhere else lower down in the file
+string exampleString = “hello!”;  // set up an example variable to use
+
+strlen(exampleString); // call the strlen function</code></pre>
+<p><code>strlen</code> takes a string and calculates the length of that string, i.e. how many characters it contains.</p>
+<p>In the example above, notice how we must add this line: <code>#include &lt;string.h&gt;</code>. Then, we proceed to create a string, and call the <code>strlen</code> function to get its length. &quot;Calling&quot; the function is done by writing the name of the function, <code>strlen</code>, followed by parentheses, <code>( )</code>, inside of which we provide whatever argument(s) the function needs, in this case <code>exampleString</code>.</p>
+<p>But wait!  Something is missing here. The function tells us the length of the string, but we didn’t do anything with the answer!  For example, let's say we wanted to write a print statement to inform the user about the length of the string. How could we do this?</p>
+<h2 id="return-values">Return Values</h2>
+<p><code>strlen</code> is an example of a function that &quot;gives back&quot; a value.  We call this a &quot;return value&quot;. The return value is like the answer to a question. In this case, the question is &quot;What is the length of this string?&quot;. </p>
+<p>One way to use the value that a function hands back to us, is to store it in a variable:</p>
+<pre><code class="language-c">string exampleString = “hello!”;
+
+// this line is pretty useless on its own.
+strlen(exampleString);
+
+// we need to call strlen AND store its return value in a variable
+int exampleStringLength = strlen(exampleString);
+
+// now we can refer to our variable in order to print its value
+printf(“The string has %i characters!\n”, exampleStringLength);
+
+printf(“The string has fewer than %i characters.\n”, exampleStringLength + 10);</code></pre>
+<p>There are two steps to this process:</p>
+<ol>
+<li>call a function and store its return value in a variable</li>
+<li>use that variable to do stuff</li>
+</ol>
+<p>There is an alternative way which doesn't require the use of a variable: you can simply skip Step 1, and embed the function invocation directly into your code for Step 2:</p>
+<pre><code class="language-c">string exampleString = “hello!”;
+
+// here we print the length of the string by embedding the invocation of strlen directly into our print statement.
+printf(“The string has %i characters!\n”, strlen(exampleString));</code></pre>
+<p>There is no &quot;right way&quot; between these two styles. Depending on context, one style might make more sense than the other, or either might be fine. Over time, you will develop an instinct this type of thing, balancing a variety of concerns to write code that:</p>
+<ul>
+<li>is easy for humans to read and understand</li>
+<li>is not repetitive</li>
+<li>makes efficient use of computer resources</li>
+</ul>
+<p>The main takeaway here is, don't just do this:</p>
+<pre><code class="language-c">strlen(exampleString);</code></pre>
+<p>Doing the above is sortof like writing a sentence that has a subject but no predicate.</p>
+<p>If I said this to you: </p>
+<blockquote>
+"The capital of Algeria."
+</blockquote>
+<p>you would be like, &quot;That's not a complete sentence, mate. Go on... what <em>about</em> the capital of Algeria?&quot;</p>
+<p>You were probably expecting something more like:</p>
+<blockquote>
+"The capital of Algeria is Algiers. 
+
+Algiers is a nice place."
+</blockquote>
+<p>or, more succintly:</p>
+<blockquote>
+"The capital of Algeria a nice place."
+</blockquote>
+<p>Similarly, if you call a function with a return value, but you aren't <em>doing something</em> with that return value, you are probably on the wrong track.</p>
+<h2 id="side-effects">Side Effects</h2>
+<p>Not every function has a return value.</p>
+<p>Some functions don't return anything. For example, <code>printf</code>. The <code>printf</code> function does not compute anything. The return value of <code>printf("hello")</code> is nothing, or technically a special term called <code>void</code>.</p>
+<p>Instead, <code>printf</code> <em>does</em> something. After we call it, something has <em>happened</em>: the user now sees &quot;hello&quot; on their console.</p>
+<p>Calling a function like <code>printf</code> is similar to an &quot;imperative&quot; sentence in English: it's a &quot;command&quot;, or instructions for what you want to happen. You're saying &quot;Hey computer, go and print this string to the console&quot;.</p>
+<p>The result is what we call a <em>side effect</em>. When you call a function like <code>printf</code>, you don't get a value back, but you cause something to happen, you &quot;affect&quot; the state of the world in some way (in this case, the console on the user's computer now contains a new line of text.)</p>
+<p>This is why, in contrast to a function like <code>strlen</code>, the <code>printf</code> function is perfectly capable of standing &quot;on its own&quot; in a line of code. Indeed, it would be pretty weird to embed <code>printf</code> in a larger line of code, by doing something like storing its result in a variable:</p>
+<pre><code class="language-c">int x = printf("hello");</code></pre>
+<p>This makes no sense. It would be like me saying:</p>
+<blockquote>
+"The capital of Algeria is hey go eat something you look hungry!"
+</blockquote>
+<p>The act of you eating a snack is not a tangible thing, let alone the glorious, thriving city of Algiers, Algeria.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

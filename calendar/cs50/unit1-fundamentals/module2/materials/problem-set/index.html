@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        ‹ Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        ‹ Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        ‹ Piazza
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5><a href="../..">Module 2</a></h5>
+<h1 id="problem-set-2">Problem Set 2</h1>
+<h3 id="synopsis">Synopsis</h3>
+<p>Zhofrph wr SureohpVhw 2! Whoops, forgot to decrypt myself there... Welcome to Problem Set 2!</p>
+<p>In this problem set, you'll use what you've learned so far to dabble in some cryptography. To do this, you'll be introduced to some cipher algorithms, which are codes used to encrypt and decrypt messages. </p>
+<h3 id="get-started">Get Started</h3>
+<p>To review all information about the Problem Set, go here: <a href="http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html#getting_ready" target="_blank">Getting Ready</a>. You will have seen a lot of this already, but it may be helpful to review.</p>
+<p>Here are the components due for Problem Set 2:</p>
+<ul>
+<li><a href="http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html#initializing" target="_blank">Problem Set 2: Initials</a></li>
+<li><a href="http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html#hail_caesar" target="_blank">Problem Set 2: Caesar</a></li>
+<li><a href="http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html#parlez_vous_français" target="_blank">Problem Set 2: Vigenere</a></li>
+</ul>
+<h3 id="guidance">Guidance</h3>
+<h5 id="a-few-extra-resources-to-be-aware-of">A few extra resources to be aware of:</h5>
+<ul>
+<li>
+<p>There are a couple extra shorts that you may find useful to watch:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=36xNpbosfTY&index=11&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">Short: Caesar Cipher</a></li>
+<li><a href="https://www.youtube.com/watch?v=9zASwVoshiM&index=54&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">Short: Vigenere Cipher</a></li>
+</ul>
+</li>
+<li>Start using CS50’s reference tools, if you haven't already! These show what functions are available to you and the libraries you must <code>#include</code> in order to use them (e.g., <code>&lt;ctype.h&gt;</code> is required to use the <code>toupper()</code> function):
+<ul>
+<li><a href="https://reference.cs50.net" target="_blank">reference.cs50.net</a></li>
+<li><a href="https://cs50.harvard.edu/resources/cppreference.com/" target="_blank">cs50.harvard.edu/resources/cppreference.com/</a></li>
+</ul></li>
+</ul>
+<h5 id="command-line-arguments-a-quick-review">Command-line Arguments: A Quick Review</h5>
+<p>Let's say a user enters a command in their terminal like this:</p>
+<pre><code class="language-nohighlight">$ ./caesar 13</code></pre>
+<p>In the above example, <code>argc == 2</code> because there are two command line arguments.</p>
+<p>And the array <code>argv[]</code> contains those two arguments as string elements - one for the name of the program and one for the number - in the same order as they appear on the command line:</p>
+<pre><code class="language-nohighlight">argv[0] == "./caesar"
+argv[1] == "13"</code></pre>
+<p>Further, remember that each <code>string</code> is an <code>array</code> itself (an array of <code>char</code>s). Thus:</p>
+<pre><code class="language-nohighlight">argv[0][0] == '.'
+argv[0][1] == '/'
+argv[0][2] == 'c'
+…
+argv[1][0] == '1'
+argv[1][1] == '3'</code></pre>
+<h5 id="caesar">Caesar:</h5>
+<p>The key here (pun intended :wink:) is the need to understand the relationship between a char, its integer value, and a position in the alphabet.</p>
+<p>For example, the char 'A' has an ASCII (integer) value of 65, but its position in the alphabet would be 0 (in computer terms). 'B' is 65 ASCII and 1 alphabet, and so on.</p>
+<p>Initially, it seems easy to convert the number from the command line to its pair, even just using &quot;ASCII math&quot;: enter 1 and 'A', convert using 'A' + 1 = 'B'. Easy, right?</p>
+<p>But, what happens when you get further into the alphabet - or get a really large number as your key? 'Z' + 1 does NOT equal 'A' in ASCII. Rather you’ve gone past the end. In order to make that rotation, you need a conversion AND &quot;trust in the mod!&quot;</p>
+<p>0 % 26 = 0, 1 % 26 = 1, … 26 % 26 = 0, 27 % 26 = 1, …</p>
+<p>That crazy formula that Zamyla shows DOES work - you just have to tweak it to put it into language that works in your program. Again: &quot;trust in the mod!&quot;</p>
+<h5 id="vigenere">Vigenere:</h5>
+<p>Vigenere is Caesar with rotation. That makes this a perfect opportunity to practice your function-coding skills!</p>
+<ul>
+<li>Vigenere uses letters from the command line as key values. Simply convert those letters into their equivalent integers.</li>
+<li>Handle the rotation: you need to end up with the correctly matched single &quot;key&quot; <code>int</code> value for a single &quot;plaintext&quot; <code>char</code>.</li>
+<li>Then, turn the &quot;meat&quot; of your Caesar code into a function:
+<ul>
+<li>Set up the function's parameters to allow for a &quot;key&quot; and a &quot;plaintext&quot; value.</li>
+<li>Make sure to match the parameter names with your Caesar variable names for the &quot;key&quot; and &quot;plaintext&quot; items.</li>
+<li>Tweak anything that needs tweaking in consideration of the new way you're providing the values to the Caesar code.</li>
+</ul></li>
+</ul>
+<h3 id="how-to-submit">How to submit</h3>
+<p>FILE NAMES: initials.c, caesar.c, vigenere.c</p>
+<p>INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly!</p>
+<p>If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.</p>
+<p>For general guidance on problem sets, you may also find it useful to review the <a  href="../../../../../module0/materials/problem-set/README.html" target="_blank">Problem Set Page Overview from Problem Set 0</a>.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

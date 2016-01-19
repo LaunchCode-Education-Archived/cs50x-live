@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        ‹ Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        ‹ Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        ‹ Piazza
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-2">Module 2</h5>
+<p><a href="../../class1-prep#strings">Back to Class 1 Prep</a></p>
+<h1 id="resource-more-for-loops">Resource: More for-loops</h1>
+<p>Here, I want to briefly clear up something that you might find confusing.</p>
+<p>When iterating over <code>strings</code>, a lot of CS50 examples use a <code>for-loop</code> like this:</p>
+<pre><code class="language-c">for (int i = 0, n = strlen(my_string); i &lt; n; i++) 
+{
+    char c = my_string[i];
+    // and then do stuff with c
+}</code></pre>
+<p>What makes this different from most &quot;normal&quot; <code>for-loops</code> you've seen? In this case, we initialize
+<strong>two</strong> variables rather than just one, namely:</p>
+<ul>
+<li>an <code>int</code> called <code>i</code> gets set to <code>0</code></li>
+<li>an <code>int</code> called <code>n</code> gets set to <code>strlen(my_string)</code></li>
+</ul>
+<p>We could have achieved the same outcome with this code:</p>
+<pre><code class="language-c">for (int i = 0, i &lt; strlen(my_string); i++) 
+{
+    char c = my_string[i];
+    // and then do stuff with c
+}</code></pre>
+<p>in which we initialize just one variable, <code>i</code>, and embed <code>strlen(my_str)</code> directly into the condition of the <code>for-loop</code> (the middle section of the three semicolons), rather than storing it in a variable <code>n</code> first, and then using <code>n</code> inside the condition.</p>
+<p>But the second way is &quot;worse&quot;, because it is less efficient. Do you remember why? The reason is that the code inside the condition gets executed every time around, and so we end up calling the <code>strlen</code> function a bunch of times, while the first <code>for-loop</code> only needs to call <code>strlen</code> once.</p>
+<p>This explanation probably makes sense in a vague way, but nevertheless, you might still feel a little hazy on the details, because even normal <code>for-loop</code> syntax is very dense and cryptic, and when you saw the two variables declared, if youre like me, you said &quot;Wait, what is this? That looks wrong. Can you do that?&quot;</p>
+<p>In fact, using fancy <code>for-loop</code> tricks is not even necessary to solve this problem. We can still loop over a string without having to call <code>strlen</code> multiple times, in a much more straitforward way:</p>
+<pre><code class="language-c">int n = strlen(my_string);
+for (int i = 0; i &lt; n; i++) 
+{
+    char c = my_string[i];
+}</code></pre>
+<p>Here we have a &quot;normal&quot; loop, immediately preceeded by a typical, every-day variable declaration.</p>
+<p>So hopefully the unfamiliarity of that fancy <code>for-loop</code> no longer seems as scary.</p>
+<p>But the fancy version provides a nice example of how to take advantage of the extremely flexible nature of <code>for-loops</code> and break out of the box of <code>for(int i = 0; i &lt; something; i++)</code>. The <code>for-loop</code> construct gives us a lot of options:</p>
+<ul>
+<li>You can initialize one variable, or more than one, or none. </li>
+<li>Your condition can be anything, so long as it evaluates to <code>true</code> or <code>false</code>.</li>
+<li>The modification step can be anything, not just <code>i++</code>.</li>
+</ul>
+<p>For example:</p>
+<pre><code class="language-c">// loop backwards from 10 to 1
+for (int i = 10; i != 0; i--)
+{
+    // do stuff
+}</code></pre>
+<pre><code class="language-c">// count up by 3s
+for (int i = 0; i &lt; 100; i += 3)
+{
+    printf("%i is a multiple of 3\n", i);
+}</code></pre>
+<pre><code class="language-c">// i goes up, j goes down (twice as fast), until they meet
+for (int i = 0, j = 100; i &lt;= j; i++, j -= 2)
+{
+    int distance = j - i;
+    printf("The distance between the two things is %i\n", distance);
+}</code></pre>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

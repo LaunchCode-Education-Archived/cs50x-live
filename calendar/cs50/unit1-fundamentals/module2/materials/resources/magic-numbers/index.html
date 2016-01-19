@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        ‹ Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        ‹ Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        ‹ Piazza
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-2">Module 2</h5>
+<p><a href="../../class2-prep#magic-numbers-global-variables">Go back to Class 1 Prep</a></p>
+<h1 id="resource-magic-numbers">Resource: Magic Numbers</h1>
+<p>We have written a &quot;pizza&quot; program, which behaves like this:</p>
+<pre><code class="language-nohighlight">~/workspace $ ./pizza
+What's the diameter of the pizza? 12
+The pizza is 37.699112 inches around.
+The pizza has 113.097336 square inches.</code></pre>
+<p>Take a look at <a href="./pizza-0.html">pizza-0.c</a>. Notice that it makes use of two functions, each of which do some math using the value <code>3.14159...</code> aka <code>pi</code>. </p>
+<p>There is a problem with the code: it uses that <code>3.14159...</code> value as a magic number, inserting it directly into our code in multiple places. </p>
+<p>We fixed this problem in a new version, <a href="./pizza-1.html">pizza-1.c</a>. But that version still wasn't perfect... </p>
+<p>Eventually, after a couple more improvements, we arrived a a nice solution in <a href="./pizza-3.c=html">pizza-3.c</a>.</p>
+<p>In the table below, we summarize the evolution of our program as we continually improved it. Click on each link to see the changes that we made.</p>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Improvement</th>
+<th></th>
+<th>Problem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./pizza-0.html">pizza-0.c</a></td>
+<td>(pizza is yummy)</td>
+<td>but...</td>
+<td>Magic numbers are bad! Makes your code difficult for others to read and understand.</td>
+</tr>
+<tr>
+<td><a href="./pizza-1.html">pizza-1.c</a></td>
+<td>Replaces magic numbers with decriptively named variables.</td>
+<td>but...</td>
+<td>Repetition is bad! Makes your code  harder to maintain because if you want to change something, you have to change it in multiple places.</td>
+</tr>
+<tr>
+<td><a href="./pizza-2.html">pizza-2.c</a></td>
+<td>Eliminates repetition by using a global variable.</td>
+<td>but...</td>
+<td>Global variables are dangerous! Susceptible to being overwritten by any code anywhere.</td>
+</tr>
+<tr>
+<td><a href="./pizza-3.html">pizza-3.c</a></td>
+<td>Replaces global variable with <code>#define</code>, a &quot;preprocessor directive&quot;, so that the value cannot be overwritten.</td>
+<td>but...</td>
+<td>nothing!</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>BTW,</p>
+<p>What the heck is this preprocessor directive thing, and why is the syntax different? For now, don't worry about it. They allow you to do other fancy things beyond defining constant global values, but this is probably the only context in which you'll use them during CS50 (along with the <code>#include</code> directive).</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

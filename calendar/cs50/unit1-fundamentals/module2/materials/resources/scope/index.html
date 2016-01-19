@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        ‹ Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        ‹ Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        ‹ Piazza
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-2">Module 2</h5>
+<p><a href="../../class1-prep#scope">Back to Prep for Class 1</a></p>
+<h1 id="resource-variable-scope">Resource: Variable Scope</h1>
+<p>Let’s look at another example of a bug due to variable scope. As we just learned, a variable’s “scope” refers to contexts in which a variable can be accessed.  </p>
+<p>Below we have a program that asks the user for a string, and then reports the location of the first uppercase letter in that string. Take a look:</p>
+<pre><code class="language-c">#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+#include &lt;ctype.h&gt;
+
+int main(void)
+{
+  printf("Please give me a string that contains at least one uppercase letter\n");
+  string str = GetString();
+  int maxn = strlen(str);
+
+  for(int i = 0; i &lt; maxn; i++)
+  {
+      if( isupper(str[i]) ) {
+          break; // break out of the for-loop
+      }
+  }
+  printf("I have discovered the first capital letter!  It's at index %i\n", i);
+}</code></pre>
+<p>(Quick note: This may be the first time you have seen the <code>break</code> keyword. Essentially it just causes the program execution to exit the <code>for loop</code> immediately. In this case, we have found the first capital letter, so we don't need to continue looping over the string. Using <code>break</code> here causes execution to skip down right away to the next line, <code>printf("I have discovered ...</code>)</p>
+<p>The above code fails to compile.  Why is this?</p>
+<p>After the loop, we try to print out the variable <code>i</code> as the index where we found a capital letter.  However, at that point in the code, we no longer have access to the variable <code>i</code>; because we’ve left the loop, it is no longer in our current “scope”. Variables declared within a loop cannot be accessed outside of that loop.</p>
+<p>How can we fix this?  Well, we need to make sure that the variable <code>i</code> is in scope when we try to print it out.  To do this, we can move the <code>printf</code> line inside the loop, like so:</p>
+<pre><code class="language-c">#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+#include &lt;ctype.h&gt;
+
+int main(void)
+{
+  printf("Please give me a string that contains at least one uppercase letter\n");
+  string str = GetString();
+  int maxn = strlen(str);
+
+  for(int i = 0; i &lt; maxn; i++)
+  {
+      if( isupper(str[i]) ) {
+          printf("I have discovered the first capital letter!  It's at index %i\n", i);
+          break; // break out of the for-loop
+      }
+  }
+}</code></pre>
+<p>This should compile correctly.  There are many ways to fix this program, but all of them must fix the fundamental problem with the original: when we wanted to access the variable <code>i</code>, it was not in scope.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
