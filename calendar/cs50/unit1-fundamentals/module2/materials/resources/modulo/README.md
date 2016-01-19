@@ -14,7 +14,7 @@ For example:
 
 `15 % 3 = 0`
 
-The modulo is used a lot in computer science, but here's a simple example. In [divisibleby7.c](./divisibleby7.html), there's a simple program that says if a number, given by the user, is divisible by 7, like so:
+The modulo is used a lot in computer science, but here's a simple example. In [divisibleby7.c](./divisibleby7.html), there's a simple program that reports whether a number given by the user is divisible by 7, like so:
 
 ```nohighlight
 $ ./divisibleby7
