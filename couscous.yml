@@ -3,6 +3,7 @@ template:
 # Base URL of the published website
 baseUrl: http://education.launchcode.org/cs50x-stlouis
 
+
 # Used to link to the GitHub project
 github:
     user: LaunchCodeEducation 
