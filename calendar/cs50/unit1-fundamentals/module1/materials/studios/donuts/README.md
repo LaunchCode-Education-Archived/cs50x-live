@@ -21,7 +21,7 @@ Finally, inform the user of the total cost of their order. Don't forget to inclu
 
 Here's an example of how the finished program should behave:
 
-```
+```nohighlight
 $ ./donuts
 Welcome to the Loop Hole!
 Today's Manager's Special is:

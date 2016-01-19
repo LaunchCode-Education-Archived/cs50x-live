@@ -4,7 +4,7 @@
 
 In a file called `repeat.c` write a program that repeats a phrase multiple times. 
 You program should prompt the user for both a phrase, and a number of repeats, like so:
-```
+```nohighlight
 $ ./repeat
 Give me a phrase: I am NOT a talking robot!
 How many times should I say it? 5
@@ -19,7 +19,7 @@ I am NOT a talking robot!
 Your program should only accept values that are at least 1, 
 and no greater than 100 for the "how many times" argument. 
 If the user fails supply a number within that range, the program should continue prompting until they do:
-```
+```nohighlight
 $ ./repeat
 Give me a phrase: Oh na na, what's my name.
 How many times should I say it? (between 1 and 100): -4

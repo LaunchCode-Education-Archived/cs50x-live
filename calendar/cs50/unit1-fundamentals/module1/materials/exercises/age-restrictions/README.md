@@ -7,7 +7,7 @@
 In a program called `agerestrictions.c` write a program that asks the user for their age, and then reports the set of societal activities the user is legally
 entitled to participate in:
 
-```
+```nohighlight
 $ ./agerestrictions
 How old are you? 30
 You can drive!
@@ -15,13 +15,13 @@ You can vote!
 You can drink!
 ```
 
-```
+```nohighlight
 $ ./agerestrictions
 How old are you? 17
 You can drive!
 ```
 
-```
+```nohighlight
 $ ./agerestrictions
 How old are you? 12
 Some day, kid...
