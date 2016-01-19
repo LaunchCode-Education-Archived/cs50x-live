@@ -4,7 +4,7 @@
 
 In a file called `countdown.c` write a program that performs an epic countdown from a user-specified integer:
 
-```
+```nohighlight
 $ ./countdown
 Count down from: 3
 3...
@@ -13,7 +13,7 @@ Count down from: 3
 BLAST OFF!
 ```
 
-```
+```nohighlight
 $ ./countdown
 Count down from: 5
 5...
@@ -24,7 +24,7 @@ Count down from: 5
 BLAST OFF!
 ```
 
-```
+```nohighlight
 $ ./countdown
 Count down from: 0
 BLAST OFF!
@@ -32,7 +32,7 @@ BLAST OFF!
 
 Watch out for negative numbers! If the user gives you a negative number, you should continue prompting until they 
 behave more responsibly: 
-```
+```nohighlight
 $ ./countdown
 Count down from: -2
 Count down from: -32
@@ -44,7 +44,7 @@ BLAST OFF!
 ```
 
 Or optionally, you can implement the program such that whenever receiving a negative number, it counts **up** rather than down:
-```
+```nohighlight
 $ ./countdown
 Count down from: -2
 -2...

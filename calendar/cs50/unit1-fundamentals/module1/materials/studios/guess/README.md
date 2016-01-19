@@ -12,7 +12,7 @@ int answer = 4;
 ```
 somewhere in your code, and your program should behave like this:
 
-```
+```nohighlight
 $ ./guess
 I'm thinking of a number between 1 and 10. Can you guess what it is?
 Guess #1: 5
@@ -28,7 +28,7 @@ When the user guesses incorrectly, your program should reprompt them to guess ag
 #### Part 2
 
 Currently we give the user an unlimited number of chances to get the right answer. Let's make things a little more difficult. Write another program called `guess5`, which gives the user only 5 chances to get the answer:
-```
+```nohighlight
 $ ./guess5
 I'm thinking of a number between 1 and 10. Can you guess what it is?
 Guess #1: 8
@@ -45,7 +45,7 @@ Sorry, you ran out of guesses.
 ```
 
 This should only involve some minor tweaking, so you can make a copy of your `guess.c` file using the `cp` command:
-```
+```nohighlight
 $ cp guess.c guess5.c
 ```
 and then open up `guess5.c` and make changes there.

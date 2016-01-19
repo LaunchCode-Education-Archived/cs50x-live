@@ -13,7 +13,7 @@ How many orange slices do you want to eat? 15
 You should buy 2.0 oranges!
 ```
 
-```
+```nohighlight
 $ ./howmanyoranges
 How many orange slices do you want to eat? 17
 You should buy 3.0 oranges!
