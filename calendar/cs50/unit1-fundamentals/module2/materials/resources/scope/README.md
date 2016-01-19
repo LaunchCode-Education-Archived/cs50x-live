@@ -10,6 +10,7 @@ Below we have a program that asks the user for a string, and then reports the lo
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 int main(void)
 {
@@ -19,7 +20,7 @@ int main(void)
 
   for(int i = 0; i < maxn; i++)
   {
-      if( isUpper(str[i]) ) {
+      if( isupper(str[i]) ) {
           break; // break out of the for-loop
       }
   }
@@ -39,6 +40,7 @@ How can we fix this?  Well, we need to make sure that the variable `i` is in sco
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 int main(void)
 {
@@ -48,7 +50,7 @@ int main(void)
 
   for(int i = 0; i < maxn; i++)
   {
-      if( isUpper(str[i]) ) {
+      if( isupper(str[i]) ) {
           printf("I have discovered the first capital letter!  It's at index %i\n", i);
           break; // break out of the for-loop
       }
