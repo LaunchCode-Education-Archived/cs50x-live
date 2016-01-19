@@ -7,7 +7,7 @@ Before coming to [Class 2](../class2), please complete the following tasks...
 ##### Module 2 Review
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-Study | CS50 Study | <a href="https://study.cs50.net/loops?toc=loops,ascii,functions,argv" target="_blank">loops, ascii, functions, argv</a>  | Review previous material on loops, ascii, functions, and argv
+Study | CS50 Study | <a href="https://study.cs50.net/?toc=loops,ascii,functions,argv" target="_blank">loops, ascii, functions, argv</a>  | Review previous material on loops, ascii, functions, and argv
 
 ***
 
