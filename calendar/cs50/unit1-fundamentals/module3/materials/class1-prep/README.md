@@ -7,7 +7,7 @@ Before coming to [Class 1](../class1), please complete the following tasks:
 ##### Module 1 Review (plus Arrays)
 Task | Resource Type | Link | Instructions
 -----|------|----------|------|-------------
-Study | CS50 Study | <a href="https://study.cs50.net/loops?toc=conditions,math,binary,arrays" target= "_blank">conditions, math, binary, arrays</a> | Continue sharpening your skills on these concepts from the previous 2 modules. Be sure to do the exercises at the bottom of each section.
+Study | CS50 Study | <a href="https://study.cs50.net/?toc=conditions,math,binary,arrays" target= "_blank">conditions, math, binary, arrays</a> | Continue sharpening your skills on these concepts from the previous 2 modules. Be sure to do the exercises at the bottom of each section.
 
 ***
 
