@@ -16,6 +16,7 @@ Today's class will include a discussion about the various types that C has to of
   * Functions
 	* What are the pieces of a function?
 	* How do you use a function?
+	* Why are functions awesome?
 	* What is scope?
 
 2. Studio: [Letter Locator](../studios/letter-locator)
