@@ -20,15 +20,15 @@ h3 {
 }
 
 h4 {
-    font-size: 19;
+    font-size: 19px;
 }
 
 h5 {
-    font-size: 17;
+    font-size: 17px;
 }
 
 h6 {
-    font-size: 16;
+    font-size: 16px;
 }
 
 @media (min-width: 1200px) {
