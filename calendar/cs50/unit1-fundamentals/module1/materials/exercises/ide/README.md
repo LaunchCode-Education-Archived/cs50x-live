@@ -17,7 +17,7 @@ Toward the bottom of CS50 IDE’s UI is a "terminal window" (in a tab called Ter
 
 username@ide50:~/workspace $
 where username is your own (automatically assigned) username. Click inside of that terminal window and then type
-```
+```nohighlight
 update50
 ```
 followed by Enter to ensure that your workspace is up-to-date. It should take just a few moments for any updates to complete. (Be sure not to close the tab or CS50 IDE itself until they do!)

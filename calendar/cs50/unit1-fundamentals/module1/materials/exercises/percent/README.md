@@ -8,21 +8,21 @@ In a file called `percent.c` write a program that asks the user for two floating
 
 For example:
 
-```
+```nohighlight
 $ ./percent 
 float please: 0.5
 float please: 2
 25.000000 percent
 ```
 
-```
+```nohighlight
 $ ./percent 
 float please: 3
 float please: 2
 150.000000 percent
 ```
 
-```
+```nohighlight
 $ ./percent 
 float please: 1
 float please: 1.5
