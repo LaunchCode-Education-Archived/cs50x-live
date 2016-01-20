@@ -30,8 +30,9 @@ course, you do provide a "suggested price".)
 Now it's time to implement your latest innovation, an app via which users can pre-order donuts remotely from the
 convenience of... the command-line terminal on their computer.
 
-In a file called `donuts.c`, write a program which introduces the flavor of the day, and then takes
-the user's order. Taking their order involves asking two questions: "How many donuts?" and "How much do you want to pay?"
+In a file called `donuts.c`, write a program which introduces the flavor of the day, and then takes the user's order. Taking their order involves asking two questions:
+1. How many donuts do they want to order?
+2. How much do you want to pay?
 
 Finally, inform the user of the total cost of their order. Don't forget to include sales-tax, which is, let's say, 5%.
 
@@ -41,7 +42,7 @@ Here's an example of how the finished program should behave:
 $ ./donuts
 Welcome to the Loop Hole!
 Today's Manager's Special is:
-Crunch Jelly: A traditional jelly donut in which the jelly filling is made entirely of Capn' Crunch Berries (Just Berries)
+Crunch Jelly: A traditional jelly donut in which the jelly filling is made entirely of Capn' Crunch Berries Oops All Berries
 How many would you like? 3.33333
 How much would you like to pay per donut (suggested price is $4.35 each)? 2.5
 Ok, let me prepare that for you....
@@ -49,8 +50,7 @@ After tax, your total is: $8.74999125
 Thank you for snacking! Loop back around here soon!
 ```
 
-Notice that the total price `$8.74999125` went way beyond 2 decimal places. Obviously it would be better to
-round that to $8.75. Within the next week or two, you'll be introduced to the tools you need to do that sort of thing. But for now, don't worry about it.
+Notice that the total price `$8.74999125` went way beyond 2 decimal places. Obviously it would be a little nicer to round that to $8.75. Within the next week or two, you'll be introduced to the tools you need to do that sort of thing. But for now, don't worry about it.
 
 (Also, don't be concerned if your program gives an answer with a *slightly* different number of decimal places than the example program above. This is just a precision issue.)
 
