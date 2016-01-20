@@ -2,7 +2,7 @@
 
 # Studio: Word Grid Stretch
 
-Revenge of the word grid!
+### Revenge of the word grid!
 
 Just like last week, this studio involves taking some strings from the user, and then printing them back out in a transformed way.
 
@@ -34,6 +34,8 @@ eeeeaaaarrrr
 ```
 
 That's what we mean by "making the grid larger". 
+
+### Break it Down
 
 To get started, we suggest you try two simpler versions first:
 
@@ -78,6 +80,9 @@ To get started, we suggest you try two simpler versions first:
   
 Only after writing these little badboys should you start to think about how to combine both steps into one big badderboy.
 
+
+### No Validation
+
 Finally, you may assume that:
 
 * the user will always give you exactly 3 words as command-line arguments
@@ -85,5 +90,8 @@ Finally, you may assume that:
 * that the user will provide a non-negative stretch factor 
  
 Obviously it would be foolish to make those assumptions in real life. But to save time today, we don't want you to have to worry about validating the user's input. (But if you did decide to add validation, it would be easy for you, right? ;))
+
+
+### Submitting 
 
 You don't have to submit `stretchvertical.c` and `stretchhorizontal.c`. You only have to submit `wordgridstretch.c`.
