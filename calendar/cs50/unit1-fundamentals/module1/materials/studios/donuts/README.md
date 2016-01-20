@@ -36,8 +36,8 @@ In a file called `donuts.c`, write a program which introduces the flavor of the 
 
 Taking their order involves asking two questions:
 
-1. How many donuts do they want to order?
-2. How much do you want to pay?
+1. How many donuts do they want to buy?
+2. How much do you want to pay per donut?
 
 Finally, inform the user of the total cost of their order. Don't forget to include sales-tax, which is, let's say, 5%.
 
