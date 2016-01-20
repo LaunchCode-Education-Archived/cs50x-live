@@ -34,7 +34,7 @@ Thank you for snacking! Loop back around here soon!
 ```
 
 Notice that the total price `$8.74999125` went way beyond 2 decimal places. Obviously it would be better to
-round that to $8.75. Later in this module and the next, you'll be introduced to the tools you need to do that sort of thing. But for now, don't worry about it.
+round that to $8.75. Within the next week or two, you'll be introduced to the tools you need to do that sort of thing. But for now, don't worry about it.
 
 (Also, don't be concerned if your program gives an answer with a *slightly* different number of decimal places than the example program above. This is just a precision issue.)
 
