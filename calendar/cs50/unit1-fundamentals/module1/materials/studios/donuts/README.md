@@ -4,7 +4,9 @@
 
 # Studio: Donuts
 
-Welcome to your first Studio! A Studio is a coding exercise that you will do together with other students during class. The goal is to give you some more practice with the concepts you learned during the Prep Work, and to help get you started on your upcoming problem set. 
+Welcome to your first Studio! 
+
+A Studio is a coding exercise that you will do together with other students during class. The goal is to give you some more practice with the concepts you learned during the Prep Work, and to help get you started on your upcoming problem set. 
 
 You should work on your Studio in pairs. Teams of 3 are also acceptable (but 2 is better). If you need help finding a team, the staff will be facilitating a "match-making" service.
 
