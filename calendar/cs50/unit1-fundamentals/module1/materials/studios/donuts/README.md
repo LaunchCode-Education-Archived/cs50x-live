@@ -77,6 +77,6 @@ Ready to submit? Follow these steps:
 7. The driver can now proceed to submit. 
 8. Click the blue *TODO what is this?* button.
 9. Click the yellow *My Work* button
-10. Click the blue *Upload* button in the lop-left, upload your `donuts.c` file.
+10. Click the blue *Upload* button in the lop-left, and upload your `donuts.c` file.
 11. Click the red *Submit* button.
 12. Done! Kick back and enjoy a donut.
