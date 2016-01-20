@@ -38,5 +38,5 @@ menu:
             attributes: target="_blank"
         studentguide:  
             text: Student Guide
-            absoluteUrl: linktoyourstudentguidegoeshere
+            absoluteUrl: https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/
             attributes: target="_blank"
