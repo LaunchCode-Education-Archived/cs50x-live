@@ -86,4 +86,4 @@ Finally, you may assume that:
  
 Obviously it would be foolish to make those assumptions in real life. But to save time today, we don't want you to have to worry about validating the user's input. (But if you did decide to add validation, it would be easy for you, right? ;))
 
-You don't have to submit `stretchvertical.c` and `stretchhorizontal.c`. You only have to submit `wordgridstretch.c`
+You don't have to submit `stretchvertical.c` and `stretchhorizontal.c`. You only have to submit `wordgridstretch.c`.
