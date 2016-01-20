@@ -2,7 +2,7 @@
 
 # Studio: Word Grid Stretch
 
-### Revenge of the word grid!
+The word grid is back with a vengence!
 
 Just like last week, this studio involves taking some strings from the user, and then printing them back out in a transformed way.
 
