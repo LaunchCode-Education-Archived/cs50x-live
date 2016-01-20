@@ -4,8 +4,8 @@
 
 # Studio: Donuts
 
-You run a hip donut shop, the Loop Hole, which, in its short lifetime, has already rocked the donut market with 
-numerous disruptions, including:
+You run a hip new donut shop, the Loop Hole, which, in its short lifetime, has already rocked the donut market with 
+numerous "<a href="http://www.forbes.com/sites/martinzwilling/2015/03/19/will-your-business-innovation-disrupt-the-market/#2715e4857a0b58b4f1954f56" target="_blank">disruptions</a>", including:
 * a minimalist menu consisting of just one type of donut per day: Manager's Special... always Manager's Special.
 * giving consumers the option to order fractional amounts of donuts, e.g. 1.7 donuts, please.
 * a progressive pay-what-you-want pricing system, in which the customer pays what s/he thinks is a fair price. (Of
@@ -34,10 +34,9 @@ Thank you for snacking! Loop back around here soon!
 ```
 
 Notice that the total price `$8.74999125` went way beyond 2 decimal places. Obviously it would be better to
-round that to $8.75. Later in this module, you'll be introduced to a function called `round` which will allow 
-you to do just that. But for now, don't worry about it.
+round that to $8.75. Later in this module and the next, you'll be introduced to the tools you need to do that sort of thing. But for now, don't worry about it.
 
-Also, don't be concerned if your program gives an answer with a *slightly* different number of decimal places than the example program above. This is just a precision issue.
+(Also, don't be concerned if your program gives an answer with a *slightly* different number of decimal places than the example program above. This is just a precision issue.)
 
 *You can grab a copy of these instructions from Helpful Resources <a href="../../../../../../../helpful-resources/modules/module-1.html#class-1-studio-donuts" target="_blank">here</a>.  They are formatted as comments so that you can put it at the top of your program in the CS50 IDE.  Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments. 
 
