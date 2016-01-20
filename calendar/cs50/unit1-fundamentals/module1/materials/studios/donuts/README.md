@@ -74,8 +74,7 @@ Ready to submit? Follow these steps:
 6. Now you are going add your teammates so you can all submit together. **Important Note**: DO NOT click the *Start Solo* button. If you click this, you will not be able to add your teammates to the assignment. You'll have to share the code amongst yourselves via email and then each submit individually, like a bunch of chumps.
 7. Use the *Partner* menu at the bottom to add each additional teammate.
 6. Each teammate must accept the invite. Everyone open up your own computer and log into your own Vocareum account, where you should see a notification. Click to accept the invite.
-7. The driver can now proceed to submit. 
-8. Click the blue *Finalize Team* button.
+7. The driver can now proceed to submit. Click the blue *Finalize Team* button.
 9. Click the yellow *My Work* button
 10. Click the blue *Upload* button in the lop-left, and upload your `donuts.c` file.
 11. Click the red *Submit* button.
