@@ -11,17 +11,24 @@ Today, your program should receive
 
 
 ```nohighlight
-$ ./wordgridstretch Hello Cheez
+$ ./wordgridstretch sun yes ear
 You word grid currently looks like this:
-Hello
-Chees
+sun
+yes
+ear
 Now I will stretch it out. How much should I stretch by?
-3
-After stretching by 3, you now have this!
-HHHeeellllllooo
-HHHeeellllllooo
-HHHeeellllllooo
-CCChhheeeeeezzz
-CCChhheeeeeezzz
-CCChhheeeeeezzz
+4
+After stretching by 4, you now have this!
+ssssuuuunnnn
+ssssuuuunnnn
+ssssuuuunnnn
+ssssuuuunnnn
+yyyyeeeessss
+yyyyeeeessss
+yyyyeeeessss
+yyyyeeeessss
+eeeeaaaarrrr
+eeeeaaaarrrr
+eeeeaaaarrrr
+eeeeaaaarrrr
 ```
