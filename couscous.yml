@@ -24,15 +24,19 @@ menu:
         helpfulresources:
             text: Helpful Resources
             relativeUrl: helpful-resources/
-        studentguide:
-            text: ‹ Student Guide
-            absoluteUrl: https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing
+        ide:
+            text: CS50 IDE
+            absoluteUrl: http://ide.cs50.io/
             attributes: target="_blank"
         vocareum:
-            text: ‹ Vocareum
+            text: Vocareum
             absoluteUrl: http://labs.vocareum.com/main/
             attributes: target="_blank"
         piazza:
-            text: ‹ Piazza
+            text: Piazza
             absoluteUrl: http://piazza.com/wustl/spring2016/cs50x
+            attributes: target="_blank"
+        studentguide:  
+            text: Student Guide
+            absoluteUrl: linktoyourstudentguidegoeshere
             attributes: target="_blank"
