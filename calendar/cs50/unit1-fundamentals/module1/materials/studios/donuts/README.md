@@ -4,7 +4,7 @@
 
 # Studio: Donuts
 
-You run a hip new donut shop, the Loop Hole, which, in its short lifetime, has already rocked the donut market with 
+You run a hip new artisanal donut shop, the Loop Hole, which, in its short lifetime, has already rocked the donut market with
 numerous "<a href="http://www.forbes.com/sites/martinzwilling/2015/03/19/will-your-business-innovation-disrupt-the-market/#2715e4857a0b58b4f1954f56" target="_blank">disruptions</a>", including:
 * a minimalist menu consisting of just one type of donut per day: Manager's Special... always Manager's Special.
 * giving customers the option to order fractional amounts of donuts, e.g. 1.7 donuts, please.
