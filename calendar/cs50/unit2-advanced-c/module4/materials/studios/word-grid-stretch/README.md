@@ -8,7 +8,7 @@ Just like last week, this studio involves taking some strings from the user, and
 
 Today, your program will apply a "stretch" factor to the grid of letters, making it larger. 
 
-It is easiest to show with an example. The finished program will behave like this:
+It is easiest to explain via example. The finished program should behave like this:
 
 ```nohighlight
 $ ./wordgridstretch sun yes ear
