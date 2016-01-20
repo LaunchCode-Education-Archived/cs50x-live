@@ -15,10 +15,9 @@ $ ./wordgridstretch Hello Cheez
 You word grid currently looks like this:
 Hello
 Chees
-
-Gimme a stretch factor: 3
-
-Now you have this!
+Now I will stretch it out. How much should I stretch by?
+3
+After stretching by 3, you now have this!
 HHHeeellllllooo
 HHHeeellllllooo
 HHHeeellllllooo
