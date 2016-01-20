@@ -18,7 +18,7 @@ Once you have a team, you will both be working together on one computer (this is
 
 Ready? Let's go!
 
-### Hashtag TechPowersDonuts
+###  #TechPowersDonuts
 
 Here's the scenario:
 
@@ -79,4 +79,3 @@ Ready to submit? Follow these steps:
 9. Click the yellow *My Work* button
 10. Click the blue *Upload* button in the lop-left, and upload your `donuts.c` file.
 11. Click the red *Submit* button.
-12. Done! Kick back and enjoy a donut.
