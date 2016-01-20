@@ -33,6 +33,7 @@ Now it's time to implement your latest innovation, an app via which users can pr
 convenience of... the command-line terminal on their computer.
 
 In a file called `donuts.c`, write a program which introduces the flavor of the day, and then takes the user's order. Taking their order involves asking two questions:
+
 1. How many donuts do they want to order?
 2. How much do you want to pay?
 
