@@ -12,7 +12,7 @@ It is easiest to explain via example. The finished program should behave like th
 
 ```nohighlight
 $ ./wordgridstretch sun yes ear
-You word grid currently looks like this:
+Your word grid currently looks like this:
 sun
 yes
 ear
@@ -42,7 +42,7 @@ To get started, we suggest you try two simpler versions first:
 1. A program that just stretches the grid vertically:
   ```nohighlight
   $ ./stretchvertical sun yes ear
-  You word grid currently looks like this:
+  Your word grid currently looks like this:
   sun
   yes
   ear
@@ -66,7 +66,7 @@ To get started, we suggest you try two simpler versions first:
 2. A program that just stretches the grid horizontally:
   ```nohighlight
   $ ./stretchhorizontal sun yes ear
-  You word grid currently looks like this:
+  Your word grid currently looks like this:
   sun
   yes
   ear
