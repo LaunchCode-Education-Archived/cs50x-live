@@ -75,7 +75,7 @@ Ready to submit? Follow these steps:
 7. Use the *Partner* menu at the bottom to add each additional teammate.
 6. Each teammate must accept the invite. Everyone open up your own computer and log into your own Vocareum account, where you should see a notification. Click to accept the invite.
 7. The driver can now proceed to submit. 
-8. Click the blue *TODO what is this?* button.
+8. Click the blue *Finalize Team* button.
 9. Click the yellow *My Work* button
 10. Click the blue *Upload* button in the lop-left, and upload your `donuts.c` file.
 11. Click the red *Submit* button.
