@@ -4,6 +4,24 @@
 
 # Studio: Donuts
 
+Welcome to your first Studio! These are exercises that you will do in small teams during class. The goal is to give you some more practice with the concepts you learned during the Prep Work, and to help get you started on your upcoming problem set. 
+
+You should work on your Studio in pairs. Teams of 3 are also acceptable (but 2 is better). 
+
+If you need help finding a team, the staff will be facilitating a "match-making" service.
+
+Without further ado, grab a buddy and get started!
+
+### Team Programming
+
+Once you have a team, you will both be working together on one computer (this is why pairs are a little better than 3 people). Go ahead and decide whose computer to use. Only one person at a time will be able to type, but you should both be actively engaged in the proccess. Afer a little while, switch seats and let the other person "drive". 
+
+Ready? Let's go!
+
+### #TechPowersDonuts
+
+Here's the scenario:
+
 You run a hip new artisanal donut shop, the Loop Hole, which, in its short lifetime, has already rocked the donut market with
 numerous "<a href="http://www.forbes.com/sites/martinzwilling/2015/03/19/will-your-business-innovation-disrupt-the-market/#2715e4857a0b58b4f1954f56" target="_blank">disruptions</a>", including:
 * a minimalist menu consisting of just one type of donut per day: Manager's Special... always Manager's Special.
