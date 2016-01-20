@@ -18,7 +18,7 @@ Once you have a team, you will both be working together on one computer (this is
 
 Ready? Let's go!
 
-### `#TechPowersDonuts`
+### `#TechPowersDonuts
 
 Here's the scenario:
 
