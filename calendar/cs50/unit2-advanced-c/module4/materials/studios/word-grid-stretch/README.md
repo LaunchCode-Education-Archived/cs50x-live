@@ -2,23 +2,27 @@
 
 # Studio: Word Grid Stretch
 
-Revenge of the word grid
+Revenge of the word grid!
+
+Just like last week, this studio involves taking some strings from the user, and then printing them back out in a transformed way.
+
+Today, your program should receive 
+
+
 
 ```nohighlight
-$ ./wordgridsequel
-Gimme a word: Hello 
-Gimme another word: Chees 
-Gimme a stretch factor: 3
-
-You started with this word grid:
+$ ./wordgridstretch Hello Cheez
+You word grid currently looks like this:
 Hello
 Chees
 
-Now you have this:
+Gimme a stretch factor: 3
+
+Now you have this!
 HHHeeellllllooo
 HHHeeellllllooo
 HHHeeellllllooo
-CCChhheeeeeesss
-CCChhheeeeeesss
-CCChhheeeeeesss
+CCChhheeeeeezzz
+CCChhheeeeeezzz
+CCChhheeeeeezzz
 ```
