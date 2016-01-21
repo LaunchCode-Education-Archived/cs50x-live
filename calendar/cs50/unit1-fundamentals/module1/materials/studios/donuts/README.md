@@ -18,7 +18,7 @@ Once you have a team, you will both be working together on one computer (this is
 
 Ready? Let's go!
 
-### Hashtag TechPowersDonuts
+###  #TechPowersDonuts
 
 Here's the scenario:
 
@@ -36,8 +36,8 @@ In a file called `donuts.c`, write a program which introduces the flavor of the 
 
 Taking their order involves asking two questions:
 
-1. How many donuts do they want to order?
-2. How much do you want to pay?
+1. How many donuts do they want to buy?
+2. How much do you want to pay per donut?
 
 Finally, inform the user of the total cost of their order. Don't forget to include sales-tax, which is, let's say, 5%.
 
@@ -71,12 +71,10 @@ Ready to submit? Follow these steps:
 2. The driver should log into <a href="http://labs.vocareum.com/main/main.php" target="_blank">Vocareum</a>.
 3. You should see a sidebar on the left with some assignments, including *Studio: Donuts*. If not, click on my *My Classes* in the navigation menu at the top.
 4. Click on *Studio: Donuts*.
-6. Now you are going add your teammates so you can all submit together. **Important Note**: DO NOT click the *Start Solo* button. If you click this, you will not be able to add your teammates to the assignment. You'll have to email them the code and then each submit individually, like a bunch of chumps.
+6. Now you are going add your teammates so you can all submit together. **Important Note**: DO NOT click the *Start Solo* button. If you click this, you will not be able to add your teammates to the assignment. You'll have to share the code amongst yourselves via email and then each submit individually, like a bunch of chumps.
 7. Use the *Partner* menu at the bottom to add each additional teammate.
 6. Each teammate must accept the invite. Everyone open up your own computer and log into your own Vocareum account, where you should see a notification. Click to accept the invite.
-7. The driver can now proceed to submit. 
-8. Click the blue *Finalize Team* button.
+7. The driver can now proceed to submit. Click the blue *Finalize Team* button.
 9. Click the yellow *My Work* button
 10. Click the blue *Upload* button in the lop-left, and upload your `donuts.c` file.
 11. Click the red *Submit* button.
-12. Done! Kick back and enjoy a donut.
