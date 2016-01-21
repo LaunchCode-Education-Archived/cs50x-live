@@ -6,7 +6,7 @@ You work for a toy warehouse management company that sorts each toy by the first
 
 Help your company out by writing a program that takes in new inventory items and stores them in the proper location.
 
-To do this, you’ll need to employ a Hash Table with Separate Chaining, as we saw [here].(http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#hash_tables)
+To do this, you’ll need to employ a Hash Table with Separate Chaining, as we saw [here](http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#hash_tables).
 
 The full process, for storing any new item, looks like this:
 - ask for information on the item
