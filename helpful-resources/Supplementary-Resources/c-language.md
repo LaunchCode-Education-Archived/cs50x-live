@@ -23,7 +23,7 @@
 | Order of Precedence | Description |
 | :-----: | :----- |
 | **`( )`**     | Parenthesis |
-| **`*`** **`/`** | Multiplication Division <br> (Solve the equation from left to right because there is equal priority for both.) |
+| **`\*`** **`/`** | Multiplication Division <br> (Solve the equation from left to right because there is equal priority for both.) |
 | **`+`** **`-`** | Addition Subtraction <br> (Solve the equation from left to right because there is equal priority for both.) |
 
 | Notation| Name | Explanation | 
