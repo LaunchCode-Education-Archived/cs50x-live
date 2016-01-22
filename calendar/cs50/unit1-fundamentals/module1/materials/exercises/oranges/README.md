@@ -8,7 +8,8 @@ In a file called `howmanyoranges.c` write a program that asks the user how many 
 
 A run of your program should look like this:
 
-```
+
+```nohighlight
 $ ./howmanyoranges
 How many orange slices do you want to eat? 15
 You should buy 2.0 oranges!
