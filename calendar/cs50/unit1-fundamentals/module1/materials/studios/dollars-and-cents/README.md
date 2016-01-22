@@ -16,7 +16,7 @@ int y = round(4.4);
 
 Remember when your donut shop was charging customers crazy fractional dollar amounts, like `$7.2494328374`? Now we're able to do a better job in that sort of situation.
 
-In a file called `daollarsandcents.c` write a program that prompts the user for a floating point dollar amount, and then tells them the *actual* dollar amount:
+In a file called `dollarsandcents.c` write a program that prompts the user for a floating point dollar amount, and then tells them the *actual* dollar amount:
 
 ```nohighlight
 $ ./dollarsandcents
