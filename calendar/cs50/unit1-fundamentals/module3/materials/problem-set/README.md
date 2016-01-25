@@ -30,4 +30,10 @@ Here you will have array overload! You will be using a multi-dimensional array, 
 The assignment is <a href="http://cdn.cs50.net/2015/fall/psets/3/pset3/pset3.html" target="_blank">here</a>. Go get em tiger!
 
 ### How to submit 
-(TODO Jesse or someone: quick instructions.)
+FILE NAMES: helpers.c, fifteen.c
+
+INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly!
+
+If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.
+
+For general guidance on problem sets, you may also find it useful to review the <a  href="../../../../../module0/materials/problem-set/README.html" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
