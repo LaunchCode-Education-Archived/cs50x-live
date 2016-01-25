@@ -19,7 +19,7 @@ nsr
 ```
 Notice how each word is written downwards, rather than accross.
 
-First you'll want to perform some validation:
+The first thing you'll want to do is perform some validation:
 * make sure the user provided exactly 3 additional command-line arguments (in addition to the name of the program itself).
 * make sure each of those arguments is exactly 3 characters-long. (Use `strlen()`)
 
