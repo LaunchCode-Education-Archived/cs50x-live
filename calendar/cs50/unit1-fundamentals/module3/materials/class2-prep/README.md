@@ -58,7 +58,7 @@ Watch | Shorts | <a href="https://www.youtube.com/watch?v=CSZLNYF4Klo" target="_
 Watch | Shorts | <a href="http://www.youtube.com/watch?v=U3zCxnj2w8M" target="_blank"> Clang, Make</a> | Watch this short about Clang and Make, two tools used to manage the building and compilation of code projects
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=ED7QtgXDShY" target="_blank"> Libraries</a> | Watch this short about libraries
 Watch | Section | <a href="https://youtu.be/XRvvitgap5Y?t=2549" target="_blank"> Compilation Process</a> | Watch this lecture on the compilation process
-Read | Resource | [Ugh, Taxes!](../resources/spread-out) | Here's an example of a program written as one big file, that is then broken into a few smaller, easy to understand files.
+Read | Resource | [Spread Out](../resources/spread-out) | Here's an example of a program that starts off written as one big file, but is subsequently broken into a few smaller, easy to understand files.
 Do | Exercise | [Delmar House of Tires](../exercises/spread-out) | Fix one program by pulling the code from another into a new file, so both programs can use the new file.
 
 ***
