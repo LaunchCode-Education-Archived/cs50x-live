@@ -11,6 +11,9 @@ In Find, your job will be to write a program that searches for a particular numb
 
 In Game of Fifteen, you will turn <a href="https://en.wikipedia.org/wiki/15_puzzle" target="_blank">this classic</a> into a program that users can play live in the terminal window. Doing so will require working with a 2-dimensional array, in other words, an array of arrays.
 
+### Get Started
+The assignment is <a href="http://cdn.cs50.net/2015/fall/psets/3/pset3/pset3.html" target="_blank">here</a>. Go get em tiger!
+
 ### Guidance
 
 ##### Find 
@@ -25,9 +28,6 @@ CS50 pre-codes a bunch of function prototypes for you in this pset. You are give
 Here you will have array overload! You will be using a multi-dimensional array, so instead of just one row of data, you'll have rows and columns.
 * Use meaningful names for your loop variables! Which represents a row versus a column, `i` or `j`? Use `row` and `col` instead (or `col` and `row`), and you won’t have to wonder while you're troubleshooting.
 * Use the trusty "swap" code you've learned for arrays to move your tiles about.
-
-### Get Started
-The assignment is <a href="http://cdn.cs50.net/2015/fall/psets/3/pset3/pset3.html" target="_blank">here</a>. Go get em tiger!
 
 ### How to submit 
 FILE NAMES: helpers.c, fifteen.c
