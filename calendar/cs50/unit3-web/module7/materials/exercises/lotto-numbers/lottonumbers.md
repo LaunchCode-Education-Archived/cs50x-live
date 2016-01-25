@@ -3,10 +3,10 @@
 
 $lottoNumbers = [123, 555, 23, 7129];
 $drawnNumbers = [
-    “Sally” => 23,
-    “Ken” => 3,
-    “Jeremy” => 8,
-    “Rhonda” => 7129
+    "Sally" => 23,
+    "Ken" => 3,
+    "Jeremy" => 8,
+    "Rhonda" => 7129
 ];
 
 print "Tonight's numbers:\n";
