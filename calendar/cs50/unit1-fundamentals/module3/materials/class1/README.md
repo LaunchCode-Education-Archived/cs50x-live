@@ -2,6 +2,9 @@
 
 # Class 1
 
+### Before Class
+Before coming to this class, you should complete [Class 1 Prep](../class1-prep).
+
 ### During Class
 Today we'll spend some time discussing one of the most important topics in computer science: computational complexity. Writing code that works is great, but if it takes too long to run then it is useless. Can we tell how long something will take to run before we run it? What factors go into the running time of a program? We will explore the answers to these questions using live demos of various programs.
 
