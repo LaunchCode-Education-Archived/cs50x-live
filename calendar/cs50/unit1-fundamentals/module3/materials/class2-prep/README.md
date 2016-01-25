@@ -14,14 +14,14 @@ Study | CS50 Study | <a href="https://study.cs50.net/?toc=loops,ascii,functions,
 ##### Lecture
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=JovNemG-iu8" target="_blank"> Week 3, continued</a> | This lecture introduces Merge Sort a sorting algorithm that out-performs the ones we've seens os far, running in O(n log n) time. Merge Sort is implemented using something called recursion, in which a function calls itself. It also talks a bit more about what goes on when we compile our programs using `make`.
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=JovNemG-iu8" target="_blank"> Week 3, continued</a> | This lecture introduces Merge Sort, a sorting algorithm that out-performs the ones we've seens so far, running in O(n log n) time. Merge Sort is implemented using recursion, a technique in which a function calls itself. This lecture also talks a bit more about what goes on when we compile our programs using `make`.
 
 ***
 
 ##### Merge Sort
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort" target="_blank">Lecture Notes: Week 3, continued / Merge Sort</a> | These notes detail how Merge Sort is implemented and why it is fundamentally faster than the others.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort" target="_blank">Lecture Notes: Week 3, continued / Merge Sort</a> | These notes detail how Merge Sort is implemented and why it is fundamentally more efficient than the others.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=sWtYJv_YXbo&index=6&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T" target="_blank"> Merge Sort</a> Doug Lloyd talks in depth about Merge Sort.
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=EeQ8pwjQxTM" target="_blank"> Merge Sort</a> | Rob Bowden illustrates Merge Sort with a live demo using those styrofoam cups you love.
 
