@@ -7,7 +7,10 @@ Let's take one more look at that `sigma` example.
 
 You have already implemented it in the previous Follow-Alongs, but now we'll just summarize what happens.
 
-The `sigma` function takes in `int` (called, say `m`), and returns the sum `m + (m - 1) + (m - 2) + ... + 2 + 1 + 0`.
+The `sigma` function receives in `int` (called, say `m`), and returns the following sum: 
+
+`m + (m - 1) + (m - 2) + ... + 2 + 1 + 0`.
+
 For example, `sigma(4)` is `4 + 3 + 2 + 1 + 0` which is `10`.
 
 In more detail, the process happens like this:
