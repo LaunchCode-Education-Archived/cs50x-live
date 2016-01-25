@@ -29,5 +29,4 @@ float please: 1.5
 66.666664 percent
 ```
 
-Notice how because of the inherent imprecision of floating point numbers, that last value is slightly wrong. 
-Should be `66.666667 percent`
+Notice how because of the inherent imprecision of floating point numbers, that last value is slightly wrong-- should be `66.666667 percent`. You also might get a slightly different answer (`66.666672`, for instance) depending on how you implement your solution.
