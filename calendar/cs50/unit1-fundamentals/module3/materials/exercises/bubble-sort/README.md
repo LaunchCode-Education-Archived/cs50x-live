@@ -24,8 +24,7 @@ Third Pass:
 * 1    2    3    4    5    6    7    8
 
 
-In a file called bubblesort.txt, provide a similar breakdown of the process of using  
-Bubble Sort to sort the following array:
+In a file called bubblesort.txt, provide a similar breakdown of the process of using Bubble Sort to sort the following array:
 
 5    4    1    7    2    8    3    6
 
