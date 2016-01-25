@@ -22,7 +22,7 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=JovNemG-iu8" target="
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#merge_sort" target="_blank">Lecture Notes: Week 3, continued / Merge Sort</a> | These notes detail how Merge Sort is implemented and why it is fundamentally more efficient than the others.
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=sWtYJv_YXbo&index=6&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T" target="_blank"> Merge Sort</a> Doug Lloyd talks in depth about Merge Sort.
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=sWtYJv_YXbo&index=6&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T" target="_blank"> Merge Sort</a> | Doug Lloyd talks in depth about Merge Sort.
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=EeQ8pwjQxTM" target="_blank"> Merge Sort</a> | Rob Bowden illustrates Merge Sort with a live demo using those styrofoam cups you love.
 
 ***
