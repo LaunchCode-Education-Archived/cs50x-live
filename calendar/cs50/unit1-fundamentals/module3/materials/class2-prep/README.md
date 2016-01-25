@@ -46,7 +46,7 @@ Do | Exercise | [Fibonacci](../exercises/fibonacci) | Flex your recursion muscle
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=B6l7AJYgCOI" target="_blank">Algorithms Summary</a> | Doug gives a final recap of all the different sorting algorithms and how they compare. <br>You can also check Helpful Resources <a href="../../../../../../helpful-resources/Supplementary-Resources/algorithms-summary.html" target="_blank">here</a> for a supplemental resource on Algorithms.</a>
-Study | CS50 Study | <a href="https://study.cs50.net/binary_search?toc=bubble_sort,insertion_sort,selection_sort,merge_sort" target="_blank">bubble sort, insertion sort, selection sort, merge sort</a>
+Study | CS50 Study | <a href="https://study.cs50.net/binary_search?toc=bubble_sort,insertion_sort,selection_sort,merge_sort" target="_blank">bubble sort, insertion sort, selection sort, merge sort</a> One last review of these algorithms, this time via CS50 Study.
 
 ***
 
