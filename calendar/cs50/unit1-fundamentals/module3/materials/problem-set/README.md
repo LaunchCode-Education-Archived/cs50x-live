@@ -22,7 +22,10 @@ While searching and sorting, you will be getting more experienced with arrays. Y
 
 Make sure you *break your work into the smallest pieces you possibly can*! Do *one thing at a time*, and *make sure it's working before going on to something else*.
 
-CS50 pre-codes a bunch of function prototypes for you in this pset. You are given some blank functions with `//TODOs` inside. So, start by doing a `printf()` to see what values are being provided to a function you're currently working on. Once you see the values and understand what you're getting, then you can create your search/sort plan. If you have a `for` loop, `printf()` the values of your loop variables before writing code to use them. When you have an `if` statement, `printf()` to determine whether the `if` is being processed (or its companion `else`, if there is one). Once you make sure the tiniest thing works, remove that bit of test code, and write the next little step in your plan.
+CS50 pre-codes a bunch of function prototypes for you in this pset. You are given some blank functions with `//TODOs` inside. So, start by doing a `printf()`, or using a breakpoint in the debugger, to see what values are being provided to a function you're currently working on. Once you see the values and understand what you're getting, then you can create your search/sort plan. Similarly:
+* When you have a `for` loop, use a debugging technique (`printf()` or breakpoint) to inspect the values of your loop variables before you actually write any code trying to make use of them. 
+* When you have an `if` statement, use a debugging technique to determine whether the `if` is being processed (or its companion `else`, if there is one). 
+Once you make sure the tiniest thing works, only then should you write the next little step in your plan.
 
 ##### Game of Fifteen
 Here you will have array overload! You will be using a multi-dimensional array, so instead of just one row of data, you'll have rows and columns.
