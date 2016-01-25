@@ -7,7 +7,7 @@ In this problem set, you will put those sorting algorithms to good use, and get 
 * Find
 * Game of Fifteen
 
-In Find, your job will be to write a program that searches for a particular number inside a very large list. To do this efficiently, you will use Binary Search (aka Rip the Phone Book in Half). But Binary Search only works if your list is sorted! So first you'll need to sort it using sorting algorithm (whichever one you prefer).
+In Find, your job will be to write a program that searches for a particular number inside a very large list. To do this efficiently, you will use Binary Search (aka ripping the phone book in half). But Binary Search only works if your list is sorted! So first you'll need to sort it using sorting algorithm (whichever one you prefer).
 
 In Game of Fifteen, you will implement <a href="https://en.wikipedia.org/wiki/15_puzzle" target="_blank">this classic</a> in a program that users can play live in the terminal window. Doing so will require working with a 2-dimensional array, in other words, an array of arrays.
 
