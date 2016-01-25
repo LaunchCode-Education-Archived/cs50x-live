@@ -33,11 +33,11 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/m/notes
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=Ui97-_n5xjo&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=4" target= "_blank">Bubble Sort</a> | Doug Lloyd gives a detailed breakdown of Bubble Sort.
 Watch | Short | <a href="https://www.youtube.com/watch?v=8Kp-8OGwphY&index=3&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target= "_blank">Bubble Sort</a> | Jackson Steinkamp talks some more about Bubble Sort, and shows why the worst case input for Bubble Sort is a backwards list.
 Do | Exercise | [Bubble Sort](../exercises/bubble-sort) | Here we ask you to walk through a hypothetical Bubble Sort scenario and write out the steps involved.
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=lx9G71uLXIg&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=3" target= "_blank">Selection Sort</a> | Doug Lloyd gives the scoop on Selection Sort.
-Watch | Short | <a href="https://www.youtube.com/watch?v=f8hXR_Hvybo&index=7&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target= "_blank">Selection Sort</a> | 
-Do | Exericse | [Selection Sort](../exercises/selection-sort) | Again here, we ask you to walkthrough the steps of an algorithm, this time using Selection Sort
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=TwGb6ohsvUU&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=5" target= "_blank">Insertion Sort</a> | When it comes to Insertion Sort, Doug Lloyd tells the whole truth and nothing but.
-Watch | Short | <a href="https://www.youtube.com/watch?v=DFG-XuyPYUQ&index=4&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target= "_blank">Insertion Sort</a> |
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=lx9G71uLXIg&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=3" target= "_blank">Selection Sort</a> | Doug Lloyd explains Selection Sort in depth, including best and worst-case scenarios.
+Watch | Short | <a href="https://www.youtube.com/watch?v=f8hXR_Hvybo&index=7&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target= "_blank">Selection Sort</a> | Tommy MacWilliam gets in on the Selection Sort action.
+Do | Exericse | [Selection Sort](../exercises/selection-sort) | Again here, we ask you to walk through the steps of an algorithm, this time using Selection Sort.
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=TwGb6ohsvUU&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=5" target= "_blank">Insertion Sort</a> | Doug Lloyd explains Insertion Sort in depth, including best and worst-case scenarios.
+Watch | Short | <a href="https://www.youtube.com/watch?v=DFG-XuyPYUQ&index=4&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target= "_blank">Insertion Sort</a> | When it comes to Insertion Sort, Tommy MacWilliam tells the whole truth and nothing but.
 Do | Exercise | [Insertion Sort](../exercises/insertion-sort) | One more time, let's do the step-by-step walkthrough.
 
 ***
@@ -45,8 +45,8 @@ Do | Exercise | [Insertion Sort](../exercises/insertion-sort) | One more time, l
 ##### Algorithmic Efficiency
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#algorithmic_efficiency" target= "_blank">Week 3 / Algorithmic Efficiency</a>
-Watch Video | Doug's Playlist | <a href="https://www.youtube.com/watch?v=IM9sHGlYV5A&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=2" target= "_blank">Computational Complexity</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#algorithmic_efficiency" target= "_blank">Week 3 / Algorithmic Efficiency</a> | These notes discuss the differences in performance between the 3 sorting algorithms from above. They also introduce "big-O notation" for describing the worst-case asymtotic runtime of an algorithm. Finally, they analyze the searching algorithms, Linear Search and Binary Search.
+Watch Video | Doug's Playlist | <a href="https://www.youtube.com/watch?v=IM9sHGlYV5A&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=2" target= "_blank">Computational Complexity</a> | Doug talks about 
 Watch Video | Short | <a href="https://www.youtube.com/watch?v=iOq5kSKqeR4" target= "_blank">Asymptotic Notation</a>
 Do | Exercise | [Algorithmic Efficiency Quiz](../exercises/algorithmic-efficiency) | A short, 3-question quiz on defining algorithmic efficiency
 
