@@ -9,9 +9,7 @@ things as an array of (arrays of things).
 In fact, an array of strings is one such example; since a string is actually just an array of chars, an
 array of strings is an array of (arrays of chars). 
 
-Let's explore this by writing a program that receives three 3-character `string`s 
-(in other words a grid of 9 `chars`), 
-and prints the grid to the conosle, with each word in its own **column**, like so:
+Let's explore this by writing a program that receives 3 `string`s, each exactly 3 characters long (you might think of this like a grid or matrix of 9 `chars`), and prints the grid to the conosle, with each word in its own **column**, like so:
 
 ```nohighlight
 $ ./wordgrid sun yes ear
