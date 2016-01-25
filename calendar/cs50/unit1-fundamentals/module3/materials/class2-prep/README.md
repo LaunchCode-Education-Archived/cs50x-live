@@ -63,10 +63,10 @@ Do | Exercise | [Delmar House of Tires](../exercises/spread-out) | Fix one progr
 
 ***
 
-##### Cool
+##### Bitwise Operators
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------  
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#bitwise_operators" target="_blank">Week 3, continued / Bitwise Operators</a> | We're not quite sure where you'll use this, but according to the notes you will somehow. In any case, it's cool!
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#bitwise_operators" target="_blank">Week 3, continued / Bitwise Operators</a> | We're actually not quite sure where you'll use this, but according to the notes, you will somehow. In any case, it's cool!
 
 ***
 
