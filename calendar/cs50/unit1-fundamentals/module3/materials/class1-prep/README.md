@@ -32,13 +32,13 @@ Task | Resource Type | Link | Instructions
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/m/notes3m/notes3m.html#sorting_algorithms" target= "_blank">Week 3 / Sorting Algorithms</a> | These notes spell out the sequence of steps involved in sorting a list using Bubble Sort, Selection Sort, and Insertion Sort.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=Ui97-_n5xjo&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=4" target= "_blank">Bubble Sort</a> | Doug Lloyd gives a detailed breakdown of Bubble Sort.
 Watch | Short | <a href="https://www.youtube.com/watch?v=8Kp-8OGwphY&index=3&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target= "_blank">Bubble Sort</a> |
-Do | Exercise | [Bubble Sort](../exercises/bubble-sort) | We ask you to walk through a hypothetical Bubble Sort scenario and write out the steps involved.
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=lx9G71uLXIg&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=3" target= "_blank">Selection Sort</a> |
-Watch | Short | <a href="https://www.youtube.com/watch?v=f8hXR_Hvybo&index=7&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target= "_blank">Selection Sort</a> |
-Do | Exericse | [Selection Sort](../exercises/selection-sort)
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=TwGb6ohsvUU&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=5" target= "_blank">Insertion Sort</a> |
+Do | Exercise | [Bubble Sort](../exercises/bubble-sort) | Here we ask you to walk through a hypothetical Bubble Sort scenario and write out the steps involved.
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=lx9G71uLXIg&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=3" target= "_blank">Selection Sort</a> | Doug Lloyd gives the scoop on Selection Sort
+Watch | Short | <a href="https://www.youtube.com/watch?v=f8hXR_Hvybo&index=7&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target= "_blank">Selection Sort</a> | 
+Do | Exericse | [Selection Sort](../exercises/selection-sort) | Again here, we ask you to walkthrough the steps of an algorithm, this time using Selection Sort
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=TwGb6ohsvUU&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=5" target= "_blank">Insertion Sort</a> | When it comes to Insertion Sort, Doug Lloyd tells the whole truth and nothing but.
 Watch | Short | <a href="https://www.youtube.com/watch?v=DFG-XuyPYUQ&index=4&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target= "_blank">Insertion Sort</a> |
-Do | Exercise | [Insertion Sort](../exercises/insertion-sort)
+Do | Exercise | [Insertion Sort](../exercises/insertion-sort) | One more time, let's do the step-by-step walkthrough.
 
 ***
 
