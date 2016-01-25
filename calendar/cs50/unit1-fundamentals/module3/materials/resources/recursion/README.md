@@ -3,13 +3,11 @@
 
 # Example: Recursion
 
-Check out [sigma.c](./sigma.html), an example of a program that uses a recursive function:
+Let's take one more look at that `sigma` example.
 
-```c
-int sigma(int m);
-```
+You have already implemented it in the previous Follow-Alongs, but now we'll just summarize what happens.
 
-The `sigma` function takes in `int m` and returns the sum `m + (m - 1) + (m - 2) + ... + 2 + 1 + 0`.
+The `sigma` function takes in `int` (called, say `m`), and returns the sum `m + (m - 1) + (m - 2) + ... + 2 + 1 + 0`.
 For example, `sigma(4)` is `4 + 3 + 2 + 1 + 0` which is `10`.
 
 In more detail, the process happens like this:
@@ -21,4 +19,4 @@ In more detail, the process happens like this:
 * `4 + 3 + 2 + 1 + 0`
 * `10`
 
-Build your own copy of `sigma.c`, and then step through the proccess line-by-line by setting some breakpoints and running the CS50 IDE Debugger.
+You might find it useful to run your own copy of sigma through the Debugger, set some breakpoints, and use the **step into** button with each recursive call, watching the "call stack" grow with each call, and then shrink with teach `return` statement.
