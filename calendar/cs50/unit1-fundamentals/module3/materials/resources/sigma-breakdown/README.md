@@ -5,9 +5,9 @@
 
 Let's take one more look at that `sigma` example.
 
-You have already implemented it in the previous Follow-Alongs, but now we'll just summarize what happens.
+You have already implemented it yourself in the previous Follow-Alongs, but now we'll just summarize what happens.
 
-The `sigma` function receives in `int` (called, say `m`), and returns the following sum: 
+The `sigma` function receives in `int` called `m`, and returns the following sum: 
 
 `m + (m - 1) + (m - 2) + ... + 2 + 1 + 0`.
 
