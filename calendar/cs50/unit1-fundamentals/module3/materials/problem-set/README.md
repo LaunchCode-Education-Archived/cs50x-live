@@ -28,7 +28,7 @@ CS50 pre-codes a bunch of function prototypes for you in this pset. You are give
 Once you make sure the tiniest thing works, only then should you write the next little step in your plan.
 
 ##### Game of Fifteen
-With this assignment you will experience array overload! You will be using a multi-dimensional array, so instead of just one row of data, you'll have both rows and columns. Some tips:
+This assignment is heavy on arrays. You will be using a multi-dimensional array, so instead of just one row of data, you'll have both rows and columns. Some tips:
 * Use meaningful names for your loop variables! Which represents a row versus a column, `i` or `j`? Use `row` and `col` instead (or `col` and `row`), and you won’t have to wonder while you're troubleshooting.
 * Use the trusty "swap" code you've learned for arrays to move your tiles about.
 
