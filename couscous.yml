@@ -25,7 +25,7 @@ menu:
             relativeUrl: helpful-resources/
         ide:
             text: CS50 IDE
-            absoluteUrl: http://ide.cs50.io/
+            absoluteUrl: http://cs50.io/
             attributes: target="_blank"
         vocareum:
             text: Vocareum
