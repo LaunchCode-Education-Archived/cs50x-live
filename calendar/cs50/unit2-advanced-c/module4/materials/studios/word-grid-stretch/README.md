@@ -11,26 +11,23 @@ Today, your program will apply a "stretch" factor to the grid of letters, making
 It is easiest to explain via example. The finished program should behave like this:
 
 ```nohighlight
-$ ./wordgridstretch sun yes ear
+$ ./wordgridstretch goat crab bear
 Your word grid currently looks like this:
-sun
-yes
-ear
+goat
+crab
+bear
 Now I will stretch it out. How much should I stretch by?
-4
-After stretching by 4, you now have this!
-ssssuuuunnnn
-ssssuuuunnnn
-ssssuuuunnnn
-ssssuuuunnnn
-yyyyeeeessss
-yyyyeeeessss
-yyyyeeeessss
-yyyyeeeessss
-eeeeaaaarrrr
-eeeeaaaarrrr
-eeeeaaaarrrr
-eeeeaaaarrrr
+3
+After stretching by 3, you now have this!
+gggoooaaattt
+gggoooaaattt
+gggoooaaattt
+cccrrraaabbb
+cccrrraaabbb
+cccrrraaabbb
+bbbeeeaaarrr
+bbbeeeaaarrr
+bbbeeeaaarrr
 ```
 
 That's what we mean by "making the grid larger". 
@@ -41,56 +38,51 @@ To get started, we suggest you try two simpler versions first:
 
 1. A program that just stretches the grid vertically:
   ```nohighlight
-  $ ./stretchvertical sun yes ear
+  $ ./stretchvertical goat crab bear
   Your word grid currently looks like this:
-  sun
-  yes
-  ear
-  Now I will stretch it out. How much should I stretch by?
-  4
-  After stretching by 4, you now have this!
-  sun
-  sun
-  sun
-  sun
-  yes
-  yes
-  yes
-  yes
-  ear
-  ear
-  ear
-  ear
+  goat
+  crab
+  bear
+  Now I will stretch it out vertically. How much should I stretch by?
+  3
+  After stretching by 3, you now have this!
+  goat
+  goat
+  goat
+  crab
+  crab
+  crab
+  bear
+  bear
+  bear
   ```
 
 2. A program that just stretches the grid horizontally:
   ```nohighlight
-  $ ./stretchhorizontal sun yes ear
+  $ ./stretchhorizontal goat crab bear
   Your word grid currently looks like this:
-  sun
-  yes
-  ear
-  Now I will stretch it out. How much should I stretch by?
-  4
-  After stretching by 4, you now have this!
-  ssssuuuunnnn
-  yyyyeeeessss
-  eeeeaaaarrrr
+  goat
+  crab
+  bear
+  Now I will stretch it out horizontally. How much should I stretch by?
+  3
+  After stretching by 3, you now have this!
+  gggoooaaattt
+  cccrrraaabbb
+  bbbeeeaaarrr
   ```
   
 Only after writing these little badboys should you start to think about how to combine both steps into one big badderboy.
 
 
-### No Validation
+### Validation
 
-Finally, you may assume that:
+Don't forget to validate the user's input. Specifically, you'll want to ensure:
 
-* the user will always give you exactly 3 words as command-line arguments
-* that those words will all be the same length
-* that the user will provide a non-negative stretch factor 
+* that the user gave you exactly 3 words as command-line arguments
+* that those words are all the same length
+* that the user provides a non-negative stretch factor 
  
-Obviously it would be foolish to make those assumptions in real life. But to save time today, we don't want you to have to worry about validating the user's input. (But if you did decide to add validation, it would be easy for you, right? ;))
-
 
 ### Submitting 
 
