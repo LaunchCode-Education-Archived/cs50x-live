@@ -21,7 +21,7 @@ int main(void)
       currentMax = exampleArray[i];
     }
   }
-  printf(“The biggest number was %i\n”, currentMax);
+  printf("The biggest number was %i\n", currentMax);
 }
 ```
 **This algorithm is O(n).  What does ’n’ represent in this example?**
@@ -42,9 +42,9 @@ int main(void)
   {
     for(int j = 0; j < n; j++)
     {
-      printf(“x");
+      printf("x");
     }
-    printf(“\n”);
+    printf("\n");
   }
 }
 ```
