@@ -199,15 +199,29 @@ This is a continuation of ASCII-0, please follow the instructions below.  You wi
 ```
 
 ### Class 1 Task: Functions-1
-This is a continuation of Functions-0, please follow the instructions below.  You will use terminal commands to copy the `functions-0.c` file.  Make sure you are in the `module2/followalongs/functions` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
+You can find a refresher on declaring functions from Doug's Playlist <a href="http://www.youtube.com/watch?v=jtuMIHebSu8&t=5m3s" target="_blank">here</a> or or a cheat sheet <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/Supplementary-Resources/c-language.html#functions" target="_blank">here</a>. 
+This is a continuation of Functions-0, please follow the instructions below.  
 ```c
  /**
-  * This is a continuation of the last program and you should copy functions-0.c file so you do not have to 
-  * write the whole program. Use the command below, open up functions-1.c and watch the video
-  * to complete the task.  
-  * Make sure you are in this Folder: ~/workspace/module2/followalongs/functions
+  * Filename: functions-1.c
+  * Save in Folder: ~/workspace/module2/followalongs/functions
+  * 
+  * Include the stdio library
+  * Include the cs50 library
+  * 
+  * Declare a function called GetPositiveInt() with a return type of int
+  * 
+  * Add main method
+  *   
+  *   Declare a variable n of type int and assign the function GetPositiveInt() to it.
+  *   Print "Thanks for the %i!\n" and use the variable n for the placeholder %i
   *
-  *      cp functions-0.c functions-1.c
+  * Define GetPositiveInt() with an argument of void
+  * Hint: return-type Name(argument){ }
+  *   Declare a variable n of type int
+  *
+  * You will find instructions to complete this task in the video. 
+  * You will be modifying this code as you go along.
   *
   */
 ```
