@@ -38,7 +38,7 @@ Finally, checkout the following Walkthrough videos listed below. They are a few 
 2. <a href="https://www.youtube.com/watch?v=k4P0SojW9oM" target="_blank">fifteen / draw</a>
 3. <a href="https://www.youtube.com/watch?v=xPa4Wb5Uyhc" target="_blank">fifteen / init</a>
 4. <a href="https://www.youtube.com/watch?v=gxMHcoBMiq4" target="_blank">fifteen / move</a>
-5. <a href="https://www.youtube.com/watch?v=6KSq4JUfhIk" target="_blank">fifteen / won</a>~~
+5. <a href="https://www.youtube.com/watch?v=6KSq4JUfhIk" target="_blank">fifteen / won</a>
 
 
 ### How to submit 
