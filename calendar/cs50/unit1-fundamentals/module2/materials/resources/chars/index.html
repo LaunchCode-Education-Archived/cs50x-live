@@ -74,11 +74,11 @@
 <h1 id="intro-to-chars">Intro to Chars</h1>
 <p>We’ve seen the <code>string</code> datatype now, but how does it work?  We know that numbers like <code>int</code> and <code>float</code>, are represented by a finite chunk of binary bits, but strings can be of any length; how can we represent these?</p>
 <p>Just like words in real life are a list of letters, strings are a list of “letters,” and each “letter” is a finite piece of data we call a <code>char</code>.</p>
-<p>How are these chars organized?  In the computer’s memory, they’re just placed one after another, so a string of three letters, like “mom” or “car”, is represented by three <code>char</code>s right next to each other in memory.  This structure, where multiple pieces of the same kind of data are stored right next to each other, is called an <code>array</code>.</p>
+<p>How are these <code>char</code>s organized?  In the computer’s memory, they’re just placed one after another, so a string of three letters, like “mom” or “car”, is represented by three <code>char</code>s right next to each other in memory.  This structure, where multiple pieces of the same kind of data are stored right next to each other, is called an <code>array</code>.</p>
 <p>We’ll talk more about arrays later, but the important thing right now is that a <code>string</code>, which we’ve been working with, is made up of a sequence of a smaller data type, a <code>char</code>.</p>
 <p>Now we have a new data type to work with and think about: <code>char</code>.  How do we use it?</p>
 <p>To declare a variable with type <code>char</code>, we can do this:</p>
-<pre><code class="language-c">char myChar = ‘q';</code></pre>
+<pre><code class="language-c">char myChar = 'q';</code></pre>
 <p>This has a few differences from declaring a <code>string</code>, like this:</p>
 <pre><code class="language-c">string myString = “qwe”;</code></pre>
 <p>A <code>char</code> is declared with single quotes (or apostrophes), while a string is declared with double quotes (quotation marks).  Also, a char can be at most 1 character, which a string can be any number of them.</p>

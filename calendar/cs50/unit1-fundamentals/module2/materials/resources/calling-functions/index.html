@@ -98,9 +98,9 @@ strlen(exampleString);
 int exampleStringLength = strlen(exampleString);
 
 // now we can refer to our variable in order to print its value
-printf(“The string has %i characters!\n”, exampleStringLength);
+printf(“The exampleString has %i characters!\n”, exampleStringLength);
 
-printf(“The string has fewer than %i characters.\n”, exampleStringLength + 10);</code></pre>
+printf(“The exampleString has fewer than %i characters.\n”, exampleStringLength + 10);</code></pre>
 <p>There are two steps to this process:</p>
 <ol>
 <li>call a function and store its return value in a variable</li>
@@ -110,7 +110,7 @@ printf(“The string has fewer than %i characters.\n”, exampleStringLength + 1
 <pre><code class="language-c">string exampleString = “hello!”;
 
 // here we print the length of the string by embedding the invocation of strlen directly into our print statement.
-printf(“The string has %i characters!\n”, strlen(exampleString));</code></pre>
+printf(“The exampleString has %i characters!\n”, strlen(exampleString));</code></pre>
 <p>There is no &quot;right way&quot; between these two styles. Depending on context, one style might make more sense than the other, or either might be fine. Over time, you will develop an instinct this type of thing, balancing a variety of concerns to write code that:</p>
 <ul>
 <li>is easy for humans to read and understand</li>
