@@ -18,7 +18,7 @@ The Pset Spec is <a href="http://cdn.cs50.net/2015/fall/psets/3/pset3/pset3.html
 
 ##### Find 
 
-While searching and sorting, you will be getting more experienced with arrays. You're also gaining experience reading and figuring out how someone else's code works! (This is a good example of why something like `style50` standards are a good thing to use with your own code. You can find more information about it <a href="https://manual.cs50.net/style/" target="_blank">here</a>)
+While searching and sorting, you will be getting more experienced with arrays. You're also gaining experience reading and figuring out how someone else's code works! (This is a good example of why something like `style50` standards are a good thing to use with your own code. You can find more information about using `style50` <a href="http://cs50.stackexchange.com/questions/4270/what-is-style50-and-how-to-access-it" target="_blank">here</a> and a CS50 guide to stylize your code <a href="https://manual.cs50.net/style/" target="_blank">here</a>.)
 
 Make sure you *break your work into the smallest pieces you possibly can*! Do *one thing at a time*, and *make sure it's working before going on to something else*.
 
