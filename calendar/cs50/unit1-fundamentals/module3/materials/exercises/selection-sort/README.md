@@ -3,8 +3,8 @@
 
 # Exercise: Selection Sort
 
-Just like in the [Bubble Sort Exercise](../bubble-sort), create a file called selectionsort.txt 
-in which you provide a step-by-step breakdown of the proccess of using Selection Sort to 
+Just like in the [Bubble Sort Exercise](../bubble-sort), create a file called `selectionsort.txt` 
+in which you provide a step-by-step breakdown of the process of using Selection Sort to 
 sort the following array:
 
 5 4 1 7 2 8 3 6
