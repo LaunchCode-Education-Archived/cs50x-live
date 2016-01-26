@@ -148,14 +148,14 @@ This is a continuation of Floats-1, please follow the instructions below.  You w
 
 ### Class 1 Task: ASCII-0
 <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#loops" target="_blank">For loops</a> refresher. Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```
+```c
  /**
   * Filename: ascii-0.c
   * Save in Folder: ~/workspace/module2/followalongs/ascii
   * 
   * Include the stdio library
   * Add main method
-  *   Add a for loop using a variable i that is initialized to 65 of type int and a condition of "i < 65 + 26"
+  *   Add a for loop using a variable i that is initialized to 65 of type int and a condition of (i < 65 + 26)
   *   (Hint: for ( initialization; condition; updates) { statement(s); } 
   * 
   * You will find instructions to complete this task in the video. 
