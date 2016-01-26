@@ -11,18 +11,18 @@ As a starting point you are provided with some files for the exponentiation func
 
 For this Studio, your program will have three files ([expt.c](expt.html), `mult.c`, and `mult.h`), as well as a ([Makefile](Makefile.html)) to run the program, and will be located within the same directory.  
 
-Makefiles are configuration files that tell `make` exactly what to do.  As your programs grow in size, `make` won’t be able to infer from context anymore how to compile your code; you’ll need to start telling `make` how to compile your program, particularly when they involve multiple source (i.e., `.c`) files.
+Makefiles are configuration files that tell `make` exactly what to do.  As your programs grow in size, `make` won’t be able to infer from context anymore how to compile your code; you’ll need to start telling `make` how to compile your program, particularly when your program contains multiple source (i.e., `.c`) files. That's what the Makefile is for.
 
 You have been supplied a [Makefile](Makefile.html) and the [expt.c](expt.html) file. Copy them over to the IDE. 
 
-If you try to run it, you'll see that there are some issues:
+If you try to run `make`, you'll see that there are some issues:
 
 ```nohighlight
 ~/workspace $ make
 make: *** No rule to make target `mult.c', needed by `expt'.  Stop.
 ```
 
-This is because you are trying to compile a program that consists of more than one file. Unfortunately we are missing two of those files: `mult.c` and `mult.h`. `make` knows how to compile `expt.c` and `mult.c` using the configuration file that is supplied for you. 
+This is because you are trying to compile a program that consists of more than one file. Unfortunately we are missing two of those files: `mult.c` and `mult.h`. 
 
 Let's take a look at the [Makefile](Makefile.html).
 
@@ -31,18 +31,24 @@ expt: expt.c mult.c mult.h
 	clang -ggdb3 -O0 -std=c11 -Wall -Werror -o expt expt.c mult.c -lcs50 -lm
 ```
 
-Line 3 of the [Makefile](Makefile.html), tells `make` that the "target" called `expt` should be built by invoking the second line’s command. Moreover, that line tells `make`that `expt` is dependent on `expt.c` and `mult.c`, the implication of which is that `make` will only re-build `expt` on subsequent runs if one of those files was modified since `make` last built `expt`. Incidentally, know that the leading whitespace on that second line is not a sequence of spaces but, rather, a tab. Unfortunately, `make` requires that commands be preceded by tabs, so be careful not to change them to spaces, else you may encounter strange errors! The `-Werror` flag, recall, tells clang to treat warnings (bad) as though they’re errors (worse) so that you’re forced (in a good, instructive way!) to fix them.
+Line 3 of the [Makefile](Makefile.html), tells `make` that the "target" called `expt` should be built by invoking the second line’s command. Moreover, that line tells `make`that `expt` is dependent on `expt.c` and `mult.c`, the implication of which is that `make` will only re-build `expt` on subsequent runs if one of those files was modified since `make` last built `expt`.  The `-Werror` flag, recall, tells clang to treat warnings (bad) as though they’re errors (worse) so that you’re forced (in a good, instructive way!) to fix them. 
+
+Incidentally, know that the leading whitespace on that second line is not a sequence of spaces but, rather, a tab. Unfortunately, `make` requires that commands be preceded by tabs, so be careful not to change them to spaces, else you may encounter strange errors!
+
+
+Now let's look at line 1:
 
 ```c
 all: expt
 ```
-On line 1, the target `all` implies that you can build `expt` simply by executing `make`.
+Here, the target `all` implies that you can build `expt` simply by executing `make`.
 
+And finally, line 6:
 ```c
 clean:
 	rm -f *.o a.out core expt
 ```
-On line 6, the target `clean`  allows you to delete all files ending in .o or called core (more on that soon!), or `expt`. Be careful not to add, say, `*.c` to that last line in Makefile! (Why?) Any line, incidentally, that begins with # is just a comment.
+Here, the target `clean`  allows you to delete all files ending in .o or called core (more on that soon!), or `expt`. Be careful not to add, say, `*.c` to that last line in Makefile! (Why?) Any line, incidentally, that begins with # is just a comment.
 
 Now that we've covered the [Makefile](Makefile.html), let's move on to Part 2. (If you're still confused about Makefiles you can check <a href="https://en.wikipedia.org/wiki/Makefile" target="_blank">here</a> for more information.
 
