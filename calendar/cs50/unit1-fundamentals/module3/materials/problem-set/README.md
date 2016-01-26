@@ -33,6 +33,7 @@ Here you will have array overload! You will be using a multi-dimensional array, 
 * Use the trusty "swap" code you've learned for arrays to move your tiles about.
 
 Finally, checkout the following Walkthrough videos listed below. They are a few years old, but still pertinent to the Game of Fifteen assignment:
+
 1. <a href="https://www.youtube.com/watch?v=CvmHt-IDhbs" target="_blank">fifteen</a>
 2. <a href="https://www.youtube.com/watch?v=k4P0SojW9oM" target="_blank">fifteen / draw</a>
 3. <a href="https://www.youtube.com/watch?v=xPa4Wb5Uyhc" target="_blank">fifteen / init</a>
