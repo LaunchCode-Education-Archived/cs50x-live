@@ -6,7 +6,7 @@ We’ve seen the `string` datatype now, but how does it work?  We know that numb
 
 Just like words in real life are a list of letters, strings are a list of “letters,” and each “letter” is a finite piece of data we call a `char`.
 
-How are these chars organized?  In the computer’s memory, they’re just placed one after another, so a string of three letters, like “mom” or “car”, is represented by three `char`s right next to each other in memory.  This structure, where multiple pieces of the same kind of data are stored right next to each other, is called an `array`.
+How are these `char`s organized?  In the computer’s memory, they’re just placed one after another, so a string of three letters, like “mom” or “car”, is represented by three `char`s right next to each other in memory.  This structure, where multiple pieces of the same kind of data are stored right next to each other, is called an `array`.
 
 We’ll talk more about arrays later, but the important thing right now is that a `string`, which we’ve been working with, is made up of a sequence of a smaller data type, a `char`.
 
@@ -15,7 +15,7 @@ Now we have a new data type to work with and think about: `char`.  How do we use
 To declare a variable with type `char`, we can do this:
 
 ```c
-char myChar = ‘q';
+char myChar = 'q';
 ```
 
 This has a few differences from declaring a `string`, like this:
