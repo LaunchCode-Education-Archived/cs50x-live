@@ -59,7 +59,7 @@ Watch | Shorts | <a href="http://www.youtube.com/watch?v=U3zCxnj2w8M" target="_b
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=ED7QtgXDShY" target="_blank"> Libraries</a> | Watch this short about libraries
 Watch | Section | <a href="https://youtu.be/XRvvitgap5Y?t=2549" target="_blank"> Compilation Process</a> | Watch this lecture on the compilation process
 Read | Resource | [Spread Out](../resources/spread-out) | Here's an example of a program that starts off written as one big file, but is subsequently reorganized into a few smaller, easy to understand files.
-Do | Exercise | [Delmar House of Tires](../exercises/spread-out) | Here we ask you to fix a program by pulling out some code from another very similar program into a new helper file, so that both programs can share the helper file and you don't have to rewrite any code.
+Do | Exercise | [Delmar House of Tires](../exercises/house-of-tires) | Here we ask you to fix a program by pulling out some code from another very similar program into a new helper file, so that both programs can share the helper file and you don't have to rewrite any code.
 
 ***
 
