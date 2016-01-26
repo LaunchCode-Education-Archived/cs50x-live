@@ -36,7 +36,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=C-J0fKmwKmw&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=10" target="_blank">sigma-0</a> | David builds a non-recursive implementation of the `sigma` program, which calculates the sum of the integers 1 through n. <br> You can find the pseudocode for this walkthrough <a href="../../../../../../helpful-resources/modules/module-3.html#class-2-task-sigma-0" target="_blank">here</a>.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=GSY5bEv3gX8&index=11&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">sigma-1</a> | Now David re-implements `sigma` using recursion! <br>You can find instructions to start this walkthrough <a href="../../../../../../helpful-resources/modules/module-3.html#class-2-task-sigma-1" target="_blank">here</a>.
 Read | Resource | [Sigma Breakdown](../resources/sigma-breakdown) | Here we try to lay out the process of what really happens as the `sigma` function processes the answer for a particular number. After reading this resource, you are encouraged to step through your copy of the program in the IDE Debugger, just like they did in class. | 
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=VrrnjYgDBEk" target="_blank"> Recursion</a> | Doug talks about recursion and gives some more examples, including calculating the facotrial of a number, and something called the Collatz Sequence.
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=VrrnjYgDBEk" target="_blank"> Recursion</a> | Doug talks about recursion and gives some more examples, including calculating the factorial of a number, and something called the Collatz Sequence.
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=t4MSwiqfLaY" target="_blank"> Recursion</a> | Zamyla Chan talks some more about recursion. In the second half she starts talking about binary trees, and you will see some code that looks unfamiliar. You can stop as soon as you feel like the video is no longer helping solidify your understanding of recursion.
 Do | Exercise | [Fibonacci](../exercises/fibonacci) | Flex your recursion muscles by writing a program that derives the classic Fibonacci Sequence.
 
@@ -46,7 +46,7 @@ Do | Exercise | [Fibonacci](../exercises/fibonacci) | Flex your recursion muscle
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=B6l7AJYgCOI" target="_blank">Algorithms Summary</a> | Doug gives a final recap of all the different sorting algorithms and how they compare. <br>You can also check Helpful Resources <a href="../../../../../../helpful-resources/Supplementary-Resources/algorithms-summary.html" target="_blank">here</a> for a supplemental resource on Algorithms.</a>
-Study | CS50 Study | <a href="https://study.cs50.net/binary_search?toc=bubble_sort,insertion_sort,selection_sort,merge_sort" target="_blank">bubble sort, insertion sort, selection sort, merge sort</a> One last review of these algorithms, this time via CS50 Study.
+Study | CS50 Study | <a href="https://study.cs50.net/binary_search?toc=bubble_sort,insertion_sort,selection_sort,merge_sort" target="_blank">bubble sort, insertion sort,<br> selection sort, merge sort</a> | One last review of these algorithms, this time via CS50 Study.
 
 ***
 
