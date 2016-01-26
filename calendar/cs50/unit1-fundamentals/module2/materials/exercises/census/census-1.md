@@ -56,7 +56,7 @@ string promptAndValidate(string fieldname)
     int minimumlength = 2;
     while( strlen(answer) < minimumlength ) 
     {
-        printf("%s (must be at least %i characters long):\n", answer, minimumlength);
+        printf("%s (must be at least %i characters long):\n", fieldname, minimumlength);
         answer = GetString();
     }  
     return answer;
