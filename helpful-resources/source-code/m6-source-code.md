@@ -12,32 +12,26 @@ You will find the source code for the follow-alongs that you will complete durin
 
 <!--
 
-css-2.html
+headings.html
 
 David J. Malan
 malan@harvard.edu
 
-Implements a (simple) home page for John Harvard.
-
-Demonstrates external stylesheets.
+Demonstrates headings (for chapters, sections, subsections, etc.).
 
 -->
 
 <html>
     <head>
-        <link href="css-2.css" rel="stylesheet"/>
-        <title>css-2</title>
+        <title>headings</title>
     </head>
     <body>
-        <div id="top">
-            John Harvard
-        </div>
-        <div id="middle">
-            Welcome to my home page!
-        </div>
-        <div id="bottom">
-            Copyright &#169; John Harvard
-        </div>
+        <h1>One</h1>
+        <h2>Two</h2>
+        <h3>Three</h3>
+        <h4>Four</h4>
+        <h5>Five</h5>
+        <h6>Six</h6>
     </body>
 </html>
 ```

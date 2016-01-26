@@ -13,7 +13,7 @@ Below you will find a table of all of the concepts that you have been or will be
 | [Algorithms, Sorting - Summary](../../calendar/cs50/unit1-fundamentals/module3/materials/class2-prep#sorting-algs-summary) | 3 | 2 | Algorithms Summary Doug's Playlist, Bubble Sort Insertion Sort Selection Sort Merge Sort CS50 Study|
 | [Arrays](../../calendar/cs50/unit1-fundamentals/module2/materials/class2-prep#arrays) | 2 | 2 | Array Basics Resource, Arrays Doug's Playlist, ages Walkthrough Video, Week 2 condinued / Arrays Lecture Notes |
 | [Binary](../../calendar/module0/materials/class0-prep#binary-and-ascii) | 0 | - | Week 1 / Binary Lecture Notes, Binary Short Video |
-| [Bitwise Operators]() | 3 | 2 | | **CHECK LINK** Week 3, continued Bitwise Operators Lecture Notes |
+| [Bitwise Operators](../../calendar/module0/materials/class0-prep#cool) | 3 | 2 | | **CHECK LINK** Week 3, continued Bitwise Operators Lecture Notes |
 | [Boolean](../..//calendar/cs50/unit1-fundamentals/module1/materials/class2-prep#conditions-booleans) | 1 | 2 | Operators Doug's Playlist, Boolean Values Short Video |
 | [C (printing)](../..//calendar/cs50/unit1-fundamentals/module1/materials/class1-prep#printing-getting-user-input) | 1 | 1 | Hello-0 Walkthrough, Week 1 / Writing Code Lecture Notes |
 | [C (user input)](../../calendar/cs50/unit1-fundamentals/module1/materials/class1-prep#printing-getting-user-input)  | 1 | 1 | Week 1 / Writing Code Lecture Notes, Hello-2 Walkthrough Video |
