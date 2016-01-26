@@ -42,9 +42,9 @@ strlen(exampleString);
 int exampleStringLength = strlen(exampleString);
 
 // now we can refer to our variable in order to print its value
-printf(“The string has %i characters!\n”, exampleStringLength);
+printf(“The exampleString has %i characters!\n”, exampleStringLength);
 
-printf(“The string has fewer than %i characters.\n”, exampleStringLength + 10);
+printf(“The exampleString has fewer than %i characters.\n”, exampleStringLength + 10);
 ```
 
 There are two steps to this process:
@@ -58,7 +58,7 @@ There is an alternative way which doesn't require the use of a variable: you can
 string exampleString = “hello!”;
 
 // here we print the length of the string by embedding the invocation of strlen directly into our print statement.
-printf(“The string has %i characters!\n”, strlen(exampleString));
+printf(“The exampleString has %i characters!\n”, strlen(exampleString));
 ```
 
 There is no "right way" between these two styles. Depending on context, one style might make more sense than the other, or either might be fine. Over time, you will develop an instinct this type of thing, balancing a variety of concerns to write code that:
