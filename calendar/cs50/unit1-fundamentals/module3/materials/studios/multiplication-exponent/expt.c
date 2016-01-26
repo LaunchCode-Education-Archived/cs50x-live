@@ -1,4 +1,5 @@
 #include <stdio.h>
+// TODO: include the header file with our multiplication function so we can use the function!
 
 //TODO: Write a recursive function that computes exponents.
 //This function will rely upon your multiplication function, so you should do that first!
