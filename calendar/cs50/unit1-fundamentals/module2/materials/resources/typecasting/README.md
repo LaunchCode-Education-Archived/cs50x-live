@@ -126,7 +126,7 @@ Even without explicit casting here, the compiler notices that `score` is a float
 #### Morals of this story:
 * Try to choose the best data-type to model each piece of your code.
 * Sometimes you need to switch between data types
-  * For example, integer division truncates everything after the decmial point and you might not want that to happen
+  * For example, integer division truncates everything after the decimal point and you might not want that to happen
 * You can cast an expression from one data-type to another
   * The syntax for casting an expression into a different data type involves prefixing the expression with the name of the new type in parentheses, like so: `(newType) expression` where `newType` is something like `float` and `expression` is something like `num_correct` or `46` or `(1 + 2 + 3)`
 

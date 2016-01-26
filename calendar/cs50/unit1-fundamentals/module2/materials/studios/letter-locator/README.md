@@ -17,7 +17,7 @@ e is at position 5
 $ ./letterlocator
 Give me a letter: @
 Give me a letter: Y
-Y is at position 25
+Y is at position 24
 ```
 
 You will find the following functions very helpful:
