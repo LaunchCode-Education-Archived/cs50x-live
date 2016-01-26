@@ -9,19 +9,45 @@ Since these two functions are separate from each other, we will use separate fil
 
 As a starting point you are provided with some files for the exponentiation function. [expt.c](expt.html) includes starter code for the exponentiation function as well as some tests for multiplication and exponentiation in a main method.
 
-You have also been supplied a [Makefile](Makefile.html), but if you try to run it you'll see that there are some issues:
+For this Studio, your program will have three files ([expt.c](expt.html), `mult.c`, and `mult.h`), as well as a ([Makefile](Makefile.html)) to run the program, and will be located within the same directory.  
+
+Makefiles are configuration files that tell `make` exactly what to do.  As your programs grow in size, `make` won’t be able to infer from context anymore how to compile your code; you’ll need to start telling `make` how to compile your program, particularly when they involve multiple source (i.e., `.c`) files.
+
+You have been supplied a [Makefile](Makefile.html) and the [expt.c](expt.html) file. Copy them over to the IDE. 
+
+If you try to run it, you'll see that there are some issues:
 
 ```nohighlight
 ~/workspace $ make
-g++ expt.c mult.c mult.h -o expt
-g++: error: mult.c: No such file or directory
-g++: error: mult.h: No such file or directory
+make: *** No rule to make target `mult.c', needed by `expt'.  Stop.
 ```
 
-The first line attempts to make the program. The next line shows what the makefile is trying to do: compile a program that consists of three files, `mult.c`, `mult.h`, and `expt.c`. Unfortunately we are missing two of those files: `mult.c` and `mult.h`.
+This is because you are trying to compile a program that consists of more than one file. Unfortunately we are missing two of those files: `mult.c` and `mult.h`. `make` knows how to compile `expt.c` and `mult.c` using the configuration file that is supplied for you. 
+
+Let's take a look at the [Makefile](Makefile.html).
+
+```c
+expt: expt.c mult.c mult.h
+	clang -ggdb3 -O0 -std=c11 -Wall -Werror -o expt expt.c mult.c -lcs50 -lm
+```
+
+Line 3 of the [Makefile](Makefile.html), tells `make` that the "target" called `expt` should be built by invoking the second line’s command. Moreover, that line tells `make`that `expt` is dependent on `expt.c` and `mult.c`, the implication of which is that `make` will only re-build `expt` on subsequent runs if one of those files was modified since `make` last built `expt`.
+
+```c
+all: expt
+```
+On line 1, the target `all` implies that you can build `expt` simply by executing `make`.
+
+```c
+clean:
+	rm -f *.o a.out core expt
+```
+On line 6, the target `clean`  allows you to delete all files ending in .o or called core (more on that soon!), or `expt`.
+
+Now that we've covered the [Makefile](Makefile.html), let's move on to Part 2.
 
 ### Part 2
-Your first task should be to create those files. Let's start with `mult.h`. This is the header file for the multiplication function, and should include the function *prototype*. A prototype defines what a function uses for its inputs and outputs, but does _not_ define what the function does. It is used to tell other parts of your program what kinds of functions are available for use.
+Your next task should be to create those missing files. Let's start with `mult.h`. This is the header file for the multiplication function, and should include the function *prototype*. A prototype defines what a function uses for its inputs and outputs, but does _not_ define what the function does. It is used to tell other parts of your program what kinds of functions are available for use.
 
 To keep things simple, our multiplication function will focus on integers. Our function should take two integers as input and return an integer as output. This should be enough information to construct your prototype.
 
@@ -34,7 +60,7 @@ All that's left now is to write the function body - how do we want our multiplic
 
 Your multiplication function should be able to handle both positive and negative integers. To make things easier, focus on only positive integers first. Once you are satisfied that multiplication works for positive values, see if you can tweak your code to make it work with negative values as well. Hint: it may be useful to create a second (perhaps non-recursive) function that checks whether the integers are positive or negative and proceeds accordingly. Be sure to ask for help if you get stuck!
 
-As always, it is important to test your code. It may be a good idea to write a simple `main` method in `mult.c` that you can use to test your `mult` function.
+As always, it is important to test your code. It may be a good idea to write a simple `main` method in `mult.c` that you can use to test your `mult` function. (If you do add a main function to your `mult.c` file you can simply use the commands `make mult` and `./mult` to compile and run your program, or else you will get a `multiple definition of 'main'` error.)
 
 ### Part 4
 Once you are satisfied with your multiplication function, it is time to turn our attention to exponentiation. Exponentiation can be thought of as repeated multiplication, much like multiplication can be thought of as repeated addition. Like with the `mult` function, however, you are faced with some restrictions. The multiplication operator is still not allowed. Instead you should use the recursive `mult` function that you wrote. In order to do this, we need to tell the exponentiation function what the multiplication function looks like. We can do this by referring to the header file that we created.
