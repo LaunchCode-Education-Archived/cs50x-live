@@ -31,7 +31,7 @@ expt: expt.c mult.c mult.h
 	clang -ggdb3 -O0 -std=c11 -Wall -Werror -o expt expt.c mult.c -lcs50 -lm
 ```
 
-Line 3 of the [Makefile](Makefile.html), tells `make` that the "target" called `expt` should be built by invoking the second line’s command. Moreover, that line tells `make`that `expt` is dependent on `expt.c` and `mult.c`, the implication of which is that `make` will only re-build `expt` on subsequent runs if one of those files was modified since `make` last built `expt`.
+Line 3 of the [Makefile](Makefile.html), tells `make` that the "target" called `expt` should be built by invoking the second line’s command. Moreover, that line tells `make`that `expt` is dependent on `expt.c` and `mult.c`, the implication of which is that `make` will only re-build `expt` on subsequent runs if one of those files was modified since `make` last built `expt`. Incidentally, know that the leading whitespace on that second line is not a sequence of spaces but, rather, a tab. Unfortunately, `make` requires that commands be preceded by tabs, so be careful not to change them to spaces, else you may encounter strange errors! The `-Werror` flag, recall, tells clang to treat warnings (bad) as though they’re errors (worse) so that you’re forced (in a good, instructive way!) to fix them.
 
 ```c
 all: expt
@@ -42,7 +42,7 @@ On line 1, the target `all` implies that you can build `expt` simply by executin
 clean:
 	rm -f *.o a.out core expt
 ```
-On line 6, the target `clean`  allows you to delete all files ending in .o or called core (more on that soon!), or `expt`.
+On line 6, the target `clean`  allows you to delete all files ending in .o or called core (more on that soon!), or `expt`. Be careful not to add, say, `*.c` to that last line in Makefile! (Why?) Any line, incidentally, that begins with # is just a comment.
 
 Now that we've covered the [Makefile](Makefile.html), let's move on to Part 2. (If you're still confused about Makefiles you can check <a href="https://en.wikipedia.org/wiki/Makefile" target="_blank">here</a> for more information.
 
