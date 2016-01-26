@@ -59,7 +59,7 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
 * PART 1: You will copy the [Makefile](../../calendar/cs50/unit1-fundamentals/module3/materials/studios/multiplication-exponent/Makefile.html) from the Studio and save it in `~/workspace/module3/studios/multiplication_and_exponents`.  
 * PART 2: You will save in a file called `mult.h` (for the function prototype). 
 * PART 3: You will save in a file called `mult.c` (for the function implementation) 
-* PART 4: You will save in a file called `expt.c`.  The starter code is provided in PART 4 **(there are no asterisks `*` preceding the code that will be copied to the file)** or you can copy it from [Makefile](../../calendar/cs50/unit1-fundamentals/module3/materials/studios/multiplication-exponent/expt.html).  If you need help please ask! :smile:  
+* PART 4: You will save in a file called `expt.c`.  The starter code is provided in PART 4 **(there are no asterisks `*` preceding the code that will be copied to the file)** or you can copy it from [here](../../calendar/cs50/unit1-fundamentals/module3/materials/studios/multiplication-exponent/expt.html).  If you need help please ask! :smile:  
 
 
 ```c
