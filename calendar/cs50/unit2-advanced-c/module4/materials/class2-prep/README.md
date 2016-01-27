@@ -37,7 +37,7 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=wgv4xH_tVgA&l
 Watch | Short | <a href="https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Structs</a> | prereq `char*`; goes into recursive struct definitions like linked lists, and then talks alot about pointers
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=yMvRqKmbRm4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=12" target="_blank">structs-0</a> | Follow David as he creates a struct for a "student" object.  <br>You can grab the pseudocode <a href="../../../../../../helpful-resources/modules/module-4.html#class-2-task-structs-0" target="_blank">here</a>.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">stucts-1</a> | Keep following David as he creates a program to write student structs to a csv file. You've seen this program before and can find instructions to start the program <a href="../../../../../../helpful-resources/modules/module-4.html#class-2-task-structs-1" target="_blank">here</a>.
-Do | Exercise | | TODO exc : something with struXX
+Do | Exercise | [Game](../exercises/game) | Help us create a game called "Dungeon Quest" by defining a `struct` to represent the player playing the game.
 TODO explain motivation for structs
 
 **Review**
