@@ -1,5 +1,5 @@
 ##### Module 4
-[Back to Class 1 Prep](../class1-prep)
+[Back to Class 1 Prep](../../class1-prep)
 
 # Resource: Annoying Syntax
 
