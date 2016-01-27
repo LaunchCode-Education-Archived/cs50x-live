@@ -11,31 +11,31 @@ You will find the source code for the follow-alongs that you will complete durin
 There will be multiple files for these follow-alongs and you can download the official source code to get all of the files.  Class 1 Prep will only need the froshims directory so you will copy the entire zip file and then delete the other files / folders that are not needed by running the following commands in your terminal:
 
 Download the source code zip file in the `module7/followalongs` directory.
-```
+```nohighlight
 $ cd ~/workspace/module7/followalongs
 $ wget http://cdn.cs50.net/2015/fall/lectures/7/w/src7w.zip
 ```
 Unzip and delete the file
-```
+```nohighlight
 $ unzip src7w.zip 
 $ rm -f src7w.zip 
 ```
 Change into the `src7w` directory and list the contents.  You should have 3 directories `froshims/`, ` mispellings/`, and `text/` as well as 3 files named `conditions`, `hello` and `return`.  You will delete all of the folders / files except for `froshims/`.
-```
+```nohighlight
 $ cd src7w
 $ ls
 conditions-1  froshims/  hello  mispellings/  return  text/
 $ rm -f -r mispellings -r text conditions-1 hello return
 ```
 Now you can copy froshims to the directory `~/workspace/module7/followalongs`, because it is currently located in `~/workspace/module7/followalongs/src7w` directory.  After copying it go to the parent directory `~/workspace/module7/followalongs` and list the files to show the `src7w` and `froshims` directories.  
-```
+```nohighlight
 $ cp -r froshims ~/workspace/module7/followalongs/froshims
 $ cd ..
 $ ls
 froshims/  src7w/
 ```
 Delete the `src7w` directory. You should now have only the `froshims` directory.
-```
+```nohighlight
 $ rm -f -r src7w
 $ ls
 froshims/
@@ -43,7 +43,7 @@ froshims/
   
 #### froshims-0
 
-```html
+```php
 <?php
 
     /**
@@ -100,9 +100,36 @@ froshims/
     </body>
 </html>
 ```
+#### register-0
+```php
+<?php
+
+    /**
+     * register-0.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * Dumps contents of $_POST.
+     */
+
+?>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Frosh IMs</title>
+    </head>
+    <body>
+        <pre><?php print_r($_POST); ?></pre>
+    </body>
+</html>
+```
+
 #### froshims-1
 You will need the `bootstrap.min.css` stylesheet located <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/froshims/bootstrap/css/" target="_blank">here</a>. You should already have it, but if you did not download all of the source code you can follow the [instructions](#froshims-instructions) above.
-```html
+```php
 <?php
 
     /**
@@ -168,9 +195,43 @@ You will need the `bootstrap.min.css` stylesheet located <a href="http://cdn.cs5
     </body>
 </html>
 ```
+#### register-1
+```php
+<?php
+
+    /**
+     * register-1.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * Implements a registration form for Frosh IMs.  Redirects 
+     * user to froshims-1.php upon error.
+     */
+
+    // validate submission
+    if (empty($_POST["name"]) || empty($_POST["comfort"]) || empty($_POST["dorm"]))
+    {
+        header("Location: froshims-1.php");
+        exit;
+    }
+
+?>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Frosh IMs</title>
+    </head>
+    <body>
+        You are registered!  (Well, not really.)
+    </body>
+</html>
+```
 #### froshims-2
 
-```html
+```php
 <?php
 
     /**
@@ -227,9 +288,40 @@ You will need the `bootstrap.min.css` stylesheet located <a href="http://cdn.cs5
     </body>
 </html>
 ```
+#### register-2
+```php
+<?php
+
+    /**
+     * register-2.php
+     *
+     * Computer Science 50
+     * David J. Malan
+     *
+     * Implements a registration form for Frosh IMs.  Informs user of 
+     * any errors.
+     */
+
+?>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Frosh IMs</title>
+    </head>
+    <body>
+        <?php if (empty($_POST["name"]) || empty($_POST["comfort"]) || empty($_POST["dorm"])): ?>
+            You must provide your name, comfort, and dorm!  Go <a href="froshims-2.php">back</a>.
+        <?php else: ?>
+            You are registered!  (Well, not really.)
+        <?php endif ?>
+    </body>
+</html>
+```
 #### froshims-3
 
-```html
+```php
 <?php
 
     /**
@@ -286,38 +378,144 @@ You will need the `bootstrap.min.css` stylesheet located <a href="http://cdn.cs5
     </body>
 </html>
 ```
+#### register-3
+```php
+<?php
 
+    /**
+     * register-3.php
+     *
+     * Computer Science 50
+     * David J. Malan
+     *
+     * Implements a registration form for Frosh IMs.  Reports registration 
+     * via email.  Redirects user to froshims-3.php upon error.
+     */
+
+    // require PHPMailer
+    require("libphp-phpmailer/class.phpmailer.php");
+
+    // validate submission
+    if (!empty($_POST["name"]) && !empty($_POST["comfort"]) && !empty($_POST["dorm"]))
+    {
+        // instantiate mailer
+        $mail = new PHPMailer();
+         
+        // use SMTP
+        $mail->IsSMTP();
+        $mail->Host = "smtp.gmail.com";
+        $mail->Password = "crimson50";
+        $mail->Port = 587;
+        $mail->SMTPAuth = true;
+        $mail->SMTPSecure = "tls";
+        $mail->Username = "jharvard@cs50.net";
+          
+        // set From:
+        $mail->SetFrom("jharvard@cs50.net");
+          
+        // set To:
+        $mail->AddAddress("jharvard@cs50.net");
+
+        // set Subject:
+        $mail->Subject = "registration";
+             
+        // set body
+        $mail->Body = 
+            "This person just registered:\n\n" .
+            "Name: " . $_POST["name"] . "\n" .
+            "Captain: " . $_POST["captain"] . "\n" .
+            "Comfort: " . $_POST["comfort"] . "\n" .
+            "Dorm: " . $_POST["dorm"];
+
+        // send mail
+        if ($mail->Send() == false)
+        {
+            print($mail->ErrInfo);
+            exit;
+        }
+    }
+    else
+    {
+        header("Location: froshims-3.php");
+        exit;
+    }
+?>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Frosh IMs</title>
+    </head>
+    <body>
+        You are registered!  (Really.)
+    </body>
+</html>
+```
+#### counter.php
+```
+<?php
+
+    // enable sessions
+    session_start();
+
+    // check counter
+    if (isset($_SESSION["counter"]))
+    {
+        $counter = $_SESSION["counter"];
+    }
+    else
+    {
+        $counter = 0;
+    }
+
+    // increment counter
+    $_SESSION["counter"] = $counter + 1;
+
+?>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>counter</title>
+    </head>
+    <body>
+        You have visited this site <?= $counter ?> time(s). 
+    </body>
+</html>
+```
 ## Prep for Class 2
 
 ### MVC Instructions
 There will be multiple files for these follow-alongs and you can download the official source code to get all of the files.  Class 2 Prep will only need the `mvc` directory so you will copy the entire zip file and then delete the other files / folders that are not needed by running the following commands in your terminal:
 
 Download the source code zip file in the `module7/followalongs` directory.
-```
+```nohighlight
 $ cd ~/workspace/module7/followalongs
 $ wget http://cdn.cs50.net/2015/fall/lectures/8/m/src8m.zip
 ```
 Unzip and delete the file
-```
+```nohighlight
 $ unzip src8m.zip 
 $ rm -f src8m.zip 
 ```
 Change into the `src8m` directory and list the contents.  You should have 2 directories ` mvc/`, and `quote/` as well as 1 php file named `counter.php`.  You will delete all of the folders / files except for `mvc/`.
-```
+```nohighlight
 $ cd src8m
 $ ls
 counter.php  mvc/  quote/
 $ rm -f -r quote counter.php
 ```
 Now you can copy `mvc` to the directory `~/workspace/module7/followalongs`, because it is currently located in `~/workspace/module7/followalongs/src8m` directory.  After copying it, go to the parent directory `~/workspace/module7/followalongs` and list the files to show the `src8m` and `mvc` directories. (You should also see the `froshims` directory from Prep for Class 1.)
-```
+```nohighlight
 $ cp -r mvc ~/workspace/module7/followalongs/mvc
 $ cd ..
 $ ls
 froshims/ mvc/ src8m/
 ```
 Delete the `src8m` directory. You should now have only the `mvc` (and `froshims`) directory.
-```
+```nohighlight
 $ rm -f -r src8m
 $ ls
 froshims/ mvc/
@@ -821,7 +1019,7 @@ froshims/ mvc/
 </html>
 ```
 
-###### 4/templates/header.php
+###### 5/templates/header.php
 ```php
 <!DOCTYPE html>
 
@@ -834,7 +1032,7 @@ froshims/ mvc/
 
 ```
 
-###### 4/includes/helpers.php
+###### 5/includes/helpers.php
 ```php
 <?php
 
