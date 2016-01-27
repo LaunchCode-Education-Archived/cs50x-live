@@ -13,7 +13,7 @@ As you get further into the course your programs will become more complex.  You 
 
 #####Exercises
 Exercises are not the only task that may need to have files grouped as you will see below.
-```
+```nohighlight
 |---- /module1
       |---- /exercises
             |---- /haiku
@@ -26,7 +26,7 @@ Exercises are not the only task that may need to have files grouped as you will 
   
 #####Follow Alongs
 For some of the follow alongs, you will notice that the name will end in a hyphen and number (IE: hello-0).  These tasks are similar to one another and should be grouped together in the same folder named after the follow along (excluding the hyphen and number).
-```
+```nohighlight
 |---- /module1
       |---- /followalongs
             |---- /hello
@@ -35,7 +35,7 @@ For some of the follow alongs, you will notice that the name will end in a hyphe
 ```
 #####Misc
 The **`misc`** folder will hold any other programs that you complete during the module that are not an exercise, followalong, Studio or Problem Set.
-```
+```nohighlight
 |---- /module1
       |---- /misc
             |---- /examplefromlecture
@@ -44,7 +44,7 @@ The **`misc`** folder will hold any other programs that you complete during the 
    
 #####Studios
 Some of your Studios will have multiple parts that require creating new programs.  You will create a folder within the studios folder of the corresponding module that is the same as the name of the Studio. Then you will save all of the programs created for that Studio in the same folder.
-```
+```nohighlight
 |---- /module1
       |---- /studios
             |---- /donuts
@@ -62,7 +62,7 @@ Some of your Studios will have multiple parts that require creating new programs
 2. Inside the IDE, open up a new Terminal Window by clicking the little green plus sign at the bottom of the screen.
 3. Inside the terminal, make a new directory called `/module1`, and within that, a directory called `/exercises`:
 
-  ```
+  ```nohighlight
   $ mkdir module1
   $ mkdir module1/exercises
   ```
@@ -70,7 +70,7 @@ Some of your Studios will have multiple parts that require creating new programs
   
 4. While you're at it, make a few other subfolders that you'll need:
 
-  ```
+  ```nohighlight
   $ mkdir module1/followalongs
   $ mkdir module1/studios
   $ mkdir module1/misc
@@ -78,7 +78,7 @@ Some of your Studios will have multiple parts that require creating new programs
   
 5. You will create another folder just like this one for Modules 2, so you can copy it like so:
 
-  ```
+  ```nohighlight
   $ cp -r module1 module2
   ```
   You should now see a new folder called `/module2/` which contains all the same stuff:
@@ -91,7 +91,7 @@ Some of your Studios will have multiple parts that require creating new programs
   
 6. Finally, now that you have created all of the folders for each module, let's also make folders for the Problem Sets.
   
-  ```
+  ```nohighlight
   $ mkdir pset1 pset2 pset3 pset4 pset5 pset6 pset7 pset8
   ```
   

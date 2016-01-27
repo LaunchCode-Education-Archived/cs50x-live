@@ -4,7 +4,7 @@
 We are providing instructions formatted as comments that you can copy over to the IDE.
 
 ### Class 1 Studio: Letter Locator
-```
+```c
 /**
   * Filename: letterlocator.c
   * Save in Folder: ~/workspace/module2/studios/letterlocator
@@ -33,7 +33,7 @@ We are providing instructions formatted as comments that you can copy over to th
 ### Class 2 Studio: Crazy Echoes
 This studio will be made up of 2 separate programs, (`backwardsecho.c` and `mixedupecho.c`) The instructions for both programs are included here. You will start with the first program `backwardsecho.c` and follow the directions for the other program.
 
-```
+```c
  /**
   * Filename: backwardsecho.c
   * Save in Folder: ~/workspace/module2/studios/backwardsecho
@@ -53,7 +53,7 @@ This studio will be made up of 2 separate programs, (`backwardsecho.c` and `mixe
   *
   */
  ```
- ```
+ ```c
  /**
   * PART 2: Mixed-up Echo
   * Filename: mixedupecho.c
@@ -102,7 +102,7 @@ The pseudocode will be formatted as comments so you can copy it over to the CS50
 
 ### Class 1 Task: Floats-0
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.  You can check the bottom of this page <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#writing_code" target="_blank">here</a> to see the `imprecision.c` file for formatting decimal places.
-```
+```c
  /**
   * Filename: floats-0.c
   * Save in Folder: ~/workspace/module2/followalongs/floats
@@ -120,7 +120,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 
 ### Class 1 Task: Floats-1
 This is a continuation of Floats-0, please follow the instructions below.  You will use terminal commands to copy the `floats-0.c` file.  Make sure you are in the `module2/followalongs/floats` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```
+```c
  /**
   * This is a continuation of the last program and you should copy floats-0.c so you do not have to 
   * write the whole program. Use the command below, open up floats-1.c and watch the video
@@ -134,7 +134,7 @@ This is a continuation of Floats-0, please follow the instructions below.  You w
 
 ### Class 1 Task: Floats-2
 This is a continuation of Floats-1, please follow the instructions below.  You will use terminal commands to copy the `floats-1.c` file.  Make sure you are in the `module2/followalongs/floats` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```
+```c
  /**
   * This is a continuation of the last program and you should copy floats-1.c file so you do not have to 
   * write the whole program. Use the command below, open up floats-2.c and watch the video
@@ -166,7 +166,7 @@ This is a continuation of Floats-1, please follow the instructions below.  You w
 
 ### Class 1 Task: ASCII-1
 This is a continuation of ASCII-0, please follow the instructions below.  You will use terminal commands to copy the `ascii-0.c` file.  Make sure you are in the `module2/followalongs/ascii` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```
+```c
  /**
   * This is a continuation of the last program and you should copy ascii-0.c file so you do not have to 
   * write the whole program. Use the command below, open up ascii-1.c and watch the video
@@ -180,7 +180,7 @@ This is a continuation of ASCII-0, please follow the instructions below.  You wi
 
 ### Class 1 Task: Functions-0
 
-```
+```c
  /**
   * Filename: functions-0.c
   * Save in Folder: ~/workspace/module2/followalongs/functions
@@ -199,21 +199,35 @@ This is a continuation of ASCII-0, please follow the instructions below.  You wi
 ```
 
 ### Class 1 Task: Functions-1
-This is a continuation of Functions-0, please follow the instructions below.  You will use terminal commands to copy the `functions-0.c` file.  Make sure you are in the `module2/followalongs/functions` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```
+You can find a refresher on declaring functions from Doug's Playlist <a href="http://www.youtube.com/watch?v=jtuMIHebSu8&t=5m3s" target="_blank">here</a> or or a cheat sheet <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/Supplementary-Resources/c-language.html#functions" target="_blank">here</a>. 
+This is a continuation of Functions-0, please follow the instructions below.  
+```c
  /**
-  * This is a continuation of the last program and you should copy functions-0.c file so you do not have to 
-  * write the whole program. Use the command below, open up functions-1.c and watch the video
-  * to complete the task.  
-  * Make sure you are in this Folder: ~/workspace/module2/followalongs/functions
+  * Filename: functions-1.c
+  * Save in Folder: ~/workspace/module2/followalongs/functions
+  * 
+  * Include the stdio library
+  * Include the cs50 library
+  * 
+  * Declare a function called GetPositiveInt() with a return type of int
+  * 
+  * Add main method
+  *   
+  *   Declare a variable n of type int and assign the function GetPositiveInt() to it.
+  *   Print "Thanks for the %i!\n" and use the variable n for the placeholder %i
   *
-  *      cp functions-0.c functions-1.c
+  * Define GetPositiveInt() with an argument of void
+  * Hint: return-type Name(argument){ }
+  *   Declare a variable n of type int
+  *
+  * You will find instructions to complete this task in the video. 
+  * You will be modifying this code as you go along.
   *
   */
 ```
 
 ### Class 1 Task: String-0
-```
+```c
  /**
   * Filename: string-0.c
   * Save in Folder: ~/workspace/module2/followalongs/string
@@ -232,7 +246,7 @@ This is a continuation of Functions-0, please follow the instructions below.  Yo
 
 ### Class 1 Task: String-1
 This is a continuation of String-0, please follow the instructions below.  You will use terminal commands to copy the `string-0.c` file.  Make sure you are in the `module2/followalongs/string` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```
+```c
  /**
   * This is a continuation of the last program and you should copy string-0.c so you do not have to 
   * write the whole program. Use the command below, open up string-1.c and watch the video
@@ -246,7 +260,7 @@ This is a continuation of String-0, please follow the instructions below.  You w
 
 ### Class 1 Task: String-2
 This is a continuation of String-0, please follow the instructions below.  You will use terminal commands to copy the `string-0.c` file.  Make sure you are in the `module2/followalongs/string` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```
+```c
  /**
   * This is a continuation of the last program and you should copy string-1.c so you do not have to 
   * write the whole program. Use the command below, open up string-2.c and watch the video
@@ -259,7 +273,7 @@ This is a continuation of String-0, please follow the instructions below.  You w
 ```
 
 ### Class 1 Task: Capitalize-0
-```
+```c
  /**
   * Filename: capitalize-0.c
   * Save in Folder: ~/workspace/module2/followalongs/capitalize
@@ -278,7 +292,7 @@ This is a continuation of String-0, please follow the instructions below.  You w
 
 ### Class 1 Task: Capitalize-1
 This is a continuation of Capitalize-0, please follow the instructions below.  You will use terminal commands to copy the `capitalize-0.c` file.  Make sure you are in the `module2/followalongs/capitalize/` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```
+```c
  /**
   * This is a continuation of the last program and you should copy capitalize-0.c so you do not have to 
   * write the whole program. Use the command below, open up capitalize-1.c and watch the video
@@ -292,7 +306,7 @@ This is a continuation of Capitalize-0, please follow the instructions below.  Y
 
 ### Class 1 Task: Capitalize-2
 This is a continuation of Capitalize-0, please follow the instructions below.  You will use terminal commands to copy the `capitalize-0.c` file.  Make sure you are in the `module2/followalongs/capitalize` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```
+```c
  /**
   * This is a continuation of the last program and you should copy capitalize-1.c so you do not have to 
   * write the whole program. Use the command below, open up capitalize-2.c and watch the video
@@ -306,7 +320,7 @@ This is a continuation of Capitalize-0, please follow the instructions below.  Y
 
 ### Class 2 Task: Ages
 <a href="http://cdn.cs50.net/2015/fall/lectures/1/f/notes1f/notes1f.html#loops_continued" target="_blank">Do While Loops</a> refresher. 
-```
+```c
  /**
   * Filename: ages.c
   * Save in Folder: ~/workspace/module2/followalongs/ages
@@ -328,7 +342,7 @@ This is a continuation of Capitalize-0, please follow the instructions below.  Y
 
 ### Class 2 Task: argv-0
 <a href="http://cdn.cs50.net/2015/fall/lectures/2/w/notes2w/notes2w.html#command_line_arguments" target="_blank">Command Line Arguments</a> refresher. 
-```
+```c
  /**
   * Filename: argv-0.c
   * Save in Folder: ~/workspace/module2/followalongs/argv
@@ -346,7 +360,7 @@ This is a continuation of Capitalize-0, please follow the instructions below.  Y
 
 ### Class 2 Task: Argv-1
 This is a continuation of Argv-0, please follow the instructions below.  You will use terminal commands to copy the `argv-0.c` file.  Make sure you are in the `module2/followalongs/argv` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```
+```c
  /**
   * This is a continuation of the last program and you should copy argv-0.c so you do not have to 
   * write the whole program. Use the command below, open up argv-1.c and watch the video
@@ -360,7 +374,7 @@ This is a continuation of Argv-0, please follow the instructions below.  You wil
 
 ### Class 2 Task: Argv-2
 This is a continuation of Argv-1, please follow the instructions below.  You will use terminal commands to copy the `argv-1.c` file.  Make sure you are in the `module2/followalongs/argv` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```
+```c
  /**
   * This is a continuation of the last program and you should copy argv-1.c so you do not have to 
   * write the whole program. Use the command below, open up argv-2.c and watch the video

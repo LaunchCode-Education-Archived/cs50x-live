@@ -4,7 +4,7 @@
 We are providing instructions formatted as comments that you can copy over to the IDE.
 
 ### Class 1 Studio: Word-Grid
-```
+```c
 /**
   * Filename: wordgrid.c
   * Save in Folder: ~/workspace/module3/studios/wordgrid
@@ -56,50 +56,19 @@ int main(void)
 ``` 
 
 This studio is broken into 4 parts, which can be copied to the top of your file so that you can complete each part.   
-* PART 1: You will copy the text **(there are no asterisks `*` preceding the code that will be copied to the file)** and save it in a file called `makefile`, do not use an extension.  
+* PART 1: You will copy the [Makefile](../../calendar/cs50/unit1-fundamentals/module3/materials/studios/multiplication-exponent/Makefile.html) from the Studio and save it in `~/workspace/module3/studios/multiplication_and_exponents`.  
 * PART 2: You will save in a file called `mult.h` (for the function prototype). 
 * PART 3: You will save in a file called `mult.c` (for the function implementation) 
-* PART 4: You will save in a file called `expt.c`.  The starter code is provided in PART 4 **(there are no asterisks `*` preceding the code that will be copied to the file)**.  If you need help please ask! :smile:  
-```
-/**
- * 
- * Save All Files in Folder: ~/workspace/module3/studios/multiplication_and_exponents 
- * 
- * In this studio, you will be writing code that performs multiplication and exponents recursively.
- * Since these two functions are separate from each other, we will use separate files for them.   
- * As a starting point you are provided with some files for the exponentiation function. 
- * expt.c includes starter code for the exponentiation function as well as some tests for 
- * multiplication and exponentiation in a main method.
- * 
- * 
- * PART 1:
- * File: makefile
- * Save in Folder: ~/workspace/module3/studios/multiplication_and_exponents
- * 
- * Copy the two lines below in a file called makefile (Do not add an extension, just name it makefile exactly)
-     
-      all:
-              g++ expt.c mult.c mult.h -o expt
- * 
- * If you try to run it you'll see that there are some issues:
- *      ~/workspace/module3/studios/multiplication_and_exponents $ make
- *      g++ expt.c mult.c mult.h -o expt
- *      g++: error: mult.c: No such file or directory
- *      g++: error: mult.h: No such file or directory
- * 
- * The first line attempts to make the program. The next line shows what the makefile is trying to do: 
- * compile a program that consists of three files, mult.c, mult.h, and expt.c. Unfortunately we are missing 
- * those files: expt.c, mult.c and mult.h. (You will be given the starter code for expt.c in part 4)
- * 
- */
-```
-```
+* PART 4: You will save in a file called `expt.c`.  The starter code is provided in PART 4 **(there are no asterisks `*` preceding the code that will be copied to the file)** or you can copy it from [here](../../calendar/cs50/unit1-fundamentals/module3/materials/studios/multiplication-exponent/expt.html).  If you need help please ask! :smile:  
+
+
+```c
 /**
  * PART 2:
  * File: mult.h
  * Save in Folder: ~/workspace/module3/studios/multiplication_and_exponents
  * 
- * Your first task will be to create those files. Let's start with `mult.h`. 
+ * Your next task should be to create those missing files. Let's start with `mult.h`. 
  * This is the header file for the multiplication function, and should 
  * include the function prototype. A prototype defines what a function uses for its inputs and 
  * outputs, but does not define what the function does. It is used to tell other parts of your 
@@ -114,7 +83,7 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  *
  */
 ```
-```
+```c
 /**
  * PART 3:
  * File: mult.c
@@ -132,14 +101,12 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * multiplication works for positive values, see if you can tweak your code to make it work with negative values as well. 
  * 
  * As always, it is important to test your code. It may be a good idea to write a simple main method in mult.c that 
- * you can use to test your mult function. 
- *
- * Hint: it may be useful to create a second (perhaps non-recursive) function that checks whether the integers are 
- * positive or negative and proceeds accordingly. Be sure to ask for help if you get stuck!
+ * you can use to test your mult function. (If you do add a main function to your mult.c file you can simply use the 
+ * commands make mult and ./mult to compile and run your program, or else you will get a multiple definition of 'main' error.) 
  * 
  */
 ```
-```
+```c
 /**
  * 
  * PART 4:
@@ -185,6 +152,7 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * You are now ready to use your multiplication function to compute exponents. Your solution should be recursive, 
  * so loops are still not allowed. Make sure to use your mult function to perform multiplication! Anywhere that 
  * you would normally use * should be replaced with a function call to mult.
+ *
  * You should now be able to use make to run the provided test cases and check your work. Notice that for expt, 
  * the base (the first number) can be negative, but the exponent (the second number) cannot.
  * 
@@ -197,7 +165,7 @@ The pseudocode will be formatted as comments so you can copy it over to the CS50
 
 ### Class 2 Task: Sigma-0
 
-```
+```c
  /**
   * Filename: sigma-0.c
   * Save in Folder: ~/workspace/module3/followalongs/sigma
@@ -221,7 +189,7 @@ The pseudocode will be formatted as comments so you can copy it over to the CS50
 
 ### Class 2 Task: Sigma-1
 This is a continuation of Sigma-0, please follow the instructions below. You will use terminal commands to copy the `sigma-0.c` file. Make sure you are in the `module3/followalongs/sigma` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.)
-```
+```c
  /**
   * This is a continuation of the last program and you should copy sigma-0.c so you do not have to 
   * write the whole program. Use the command below, open up sigma-1.c and watch the video
