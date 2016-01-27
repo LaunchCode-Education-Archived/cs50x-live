@@ -58,6 +58,10 @@ int main(void)
     }
 }
 
+/** 
+ * Returns true if the player has run out of health or reached the destination, else false
+ * If the game did end, also prints an appropriate message, depending on the outcome
+ */
 bool checkGameOver(player p)
 {
     if (p.health <= 0)
@@ -84,7 +88,9 @@ bool checkGameOver(player p)
     return false;
 }
 
-
+/**
+ * Prints a status report to the console, informing the user of how they are doing 
+ */
 void reportStatus(player p)
 {
     printf("Current Status: \n");
@@ -94,13 +100,16 @@ void reportStatus(player p)
     GetString();
 }
 
-
+/**
+ * Allows user the option to drink a magic potion
+ * If so, randomly decides whether the potion had a "good" effect or "bad", and updates the player model accordingly
+ */
 void discoverPotion(player* p)
 {
     printf("Suddenly you discover a potion on the ground!\n");
     printf("Do you want to drink it? (y/n)\n");
     
-    // drink if user types "y", otherwise don't drink
+    // do drink if user types "y", otherwise don't drink
     bool userDecidesToDrink = strcmp(GetString(), "y") == 0;
     if (userDecidesToDrink)
     {
