@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <cs50.h>
 
+
 // TODO: add the function signature for customstrcmp
+
 
 int main(void){
     printf("\nString 1?: ");
