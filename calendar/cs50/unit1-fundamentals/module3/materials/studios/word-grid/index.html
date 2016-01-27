@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-3">Module 3</h5>
+<p><a href="../../class1">Back to Class 1</a></p>
+<h1 id="studio-word-grid">Studio: Word-Grid</h1>
+<p>Recall that you can represent multi-dimensional data with nested arrays. For example, you can represent a grid of
+things as an array of (arrays of things).</p>
+<p>In fact, an array of strings is one such example; since a string is actually just an array of chars, an
+array of strings is an array of (arrays of chars). </p>
+<p>Let's explore this by writing a program that receives 3 <code>string</code>s, each exactly 3 characters long (you might think of this like a grid or matrix of 9 <code>chars</code>), and prints the grid to the conosle, with each word in its own <strong>column</strong>, like so:</p>
+<pre><code class="language-nohighlight">$ ./wordgrid sun yes ear
+sye
+uea
+nsr</code></pre>
+<p>Notice how each word is written downwards, rather than accross.</p>
+<p>The first thing you'll want to do is perform some validation:</p>
+<ul>
+<li>make sure the user provided exactly 3 additional command-line arguments (in addition to the name of the program itself).</li>
+<li>make sure each of those arguments is exactly 3 characters-long. (Use <code>strlen()</code>)</li>
+</ul>
+<p>After validating, you can go about printing the grid. </p>
+<p>Note that you can access the elements of a nested array using multiple brackets, i.e. <code>[][]</code>. For example, if you have an array called <code>words</code>, which looks like: </p>
+<p><code>[ "sun", "yes", "ear" ]</code> </p>
+<p>, then:</p>
+<ul>
+<li><code>words[0][0]</code> evaluates to <code>"sun"[0]</code> which evaluates to <code>'s'</code></li>
+<li><code>words[2][1]</code> evaluates to <code>"ear"[1]</code> which evaluates to <code>'a'</code></li>
+</ul>
+<p>Quiz: How would you get the first character of the second word, e.g. <code>'y'</code>?</p>
+<p>*You can grab a copy of these instructions from Helpful Resources <a href="../../../../../../..//helpful-resources/modules/module-3.html#class-1-studio-word-grid" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

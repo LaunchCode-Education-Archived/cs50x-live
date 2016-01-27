@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <p><a href="../..">Module 3</a></p>
+<h1 id="problem-set-pset-3">Problem Set: Pset 3</h1>
+<h3 id="synopsis">Synopsis</h3>
+<p>In this problem set, you will put those sorting algorithms to good use, and get a lot of practice with arrays. There are two components to this assignment:</p>
+<ul>
+<li>Find</li>
+<li>Game of Fifteen</li>
+</ul>
+<p>In Find, your job will be to write a program that searches for a particular number inside a very large list. To do this efficiently, you will use Binary Search (aka ripping the phone book in half). But Binary Search only works if your list is sorted! So first you'll need to sort it, using a sorting algorithm (whichever one you like best).</p>
+<p>In Game of Fifteen, you will turn <a href="https://en.wikipedia.org/wiki/15_puzzle" target="_blank">this classic</a> into a program that users can play live in the terminal window. Doing so will require working with a 2-dimensional array, in other words, an array of arrays.</p>
+<h3 id="get-started">Get Started</h3>
+<p>The Pset Spec is <a href="http://cdn.cs50.net/2015/fall/psets/3/pset3/pset3.html" target="_blank">here</a>. Go get em tiger!</p>
+<h3 id="guidance">Guidance</h3>
+<h5 id="find">Find</h5>
+<p>While searching and sorting, you will be getting more experienced with arrays. You're also gaining experience reading and figuring out how someone else's code works! (This is a good example of why something like <code>style50</code> standards are a good thing to use with your own code. You can find more information about using <code>style50</code> <a href="http://cs50.stackexchange.com/questions/4270/what-is-style50-and-how-to-access-it" target="_blank">here</a> and a CS50 guide to stylize your code <a href="https://manual.cs50.net/style/" target="_blank">here</a>.)</p>
+<p>Make sure you <em>break your work into the smallest pieces you possibly can</em>! Do <em>one thing at a time</em>, and <em>make sure it's working before going on to something else</em>.</p>
+<p>CS50 pre-codes a bunch of function prototypes for you in this pset. You are given some blank functions with <code>//TODOs</code> inside. So, start by doing a <code>printf()</code>, or using a breakpoint in the debugger, to see what values are being provided to a function you're currently working on. Once you see the values and understand what you're getting, then you can create your search/sort plan. Similarly:</p>
+<ul>
+<li>When you have a <code>for</code> loop, use a debugging technique (<code>printf()</code> or breakpoint) to inspect the values of your loop variables before you actually write any code trying to make use of them. </li>
+<li>When you have an <code>if</code> statement, use a debugging technique to determine whether the <code>if</code> is being processed (or its companion <code>else</code>, if there is one).
+Once you make sure the tiniest thing works, only then should you write the next little step in your plan.</li>
+</ul>
+<h5 id="game-of-fifteen">Game of Fifteen</h5>
+<p>This assignment is heavy on arrays. You will be using a multi-dimensional array, so instead of just one row of data, you'll have both rows and columns. Some tips:</p>
+<ul>
+<li>Use meaningful names for your loop variables! Which represents a row versus a column, <code>i</code> or <code>j</code>? Use <code>row</code> and <code>col</code> instead (or <code>col</code> and <code>row</code>), and you won’t have to wonder while you're troubleshooting.</li>
+<li>Use the trusty &quot;swap&quot; code you've learned for arrays to move your tiles about.</li>
+</ul>
+<p>Finally, checkout the following Walkthrough videos listed below. They are a few years old, but still pertinent to the Game of Fifteen assignment:</p>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=CvmHt-IDhbs" target="_blank">fifteen</a></li>
+<li><a href="https://www.youtube.com/watch?v=k4P0SojW9oM" target="_blank">fifteen / draw</a></li>
+<li><a href="https://www.youtube.com/watch?v=xPa4Wb5Uyhc" target="_blank">fifteen / init</a></li>
+<li><a href="https://www.youtube.com/watch?v=gxMHcoBMiq4" target="_blank">fifteen / move</a></li>
+<li><a href="https://www.youtube.com/watch?v=6KSq4JUfhIk" target="_blank">fifteen / won</a></li>
+</ol>
+<h3 id="how-to-submit">How to submit</h3>
+<p>FILE NAMES: helpers.c, fifteen.c</p>
+<p>INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly!</p>
+<p>If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.</p>
+<p>For general guidance on problem sets, you may also find it useful to review the <a  href="../../../../../module0/materials/problem-set/README.html" target="_blank">Problem Set Page Overview from Problem Set 0</a>.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

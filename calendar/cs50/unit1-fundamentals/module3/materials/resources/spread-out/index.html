@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-3">Module 3</h5>
+<p><a href="../../class2-prep#compiling-header-files">Back to Prep for Class 2</a></p>
+<h1 id="resource-spread-out">Resource: Spread Out</h1>
+<p>So far we've only been working with small programs in which all the source code lives together in a single file,
+<code>myprogram.c</code>. But as we start writing larger, more complex programs, cramming everything into one file can make
+it hard to stay organized. </p>
+<p>We saw a similar process in Module 2 with functional decomposition. Just as we learned to decompose a
+large and/or repetitive <code>main</code> function into several smaller, reusable functions, we also can (and should) do a similar decomposition procedure at the level of files. </p>
+<p>Here we provide an example of how to do this.</p>
+<p>Let’s say we want to write a program to help a user calculate their taxes, and see where their total taxes are coming from.</p>
+<p>I know! This is boring as heck! On the other hand, the fact that it’s boring is a good argument for making a computer do it, instead of a person!</p>
+<p>Here’s the start of a program to ask the user about their income, and tell them about their total taxes.</p>
+<p>taxprogram.c:</p>
+<pre><code class="language-c">#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+
+float taxIncome(float income)
+{
+    // Calculate the total tax for someone's yearly income
+    float incomeTax = 0.0;
+    // Calculate taxes from the first tax bracket
+    float firstBracket = ...
+    if (income &gt; firstBracket)
+    {
+      float taxable = income - firstBracket;
+      float firstBracketTax = ...;
+      income -= firstBracket;
+      incomeTax += taxPercent(firstBracket, firstBracketTax);
+    }
+
+    // Keep going to calculate taxes on further brackets
+    float secondBracket = ... // Set it to be the amount of money above the first bracket
+    if(income &gt; secondBracket)
+    {
+        ...
+    }
+    ...
+    //
+}
+
+float taxProperty(float propertyWorth)
+{
+    //
+    ...
+    //
+}
+
+float taxInvestments(float investmentWorth)
+{
+    //
+    ...
+    //
+}
+
+float taxPercent(float amount, float percent)
+{
+    // Use this helper function to calculate a total amount of tax based on a percent and the amount to tax at that percent
+    ...
+    //
+}
+
+int main(void)
+{
+    // ask for income
+    // TODO: ask the user for their income using GetFloat
+
+    // ask for property values
+    // TODO: ask the user for their total property values
+
+    // ask for investment values
+    // TODO: ask the user for their income from investments
+
+    // calculate taxes using each of our functions
+    // TODO: call function for calculating taxes on income
+    // TODO: call function for calculating taxes on property
+    // TODO: call function for calculating taxes on investments
+
+    // Display the results to the user:
+    // show them:
+    // - total tax
+    // - taxes from income
+    // - taxes from property
+    // - taxes from investments
+    // TODO: put display code here
+
+    // After, either done, or provide services for user to learn more about their taxes
+    // ... so much work!
+}</code></pre>
+<p>While this is at best a very rough approximation of how the U.S. tax system works, it demonstrates what kind of complexity would underly a tax-helper program.  Each kind of asset a user has might be passed to a different function to calculate taxes, and each of those functions has to handle things like tax brackets, which get even more complicated when we take into account things like state vs. federal tax.</p>
+<p>If we were to finish this program, it might take thousands of lines of code!  If we needed to fix a bug, or track down a change we wanted to make in the program, we’d have to dig through the entire file again, and mentally keep track of all the different things we’ve done in it.</p>
+<p>If we then wanted to extend the program to do something like show the user graphs of their taxes, it would be a nightmare!</p>
+<p>What can we do to make our programming task easier? One thing we could do is break the code into multiple files.  That way, it’ll be easier when we need to make changes to the code, track down a bug, or add new features.</p>
+<p>In this example, we could pull out the functions for calculating tax amounts into new files:</p>
+<p>taxmath.h:</p>
+<pre><code class="language-c">// This file contains prototypes for the math functions in our tax program
+
+float taxIncome(float income);
+float taxProperty(float propertyWorth);
+float taxInvestments(float investmentWorth);
+float taxPercent(float amount, float percent);</code></pre>
+<p>taxmath.c:</p>
+<pre><code class="language-c">#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+#include "taxmath.h"
+
+// This file contains the actual code to implement the math functions for our tax program
+
+float taxIncome(float income)
+{
+    // Calculate the total tax for someone's yearly income
+    float incomeTax = 0.0;
+    // Calculate taxes from the first tax bracket
+    float firstBracket = ...
+    if (income &gt; firstBracket)
+    {
+      float taxable = income - firstBracket;
+      float firstBracketTax = ...;
+      income -= firstBracket;
+      incomeTax += taxPercent(firstBracket, firstBracketTax);
+    }
+
+    // Keep going to calculate taxes on further brackets
+    float secondBracket = ... // Set it to be the amount of money above the first bracket
+    if(income &gt; secondBracket)
+    {
+        ...
+    }
+    ...
+    //
+}
+
+float taxProperty(float propertyWorth)
+{
+    //
+    ...
+    //
+}
+
+float taxInvestments(float investmentWorth)
+{
+    //
+    ...
+    //
+}
+
+float taxPercent(float amount, float percent)
+{
+    // Use this helper function to calculate a total amount of tax based on a percent and the amount to tax at that percent
+    ...
+    //
+}</code></pre>
+<p>Here’s the new taxprogram.c:</p>
+<pre><code class="language-c">#include &lt;cs50.h&gt;
+#include &lt;stdio.h&gt;
+#include "taxmath.h"
+
+int main(void)
+{
+    // ask for income
+    // TODO: ask the user for their income using GetFloat
+
+    // ask for property values
+    // TODO: ask the user for their total property values
+
+    // ask for investment values
+    // TODO: ask the user for their income from investments
+
+    // calculate taxes using each of our functions
+    // TODO: call function for calculating taxes on income
+    // TODO: call function for calculating taxes on property
+    // TODO: call function for calculating taxes on investments
+
+    // Display the results to the user:
+    // show them:
+    // - total tax
+    // - taxes from income
+    // - taxes from property
+    // - taxes from investments
+    // TODO: put display code here
+
+    // After, either done, or provide services for user to learn more about their taxes
+    // ... so much work!
+}</code></pre>
+<p>This way, when we need to add new types of tax to taxmath.h and taxmath.c, we don’t have to think about all the other code we’ve put into taxprogram.c, and when we do something like add new user interface code to taxprogram.c, we don’t have to think about taxmath.h/c.</p>
+<p>It's still a lot of code overall, but should be much more managable to work with.</p>
+<p>Great!  Ugh, taxes.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
