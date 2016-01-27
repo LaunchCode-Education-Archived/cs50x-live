@@ -2,10 +2,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-bool customstrcmp(char* string1, char* string2){
-    // TODO: your code goes here! write a function that iterates through the strings and
-    // checks if they are equal
-}
+// TODO: add the function signature for customstrcmp
 
 int main(void){
     printf("\nString 1?: ");
@@ -21,4 +18,13 @@ int main(void){
         printf("\nThe strings are not equal!\n");
     }
 }
+
+/**
+ * customstrcmp
+ * iterates through two strings, character by character
+ * returns true if they are exactly the same, otherwise returns false
+ */
+// TODO: implement customstrcmp here
+
+
 ```
