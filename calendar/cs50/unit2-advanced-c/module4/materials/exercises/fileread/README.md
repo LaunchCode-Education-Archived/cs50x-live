@@ -7,13 +7,14 @@ Your job here is to write a program that reads in a text file full of menu items
 * a title for the menu. Something awesome like `"MENU:"` 
 * each of the menu items should be numbered.
 
-Example input files are provided in ([exampleMenu.txt](./exampleMenu.txt) and [goodBurger.txt](./goodBurger.txt)); input files should look like this:
+The input files should look like this:
 
 ```nohighlight
 Turkey Club
 Grilled Chicken
 Philly Cheesesteak
 ```
+Some example input files are provided in ([exampleMenu.txt](./exampleMenu.txt) and [goodBurger.txt](./goodBurger.txt)); 
 
 Program usage should look something like this:
 
