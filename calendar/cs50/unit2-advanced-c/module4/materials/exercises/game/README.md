@@ -9,13 +9,10 @@ Try to escape and reach The Altar of Yezzeron without dying!
 But before you arrive, you must boost your Zorph Wisdom to at least level 3,
 ...or else the Dieties of The Altar of Yezzeron will not accept you!
 
-Press the return key to begin your journey
-
 Current Status: 
 You are 3 miles away from The Altar of Yezzeron
 Your health is at 100 percent
 Your Zorph Wisdom is at level 1
-
 
 You continue walking through dark corridors...
 
@@ -31,7 +28,6 @@ You are 2 miles away from The Altar of Yezzeron
 Your health is at 55 percent
 Your Zorph Wisdom is at level 1
 
-
 You continue walking through dark corridors...
 
 You health is slowly waning...
@@ -45,7 +41,6 @@ Current Status:
 You are 1 miles away from The Altar of Yezzeron
 Your health is at 45 percent
 Your Zorph Wisdom is at level 2
-
 
 You continue walking through dark corridors...
 
