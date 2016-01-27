@@ -68,5 +68,5 @@ Together, these 3 aspects comprise everything we need to represent the situation
 
 ### Your Assignment
 
-There is one thing missing in the code: we never actually defined the player `struct`. That's your job! See if you can implement the definition so that the game compiles and runs. We have left a `//TODO` where you can place your code.
+There is one thing missing in the code: we never actually defined the `player` struct. That's your job! See if you can implement the definition so that the game compiles and runs. We have left a `//TODO` where you can place your code.
 
