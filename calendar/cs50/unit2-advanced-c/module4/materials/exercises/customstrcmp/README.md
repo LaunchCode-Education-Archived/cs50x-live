@@ -2,11 +2,11 @@
 [Back to Prep for Class 1](../../class1-prep#pointers)
 # Exercise: Custom strcmp
 
-To practice using pointers, we’ll be implementing our own strcmp function.
+To practice using pointers, we’ll be implementing our own version of the `strcmp` function.
 
-Write a function that takes in two `string` variables, and returns `true` if, and only if, the two `strings` are the same.
+Write a function that takes in two `string` variables, and returns `true` if, and only if, the two `strings` are exactly the same, character by character.
 
-In your function, make sure you’ve handled the case where the strings don’t have the same length.
+In your function, make sure you’ve handled the case where the strings don’t have the same length. If they don't, then you immediately know they are not the same without having to check (in fact, if you do try to check, your code will eventually try to access beyond the bounds of the shorter string, which would be bad!)
 
 We've provided [a tiny bit of code](customstrcmp.html) to take in two strings and compare them with a function. For this exercise, fill in the body of the `customstrcmp` function.
 
