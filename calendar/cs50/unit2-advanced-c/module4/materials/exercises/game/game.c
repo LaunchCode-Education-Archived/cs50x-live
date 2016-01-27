@@ -22,20 +22,25 @@ void discoverPotion(player* p);
 
 int main(void) 
 {
-    srand(time(NULL));
-    
+    // intro text
     printf("* * * DUNGEON QUEST * * *\n\n");
     printf("You find yourself in a dungeon ruled by dark magic\n");
     printf("Try to escape and reach %s without dying!\n", DESTINATION);
     printf("But before you arrive, you must boost your %s to at least level %i,\n", SKILL, SKILL_GOAL);
     printf("...or else the Dieties of %s will not accept you!\n\n", DESTINATION);
     
-    player p = { 3, 100, 1 };
+    // provide a seed to the random number generator (don't worry about understanding this)
+    srand(time(NULL));
+    
+    // initialize the player
+    player p = { 100, 3, 1 };
 
+    // continue looping forever until Game Over
     while (true)
     {
         if (checkGameOver(p))
         {
+            // stop if we hit Game Over
             return 0;
         }
         
@@ -75,6 +80,7 @@ bool checkGameOver(player p)
         }
         return true;
     }
+    
     return false;
 }
 
