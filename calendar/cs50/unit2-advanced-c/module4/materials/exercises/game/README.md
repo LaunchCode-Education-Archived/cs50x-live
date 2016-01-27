@@ -1,5 +1,9 @@
 # Exercise: Game
 
+In [game.c](./game.c), we have written a program that allows the user to play a "role playing" game in the terminal.
+
+The game behaves like this (it's a little long):
+
 ```nohighlight
 $ ./game
 * * * DUNGEON QUEST * * *
@@ -53,3 +57,16 @@ You feel your powers growing!
 
 You reach The Altar of Yezzeron! The Dieties welcome you to their ethereal realm, and you join them in immortality!
 ```
+
+This is a great example of a situation in which `struct`s are useful. Throughout the code, we make constant use of a `player` struct, which is a model of the player trekking through the dungeon. The structure keeps track of 3 things:
+
+1. current level of health (between 0 and 100)
+2. current distance from the destination (aka The Altar of Yezzenon)
+3. current skill level (aka Zorph Wisdom)
+
+Together, these 3 aspects comprise everything we need to represent the situation of the player. And any context in which we care about one of these values is likely to be a context in which we care about the other 2 as well. So it makes sense to package them all together into a single datatype. Without using a `struct` here, we would have to have 3 loose variables floating around, and our functions would have to accept 3 arguments as inputs instead of just 1.
+
+### Your Assignment
+
+There is one thing missing in the code: we never actually defined the player `struct`. That's your job! See if you can implement the definition so that the game compiles and runs. We have left a `//TODO` where you can place your code.
+
