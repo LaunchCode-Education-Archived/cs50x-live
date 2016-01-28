@@ -16,7 +16,7 @@ Task | Resource Type | Link | Instructions
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=malloc" target="_blank">Malloc</a> | Maybe module 4?
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#more_on_pointers" target="_blank">Week 5 / More On Pointers</a> | need to malloc or youll get a seg fault
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#cs50_library" target="_blank">Week 5 / CS50 Library</a> | under the hood GetString and GetInt.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=l1sfaAyt6ac&list=PLhQjrBD2T381hO-XiBPrps4fzt4rVY3E8&index=1" target="_blank">scanf-0</a> | calling a "destructive" function, pass by reference. <br>You can find the pseudocode to start this task <a href="../../../../../../helpful-resources/source-code/m5-source-code.html#scanf-0" target="_blank">here.</a>
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=l1sfaAyt6ac&list=PLhQjrBD2T381hO-XiBPrps4fzt4rVY3E8&index=1" target="_blank">scanf-0</a> | calling a "destructive" function, pass by reference. <br>You've already seen this program, but see if you can recreate it using the pseudocode <a href="../../../../../../helpful-resources/source-code/m5-source-code.html#scanf-0" target="_blank">here.</a>
 Do | Exercise | | TODO exc: require them to implement a pass-by-ref function.
 
 ##### A few pitfalls with memory
