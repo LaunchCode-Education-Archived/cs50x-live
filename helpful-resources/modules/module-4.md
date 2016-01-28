@@ -5,7 +5,7 @@ We are providing instructions formatted as comments that you can copy over to th
 
 ###Class X Studio: Word Grid Stretch
 You will only submit 1 file, `wordgridstretch.c`, but there are formatted instructions to create `stretchvertical.c` and `stretchhorizontal.c` to help you to complete the Studio.
-```nohighlight
+```c
  /**
   * Filename: wordgridstretch.c
   * Save in Folder: ~/workspace/module4/studios/wordgridstretch
@@ -55,7 +55,7 @@ Break it Down
 To get started, we suggest you try two simpler versions first, `stretchvertical.c` and `stretchhorizontal.c`.
 
 A program that just stretches the grid vertically:
-```
+```c
  /**
   * A program that just stretches the grid vertically:
   * 
@@ -80,7 +80,7 @@ A program that just stretches the grid vertically:
   */
  ```
 A program that just stretches the grid horizontally:
-```
+```c
  /**
   * $ ./stretchhorizontal goat crab bear
   * Your word grid currently looks like this:
@@ -100,7 +100,7 @@ A program that just stretches the grid horizontally:
 
 ###Class X Studio: ASCII Art
 
-```nohighlight
+```c
  /**
   * Filename: xxx.c
   * Save in Folder: ~/workspace/module4/studios/xxx
@@ -324,15 +324,43 @@ You can find a structs refresher <a href="http://cdn.cs50.net/2015/fall/lectures
 ```
 
 ### Class 2 Task: Structs-1
-This is a continuation of Structs-0, please follow the instructions below.  You will use terminal commands to copy the `structs-0.c` file.  Make sure you are in the `module4/followalongs/structs` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
+You can find a structs refresher <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#structs" target="_blank">here.</a>
 ```c
  /**
-  * This is a continuation of the last program and you should copy structs-0.c so you do not have to 
-  * write the whole program. Use the command below, open up structs-1.c and watch the video
-  * to complete the task. 
-  * Make sure you are in this Folder: ~/workspace/module4/followalongs/structs
+  * Filename: structs-1.c
+  * Save in Folder: ~/workspace/module4/followalongs/structs
   * 
-  *      cp structs-0.c structs-1.c
+  * Include the stdio library
+  * Include the cs50 library
+  * Include the string library
+  * Include the stdlib library
+  *
+  * Include the "structs.h" library 
+  * Remember: To include a header file from the current directory the library name must be enclosed in double quotes.
+  *
+  * Define a constant named STUDENTS with a value of 3
+  * Hint: #define <NAME> value
+  *
+  * Add main method
+  *   Declare an array called students of type student and specify the size as 3 using the constant STUDENTS. 
+  *   (Remember: STUDENTS value is 3)
+  *   Hint: <type> <arrayname>[<SIZE>];
+  *
+  *   For ( i = 0; i < STUDENTS; i++ )
+  *       Print "Student's name: "
+  *       students[i] name = GetString()
+  *
+  *       Print "Student's house: "
+  *       students[i] house = GetString()
+  *       
+  *   
+  *
+  *   For ( i = 0; i < STUDENTS; i++ )
+  *       Free students[i] name
+  *       Free students[i] house
+  * 
+  * You will find instructions to complete this task in the video. 
+  * You will be modifying this code as you go along.
   *
   */
 ```
