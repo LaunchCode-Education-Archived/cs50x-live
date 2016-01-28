@@ -4,18 +4,20 @@
 
 Before coming to [Class 2](../class2), please complete the following tasks:
 
-##### Reinforcement on Pointers, malloc
+#### Reinforcement on Pointers, malloc
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=pointers,malloc" target="_blank">pointers, malloc</a> | If you still feel fuzzy on this stuff, that's par for the course. It's going to take time for everything to sink in. Keep your head up!
 
-##### Lecture:
+***
+
+#### Lecture
 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
  Watch  | Lecture | <a href="http://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=0" target="_blank">Week 4, continued</a> |  We already watched the second half, so you can stop after 25 minutes (but you may find a re-watch to be beneficial in this case).
-
-##### Files, Hex
+***
+#### Files, Hex
 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
@@ -26,8 +28,8 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=QOD2hHiHpn0&i
 Watch | Short | <a href="https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">File I/O</a> | examples of reading from and writing to files. `fpoen` `fclose` `fgets` `fputs`
 Do | Exercise | [Good Burger](../exercises/filewrite) | Implement a storefront for the restaurant "Good Burger" by asking the user for their order, then writing it to a file.
 Do | Exercise | [Restaurant Menu](../exercises/fileread) | Implement a menu display for a restaurant by reading their menu from a file.
-
-##### Structs
+***
+#### Structs
 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
@@ -39,12 +41,12 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=yMvRqKmbRm
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=hZ2Fy-J8DwQ&index=13&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">stucts-1</a> | Keep following David as he creates a program to write student structs to a csv file. You've seen this program before and can find instructions to start the program <a href="../../../../../../helpful-resources/modules/module-4.html#class-2-task-structs-1" target="_blank">here</a>.
 Do | Exercise | [Game](../exercises/game) | Help us create a game called "Dungeon Quest" by defining a `struct` to represent the player playing the game.
 TODO explain motivation for structs
-
+***
 **Review**
 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=io,pointers,malloc" target="_blank">file i/o, pointers, malloc</a> |
 Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=hgJqcVcYCXU" target="_blank">Week 4</a> |
-
-### Now you're ready for [Class 2](../class2)
+***
+#### Now you're ready for [Class 2](../class2)
