@@ -104,7 +104,8 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ###Class 1 Task: Froshims-1
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. There are two files for this follow along, `froshims-1.php` and `register-1.php`.  This follow along is very similar to `froshims-0`, but David introduces an external stylesheet that you will place in a new directory as well as some new `HTML` tags.
 * <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/froshims/bootstrap/css/bootstrap.min.css" target="_blank">Bootstrap.min.css</a>
-  * Place this file here: `froshims/bootstrap/css`
+  * Place this file here: `~/workspace/module7/followalongs/froshims/bootstrap/css`
+  * You can use the command `wget http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/froshims/bootstrap/css/bootstrap.min.css`
 
 #### froshims/froshims-1.php
 ```nohighlight
