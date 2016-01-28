@@ -56,5 +56,6 @@ Do | Exercise | [Double Copy](../exercises/double-copy) | This is a slight twist
 Watch | Short | <a href="https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Strings</a>
 Do | Exercise | [Swap Cycle](../exercises/swap-cycle) | This exercise asks you to implement a lightly different version of our friend, the `swap` function.
 
+***
 
 ### Now you're ready for [Class 1](../class1)
