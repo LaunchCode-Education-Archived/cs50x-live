@@ -58,4 +58,4 @@ Do | Exercise | [Swap Cycle](../exercises/swap-cycle) | This exercise asks you t
 
 ***
 
-### Now you're ready for [Class 1](../class1)
+#### Now you're ready for [Class 1](../class1)
