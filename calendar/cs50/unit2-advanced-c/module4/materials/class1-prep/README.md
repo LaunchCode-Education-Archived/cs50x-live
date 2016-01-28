@@ -54,7 +54,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=zwKBMSLYrk
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ebQSYaneMms&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=4" target="_blank">copy-1</a> | Keep following David to solve the problem from the previous video. <br>Find instructions to start the follow-along <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-copy-1" target="_blank">here</a>. 
 Do | Exercise | [Double Copy](../exercises/double-copy) | This is a slight twist on the `copy-1` program you just wrote.
 Watch | Short | <a href="https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Strings</a>
-Do | Exercise | [Swap Cycle](../exercises/swap-cycle) | This exercise asks you to implement a lightly different version of our friend, the `swap` function.
+Do | Exercise | [Swap Cycle](../exercises/swap-cycle) | This exercise asks you to implement a slightly different version of our friend, the `swap` function.
 
 ***
 
