@@ -23,7 +23,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers" target="_blank">Week 4 / Pointers</a> | Under the hood, a `string` is just a `pointer` to a `char`. This means that the "value" inside a `string` variable is not actually the contents of the text. Instead it is a number pointing to the memory address where the text is truly located-- more specifically, where the first `char` is located.  
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ETSddwPGjNM&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=5" target="_blank">noswap</a> | Follow David to create a program that _tries_ to "swap" the values of two variables. <br>You've already seen this program earlier, but try to challenge yourself and start the program using the pseudocode <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-noswap" target="_blank">here</a>.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=Q9d8F9dXxbA&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=1" target="_blank">compare-0</a> | This time follow David while he _tries_ to compare two strings.  <br>You can grab the pseudocode <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-compare-0" target="_blank">here</a>.  
-Read | Resource | [Value vs Address](../supplementary-resources/value-vs-address) | A quick review of why `swap` and `compare` aren't working, and how it relates to addresses.
+Read | Resource | [Value vs Address](../resources/value-vs-address) | A quick review of why `swap` and `compare` aren't working, and how it relates to addresses.
 
 *** 
 
