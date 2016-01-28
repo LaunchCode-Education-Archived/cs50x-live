@@ -17,7 +17,7 @@ Task | Resource Type | Link | Instructions
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#javascript" target="_blank">Week 9 / Javascript</a> | These notes introduce Javascript, and talk about the ways in which it is similar to and different from C and PHP.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#syntax" target="_blank">Week 9 / Javascript Syntax</a> | Here we dive into the details of Javascript's syntax.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#json" target="_blank">Week 9 / JSON</a> | JSON, which stands for Javascript Object Notation, is a format for passing data around. JSON structures data as a big Javscript object of key-value pairs.
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JYIKYnbdu4E&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=2" target="_blank">JavaScript</a> | Doug talks about Javascript, including the following topics: objects, iteration, the fact that weakly typed languages can make things trickier sometimes, anonnymous functions, the `array.map()` function, event handlers.
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JYIKYnbdu4E&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=2" target="_blank">JavaScript</a> | Doug talks about Javascript, including the following topics: objects, iteration, the fact that weakly typed languages can make things trickier sometimes, anonymous functions, the `array.map()` function, event handlers.
 Do | Exercise | | TODO exc: get them comfortable with objects. 
 
 ***
