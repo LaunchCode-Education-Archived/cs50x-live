@@ -4,8 +4,8 @@
 
 Before coming to [Class 1](../class1), please complete the following tasks:
 
-##### More practice with Recursion
 
+#### More practice with Recursion
 Task | Resource Type | Link  | Instructions
 --------------|------|------|-------------
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=beqqGIdabrE&index=7&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Call Stack</a> | Watch these videos on the Call Stack, a fundamental concept in computer science that's especially helpful in understanding recursion.
@@ -14,8 +14,7 @@ Rewatch | Lecture | <a href="https://www.youtube.com/watch?v=9WsyLL6KVBY" target
 
 *** 
 
-##### Leading up to Pointers:
-
+#### Leading up to Pointers
 Task | Resource Type | Link  | Instructions
 --------------|------|------|-------------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=9WsyLL6KVBY&t=25m0s" target="_blank">Week 4 (25 minutes in)</a> | only watch the second half
@@ -28,8 +27,7 @@ Read | Resource | [Value vs Address](../supplementary-resources/value-vs-address
 
 *** 
 
-##### Pointers
-
+#### Pointers
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=1545" target="_blank">Week 4 / Continued</a> | Just watch the second half. We'll do the first half in Class 2 Prep.
@@ -45,7 +43,7 @@ Watch | Section | <a href="https://youtu.be/SppBaGROtX0?t=370" target="_blank">J
 
 *** 
 
-##### malloc
+#### malloc
 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
