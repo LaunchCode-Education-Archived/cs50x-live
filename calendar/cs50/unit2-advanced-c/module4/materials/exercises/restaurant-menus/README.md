@@ -14,7 +14,7 @@ Turkey Club
 Grilled Chicken
 Philly Cheesesteak
 ```
-Some example input files are provided in ([exampleMenu.txt](./exampleMenu.txt) and [goodBurger.txt](./goodBurger.txt)); 
+Some example input files are provided in ([exampleMenu.txt](./exampleMenu.html) and [goodBurger.txt](./goodBurger.html)); 
 
 Program usage should look something like this:
 
