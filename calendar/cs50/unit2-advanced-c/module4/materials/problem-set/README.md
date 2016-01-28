@@ -23,7 +23,7 @@ Your "man" page shows this:
     size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);
     size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream);
 ````
-Notice the `size_t`. It appears in four places in each function: before the function name, in the 2nd parameter position, and in the 3rd parameter position.
+Notice the `size_t`. It appears in two places in each function: before the function name, in the 2nd parameter position, and in the 3rd parameter position.
 
 This implies that you can switch those middle two parameters freely. True, but know what's happening there!
 
