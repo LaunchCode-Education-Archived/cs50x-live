@@ -4,7 +4,7 @@
 We are providing instructions formatted as comments that you can copy over to the IDE.
 
 ### Class 1 Studio: Donuts
-```c
+```nohighlight
 /**
   * Filename: donuts.c
   * Save in Folder: ~/workspace/module1/studios/donuts
@@ -37,7 +37,7 @@ We are providing instructions formatted as comments that you can copy over to th
 ### Class 2 Studio: Guess
 This studio will be made up of three separate programs, (`guess.c`, `guess5.c`, and `guessfive.c`) The instructions for all 3 programs are included here. You will start with the first program `guess.c` and follow the directions for the other 2 programs.
 
-```c
+```nohighlight
  /**
   * Filename: guess.c
   * Save in Folder: ~/workspace/module1/studios/guess
@@ -64,7 +64,7 @@ This studio will be made up of three separate programs, (`guess.c`, `guess5.c`, 
   * 
   */
 ```
-```c
+```nohighlight
  /**
   * Part 2
   * Filename: guess5.c
@@ -92,7 +92,7 @@ This studio will be made up of three separate programs, (`guess.c`, `guess5.c`, 
   * 
   */
  ```
- ```c
+ ```nohighlight
  /**
   * PART 3 
   * Filename: guessfive.c
@@ -107,7 +107,7 @@ This studio will be made up of three separate programs, (`guess.c`, `guess5.c`, 
 
 ### Class 2 Studio: Lovely Rectangle
 
-```c
+```nohighlight
   /**
    * Filename: rectangle.c
    * Save in Folder: ~/workspace/module1/studios/rectangle
@@ -128,7 +128,7 @@ This studio will be made up of three separate programs, (`guess.c`, `guess5.c`, 
 ```
 ### Class 3 Studio: Repeat
 
-```c
+```nohighlight
   /**
    * Filename: repeat.c
    * Save in Folder: ~/workspace/module1/studios/repeat
@@ -165,7 +165,7 @@ This studio will be made up of three separate programs, (`guess.c`, `guess5.c`, 
 
 ### Class 3 Studio: Dollars and Cents
 
-```c
+```nohighlight
   /**
    * Filename: dollarsandcents.c
    * Save in Folder: ~/workspace/module1/studios/dollarsandcents
@@ -207,7 +207,7 @@ The pseudocode will be formatted as comments so you can copy it over to the CS50
 This is your first follow-along and we are providing pseudocode for the follow along tasks so you can start writing the program before watching the video.  Please refer to the <a href="../CS50-IDE/file-management-resource.html" target="_blank">File Management Resource</a> if you need a refresher.  
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. If you’re not sure how to write the program, check <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c" target="_blank">here</a> for a reminder. 
 
-```c
+```nohighlight
  /**
   * Filename: hello-0.c
   * Save in Folder: ~/workspace/module1/followalongs/hello
@@ -223,7 +223,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
 ### Class 1 Task: Hello-1
 If you’re not sure what to do check <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c" target="_blank">here</a> for a reminder. 
-```c
+```nohighlight
  /**
   * Filename: hello-1.c
   * Save in Folder: ~/workspace/module1/followalongs/hello
@@ -242,7 +242,7 @@ If you’re not sure what to do check <a href="http://cdn.cs50.net/2015/fall/lec
 ### Class 1 Task: Hello-2
 If you’re not sure what to do check <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#c" target="_blank">here</a> for a reminder. 
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: hello-2.c
   * Save in Folder: ~/workspace/module1/followalongs/hello
@@ -262,7 +262,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ### Class 1 Task: Adder
 If you forgot how to declare a variable check <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#writing_code" target="_blank">here</a>. 
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: adder.c
   * Save in Folder: ~/workspace/module1/followalongs/adder
@@ -284,7 +284,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ### Class 1 Task: F2C
 If you forgot how to assign a variable look <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#writing_code" target="_blank">here</a> or to get user input of type float check <a href="https://reference.cs50.net/cs50.h/GetFloat" target="_blank">here</a>. 
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.  
-```c
+```nohighlight
  /**
   * Filename: f2c.c
   * Save in Folder: ~/workspace/module1/followalongs/f2c
@@ -306,7 +306,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ### Class 2 Task: Conditions-0
 If you forgot how to assign a variable look <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#writing_code" target="_blank">here</a> or to get user input of type int check <a href="https://reference.cs50.net/cs50.h/GetInt" target="_blank">here</a>. 
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: conditions-0.c
   * Save in Folder: ~/workspace/module1/followalongs/conditions
@@ -326,7 +326,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 
 ### Class 2 Task: Conditions-1
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: conditions-1.c
   * Save in Folder: ~/workspace/module1/followalongs/conditions
@@ -346,7 +346,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 
 ### Class 2 Task: Positive
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: positive.c
   * Save in Folder: ~/workspace/module1/followalongs/positive
@@ -365,7 +365,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 
 ### Class 2 Task: Debugging with Dan Armendiz
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: count.c
   * Save in Folder: ~/workspace/module1/followalongs/count
