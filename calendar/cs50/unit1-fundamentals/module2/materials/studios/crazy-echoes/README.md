@@ -40,7 +40,7 @@ $ ./mixedupecho HELLO! morestuff lalala
 .H/EmLiLxOe!dHuEpLeLcOh!oH
 ```
 
-One thing to be aware of: Notice how `"HELLO!"` is shorter than `"./mixedupecho"`, and so the program "wraps around" and starts over again at `'H'`whenever it reaches the end of the string. 
+Also, notice how `"HELLO!"` is shorter than `"./mixedupecho"`, and so the program "wraps around" and starts over again at `'H'`whenever it reaches the end of the string. 
 
 How can you implement that? The modulo `%` operator is your friend here. 
 
