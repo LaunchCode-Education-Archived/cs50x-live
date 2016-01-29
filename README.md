@@ -11,9 +11,9 @@ LaunchCode’s CS50x is an in-person version of CS50x with a number of cool perk
 
 * **Mentored Support:** Receive help from LaunchCode mentors.
 
-* **Curated Content:** CS50 contains massive body of course materials. Based off our previous experience offering this class, we have compiled and ordered all the course resources into a managable, step-by-step guide to help you learn and digest the concepts and skills you need to know in order to succeed in the course.
+* **Curated Content:** CS50 contains massive body of course materials. Based off our previous experience offering this course, we have compiled and ordered all the course resources into a managable, step-by-step guide to help you learn and digest the concepts and skills you need to know in order to succeed in the class.
 
-* **Additional Exercises:** We’ve also developed our own additional exercises and activities that help reinforce concepts as you go. But instead of adding extra work, these additional exercises should help you move more quickly through the Problem Sets.
+* **Additional Exercises:** We’ve also developed our own additional exercises and activities that help reinforce concepts as you go. But instead of adding extra work, these exercises should help you move more quickly through the Problem Sets.
   
 * **Supplemental Skill Tracks:** After completing the CS50 material, we will spend an another month learning even more! You will have the opportunity to choose, based on your interest and goals, a Skill Track, in which we will delve more deeply into a particular topic. This will put you on the path toward creating an awesome final project.
 
