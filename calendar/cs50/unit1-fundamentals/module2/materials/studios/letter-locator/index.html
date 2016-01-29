@@ -91,6 +91,22 @@ Y is at position 24</code></pre>
 <li><a href="https://reference.cs50.net/cs50.h/GetChar" target="_blank">GetChar</a></li>
 <li><a href="https://reference.cs50.net/ctype.h/isalpha" target="_blank">isAlpha</a></li>
 </ul>
+<h3 id="part-2-optional">Part 2 (Optional)</h3>
+<p>Refactor your code so that most of the work is done by a separate function, called <code>alphaPos</code>, which recieves a <code>char</code> as input and returns an <code>int</code> representing the alphabet position of that character.</p>
+<p>Your main funcntion should now look like this:</p>
+<pre><code class="language-c">
+int main(void)
+{
+    // prompt the user for a character, and validate to make sure it is alphabetical
+    // ...
+    // ...
+
+    // assuming you have a char called c...
+    int answer = alphaPos(c);
+    printf("%c is at position %i", c, answer);
+}</code></pre>
+<p>There is a handsome reward for doing this: In Problem Set 2, you will find your <code>alphaPos</code> function to be very useful!</p>
+<hr />
 <p>*You can grab a copy of these instructions from the Helpful Resources <a href="../../../../../../../helpful-resources/modules/module-2.html#class-1-studio-letter-locator" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.</p>
                 </section>
 
