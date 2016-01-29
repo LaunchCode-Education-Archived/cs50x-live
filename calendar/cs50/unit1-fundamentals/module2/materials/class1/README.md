@@ -25,4 +25,4 @@ Today's class will include a discussion about the various types that C has to of
 
 ### Homework
 1. [Class 2 Prep](../class2-prep) 
-2. Get started on on [Problem Set 2 / Caesar](../problem-set/). You should find the work you did today in studio to be very helpful ;)
+2. Get started on [Problem Set 2 / Initials](../problem-set/). You should find the work you did today in studio to be very helpful ;)
