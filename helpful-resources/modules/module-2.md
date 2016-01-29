@@ -98,7 +98,7 @@ This studio will be made up of 2 separate programs, (`backwardsecho.c` and `mixe
 
 ## Follow Alongs
 We are providing pseudocode for the follow along tasks so you can start writing the program before watching the video.  You will find instructions to complete the task in the video.
-The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused :confused:  about what to do, you can always refer to the video for help.
+The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused about what to do, you can always refer to the video for help.
 
 ### Class 1 Task: Floats-0
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.  You can check the bottom of this page <a href="http://cdn.cs50.net/2015/fall/lectures/1/w/notes1w/notes1w.html#writing_code" target="_blank">here</a> to see the `imprecision.c` file for formatting decimal places.
