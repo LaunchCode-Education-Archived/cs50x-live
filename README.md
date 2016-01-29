@@ -1,7 +1,7 @@
 #This is LaunchCode's CS50x St Louis!
 Hello, and welcome to LaunchCode's CS50x course! This course teaches the foundations of computer science and programming using world-class curriculum and mentored support. There's a lot to learn, but before you get started, you probably have a few questions.
 
-###What is CS50x?
+## What is CS50x?
 CS50 is Harvard’s Introduction to Programming course for non-CS majors. 
 
 CS50x (notice the 'x') is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. 
@@ -18,7 +18,7 @@ LaunchCode’s CS50x is an in-person version of CS50x with a number of cool perk
   
 * **Supplemental Skill Tracks:** After completing the CS50 material, we will spend an another month learning even more! You will have the opportunity to choose, based on your interest and goals, a Skill Track, in which we will delve more deeply into a particular topic. This will put you on the path toward creating an awesome final project.
 
-###What will I learn in this class?
+## What will I learn in this class?
 *	Key foundational concepts in computer science 
 *	How to think algorithmically and solve programming problems efficiently
 *	Multiple programming languages, including C, PHP, and JavaScript plus SQL, HTML, and CSS. Assignments are inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. 
@@ -27,7 +27,8 @@ LaunchCode’s CS50x is an in-person version of CS50x with a number of cool perk
 
 Our goal at LaunchCode is to put you on a path towards starting a career in technology, or to simply get you to where you want to go. We look forward to working with you as you start that journey with CS50x. 
 
-###What's Next?
+
+## What's Next?
 First you'll want to read about how to take this class. Please read over the Student Guide in detail as it will provide you with important information about this class, course expectations, and the course tools. You should have received that in an email, but for convenience here it is again: <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing" target="_blank">Student Guide</a>
 
 Next, you can follow the link here to review some details on how to understand the course, and some advice that we hope will help along the way: [How to Take This Class](./how-to-take-this-class) 
