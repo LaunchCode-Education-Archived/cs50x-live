@@ -60,7 +60,7 @@ You feel your powers growing!
 You reach The Altar of Yezzeron! The Dieties welcome you to their ethereal realm, and you join them in immortality!
 ```
 
-This is a great example of a situation in which `struct`s are useful. Throughout the code, we make constant use of a `player` struct, which is a data model representing the character trekking through the dungeon. The structure keeps track of 3 things:
+If you take a look at the source code, this is a great example of a situation in which `struct`s are useful. Throughout the code, we make constant use of a `player` struct, which is a data model representing the character trekking through the dungeon. The structure keeps track of 3 things:
 
 1. current level of health (between 0 and 100)
 2. current distance from the destination (aka The Altar of Yezzenon)
