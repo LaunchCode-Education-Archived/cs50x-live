@@ -24,7 +24,7 @@ We are providing instructions formatted as comments that you can copy over to th
 
 ## Follow Alongs
 We are providing pseudocode for the follow along tasks so you can start writing the program before watching the video.  You will find instructions to complete the task in the video.
-The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused :confused:  about what to do, you can always refer to the video for help.
+The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused about what to do, you can always refer to the video for help.
 
 ###Class 1 Task: Froshims-0
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#using_php_for_web_programming" target="_blank">here</a> for the lecture notes for this follow along. There are two files for this follow along, `froshims-0.php` and `register-0.php`.
@@ -81,7 +81,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ?>
 ```
 #### froshims/register-0.php
-```
+```nohighlight
 <?php
 /*
    Filename: register-0.php
