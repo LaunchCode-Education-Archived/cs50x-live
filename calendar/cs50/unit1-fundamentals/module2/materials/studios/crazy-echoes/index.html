@@ -74,7 +74,8 @@
 <h1 id="studio-craaazy-echoes">Studio: Craaazy Echoes</h1>
 <h3 id="part-1-backwards-echo">Part 1: Backwards Echo</h3>
 <p>In a file called <code>backwardsecho.c</code> write a program that accepts some command-line arguments, and then simply &quot;echoes&quot; those arguments back to the
-console, similar to the Module 2 Prep for Class 2 walkthrough <a href="https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-1</a></p>
+console. </p>
+<p>This is similar to the <a href="https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-1</a> walkthrough from <a href="../../class2-prep" target="_blank">class 2 prep</a>, but with one twist.</p>
 <p>The twist: each string should print out backwards. </p>
 <p>For example:</p>
 <pre><code class="language-nohighlight">$ ./backwardsecho hello 64
@@ -90,8 +91,8 @@ in reverse order.</p>
 <p>For this program, you can ignore any command-line arguments beyond the first two (including the program name itself):</p>
 <pre><code class="language-nohighlight">$ ./mixedupecho HELLO! morestuff lalala
 .H/EmLiLxOe!dHuEpLeLcOh!oH</code></pre>
-<p>Notice how <code>"HELLO!"</code> is shorter than <code>"./mixedupecho"</code>, and so the program &quot;wraps around&quot; and starts over again at <code>'H'</code>whenever it reaches the end of the string. </p>
-<p>How can you implement that? The modulo <code>%</code> operator is your friend here. </p>
+<p>Also, notice how <code>"HELLO!"</code> is shorter than <code>"./mixedupecho"</code>, and so the program &quot;wraps around&quot; and starts over again at <code>'H'</code>whenever it reaches the end of the string. </p>
+<p>How can you implement that wraparound feature? The modulo <code>%</code> operator is your friend here. </p>
 <p>Spcifically, note that <code>"HELLO!"[5]</code> yields <code>'!'</code>, and <code>"HELLO!"[6]</code> is beyond the bounds of the array. </p>
 <p>But <code>"HELLO!"[6 % 6]</code> evaluates to <code>"HELLO!"[0]</code>, which yields <code>'H'</code>.</p>
 <p>And <code>"HELLO!"[7 % 6]</code> evaluates to <code>"HELLO!"[1]</code> ...</p>
@@ -103,6 +104,7 @@ In other words, the user will never provide a string longer than <code>"./mixedu
 <pre><code class="language-nohighlight">$ ./mixedupecho GREENEGGSANDSPAM</code></pre>
 <p>in which case, the <em>first</em> argument will have to wrap around, and so your output should be:</p>
 <pre><code class="language-nohighlight">.G/RmEiExNeEdGuGpSeAcNhDoS.P/AmM</code></pre>
+<hr />
 <p>*You can grab a copy of these instructions from the Helpful Resources <a href="../../../../../../../helpful-resources/modules/module-2.html#class-2-studio-crazy-echoes" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.</p>
                 </section>
 
