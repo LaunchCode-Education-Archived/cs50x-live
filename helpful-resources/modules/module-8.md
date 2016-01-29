@@ -186,28 +186,28 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
           Input type="submit" value="Register"
         Form
         Script
-          Declare an object called form and assign the document element with the specified id attribute 'registration'
+          Declare a variable called form and assign the document element with the specified id attribute 'registration'
           
           // onsubmit
-          Object.onsubmit = function()
+          variable.onsubmit = function()
           
             // validate email
-            If (Object.email.value == '')
+            If (variable.email.value == '')
                 Alert 'You must provide your email address!'
                 Return false
                 
             // validate password
-            Else If (Object.password.value == '')
+            Else If (variable.password.value == '')
                 Alert 'You must provide a password!'
                 Return false
  
              // validate confirmation
-            Else If (Object.password.value != Object.confirmation.value)
+            Else If (variable.password.value != Object.confirmation.value)
                 Alert 'Passwords do not match!'
                 Return false
                 
             // validate agreement
-            Else If (!Object.agreement.checked)
+            Else If (!variable.agreement.checked)
                 Alert 'You must agree to the terms and conditions!'
                 Return false
               
