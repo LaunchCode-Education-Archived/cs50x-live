@@ -3,32 +3,32 @@
 ##Studios
 We are providing instructions formatted as comments that you can copy over to the IDE.
 
-###Class 1 Studio: 
+###Class 1 Studio: XXXX
 
-```
+```nohighlight
 /**
- * Filename: .c
- * Save in Folder: ~/workspace/module6/studios/
+ * Filename: XXXX.c
+ * Save in Folder: ~/workspace/module6/studios/XXXX
  * 
  */
 ```
-###Class 2 Studio: 
+###Class 2 Studio: XXXX
 
-```
+```nohighlight
 /**
- * Filename: .c
- * Save in Folder: ~/workspace/module6/studios/
+ * Filename: XXXX.c
+ * Save in Folder: ~/workspace/module6/studios/XXXX
  * 
  */
 ```
 
 ## Follow Alongs
 We are providing pseudocode for the follow along tasks so you can start writing the program before watching the video.  You will find instructions to complete the task in the video.
-The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused :confused:  about what to do, you can always refer to the video for help.
+The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused about what to do, you can always refer to the video for help.
 
 ###Class 2 Task: Headings
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">here</a> for a reminder on HTML basics.
-```
+```nohighlight
 <!--
    Filename: headings.html
    Save in Folder: ~/workspace/module6/followalongs/headings
@@ -49,7 +49,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
  
 ###Class 2 Task: hello, HTML
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">here</a> for a reminder on HTML basics.
-```
+```nohighlight
  <!--
    Filename: hello.html
    Save in Folder: ~/workspace/module6/followalongs/hello
@@ -71,7 +71,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 
 ###Class 2 Task: Image
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">here</a> for a reminder on HTML basics.
-```
+```nohighlight
  <!--
    Filename: image.html
    Save in Folder: ~/workspace/module6/followalongs/image
@@ -92,7 +92,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 
 ###Class 2 Task: Link
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">here</a> for a reminder on HTML basics.
-```
+```nohighlight
  <!--
    Filename: link.html
    Save in Folder: ~/workspace/module6/followalongs/link
@@ -112,7 +112,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 
 ###Class 2 Task: List
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">here</a> for a reminder on HTML basics.
-```
+```nohighlight
  <!--
    Filename: list.html
    Save in Folder: ~/workspace/module6/followalongs/list
@@ -133,7 +133,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 
 ###Class 2 Task: Paragraphs
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">here</a> for a reminder on HTML basics.
-```
+```nohighlight
  <!--
   Filename: paragraphs.html
   Save in Folder: ~/workspace/module6/followalongs/link
@@ -158,7 +158,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 
 ###Class 2 Task: Search-0
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">here</a> for a reminder on HTML basics.
-```
+```nohighlight
  <!--
    Filename: search-0.html
    Save in Folder: ~/workspace/module6/followalongs/search
@@ -176,14 +176,13 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
    You will find instructions to complete this task in the video. 
    You will be modifying this code as you go along.
  -->
-  
 ```
 
 ###Class 2 Task: Search-1
 
 This is a continuation of search-0, please follow the instructions below. You will use terminal commands to copy the `search-0.c` file. Make sure you are in the `module6/followalongs/search` folder in the terminal window. 
 
-```
+```nohighlight
 <!--
   This is a continuation of the last program and you should copy search-0.c so you do not have to 
   write the whole program. Use the command below, open up search-1.c and watch the video
@@ -195,14 +194,13 @@ This is a continuation of search-0, please follow the instructions below. You wi
    You will find instructions to complete this task in the video. 
    You will be modifying this code as you go along.
 -->
-
 ```
 
 ###Class 2 Task: Search-2
 
 This is a continuation of search-1, please follow the instructions below. You will use terminal commands to copy the `search-1.c` file. Make sure you are in the `module6/followalongs/search` folder in the terminal window. 
 
-```
+```nohighlight
 <!--
   This is a continuation of the last program and you should copy search-1.c so you do not have to 
   write the whole program. Use the command below, open up search-2.c and watch the video
@@ -214,14 +212,13 @@ This is a continuation of search-1, please follow the instructions below. You wi
    You will find instructions to complete this task in the video. 
    You will be modifying this code as you go along.
 -->
-
 ```
 
 ###Class 2 Task: Search-3
 
 This is a continuation of search-2, please follow the instructions below. You will use terminal commands to copy the `search-2.c` file. Make sure you are in the `module6/followalongs/search` folder in the terminal window. 
 
-```
+```nohighlight
 <!--
   This is a continuation of the last program and you should copy search-2.c so you do not have to 
   write the whole program. Use the command below, open up search-3.c and watch the video
@@ -233,14 +230,13 @@ This is a continuation of search-2, please follow the instructions below. You wi
    You will find instructions to complete this task in the video. 
    You will be modifying this code as you go along.
 -->
-
 ```
 
 ###Class 2 Task: Search-4
 
 This is a continuation of search-3, please follow the instructions below. You will use terminal commands to copy the `search-3.c` file. Make sure you are in the `module6/followalongs/search` folder in the terminal window. 
 
-```
+```nohighlight
 <!--
   This is a continuation of the last program and you should copy search-3.c so you do not have to 
   write the whole program. Use the command below, open up search-4.c and watch the video
@@ -257,7 +253,7 @@ This is a continuation of search-3, please follow the instructions below. You wi
 
 ###Class 2 Task: Table
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">here</a> for a reminder on HTML basics.
-```
+```nohighlight
  <!--
    Filename: table.html
    Save in Folder: ~/workspace/module6/followalongs/table
@@ -275,12 +271,11 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
    You will find instructions to complete this task in the video. 
    You will be modifying this code as you go along.
  -->
-  
 ```
 
 ###Class 2 Task: CSS-0
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">here</a> for a reminder on HTML basics.
-```
+```nohighlight
  <!--
    Filename: css-0.html
    Save in Folder: ~/workspace/module6/followalongs/css
@@ -306,14 +301,13 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
    You will find instructions to complete this task in the video. 
    You will be modifying this code as you go along.
  -->
-  
 ```
 
 ###Class 2 Task: CSS-1
 
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">here</a> for a reminder on HTML basics. 
 
-```
+```nohighlight
 <!--
    Filename: css-1.html
    Save in Folder: ~/workspace/module6/followalongs/css
@@ -339,7 +333,6 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
    You will find instructions to complete this task in the video. 
    You will be modifying this code as you go along.
  -->
-
 ```
 
 ###Class 2 Task: CSS-2
@@ -347,7 +340,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#html" target="_blank">here</a> for a reminder on HTML basics. There are 2 files for this task, `css-2.css` and `css-2.html`.
 
 #### css/css2.css
-```
+```nohighlight
 Filename: css-2.css
 Save in Folder: ~/workspace/module6/followalongs/css
 
@@ -366,7 +359,7 @@ id bottom
 ```
 
 #### css/css2.html
-```
+```nohighlight
 <!--
    Filename: css-2.html
    Save in Folder: ~/workspace/module6/followalongs/css
@@ -393,5 +386,4 @@ id bottom
    You will find instructions to complete this task in the video. 
    You will be modifying this code as you go along.
  -->
-
 ```
