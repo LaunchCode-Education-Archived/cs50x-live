@@ -1,6 +1,6 @@
 [Module 3](../..)
 
-# Problem Set: Problem Set 3
+# Problem Set 3
 
 ### Synopsis
 In this problem set, you will put those sorting algorithms to good use, and get a lot of practice with arrays. There are two components to this assignment:
