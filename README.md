@@ -10,10 +10,22 @@ CS50 is Harvard’s Introduction to Programming course for non-CS majors.
 CS50x (notice the 'x') is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. 
 
 LaunchCode’s CS50x is an in-person version of CS50x with a number of enhancements, including:
-  * **Mentored Support:** Receive help from LaunchCode mentors.
-  * **Curated Content:** CS50 contains massive body of course materials. Based off our previous experience offering this class, we have compiled and ordered all the course resources into a managable, step-by-step guide to help you learn and digest the concepts and skills you need to know in order to succeed in the course.
-  * **Additional Exercises:** We’ve also developed our own additional exercises and activities that help reinforce concepts as you go. But instead of adding extra work, these additional exercises should help you move more quickly through the Problem Sets.
-  * **Supplemental Skill Tracks:** After completing the CS50 material, we will spend an another month learning even more! You will have the opportunity to choose, based on your interest and goals, a Skill Track, in which we will delve more deeply into a particular topic. This will put you on the path toward creating an awesome final project.
+
+* **Mentored Support:** 
+    
+ Receive help from LaunchCode mentors.
+
+* **Curated Content:** 
+  
+ CS50 contains massive body of course materials. Based off our previous experience offering this class, we have compiled and ordered all the course resources into a managable, step-by-step guide to help you learn and digest the concepts and skills you need to know in order to succeed in the course.
+
+* **Additional Exercises:** 
+  
+ We’ve also developed our own additional exercises and activities that help reinforce concepts as you go. But instead of adding extra work, these additional exercises should help you move more quickly through the Problem Sets.
+  
+* **Supplemental Skill Tracks:** 
+ 
+ After completing the CS50 material, we will spend an another month learning even more! You will have the opportunity to choose, based on your interest and goals, a Skill Track, in which we will delve more deeply into a particular topic. This will put you on the path toward creating an awesome final project.
 
 ###What will I learn in this class?
 *	Key foundational concepts in computer science 
