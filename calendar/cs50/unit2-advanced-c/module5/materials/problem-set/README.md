@@ -15,7 +15,7 @@ This guidance primarily refers to the hashtable structure. However, you can sele
 
 - While reading the pset spec, underline or highlight everything that applies specifically to the input and output requirements. For example, the spec notes that all the words in the dictionary will be lowercase. That's important because it tells you that you don't have to convert anything to different cases during the `load()` function.
 
-- Make sure you understand exactly what CS50's base code will provide you and what you have to put out. FOR EXAMPLE: speller.c does a whole lot of the heavy lifting! **You** are going to load words from a dictionary (the name will be provided by speller.c). **You** will provide the capability to check if a word is in the dictionary. And, finally **you** will be unloading the words from memory when the program is done. Some people have a tendency to practically rewrite everything that speller.c does! Make sure you understand only what the actual `dictionary.c` file has to do (load, check, unload)!
+- Make sure you understand exactly what CS50's base code will provide you and what you have to put out. FOR EXAMPLE: `speller.c` does a whole lot of the heavy lifting! **You** are going to load words from a dictionary (the name will be provided by `speller.c`). **You** will provide the capability to check if a word is in the dictionary. And, finally **you** will be unloading the words from memory when the program is done. Some people have a tendency to practically rewrite everything that `speller.c` does! Make sure you understand only what the actual `dictionary.c` file has to do (load, check, unload)!
 
 - When you get to a video in the spec, watch it. You don't need any videos other than what's in the spec!
 
