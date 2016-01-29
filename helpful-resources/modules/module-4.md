@@ -5,7 +5,7 @@ We are providing instructions formatted as comments that you can copy over to th
 
 ###Class X Studio: Word Grid Stretch
 You will only submit 1 file, `wordgridstretch.c`, but there are formatted instructions to create `stretchvertical.c` and `stretchhorizontal.c` to help you to complete the Studio.
-```c
+```nohighlight
  /**
   * Filename: wordgridstretch.c
   * Save in Folder: ~/workspace/module4/studios/wordgridstretch
@@ -55,7 +55,7 @@ Break it Down
 To get started, we suggest you try two simpler versions first, `stretchvertical.c` and `stretchhorizontal.c`.
 
 A program that just stretches the grid vertically:
-```c
+```nohighlight
  /**
   * A program that just stretches the grid vertically:
   * 
@@ -80,7 +80,7 @@ A program that just stretches the grid vertically:
   */
  ```
 A program that just stretches the grid horizontally:
-```c
+```nohighlight
  /**
   * $ ./stretchhorizontal goat crab bear
   * Your word grid currently looks like this:
@@ -100,7 +100,7 @@ A program that just stretches the grid horizontally:
 
 ###Class X Studio: ASCII Art
 
-```c
+```nohighlight
  /**
   * Filename: xxx.c
   * Save in Folder: ~/workspace/module4/studios/xxx
@@ -111,11 +111,11 @@ A program that just stretches the grid horizontally:
 
 ## Follow Alongs
 We are providing pseudocode for the follow along tasks so you can start writing the program before watching the video.  You will find instructions to complete the task in the video.
-The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused :confused:  about what to do, you can always refer to the video for help.
+The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused about what to do, you can always refer to the video for help.
 
 ###Class 1 Task: NoSwap
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: noswap.c
   * Save in Folder: ~/workspace/module4/followalongs/noswap
@@ -146,7 +146,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ###Class 1 Task: Compare-0
 
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: compare-0.c
   * Save in Folder: ~/workspace/module4/followalongs/compare
@@ -174,7 +174,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
 ### Class 1 Task: Compare-1
 This is a continuation of Compare-0, please follow the instructions below.  You will use terminal commands to copy the `compare-0.c` file.  Make sure you are in the `module4/followalongs/compare` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```c
+```nohighlight
  /**
   * This is a continuation of the last program and you should copy compare-0.c file so you do not have to 
   * write the whole program. Use the command below, open up compare-1.c and watch the video
@@ -188,7 +188,7 @@ This is a continuation of Compare-0, please follow the instructions below.  You 
 
 ### Class 1 Task: Pointers
 <a href="https://www.youtube.com/watch?v=yOdd3uYC--A&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=2" target="_blank">Pointers</a> refresher. Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: pointers.c
   * Save in Folder: ~/workspace/module4/followalongs/pointers
@@ -212,7 +212,7 @@ This is a continuation of Compare-0, please follow the instructions below.  You 
 ```
 ### Class 1 Task: Sizeof
 
-```c
+```nohighlight
  /**
   * Filename: sizeof.c
   * Save in Folder: ~/workspace/module4/followalongs/sizeof
@@ -235,7 +235,7 @@ This is a continuation of Compare-0, please follow the instructions below.  You 
 ###Class 1 Task: Copy-0
 
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: copy-0.c
   * Save in Folder: ~/workspace/module4/followalongs/copy
@@ -264,7 +264,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
 ### Class 1 Task: Copy-1
 This is a continuation of Copy-0, please follow the instructions below.  You will use terminal commands to copy the `copy-0.c` file.  Make sure you are in the `module4/followalongs/copy` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```c
+```nohighlight
  /**
   * This is a continuation of the last program and you should copy copy-0.c file so you do not have to 
   * write the whole program. Use the command below, open up copy-1.c and watch the video
@@ -278,7 +278,7 @@ This is a continuation of Copy-0, please follow the instructions below.  You wil
 
 ### Class 2 Task: Structs-0
 You can find a structs refresher <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#structs" target="_blank">here.</a><br>For this FollowAlong there will be 2 files that are created, `structs.h` and `structs-0.c`.  You will create both files in the same folder `~/workspace/module4/followalongs/structs`. You will use the `structs.h` file for all of the structs follow alongs and will not have to copy it since it will be in the same folder as the rest of the follow alongs.  
-```c
+```nohighlight
 /**
   * Filename: structs.h
   * Save in Folder: ~/workspace/module4/followalongs/structs
@@ -293,7 +293,7 @@ You can find a structs refresher <a href="http://cdn.cs50.net/2015/fall/lectures
   * Hint: <datatype>;
   */
 ```
-```c
+```nohighlight
  /**
   * Filename: structs-0.c
   * Save in Folder: ~/workspace/module4/followalongs/structs
@@ -325,7 +325,7 @@ You can find a structs refresher <a href="http://cdn.cs50.net/2015/fall/lectures
 
 ### Class 2 Task: Structs-1
 You can find a structs refresher <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#structs" target="_blank">here.</a>
-```c
+```nohighlight
  /**
   * Filename: structs-1.c
   * Save in Folder: ~/workspace/module4/followalongs/structs
