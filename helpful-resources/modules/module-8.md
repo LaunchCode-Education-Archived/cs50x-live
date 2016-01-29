@@ -70,7 +70,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
     
   HTML 
       Head
-          Title dom-2 Title
+          Title dom-1 Title
       Head
       Body 
         Form id="demo"
@@ -311,7 +311,7 @@ Lecture Notes
             function quote()
                 Declare a variable called url and assign 'quote.php?symbol=' to it            
          Script
-          Title ajax-1 Title
+          Title ajax-0 Title
       Head
       Body 
         Form onsubmit="quote"
@@ -349,7 +349,7 @@ Lecture Notes
          Script
 
          Script
-          Title ajax-0 Title
+          Title ajax-1 Title
       Head
       Body 
         Form onsubmit="quote(); return false;"
@@ -387,7 +387,7 @@ Lecture Notes
             function quote()
                 Declare a variable called url and assign 'quote.php?symbol=' + $('symbol').val(); to it            
          Script
-          Title ajax-1 Title
+          Title ajax-2 Title
       Head
       Body 
         Form onsubmit="quote(); return false;"
