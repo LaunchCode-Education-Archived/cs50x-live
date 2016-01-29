@@ -5,7 +5,7 @@ We are providing instructions formatted as comments that you can copy over to th
 
 ###Class 1 Studio: Secret Santa 
 
-```
+```nohighlight
 /**
  * Filename: secret-santa.c
  * Save in Folder: ~/workspace/module5/studios/secret-santa
@@ -60,17 +60,21 @@ We are providing instructions formatted as comments that you can copy over to th
 ```
 ###Class 2 Studio: Hash-Table
 
-```
-
+```nohighlight
+/**
+ * Filename: XXXX.c
+ * Save in Folder: ~/workspace/module5/studios/XXXX
+ *
+ */
 ```
 
 ## Follow Alongs
 We are providing pseudocode for the follow along tasks so you can start writing the program before watching the video.  You will find instructions to complete the task in the video.
-The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused :confused:  about what to do, you can always refer to the video for help.
+The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused about what to do, you can always refer to the video for help.
 
 ###Class 1 Task: Scanf-0
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#cs50_library" target="_blank">here</a> for a reminder on "scanning" user input. 
-```
+```nohighlight
  /**
   * Filename: scanf-0.c
   * Save in Folder: ~/workspace/module5/followalongs/scanf
@@ -91,7 +95,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
   
 ### Class 1 Task: Scanf-1
 This is task is very similar to scanf-0, please follow the instructions below. <a href="https://www.youtube.com/watch?v=yOdd3uYC--A&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=2" target="_blank">Pointers</a> refresher. Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#cs50_library" target="_blank">here</a> for a reminder on "scanning" user input. 
-```
+```nohighlight
   * Filename: scanf-1.c
   * Save in Folder: ~/workspace/module5/followalongs/scanf
   * 
@@ -111,7 +115,7 @@ This is task is very similar to scanf-0, please follow the instructions below. <
 
 ### Class 1 Task: Scanf-2
 This is a continuation of scanf-0, please follow the instructions below.  You will use terminal commands to copy the `scanf-1.c` file.  Make sure you are in the `module5/followalongs/scanf` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.md" target="_blank">Terminal Commands</a>.
-```
+```nohighlight
  /**
   * This is a continuation of the last program and you should copy scanf-1.c file so you do not have to 
   * write the whole program. Use the command below, open up scanf-2.c and watch the video
