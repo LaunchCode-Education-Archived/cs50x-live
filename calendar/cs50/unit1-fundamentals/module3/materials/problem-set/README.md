@@ -1,6 +1,6 @@
 [Module 3](../..)
 
-# Problem Set: Pset 3
+# Problem Set 3
 
 ### Synopsis
 In this problem set, you will put those sorting algorithms to good use, and get a lot of practice with arrays. There are two components to this assignment:
@@ -11,8 +11,19 @@ In Find, your job will be to write a program that searches for a particular numb
 
 In Game of Fifteen, you will turn <a href="https://en.wikipedia.org/wiki/15_puzzle" target="_blank">this classic</a> into a program that users can play live in the terminal window. Doing so will require working with a 2-dimensional array, in other words, an array of arrays.
 
+### How to submit 
+On Vocareum, you will see two assignments:
+* **Problem Set: Find**. For this assignment submit a file called helpers.c
+* **Problem Set: Game of Fifteen**. For this assignment submit a file called fifteen.c
+
+After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum. You can also use check50 to check the correctness of your code before submitting.
+
+If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.
+
+For general guidance on problem sets, you may also find it useful to review the <a  href="../../../../../module0/materials/problem-set/README.html" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
+
 ### Get Started
-The Pset Spec is <a href="http://cdn.cs50.net/2015/fall/psets/3/pset3/pset3.html" target="_blank">here</a>. Go get em tiger!
+Start working on the <a href="http://cdn.cs50.net/2015/fall/psets/3/pset3/pset3.html#getting_ready" target="_blank">Problem Set 3 Spec</a>. There will be some videos you've already seen, so feel free to skip over those if you feel comfortable with the concepts. If not, now's a good time for review!
 
 ### Guidance
 
@@ -40,12 +51,3 @@ Finally, checkout the following Walkthrough videos listed below. They are a few 
 4. <a href="https://www.youtube.com/watch?v=gxMHcoBMiq4" target="_blank">fifteen / move</a>
 5. <a href="https://www.youtube.com/watch?v=6KSq4JUfhIk" target="_blank">fifteen / won</a>
 
-
-### How to submit 
-FILE NAMES: helpers.c, fifteen.c
-
-INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly!
-
-If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.
-
-For general guidance on problem sets, you may also find it useful to review the <a  href="../../../../../module0/materials/problem-set/README.html" target="_blank">Problem Set Page Overview from Problem Set 0</a>.

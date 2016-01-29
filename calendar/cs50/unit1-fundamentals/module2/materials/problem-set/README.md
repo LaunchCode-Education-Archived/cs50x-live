@@ -8,6 +8,18 @@ Zhofrph wr SureohpVhw 2! Whoops, forgot to decrypt myself there... Welcome to Pr
 
 In this problem set, you'll use what you've learned so far to dabble in some cryptography. To do this, you'll be introduced to some cipher algorithms, which are codes used to encrypt and decrypt messages. 
 
+### How to submit 
+On Vocareum, you will see three assignments:
+* **Problem Set 2: Initials**. For this assignment, submit a file called initials.c
+* **Problem Set 2: Caesar**. For this assignment, submit a file called caesar.c
+* **Problem Set 2: Vigenere**. For this assignment, submit a file called vigenere.c
+
+After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum. You can also use check50 to check the correctness of your code before submitting.
+
+If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.
+
+For general guidance on problem sets, you may also find it useful to review the <a  href="../../../../../module0/materials/problem-set/README.html" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
+
 ### Get Started
 
 To review all information about the Problem Set, go here: <a href="http://cdn.cs50.net/2015/fall/psets/2/pset2/pset2.html#getting_ready" target="_blank">Getting Ready</a>. You will have seen a lot of this already, but it may be helpful to review.
@@ -80,11 +92,4 @@ Vigenere is Caesar with rotation. That makes this a perfect opportunity to pract
   * Tweak anything that needs tweaking in consideration of the new way you're providing the values to the Caesar code.
 
 
-### How to submit 
-FILE NAMES: initials.c, caesar.c, vigenere.c
 
-INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly!
-
-If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.
-
-For general guidance on problem sets, you may also find it useful to review the <a  href="../../../../../module0/materials/problem-set/README.html" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
