@@ -9,13 +9,13 @@ We are providing you the files to follow along with this task.  There are TODOs 
 3. `cd` into `js` and run the following commands to download the 5 jquery files.
  * [jquery-1.8.2.min.js](jquery-1.8.2.min.js)
    * `wget https://raw.githubusercontent.com/johnpolacek/scrolldeck.js/master/js/jquery-1.8.2.min.js`
- * [jquery.scrollTo-1.4.3.1.min.js]() 
+ * [jquery.scrollTo-1.4.3.1.min.js](jquery.scrollTo-1.4.3.1.min.js) 
    * `wget https://raw.githubusercontent.com/johnpolacek/scrolldeck.js/master/js/jquery.scrollTo-1.4.3.1.min.js`
- * [jquery.scrollorama.js](jquery-1.8.2.min.js) 
+ * [jquery.scrollorama.js](jquery.scrollorama.js) 
    * `wget https://raw.githubusercontent.com/johnpolacek/scrolldeck.js/master/js/jquery.scrollorama.js`
- * [jquery.easing.1.3.js](jquery-1.8.2.min.js) 
+ * [jquery.easing.1.3.js](jquery.easing.1.3.js) 
    * `wget https://raw.githubusercontent.com/johnpolacek/scrolldeck.js/master/js/jquery.easing.1.3.js`
- * [jquery.scrolldeck.js](jquery-1.8.2.min.js) 
+ * [jquery.scrolldeck.js](jquery.scrolldeck.js) 
    * `wget https://raw.githubusercontent.com/johnpolacek/scrolldeck.js/master/js/jquery.scrolldeck.js`
 4. Copy the 2 files (`style.css` and `normalize.css`) to `jquery/css` as well as the `index.html` file to `jquery` found below.
  * [style.css](style.css)
