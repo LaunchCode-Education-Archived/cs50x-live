@@ -13,8 +13,8 @@ In Game of Fifteen, you will turn <a href="https://en.wikipedia.org/wiki/15_puzz
 
 ### How to submit 
 On Vocareum, you will see two assignments:
-* For **Problem Set: Find**, submit a file called helpers.c
-* For **Problem Set: Game of Fifteen**, submit a file called fifteen.c
+* **Problem Set: Find**. For this assignment submit a file called helpers.c
+* **Problem Set: Game of Fifteen**. For this assignment submit a file called fifteen.c
 
 After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum. You can also use check50 to check the correctness of your code before submitting.
 
