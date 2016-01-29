@@ -67,4 +67,6 @@ in which case, the *first* argument will have to wrap around, and so your output
 .G/RmEiExNeEdGuGpSeAcNhDoS.P/AmM
 ```
 
+***
+
 *You can grab a copy of these instructions from the Helpful Resources <a href="../../../../../../../helpful-resources/modules/module-2.html#class-2-studio-crazy-echoes" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.
