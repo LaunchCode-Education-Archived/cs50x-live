@@ -19,4 +19,4 @@ In class, we'll do these things:
 ### Homework
 
 * [Class 2 Prep](../class2-prep)
-* Check out the page for [Problem Set 1](../problem-set). After today's class, you should be in a great position to complete Problem Set 1: Water.
+* Check out the page for [Problem Set 1](../problem-set). After today's class, you should be in a great position to complete Problem Set 1 / Water.
