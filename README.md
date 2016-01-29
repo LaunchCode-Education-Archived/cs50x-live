@@ -1,4 +1,4 @@
-#This is LaunchCode's CS50x St Louis!
+#This is LaunchCode's CS50x!
 Hello, and welcome to LaunchCode's CS50x course! This course teaches the foundations of computer science and programming using world-class curriculum and mentored support. There's a lot to learn, but before you get started, you probably have a few questions.
 
 ## What is CS50x?
@@ -28,7 +28,7 @@ LaunchCode’s CS50x is an in-person version of CS50x with a number of cool perk
 Our goal at LaunchCode is to put you on a path towards starting a career in technology, or to simply get you to where you want to go. We look forward to working with you as you start that journey with CS50x. 
 
 ## What's Next?
-First you'll want to read about how to take this class. Please read over the Student Guide in detail as it will provide you with important information about this class, course expectations, and the course tools. You should have received that in an email, but for convenience here it is again: <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing" target="_blank">Student Guide</a>
+First you'll want to read about how to take this class. Please read over the Student Guide in detail as it will provide you with important information about this class, course expectations, and the course tools. You should have received that in an email, but for convenience here it is again: <a href="https://docs.google.com/document/d/linktohubcitystudentguide" target="_blank">Student Guide</a>
 
 Next, you can follow the link here to review some details on how to understand the course, and some advice that we hope will help along the way: [How to Take This Class](./how-to-take-this-class) 
 
