@@ -22,7 +22,7 @@ Class # | Date | Before Class | During Class | Topics/Skills
 :------:|:----:|:------------:|:------------:|-----------------------|
 Class 1 | *TBD* | [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | more practice with recursion, pointers, malloc
 Class 2 | *TBD* | [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | hexadecimal, file io, structs
-Class 3 | *TBD* | Work on problem Set 4](./materials/problem-set) | [In Class](./materials/class3) | (office hours)
+Class 3 | *TBD* | [Work on problem Set 4](./materials/problem-set) | [In Class](./materials/class3) | (office hours)
 
 
 ### Resources (by type)
