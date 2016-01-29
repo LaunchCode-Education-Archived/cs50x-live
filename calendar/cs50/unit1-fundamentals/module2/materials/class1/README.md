@@ -10,14 +10,12 @@ Today's class will include a discussion about the various types that C has to of
 
 1. Lecture / Q&A on the following topics:
 
-  * Types
-  
+  **Types**
 	* What data types are available?
 	* How can we change the type of something?
 	* How do you know which type to use?
 	
-  * Functions
- 
+  **Functions**
 	* What are the pieces of a function?
 	* How do you use a function?
 	* Why are functions awesome?
@@ -27,4 +25,4 @@ Today's class will include a discussion about the various types that C has to of
 
 ### Homework
 1. [Class 2 Prep](../class2-prep) 
-2. Get started on on [Problem Set 2](../problem-set). You should find the work you did today in studio to be very helpful ;)
+2. Get started on on [Problem Set 2 / Caesar](../problem-set/). You should find the work you did today in studio to be very helpful ;)
