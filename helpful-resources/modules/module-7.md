@@ -1061,7 +1061,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ###Class 2 Task: MVC-5
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#mvc" target="_blank">here</a> for the lecture notes for this follow along. There are 7 files for this follow along, `helpers.php`,`header.php`, `footer.php`, `index.php`, `lectures.php`,`week0.php`, `week1.php`. David will be reorganizing the project again by moving some files into subdirectories. You will make a directory called `public` for `index.php`, `lectures.php`,`week0.php`, and `week1.php`.  You will still have an `includes` folder for `helpers.php` and one called `templates` for `header.php` and `footer.php`.
 
-You can choose to copy `mvc/4` using the command `cp -r 4 5` when you are in the `~/workspace/module7/followalongs/mvc` directory.  You will only have to update the PHP require methods to ensure that the files `index.php`, `lectures.php`,`week0.php`, and `week1.php` have the correct paths. The new statement will be:
+You can choose to copy `mvc/4` using the command `cp -r 4 5` when you are in the `~/workspace/module7/followalongs/mvc` directory.  You will only have to update the PHP require methods to ensure that the files `index.php`, `lectures.php`,`week0.php`, and `week1.php` have the correct paths and move `index.php`, `lectures.php`,`week0.php`, and `week1.php` into a new folder called `public`. The new statement will be:
 ```php
 <?php require("../includes/helpers.php"); ?>
 
