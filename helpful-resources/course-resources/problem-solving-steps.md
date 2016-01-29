@@ -1,6 +1,6 @@
 #Need Help?
 
-Whether you are working inside or outside of the classroom, there are times you may get stuck on a problem :angry: or confused :confused: about a topic or task.  The first step is DON'T WORRY. There may be many of your peers that feel the same way. The steps below can help.
+Whether you are working inside or outside of the classroom, there are times you may get stuck on a problem or confused about a topic or task.  The first step is DON'T WORRY. There may be many of your peers that feel the same way. The steps below can help.
 
 We encourage you to reach out to us or your peers when you feel that you need help, but we also want to make sure that you are developing the skills that you will need when you are out on your own. 
 
