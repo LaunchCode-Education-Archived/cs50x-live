@@ -5,7 +5,9 @@
 ### Part 1: Backwards Echo
 
 In a file called `backwardsecho.c` write a program that accepts some command-line arguments, and then simply "echoes" those arguments back to the
-console. (This is similar to the <a href="https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-1</a> Walkthrough example from <a href="../../class2-prep" target="_blank">class 2 prep</a>)
+console. 
+
+This is similar to the <a href="https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-1</a> Walkthrough example from <a href="../../class2-prep" target="_blank">class 2 prep</a>, but with one twist.
 
 The twist: each string should print out backwards. 
 
