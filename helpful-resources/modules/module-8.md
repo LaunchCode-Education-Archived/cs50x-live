@@ -8,7 +8,7 @@ We are providing instructions formatted as comments that you can copy over to th
 ```nohighlight
 /**
  * Filename: XXX.c
- * Save in Folder: ~/workspace/module8/studios/mult-table
+ * Save in Folder: ~/workspace/module8/studios/XXX
  *
  */
 ```
@@ -17,14 +17,14 @@ We are providing instructions formatted as comments that you can copy over to th
 ```nohighlight
 /**
  * Filename: XXX.c
- * Save in Folder: ~/workspace/module8/studios/simple-site
+ * Save in Folder: ~/workspace/module8/studios/XXX
  *
  */
 ```
 
 ## Follow Alongs
 We are providing pseudocode for the follow along tasks so you can start writing the program before watching the video.  You will find instructions to complete the task in the video.
-The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused :confused:  about what to do, you can always refer to the video for help.
+The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused about what to do, you can always refer to the video for help.
 
 ###Class 1 Task: DOM-0
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#document_object_model" target="_blank">here</a> for the lecture notes for this follow along. 
