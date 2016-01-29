@@ -15,7 +15,7 @@ LaunchCode’s CS50x is an in-person version of CS50x with a number of cool perk
 
 * **Additional Exercises:** We’ve also developed our own additional exercises and activities that help reinforce concepts as you go. But instead of adding extra work, these exercises should help you move more quickly through the Problem Sets.
   
-* **Supplemental Skill Tracks:** After completing the CS50 material, we will spend an another month learning even more! You will have the opportunity to choose, based on your interest and goals, a Skill Track, in which we will delve more deeply into a particular topic. This will put you on the path toward creating an awesome final project.
+* **Supplemental Skill Tracks:** After completing the CS50 material, we will spend an another month learning even more! You will have the opportunity to choose, based on your interest and goals, a Skill Track, in which we will delve more deeply into a particular topic. At the end, you will use these new skills to create an awesome final project.
 
 ###What will I learn in this class?
 *	Key foundational concepts in computer science 
