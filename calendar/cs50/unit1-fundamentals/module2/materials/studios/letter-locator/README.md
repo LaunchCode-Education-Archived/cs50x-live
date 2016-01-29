@@ -13,7 +13,7 @@ Give me a letter: A
 A is at position 0
 $ ./letterlocator
 Give me a letter: e
-e is at position 5
+e is at position 4
 $ ./letterlocator
 Give me a letter: @
 Give me a letter: Y
