@@ -12,9 +12,10 @@ In Find, your job will be to write a program that searches for a particular numb
 In Game of Fifteen, you will turn <a href="https://en.wikipedia.org/wiki/15_puzzle" target="_blank">this classic</a> into a program that users can play live in the terminal window. Doing so will require working with a 2-dimensional array, in other words, an array of arrays.
 
 ### How to submit 
-FILE NAMES: helpers.c, fifteen.c
+For Problem Set: Find, submit a file called helpers.c
+For Problem Set: Game of Fifteen, submit a file called fifteen.c
 
-INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum.
+INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum. You can also use check50 to check the correctness of your code before submitting.
 
 If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.
 
