@@ -44,5 +44,8 @@ int main(void)
 }
 ```
 
+There is a handsome reward for doing this: In Problem Set 2, you will find your `alphaPos` function to be very useful!
+
+***
 
 *You can grab a copy of these instructions from the Helpful Resources <a href="../../../../../../../helpful-resources/modules/module-2.html#class-1-studio-letter-locator" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.
