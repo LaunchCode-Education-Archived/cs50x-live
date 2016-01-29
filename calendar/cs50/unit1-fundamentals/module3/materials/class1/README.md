@@ -18,4 +18,4 @@ Today's schedule:
 
 ### Homework
 1. [Class 2 Prep](../class2-prep)
-2. Get Started on [Problem Set 3](../problem-set).
+2. Take a look at [Problem Set 3](../problem-set). We haven't yet covered how multiple files work together, so you might find that aspect tricky. 
