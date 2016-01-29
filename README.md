@@ -1,5 +1,3 @@
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-***
 #This is LaunchCode's CS50x!
 
 Hello, and welcome to LaunchCode's CS50x course! This course teaches the foundations of computer science and programming using world-class curriculum and mentored support. There's a lot to learn, but before you get started, you probably have a few questions.
@@ -34,3 +32,7 @@ First you'll want to read about how to take this class. Please read over the Stu
 Next, you can follow the link here to review some details on how to understand the course, and some advice that we hope will help along the way: [How to Take This Class](./how-to-take-this-class) 
 
 After you do that, you'll be ready to begin learning. To do that, you'll be working through the course calendar (which we recommend you bookmark): [Course Calendar](./calendar)
+
+***
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
