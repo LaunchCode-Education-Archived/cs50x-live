@@ -1,20 +1,27 @@
-
 #This is LaunchCode's CS50x!
 
 Hello, and welcome to LaunchCode's CS50x course! This course teaches the foundations of computer science and programming using world-class curriculum and mentored support. There's a lot to learn, but before you get started, you probably have a few questions.
 
-## What is CS50x?
+###What is CS50x?
+CS50 is Harvard’s Introduction to Programming course for non-CS majors. 
 
-CS50 is Harvard’s Introduction to Computer Science class for non-computer science majors. CS50x (notice the 'x') is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. LaunchCode’s CS50x is an in-person version of CS50x with mentored support, curated content, additional exercises, and supplemental skill tracks.
+CS50x (notice the 'x') is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. 
 
-We’ve made the curriculum for this class available for you here on Github. The CS50x class and course materials are also available for free through edX. The curriculum here is meant to guide you through those resources. Based off our previous experience offering this class, we have compiled and ordered the resources to help you learn and digest the concepts and skills you need to know in order to succeed in this course. We’ve also developed our own additional exercises and activities that help reinforce those skills. But instead of adding extra work, these additional exercises should help you move through the problem sets and assignments more quickly.
+LaunchCode’s CS50x is an in-person version of CS50x with a number of cool perks, including:
 
+* **Mentored Support:** Receive help from LaunchCode mentors.
 
-##What will I learn in this class?
+* **Curated Content:** CS50 contains massive body of course materials. Based off our previous experience offering this class, we have compiled and ordered all the course resources into a managable, step-by-step guide to help you learn and digest the concepts and skills you need to know in order to succeed in the course.
+
+* **Additional Exercises:** We’ve also developed our own additional exercises and activities that help reinforce concepts as you go. But instead of adding extra work, these additional exercises should help you move more quickly through the Problem Sets.
+  
+* **Supplemental Skill Tracks:** After completing the CS50 material, we will spend an another month learning even more! You will have the opportunity to choose, based on your interest and goals, a Skill Track, in which we will delve more deeply into a particular topic. This will put you on the path toward creating an awesome final project.
+
+###What will I learn in this class?
 *	Key foundational concepts in computer science 
 *	How to think algorithmically and solve programming problems efficiently
 *	Multiple programming languages, including C, PHP, and JavaScript plus SQL, HTML, and CSS. Assignments are inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. 
-*	How to build your own web applications
+*	How to build your own versions of web applications
 *	How to develop and present a project to others
 
 Our goal at LaunchCode is to put you on a path towards starting a career in technology, or to simply get you to where you want to go. We look forward to working with you as you start that journey with CS50x. 
@@ -24,9 +31,7 @@ First you'll want to read about how to take this class. Please read over the Stu
 
 Next, you can follow the link here to review some details on how to understand the course, and some advice that we hope will help along the way: [How to Take This Class](./how-to-take-this-class) 
 
-After you do that, you'll be ready to begin learning. You'll be working through the course calendar (which we recommend you bookmark): [Course Calendar](./calendar)
-
-You can also check out the <a href="./helpful-resources">Helpful Resources</a> section for additional resources and important links for the course. 
+After you do that, you'll be ready to begin learning. To do that, you'll be working through the course calendar (which we recommend you bookmark): [Course Calendar](./calendar)
 
 ***
 
