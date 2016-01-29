@@ -1,6 +1,8 @@
 ## JQuery Follow Along
 We are providing you the files to follow along with this task.  There are TODOs throughout the `index.html` file that you can modify as you watch the video.
 
+You can find the slides for this follow along <a href="http://cdn.cs50.net/2012/fall/seminars/jquery/jquery.pdf" target="_blank">here</a>.
+
 ### Class 2 Task: JQuery
 
 #### Instructions
