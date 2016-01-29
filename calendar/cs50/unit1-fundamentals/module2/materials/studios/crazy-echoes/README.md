@@ -5,7 +5,9 @@
 ### Part 1: Backwards Echo
 
 In a file called `backwardsecho.c` write a program that accepts some command-line arguments, and then simply "echoes" those arguments back to the
-console, similar to the Module 2 Prep for Class 2 walkthrough <a href="https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-1</a>
+console. 
+
+This is similar to the <a href="https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-1</a> walkthrough from <a href="../../class2-prep" target="_blank">class 2 prep</a>, but with one twist.
 
 The twist: each string should print out backwards. 
 
@@ -38,9 +40,9 @@ $ ./mixedupecho HELLO! morestuff lalala
 .H/EmLiLxOe!dHuEpLeLcOh!oH
 ```
 
-Notice how `"HELLO!"` is shorter than `"./mixedupecho"`, and so the program "wraps around" and starts over again at `'H'`whenever it reaches the end of the string. 
+Also, notice how `"HELLO!"` is shorter than `"./mixedupecho"`, and so the program "wraps around" and starts over again at `'H'`whenever it reaches the end of the string. 
 
-How can you implement that? The modulo `%` operator is your friend here. 
+How can you implement that wraparound feature? The modulo `%` operator is your friend here. 
 
 Spcifically, note that `"HELLO!"[5]` yields `'!'`, and `"HELLO!"[6]` is beyond the bounds of the array. 
 
@@ -64,5 +66,7 @@ in which case, the *first* argument will have to wrap around, and so your output
 ```nohighlight
 .G/RmEiExNeEdGuGpSeAcNhDoS.P/AmM
 ```
+
+***
 
 *You can grab a copy of these instructions from the Helpful Resources <a href="../../../../../../../helpful-resources/modules/module-2.html#class-2-studio-crazy-echoes" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.
