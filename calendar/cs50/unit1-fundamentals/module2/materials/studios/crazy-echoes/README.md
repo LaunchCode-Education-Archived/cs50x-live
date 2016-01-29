@@ -42,7 +42,7 @@ $ ./mixedupecho HELLO! morestuff lalala
 
 Also, notice how `"HELLO!"` is shorter than `"./mixedupecho"`, and so the program "wraps around" and starts over again at `'H'`whenever it reaches the end of the string. 
 
-How can you implement that? The modulo `%` operator is your friend here. 
+How can you implement that wraparound feature? The modulo `%` operator is your friend here. 
 
 Spcifically, note that `"HELLO!"[5]` yields `'!'`, and `"HELLO!"[6]` is beyond the bounds of the array. 
 
