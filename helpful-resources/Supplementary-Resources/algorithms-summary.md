@@ -1,6 +1,6 @@
 # Algorithms Summary
 
-| Algorithm Name | Basic Concept | &Omicron;<br>Worst Case | &Omega;<br>Best Case | Links to Examples |
+| Algorithm Name | Basic Concept | Worst Case | Best Case | Links to Examples |
 | :-----:    | :-----: | :-----: | :-----: | :-----------: |
 | **Selection <br>Sort** | Find the **smallest** unsorted element in <br>an array and swap it with the **first** unsorted <br>element of that array. | _n<sup>2</sup>_ | _n<sup>2</sup>_ | <a href="https://study.cs50.net/selection_sort" target="_blank">CS50 Study</a><br><a href="https://www.youtube.com/watch?v=lx9G71uLXIg&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=3" target="_blank">Doug's Playlist</a><br><a href="https://www.youtube.com/watch?v=f8hXR_Hvybo&index=7&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target="_blank">Shorts</a> |
 | **Bubble <br>Sort** | Swap **adjacent pairs** of elements <br>if they are out of order, effectively "bubbling" <br>larger elements to the right and <br>smaller ones to the left. |   _n<sup>2</sup>_ | _n_ | <a href="https://study.cs50.net/bubble_sort" target="_blank">CS50 Study</a><br><a href="https://www.youtube.com/watch?v=Ui97-_n5xjo&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=4" target="_blank">Doug's Playlist</a><br><a href="https://www.youtube.com/watch?v=8Kp-8OGwphY&index=3&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target="_blank">Shorts</a> |
