@@ -10,7 +10,7 @@ LaunchCode’s CS50x is an in-person version of CS50x with a number of cool perk
 
 * **Live Meetups:** We get together physically in real life on regularly scheduled days. This routine will help keep you on track, and give you the opportunity to learn collaboratively with other students.
 
-* **Mentored Support:** Receive help from an expert Instructor and a team of genius good-looking LaunchCode mentors.
+* **Mentored Support:** Receive help from an expert Instructor and a team of genius, good-looking LaunchCode mentors.
 
 * **Curated Content:** CS50 contains massive body of course materials. Based off our previous experience offering this class, we have compiled and ordered all the course resources into a managable, step-by-step guide to help you learn and digest the concepts and skills you need to know in order to succeed in the course.
 
