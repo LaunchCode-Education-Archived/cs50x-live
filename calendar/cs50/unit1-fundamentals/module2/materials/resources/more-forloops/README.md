@@ -40,7 +40,7 @@ for (int i = 0; i < someAmount; i++)
 ```
 and now anything that deviates from that standard vanilla version makes you think: *Wait, what is this? That looks wrong. Can you do that?*
 
-In fact, using fancy `for-loop` tricks is not even necessary to solve this problem. We can still loop over a string without having to call `strlen` multiple times, in a much more straitforward way:
+In fact, using fancy `for-loop` tricks is not even necessary to solve this particular problem. We can still loop over a string without having to call `strlen` multiple times, in a much more straitforward way:
 ```c
 int n = strlen(my_string);
 for (int i = 0; i < n; i++) 
