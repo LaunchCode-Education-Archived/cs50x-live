@@ -4,16 +4,6 @@
 
 Before coming to [Class 1](../class1), please complete the following tasks:
 
-
-#### More practice with Recursion
-Task | Resource Type | Link  | Instructions
---------------|------|------|-------------
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=beqqGIdabrE&index=7&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Call Stack</a> | Watch these videos on the Call Stack, a fundamental concept in computer science that's especially helpful in understanding recursion.
-Study | CS50 Study | <a href="https://study.cs50.net/recursion" target="_blank">recursion</a> | Review these materials detailing how recursion works
-Rewatch | Lecture | <a href="https://www.youtube.com/watch?v=9WsyLL6KVBY" target="_blank">Week 4, (first 25 minutes)</a>  | THIS IS OPTIONAL. We already saw this last week, but if you want some more recursion material, this might help.
-
-*** 
-
 #### Leading up to Pointers
 Task | Resource Type | Link  | Instructions
 --------------|------|------|-------------
@@ -57,5 +47,14 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&lis
 Do | Exercise | [Swap Cycle](../exercises/swap-cycle) | This exercise asks you to implement a slightly different version of our friend, the `swap` function.
 
 ***
+
+#### More practice with Recursion
+Task | Resource Type | Link  | Instructions
+--------------|------|------|-------------
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=beqqGIdabrE&index=7&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Call Stack</a> | Watch these videos on the Call Stack, a fundamental concept in computer science that's especially helpful in understanding recursion.
+Study | CS50 Study | <a href="https://study.cs50.net/recursion" target="_blank">recursion</a> | Review these materials detailing how recursion works
+Rewatch | Lecture | <a href="https://www.youtube.com/watch?v=9WsyLL6KVBY" target="_blank">Week 4, (first 25 minutes)</a>  | THIS IS OPTIONAL. We already saw this last week, but if you want some more recursion material, this might help.
+
+*** 
 
 #### Now you're ready for [Class 1](../class1)
