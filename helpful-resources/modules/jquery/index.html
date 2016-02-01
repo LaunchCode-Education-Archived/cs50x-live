@@ -1,401 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8"> 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-	<title>jQuery Seminar</title>
-	
-	<link rel="stylesheet" href="css/normalize.css" type="text/css">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	
-	<script src="js/jquery-1.8.2.min.js"></script>
-	<script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
-	<script src="js/jquery.scrollorama.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/jquery.scrolldeck.js"></script>
-	
-	<script>
-	  $(document).ready(function() {
-		  
-			var deck = new $.scrolldeck({
-				buttons: '.nav-button',
-				easing: 'easeInOutExpo'
-			});
-			
-			// add other animations using the scrolldeck.controller (see Scrollorama plugin)
-			console.log(deck.controller);
-			deck.controller.animate('#instructions',{ duration: 100, property:'opacity', end: 0 });
-		  
-	  });
-	</script>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<script type="text/javascript">
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-2821890-9']);
-	  _gaq.push(['_trackPageview']);
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
 
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
+        <header class="navbar navbar-default navbar-fixed-top">
 
-	</script>
-</head>
-<body>
-	
-	<div id="header">
-		<a href="#what" class="nav-button">What is jQuery?</a>
-		<a href="#selectors" class="nav-button">Selectors</a>
-		<a href="#manipulation" class="nav-button">Manipulation</a>
-		<a href="#effects" class="nav-button">Effects</a>
-		<a href="#events" class="nav-button">Events</a>
-		<a href="#ajax" class="nav-button">AJAX</a>
-	</div>
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
 
-	<div class="slide">
-		<div class="center">
-			<h1>jQuery</h1>
-			<p>by Vipul Shekhawat</p>
-			<p class="small" style="margin-top:100px;">Use the left and right arrow keys to look through slides!</p>
-		</div>
-	</div>
-	
-	<div class="slide" id="what">
-		<h1>What is jQuery?</h1>
-	</div>
-	
-	<div class="slide">
-		<h2>Background</h2>
-		<ul>
-			<li>Created in <a href="http://jquery.org/history/">January 2006</a></li>
-			<li>The most widely used Javascript library</li>
-			<li>Over 19.6 million websites use it</li>
-			<li>Its usage is <a href="http://trends.builtwith.com/javascript/jQuery">still increasing</a></li>
-			<li>It has a <a href="http://jquery.org/about/">foundation</a>
-				and 13 <a href="http://jquery.org/team/">board members</a></li>
-		</ul>
-	</div>
-	
-	<div class="slide">
-		<h2>Why use it?</h2>
-		<ul>
-			<li>Lightweight: only 32KB</li>
-			<li>Lets you implement things that were unfeasible</li>
-			<li>Simplifies implementing things that were annoying</li>
-			<li>All the cool kids are doing it</li>
-		</ul>
-	</div>
-	
-	<div class="slide">
-		<h2>How to install it?</h2>
-		<p>Download the file from <a href="http://www.jquery.com">jquery.com</a>, add it to your web directory, and include</p>
-		<blockquote><pre>
-&lt;script type=&quot;text/javascript&quot; src=&quot;jquery-1.8.2.min.js&quot;&gt;&lt;/script&gt;</pre></blockquote>
-		<p>or link to Google's hosted version of it</p>
-		<blockquote><pre>
-&lt;script type=&quot;text/javascript&quot; <br /> src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&quot;&gt;&lt;/script&gt;</pre></blockquote>
-		<p>or link to jQuery's own latest version <br />(not recommended due to possible backwards compatibility issues)</p>
-		<blockquote><pre>
-&lt;script type=&quot;text/javascript&quot; <br /> src=&quot;http://code.jquery.com/jquery-latest.min.js&quot;&gt;&lt;/script&gt;</pre></blockquote>
-	</div>
-	
-	<div class="slide" id="selectors">
-		<h1>Selectors</h1>
-		<h3><a href="http://api.jquery.com/category/selectors/">Documentation</a></h3>
-	</div>
-	
-	<div class="slide">
-		<h2>Selectors</h2>
-		<ul>
-			<li>Allow you to select HTML elements on a page</li>
-			<li>Then you can manipulate these elements using jQuery functions
-				<ul>
-					<li>Change HTML</li>
-					<li>Change CSS</li>
-					<li>Animate</li>
-					<li>Add functions that activate on certain events</li>
-				</ul>
-			</li>
-			<li>Huge number of ways to select elements</li>
-		</ul>
-	</div>
-	
-	<div class="slide">
-		<h2>Basic Selectors</h2>
-		<div class="columns">
-			<div class="float">
-				<p>Element Selector</p>
-				<blockquote><pre>
-$("div")</pre></blockquote>
-			</div>
-			<div class="float">
-				<p>ID Selector</p>
-				<blockquote><pre>
-$("#someId")
-$("div#someId")</pre></blockquote>
-			</div>
-			<div class="float">
-				<p>Class Selector</p>
-				<blockquote><pre>
-$(".someClass")</pre></blockquote>
-			</div>
-			<div class="float">
-				<p>Descendant Selector</p>
-				<blockquote><pre>
-$(".someClass a")</pre></blockquote>
-			</div>
-			<div class="float">
-				<p>Multiple Selector</p>
-				<blockquote><pre>
-$("p, div, li")</pre></blockquote>
-			</div>
-			<div class="float">
-				<p>Not Selector</p>
-				<blockquote><pre>
-$("div"):not(".someClass")</pre></blockquote>
-			</div>
-		</div>
-	</div>
-	
-	<div class="slide">
-		<h2>Advanced Selectors</h2>
-		<div class="columns">
-			<div class="float">
-				<p>Image Selector</p>
-				<blockquote><pre>
-$("div"):image</pre></blockquote>
-			</div>
-			<div class="float">
-				<p>Even/Odd Selectors</p>
-				<blockquote><pre>
-$("#someId"):even</pre></blockquote>
-			</div>
-			<div class="float">
-				<p>Attribute Equals Selector</p>
-				<blockquote><pre>
-$('input[name=something]')</pre></blockquote>
-			</div>
-			<div class="float">
-				<p>Attribute Contains Selector</p>
-				<blockquote><pre>
-$('input[name*="pass"]')</pre></blockquote>
-			</div>
-		</div>
-		<p style="margin-top:350px;">And many more!</p>
-	</div>
-	
-	<div class="slide" id="manipulation">
-		<h1>DOM Manipulation</h1>
-		<h3><a href="http://api.jquery.com/category/manipulation/">Documentation</a></h3>
-	</div>
-	
-	<div class="slide">
-		<h2>Examples: Selection and Manipulation</h2>
-		<p class="small">You can copy/paste and run this code in your Javascript console! Refresh to reset the page!<br/>
-		How to open console: <a href="https://developers.google.com/chrome-developer-tools/docs/console">Chrome</a>, <a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console">Firefox</a>, <a href="http://developer.apple.com/library/safari/#documentation/AppleApplications/Conceptual/Safari_Developer_Guide/2SafariDeveloperTools/SafariDeveloperTools.html">Safari</a>
-		</p>
-		<div class="columns">
-			<div class="float">
-				<p id="appendId">Append/Prepend</p>
-				<blockquote><pre>
-var html = "&lt;p&gt;Some new text&lt;/p&gt;";
-$("#appendId").append(html);
-$("#appendId").prepend(html);</pre></blockquote>
-			</div>
-			<div class="float">
-				<p id="classId">Change Classes</p>
-				<blockquote><pre>
-$("#classId").addClass("ftw");
-$("#classId").removeClass("ftw");</pre></blockquote>
-			</div>
-			<div class="float" style="clear:left;">
-				<p>Remove</p>
-				<blockquote><pre>
-$("div").remove();</pre></blockquote>
-			</div>
-			<div class="float">
-				<p>Overwrite</p>
-				<blockquote><pre>
-$("p").text("testing");</pre></blockquote>
-			</div>
-			<div class="float">
-				<p>Retrieve Information</p>
-				<blockquote><pre>
-$("input[type='text']").val();</pre></blockquote>
-				<input type="text"></input>
-			</div>
-			<div class="float">
-				<p>Modify CSS</p>
-				<blockquote><pre>
-$("body").css("color","red");</pre></blockquote>
-			</div>
-		</div>
-	</div>
-	
-	<div class="slide" id="effects">
-		<h1>Effects</h1>
-		<h3><a href="http://api.jquery.com/category/effects/">Documentation</a></h3>
-	</div>
+        </header>
 
-	<div class="slide">
-		<h2>Common Effects</h2>
-		<div class="columns">
-			<div class="float" id="showHideId">
-				<p>Show and Hide</p>
-				<blockquote><pre>
-$("#showHideId").hide();
-$("#showHideId").show();
-</pre></blockquote>
-			</div>
-			<div class="float" id="slideId">
-				<p>Slide Up and Down</p>
-				<blockquote><pre>
-$("#slideId").slideUp();
-$("#slideId").slideDown();
-</pre></blockquote>
-			</div>
-			<div class="float" id="fadeId">
-				<p>Fade</p>
-				<blockquote><pre>
-$("#fadeId").fadeOut();
-$("#fadeId").fadeIn();
-$("#fadeId").fadeTo('slow',.5);
-</pre></blockquote>
-			</div>
-			<div class="float" id="toggleId">
-				<p>Toggles</p>
-				<blockquote><pre>
-var div = $("#toggleId");
-div.toggle();
-div.slideToggle();
-div.fadeToggle();
-</pre></blockquote>
-			</div>
-			<div class="float" id="chainId">
-				<p>Chained Effects</p>
-				<blockquote><pre>
-$("#chainId").fadeOut().slideDown().hide().fadeIn("fast");
-</pre></blockquote>
-			</div>
-			<p style="padding: 400px 0px 0px 100px;">And more! Check out <a href="http://api.jquery.com/animate/">animate()</a> and <a href="http://api.jquery.com/queue/">queue()</a> to create your own animation functions.</p>
-		</div>
-	</div>
-	
-	<div class="slide" id="events">
-		<h1>Events</h1>
-		<h3><a href="http://api.jquery.com/category/events/">Documentation</a></h3>
-	</div>
-	
-	<div class="slide" id="eventsExampleId">
-		<p>So far, we've only executed jQuery by running it in the console.<br />
-		How do we actually use it on a webpage?</p>
-		<p class="small">This doesn't work yet: check the index.html file for a detailed TODO.<br />
-		Click <a href="index_solutions.html#eventsExampleId">here</a> for the html file with this task completed.</p>
-		<div id="boxId"></div>
-		<button id="boxButtonId">Hide/show the box!</button>
-	</div>
-	
-	<script type="text/javascript">
-		/*
-		 * TODO: When someone clicks the button with id boxButtonId, make the div with id boxId fade in and out
-		 */
-	</script>
-	
-	<div class="slide">
-		<h2>Events</h2>
-		<p class="small" style="max-width: 800px;">I've already created a function called "action" that toggles the box below. Try running
-		each of these lines of code in the console to see how each event works.</p>
-		<div id="boxId2"></div>
-		<div class="columns">
-			<div class="float" id="clickId">
-				<p>Click and Double-click</p>
-				<blockquote><pre>
-$("#clickId").click(action);
-$("#clickId").dblclick(action);
-</pre></blockquote>
-			</div>
-			<div class="float" id="keyId">
-				<p>Keyboard Input</p>
-				<blockquote><pre>
-$("#keyId").keydown(action);
-$("#keyId").keyup(action);
-$("#keyId").keypress(action);
-</pre></blockquote>
-			</div>
-			<div class="float" id="mouseId">
-				<p>Mouse Actions</p>
-				<blockquote><pre>
-$("#mouseId").hover(action);
-$("#mouseId").mouseenter(action);
-$("#mouseId").mousemove(action);
-</pre></blockquote>
-			</div>
-		</div>
-	</div>
-	
-	<script type="text/javascript">
-	// This function just toggles the box with id boxId2. For use in the examples above
-	function action() { 
-		$("#boxId2").fadeToggle(); 
-	}
-	</script>
-	
-	<div class="slide" id="ajax">
-		<h1>AJAX</h1>
-		<h3><a href="http://api.jquery.com/category/ajax/">Documentation</a></h3>
-	</div>
-	
-	<div class="slide">
-		<h2>What is AJAX?</h2>
-		<ul>
-			<li>Asynchronous Javascript And XML</li>
-			<li>Allows us to send HTTP requests without reloading the page</li>
-			<li>Can use either <a href="http://api.jquery.com/jQuery.get/">GET</a> or <a href="http://api.jquery.com/jQuery.post/">POST</a></li>
-			<li>Can query APIs, check login information, etc.</li>
-		</ul>
-	</div>
-	
-	<div class="slide" id="ajaxExampleId">
-		<h2>GET Requests and APIs: <br />What's for <a href="https://manual.cs50.net/HarvardFood_API">lunch</a> today?</h2>
-		<p class="small">This also isn't implemented yet. The solution is in <a href="index_solutions.html#ajaxExampleId">this</a> file.</p>
-		<div id="mealInfoId"></div>
-		<button id="foodButtonId">Find out!</button>
-	</div>
-	
-	<script type="text/javascript">
-		/*
-		 * TODO: Use jQuery to send a GET request to the Harvard Food API, and append the names
-		 * of all the food items that are for lunch today into the mealInfoId div.
-		 */
-	</script>
-	
-	<div class="slide">
-		<h2>POST Requests</h2>
-		<p>A snippet of actual code from my project last year:</p>
-		<blockquote><pre>
-SubmitInput.click(function(){
-  $.post("login.php", {password:PassInput.val()}, function(data){
-    // if password is incorrect, display error
-    if (!data)
-    {
-      ErrorDiv.html("Incorrect password!");
-      ErrorDiv.slideDown("fast");
-    }
-    // if correct, load admin portal
-    else
-      loadAdmin();
-      
-  }, "json");
-});
-</pre></blockquote>
-	<p>This is an example of how you can use $.post to easily send requests to the server and update
-	the webpage without having to reload!</p>
-	</div>
-	
-	<div class="slide">
-		<h1>Thank you!</h1>
-	</div>
-</body>
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h2 id="jquery-follow-along">JQuery Follow Along</h2>
+<p>We are providing you the files to follow along with this task.  There are TODOs throughout the <code>index.html</code> file that you can modify as you watch the video.</p>
+<p>You can find the slides for this follow along <a href="http://cdn.cs50.net/2012/fall/seminars/jquery/jquery.pdf" target="_blank">here</a>.</p>
+<h3 id="class-2-task-jquery">Class 2 Task: JQuery</h3>
+<h4 id="instructions">Instructions</h4>
+<ol>
+<li>Create a new directory called <code>jquery</code> in <code>~/workspace/module8/followalongs</code>.</li>
+<li><code>cd</code> into <code>jquery</code> and create 2 new directories called <code>css</code> and <code>js</code></li>
+<li><code>cd</code> into <code>js</code> and run the following commands to download the 5 jquery files.
+<ul>
+<li><a href="jquery-1.8.2.min.js">jquery-1.8.2.min.js</a></li>
+<li><code>wget https://raw.githubusercontent.com/johnpolacek/scrolldeck.js/master/js/jquery-1.8.2.min.js</code></li>
+<li><a href="jquery.scrollTo-1.4.3.1.min.js">jquery.scrollTo-1.4.3.1.min.js</a> </li>
+<li><code>wget https://raw.githubusercontent.com/johnpolacek/scrolldeck.js/master/js/jquery.scrollTo-1.4.3.1.min.js</code></li>
+<li><a href="jquery.scrollorama.js">jquery.scrollorama.js</a> </li>
+<li><code>wget https://raw.githubusercontent.com/johnpolacek/scrolldeck.js/master/js/jquery.scrollorama.js</code></li>
+<li><a href="jquery.easing.1.3.js">jquery.easing.1.3.js</a> </li>
+<li><code>wget https://raw.githubusercontent.com/johnpolacek/scrolldeck.js/master/js/jquery.easing.1.3.js</code></li>
+<li><a href="jquery.scrolldeck.js">jquery.scrolldeck.js</a> </li>
+<li><code>wget https://raw.githubusercontent.com/johnpolacek/scrolldeck.js/master/js/jquery.scrolldeck.js</code></li>
+</ul></li>
+<li>Copy the 2 files (<code>style.css</code> and <code>normalize.css</code>) to <code>jquery/css</code> as well as the <code>index.html</code> file to <code>jquery</code> found below.
+<ul>
+<li><a href="style.css">style.css</a></li>
+<li><a href="normalize.css">normalize.css</a></li>
+</ul></li>
+<li>Copy the the <code>index.html</code> file to <code>jquery</code> found below.
+<ul>
+<li><a href="index.html">index.html</a></li>
+</ul></li>
+</ol>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
 </html>

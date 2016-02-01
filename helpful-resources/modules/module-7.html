@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h1 id="module-7">Module 7</h1>
+<h2 id="studios">Studios</h2>
+<p>We are providing instructions formatted as comments that you can copy over to the IDE.</p>
+<h3 id="class-1-studio-mult-table">Class 1 Studio: Mult Table</h3>
+<pre><code class="language-nohighlight">/**
+ * Filename: XXX.c
+ * Save in Folder: ~/workspace/module7/studios/mult-table
+ *
+ */</code></pre>
+<h3 id="class-2-studio-simple-site">Class 2 Studio: Simple Site</h3>
+<pre><code class="language-nohighlight">/**
+ * Filename: XXX.c
+ * Save in Folder: ~/workspace/module7/studios/simple-site
+ *
+ */</code></pre>
+<h2 id="follow-alongs">Follow Alongs</h2>
+<p>We are providing pseudocode for the follow along tasks so you can start writing the program before watching the video.  You will find instructions to complete the task in the video.
+The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused about what to do, you can always refer to the video for help.</p>
+<h3 id="class-1-task-froshims-0">Class 1 Task: Froshims-0</h3>
+<p>Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#using_php_for_web_programming" target="_blank">here</a> for the lecture notes for this follow along. There are two files for this follow along, <code>froshims-0.php</code> and <code>register-0.php</code>.</p>
+<h4 id="froshimsfroshims-0php">froshims/froshims-0.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: froshims-0.php
+  Save in Folder: ~/workspace/module7/followalongs/froshims
+
+  DOCTYPE declaration
+
+  HTML 
+      Head
+          Title Frosh IMs Title
+      Head
+      Body style="text-align: center;"
+        H1 Register for Frosh IMs H1
+        Form action="register-0.php" method="post"
+          Name: Input name="name" type="text"
+          LINEBREAK
+          Input name="name" type="text" Captain?
+          LINEBREAK
+          Input name="name" type="text" Less Comfortable
+          Input name="name" type="text" More Comfortable
+          LINEBREAK
+          Dorm:
+          Select name="dorm"
+            Option value="" Option
+            Option value="Apley Court" Apley Court Option
+            Option value="Canaday" Canaday Option
+            Option value="Grays" Grays Option
+            Option value="Greenough" Greenough Option
+            Option value="Hollis" Hollis Option
+            Option value="Holworthy" Holworthy Option
+            Option value="Hurlbut" Hurlbut Option
+            Option value="Lionel" Lionel Option
+            Option value="Matthews" Matthews Option
+            Option value="Mower" Mower Option
+            Option value="Pennypacker" Pennypacker Option
+            Option value="Stoughton" Stoughton Option
+            Option value="Straus" Straus Option
+            Option value="Thayer" Thayer Option
+            Option value="Weld" Weld Option
+            Option value="Wigglesworth" Wigglesworth Option
+          Select
+          LINEBREAK
+          Input type="submit" value="Register"
+        Form
+      Body
+   HTML 
+*/
+?&gt;</code></pre>
+<h4 id="froshimsregister-0php">froshims/register-0.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+   Filename: register-0.php
+   Save in Folder: ~/workspace/module7/followalongs/froshims
+
+   DOCTYPE declaration
+
+   HTML 
+      Head
+          Title Frosh IMs Title
+      Head
+      Body 
+        Pre PHP print_r($_POST); PHP Pre
+      Body
+   HTML 
+*/
+?&gt;</code></pre>
+<h3 id="class-1-task-froshims-1">Class 1 Task: Froshims-1</h3>
+<p>Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. There are two files for this follow along, <code>froshims-1.php</code> and <code>register-1.php</code>.  This follow along is very similar to <code>froshims-0</code>, but David introduces an external stylesheet that you will place in a new directory as well as some new <code>HTML</code> tags.</p>
+<ul>
+<li><a href="http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/froshims/bootstrap/css/bootstrap.min.css" target="_blank">Bootstrap.min.css</a>
+<ul>
+<li>Place this file here: <code>~/workspace/module7/followalongs/froshims/bootstrap/css</code></li>
+<li>You can use the command <code>wget http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/froshims/bootstrap/css/bootstrap.min.css</code></li>
+</ul></li>
+</ul>
+<h4 id="froshimsfroshims-1php">froshims/froshims-1.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+   Filename: froshims-1.php
+   Save in Folder: ~/workspace/module7/followalongs/froshims
+
+   DOCTYPE declaration
+
+   HTML 
+      Head
+          Link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"
+          Title Frosh IMs Title
+      Head
+      Body style="margin: 20px;"
+        H1 Register for Frosh IMs H1
+        Form action="register-1.php" method="post"
+          Fieldset
+            Label Name Label
+            Input name="name" type="text"
+            Label class="checkbox"
+              Input name="captain" type="checkbox"
+            Label
+            Label class="radio"
+              Input name="comfort" type="radio" value="less" Less Comfortable 
+            Label
+            Label class="radio"
+              Input name="comfort" type="radio" value="more" More Comfortable 
+            Label
+            Label
+              Select name="dorm"
+                Option value="" Option
+                Option value="Apley Court" Apley Court Option
+                Option value="Canaday" Canaday Option
+                Option value="Grays" Grays Option
+                Option value="Greenough" Greenough Option
+                Option value="Hollis" Hollis Option
+                Option value="Holworthy" Holworthy Option
+                Option value="Hurlbut" Hurlbut Option
+                Option value="Lionel" Lionel Option
+                Option value="Matthews" Matthews Option
+                Option value="Mower" Mower Option
+                Option value="Pennypacker" Pennypacker Option
+                Option value="Stoughton" Stoughton Option
+                Option value="Straus" Straus Option
+                Option value="Thayer" Thayer Option
+                Option value="Weld" Weld Option
+                Option value="Wigglesworth" Wigglesworth Option
+              Select
+            Label
+            Button class="btn-default" type="submit" Register Button
+          Fieldset
+        Form
+      Body
+   HTML 
+*/
+?&gt;</code></pre>
+<h4 id="froshimsregister-1php">froshims/register-1.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+   Filename: register-1.php
+   Save in Folder: ~/workspace/module7/followalongs/froshims
+
+   PHP
+    If (empty($_POST["name"]) OR empty($_POST["comfort"]) OR empty($_POST["dorm"])
+      Header "Location: Froshims-1.php"
+    exit
+  PHP
+
+   DOCTYPE declaration
+
+   HTML 
+      Head
+          Title Frosh IMs Title
+      Head
+      Body 
+        You are registered! (Well, not really.)
+      Body
+   HTML 
+*/
+?&gt;</code></pre>
+<h3 id="class-1-task-froshims-2">Class 1 Task: Froshims-2</h3>
+<p>Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#using_php_for_web_programming" target="_blank">here</a> for the lecture notes. There are two files for this follow along, <code>froshims-2.php</code> and <code>register-2.php</code>.</p>
+<p><code>froshims-2.php</code> is almost identical to <code>froshims-0.php</code>, and if you feel comfortable enough you can copy <code>froshims-0</code> using the command <code>cp froshims-0 froshims-2</code> and then make the change below. (Make sure you are in the <code>~/workspace/module7/followalongs/froshims</code> folder)</p>
+<ul>
+<li>Submit the form to <code>register-2.php</code> instead of <code>register-0.php</code>
+<ul>
+<li><code>Form action="register-2.php" method="post"</code></li>
+</ul></li>
+</ul>
+<h4 id="froshimsfroshims-2php">froshims/froshims-2.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+   Filename: froshims-2.php
+   Save in Folder: ~/workspace/module7/followalongs/froshims
+
+   DOCTYPE declaration
+
+   HTML 
+      Head
+          Title Frosh IMs Title
+      Head
+      Body style="text-align: center;"
+        H1 Register for Frosh IMs H1
+        Form action="register-2.php" method="post"
+          Name: Input name="name" type="text"
+          LINEBREAK
+          Input name="name" type="text" Captain?
+          LINEBREAK
+          Input name="name" type="text" Less Comfortable
+          Input name="name" type="text" More Comfortable
+          LINEBREAK
+          Dorm:
+          Select name="dorm"
+            Option value="" Option
+            Option value="Apley Court" Apley Court Option
+            Option value="Canaday" Canaday Option
+            Option value="Grays" Grays Option
+            Option value="Greenough" Greenough Option
+            Option value="Hollis" Hollis Option
+            Option value="Holworthy" Holworthy Option
+            Option value="Hurlbut" Hurlbut Option
+            Option value="Lionel" Lionel Option
+            Option value="Matthews" Matthews Option
+            Option value="Mower" Mower Option
+            Option value="Pennypacker" Pennypacker Option
+            Option value="Stoughton" Stoughton Option
+            Option value="Straus" Straus Option
+            Option value="Thayer" Thayer Option
+            Option value="Weld" Weld Option
+            Option value="Wigglesworth" Wigglesworth Option
+          Select
+          LINEBREAK
+          Input type="submit" value="Register"
+        Form
+      Body
+   HTML 
+*/
+?&gt;</code></pre>
+<h4 id="froshimsregister-2php">froshims/register-2.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+   Filename: register-2.php
+   Save in Folder: ~/workspace/module7/followalongs/froshims
+
+   DOCTYPE declaration
+
+   HTML 
+      Head
+          Title Frosh IMs Title
+      Head
+      Body 
+        PHP If (empty($_POST["name"]) OR empty($_POST["comfort"]) OR empty($_POST["dorm"])): PHP
+          You must provide your name, comfort, and dorm! Go &lt;a href="froshims-2.php"&gt;back&lt;/a&gt;.
+        PHP Else: PHP
+          You are registered! (Well, not really.)
+        PHP Endif PHP
+      Body
+   HTML 
+*/
+?&gt;</code></pre>
+<h3 id="class-1-task-froshims-3">Class 1 Task: Froshims-3</h3>
+<p>Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#using_php_to_send_texts" target="_blank">here</a> for lecture notes or <a href="https://manual.cs50.net/mail/" target="_blank">here</a> for the CS50 manual notes on sending mail. You will be using using a library called PHPMailer, which is pre-installed in the CS50 Appliance.  There are two files for this follow along, <code>froshims-3.php</code> and <code>register-3.php</code>.</p>
+<p><code>froshims-3.php</code> is almost identical to <code>froshims-0.php</code>, and if you feel comfortable enough you can copy <code>froshims-0</code> using the command <code>cp froshims-0 froshims-3</code> and then make the change below. (Make sure you are in the <code>~/workspace/module7/followalongs/froshims</code> folder)</p>
+<ul>
+<li>Submit the form to <code>register-3.php</code> instead of <code>register-0.php</code>
+<ul>
+<li><code>Form action="register-3.php" method="post"</code></li>
+</ul></li>
+</ul>
+<h4 id="froshimsfroshims-3php">froshims/froshims-3.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+   Filename: froshims-3.php
+   Save in Folder: ~/workspace/module7/followalongs/froshims
+
+   DOCTYPE declaration
+
+   HTML 
+      Head
+          Title Frosh IMs Title
+      Head
+      Body style="text-align: center;"
+        H1 Register for Frosh IMs H1
+        Form action="register-3.php" method="post"
+          Name: Input name="name" type="text"
+          LINEBREAK
+          Input name="name" type="text" Captain?
+          LINEBREAK
+          Input name="name" type="text" Less Comfortable
+          Input name="name" type="text" More Comfortable
+          LINEBREAK
+          Dorm:
+          Select name="dorm"
+            Option value="" Option
+            Option value="Apley Court" Apley Court Option
+            Option value="Canaday" Canaday Option
+            Option value="Grays" Grays Option
+            Option value="Greenough" Greenough Option
+            Option value="Hollis" Hollis Option
+            Option value="Holworthy" Holworthy Option
+            Option value="Hurlbut" Hurlbut Option
+            Option value="Lionel" Lionel Option
+            Option value="Matthews" Matthews Option
+            Option value="Mower" Mower Option
+            Option value="Pennypacker" Pennypacker Option
+            Option value="Stoughton" Stoughton Option
+            Option value="Straus" Straus Option
+            Option value="Thayer" Thayer Option
+            Option value="Weld" Weld Option
+            Option value="Wigglesworth" Wigglesworth Option
+          Select
+          LINEBREAK
+          Input type="submit" value="Register"
+        Form
+      Body
+   HTML 
+*/
+?&gt;</code></pre>
+<h4 id="froshimsregister-3php">froshims/register-3.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+   Filename: register-3.php
+   Save in Folder: ~/workspace/module7/followalongs/froshims
+
+   PHP
+      // require PHPMailer
+      Require "libphp-phpmailer/class.phpmailer.php"
+
+      // validate submission
+      If ( !empty($_POST["name"]) AND !empty($_POST["comfort"]) &amp;&amp; !empty($_POST["dorm"]))
+      {
+          // instantiate mailer
+          Declare a variable called mail and create an instance of the PHPMailer class  
+          // Hint: $instance = new Class();
+
+          // configure mailer use SMTP
+          Call the method IsSMTP() 
+          // Hint: $instance-&gt;Method();
+
+          Set member variable Host to "smtp.gmail.com"
+          // Hint: $instance-&gt;Member_Variable = "smtp.gmail.com";
+          Set member variable Password to "crimson50"
+          Set member variable Port to "587"
+          Set member variable SMTPAuth to true
+          Set member variable SMTPSecure to "tls"
+          Set member variable Username to "jharvard@cs50.net"
+
+          // set From:
+          Call the method SetFrom("jharvard@cs50.net");
+
+          // set To:
+          Call the method AddAddress("jharvard@cs50.net");
+
+          // set Subject:
+          Set member variable Subject to "registration"
+
+          // set body
+          Set member variable Body to  
+              "This person just registered:\n\n" .
+              "Name: " . $_POST["name"] . "\n" .
+              "Captain: " . $_POST["captain"] . "\n" .
+              "Comfort: " . $_POST["comfort"] . "\n" .
+              "Dorm: " . $_POST["dorm"]
+
+          // send mail
+          IF ($mail-&gt;Send() == false)
+          {
+              Print $mail-&gt;ErrInfo
+              exit;
+          }
+      }
+      else
+      {
+          Header "Location: froshims-3.php"
+          exit;
+      }
+    PHP
+
+   DOCTYPE declaration
+
+   HTML 
+      Head
+          Title Frosh IMs Title
+      Head
+      Body 
+        You are registered! (Really.)
+      Body
+   HTML 
+*/
+?&gt;</code></pre>
+<h3 id="class-1-task-counter">Class 1 Task: Counter</h3>
+<p>Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#mvc" target="_blank">here</a> for the lecture notes for this follow along.</p>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+    // enable sessions
+    Call the session_start() method
+
+    // check counter
+    If (isset($_SESSION["counter"]))
+        Declare a variable called counter and assign $_SESSION["counter"] to it
+    Else
+        counter = 0
+
+    // increment counter
+    Increment $_SESSION["counter"] by 1
+
+ DOCTYPE Declaration
+
+ HTML
+    Head
+        Title counter Title
+    Head
+    Body
+        You have visited this site &lt;?= $counter ?&gt; time(s). 
+    Body
+  HTML
+*/
+?&gt;</code></pre>
+<h3 id="class-2-task-mvc-0">Class 2 Task: MVC-0</h3>
+<p>Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#mvc" target="_blank">here</a> for the lecture notes for this follow along. There are 4 files for this follow along, <code>index.php</code> , <code>lectures.php</code>, <code>week0.php</code>, <code>week1.php</code>. </p>
+<p><strong>Before you start this follow along create a new directory in <code>~/workspace/module7/followalongs/</code> called <code>mvc</code>.  Then create a directory within the <code>mvc</code> directory called <code>0</code> to hold all of the files.</strong></p>
+<h4 id="mvc0indexphp">mvc/0/index.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: index.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/0
+
+  DOCTYPE declaration
+
+     HTML 
+        Head
+            Title CS50 Title
+        Head
+        Body 
+          H1 CS50 H1
+          UL
+            LI Link "lectures.php" Lectures Link LI
+            LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html" Syllabus Link LI
+          UL
+        Body
+     HTML 
+*/
+?&gt;</code></pre>
+<h4 id="mvc0lecturesphp">mvc/0/lectures.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: lectures.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/0
+
+  DOCTYPE declaration
+
+     HTML 
+        Head
+            Title Lectures Title
+        Head
+        Body 
+          H1 Lectures H1
+          UL
+            LI Link "week0.php" Lectures Link LI
+            LI Link "week1.php" Syllabus Link LI
+          UL
+        Body
+     HTML 
+*/
+?&gt;</code></pre>
+<h4 id="mvc0week0php">mvc/0/week0.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week0.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/0
+
+  DOCTYPE declaration
+
+     HTML 
+        Head
+            Title Week 0 Title
+        Head
+        Body 
+          H1 Week 0 H1
+          UL
+            LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf" Wednesday Link LI
+            LI Link "http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf" Friday Link LI
+          UL
+        Body
+     HTML 
+*/
+?&gt;</code></pre>
+<h4 id="mvc0week1php">mvc/0/week1.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week1.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/0
+
+  DOCTYPE declaration
+
+     HTML 
+        Head
+            Title Week 1 Title
+        Head
+        Body 
+          H1 Week 1 H1
+          UL
+            LI Link "http://cdn.cs50.net/2015/fall/lectures/1/m/week1m.pdf" Wednesday Link LI
+            LI Link "http://cdn.cs50.net/2015/fall/lectures/1/w/week1w.pdf" Friday Link LI
+          UL
+        Body
+     HTML 
+*/
+?&gt;</code></pre>
+<h3 id="class-2-task-mvc-1">Class 2 Task: MVC-1</h3>
+<p>Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#mvc" target="_blank">here</a> for the lecture notes for this follow along. There are 6 files for this follow along, <code>index.php</code>,<code>header.php</code>, <code>footer.php</code>,  <code>lectures.php</code>, <code>week0.php</code>, <code>week1.php</code>. David is factoring out some of the commonalities between the files.</p>
+<p><strong>Before you start this follow along create a new directory in <code>~/workspace/module7/followalongs/mvc</code> called <code>1</code> to hold all of the files.</strong></p>
+<h4 id="mvc1indexphp">mvc/1/index.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: index.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/1
+
+  PHP Require "header.php" PHP
+
+  UL
+    LI Link "lectures.php" Lectures Link LI
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html" Syllabus Link LI
+  UL
+
+  PHP Require "footer.php" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc1headerphp">mvc/1/header.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: header.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/1
+
+  DOCTYPE declaration
+
+     HTML (Opening tag)
+        Head
+            Title CS50 Title
+        Head
+        Body (Opening Tag)
+          H1 CS50 H1
+*/
+?&gt;</code></pre>
+<h4 id="mvc1footerphp">mvc/1/footer.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: footer.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/1
+
+        Body (Closing tag)
+     HTML (Closing tag)
+*/
+?&gt;</code></pre>
+<h4 id="mvc1lecturesphp">mvc/1/lectures.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: lectures.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/1
+
+  PHP Require "header.php" PHP
+
+  UL
+    LI Link "week0.php" Lectures Link LI
+    LI Link "week1.php" Syllabus Link LI
+  UL
+
+  PHP Require "footer.php" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc1week0php">mvc/1/week0.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week0.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/1
+
+  PHP Require "header.php" PHP
+
+  UL
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf" Wednesday Link LI
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf" Friday Link LI
+  UL
+
+  PHP Require "footer.php" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc1week1php">mvc/1/week1.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week1.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/1
+
+  PHP Require "header.php" PHP
+
+  UL
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/1/m/week1m.pdf" Wednesday Link LI
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/1/w/week1w.pdf" Friday Link LI
+  UL
+
+  PHP Require "header.php" PHP 
+*/
+?&gt;</code></pre>
+<h3 id="class-2-task-mvc-2">Class 2 Task: MVC-2</h3>
+<p>Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#mvc" target="_blank">here</a> for the lecture notes for this follow along. There are 7 files for this follow along, <code>helpers.php</code>,<code>header.php</code>, <code>footer.php</code>, <code>index.php</code>,  <code>lectures.php</code>,<code>week0.php</code>, <code>week1.php</code>. David will take care of those headings using <code>helpers.php</code>.</p>
+<p><strong>Before you start this follow along create a new directory in <code>~/workspace/module7/followalongs/mvc</code> called <code>2</code> to hold all of the files.</strong></p>
+<h4 id="mvc2helpersphp">mvc/2/helpers.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: helpers.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/2
+
+  PHP 
+
+    // Renders footer
+    Declare a function called renderFooter() with the argument $data = []
+      Extract $data
+      Require "footer.php"
+
+     // Renders header
+    Function renderHeader($data = [])
+      Extract $data
+      Require "header.php"
+
+  PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc2headerphp">mvc/2/header.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: header.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/2
+
+  DOCTYPE declaration
+
+     HTML (Opening tag)
+        Head
+            Title &lt;?= htmlspecialchars($title) ?&gt; Title
+        Head
+        Body (Opening Tag)
+          H1 &lt;?= htmlspecialchars($title) ?&gt; H1
+*/
+?&gt;</code></pre>
+<h4 id="mvc2footerphp">mvc/2/footer.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: footer.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/2
+
+        Body (Closing tag)
+     HTML (Closing tag)
+*/
+?&gt;</code></pre>
+<h4 id="mvc2indexphp">mvc/2/index.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: index.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/2
+
+  PHP Require "helpers.php" PHP
+
+  PHP Call the function renderHeader() using the input ["title" =&gt; "CS50"]) PHP
+    UL
+      LI Link "lectures.php" Lectures Link LI
+      LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html" Syllabus Link LI
+    UL
+
+  PHP Call the function renderFooter() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc2lecturesphp">mvc/2/lectures.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: lectures.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/2
+
+  PHP Require "helpers.php" PHP
+
+    PHP PHP Call the function renderHeader() using the input ["title" =&gt; "CS50"]) PHP PHP
+
+    UL
+      LI Link "week0.php" Lectures Link LI
+      LI Link "week1.php" Syllabus Link LI
+    UL
+
+    PHP Call the function renderFooter() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc2week0php">mvc/2/week0.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week0.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/2
+
+  PHP Require "helpers.php" PHP
+
+  PHP PHP Call the function renderHeader() using the input ["title" =&gt; "CS50"]) PHP PHP
+
+  UL
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf" Wednesday Link LI
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf" Friday Link LI
+  UL
+
+  PHP Call the function renderFooter() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc2week1php">mvc/2/week1.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week1.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/2
+
+  PHP Require "helpers.php" PHP
+
+  PHP PHP Call the function renderHeader() using the input ["title" =&gt; "CS50"]) PHP PHP
+
+  UL
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/1/m/week1m.pdf" Wednesday Link LI
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/1/w/week1w.pdf" Friday Link LI
+  UL
+
+  PHP Call the function renderFooter() using the input "footer" PHP 
+*/
+?&gt;</code></pre>
+<h3 id="class-2-task-mvc-3">Class 2 Task: MVC-3</h3>
+<p>Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#mvc" target="_blank">here</a> for the lecture notes for this follow along. There are 7 files for this follow along, <code>helpers.php</code>,<code>header.php</code>, <code>footer.php</code>, <code>index.php</code>, <code>lectures.php</code>,<code>week0.php</code>, <code>week1.php</code>. </p>
+<p><strong>Before you start this follow along create a new directory in <code>~/workspace/module7/followalongs/mvc</code> called <code>3</code> to hold all of the files.</strong></p>
+<h4 id="mvc3helpersphp">mvc/3/helpers.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: helpers.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/3
+
+  PHP 
+
+    // Renders template
+    Declare a function render() with two arguments:  $template and $data = []
+
+      Declare a variable called path and assign $template . ".php" to it
+      If ( File Existis ($path))
+        Extract $data
+        Require $path
+
+  PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc3headerphp">mvc/3/header.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: header.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/3
+
+  DOCTYPE declaration
+
+     HTML (Opening tag)
+        Head
+            Title &lt;?= htmlspecialchars($title) ?&gt; Title
+        Head
+        Body (Opening Tag)
+          H1 &lt;?= htmlspecialchars($title) ?&gt; H1
+*/
+?&gt;</code></pre>
+<h4 id="mvc3footerphp">mvc/3/footer.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: footer.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/3
+
+        Body (Closing tag)
+     HTML (Closing tag)
+*/
+?&gt;</code></pre>
+<h4 id="mvc3indexphp">mvc/3/index.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: index.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/3
+
+  PHP Require "helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "CS50"]  PHP
+    UL
+      LI Link "lectures.php" Lectures Link LI
+      LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html" Syllabus Link LI
+    UL
+  PHP Call the function render() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc3lecturesphp">mvc/3/lectures.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: lectures.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/3
+
+  PHP Require "helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "Lectures"]  PHP
+
+    UL
+      LI Link "week0.php" Lectures Link LI
+      LI Link "week1.php" Syllabus Link LI
+    UL
+
+  PHP Call the function render() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc3week0php">mvc/3/week0.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week0.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/3
+
+  PHP Require "helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "Week 0"]  PHP
+
+  UL
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf" Wednesday Link LI
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf" Friday Link LI
+  UL
+
+  PHP Call the function render() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc3week1php">mvc/3/week1.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week1.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/3
+
+  PHP Require "helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "Week 1"]  PHP
+
+  UL
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/1/m/week1m.pdf" Wednesday Link LI
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/1/w/week1w.pdf" Friday Link LI
+  UL
+
+  PHP Call the function render() using the input "footer" PHP 
+*/
+?&gt;</code></pre>
+<h3 id="class-2-task-mvc-4">Class 2 Task: MVC-4</h3>
+<p>Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#mvc" target="_blank">here</a> for the lecture notes for this follow along. There are 7 files for this follow along, <code>helpers.php</code>,<code>header.php</code>, <code>footer.php</code>, <code>index.php</code>, <code>lectures.php</code>,<code>week0.php</code>, <code>week1.php</code>. David will be reorganizing the project by moving some files into subdirectories. You will make a directory called <code>includes</code> for <code>helpers.php</code> and one called <code>templates</code> for <code>header.php</code> and <code>footer.php</code>.</p>
+<p><strong>Before you start this follow along create a new directory in <code>~/workspace/module7/followalongs/mvc</code> called <code>4</code> to hold all of the files.</strong></p>
+<h4 id="mvc4includeshelpersphp">mvc/4/includes/helpers.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: helpers.php
+   Save in Folder: ~/workspace/module7/followalongs/mvc/4/includes
+
+  PHP 
+
+    // Renders template
+    Declare a function render() with two arguments:  $template and $data = []
+
+      Declare a variable called path and assign __DIR__ . "/../templates/" . $template . ".php" to it
+      If ( File Existis ($path))
+        Extract $data
+        Require $path
+
+  PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc4templatesheaderphp">mvc/4/templates/header.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: header.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/4/templates
+
+  DOCTYPE declaration
+
+     HTML (Opening tag)
+        Head
+            Title &lt;?= htmlspecialchars($title) ?&gt; Title
+        Head
+        Body (Opening Tag)
+          H1 &lt;?= htmlspecialchars($title) ?&gt; H1
+*/
+?&gt;</code></pre>
+<h4 id="mvc4templatesfooterphp">mvc/4/templates/footer.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: footer.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/4/templates
+
+        Body (Closing tag)
+     HTML (Closing tag)
+*/
+?&gt;</code></pre>
+<h4 id="mvc4indexphp">mvc/4/index.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: index.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/4
+
+  PHP Require "includes/helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "CS50"]  PHP
+    UL
+      LI Link "lectures.php" Lectures Link LI
+      LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html" Syllabus Link LI
+    UL
+  PHP Call the function render() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc4lecturesphp">mvc/4/lectures.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: lectures.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/4
+
+  PHP Require "includes/helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "Lectures"]  PHP
+
+    UL
+      LI Link "week0.php" Lectures Link LI
+      LI Link "week1.php" Syllabus Link LI
+    UL
+
+  PHP Call the function render() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc4week0php">mvc/4/week0.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week0.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/4
+
+  PHP Require "includes/helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "Week 0"]  PHP
+
+  UL
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf" Wednesday Link LI
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf" Friday Link LI
+  UL
+
+  PHP Call the function render() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc4week1php">mvc/4/week1.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week1.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/4
+
+  PHP Require "includes/helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "Week 1"]  PHP
+
+  UL
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/1/m/week1m.pdf" Wednesday Link LI
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/1/w/week1w.pdf" Friday Link LI
+  UL
+
+  PHP Call the function render() using the input "footer" PHP 
+*/
+?&gt;</code></pre>
+<h3 id="class-2-task-mvc-5">Class 2 Task: MVC-5</h3>
+<p>Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder. Check <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#mvc" target="_blank">here</a> for the lecture notes for this follow along. There are 7 files for this follow along, <code>helpers.php</code>,<code>header.php</code>, <code>footer.php</code>, <code>index.php</code>, <code>lectures.php</code>,<code>week0.php</code>, <code>week1.php</code>. David will be reorganizing the project again by moving some files into subdirectories. You will make a directory called <code>public</code> for <code>index.php</code>, <code>lectures.php</code>,<code>week0.php</code>, and <code>week1.php</code>.  You will still have an <code>includes</code> folder for <code>helpers.php</code> and one called <code>templates</code> for <code>header.php</code> and <code>footer.php</code>.</p>
+<p>You can choose to copy <code>mvc/4</code> using the command <code>cp -r 4 5</code> when you are in the <code>~/workspace/module7/followalongs/mvc</code> directory.  You will only have to update the PHP require methods to ensure that the files <code>index.php</code>, <code>lectures.php</code>,<code>week0.php</code>, and <code>week1.php</code> have the correct paths and move <code>index.php</code>, <code>lectures.php</code>,<code>week0.php</code>, and <code>week1.php</code> into a new folder called <code>public</code>. The new statement will be:</p>
+<pre><code class="language-php">&lt;?php require("../includes/helpers.php"); ?&gt;
+</code></pre>
+<p><strong>If you do not copy the directory and use the pseudocode below, before you start this follow along create a new directory in <code>~/workspace/module7/followalongs/mvc</code> called <code>5</code> to hold all of the files.</strong></p>
+<h4 id="mvc5includeshelpersphp">mvc/5/includes/helpers.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: helpers.php
+   Save in Folder: ~/workspace/module7/followalongs/mvc/5/includes
+
+  PHP 
+
+    // Renders template
+    Declare a function render() with two arguments:  $template and $data = []
+
+      Declare a variable called path and assign __DIR__ . "/../templates/" . $template . ".php" to it
+      If ( file_exists($path))
+        Extract $data
+        Require $path
+
+  PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc5templatesheaderphp">mvc/5/templates/header.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: header.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/5/templates
+
+  DOCTYPE declaration
+
+     HTML (Opening tag)
+        Head
+            Title &lt;?= htmlspecialchars($title) ?&gt; Title
+        Head
+        Body (Opening Tag)
+          H1 &lt;?= htmlspecialchars($title) ?&gt; H1
+*/
+?&gt;</code></pre>
+<h4 id="mvc5templatesfooterphp">mvc/5/templates/footer.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: footer.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/5/templates
+
+        Body (Closing tag)
+     HTML (Closing tag)
+*/
+?&gt;</code></pre>
+<h4 id="mvc5publicindexphp">mvc/5/public/index.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: index.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/5/public
+
+  PHP Require "../includes/helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "CS50"]  PHP
+    UL
+      LI Link "lectures.php" Lectures Link LI
+      LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html" Syllabus Link LI
+    UL
+  PHP Call the function render() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc5publiclecturesphp">mvc/5/public/lectures.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: lectures.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/5/public
+
+  PHP Require "../includes/helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "Lectures"]  PHP
+
+    UL
+      LI Link "week0.php" Lectures Link LI
+      LI Link "week1.php" Syllabus Link LI
+    UL
+
+  PHP Call the function render() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc5publicweek0php">mvc/5/public/week0.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week0.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/5/public
+
+  PHP Require "../includes/helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "Week 0"]  PHP
+
+  UL
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf" Wednesday Link LI
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf" Friday Link LI
+  UL
+
+  PHP Call the function render() using the input "footer" PHP
+*/
+?&gt;</code></pre>
+<h4 id="mvc5publicweek1php">mvc/5/public/week1.php</h4>
+<pre><code class="language-nohighlight">&lt;?php
+/*
+  Filename: week1.php
+  Save in Folder: ~/workspace/module7/followalongs/mvc/5/public
+
+  PHP Require "../includes/helpers.php" PHP
+
+  PHP Call the function render() using the inputs "header" and ["title" =&gt; "Week 1"]  PHP
+
+  UL
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/1/m/week1m.pdf" Wednesday Link LI
+    LI Link "http://cdn.cs50.net/2015/fall/lectures/1/w/week1w.pdf" Friday Link LI
+  UL
+
+  PHP Call the function render() using the input "footer" PHP 
+*/
+?&gt;</code></pre>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
