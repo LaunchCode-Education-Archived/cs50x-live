@@ -51,13 +51,13 @@ for (int i = 0; i < n; i++)
 
 Here we have a "normal" loop, immediately preceeded by a typical, every-day variable declaration.
 
-So hopefully the unfamiliarity of that fancy `for-loop` no longer seems as scary.
+So hopefully the unfamiliarity of that fancy `for-loop` no longer seems as intimidating.
 
-But the fancy version provides a nice example of how to take advantage of the extremely flexible nature of `for-loops` and break out of the box of that vanilla version, 
+But, as long as we are here, the fancy version does provide a nice example of how to take advantage of the extremely flexible nature of `for-loops` for those times when we want to break out of the box of that vanilla version, 
 ```c 
 for (int i = 0; i < someAmount; i++)
 ```
-This version does work fine most of the time, and is certainly very useful as a point of reference. But for those times when we want to be cute, the `for-loop` construct gives us a lot of options:
+This version does work fine most of the time, and is certainly very useful as a point of reference. But if we want to be cute, the `for-loop` construct gives us a lot of options:
 * You can initialize one variable, or more than one, or none. 
 * Your condition can be anything, so long as it evaluates to `true` or `false`.
 * The modification step can be anything, not just `i++`.
