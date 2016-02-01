@@ -11,7 +11,7 @@ Today's class will include a discussion about ...
 1. Lecture / Q&A on the following topics
   * Topic 1
   * Topic 2
-2. Studio: [Studio Name]()
+2. Studio: [Word Grid Stretch](../studios/word-grid-stretch)
 
 ### Homework
 1. [Class 2 Prep](../class2-prep) 
