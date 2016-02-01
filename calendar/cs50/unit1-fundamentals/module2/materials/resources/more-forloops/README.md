@@ -59,8 +59,9 @@ for (int i = 0; i < someAmount; i++)
 ```
 This version does work fine most of the time, and is certainly very useful as a point of reference. But if we want to be cute, the `for-loop` construct gives us a lot of options:
 * You can initialize one variable, or more than one, or none. 
+* You can name your variables whatever you want, just like a normal variable declaration
 * Your condition can be anything, so long as it evaluates to `true` or `false`.
-* The modification step can be anything, not just `i++`.
+* Your modification step(s) can be anything, not just `i++`.
 
 For example:
 
@@ -84,7 +85,7 @@ for (int i = 0; i < 100; i += 3)
 printf("Two things are heading towards each other!\n");
 
 // i goes up, j goes down (twice as fast), until they meet (or cross)
-for (int wizard = 0, j = 100; i <= j; i++, j -= 2)
+for (int i = 0, j = 100; i <= j; i++, j = j - 2)
 {
     int distance = j - i;
     printf("The distance between the two things is %i\n", distance);
