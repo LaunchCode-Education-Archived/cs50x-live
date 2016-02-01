@@ -53,7 +53,7 @@ Here we have a "normal" loop, immediately preceeded by a typical, every-day vari
 
 So hopefully the unfamiliarity of that fancy `for-loop` no longer seems as intimidating.
 
-But, as long as we are here, the fancy version does provide a nice example of how to take advantage of the extremely flexible nature of `for-loops` for those times when we want to break out of the box of that vanilla version, 
+But, as long as we are here, the fancy version does provide a nice example of how to take advantage of the extremely flexible nature of `for-loops` for those times when we want to break out of the box of our vanilla version, 
 ```c 
 for (int i = 0; i < someAmount; i++)
 ```
