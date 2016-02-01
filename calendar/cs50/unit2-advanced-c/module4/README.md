@@ -8,7 +8,7 @@
 
 Module 4 introduces a number of important topics:
 
-* **pointers and memory management** TODO
+* **pointers and memory management**: Here we will peel back the curtain on how data is stored in the computer's memory. We will learn new syntax for moving back and forth between a normal value stored in a variable, and a *pointer* to the memory addresses where that value is stored.
 * **file i/o** allows you interact with saved files on the computer. I/O stands for in/out: you will learn both how to read in data from a file, and write out new data to a file.
 * **structs** are a way of creating new data types. So far we've seen "primitive" types like `int`, `float` and `char`, as well as larger collection types like `array`. With structs, you can represent more complex custom types by combining these primitives together into clusters.
 
