@@ -20,7 +20,7 @@ Read | Resource | [Value vs Address](../resources/value-vs-address) | A quick re
 #### Pointers
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Watch | Lecture | <a href="https://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=1545" target="_blank">Week 4 / Continued</a> | Just watch the second half. We'll do the first half in Class 2 Prep.
+Watch | Lecture | <a href="https://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=1545" target="_blank">Week 4 / Continued</a> | Just watch the second half. We will do the first half later, in Class 2 Prep.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers" target="_blank">Week 4, continued / Strings and Pointers</a> |
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=yOdd3uYC--A&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=2" target="_blank">Pointers</a> | prereqs: hex (a little)
 Study | CS50 Study | <a href="https://study.cs50.net/pointers" target="_blank">pointers</a>
