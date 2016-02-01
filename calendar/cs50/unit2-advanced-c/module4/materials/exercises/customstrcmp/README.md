@@ -22,3 +22,5 @@ String 1?: hello
 String 2?: hello
 Bingo! The strings are equal!
 ```
+
+Just like in the [pointers](https://www.youtube.com/watch?v=1PoFw5_p0xk&index=6&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg) Walkthrough, you could do this using square-bracket notation (e.g. `[]`), treating the `string` as an `array` of `chars`. But don't do that. Instead, use pointer notation to treat the `string` as a `char*`. 
