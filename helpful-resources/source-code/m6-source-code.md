@@ -558,7 +558,7 @@ body
 }
 ```
 
-###### css/css-2.css
+###### css/css-2.html
 ```html
 <!DOCTYPE html>
 

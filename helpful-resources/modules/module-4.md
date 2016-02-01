@@ -3,38 +3,119 @@
 ##Studios
 We are providing instructions formatted as comments that you can copy over to the IDE.
 
-###Class X Studio: Word Grid 
-Revenge of the word grid
+###Class X Studio: Word Grid Stretch
+You will only submit 1 file, `wordgridstretch.c`, but there are formatted instructions to create `stretchvertical.c` and `stretchhorizontal.c` to help you to complete the Studio.
 ```nohighlight
-$ ./wordgridsequel
-Gimme a word and a stretch factor: Hello Chees 3
+ /**
+  * Filename: wordgridstretch.c
+  * Save in Folder: ~/workspace/module4/studios/wordgridstretch
+  *
+  * The word grid is back with a vengence!
+  *
+  * Just like last week, this studio involves taking some strings from the user, and then printing them back out in a transformed way.
+  *
+  * Today, your program will apply a "stretch" factor to the grid of letters, making it larger.
+  * 
+  * It is easiest to explain via example. The finished program should behave like this:
+  * 
+  * $ ./wordgridstretch goat crab bear
+  * Your word grid currently looks like this:
+  * goat
+  * crab
+  * bear
+  * Now I will stretch it out. How much should I stretch by?
+  * 3
+  * After stretching by 3, you now have this!
+  * gggoooaaattt
+  * gggoooaaattt
+  * gggoooaaattt
+  * cccrrraaabbb
+  * cccrrraaabbb
+  * cccrrraaabbb
+  * bbbeeeaaarrr
+  * bbbeeeaaarrr
+  * bbbeeeaaarrr
+  * That's what we mean by "making the grid larger".
+  * 
+  * Validation
+  * 
+  * Don't forget to validate the user's input. Specifically, you'll want to ensure:
+  * 
+  *   1. that the user gave you exactly 3 words as command-line arguments
+  *   2. that those words are all the same length
+  *   3. that the user provides a non-negative stretch factor
+  *  
+  * Submitting
+  * 
+  * You don't have to submit stretchvertical.c and stretchhorizontal.c. You only have to submit wordgridstretch.c.
+  */
+ ```
+Break it Down
 
-You started with this word grid:
-Hello
-Chees
+To get started, we suggest you try two simpler versions first, `stretchvertical.c` and `stretchhorizontal.c`.
 
-Now you have this:
-HHHeeellllllooo
-HHHeeellllllooo
-HHHeeellllllooo
-CCChhheeeeeesss
-CCChhheeeeeesss
-CCChhheeeeeesss
+A program that just stretches the grid vertically:
+```nohighlight
+ /**
+  * A program that just stretches the grid vertically:
+  * 
+  * $ ./stretchvertical goat crab bear
+  * Your word grid currently looks like this:
+  * goat
+  * crab
+  * bear
+  * Now I will stretch it out vertically. How much should I stretch by?
+  * 3
+  * After stretching by 3, you now have this!
+  * goat
+  * goat
+  * goat
+  * crab
+  * crab
+  * crab
+  * bear
+  * bear
+  * bear
+  *
+  */
+ ```
+A program that just stretches the grid horizontally:
+```nohighlight
+ /**
+  * $ ./stretchhorizontal goat crab bear
+  * Your word grid currently looks like this:
+  * goat
+  * crab
+  * bear
+  * Now I will stretch it out horizontally. How much should I stretch by?
+  * 3
+  * After stretching by 3, you now have this!
+  * gggoooaaattt
+  * cccrrraaabbb
+  * bbbeeeaaarrr
+  * Only after writing these little badboys should you start to think about how to combine both steps into one big badderboy.
+  * 
+  */
 ```
 
 ###Class X Studio: ASCII Art
 
 ```nohighlight
+ /**
+  * Filename: xxx.c
+  * Save in Folder: ~/workspace/module4/studios/xxx
+  * 
+  */
 
 ```
 
 ## Follow Alongs
 We are providing pseudocode for the follow along tasks so you can start writing the program before watching the video.  You will find instructions to complete the task in the video.
-The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused :confused:  about what to do, you can always refer to the video for help.
+The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused about what to do, you can always refer to the video for help.
 
 ###Class 1 Task: NoSwap
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: noswap.c
   * Save in Folder: ~/workspace/module4/followalongs/noswap
@@ -65,7 +146,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ###Class 1 Task: Compare-0
 
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: compare-0.c
   * Save in Folder: ~/workspace/module4/followalongs/compare
@@ -93,7 +174,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
 ### Class 1 Task: Compare-1
 This is a continuation of Compare-0, please follow the instructions below.  You will use terminal commands to copy the `compare-0.c` file.  Make sure you are in the `module4/followalongs/compare` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```c
+```nohighlight
  /**
   * This is a continuation of the last program and you should copy compare-0.c file so you do not have to 
   * write the whole program. Use the command below, open up compare-1.c and watch the video
@@ -107,7 +188,7 @@ This is a continuation of Compare-0, please follow the instructions below.  You 
 
 ### Class 1 Task: Pointers
 <a href="https://www.youtube.com/watch?v=yOdd3uYC--A&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=2" target="_blank">Pointers</a> refresher. Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: pointers.c
   * Save in Folder: ~/workspace/module4/followalongs/pointers
@@ -131,7 +212,7 @@ This is a continuation of Compare-0, please follow the instructions below.  You 
 ```
 ### Class 1 Task: Sizeof
 
-```c
+```nohighlight
  /**
   * Filename: sizeof.c
   * Save in Folder: ~/workspace/module4/followalongs/sizeof
@@ -154,7 +235,7 @@ This is a continuation of Compare-0, please follow the instructions below.  You 
 ###Class 1 Task: Copy-0
 
 Copy the pseudocode to the CS50 IDE and use the information below to name the file and place it in the correct folder.
-```c
+```nohighlight
  /**
   * Filename: copy-0.c
   * Save in Folder: ~/workspace/module4/followalongs/copy
@@ -183,7 +264,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
 ```
 ### Class 1 Task: Copy-1
 This is a continuation of Copy-0, please follow the instructions below.  You will use terminal commands to copy the `copy-0.c` file.  Make sure you are in the `module4/followalongs/copy` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```c
+```nohighlight
  /**
   * This is a continuation of the last program and you should copy copy-0.c file so you do not have to 
   * write the whole program. Use the command below, open up copy-1.c and watch the video
@@ -197,7 +278,7 @@ This is a continuation of Copy-0, please follow the instructions below.  You wil
 
 ### Class 2 Task: Structs-0
 You can find a structs refresher <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#structs" target="_blank">here.</a><br>For this FollowAlong there will be 2 files that are created, `structs.h` and `structs-0.c`.  You will create both files in the same folder `~/workspace/module4/followalongs/structs`. You will use the `structs.h` file for all of the structs follow alongs and will not have to copy it since it will be in the same folder as the rest of the follow alongs.  
-```c
+```nohighlight
 /**
   * Filename: structs.h
   * Save in Folder: ~/workspace/module4/followalongs/structs
@@ -212,7 +293,7 @@ You can find a structs refresher <a href="http://cdn.cs50.net/2015/fall/lectures
   * Hint: <datatype>;
   */
 ```
-```c
+```nohighlight
  /**
   * Filename: structs-0.c
   * Save in Folder: ~/workspace/module4/followalongs/structs
@@ -243,15 +324,43 @@ You can find a structs refresher <a href="http://cdn.cs50.net/2015/fall/lectures
 ```
 
 ### Class 2 Task: Structs-1
-This is a continuation of Structs-0, please follow the instructions below.  You will use terminal commands to copy the `structs-0.c` file.  Make sure you are in the `module4/followalongs/structs` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.) You can also review <a href="../Supplementary-Resources/terminal-commands.html" target="_blank">Terminal Commands</a>.
-```c
+You can find a structs refresher <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#structs" target="_blank">here.</a>
+```nohighlight
  /**
-  * This is a continuation of the last program and you should copy structs-0.c so you do not have to 
-  * write the whole program. Use the command below, open up structs-1.c and watch the video
-  * to complete the task. 
-  * Make sure you are in this Folder: ~/workspace/module4/followalongs/structs
+  * Filename: structs-1.c
+  * Save in Folder: ~/workspace/module4/followalongs/structs
   * 
-  *      cp structs-0.c structs-1.c
+  * Include the stdio library
+  * Include the cs50 library
+  * Include the string library
+  * Include the stdlib library
+  *
+  * Include the "structs.h" library 
+  * Remember: To include a header file from the current directory the library name must be enclosed in double quotes.
+  *
+  * Define a constant named STUDENTS with a value of 3
+  * Hint: #define <NAME> value
+  *
+  * Add main method
+  *   Declare an array called students of type student and specify the size as 3 using the constant STUDENTS. 
+  *   (Remember: STUDENTS value is 3)
+  *   Hint: <type> <arrayname>[<SIZE>];
+  *
+  *   For ( i = 0; i < STUDENTS; i++ )
+  *       Print "Student's name: "
+  *       students[i] name = GetString()
+  *
+  *       Print "Student's house: "
+  *       students[i] house = GetString()
+  *       
+  *   
+  *
+  *   For ( i = 0; i < STUDENTS; i++ )
+  *       Free students[i] name
+  *       Free students[i] house
+  * 
+  * You will find instructions to complete this task in the video. 
+  * You will be modifying this code as you go along.
   *
   */
 ```

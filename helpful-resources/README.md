@@ -26,6 +26,8 @@ There are links to resources listed below for your convenience.
   * List of all of the topics you will encounter throughout the course. (There are links to each Module / Class they are located in)
 * [Terminology](course-resources/terminology.html)
   * List of some terms used in the course.
+* [C Reference](Supplementary-Resources/c-language.html)
+* [PHP Reference](php/php-syntax.html)
 * Source Code: ([Module 1](source-code/m1-source-code.html), [Module 2](source-code/m2-source-code.html), [Module 3](source-code/m3-source-code.html), [Module 4](source-code/m4-source-code.html), [Module 5](source-code/m5-source-code.html), [Module 6](source-code/m6-source-code.html), [Module 7](source-code/m7-source-code.html), [Module 8](source-code/m8-source-code.html))
   * The source code for each followalong you will complete.  We recommend that you try to complete the task prior to viewing the code.
 

@@ -4,7 +4,7 @@
 We are providing instructions formatted as comments that you can copy over to the IDE.
 
 ### Class 1 Studio: Word-Grid
-```c
+```nohighlight
 /**
   * Filename: wordgrid.c
   * Save in Folder: ~/workspace/module3/studios/wordgrid
@@ -46,7 +46,7 @@ We are providing instructions formatted as comments that you can copy over to th
 This Studio will consist of 4 separate files that will all be saved in one folder called `multiplication_and_exponents` in the `workspace/module3/studios` directory.  You can cd into this directory and then use the command `mkdir multiplication_and_exponents`. 
 
 If you decide to copy parts of these instructions to place into each file, please remember that comments follow this structure:
-```c
+```nohighlight
 // Single line comment
 /*
  Multi-line comments
@@ -62,7 +62,7 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
 * PART 4: You will save in a file called `expt.c`.  The starter code is provided in PART 4 **(there are no asterisks `*` preceding the code that will be copied to the file)** or you can copy it from [here](../../calendar/cs50/unit1-fundamentals/module3/materials/studios/multiplication-exponent/expt.html).  If you need help please ask! :smile:  
 
 
-```c
+```nohighlight
 /**
  * PART 2:
  * File: mult.h
@@ -83,7 +83,7 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  *
  */
 ```
-```c
+```nohighlight
 /**
  * PART 3:
  * File: mult.c
@@ -106,7 +106,7 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
  * 
  */
 ```
-```c
+```nohighlight
 /**
  * 
  * PART 4:
@@ -161,11 +161,11 @@ This studio is broken into 4 parts, which can be copied to the top of your file 
 
 ## Follow Alongs
 We are providing pseudocode for the follow along tasks so you can start writing the program before watching the video.  You will find instructions to complete the task in the video.
-The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused :confused:  about what to do, you can always refer to the video for help.
+The pseudocode will be formatted as comments so you can copy it over to the CS50 IDE. And if you are ever confused about what to do, you can always refer to the video for help.
 
 ### Class 2 Task: Sigma-0
 
-```c
+```nohighlight
  /**
   * Filename: sigma-0.c
   * Save in Folder: ~/workspace/module3/followalongs/sigma
@@ -189,7 +189,7 @@ The pseudocode will be formatted as comments so you can copy it over to the CS50
 
 ### Class 2 Task: Sigma-1
 This is a continuation of Sigma-0, please follow the instructions below. You will use terminal commands to copy the `sigma-0.c` file. Make sure you are in the `module3/followalongs/sigma` folder in the terminal window. (Hint: You can use the terminal command `pwd` to see the current directory you are working in.)
-```c
+```nohighlight
  /**
   * This is a continuation of the last program and you should copy sigma-0.c so you do not have to 
   * write the whole program. Use the command below, open up sigma-1.c and watch the video
