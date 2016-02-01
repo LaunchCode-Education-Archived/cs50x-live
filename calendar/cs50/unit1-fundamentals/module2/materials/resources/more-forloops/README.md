@@ -34,7 +34,11 @@ in which we initialize just one variable, `i`, and embed `strlen(my_str)` direct
 
 But the second way is "worse", because it is less efficient. Do you remember why? The reason is that the code inside the condition gets executed every time around, and so we end up calling the `strlen` function a bunch of times, while the first `for-loop` only needs to call `strlen` once.
 
-This explanation probably makes sense in a vague way, but nevertheless, you might still feel a little hazy on the details, because even normal `for-loop` syntax is very dense and cryptic, and when you saw the two variables declared, if youre like me, you said "Wait, what is this? That looks wrong. Can you do that?"
+This explanation probably makes sense in a vague way, but nevertheless, you might still feel a little hazy on the details. The normal syntax for `for-loop`s is already very dense and cryptic, so if you are like me, you probably just memorized 
+```c 
+for (int i = 0; i < someAmount; i++)
+```
+and now anything that deviates from that standard vanilla version makes you think: *Wait, what is this? That looks wrong. Can you do that?*
 
 In fact, using fancy `for-loop` tricks is not even necessary to solve this problem. We can still loop over a string without having to call `strlen` multiple times, in a much more straitforward way:
 ```c
