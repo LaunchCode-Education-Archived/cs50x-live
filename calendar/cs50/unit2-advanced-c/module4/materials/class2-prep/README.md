@@ -15,8 +15,10 @@ Study | CS50 Study | <a href="https://study.cs50.net/?toc=pointers,malloc" targe
 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
- Watch  | Lecture | <a href="http://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=0" target="_blank">Week 4, continued</a> |  We already watched the second half, so you can stop after 25 minutes (but you may find a re-watch to be beneficial in this case).
+ Watch  | Lecture | <a href="http://www.youtube.com/embed/uYiVtZHns-A?autoplay=1&rel=0&start=0" target="_blank">Week 4, continued</a> |  We already watched the second half, so you can stop after 25 minutes (but feel free to re-watch if you think it will be beneficial).
+ 
 ***
+
 #### Files, Hex
 
 Task | Resource Type | Link | Instructions
