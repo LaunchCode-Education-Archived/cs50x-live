@@ -34,7 +34,7 @@ in which we initialize just one variable, `i`, and embed `strlen(my_str)` direct
 
 But the second way is "worse", because it is less efficient. Do you remember why? The reason is that the code inside the condition gets executed every time around, and so we end up calling the `strlen` function a bunch of times, while the first `for-loop` only needs to call `strlen` once.
 
-This explanation probably makes sense in a vague way, but nevertheless, you might still feel a little hazy on the details. The normal syntax for `for-loop`s is already very dense and cryptic, so if you are like me, you probably just memorized 
+This explanation probably makes sense in a vague way, but nevertheless, you might still feel a little hazy on the details. The normal syntax for `for-loops` is already very dense and cryptic, so if you are like me, you probably just memorized 
 ```c 
 for (int i = 0; i < someAmount; i++)
 ```
@@ -53,7 +53,11 @@ Here we have a "normal" loop, immediately preceeded by a typical, every-day vari
 
 So hopefully the unfamiliarity of that fancy `for-loop` no longer seems as scary.
 
-But the fancy version provides a nice example of how to take advantage of the extremely flexible nature of `for-loops` and break out of the box of `for(int i = 0; i < something; i++)`. The `for-loop` construct gives us a lot of options:
+But the fancy version provides a nice example of how to take advantage of the extremely flexible nature of `for-loops` and break out of the box of that vanilla version, 
+```c 
+for (int i = 0; i < someAmount; i++)
+```
+This version does work fine most of the time, and is certainly very useful as a point of reference. But for those times when we want to be cute, the `for-loop` construct gives us a lot of options:
 * You can initialize one variable, or more than one, or none. 
 * Your condition can be anything, so long as it evaluates to `true` or `false`.
 * The modification step can be anything, not just `i++`.
@@ -77,10 +81,13 @@ for (int i = 0; i < 100; i += 3)
 ```
 
 ```c
-// i goes up, j goes down (twice as fast), until they meet
-for (int i = 0, j = 100; i <= j; i++, j -= 2)
+printf("Two things are heading towards each other!\n");
+
+// i goes up, j goes down (twice as fast), until they meet (or cross)
+for (int wizard = 0, j = 100; i <= j; i++, j -= 2)
 {
     int distance = j - i;
     printf("The distance between the two things is %i\n", distance);
 }
+printf("And now the two things have crossed paths\n");
 ```
