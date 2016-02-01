@@ -20,7 +20,9 @@ $ ./clc 2.2 3.3
 Result: 5.500000000
 ```
 
-Just like in the <a href="../previous" target="_blank">previous</a> exercise (pun intended), you will need to convert the CL args from `string`s into numbers. But in this case, you need your numbers to be `float`s instead of `int`s. Luckily there is another function just like `atoi`, called `atof`, which, rather than returning an `int`, returns a `float`.
+Notice how, just like in the <a href="../previous" target="_blank">previous</a> exercise (pun intended), you will need to convert the CL args from `string`s into numbers. But in this case, you need your numbers to be `float`s instead of `int`s. 
+
+Luckily there is another function just like `atoi`, called `atof`, which, rather than returning an `int`, returns a `float`.
 
 ```c
 float money = atof("4.6");
