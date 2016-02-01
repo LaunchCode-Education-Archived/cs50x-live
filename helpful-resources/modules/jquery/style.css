@@ -1,0 +1,250 @@
+body {
+	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-size: 30px;
+	font-size: 3rem;
+	text-align: center;
+	background-color: #303030;
+	color: white;
+}
+
+h1 {
+	font-size: 180px;
+	font-size: 18rem;
+	font-family: 'Calisto MT';
+	margin: 0;
+	text-shadow: 2px 5px 5px black;
+}
+
+h2 {
+	margin: -40px 0px 20px 0px;
+	text-shadow: 1px 3px 3px black;
+	font-size: 6rem;
+}
+
+p {
+	width: 80%;
+	margin: 20px auto;
+	margin: 2rem auto;
+	text-shadow: 0px 1px 1px black;
+	line-height: 1.2;
+}
+
+ul {
+	margin: 0 auto;
+	text-align: left;
+	display: inline-block;
+	font-size: 4rem;
+	line-height: 5rem;
+	max-width: 900px;
+}
+
+li ul {
+	font-size: 3rem;
+	display: block;
+}
+
+
+a, a:visited {
+	color: #ff612d;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+pre {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+blockquote {
+	text-align: left;
+	width: 70%;
+	margin: 10px auto;
+	margin: 1rem auto;
+	background: #fff;
+	border: solid 3px #959db5;
+	padding: 0 40px;
+	padding: 0 4rem;
+	border-radius: 6px;
+	border-radius: .6rem;
+	color: black;
+}
+
+.ftw {
+	color: red;
+	text-shadow: 2px 2px blue;
+	background-color: black;
+}
+
+.small {
+	font-size: 2rem;
+}
+
+.float {
+	float: left;
+	width: 50%;
+}
+
+.columns {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*----------------------------------------  HEADER  */
+
+#header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: #e33f20;
+	padding: 5px;
+	padding: .5rem;
+	opacity: .9;
+	box-shadow: 0px 1px 2px 1px black;
+}
+
+.nav-button {
+	padding: 10px;
+	padding: 1rem;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.current, a.nav-button:hover {
+	color: #303030;
+	text-decoration: none;
+}
+
+#resize-graphic {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	opacity: .6;
+}
+
+/*----------------------------------------  SLIDES  */
+
+.slide {
+	margin: 0 auto;
+	margin-bottom: 80px;
+	width: 99%;
+	padding: 120px 0;
+	padding: 12rem 0;
+	height: 40rem;
+}
+
+.center {
+	vertical-align: center;
+}
+
+button {
+	margin-top: 50px;
+	border-radius: 10px;
+}
+
+#boxId {
+	height: 250px;
+	width: 250px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 50px;
+	box-shadow: 4px 4px 8px black;
+}
+
+#boxId2 {
+	height: 50px;
+	width: 250px;
+	background-color: white;
+	margin: 0 auto;
+	box-shadow: 4px 4px 8px black;
+}
+
+#mealInfoId {
+	margin: 0 auto;
+	overflow: scroll;
+	font-size: 2rem;
+	background-color: white;
+	color: black;
+	height: 250px;
+	width: 300px;
+}
+
+/*------------------------  BASE-REM SIZING  */
+
+
+@media (min-width: 1520px) {
+	html {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 1400px) {
+	html {
+		font-size: 11px;
+	}
+}
+
+/* target screen width  */
+@media (max-width: 1280px) {
+	html {
+		font-size: 10px;
+	}
+}
+	
+@media (max-width: 1160px) {
+	html {
+		font-size: 9px;
+	}
+}
+	
+@media (max-width: 1040px) {
+	html {
+		font-size: 8px;
+	}
+}
+	
+@media (max-width: 920px) {
+	html {
+		font-size: 7px;
+	}
+}
+	
+@media (max-width: 800px) {
+	html {
+		font-size: 6px;
+	}
+}
+	
+@media (max-width: 680px) {
+	html {
+		font-size: 5px;
+	}
+}
+	
+@media (max-width: 560px) {
+	html {
+		font-size: 4px;
+	}
+}
+	
+@media (max-width: 440px) {
+	html {
+		font-size: 3px;
+	}
+}
+
+@media (max-width: 320px) {
+	html {
+		font-size: 3px;
+	}
+}
