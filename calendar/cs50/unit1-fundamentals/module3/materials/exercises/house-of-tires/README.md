@@ -10,10 +10,10 @@ We have a similar store that sells tires by the crate, but their storefront prog
 To do this, you should:
 
 0. Copy all these files into your IDE:
-  * [houseOfPizza.c](./houseOfPizza.html)
-  * [houseOfTires.c](./houseOfTires.html)
-  * [mathHelper.h](./mathHelperHeader.html)
-  * [mathHelper.c](./mathHelper.html)
+  * [houseofpizza.c](./houseofpizza.html)
+  * [houseoftires.c](./houseoftires.html)
+  * [mathhelperheader.h](./mathhelperheader.html)
+  * [mathhelper.c](./mathhelper.html)
   * [Makefile](./Makefile.html)
 1. Cut the `numberOfContainers` function from `houseOfPizza.c` into `mathHelper.c`, so we can use it in both `houseOfPizza.c` and `houseOfTires.c`
 2. Add an appropriate function prototype to `mathHelper.h`

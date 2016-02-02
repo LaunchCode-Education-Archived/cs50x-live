@@ -66,7 +66,7 @@ Do | Exercise | [Delmar House of Tires](../exercises/house-of-tires) | Here we a
 ##### Bitwise Operators
 Task | Resource Type | Link | Instructions
 -----|------|------|-------------  
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#bitwise_operators" target="_blank">Week 3, continued / Bitwise Operators</a> | We're actually not quite sure where you'll use this during CS50, but according to the notes, you will somehow... In any case, it's cool!
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes3w/notes3w.html#bitwise_operators" target="_blank">Week 3, continued / Bitwise Operators</a> | THIS IS OPTIONAL. Check out these notes for a brief discussion of Bitwise Operators, which allow you to manipulate values at the level of individual bits (1s and 0s). Neat stuff!
 
 ***
 

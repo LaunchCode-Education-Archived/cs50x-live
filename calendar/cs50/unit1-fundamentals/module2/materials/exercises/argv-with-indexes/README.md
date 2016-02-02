@@ -12,10 +12,11 @@ Write a program that prints each of its command line arguments on its own line, 
 The program should run like this:
 ```nohighlight
 $ ./argvindex I love the cards
-Argument 0: I
-Argument 1: love
-Argument 2: the
-Argument 3: cards
+Argument 0: ./argvindex
+Argument 1: I
+Argument 2: love
+Argument 3: the
+Argument 4: cards
 ```
 
 If you need help, this program is very similar to the one in <a href="https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">this video</a>, so look there first!
