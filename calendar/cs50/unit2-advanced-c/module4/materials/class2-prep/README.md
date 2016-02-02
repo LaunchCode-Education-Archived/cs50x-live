@@ -33,7 +33,6 @@ Do | Exercise | [Restaurant Menu](../exercises/restaurant-menus) | Implement a m
 
 TODO for files:
 * simple `createfile.c` exercise
-* simple exercise for `fgetc` or `fgets`
 * simple exercises for `fread` and `fwrite`
 * talk about how they are different types of functions
   * `fget` simply returns a thing
@@ -42,8 +41,9 @@ TODO for files:
   * fseek
   * ftell
   * exercise idea: "halfway point"?
-* why is the type `FILE` all caps?
 * tell them they need to refresh in the sidebar to see new files show up
+* talk about EOF and feof
+  * doesn't quite work as intended, see [this](https://youtu.be/KwvObCA04dU?list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&t=448)
 
 ***
 
