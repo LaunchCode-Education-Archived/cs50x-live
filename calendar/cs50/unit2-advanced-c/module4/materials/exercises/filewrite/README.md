@@ -36,10 +36,10 @@ Which menu item would you like (0, 1, 2, or 3)?
 
 The resulting output file should be look like this:
 ```nohighlight
-Fries
 Cheeseburger
-Water
 Fries
+Water
+Cheeseburger
 ```
 
 You can call your output file `order.txt`.
