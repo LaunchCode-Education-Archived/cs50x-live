@@ -26,11 +26,25 @@ Task | Resource Type | Link | Instructions
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#files_headers_and_hex" target="_blank">Week 4, continued / Files, Headers and Hex</a> | These notes reveal how the underlying structure of files, such as JPEG or BMP image files, is just bits. We also get a taste of Hexadecimal counting, another alternative counting system (like binary, but base-16 instead of base-2), which can be very useful for humans trying to examine raw data in contexts such as these image files.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=nrFHGtGdOzA&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Hexedecimal</a> | Doug Lloyd explains how hexadecimal works.
 Do | Exercise | [Hex Converter](../exercises) | TODO: exc: write a program that converts back and forth from hex
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=QOD2hHiHpn0&index=1&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh" target="_blank">File Pointers</a> |
-Watch | Short | <a href="https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">File I/O</a> | examples of reading from and writing to files. `fpoen` `fclose` `fgets` `fputs`
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=QOD2hHiHpn0&index=1&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh" target="_blank">File Pointers</a> | Working with files allows us to make programs that can "save" data permanently, even after they've stopped running. Doug Lloyd shows us some core functions that we can use to work with files: `fopen`, `fclose`, `fgetc`, `fputc`, `fread`, `fwrite`.
+Watch | Short | <a href="https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">File I/O</a> | Check this short for some more examples of reading from and writing to files. Functions used: `fopen` `fclose` `fgets` `fputs`.
 Do | Exercise | [Good Burger](../exercises/filewrite) | Implement a storefront for the restaurant "Good Burger" by asking the user for their order, then writing it to a file.
 Do | Exercise | [Restaurant Menu](../exercises/restaurant-menus) | Implement a menu display for a restaurant by reading their menu from a file.
+
+TODO for files:
+* simple `createfile.c` exercise
+* simple exercise for `fgetc` or `fgets`
+* simple exercises for `fread` and `fwrite`
+* talk about how they are different types of functions
+  * `fget` simply returns a thing
+  * `fread` is more like `swap`, making a "destructive update"
+* talk about the "cursor"
+  * fseek
+  * ftell
+  * exercise idea: "halfway point"?
+
 ***
+
 #### Structs
 
 Task | Resource Type | Link | Instructions
