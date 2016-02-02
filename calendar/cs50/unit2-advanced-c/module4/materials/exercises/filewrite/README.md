@@ -34,7 +34,7 @@ Which menu item would you like (0, 1, 2, or 3)?
 2
 ```
 
-The resulting output file should be look like this:
+The resulting output file should look like this:
 ```nohighlight
 Cheeseburger
 Fries
