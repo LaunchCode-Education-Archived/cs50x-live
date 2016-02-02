@@ -43,3 +43,8 @@ Cheeseburger
 ```
 
 You can call your output file `order.txt`.
+
+You will need to use the following functions:
+* `fopen`
+* `fclose`
+* `fputs`
