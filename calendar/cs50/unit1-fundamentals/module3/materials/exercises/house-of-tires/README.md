@@ -12,7 +12,7 @@ To do this, you should:
 0. Copy all these files into your IDE:
   * [houseofpizza.c](./houseofpizza.html)
   * [houseoftires.c](./houseoftires.html)
-  * [mathhelperheader.h](./mathhelperheader.html)
+  * [mathhelper.h](./mathhelperheader.html)
   * [mathhelper.c](./mathhelper.html)
   * [Makefile](./Makefile.html)
 1. Cut the `numberOfContainers` function from `houseOfPizza.c` into `mathHelper.c`, so we can use it in both `houseOfPizza.c` and `houseOfTires.c`
