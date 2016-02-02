@@ -27,7 +27,15 @@ MENU:
 3) Philly Cheesesteak
 ```
 
-We've provided some starter code for you in ([displayMenu.c](./displayMenu.html)), but it's pretty minimal. If you need or want help, the commands and functions that you'll need are discussed in these videos: (<a href="https://www.youtube.com/watch?v=QOD2hHiHpn0&index=1&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh" target="_blank">1</a>,  <a href="https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">2</a>), so look there first!
+How can you do this? It woul be nice if we had a function called, say, `fgetline`, which returns the next line of text from a file. Unfortunately, we don't have that function at our disposal.
+
+Here's an alternative game plan:
+
+1. Read the entire contents of the file into one big string using `fgets`. (This function takes an argument specifying how many bytes to read, so in this case we just want to plug in a very large number, so that it reads the whole file.)
+2. Loop through your string, printing each character as you go, keeping an eye out for new-line characters
+3. Each time you encounter a new-line characters, you know you've hit a new line, so it's time to print another `"2) "` or `"3) "`, etc
+
+We've provided some starter code for you in ([displayMenu.c](./displayMenu.html)), but it's pretty minimal.
 
 
 
