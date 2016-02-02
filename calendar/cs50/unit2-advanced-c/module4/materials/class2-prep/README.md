@@ -42,6 +42,8 @@ TODO for files:
   * fseek
   * ftell
   * exercise idea: "halfway point"?
+* why is the type `FILE` all caps?
+* tell them they need to refresh in the sidebar to see new files show up
 
 ***
 
