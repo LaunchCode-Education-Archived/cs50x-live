@@ -27,7 +27,7 @@ MENU:
 3) Philly Cheesesteak
 ```
 
-How can you do this? It woul be nice if we had a function called, say, `fgetline`, which returns the next line of text from a file. Unfortunately, we don't have that function at our disposal.
+How can you do this? It would be nice if we had a function called, say, `fgetline`, which returns the next line of text from a file. Unfortunately, we don't have that function at our disposal.
 
 Here's an alternative game plan:
 
