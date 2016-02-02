@@ -85,6 +85,16 @@
 Result: 7.000000000
 $ ./clc 2.2 3.3
 Result: 5.500000000</code></pre>
+<p>Notice how, just like in the <a href="../previous" target="_blank">previous</a> exercise (pun intended), you will need to convert the CL args from <code>string</code>s into numbers. But in this case, you need your numbers to be <code>float</code>s instead of <code>int</code>s. </p>
+<p>Luckily there is another function just like <code>atoi</code>, called <code>atof</code>, which, rather than returning an <code>int</code>, returns a <code>float</code>.</p>
+<pre><code class="language-c">float money = atof("4.6");
+// money is 4.6
+
+float gallons = atof("4");
+// gallons is 4.0
+
+float flingdops = atof("this is not going to work");
+// flingdops is 0.0</code></pre>
                 </section>
 
             </div>
