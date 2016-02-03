@@ -8,7 +8,7 @@ In class on Tuesday, we will be talking about the dynamics of leadership. This i
 
 #### Prep Work
 
-Ahead of class, please take this <a href="http://www.humanmetrics.com/cgi-win/jtypes2.asp" target="_blank">Personality Test</a>. 
+Ahead of class, please take this <a href="http://www.humanmetrics.com/cgi-win/jtypes2.asp" target="_blank">Personality Test</a>. It should only take 10-15 minutes. 
 
 When you are done, enter your score here: <a href="https://docs.google.com/spreadsheets/d/1APKrD67jB1BlW54d-j7jCBhFOyD8lg_vOKkEw2380XE/edit#gid=0" target="_blank">Personality Score</a>. 
 
