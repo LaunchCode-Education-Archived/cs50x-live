@@ -37,8 +37,8 @@ The `*` character is used to do two different things:
 
   | Use Case | Situation | Syntax Details | Examples |
   |----------|------|----------------|:------------------:|
-  | Declaring a pointer | when first creating a variable | The `*` symbol comes directly after the data type. | `float* x` |
-  | Dereferencing a pointer | when you already have a variable, whose type is "pointer to a something", and you want to get the actual value that is being pointed to | The `*` symbol comes directly before the name of the variable | `float actualValue = *x` |
+  | (A) Declaring a pointer | when first creating a variable | The `*` symbol comes after the data type. | `float* x` |
+  | (B) Dereferencing a pointer | when you already have a variable, whose type is "pointer to a something", and you want to get the actual value that is being pointed to | The `*` symbol comes before the name of the variable | `float actualValue = *x` |
   
 ### Space Convention
 
@@ -48,10 +48,16 @@ Let's go back again to our running example,
 ```c
 float* x;
 ```
-Again, this declares a variable called `x` whose type is `float*`.
+This is scenario (A) from above: we are declaring a variable called `x` whose type is `float*`.
 
 Here's the twist: You will very often see the above written slightly differently:
-
 ```
 float *x;
 ```
+This means the exact same thing. We are still creating a variable whose type is a pointer to a float. The type is written `float *` instead of `float*`, but the compiler doesn't care about the spacing. 
+
+But this can be incredibly confusing because syntactically, it *looks* just like scenario (B): we have the `*` symbol directly before the name of our variable.
+
+Due to context, the compiler still understands that we are in scenario (A) here. And we humans too, unfortunately, are going to have to rely on context to understand. We cannot use a rule of thumb like "if the asterisk comes directly before the variable name, we are definitely in scenario (B)"
+
+There is actually a quasi-reasonable reason why seasoned C programmers follow this convention, but we won't bore / overload you with it here.
