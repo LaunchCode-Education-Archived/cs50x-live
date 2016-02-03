@@ -2,8 +2,6 @@
 
 # Soft Skills Prep
 
-***
-
 **Instructor:** Steven Lawler
 
 In class on Tuesday, we will be talking about the dynamics of leadership. This is an important component of working in a team, and as a professional. We hope that this session will both help you throughout this class, as you search for a job, and in your professional life.
