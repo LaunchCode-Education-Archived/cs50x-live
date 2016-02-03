@@ -24,14 +24,14 @@ make: *** No rule to make target `mult.c', needed by `expt'.  Stop.
 
 This is because you are trying to compile a program that consists of more than one file. Unfortunately we are missing two of those files: `mult.c` and `mult.h`. 
 
-Let's take a look at the [Makefile](Makefile.html).
+Let's take a look at the [Makefile](makefile.html).
 
 ```c
 expt: expt.c mult.c mult.h
 	clang -ggdb3 -O0 -std=c11 -Wall -Werror -o expt expt.c mult.c -lcs50 -lm
 ```
 
-Line 3 of the [Makefile](Makefile.html), tells `make` that the "target" called `expt` should be built by invoking the second line’s command. Moreover, that line tells `make`that `expt` is dependent on `expt.c` and `mult.c`, the implication of which is that `make` will only re-build `expt` on subsequent runs if one of those files was modified since `make` last built `expt`.  The `-Werror` flag, recall, tells clang to treat warnings (bad) as though they’re errors (worse) so that you’re forced (in a good, instructive way!) to fix them. 
+Line 3 of the [Makefile](makefile.html), tells `make` that the "target" called `expt` should be built by invoking the second line’s command. Moreover, that line tells `make`that `expt` is dependent on `expt.c` and `mult.c`, the implication of which is that `make` will only re-build `expt` on subsequent runs if one of those files was modified since `make` last built `expt`.  The `-Werror` flag, recall, tells clang to treat warnings (bad) as though they’re errors (worse) so that you’re forced (in a good, instructive way!) to fix them. 
 
 Incidentally, know that the leading whitespace on that second line is not a sequence of spaces but, rather, a tab. Unfortunately, `make` requires that commands be preceded by tabs, so be careful not to change them to spaces, else you may encounter strange errors!
 
