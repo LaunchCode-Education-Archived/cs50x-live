@@ -16,8 +16,42 @@ Let's look at both of these in more detail.
 
 ### Two Different Asterisks
 
-TODO
+The `*` character is used to do two different things:
 
+1. To specify a pointer type.
+  ```c
+  float* x;
+  ```
+  Above we declare a variable called `x` whose type is `float*`, or, in other words, "pointer to a float". This means that the value of `x` is simply an address, a number representing the location in memory where a `float` is stored.
+  Similarly, we can declare other pointer types in the same way:
+  * `char*` declares a pointer to a `char`
+  * `int*` declares a pointer to an `int`
+
+2. To "dereference" a pointer.
+
+  In the above example, `x` is does not contain the actual `float` value. That value might be `99.9`, for example, but `x` is simply a "reference" to that `99.9`; `x` is a different number representing **where** the `99.9` value is stored.
+  
+  Ok, but what if we have a variable like `x` and we want to do stuff with the "actual" value, the `99.9`? This is where "dereferencing" is used. A dereferenced pointer means simply "the actual value at that location". 
+  
+  The syntax for dereferencing a pointer is, of course, the same stupid `*` symbol. So in this scenario where we have `x`, whose value is some big number representing a memory address, we can say `*x`, and **this** will be equal to `99.9`.
+
+  | Use Case | Situation | Syntax Details | Examples |
+  |----------|------|----------------|:------------------:|
+  | Declaring a pointer | when first creating a variable | The `*` symbol comes directly after the data type. | `float* x` |
+  | Dereferencing a pointer | when you already have a variable, whose type is "pointer to a something", and you want to get the actual value that is being pointed to | The `*` symbol comes directly before the name of the variable | `float actualValue = *x` |
+  
 ### Space Convention
 
-TODO
+Hopefully the above is now somewhat understandable. Unfortunately, there is one more complication that makes it extra tricky.
+
+Let's go back again to our running example,
+```c
+float* x;
+```
+Again, this declares a variable called `x` whose type is `float*`.
+
+Here's the twist: You will very often see the above written slightly differently:
+
+```
+float *x;
+```
