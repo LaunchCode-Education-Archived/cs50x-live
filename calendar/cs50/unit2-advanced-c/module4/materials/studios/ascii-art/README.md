@@ -21,7 +21,7 @@ Let's walk through a quick example. Say we have an input file that looked like t
 1
 0,2
 ```
-The first row of out output file should have black pixels at x positions 0, and 2. The rest of the pixels should be white.
+This specifies that the first row of out output file should have black pixels at x positions 0, and 2. The rest of the pixels should be white.
 
 The next row should have a black pixel at position 1, and the rest should be white.
 
