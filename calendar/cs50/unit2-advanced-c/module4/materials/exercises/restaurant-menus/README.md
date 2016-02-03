@@ -27,13 +27,15 @@ MENU:
 3) Philly Cheesesteak
 ```
 
-The `fgets` function will be very helpful. You can use this function to read in each line of your file, one line at a time.
+The `[fgets]`(https://reference.cs50.net/stdio.h/fgets) function will be very helpful. You can use this function to read in each line of your file, one line at a time.
 
 Here's an example. If you have declared a `string` variable, called, say `line`, you can "fill" it with data by calling `fgets` like so:
 ```c
 fgets(line, 150, yourfile);
 ```
 The `150` specifies that you want to stop reading after 150 bytes. But the cool part about `fgets` is that **if** it encounters a new line `\n` character at any point, even some time before 150 byes, it will immediately stop and return the data up until that point. This means you will receive exactly one line of text from the file!
+
+After you run your program and create a file, it may not appear in the file browser right away. To find it, right click the folder that the program is in and select "Refresh." The file that you created should then appear. Alternatively, you can use ```ls``` in the terminal.
 
 We've provided some starter code for you in ([displayMenu.c](./displayMenu.html)), but it's pretty minimal.
 
