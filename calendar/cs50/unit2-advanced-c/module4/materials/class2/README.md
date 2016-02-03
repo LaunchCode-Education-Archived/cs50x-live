@@ -7,11 +7,11 @@
 Before coming to class, you should have completed [Class 2 Prep](../class2-prep).
 
 ### During Class
-This class will be focused on ...
+This class will be focused on file i/o and structs, as well as some more practice with memory management and pointers.
 
 1. Lecture / Q&A on the following topics:
-  * Topic 1
-	* Topic 2
+  * File i/o
+  * structs
 
 2. Studio: [Studio Name](../studios/)
 
