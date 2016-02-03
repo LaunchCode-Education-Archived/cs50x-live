@@ -11,7 +11,7 @@ Specifically, you will write a program that reads in CSV files, interprets their
 
 Here's how it works: your output file will have two "colors", black and white. For each black "pixel", your file will have a string made of two hash `"##"` characters. For each white "pixel" your file will have a string made of two space `"  "` characters. 
 
-The input CSV file simply specifies, for line of text, which pixels are black.
+The input CSV file simply specifies, for each line of text, which pixels are black.
 
 The content of [secretimage.csv](./secretimage.csv).is a code specifying how to make its picture. What's the picture?? You'll have to write the program to find out!
 
