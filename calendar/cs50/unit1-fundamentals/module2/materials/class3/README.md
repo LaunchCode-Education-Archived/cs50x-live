@@ -3,9 +3,13 @@
 # Class 3
 
 ### Before Class
-No Prep Work. Work away on [Problem Set 2](../problem-set).
+Complete the [Soft Skills Prep](../soft-skills) for today.
+
+Work away on [Problem Set 2](../problem-set).
 
 ### During Class
+
+Soft Skills Presentation by Steven Lawler. 
 
 Office Hours: Continue working on [Problem Set 2](../problem-set). Instructors will be circulating to provide help.
 
