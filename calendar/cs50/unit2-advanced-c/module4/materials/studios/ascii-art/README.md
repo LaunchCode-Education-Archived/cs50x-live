@@ -20,7 +20,7 @@ For example, the first two rows of secretimage.csv look like this:
 2,3,4,5
 1,6
 ```
-This means that the first row of your output file should have black pixels at x positions 2, 3, 4 and 5. The rest of the pixels should be black.
+This means that the first row of your output file should have black pixels at x positions 2, 3, 4 and 5. The rest of the pixels should be white.
 
 So your output file's first two rows will look like this:
 ```
