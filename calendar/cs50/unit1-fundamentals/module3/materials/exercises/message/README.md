@@ -24,7 +24,7 @@ Sounds great, except that `printMessage` does not exist yet. That's your job!
 Start by just thinking about the signature of the function:
 
 1. How many input paramters does it take?
-2. What are the types of those paramters?
+2. What are the types of those parameters?
 3. What are some good names to give those parameters?
 4. What should the return type be?
 
