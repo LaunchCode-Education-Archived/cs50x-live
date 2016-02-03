@@ -2,7 +2,7 @@
 [Back to Prep for Class 2](../../class2-prep#files-hex)
 # Exercise: Restaurant Menus - Part 2
 
-Redo the [../restaurant-menu/](Restaurant Menus) exercise, but this time instead of using `fgets` to read in the file, use `[fread](https://reference.cs50.net/stdio.h/fread)`.
+Redo the [../restaurant-menu/](Restaurant Menus) exercise, but this time instead of using `fgets` to read in the file, use [fread](https://reference.cs50.net/stdio.h/fread).
 
 There are some important differences between `fgets` and `fread`:
 
