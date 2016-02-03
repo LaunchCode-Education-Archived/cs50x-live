@@ -15,16 +15,26 @@ The input CSV file simply specifies, for each line of text, which pixels are bla
 
 One such input file is [secretimage.csv](./secretimage.csv). Contained within these numbers and commas is a masterpiece image. What does it look like?? You'll have to write the program to find out!
 
-For example, the first two rows of secretimage.csv look like this:
+Let's walk through a quick example. Say we have an input file that looked like this:
 ```
-2,3,4,5
-1,6
+0,2
+1
+0,2
 ```
-This means that the first row of your output file should have black pixels at x positions 2, 3, 4 and 5. The rest of the pixels should be white.
+The first row of out output file should have black pixels at x positions 0, and 2. The rest of the pixels should be white.
 
-So your output file's first two rows will look like this:
+The next row should have a black pixel at position 1, and the rest should be white.
+
+And the third row in this case is the same as the first row.
+
+So ultimately, our output file should look like this:
 ```
-    ########
-  ##        ##
+##  ##
+  ##  
+##  ##
 ```
+
+
+
+
 
