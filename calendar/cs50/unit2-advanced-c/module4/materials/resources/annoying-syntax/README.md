@@ -35,7 +35,7 @@ The `*` character is used to do two different things:
   
   The syntax for dereferencing a pointer is, of course, the same stupid `*` symbol. So in this scenario where we have `x`, whose value is some big number representing a memory address, we can say `*x`, and **this** will be equal to `99.9`.
 
-  | Use Case | Situation | Syntax Details | Examples |
+  | Use Case | Situation | Syntax | Example |
   |----------|------|----------------|:------------------:|
   | (A) Declaring a pointer | when first creating a variable | The `*` symbol comes after the data type. | `float* x` |
   | (B) Dereferencing a pointer | when you already have a variable, whose type is "pointer to a something", and you want to get the actual value that is being pointed to | The `*` symbol comes before the name of the variable | `float actualValue = *x` |
