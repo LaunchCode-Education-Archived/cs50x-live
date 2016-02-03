@@ -22,6 +22,14 @@ Class # | Before Class | During Class | Topics/Skills
 
 ### Resources (by topic)
 
+
+### Poached from week 4
+Task | Type | Link | Notes
+-----|------|------|------
+Watch | Short | <a href="https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Structs</a> | This short talks more about structs. There is one part where he gets into "linked lists" and recursively defined structs, which you won't really need to worry about until Module 5.
+Watch | Short | <a href="https://www.youtube.com/watch?v=t4MSwiqfLaY", target="_blank">Recursion</a> | Zamyla. Starts talking about data structures toward the end
+
+
 ##### More on Pointers, Memory
 Task | Type | Link | Notes
 -----|------|------|------
