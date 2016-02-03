@@ -51,7 +51,7 @@ float* x;
 This is scenario (A) from above: we are declaring a variable called `x` whose type is `float*`.
 
 Here's the twist: You will very often see the above written slightly differently:
-```
+```c
 float *x;
 ```
 This means the exact same thing. We are still creating a variable whose type is a pointer to a float. The type is written `float *` instead of `float*`, but the compiler doesn't care about the spacing. 
