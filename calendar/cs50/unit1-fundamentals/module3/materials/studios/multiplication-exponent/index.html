@@ -83,10 +83,10 @@
 <pre><code class="language-nohighlight">~/workspace $ make
 make: *** No rule to make target `mult.c', needed by `expt'.  Stop.</code></pre>
 <p>This is because you are trying to compile a program that consists of more than one file. Unfortunately we are missing two of those files: <code>mult.c</code> and <code>mult.h</code>. </p>
-<p>Let's take a look at the <a href="Makefile.html">Makefile</a>.</p>
+<p>Let's take a look at the <a href="makefile.html">Makefile</a>.</p>
 <pre><code class="language-c">expt: expt.c mult.c mult.h
     clang -ggdb3 -O0 -std=c11 -Wall -Werror -o expt expt.c mult.c -lcs50 -lm</code></pre>
-<p>Line 3 of the <a href="Makefile.html">Makefile</a>, tells <code>make</code> that the &quot;target&quot; called <code>expt</code> should be built by invoking the second line’s command. Moreover, that line tells <code>make</code>that <code>expt</code> is dependent on <code>expt.c</code> and <code>mult.c</code>, the implication of which is that <code>make</code> will only re-build <code>expt</code> on subsequent runs if one of those files was modified since <code>make</code> last built <code>expt</code>.  The <code>-Werror</code> flag, recall, tells clang to treat warnings (bad) as though they’re errors (worse) so that you’re forced (in a good, instructive way!) to fix them. </p>
+<p>Line 3 of the <a href="makefile.html">Makefile</a>, tells <code>make</code> that the &quot;target&quot; called <code>expt</code> should be built by invoking the second line’s command. Moreover, that line tells <code>make</code>that <code>expt</code> is dependent on <code>expt.c</code> and <code>mult.c</code>, the implication of which is that <code>make</code> will only re-build <code>expt</code> on subsequent runs if one of those files was modified since <code>make</code> last built <code>expt</code>.  The <code>-Werror</code> flag, recall, tells clang to treat warnings (bad) as though they’re errors (worse) so that you’re forced (in a good, instructive way!) to fix them. </p>
 <p>Incidentally, know that the leading whitespace on that second line is not a sequence of spaces but, rather, a tab. Unfortunately, <code>make</code> requires that commands be preceded by tabs, so be careful not to change them to spaces, else you may encounter strange errors!</p>
 <p>Now let's look at line 1:</p>
 <pre><code class="language-c">all: expt</code></pre>

@@ -9,11 +9,11 @@ Since these two functions are separate from each other, we will use separate fil
 
 As a starting point you are provided with some files for the exponentiation function. [expt.c](expt.html) includes starter code for the exponentiation function as well as some tests for multiplication and exponentiation in a main method.
 
-For this Studio, your program will have three files ([expt.c](expt.html), `mult.c`, and `mult.h`), as well as a ([Makefile](Makefile.html)) to run the program, and will be located within the same directory.  
+For this Studio, your program will have three files ([expt.c](expt.html), `mult.c`, and `mult.h`), as well as a ([Makefile](makefile.html)) to run the program, and will be located within the same directory.  
 
 Makefiles are configuration files that tell `make` exactly what to do.  As your programs grow in size, `make` won’t be able to infer from context anymore how to compile your code; you’ll need to start telling `make` how to compile your program, particularly when your program contains multiple source (i.e., `.c`) files. That's what the Makefile is for.
 
-You have been supplied a [Makefile](Makefile.html) and the [expt.c](expt.html) file. Copy them over to the IDE. 
+You have been supplied a [Makefile](makefile.html) and the [expt.c](expt.html) file. Copy them over to the IDE. 
 
 If you try to run `make`, you'll see that there are some issues:
 
@@ -50,7 +50,7 @@ clean:
 ```
 Here, the target `clean`  allows you to delete all files ending in .o or called core (more on that soon!), or `expt`. Be careful not to add, say, `*.c` to that last line in Makefile! (Why?) Any line, incidentally, that begins with # is just a comment.
 
-Now that we've covered the [Makefile](Makefile.html), let's move on to Part 2. (If you're still confused about Makefiles you can check <a href="https://en.wikipedia.org/wiki/Makefile" target="_blank">here</a> for more information.
+Now that we've covered the [Makefile](makefile.html), let's move on to Part 2. (If you're still confused about Makefiles you can check <a href="https://en.wikipedia.org/wiki/Makefile" target="_blank">here</a> for more information.
 
 ### Part 2
 Your next task should be to create those missing files. Let's start with `mult.h`. This is the header file for the multiplication function, and should include the function *prototype*. A prototype defines what a function uses for its inputs and outputs, but does _not_ define what the function does. It is used to tell other parts of your program what kinds of functions are available for use.
