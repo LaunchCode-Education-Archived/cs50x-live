@@ -30,8 +30,8 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=QOD2hHiHpn0&i
 Watch | Short | <a href="https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">File I/O</a> | Check this short for some more examples of reading from and writing to files. Functions used: `fopen` `fclose` `fgets` `fputs`.
 Do | Exercise | [Good Burger](../exercises/filewrite) | Implement a storefront for the restaurant "Good Burger" by asking the user for their order, then writing it to a file.
 Do | Exercise | [Restaurant Menu](../exercises/restaurant-menus) | Implement a menu display for a restaurant by reading their menu from a file.
-Do | Exercise | [Good Burger](../exercises/filewrite2) | Redo the Good Burger exercises with `fwrite`
-Do | Exercise | [Restaurant Menu](../exercises/restaurant-2) | Redo the menu exercise with `fread`
+Do | Exercise | [Good Burger - Part 2](../exercises/filewrite2) | Redo the Good Burger exercises with `fwrite`
+Do | Exercise | [Restaurant Menu - Part 2](../exercises/restaurant-2) | Redo the menu exercise with `fread`
 
 TODO for files:
 * simple `createfile.c` exercise
