@@ -22,7 +22,7 @@ Y is at position 24
 
 You will find the following functions very helpful:
 * <a href="https://reference.cs50.net/cs50.h/GetChar" target="_blank">GetChar</a>
-* <a href="https://reference.cs50.net/ctype.h/isalpha" target="_blank">isAlpha</a>
+* <a href="https://reference.cs50.net/ctype.h/isalpha" target="_blank">isalpha</a>
 
 ### Part 2 (Optional)
 
