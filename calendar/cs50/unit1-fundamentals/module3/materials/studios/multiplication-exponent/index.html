@@ -76,9 +76,9 @@
 <p>In this studio, you will be writing code that performs multiplication and exponents recursively.</p>
 <p>Since these two functions are separate from each other, we will use separate files for them. You may want to take a look at <a href="../../resources/spread-out">this resource about multiple files</a> before working on this studio.</p>
 <p>As a starting point you are provided with some files for the exponentiation function. <a href="expt.html">expt.c</a> includes starter code for the exponentiation function as well as some tests for multiplication and exponentiation in a main method.</p>
-<p>For this Studio, your program will have three files (<a href="expt.html">expt.c</a>, <code>mult.c</code>, and <code>mult.h</code>), as well as a (<a href="makefile.html">Makefile</a>) to run the program, and will be located within the same directory.  </p>
+<p>For this Studio, your program will have three files (<a href="expt.html">expt.c</a>, <code>mult.c</code>, and <code>mult.h</code>), as well as a (<a href="Makefile.html">Makefile</a>) to run the program, and will be located within the same directory.  </p>
 <p>Makefiles are configuration files that tell <code>make</code> exactly what to do.  As your programs grow in size, <code>make</code> won’t be able to infer from context anymore how to compile your code; you’ll need to start telling <code>make</code> how to compile your program, particularly when your program contains multiple source (i.e., <code>.c</code>) files. That's what the Makefile is for.</p>
-<p>You have been supplied a <a href="makefile.html">Makefile</a> and the <a href="expt.html">expt.c</a> file. Copy them over to the IDE. </p>
+<p>You have been supplied a <a href="Makefile.html">Makefile</a> and the <a href="expt.html">expt.c</a> file. Copy them over to the IDE. </p>
 <p>If you try to run <code>make</code>, you'll see that there are some issues:</p>
 <pre><code class="language-nohighlight">~/workspace $ make
 make: *** No rule to make target `mult.c', needed by `expt'.  Stop.</code></pre>
@@ -95,7 +95,7 @@ make: *** No rule to make target `mult.c', needed by `expt'.  Stop.</code></pre>
 <pre><code class="language-c">clean:
     rm -f *.o a.out core expt</code></pre>
 <p>Here, the target <code>clean</code>  allows you to delete all files ending in .o or called core (more on that soon!), or <code>expt</code>. Be careful not to add, say, <code>*.c</code> to that last line in Makefile! (Why?) Any line, incidentally, that begins with # is just a comment.</p>
-<p>Now that we've covered the <a href="makefile.html">Makefile</a>, let's move on to Part 2. (If you're still confused about Makefiles you can check <a href="https://en.wikipedia.org/wiki/Makefile" target="_blank">here</a> for more information.</p>
+<p>Now that we've covered the <a href="Makefile.html">Makefile</a>, let's move on to Part 2. (If you're still confused about Makefiles you can check <a href="https://en.wikipedia.org/wiki/Makefile" target="_blank">here</a> for more information.</p>
 <h3 id="part-2">Part 2</h3>
 <p>Your next task should be to create those missing files. Let's start with <code>mult.h</code>. This is the header file for the multiplication function, and should include the function <em>prototype</em>. A prototype defines what a function uses for its inputs and outputs, but does <em>not</em> define what the function does. It is used to tell other parts of your program what kinds of functions are available for use.</p>
 <p>To keep things simple, our multiplication function will focus on integers. Our function should take two integers as input and return an integer as output. This should be enough information to construct your prototype.</p>
