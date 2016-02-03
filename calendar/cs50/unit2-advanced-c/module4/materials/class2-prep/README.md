@@ -30,20 +30,15 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=QOD2hHiHpn0&i
 Watch | Short | <a href="https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">File I/O</a> | Check this short for some more examples of reading from and writing to files. Functions used: `fopen` `fclose` `fgets` `fputs`.
 Do | Exercise | [Good Burger](../exercises/filewrite) | Implement a storefront for the restaurant "Good Burger" by asking the user for their order, then writing it to a file.
 Do | Exercise | [Restaurant Menu](../exercises/restaurant-menus) | Implement a menu display for a restaurant by reading their menu from a file.
+Do | Exercise | [Good Burger](../exercises/filewrite2) | Redo the Good Burger exercises with `fwrite`
+Do | Exercise | [Restaurant Menu](../exercises/restaurant-2) | Redo the menu exercise with `fread`
 
 TODO for files:
 * simple `createfile.c` exercise
-* simple exercises for `fread` and `fwrite`
-* talk about how they are different types of functions
-  * `fget` simply returns a thing
-  * `fread` is more like `swap`, making a "destructive update"
 * talk about the "cursor"
   * fseek
   * ftell
   * exercise idea: "halfway point"?
-* tell them they need to refresh in the sidebar to see new files show up
-* talk about EOF and feof
-  * doesn't quite work as intended, see [this](https://youtu.be/KwvObCA04dU?list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&t=448)
 
 ***
 
