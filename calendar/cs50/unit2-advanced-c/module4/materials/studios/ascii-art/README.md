@@ -13,7 +13,7 @@ Here's how it works: your output file will have two "colors", black and white. F
 
 The input CSV file simply specifies, for each line of text, which pixels are black.
 
-The content of [secretimage.csv](./secretimage.csv).is a code specifying how to make its picture. What's the picture?? You'll have to write the program to find out!
+One such input file is [secretimage.csv](./secretimage.csv). Contained within these numbers and commas is a masterpiece image. What does it look like?? You'll have to write the program to find out!
 
 For example, the first two rows of secretimage.csv look like this:
 ```
