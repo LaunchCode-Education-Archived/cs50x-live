@@ -22,7 +22,7 @@ The `*` character is used to do two different things:
   ```c
   float* x;
   ```
-  Above we declare a variable called `x` whose type is `float*`, or, in other words, "pointer to a float". This means that the value of `x` is simply an address, a number representing the location in memory where a `float` is stored.
+  Above, we declare a variable called `x` whose type is `float*`, or, in other words, "pointer to a float". This means that the value of `x` is simply an address, a number representing the location in memory where a `float` is stored.
   Similarly, we can declare other pointer types in the same way:
   * `char*` declares a pointer to a `char`
   * `int*` declares a pointer to an `int`
