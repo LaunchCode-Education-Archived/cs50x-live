@@ -27,16 +27,14 @@ MENU:
 3) Philly Cheesesteak
 ```
 
-How can you do this? It would be nice if we had a function called, say, `fgetline`, which returns the next line of text from a file. Unfortunately, we don't have that function at our disposal.
+The `fgets` function will be very helpful. You can use this function to read in each line of your file, one line at a time.
 
-Here's an alternative game plan:
-
-1. Read the entire contents of the file into one big string using `fgets`. (This function takes an argument specifying how many bytes to read, so in this case we just want to plug in a very large number, so that it reads the whole file.)
-2. Loop through your string, printing each character as you go, keeping an eye out for new-line characters
-3. Each time you encounter a new-line characters, you know you've hit a new line, so it's time to print another `"2) "` or `"3) "`, etc
+Here's an example. If you have declared a `string` variable, called, say `line`, you can "fill" it with data by calling `fgets` like so:
+```c
+fgets(line, 150, yourfile);
+```
+The `150` specifies that you want to stop reading after 150 bytes. But the cool part about `fgets` is that **if** it encounters a new line `\n` character at any point, even some time before 150 byes, it will immediately stop and return the data up until that point. This means you will receive exactly one line of text from the file!
 
 We've provided some starter code for you in ([displayMenu.c](./displayMenu.html)), but it's pretty minimal.
-
-
 
 
