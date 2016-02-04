@@ -36,6 +36,8 @@ int main(void)
 		
 	//Close both files
 	
+	//Insert the name of the output file in the print statement below
+	printf("Done! If you open up <output file name> you should now see a cool image!\n");
 }
 
 csvLine extractNumbers(char* line)
