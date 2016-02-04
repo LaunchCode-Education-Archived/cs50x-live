@@ -21,7 +21,7 @@ Read | Resource | [Value vs Address](../resources/value-vs-address) | A quick re
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://youtu.be/uYiVtZHns-A?t=1542" target="_blank">Week 4 / Continued (25 minutes in)</a> | Just watch the second half. We will do the first half later, in Class 2 Prep.
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers" target="_blank">Week 4, continued / Strings and Pointers</a> |
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers" target="_blank">Week 4, continued / Strings and Pointers</a> | These notes review in detail why `compare-0` doesn't work, and introduce a new program, `copy-0`, which, for very similar reasons, also does not work.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=yOdd3uYC--A&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=2" target="_blank">Pointers</a> | prereqs: hex (a little)
 Study | CS50 Study | <a href="https://study.cs50.net/pointers" target="_blank">pointers</a>
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=jE_bs-QNj3c&index=2&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">compare-1</a> | Keep following David to solve the problem of comparing strings. <br>Find instructions to start the follow-along <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-compare-1" target="_blank">here</a>.  
@@ -30,7 +30,7 @@ Do | Exercise | [Custom strcmp](../exercises/customstrcmp) | Practice using poin
 Read | Resource | [Annoying Syntax](../resources/annoying-syntax) | Part of what makes pointers in c hard to learn is that whoever designed the syntax made a couple of odd decisions. Here we simply point out those syntax oddities so they don't catch you offguard.
 Watch | Short | <a href="https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4" target="_blank">Pointers</a> | prereqs: dereferencing, malloc
 Watch | Section | <a href="https://youtu.be/SppBaGROtX0?t=370" target="_blank">Jason Hirschorn on Pointers</a> | In this video, Jason Hirschorn leads a live review section on pointers. The video is very long (over an hour) but if you're still feeling confused about pointers, it should be very helpful.
-Do | Exercise | [Pointer Practice](../exercises/pointer-practice) | Practice evaluating statements that use pointers
+Do | Exercise | [Pointer
 
 *** 
 
