@@ -35,7 +35,7 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=8Kp-8OGwphY&index=3&lis
 Do | Exercise | [Bubble Sort](../exercises/bubble-sort) | Here we ask you to walk through a hypothetical Bubble Sort scenario and write out the steps involved.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=lx9G71uLXIg&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=3" target= "_blank">Selection Sort</a> | Doug Lloyd explains Selection Sort in depth, including best and worst-case scenarios.
 Watch | Short | <a href="https://www.youtube.com/watch?v=f8hXR_Hvybo&index=7&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target= "_blank">Selection Sort</a> | Tommy MacWilliam gets in on the Selection Sort action.
-Do | Exericse | [Selection Sort](../exercises/selection-sort) | Again here, we ask you to walk through the steps of an algorithm, this time using Selection Sort.
+Do | Exercise | [Selection Sort](../exercises/selection-sort) | Again here, we ask you to walk through the steps of an algorithm, this time using Selection Sort.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=TwGb6ohsvUU&list=PLhQjrBD2T382Bh-sc1w74c4V6_G2byC-T&index=5" target= "_blank">Insertion Sort</a> | Doug Lloyd explains Insertion Sort in depth, including best and worst-case scenarios.
 Watch | Short | <a href="https://www.youtube.com/watch?v=DFG-XuyPYUQ&index=4&list=PLhQjrBD2T3814twtDT9AHu1fnzHB0yAiE" target= "_blank">Insertion Sort</a> | When it comes to Insertion Sort, Tommy MacWilliam tells the whole truth and nothing but.
 Do | Exercise | [Insertion Sort](../exercises/insertion-sort) | One more time, let's do the step-by-step walkthrough.
