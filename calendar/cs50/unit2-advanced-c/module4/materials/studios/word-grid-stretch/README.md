@@ -1,5 +1,5 @@
 ##### Module 4
-
+[Back to Class 1](../../class1)
 # Studio: Word Grid Stretch
 
 The word grid is back with a vengence!
