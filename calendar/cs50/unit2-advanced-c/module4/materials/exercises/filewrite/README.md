@@ -1,7 +1,7 @@
 ##### Module 4
 [Back to Class 2 Prep](../../class2-prep#files-hex)
 
-# Good Burger
+# Exercise: Good Burger
 
 Here we'll finish a basic program to show the user a menu from a fast food restaurant (named "Good Burger"), then take down their order, and write it into a file.
 
