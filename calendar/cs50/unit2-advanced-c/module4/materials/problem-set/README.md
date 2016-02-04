@@ -8,7 +8,7 @@ This problem set is difficult but very fun! There are three main components:
 * Resize: This component asks you to write a program that scales an image by a certain factor, making it 2, 3, or n times as large.
 * Recover: It turns out that when you "delete" data from a computer, the data doesn't necessarily go away. More often, it merely means that the computer will allow that chunk of memory to be overwritten in the future. In this assignment, you will search through the raw bytes of a digital camera's memory to recover a bunch of "deleted" images.
 
-Before you start coding, you will be asked to do some reading on image file formats (BMP, JPG, etc) and answer some questions. Don't spend forever on this, but do make sure you have read enough that you can answer the questions. We do ask you to submit your answers on Vocareum.
+Before you start coding, you will be asked to do some reading on image file formats (BMP, JPEG, etc) and answer some questions. Don't spend forever on this, but do make sure you have read enough that you can answer the questions. We do ask you to submit your answers on Vocareum.
 
 ### How to submit 
 On Vocareum, you will see four assignments:
