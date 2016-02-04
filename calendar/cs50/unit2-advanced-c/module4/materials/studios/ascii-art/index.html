@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-4">Module 4</h5>
+<p><a href="../class2">Back to Class 2</a></p>
+<h1 id="studio-ascii-art">Studio: Ascii Art</h1>
+<p>Today we're going to make &quot;pictures&quot; out of text symbols.</p>
+<p>Specifically, you will write a program that reads in CSV files, interprets their coded instructions, and writes out text files that form pictures.</p>
+<p>Here's how it works: your output file will have two &quot;colors&quot;, black and white. For each black &quot;pixel&quot;, your file will have a <code>'#'</code> character. For each white &quot;pixel&quot; your file will have a space <code>' '</code> character. </p>
+<p>The input CSV file simply specifies, for each line of text, which pixels are black.</p>
+<p>One such input file is <a href="./secretimage.csv">secretimage.csv</a>. Contained within these numbers and commas is a masterpiece image. What does it look like?? You'll have to write the program to find out!</p>
+<p>Let's walk through a quick example. Say we have an input file that looked like this:</p>
+<pre><code>0,2
+1
+1,2</code></pre>
+<p>This specifies that the first row of out output file should have black pixels at x positions 0, and 2. The rest of the pixels should be white.</p>
+<p>The next row should have a black pixel at position 1, and the rest should be white.</p>
+<p>And the third row should be black at positions 1 and 2, elsewhere white.</p>
+<p>So ultimately, our output file should look like this:</p>
+<pre><code># #
+ #
+ ##</code></pre>
+<p>Your program should prompt the user for the name of the input file and output file, and then proceed to &quot;draw the picture&quot; in the output file. Running it looks like this:</p>
+<pre><code>$ ./asciiart
+What is the name of the file I should read from?
+secretimage.csv
+What is the name of the file I should write to?
+result.txt
+Done! If you open up result.txt you should now see a cool image!</code></pre>
+<p>In <a href="./asciiart.c">asciiart.c</a> we have given you some starter code. Most significantly, we have provided a function called <code>extractNumbers</code>, which takes as input a string of comma separated integers, and returns an actual array of <code>int</code>s. For example: </p>
+<pre><code class="language-c">extractNumbers("3,22,401")</code></pre>
+<p>yields </p>
+<pre><code class="language-c">[3, 22, 401]</code></pre>
+<p>Actually, that's a bit of a white lie. The function really returns <strong>two</strong> things. It returns an array of <code>int</code>s, AND an <code>int</code> indicating how long the array is (kind of like the <code>argc</code> and <code>argv</code> values in programs that accept command-line arguments).</p>
+<p>You should now be scratching your head, wondering how a function can return 2 things. Since when is that possible?? </p>
+<p>Let's look at the full function signature:</p>
+<pre><code class="language-c">csvLine extractNumbers(char* line);</code></pre>
+<p>Turns out we are returning something called a <code>csvLine</code>. What the heck is that? It is a <code>struct</code> that we have defined precisely for this purpose: to cluster together the 2 pieces of information that you will need regarding each line from your CSV file: </p>
+<ol>
+<li><code>hashLocations</code>: an array of all the x-positions in this row which should be <code>'#'</code> characters</li>
+<li><code>length</code> an int specifying the length of the the <code>hashLocations</code> array</li>
+</ol>
+<p>The definition of <code>csvLine</code> looks like this:</p>
+<pre><code class="language-c">typedef struct {
+    int* hashLocations;
+    int length;
+} csvLine;</code></pre>
+<p>Remember that an array is actually just a pointer under the hood. Hence, we have defined the type of <code>hashLocations</code> as <code>int*</code> rather than what you might have expected, <code>int[]</code>.</p>
+<p>In <code>main</code>, we have provided detailed pseudocode for guidance.</p>
+<p>This is a tricky one, good luck!</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

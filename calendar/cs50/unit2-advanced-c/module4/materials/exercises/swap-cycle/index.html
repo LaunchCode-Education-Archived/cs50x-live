@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-4">Module 4</h5>
+<p><a href="../../class1-prep#malloc">Back to Class 1 Prep</a></p>
+<h1 id="exercise-swap-cycle">Exercise: Swap Cycle</h1>
+<p>Now we've finally seen how to write that pesky <code>swap</code> function. Instead of passing the <em>values</em> of <code>x</code> and <code>y</code> into the function, we pass their <em>addresses</em>. This is called &quot;passing by reference&quot; (as opposed to &quot;passing by value&quot;).</p>
+<p>Let's do a slight twist on the swap idea, to get some more practice with passing by reference, and dereferencing pointers.</p>
+<p>In <a href="./swapcycle.html">swapcycle.c</a>, fill in the TODOs to create a program which implements and invokes a function called <code>swapCycle</code>, which takes <em>three</em> inputs, and swaps them around in a cycle, ala rock-paper-scissors, or <a href="http://genius.com/356508" target="_blank">king-god-nonbeliever</a>.</p>
+<pre><code class="language-nohighlight">$ ./swap-cycle
+Before swap:
+x is 1
+y is 2
+z is 3
+Swapping ...
+After swap:
+x is 2
+y is 3
+z is 1</code></pre>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

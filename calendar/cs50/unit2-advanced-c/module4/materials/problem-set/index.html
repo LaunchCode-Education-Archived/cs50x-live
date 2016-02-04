@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5><a href="../..">Module 4</a></h5>
+<h1 id="problem-set-4">Problem Set 4</h1>
+<h3 id="synopsis">Synopsis</h3>
+<p>This problem set is difficult but very fun! There are three main components:</p>
+<ul>
+<li>Whodunit: Here you will manipulate the pixels in an image in order to solve a murder mystery!</li>
+<li>Resize: This component asks you to write a program that scales an image by a certain factor, making it 2, 3, or n times as large.</li>
+<li>Recover: It turns out that when you &quot;delete&quot; data from a computer, the data doesn't necessarily go away. More often, it merely means that the computer will allow that chunk of memory to be overwritten in the future. In this assignment, you will search through the raw bytes of a digital camera's memory to recover a bunch of &quot;deleted&quot; images.</li>
+</ul>
+<p>Before you start coding, you will be asked to do some reading on image file formats (BMP, JPEG, etc) and answer some questions. Don't spend forever on this, but do make sure you have read enough that you can answer the questions. We do ask you to submit your answers on Vocareum.</p>
+<h3 id="how-to-submit">How to submit</h3>
+<p>On Vocareum, you will see four assignments:</p>
+<ul>
+<li><strong>Problem Set: Questions</strong>. For this assignment submit a TXT file called questions.txt</li>
+<li><strong>Problem Set: Whodunit</strong>. For this assignment submit a file called whodunit.c</li>
+<li><strong>Problem Set: Resize</strong>. For this assignment submit a file called resize.c</li>
+<li><strong>Problem Set: Recover</strong>. For this assignmnet submit a file called recover.c</li>
+</ul>
+<p>After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum. </p>
+<p>You can also use check50 to check the correctness of your code before submitting. Unfortunately, you won't be able to use check50 on whodunit.c, but you should know when your image is clear enough to see the picture. Obviously, check50 won't work for questions.txt either, but please submit your answers to the questions specified in the problem set spec. </p>
+<p>If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.</p>
+<h3 id="get-started">Get Started</h3>
+<p>Start working on the <a href="http://cdn.cs50.net/2015/fall/psets/4/pset4/pset4.html#getting_ready" target="_blank">Problem Set 4 Spec</a>. You may have seen some of these videos already, but feel free to review them if you want a refresher. Go get em jaguar!</p>
+<h3 id="guidance">Guidance</h3>
+<p><strong>For Whodunit</strong> - If you are color vision deficient (for example, &quot;red-green color blind&quot;): have someone else review your results each time you try something new! The results of this problem set are often very faint. Therefore, even “trichromats” will likely have difficulty discerning the results.</p>
+<p>Don't spend hours trying to get this image PERFECT! If you can see enough to figure out what the results are supposed to be, STOP THERE! Later, if you get frustrated with something else, or need a break from a different problem set, come back to this one for fun. You can do really interesting stuff with this problem, and it's easy to get way too deep into it.</p>
+<p><strong>Whodunit, Resize, and Recover:</strong>
+Become an expert on the <code>xxd</code> command! This can be very helpful in troubleshooting all three assignments in this problem set. <em>Play, play, play</em> with this command's options! Use them to see the byte contents &quot;RGBTriple&quot; values for the sample images given, such as smiley.bmp and small.bmp. Different size files will need different options in order to view the contents easily. And, notice there's an option that allows you to specify the number of lines to view, so the whole file doesn't scroll on by when you're trying to view its contents!</p>
+<p>As always, Zamyla is your friend - AND break your coding into the smallest pieces possible!</p>
+<ul>
+<li>Use Zamyla’s TODO lists as a guide to the parts you need to complete.</li>
+<li>Use the code she shows you! Pay attention to the bits <code>copy.c</code> provides for you, noting the parts Zamyla says you need to alter or add to complete a particular item. Zamyla shows you more than <code>copy.c</code>! You might need to tweak an item for your use, but any actual code she shows you will be useful in solving the problem.</li>
+<li>
+<p>Finally, a note on <code>fread()</code> and <code>fwrite()</code>: make sure you understand the parameters - especially the middle two. For the details, read on:<br />
+Your &quot;man&quot; page shows this:</p>
+<pre><code class="language-c">size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);
+size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream);</code></pre>
+<p>Notice the <code>size_t</code>. It appears in two places in each function: before the function name, in the 2nd parameter position, and in the 3rd parameter position.</p>
+</li>
+</ul>
+<p>This implies that you can switch those middle two parameters freely. True, but know what's happening there!</p>
+<p>The 2nd parameter represents the <strong>size, in bytes</strong>, of the data chunk you want to read or write. You might use a <code>sizeof</code> function here, say, to describe how big a data chunk you want to use.</p>
+<p>The 3rd parameter represents <strong>how many</strong> of the specified chunks you want to read or write at a time.</p>
+<p>So, if you say <code>fread(&amp;mem_var, 512, 1, in_file)</code>, you're telling the computer to:</p>
+<ul>
+<li>read from <code>in_file</code></li>
+<li>the data you read should be in <strong>512 byte</strong> chunks</li>
+<li>grab <strong>1</strong> of these 512 byte chunks of data with each read</li>
+<li>store that chunk in <code>mem_var</code></li>
+</ul>
+<p>Now, what if you say <code>fread(&amp;mem_var, 1, 512, in_file)</code>, reversing the middle parameters? You're telling the computer to:</p>
+<ul>
+<li>read from <code>in_file</code></li>
+<li>the data you read should be in <strong>1 byte</strong> chunks</li>
+<li>grab <strong>512</strong> of these 1 byte chunks of data with each read</li>
+<li>store those chunks in <code>mem_var</code></li>
+</ul>
+<p>It looks like this could work both ways - and it can. So, where does this become important?</p>
+<ul>
+<li>You want to be certain you're reading/writing the right data chunks for the job. If you're processing 512 bytes at a time, why would you read in 1 byte 512 times, rather than the whole 512 bytes at once? If you're working with a struct, you can read in a struct size all at once (as done in <code>copy.c</code>). Of course, the same applies if you're writing to a file.</li>
+<li><strong>These functions' return value is the number of chunks grabbed in the current read</strong>. If the value matches the number of chunks specified in your 3rd parameter, then you've read/written an entire set of data successfully. However, if the return value is less than the number of chunks you specified, then either an error occurred, or the function reached the end of the file before completing. For example:</li>
+</ul>
+<p><code>fread(&amp;mem_var, 512, 1, in_file) == 1</code> means one 512-byte chunk was successfully read.<br />
+<code>fread(&amp;mem_var, 512, 1, in_file) == 0</code> means that the file has ended (or an error has occurred), as a 512-byte chunk couldn't be read.</p>
+<p><code>fread(&amp;mem_var, 1, 512, in_file) == 512</code> means 512 1-byte chunks were successfully read.<br />
+<code>fread(&amp;mem_var, 1, 512, in_file) &lt; 512</code> means that the file has ended (or an error has occurred) before all 512 chunks were read.  </p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

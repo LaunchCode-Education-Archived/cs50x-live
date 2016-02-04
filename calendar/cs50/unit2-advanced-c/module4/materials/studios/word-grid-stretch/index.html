@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-4">Module 4</h5>
+<p><a href="../../class1">Back to Class 1</a></p>
+<h1 id="studio-word-grid-stretch">Studio: Word Grid Stretch</h1>
+<p>The word grid is back with a vengence!</p>
+<p>Just like last week, this studio involves taking some strings from the user, and then printing them back out in a transformed way.</p>
+<p>Today, your program will apply a &quot;stretch&quot; factor to the grid of letters, making it larger. </p>
+<p>It is easiest to explain via example. The finished program should behave like this:</p>
+<pre><code class="language-nohighlight">$ ./wordgridstretch goat crab bear
+Your word grid currently looks like this:
+goat
+crab
+bear
+Now I will stretch it out. How much should I stretch by?
+3
+After stretching by 3, you now have this!
+gggoooaaattt
+gggoooaaattt
+gggoooaaattt
+cccrrraaabbb
+cccrrraaabbb
+cccrrraaabbb
+bbbeeeaaarrr
+bbbeeeaaarrr
+bbbeeeaaarrr</code></pre>
+<p>That's what we mean by &quot;making the grid larger&quot;. </p>
+<h3 id="break-it-down">Break it Down</h3>
+<p>To get started, we suggest you try two simpler versions first:</p>
+<ol>
+<li>
+<p>A program that just stretches the grid vertically:</p>
+<pre><code class="language-nohighlight">$ ./stretchvertical goat crab bear
+Your word grid currently looks like this:
+goat
+crab
+bear
+Now I will stretch it out vertically. How much should I stretch by?
+3
+After stretching by 3, you now have this!
+goat
+goat
+goat
+crab
+crab
+crab
+bear
+bear
+bear</code></pre>
+</li>
+<li>A program that just stretches the grid horizontally:
+<pre><code class="language-nohighlight">$ ./stretchhorizontal goat crab bear
+Your word grid currently looks like this:
+goat
+crab
+bear
+Now I will stretch it out horizontally. How much should I stretch by?
+3
+After stretching by 3, you now have this!
+gggoooaaattt
+cccrrraaabbb
+bbbeeeaaarrr</code></pre></li>
+</ol>
+<p>Only after writing these little bad boys should you start to think about how to combine both steps into one bigger badder boy.</p>
+<h3 id="validation">Validation</h3>
+<p>Don't forget to validate the user's input. Specifically, you'll want to ensure:</p>
+<ul>
+<li>that the user gave you exactly 3 words as command-line arguments</li>
+<li>that those words are all the same length</li>
+<li>that the user provides a non-negative stretch factor </li>
+</ul>
+<h3 id="submitting">Submitting</h3>
+<p>You don't have to submit <code>stretchvertical.c</code> and <code>stretchhorizontal.c</code>. You only have to submit <code>wordgridstretch.c</code>.</p>
+<p>*You can grab a copy of these instructions from Helpful Resources <a href="../../../../../../..//helpful-resources/modules/module-4.html#class-x-studio-word-grid-stretch" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
