@@ -19,7 +19,7 @@ Let's walk through a quick example. Say we have an input file that looked like t
 ```
 0,2
 1
-0,2
+1,2
 ```
 This specifies that the first row of out output file should have black pixels at x positions 0, and 2. The rest of the pixels should be white.
 
@@ -29,9 +29,9 @@ And the third row in this case is the same as the first row.
 
 So ultimately, our output file should look like this:
 ```
-##  ##
-  ##  
-##  ##
+# #
+ #
+ ##
 ```
 
 Your program should prompt the user for the name of the input file and output file, and then proceed to "draw the picture" in the output file. Running it looks like this:
