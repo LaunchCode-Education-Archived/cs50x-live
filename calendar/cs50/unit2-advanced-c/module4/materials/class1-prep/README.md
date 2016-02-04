@@ -29,11 +29,11 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=1PoFw5_p0x
 Do | Exercise | [Custom strcmp](../exercises/customstrcmp) | Practice using pointers by implementing your own version of the `strcmp` function
 Read | Resource | [Annoying Syntax](../resources/annoying-syntax) | Part of what makes pointers in c hard to learn is that whoever designed the syntax made a couple of odd decisions. Here we simply point out those syntax oddities so they don't catch you offguard.
 Watch | Short | <a href="https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4" target="_blank">Pointers</a> | prereqs: dereferencing, malloc
-Watch | Section | <a href="https://youtu.be/SppBaGROtX0?t=370" target="_blank">Jason Hirschorn on Pointers</a> | really good
+Watch | Section | <a href="https://youtu.be/SppBaGROtX0?t=370" target="_blank">Jason Hirschorn on Pointers</a> | In this video, Jason Hirschorn leads a live review section on pointers. The video is very long (over an hour) but if you're still feeling confused about pointers, it should be very helpful.
 
 *** 
 
-#### malloc
+#### Allocating Memory Dynamically
 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
@@ -43,8 +43,8 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=ywqB3ZTf8OE&l
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=zwKBMSLYrk4&index=3&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">copy-0</a> | Follow David as he _tries_ to copy a `string`.  <br>You've already seen this program earlier, but try to challenge yourself and start the program using the pseudocode <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-copy-0" target="_blank">here</a>.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ebQSYaneMms&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=4" target="_blank">copy-1</a> | Keep following David to solve the problem from the previous video. <br>Find instructions to start the follow-along <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-copy-1" target="_blank">here</a>. 
 Do | Exercise | [Double Copy](../exercises/double-copy) | This is a slight twist on the `copy-1` program you just wrote.
-Watch | Short | <a href="https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Strings</a>
 Do | Exercise | [Swap Cycle](../exercises/swap-cycle) | This exercise asks you to implement a slightly different version of our friend, the `swap` function.
+Watch | Short | <a href="https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Strings</a> | Christopher Bartholomew talks about how `string`s are stored in memory, and how, under the hood, they always end with a nul-terminator `\0` character.
 
 ***
 
