@@ -2,7 +2,7 @@
 
 [Back to Class 1 Prep](../../class1-prep#pointers)
 
-# Exercise: Pointer Practice
+# Exercise: Pointer Table
 
 You are given the following values:
 
