@@ -27,7 +27,6 @@ LaunchCode’s CS50x is an in-person version of CS50x with a number of cool perk
 
 Our goal at LaunchCode is to put you on a path towards starting a career in technology, or to simply get you to where you want to go. We look forward to working with you as you start that journey with CS50x. 
 
-
 ## What's Next?
 First you'll want to read about how to take this class. Please read over the Student Guide in detail as it will provide you with important information about this class, course expectations, and the course tools. You should have received that in an email, but for convenience here it is again: <a href="https://docs.google.com/document/d/linktohubcitystudentguide" target="_blank">Student Guide</a>
 
