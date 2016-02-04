@@ -18,4 +18,9 @@ i'm learning about pointers and stuff
 i'm learning about pointers and stuffi'm learning about pointers and stuff
 ```
 
-One more thing: you may not use `printf` more than once! This means that you'll need to build a single `string` which contains all the characters, and then print that string. Make sure you `malloc` enough space to hold everything.
+You could easily solve the problem using a line like this:
+```c
+printf("%s%s\n", inputStr);
+```
+But! Don't do that. The point of this exercise is to practice using `malloc` to make a string by allocating memory from the heap. So make sure you actually create a chunk of memory that can hold twice the amount as the input string, and then fill that memory, and then print the resulting string.
+
