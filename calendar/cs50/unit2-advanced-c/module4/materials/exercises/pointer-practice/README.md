@@ -13,6 +13,7 @@ int z = 9;
 int* px = &x;
 int* py = &y;
 int* pz = &z;
+```
 
 Fill in the table below with the values that each variable will have after each statement is executed.
 
