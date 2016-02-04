@@ -16,7 +16,7 @@ For studio, you will do a problem that is very similar to part of Pset4. You do 
 1. Lecture / Q&A on the following topics
   * pointers
   * malloc
-2. Studio: [Word Grid Stretch](../studios/word-grid-stretch)
+2. [Studio: Word Grid Stretch](../studios/word-grid-stretch)
 
 ### Homework
 1. [Class 2 Prep](../class2-prep) 
