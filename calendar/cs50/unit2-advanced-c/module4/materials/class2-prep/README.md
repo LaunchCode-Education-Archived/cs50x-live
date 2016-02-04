@@ -8,6 +8,7 @@ Before coming to [Class 2](../class2), please complete the following tasks:
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=pointers,malloc" target="_blank">pointers, malloc</a> | If you still feel fuzzy on this stuff, that's par for the course. It's going to take time for everything to sink in. Keep your head up!
+Watch | Short | <a href="https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4" target="_blank">Pointers</a> | Rob Bowden talks about pointers and `malloc`, including some wacky stuff like "double pointers", a pointer to a pointer!
 
 ***
 
