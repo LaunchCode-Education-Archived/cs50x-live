@@ -11,8 +11,6 @@ There are some important differences between `fgets` and `fread`:
 
 Think about how these differences will shape your approach to this problem. You could read in the entire file at once, then search through the buffer looking for newlines. An alternative approach might involve reading in one character at a time, then deciding what to do with each character individually.
 
-The starter code from the [previous exercise](../restaurant-menu/) is also a good starting point for this exercise. Also be sure to look at the example on the [reference page](https://reference.cs50.net/stdio.h/fread).
-
 
 
 
