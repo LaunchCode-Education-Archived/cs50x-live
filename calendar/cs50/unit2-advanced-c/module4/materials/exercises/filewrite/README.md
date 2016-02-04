@@ -5,7 +5,7 @@
 
 Here we'll finish a basic program to show the user a menu from a fast food restaurant (named "Good Burger"), then take down their order, and write it into a file.
 
-We already started the program for you!  The code is in [goodburger.c](./goodburger.html).
+We already started the program for you!  The code is in [goodburger.c](./goodburger.md).
 
 The code to show the menu has already been written, you just need to fill in the code to:
 - open a file
