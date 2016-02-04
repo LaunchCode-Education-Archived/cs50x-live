@@ -28,7 +28,6 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=jE_bs-QNj3
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=1PoFw5_p0xk&index=6&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">pointers</a> | Follow David as he prints a `string` one `char` at a time using pointers <br>You can grab the pseudocode <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-pointers" target="_blank">here</a>.
 Do | Exercise | [Custom strcmp](../exercises/customstrcmp) | Practice using pointers by implementing your own version of the `strcmp` function
 Read | Resource | [Annoying Syntax](../resources/annoying-syntax) | Part of what makes pointers in c hard to learn is that whoever designed the syntax made a couple of odd decisions. Here we simply point out those syntax oddities so they don't catch you offguard.
-Watch | Short | <a href="https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4" target="_blank">Pointers</a> | prereqs: dereferencing, malloc
 Watch | Section | <a href="https://youtu.be/SppBaGROtX0?t=370" target="_blank">Jason Hirschorn on Pointers</a> | In this video, Jason Hirschorn leads a live review section on pointers. The video is very long (over an hour) but if you're still feeling confused about pointers, it should be very helpful.
 Do | Exercise | [Pointer Table](../exercises/pointer-practice) | Practice evaluating statements that use pointers.
 
