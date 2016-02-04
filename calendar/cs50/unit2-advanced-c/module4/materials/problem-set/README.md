@@ -1,6 +1,6 @@
-[Module 4](../..)
+#####[Module 4](../..)
 
-# Problem Set: Pset 4
+# Problem Set 4
 
 ### Synopsis
 In this problem set, you'll do (TODO someone: a few sentences, just a quick overview.)
