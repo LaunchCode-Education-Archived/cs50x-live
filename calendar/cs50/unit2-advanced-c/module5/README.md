@@ -29,6 +29,14 @@ Task | Type | Link | Notes
 Watch | Short | <a href="https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Structs</a> | This short talks more about structs. There is one part where he gets into "linked lists" and recursively defined structs, which you won't really need to worry about until Module 5.
 Watch | Short | <a href="https://www.youtube.com/watch?v=t4MSwiqfLaY", target="_blank">Recursion</a> | Zamyla. Starts talking about data structures toward the end
 
+#### More practice with Recursion (also poached)
+Task | Resource Type | Link  | Instructions
+--------------|------|------|-------------
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=beqqGIdabrE&index=7&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Call Stack</a> | Watch these videos on the Call Stack, a fundamental concept in computer science that's especially helpful in understanding recursion.
+Study | CS50 Study | <a href="https://study.cs50.net/recursion" target="_blank">recursion</a> | Review these materials detailing how recursion works
+Rewatch | Lecture | <a href="https://www.youtube.com/watch?v=9WsyLL6KVBY" target="_blank">Week 4, (first 25 minutes)</a>  | THIS IS OPTIONAL. We already saw this last week, but if you want some more recursion material, this might help.
+
+
 
 ##### More on Pointers, Memory
 Task | Type | Link | Notes
