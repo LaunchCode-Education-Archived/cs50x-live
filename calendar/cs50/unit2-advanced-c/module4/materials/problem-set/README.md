@@ -3,7 +3,10 @@
 # Problem Set 4
 
 ### Synopsis
-In this problem set, you'll do (TODO someone: a few sentences, just a quick overview.)
+This problem set is difficult but very fun! There are three main components:
+* Whodunit: Here you will manipulate the pixels in an image in order to solve a murder mystery!
+* Resize: This component asks you to write a program that scales an image by a certain factor, making it 2, 3, or n times as large.
+* Recover: It turns out that when you "delete" data from a computer, the data doesn't necessarily go away. More often, it merely means that the computer will allow that chunk of memory to be overwritten in the future. In this assignment, you will search through the raw bytes of a digital camera's memory to recover a bunch of "deleted" images.
 
 ### How to submit 
 On Vocareum, you will see four assignments:
