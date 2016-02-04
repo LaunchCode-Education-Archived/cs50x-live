@@ -25,7 +25,7 @@ This specifies that the first row of out output file should have black pixels at
 
 The next row should have a black pixel at position 1, and the rest should be white.
 
-And the third row in this case is the same as the first row.
+And the third row should be black at positions 1 and 2, elsewhere white.
 
 So ultimately, our output file should look like this:
 ```
