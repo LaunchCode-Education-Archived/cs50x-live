@@ -6,14 +6,15 @@
 In this problem set, you'll do (TODO someone: a few sentences, just a quick overview.)
 
 ### How to submit 
-On Vocareum, you will see two assignments:
+On Vocareum, you will see four assignments:
+* **Problem Set: Questions**. For this assignment submit a TXT file called questions.txt
 * **Problem Set: Whodunit**. For this assignment submit a file called whodunit.c
 * **Problem Set: Resize**. For this assignment submit a file called resize.c
-* **Problem Set: Recover** For this assignmnet submit a file called recover.c
+* **Problem Set: Recover**. For this assignmnet submit a file called recover.c
 
 After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum. 
 
-You can also use check50 to check the correctness of your code before submitting. Unfortunately, you won't be able to use check50 on whodunit.c, but you should know when your image is clear enough to see the picture.
+You can also use check50 to check the correctness of your code before submitting. Unfortunately, you won't be able to use check50 on whodunit.c, but you should know when your image is clear enough to see the picture. Obviously, check50 won't work for questions.txt either, but please submit your answers to the questions specified in the problem set spec. 
 
 If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.
 
