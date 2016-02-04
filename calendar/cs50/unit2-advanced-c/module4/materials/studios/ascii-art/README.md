@@ -7,7 +7,7 @@
 
 Today we're going to make "pictures" out of text symbols.
 
-Specifically, you will write a program that reads in CSV files, interprets their coded instructions, and writes out text files that form pictures.
+Specifically, you will write a program in a file called `asciiart.c` that reads in CSV files, interprets their coded instructions, and writes out text files that form pictures.
 
 Here's how it works: your output file will have two "colors", black and white. For each black "pixel", your file will have a string made of two hash `"##"` characters. For each white "pixel" your file will have a string made of two space `"  "` characters. 
 
@@ -34,7 +34,16 @@ So ultimately, our output file should look like this:
 ##  ##
 ```
 
+Your program should prompt the user for the name of the input file and output file, and then proceed to "draw the picture" in the output file. Running it looks like this:
 
+```
+$ ./asciiart
+What is the name of the file I should read from?
+secretimage.csv
+What is the name of the file I should write to?
+result.txt
+Done! If you open up result.txt you should now see a cool image!
+```
 
 
 
