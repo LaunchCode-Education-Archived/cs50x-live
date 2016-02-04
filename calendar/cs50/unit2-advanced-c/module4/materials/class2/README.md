@@ -13,7 +13,7 @@ This class will be focused on file i/o and structs, as well as some more practic
   * File i/o
   * structs
 
-2. Studio: [Studio Name](../studios/)
+2. Studio: [Ascii Art](../studios/ascii-art)
 
 ### Homework
 1. Continue working on [Problem Set 4](../problem-set)
