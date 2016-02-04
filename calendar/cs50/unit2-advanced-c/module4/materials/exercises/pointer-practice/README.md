@@ -28,4 +28,4 @@ z = (\*pz) + x;| ? | ? | ? |  ? |  ? |  ?
 z = (\*pz) \* (\*py);| ? | ? | ? |  ? |  ? |  ?
 
 
-You can simply write the answer out on paper, or use a spreadsheet on your computer
+You can simply write the answer out on paper, or use a spreadsheet on your computer.
