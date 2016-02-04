@@ -2,12 +2,12 @@
 #include <string.h>
 #include <stdio.h>
 
-struct csvLine {
+typedef struct {
     int* hashLocations;
     int length;
-};
+} csvLine;
 
-struct csvLine extractNumbers(string line);
+csvLine extractNumbers(char* line);
 
 int main(void)
 {
@@ -53,9 +53,8 @@ int main(void)
 	
 }
 
-struct csvLine extractNumbers(string line)
+csvLine extractNumbers(char* line)
 {
-	//Count how many commas appear
 	int count = 0;
 	for(int i = 0; i < strlen(line); i++)
 	{
