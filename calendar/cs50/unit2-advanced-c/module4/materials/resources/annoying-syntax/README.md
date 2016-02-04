@@ -3,7 +3,7 @@
 
 # Resource: Annoying Syntax
 
-Pointers in c have a reputation as being very difficult to learn. But a large part of the difficulty is due to their wacky syntax. 
+Pointers in C have a reputation as being very difficult to learn. But a large part of the difficulty is due to their wacky syntax. 
 
 Here, we attempt to explicitly point out the wackiness, so that hopefully it does not trip you up as much as it might otherwise.
 
