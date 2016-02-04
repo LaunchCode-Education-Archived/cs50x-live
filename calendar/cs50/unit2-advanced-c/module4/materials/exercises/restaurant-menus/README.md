@@ -35,14 +35,16 @@ fgets(line, 150, yourfile);
 ```
 The `150` specifies that you want to stop reading after 150 bytes. But the cool part about `fgets` is that **if** it encounters a new line `\n` character at any point, even some time before 150 bytes, it will immediately stop and return the data up until that point. This means you will receive exactly one line of text from the file!
 
-When you use `fgets` it will read content from the file until either the specified number of bytes, a newline, or the end of the file (EOF) is reached. There is actually a special value for End Of File called `EOF` that you can use to help out with this. A usage of `EOF` might look something like this:
+When you use `fgets` it will read content from the file until either the specified number of bytes, a newline, or the end of the file (EOF) is reached. You'll probably want to write code that checks to see if the end of the file has been reached or not. One example of how you might check for the end of the file is as follows:
 
 ```c
-while(fgets(...) != EOF)
+while(fgets(...) != NULL)
 {
 	//do stuff
 }
 ```
+
+In the above example, the loop will continue to run as long as there is more information to be read. As soon as the end of the file is reached, `fgets` will return NULL and the loop will stop.
 
 After you run your program and create a file, it may not appear in the file browser right away. To find it, right click the folder that the program is in and select "Refresh." The file that you created should then appear. Alternatively, you can use ```ls``` in the terminal.
 
