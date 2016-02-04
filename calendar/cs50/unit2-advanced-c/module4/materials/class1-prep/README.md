@@ -30,7 +30,7 @@ Do | Exercise | [Custom strcmp](../exercises/customstrcmp) | Practice using poin
 Read | Resource | [Annoying Syntax](../resources/annoying-syntax) | Part of what makes pointers in c hard to learn is that whoever designed the syntax made a couple of odd decisions. Here we simply point out those syntax oddities so they don't catch you offguard.
 Watch | Short | <a href="https://www.youtube.com/watch?v=gv6i2CJm57Q&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP&index=4" target="_blank">Pointers</a> | prereqs: dereferencing, malloc
 Watch | Section | <a href="https://youtu.be/SppBaGROtX0?t=370" target="_blank">Jason Hirschorn on Pointers</a> | In this video, Jason Hirschorn leads a live review section on pointers. The video is very long (over an hour) but if you're still feeling confused about pointers, it should be very helpful.
-Do | Exercise | [Pointer
+Do | Exercise | [Pointer Table](../exercises/pointer-practice) | Practice evaluating statements that use pointers.
 
 *** 
 
