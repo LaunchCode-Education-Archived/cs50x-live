@@ -14,12 +14,12 @@ To do this, you should:
   * [houseoftires.c](./houseoftires.html)
   * [mathhelper.h](./mathhelperheader.html)
   * [mathhelper.c](./mathhelper.html)
-  * [Makefile](./makefile.html)
+  * [Makefile](./Makefile)
 1. Cut the `numberOfContainers` function from `houseOfPizza.c` into `mathHelper.c`, so we can use it in both `houseOfPizza.c` and `houseOfTires.c`
 2. Add an appropriate function prototype to `mathHelper.h`
 3. Add a line to `#include` mathHelper.h in `houseOfTires.c`
 4. Add a line to `#include` mathHelper.h in `houseOfPizza.c`. (Actually we have already done this for you!)
-5. You can now compile your programs using the `makefile` you copied over.  It will compile all of your programs at once for you by running the command `make`.  
+5. You can now compile your programs using the `Makefile` you copied over.  It will compile all of your programs at once for you by running the command `make`.  
  * When you copy over the makefile make sure you save it as `makefile` without using any extension. 
  * You will learn more about make files in Class 2 and [pset3](../../problem-set).
 
