@@ -1,15 +1,18 @@
+# TODO replace Pleasantville stuff with your city stuff
+
 template:
     url: https://github.com/LaunchCodeEducation/Template-Light
+
 # Base URL of the published website
-baseUrl: http://education.launchcode.org/cs50x-stlouis
+baseUrl: http://education.launchcode.org/cs50x-pleasantville
 
 
 # Used to link to the GitHub project
 github:
     user: LaunchCodeEducation 
-    repo: cs50x-stlouis 
+    repo: cs50x-pleasantville 
 
-title: LaunchCode's CS50x - St. Louis 
+title: LaunchCode's CS50x - Pleasantville 
 
 # The left menu bar
 menu:
@@ -34,9 +37,9 @@ menu:
             attributes: target="_blank"
         piazza:
             text: Piazza
-            absoluteUrl: http://piazza.com/wustl/spring2016/cs50x
+            absoluteUrl: http://piazza.com/link-to-pleasantville-piazza-page
             attributes: target="_blank"
         studentguide:  
             text: Student Guide
-            absoluteUrl: https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/
+            absoluteUrl: https://docs.google.com/document/d/link-to-pleasantville-student-guide
             attributes: target="_blank"
