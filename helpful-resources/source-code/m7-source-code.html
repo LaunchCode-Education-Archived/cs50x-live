@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h1 id="module-7-source-code">Module 7 Source Code</h1>
+<p>You will find the source code for the follow-alongs that you will complete during Module 7.  We have provided links to all of the files for CS50, so you will have access to some other files that we have not included in our curriculum. We highly recommend that you try to complete them on your own before you look at the code.  </p>
+<p><a href="http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/" target="_blank"><b>Lecture: Week 7, Continued Source Code</b></a></p>
+<p><a href="http://cdn.cs50.net/2015/fall/lectures/8/m/src8m/" target="_blank"><b>Lecture: Week 8 Source Code</b></a></p>
+<h2 id="prep-for-class-1">Prep for Class 1</h2>
+<h3 id="froshims-instructions">Froshims Instructions</h3>
+<p>There will be multiple files for these follow-alongs and you can download the official source code to get all of the files.  Class 1 Prep will only need the froshims directory so you will copy the entire zip file and then delete the other files / folders that are not needed by running the following commands in your terminal:</p>
+<p>Download the source code zip file in the <code>module7/followalongs</code> directory.</p>
+<pre><code class="language-nohighlight">$ cd ~/workspace/module7/followalongs
+$ wget http://cdn.cs50.net/2015/fall/lectures/7/w/src7w.zip</code></pre>
+<p>Unzip and delete the file</p>
+<pre><code class="language-nohighlight">$ unzip src7w.zip 
+$ rm -f src7w.zip </code></pre>
+<p>Change into the <code>src7w</code> directory and list the contents.  You should have 3 directories <code>froshims/</code>, <code>mispellings/</code>, and <code>text/</code> as well as 3 files named <code>conditions</code>, <code>hello</code> and <code>return</code>.  You will delete all of the folders / files except for <code>froshims/</code>.</p>
+<pre><code class="language-nohighlight">$ cd src7w
+$ ls
+conditions-1  froshims/  hello  mispellings/  return  text/
+$ rm -f -r mispellings -r text conditions-1 hello return</code></pre>
+<p>Now you can copy froshims to the directory <code>~/workspace/module7/followalongs</code>, because it is currently located in <code>~/workspace/module7/followalongs/src7w</code> directory.  After copying it go to the parent directory <code>~/workspace/module7/followalongs</code> and list the files to show the <code>src7w</code> and <code>froshims</code> directories.  </p>
+<pre><code class="language-nohighlight">$ cp -r froshims ~/workspace/module7/followalongs/froshims
+$ cd ..
+$ ls
+froshims/  src7w/</code></pre>
+<p>Delete the <code>src7w</code> directory. You should now have only the <code>froshims</code> directory.</p>
+<pre><code class="language-nohighlight">$ rm -f -r src7w
+$ ls
+froshims/</code></pre>
+<h4 id="froshims-0">froshims-0</h4>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * froshims-0.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * Implements a registration form for Frosh IMs.
+     * Submits to register-0.php.
+     */
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Frosh IMs&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body style="text-align: center;"&gt;
+        &lt;h1&gt;Register for Frosh IMs&lt;/h1&gt;
+        &lt;form action="register-0.php" method="post"&gt;
+            Name: &lt;input name="name" type="text"/&gt;
+            &lt;br/&gt;
+            &lt;input name="captain" type="checkbox"/&gt; Captain?
+            &lt;br/&gt;
+            &lt;input name="comfort" type="radio" value="less"/&gt; Less Comfortable
+            &lt;input name="comfort" type="radio" value="more"/&gt; More Comfortable
+            &lt;br/&gt;
+            Dorm:
+            &lt;select name="dorm"&gt;
+                &lt;option value=""&gt;&lt;/option&gt;
+                &lt;option value="Apley Court"&gt;Apley Court&lt;/option&gt;
+                &lt;option value="Canaday"&gt;Canaday&lt;/option&gt;
+                &lt;option value="Grays"&gt;Grays&lt;/option&gt;
+                &lt;option value="Greenough"&gt;Greenough&lt;/option&gt;
+                &lt;option value="Hollis"&gt;Hollis&lt;/option&gt;
+                &lt;option value="Holworthy"&gt;Holworthy&lt;/option&gt;
+                &lt;option value="Hurlbut"&gt;Hurlbut&lt;/option&gt;
+                &lt;option value="Lionel"&gt;Lionel&lt;/option&gt;
+                &lt;option value="Matthews"&gt;Matthews&lt;/option&gt;
+                &lt;option value="Mower"&gt;Mower&lt;/option&gt;
+                &lt;option value="Pennypacker"&gt;Pennypacker&lt;/option&gt;
+                &lt;option value="Stoughton"&gt;Stoughton&lt;/option&gt;
+                &lt;option value="Straus"&gt;Straus&lt;/option&gt;
+                &lt;option value="Thayer"&gt;Thayer&lt;/option&gt;
+                &lt;option value="Weld"&gt;Weld&lt;/option&gt;
+                &lt;option value="Wigglesworth"&gt;Wigglesworth&lt;/option&gt;
+            &lt;/select&gt;
+            &lt;br/&gt;
+            &lt;input type="submit" value="Register"/&gt;
+        &lt;/form&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h4 id="register-0">register-0</h4>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * register-0.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * Dumps contents of $_POST.
+     */
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Frosh IMs&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;pre&gt;&lt;?php print_r($_POST); ?&gt;&lt;/pre&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h4 id="froshims-1">froshims-1</h4>
+<p>You will need the <code>bootstrap.min.css</code> stylesheet located <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/froshims/bootstrap/css/" target="_blank">here</a>. You should already have it, but if you did not download all of the source code you can follow the <a href="#froshims-instructions">instructions</a> above.</p>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * froshims-1.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * Implements a registration form for Frosh IMs.
+     * Submits to register-1.php.
+     *
+     * Demonstrates Bootstrap (http://getbootstrap.com/).
+     */
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/&gt;
+        &lt;title&gt;Frosh IMs&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body style="margin: 20px;"&gt;
+        &lt;h1&gt;Register for Frosh IMs&lt;/h1&gt;
+        &lt;form action="register-1.php" method="post"&gt;
+            &lt;fieldset&gt;
+                &lt;label&gt;Name&lt;/label&gt;
+                &lt;input name="name" type="text"/&gt;
+                &lt;label class="checkbox"&gt;
+                    &lt;input name="captain" type="checkbox"/&gt; Captain?
+                &lt;/label&gt;
+                &lt;label class="radio"&gt;
+                    &lt;input name="comfort" type="radio" value="less"/&gt; Less Comfortable
+                &lt;/label&gt;
+                &lt;label class="radio"&gt;
+                    &lt;input name="comfort" type="radio" value="more"/&gt; More Comfortable
+                &lt;/label&gt;
+                &lt;label&gt;
+                    &lt;select name="dorm"&gt;
+                        &lt;option value=""&gt;&lt;/option&gt;
+                        &lt;option value="Apley Court"&gt;Apley Court&lt;/option&gt;
+                        &lt;option value="Canaday"&gt;Canaday&lt;/option&gt;
+                        &lt;option value="Grays"&gt;Grays&lt;/option&gt;
+                        &lt;option value="Greenough"&gt;Greenough&lt;/option&gt;
+                        &lt;option value="Hollis"&gt;Hollis&lt;/option&gt;
+                        &lt;option value="Holworthy"&gt;Holworthy&lt;/option&gt;
+                        &lt;option value="Hurlbut"&gt;Hurlbut&lt;/option&gt;
+                        &lt;option value="Lionel"&gt;Lionel&lt;/option&gt;
+                        &lt;option value="Matthews"&gt;Matthews&lt;/option&gt;
+                        &lt;option value="Mower"&gt;Mower&lt;/option&gt;
+                        &lt;option value="Pennypacker"&gt;Pennypacker&lt;/option&gt;
+                        &lt;option value="Stoughton"&gt;Stoughton&lt;/option&gt;
+                        &lt;option value="Straus"&gt;Straus&lt;/option&gt;
+                        &lt;option value="Thayer"&gt;Thayer&lt;/option&gt;
+                        &lt;option value="Weld"&gt;Weld&lt;/option&gt;
+                        &lt;option value="Wigglesworth"&gt;Wigglesworth&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/label&gt;
+                &lt;button class="btn btn-default" type="submit"&gt;Register&lt;/button&gt;
+            &lt;/fieldset&gt;
+        &lt;/form&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h4 id="register-1">register-1</h4>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * register-1.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * Implements a registration form for Frosh IMs.  Redirects 
+     * user to froshims-1.php upon error.
+     */
+
+    // validate submission
+    if (empty($_POST["name"]) || empty($_POST["comfort"]) || empty($_POST["dorm"]))
+    {
+        header("Location: froshims-1.php");
+        exit;
+    }
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Frosh IMs&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        You are registered!  (Well, not really.)
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h4 id="froshims-2">froshims-2</h4>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * froshims-2.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * Implements a registration form for Frosh IMs.
+     * Submits to register-2.php.
+     */
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Frosh IMs&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body style="text-align: center;"&gt;
+        &lt;h1&gt;Register for Frosh IMs&lt;/h1&gt;
+        &lt;form action="register-2.php" method="post"&gt;
+            Name: &lt;input name="name" type="text"/&gt;
+            &lt;br/&gt;
+            &lt;input name="captain" type="checkbox"/&gt; Captain?
+            &lt;br/&gt;
+            &lt;input name="comfort" type="radio" value="less"/&gt; Less Comfortable
+            &lt;input name="comfort" type="radio" value="more"/&gt; More Comfortable
+            &lt;br/&gt;
+            Dorm:
+            &lt;select name="dorm"&gt;
+                &lt;option value=""&gt;&lt;/option&gt;
+                &lt;option value="Apley Court"&gt;Apley Court&lt;/option&gt;
+                &lt;option value="Canaday"&gt;Canaday&lt;/option&gt;
+                &lt;option value="Grays"&gt;Grays&lt;/option&gt;
+                &lt;option value="Greenough"&gt;Greenough&lt;/option&gt;
+                &lt;option value="Hollis"&gt;Hollis&lt;/option&gt;
+                &lt;option value="Holworthy"&gt;Holworthy&lt;/option&gt;
+                &lt;option value="Hurlbut"&gt;Hurlbut&lt;/option&gt;
+                &lt;option value="Lionel"&gt;Lionel&lt;/option&gt;
+                &lt;option value="Matthews"&gt;Matthews&lt;/option&gt;
+                &lt;option value="Mower"&gt;Mower&lt;/option&gt;
+                &lt;option value="Pennypacker"&gt;Pennypacker&lt;/option&gt;
+                &lt;option value="Stoughton"&gt;Stoughton&lt;/option&gt;
+                &lt;option value="Straus"&gt;Straus&lt;/option&gt;
+                &lt;option value="Thayer"&gt;Thayer&lt;/option&gt;
+                &lt;option value="Weld"&gt;Weld&lt;/option&gt;
+                &lt;option value="Wigglesworth"&gt;Wigglesworth&lt;/option&gt;
+            &lt;/select&gt;
+            &lt;br/&gt;
+            &lt;input type="submit" value="Register"/&gt;
+        &lt;/form&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h4 id="register-2">register-2</h4>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * register-2.php
+     *
+     * Computer Science 50
+     * David J. Malan
+     *
+     * Implements a registration form for Frosh IMs.  Informs user of 
+     * any errors.
+     */
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Frosh IMs&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;?php if (empty($_POST["name"]) || empty($_POST["comfort"]) || empty($_POST["dorm"])): ?&gt;
+            You must provide your name, comfort, and dorm!  Go &lt;a href="froshims-2.php"&gt;back&lt;/a&gt;.
+        &lt;?php else: ?&gt;
+            You are registered!  (Well, not really.)
+        &lt;?php endif ?&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h4 id="froshims-3">froshims-3</h4>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * froshims-3.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * Implements a registration form for Frosh IMs.
+     * Submits to register-3.php.
+     */
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Frosh IMs&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body style="text-align: center;"&gt;
+        &lt;h1&gt;Register for Frosh IMs&lt;/h1&gt;
+        &lt;form action="register-3.php" method="post"&gt;
+            Name: &lt;input name="name" type="text"/&gt;
+            &lt;br/&gt;
+            &lt;input name="captain" type="checkbox"/&gt; Captain?
+            &lt;br/&gt;
+            &lt;input name="comfort" type="radio" value="less"/&gt; Less Comfortable
+            &lt;input name="comfort" type="radio" value="more"/&gt; More Comfortable
+            &lt;br/&gt;
+            Dorm:
+            &lt;select name="dorm"&gt;
+                &lt;option value=""&gt;&lt;/option&gt;
+                &lt;option value="Apley Court"&gt;Apley Court&lt;/option&gt;
+                &lt;option value="Canaday"&gt;Canaday&lt;/option&gt;
+                &lt;option value="Grays"&gt;Grays&lt;/option&gt;
+                &lt;option value="Greenough"&gt;Greenough&lt;/option&gt;
+                &lt;option value="Hollis"&gt;Hollis&lt;/option&gt;
+                &lt;option value="Holworthy"&gt;Holworthy&lt;/option&gt;
+                &lt;option value="Hurlbut"&gt;Hurlbut&lt;/option&gt;
+                &lt;option value="Lionel"&gt;Lionel&lt;/option&gt;
+                &lt;option value="Matthews"&gt;Matthews&lt;/option&gt;
+                &lt;option value="Mower"&gt;Mower&lt;/option&gt;
+                &lt;option value="Pennypacker"&gt;Pennypacker&lt;/option&gt;
+                &lt;option value="Stoughton"&gt;Stoughton&lt;/option&gt;
+                &lt;option value="Straus"&gt;Straus&lt;/option&gt;
+                &lt;option value="Thayer"&gt;Thayer&lt;/option&gt;
+                &lt;option value="Weld"&gt;Weld&lt;/option&gt;
+                &lt;option value="Wigglesworth"&gt;Wigglesworth&lt;/option&gt;
+            &lt;/select&gt;
+            &lt;br/&gt;
+            &lt;input type="submit" value="Register"/&gt;
+        &lt;/form&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h4 id="register-3">register-3</h4>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * register-3.php
+     *
+     * Computer Science 50
+     * David J. Malan
+     *
+     * Implements a registration form for Frosh IMs.  Reports registration 
+     * via email.  Redirects user to froshims-3.php upon error.
+     */
+
+    // require PHPMailer
+    require("libphp-phpmailer/class.phpmailer.php");
+
+    // validate submission
+    if (!empty($_POST["name"]) &amp;&amp; !empty($_POST["comfort"]) &amp;&amp; !empty($_POST["dorm"]))
+    {
+        // instantiate mailer
+        $mail = new PHPMailer();
+
+        // use SMTP
+        $mail-&gt;IsSMTP();
+        $mail-&gt;Host = "smtp.gmail.com";
+        $mail-&gt;Password = "crimson50";
+        $mail-&gt;Port = 587;
+        $mail-&gt;SMTPAuth = true;
+        $mail-&gt;SMTPSecure = "tls";
+        $mail-&gt;Username = "jharvard@cs50.net";
+
+        // set From:
+        $mail-&gt;SetFrom("jharvard@cs50.net");
+
+        // set To:
+        $mail-&gt;AddAddress("jharvard@cs50.net");
+
+        // set Subject:
+        $mail-&gt;Subject = "registration";
+
+        // set body
+        $mail-&gt;Body = 
+            "This person just registered:\n\n" .
+            "Name: " . $_POST["name"] . "\n" .
+            "Captain: " . $_POST["captain"] . "\n" .
+            "Comfort: " . $_POST["comfort"] . "\n" .
+            "Dorm: " . $_POST["dorm"];
+
+        // send mail
+        if ($mail-&gt;Send() == false)
+        {
+            print($mail-&gt;ErrInfo);
+            exit;
+        }
+    }
+    else
+    {
+        header("Location: froshims-3.php");
+        exit;
+    }
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Frosh IMs&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        You are registered!  (Really.)
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h4 id="counterphp">counter.php</h4>
+<pre><code>&lt;?php
+
+    // enable sessions
+    session_start();
+
+    // check counter
+    if (isset($_SESSION["counter"]))
+    {
+        $counter = $_SESSION["counter"];
+    }
+    else
+    {
+        $counter = 0;
+    }
+
+    // increment counter
+    $_SESSION["counter"] = $counter + 1;
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;counter&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        You have visited this site &lt;?= $counter ?&gt; time(s). 
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h2 id="prep-for-class-2">Prep for Class 2</h2>
+<h3 id="mvc-instructions">MVC Instructions</h3>
+<p>There will be multiple files for these follow-alongs and you can download the official source code to get all of the files.  Class 2 Prep will only need the <code>mvc</code> directory so you will copy the entire zip file and then delete the other files / folders that are not needed by running the following commands in your terminal:</p>
+<p>Download the source code zip file in the <code>module7/followalongs</code> directory.</p>
+<pre><code class="language-nohighlight">$ cd ~/workspace/module7/followalongs
+$ wget http://cdn.cs50.net/2015/fall/lectures/8/m/src8m.zip</code></pre>
+<p>Unzip and delete the file</p>
+<pre><code class="language-nohighlight">$ unzip src8m.zip 
+$ rm -f src8m.zip </code></pre>
+<p>Change into the <code>src8m</code> directory and list the contents.  You should have 2 directories <code>mvc/</code>, and <code>quote/</code> as well as 1 php file named <code>counter.php</code>.  You will delete all of the folders / files except for <code>mvc/</code>.</p>
+<pre><code class="language-nohighlight">$ cd src8m
+$ ls
+counter.php  mvc/  quote/
+$ rm -f -r quote counter.php</code></pre>
+<p>Now you can copy <code>mvc</code> to the directory <code>~/workspace/module7/followalongs</code>, because it is currently located in <code>~/workspace/module7/followalongs/src8m</code> directory.  After copying it, go to the parent directory <code>~/workspace/module7/followalongs</code> and list the files to show the <code>src8m</code> and <code>mvc</code> directories. (You should also see the <code>froshims</code> directory from Prep for Class 1.)</p>
+<pre><code class="language-nohighlight">$ cp -r mvc ~/workspace/module7/followalongs/mvc
+$ cd ..
+$ ls
+froshims/ mvc/ src8m/</code></pre>
+<p>Delete the <code>src8m</code> directory. You should now have only the <code>mvc</code> (and <code>froshims</code>) directory.</p>
+<pre><code class="language-nohighlight">$ rm -f -r src8m
+$ ls
+froshims/ mvc/</code></pre>
+<h4 id="mvc-0">mvc-0</h4>
+<h6 id="0indexphp">0/index.php</h6>
+<pre><code class="language-html">&lt;?php 
+
+    /**
+     * index.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * A home page for the course.
+     */
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;CS50&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;CS50&lt;/h1&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="lectures.php"&gt;Lectures&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html"&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h6 id="0lecturesphp">0/lectures.php</h6>
+<pre><code class="language-html">&lt;?php 
+
+    /**
+     * lectures.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * Links to lectures.
+     */
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Lectures&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Lectures&lt;/h1&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="week0.php"&gt;Week 0&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="week1.php"&gt;Week 1&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h6 id="0week0php">0/week0.php</h6>
+<pre><code class="language-html">&lt;?php 
+
+    /**
+     * week0.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * Represents Week 0.
+     */
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Week 0&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Week 0&lt;/h1&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf"&gt;Wednesday&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf"&gt;Friday&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h6 id="0week1php">0/week1.php</h6>
+<pre><code class="language-html">&lt;?php 
+
+    /**
+     * week1.php
+     *
+     * David J. Malan
+     * malan@harvard.edu
+     *
+     * Represents Week 1.
+     */
+
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Week 1&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Week 1&lt;/h1&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/m/week1m.pdf"&gt;Monday&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/w/week1w.pdf"&gt;Wednesday&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h4 id="mvc-1">mvc-1</h4>
+<h6 id="1footerphp">1/footer.php</h6>
+<pre><code class="language-html">
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h6 id="1headerphp">1/header.php</h6>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;CS50&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;CS50&lt;/h1&gt;</code></pre>
+<h6 id="1indexphp">1/index.php</h6>
+<pre><code class="language-php">&lt;?php require("header.php"); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="lectures.php"&gt;Lectures&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html"&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php require("footer.php"); ?&gt;</code></pre>
+<h6 id="1lecturesphp">1/lectures.php</h6>
+<pre><code class="language-php">&lt;?php require("header.php"); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="week0.php"&gt;Week 0&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="week1.php"&gt;Week 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php require("footer.php"); ?&gt;</code></pre>
+<h6 id="1week0php">1/week0.php</h6>
+<pre><code class="language-php">&lt;?php require("header.php"); ?&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf"&gt;Wednesday&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf"&gt;Friday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php require("footer.php"); ?&gt;</code></pre>
+<h6 id="1week1php">1/week1.php</h6>
+<pre><code class="language-php">&lt;?php /* week1.php */ ?&gt;
+
+&lt;?php require("header.php"); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/m/week1m.pdf"&gt;Monday&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/w/week1w.pdf"&gt;Wednesday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php require("footer.php"); ?&gt;</code></pre>
+<h4 id="mvc-2">mvc-2</h4>
+<h6 id="2footerphp">2/footer.php</h6>
+<pre><code class="language-html">    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h6 id="2headerphp">2/header.php</h6>
+<pre><code class="language-php">&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;&lt;?= htmlspecialchars($title) ?&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;&lt;?= htmlspecialchars($title) ?&gt;&lt;/h1&gt;</code></pre>
+<h6 id="2helpersphp">2/helpers.php</h6>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * Renders footer.
+     */
+    function renderFooter($data = [])
+    {
+        extract($data);
+        require("footer.php");
+    }
+
+    /**
+     * Renders header.
+     */
+    function renderHeader($data = [])
+    {
+        extract($data);
+        require("header.php");
+    }
+
+?&gt;</code></pre>
+<h6 id="2indexphp">2/index.php</h6>
+<pre><code class="language-php">&lt;?php require("helpers.php"); ?&gt;
+
+&lt;?php renderHeader(["title" =&gt; "CS50"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="lectures.php"&gt;Lectures&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html"&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php renderFooter(); ?&gt;</code></pre>
+<h6 id="2lecturesphp">2/lectures.php</h6>
+<pre><code class="language-php">&lt;?php require("helpers.php"); ?&gt;
+
+&lt;?php renderHeader(["title" =&gt; "Lectures"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="week0.php"&gt;Week 0&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="week1.php"&gt;Week 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php renderFooter(); ?&gt;</code></pre>
+<h6 id="2week0php">2/week0.php</h6>
+<pre><code class="language-php">&lt;?php require("helpers.php"); ?&gt;
+
+&lt;?php renderHeader(["title" =&gt; "Week 0"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf"&gt;Wednesday&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf"&gt;Friday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php renderFooter(); ?&gt;</code></pre>
+<h6 id="2week1php">2/week1.php</h6>
+<pre><code class="language-php">&lt;?php require("helpers.php"); ?&gt;
+
+&lt;?php renderHeader("title" =&gt; "Week 1"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/m/week1m.pdf"&gt;Monday&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/w/week1w.pdf"&gt;Wednesday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php renderFooter(); ?&gt;</code></pre>
+<h4 id="mvc-3">mvc-3</h4>
+<h6 id="3footerphp">3/footer.php</h6>
+<pre><code class="language-html">
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h6 id="3headerphp">3/header.php</h6>
+<pre><code class="language-php">&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;&lt;?= htmlspecialchars($title) ?&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;&lt;?= htmlspecialchars($title) ?&gt;&lt;/h1&gt;</code></pre>
+<h6 id="3helpersphp">3/helpers.php</h6>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * Renders template.
+     */
+    function render($template, $data = [])
+    {
+        $path = $template . ".php";
+        if (file_exists($path))
+        {
+            extract($data);
+            require($path);
+        }
+    }
+
+?&gt;</code></pre>
+<h6 id="3indexphp">3/index.php</h6>
+<pre><code class="language-php">&lt;?php require("helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "CS50"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="lectures.php"&gt;Lectures&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html"&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;</code></pre>
+<h6 id="3lecturesphp">3/lectures.php</h6>
+<pre><code class="language-php">&lt;?php require("helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "Lectures"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="week0.php"&gt;Week 0&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="week1.php"&gt;Week 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;</code></pre>
+<h6 id="3week0php">3/week0.php</h6>
+<pre><code class="language-php">&lt;?php require("helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "Week 0"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf"&gt;Wednesday&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf"&gt;Friday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;</code></pre>
+<h6 id="3week1php">3/week1.php</h6>
+<pre><code class="language-php">&lt;?php require("helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "Week 1"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/week1m.pdf"&gt;Monday&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/week1w.pdf"&gt;Wednesday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;</code></pre>
+<h4 id="mvc-4">mvc-4</h4>
+<h6 id="4templatesfooterphp">4/templates/footer.php</h6>
+<pre><code class="language-html">    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h6 id="4templatesheaderphp">4/templates/header.php</h6>
+<pre><code class="language-php">&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;&lt;?= htmlspecialchars($title) ?&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;&lt;?= htmlspecialchars($title) ?&gt;&lt;/h1&gt;
+</code></pre>
+<h6 id="4includeshelpersphp">4/includes/helpers.php</h6>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * Renders template.
+     */
+    function render($template, $data = [])
+    {
+        $path = __DIR__ . "/../templates/" . $template . ".php";
+        if (file_exists($path))
+        {
+            extract($data);
+            require($path);
+        }
+    }
+
+?&gt;</code></pre>
+<h6 id="4indexphp">4/index.php</h6>
+<pre><code class="language-php">&lt;?php require("includes/helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "CS50"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="lectures.php"&gt;Lectures&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html"&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;</code></pre>
+<h6 id="4lecturesphp">4/lectures.php</h6>
+<pre><code class="language-php">&lt;?php require("includes/helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "Lectures"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="week0.php"&gt;Week 0&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="week1.php"&gt;Week 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;
+</code></pre>
+<h6 id="4week0php">4/week0.php</h6>
+<pre><code class="language-php">&lt;?php require("includes/helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "Week 0"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf"&gt;Wendesday&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf"&gt;Friday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;</code></pre>
+<h6 id="4week1php">4/week1.php</h6>
+<pre><code class="language-php">&lt;?php require("includes/helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "Week 1"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/week1m.pdf"&gt;Monday&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/week1w.pdf"&gt;Wednedsay&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;
+</code></pre>
+<h4 id="mvc-5">mvc-5</h4>
+<h6 id="5templatesfooterphp">5/templates/footer.php</h6>
+<pre><code class="language-html">    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h6 id="5templatesheaderphp">5/templates/header.php</h6>
+<pre><code class="language-php">&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;&lt;?= htmlspecialchars($title) ?&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;&lt;?= htmlspecialchars($title) ?&gt;&lt;/h1&gt;
+</code></pre>
+<h6 id="5includeshelpersphp">5/includes/helpers.php</h6>
+<pre><code class="language-php">&lt;?php
+
+    /**
+     * Renders template.
+     */
+    function render($template, $data = [])
+    {
+        $path = __DIR__ . "/../templates/" . $template . ".php";
+        if (file_exists($path))
+        {
+            extract($data);
+            require($path);
+        }
+    }
+
+?&gt;
+</code></pre>
+<h6 id="4publicindexphp">4/public/index.php</h6>
+<pre><code class="language-php">&lt;?php require("../includes/helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "CS50"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="lectures.php"&gt;Lectures&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/syllabus/cs50/cs50.html"&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;
+</code></pre>
+<h6 id="4publiclecturesphp">4/public/lectures.php</h6>
+<pre><code class="language-php">&lt;?php require("../includes/helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "Lectures"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="week0.php"&gt;Week 0&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="week1.php"&gt;Week 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;</code></pre>
+<h6 id="4publicweek0php">4/public/week0.php</h6>
+<pre><code class="language-php">&lt;?php require("../includes/helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "Week 0"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/w/week0w.pdf"&gt;Wednesday&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/0/f/week0f.pdf"&gt;Friday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;</code></pre>
+<h6 id="4publicweek1php">4/public/week1.php</h6>
+<pre><code class="language-php">&lt;?php require("../includes/helpers.php"); ?&gt;
+
+&lt;?php render("header", ["title" =&gt; "Week 1"]); ?&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/m/week1m.pdf"&gt;Monday&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn.cs50.net/2015/fall/lectures/1/w/week1w.pdf"&gt;Wednesday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;?php render("footer"); ?&gt;
+</code></pre>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

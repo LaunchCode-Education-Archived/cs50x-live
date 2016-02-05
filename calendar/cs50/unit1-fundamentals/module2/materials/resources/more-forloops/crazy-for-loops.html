@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <pre><code class="language-c">#include "stdio.h"
+#include &lt;time.h&gt;
+#include &lt;stdlib.h&gt;
+//#include "cs50.h"
+
+int main (void)
+{
+  // Any or all of the for loop arguments can actually be left empty
+  for (;;) {
+    // This is essentially an infinite loop, so we need to break out of it
+    break;
+  }
+
+  // The first part is executed before the first time the for loop happens
+  for (printf("hello world\n");;) {
+    //also an infinite loop, so break out of it
+    break;
+  }
+
+  // The second part is the condition when the loop will end which is checked at the begining of each loop. 
+  // In this case we are going to be clever and have the loop exit when random does not return 1
+  for (; rand() == 1;){
+    // but since we don't want to wait around for that to happen, we also break
+    break;
+  }
+
+  // The final part is what happens after each loop. The below for loop should look farmiliar.
+  // The only difference is that we have `i = i + 1` instead of `i++` which is more commonly seen.
+  for (int i = 0; i &lt; 10; i = i + 1) {
+    // This will happen 10 times
+    printf("Hello world\n");
+  }
+
+  //But just like the other parts of the for loop, you can do some fun stuff in this last of 3 parts.
+  for (int i = 0; i &lt; 10; i = (i + 2) % 10){ 
+    // This will print out even numbers from 0-10 forever!!!!
+    printf("%d\n", i);
+    // But since we don't have forever, also break
+    break;
+  }
+
+  // So the thing to take away, is that the for-loop is actually composed of 3 parts.
+  // 1. Happens before the first loop
+  // 2. Happens at the begining of each loop
+  // 3. Happens at the end of each loop
+}</code></pre>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-4">Module 4</h5>
+<p><a href="../../class1-prep#pointers">Back to Prep for Class 1</a></p>
+<h1 id="exercise-custom-strcmp">Exercise: Custom strcmp</h1>
+<p>To practice using pointers, we’ll be implementing our own version of the <code>strcmp</code> function.</p>
+<p>Write a function that takes in two <code>string</code> variables, and returns <code>true</code> if, and only if, the two <code>strings</code> are exactly the same, character by character.</p>
+<p>In your function, make sure you’ve handled the case where the strings don’t have the same length. If they don't, then you immediately know they are not the same without having to check (in fact, if you do try to check, your code will eventually try to access beyond the bounds of the shorter string, which would be bad!)</p>
+<p>We've provided <a href="customstrcmp.html">a tiny bit of code</a> to take in two strings and compare them with a function. For this exercise, fill in the body of the <code>customstrcmp</code> function.</p>
+<p>Here’s an example of a successful implementation for the exercise:</p>
+<pre><code class="language-nohighlight">$ ./customstrcmp
+String 1?: hello
+String 2?: world
+The strings are not equal!
+
+$ ./customstrcmp
+String 1?: hello
+String 2?: hello
+Bingo! The strings are equal!</code></pre>
+<p>Just like in the <a href="https://www.youtube.com/watch?v=1PoFw5_p0xk&amp;index=6&amp;list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg">pointers</a> Walkthrough, you could do this using square-bracket notation (e.g. <code>[]</code>), treating the <code>string</code> as an <code>array</code> of <code>chars</code>. But don't do that. Instead, use pointer notation, treating the <code>string</code> as a <code>char*</code>. </p>
+<p>First step is to figure out what the function signature should be. If you're stuck, we've provided the answer to the signature <a href="./signature.html">here</a></p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

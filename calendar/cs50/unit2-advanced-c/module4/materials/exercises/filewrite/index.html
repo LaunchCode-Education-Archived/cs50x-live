@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-4">Module 4</h5>
+<p><a href="../../class2-prep#files-hex">Back to Class 2 Prep</a></p>
+<h1 id="good-burger">Good Burger</h1>
+<p>Here we'll finish a basic program to show the user a menu from a fast food restaurant (named &quot;Good Burger&quot;), then take down their order, and write it into a file.</p>
+<p>We already started the program for you!  The code is in <a href="./goodburger.html">goodburger.c</a>.</p>
+<p>The code to show the menu has already been written, you just need to fill in the code to:</p>
+<ul>
+<li>open a file</li>
+<li>write their orders in</li>
+<li>close the file</li>
+</ul>
+<p>The program should run like this:</p>
+<pre><code class="language-nohighlight">$ ./goodburger
+Welcome to Good Burger! Can I take your order?
+MENU:
+Item 0: Water
+Item 1: Soda
+Item 2: Cheeseburger
+Item 3: Fries
+
+How many items? 
+4
+Which menu item would you like (0, 1, 2, or 3)?
+2
+Which menu item would you like (0, 1, 2, or 3)? 
+3
+Which menu item would you like (0, 1, 2, or 3)?
+0
+Which menu item would you like (0, 1, 2, or 3)?
+2</code></pre>
+<p>The resulting output file should look like this:</p>
+<pre><code class="language-nohighlight">Cheeseburger
+Fries
+Water
+Cheeseburger</code></pre>
+<p>You can call your output file <code>order.txt</code>.</p>
+<p>You will need to use the following functions:</p>
+<ul>
+<li><code>fopen</code></li>
+<li><code>fclose</code></li>
+<li><code>fputs</code></li>
+</ul>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

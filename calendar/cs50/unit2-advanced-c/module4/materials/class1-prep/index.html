@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5><a href="../../">Module 4</a></h5>
+<h1 id="class-1-prep">Class 1 Prep</h1>
+<p>Before coming to <a href="../class1">Class 1</a>, please complete the following tasks:</p>
+<h4 id="leading-up-to-pointers">Leading up to Pointers</h4>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Resource Type</th>
+<th>Link</th>
+<th>Instructions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Watch</td>
+<td>Lecture</td>
+<td><a href="https://youtu.be/8Ba7SgCN2XY?t=1518" target="_blank">Week 4 (25 minutes in)</a></td>
+<td>Only watch the second half. We saw the beginning back in Module 3.</td>
+</tr>
+<tr>
+<td>Read</td>
+<td>Lecture Notes</td>
+<td><a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#swap" target="_blank">Week 4 / Swap</a></td>
+<td>Here we are introduced to a function that tries to swap the values of two variables, but fails to do so. We will return this <code>swap</code> function a few times as we learn about pointers.</td>
+</tr>
+<tr>
+<td>Read</td>
+<td>Lecture Notes</td>
+<td><a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#debugging_with_cs50_ide" target="_blank">Week 4 / Debugging</a></td>
+<td>These notes detail the portion of the lecture in which David used the Debugger to step through the <code>swap</code> function and inspect what was happening. It turns out that the <code>swap</code> function makes its own internal copies of its arguments, and the original <code>x</code> and <code>y</code> variables back in <code>main</code> remain untouched. To solve, this we'll need to use pointers!</td>
+</tr>
+<tr>
+<td>Read</td>
+<td>Lecture Notes</td>
+<td><a href="http://cdn.cs50.net/2015/fall/lectures/4/m/notes4m/notes4m.html#pointers" target="_blank">Week 4 / Pointers</a></td>
+<td>These notes reveal how, under the hood, a <code>string</code> is just a <code>pointer</code> to a <code>char</code>. This means that the &quot;value&quot; inside a <code>string</code> variable is not actually the contents of the text. Instead it is a number pointing to the memory address where the text is truly located-- more specifically, where the first <code>char</code> is located.</td>
+</tr>
+<tr>
+<td>Follow-Along</td>
+<td>Walkthrough</td>
+<td><a href="https://www.youtube.com/watch?v=ETSddwPGjNM&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=5" target="_blank">noswap</a></td>
+<td>Follow David to create a program that <em>tries</em> to &quot;swap&quot; the values of two variables. <br>You can grab the pseudocode <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-noswap" target="_blank">here</a>.</td>
+</tr>
+<tr>
+<td>Follow-Along</td>
+<td>Walkthrough</td>
+<td><a href="https://www.youtube.com/watch?v=Q9d8F9dXxbA&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=1" target="_blank">compare-0</a></td>
+<td>This time follow David while he <em>tries</em> to compare two strings.  <br>You can grab the pseudocode <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-compare-0" target="_blank">here</a>.</td>
+</tr>
+<tr>
+<td>Read</td>
+<td>Resource</td>
+<td><a href="../resources/value-vs-address">Value vs Address</a></td>
+<td>A quick review of why <code>swap</code> and <code>compare</code> aren't working, and how it relates to addresses.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="pointers">Pointers</h4>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Resource Type</th>
+<th>Link</th>
+<th>Instructions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Watch</td>
+<td>Lecture</td>
+<td><a href="https://youtu.be/uYiVtZHns-A?t=1542" target="_blank">Week 4 / Continued (25 minutes in)</a></td>
+<td>Just watch the second half. We will do the first half later, in Class 2 Prep.</td>
+</tr>
+<tr>
+<td>Read</td>
+<td>Lecture Notes</td>
+<td><a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#strings_and_pointers" target="_blank">Week 4, continued / Strings and Pointers</a></td>
+<td>These notes review in detail why <code>compare-0.c</code> doesn't work, and provides the solution in <code>compare-1.c</code>. Next, they introduce a new program, <code>copy-0.c</code>, which also fails to work-- to solve it, we will need to use dynamic memory allocation (next section).</td>
+</tr>
+<tr>
+<td>Watch</td>
+<td>Doug's Playlist</td>
+<td><a href="https://www.youtube.com/watch?v=yOdd3uYC--A&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=2" target="_blank">Pointers</a></td>
+<td>Doug introduces us to pointers. Heads up: he talks a bit about &quot;hexadecimal&quot; counting, which we won't see until Class 2 Prep.</td>
+</tr>
+<tr>
+<td>Study</td>
+<td>CS50 Study</td>
+<td><a href="https://study.cs50.net/pointers" target="_blank">pointers</a></td>
+<td>CS50 Study provides a good overview of pointers. The table of statements in the last 2 slides is especially helpful.</td>
+</tr>
+<tr>
+<td>Follow-Along</td>
+<td>Walkthrough</td>
+<td><a href="https://www.youtube.com/watch?v=jE_bs-QNj3c&index=2&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">compare-1</a></td>
+<td>Keep following David to solve the problem of comparing strings. <br>Find instructions to start the follow-along <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-compare-1" target="_blank">here</a>.</td>
+</tr>
+<tr>
+<td>Follow-Along</td>
+<td>Walkthrough</td>
+<td><a href="https://www.youtube.com/watch?v=1PoFw5_p0xk&index=6&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg" target="_blank">pointers</a></td>
+<td>Follow David as he prints a <code>string</code> one <code>char</code> at a time using pointers <br>You can grab the pseudocode <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-pointers" target="_blank">here</a>.</td>
+</tr>
+<tr>
+<td>Do</td>
+<td>Exercise</td>
+<td><a href="../exercises/customstrcmp">Custom strcmp</a></td>
+<td>Practice using pointers by implementing your own version of the <code>strcmp</code> function</td>
+</tr>
+<tr>
+<td>Read</td>
+<td>Resource</td>
+<td><a href="../resources/annoying-syntax">Annoying Syntax</a></td>
+<td>Part of what makes pointers in c hard to learn is that whoever designed the syntax made a couple of odd decisions. Here we simply point out those syntax oddities so they don't catch you offguard.</td>
+</tr>
+<tr>
+<td>Watch</td>
+<td>Section</td>
+<td><a href="https://youtu.be/SppBaGROtX0?t=370" target="_blank">Jason Hirschorn on Pointers</a></td>
+<td>In this video, Jason Hirschorn leads a live review section on pointers. The video is very long (over an hour) but if you're still feeling confused about pointers, it should be very helpful.</td>
+</tr>
+<tr>
+<td>Do</td>
+<td>Exercise</td>
+<td><a href="../exercises/pointer-practice">Pointer Table</a></td>
+<td>Practice evaluating statements that use pointers.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="allocating-memory-dynamically">Allocating Memory Dynamically</h4>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Resource Type</th>
+<th>Link</th>
+<th>Instructions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Follow-Along</td>
+<td>Walkthrough</td>
+<td><a href="https://www.youtube.com/watch?v=6o-w4CIWP84&index=12&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ" target="_blank">sizeof</a></td>
+<td>Learn about the <code>sizeof</code> operator. Harvard classifies this as belonging to Week 1, but we postponed it till now, since this is the context where you'll see <code>sizeof</code> being used. <br>You can grab the pseudocode <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-sizeof" target="_blank">here</a>.</td>
+</tr>
+<tr>
+<td>Read</td>
+<td>Lecture Notes</td>
+<td><a href="http://cdn.cs50.net/2015/fall/lectures/4/w/notes4w/notes4w.html#memory_allocation" target="_blank">Week 4, continued / Memory Allocation</a></td>
+<td>You might want to scroll up a bit, since these notes pick up right where the previous section left off. These notes show how we can use <code>malloc</code> to fix that <code>copy-0.c</code> program.</td>
+</tr>
+<tr>
+<td>Watch</td>
+<td>Doug's Playlist</td>
+<td><a href="https://www.youtube.com/watch?v=ywqB3ZTf8OE&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq&index=3" target="_blank">Dynamic Memory Allocation</a></td>
+<td>Doug explains more about <code>malloc</code>. One thing to watch out for: he talks about the importance of always &quot;freeing&quot; any memory that you allocate. This is definitely true, but isn't covered much until Module 5, so if you are confused, don't worry.</td>
+</tr>
+<tr>
+<td>Follow-Along</td>
+<td>Walkthrough</td>
+<td><a href="https://www.youtube.com/watch?v=zwKBMSLYrk4&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=3" target="_blank">copy-0</a></td>
+<td>Follow along with David as he tries to copy one string into another, but fails to do so because his code simply makes two string variables that point to the same chunk of memory.  <br>Find instructions to start the follow-along <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-copy-0" target="_blank">here</a>.</td>
+</tr>
+<tr>
+<td>Follow-Along</td>
+<td>Walkthrough</td>
+<td><a href="https://www.youtube.com/watch?v=ebQSYaneMms&list=PLhQjrBD2T382SQnebs5bf6BkngrHTbJKg&index=4" target="_blank">copy-1</a></td>
+<td>Keep following David as he figures out how to actually copy those strings: we have to allocate more memory for the new string, and manually copy each character over into the new chunk of memory. <br>Find instructions to start the follow-along <a href="../../../../../../helpful-resources/modules/module-4.html#class-1-task-copy-1" target="_blank">here</a>.</td>
+</tr>
+<tr>
+<td>Do</td>
+<td>Exercise</td>
+<td><a href="../exercises/double-copy">Double Copy</a></td>
+<td>This is a slight twist on the <code>copy-1</code> program you just wrote.</td>
+</tr>
+<tr>
+<td>Do</td>
+<td>Exercise</td>
+<td><a href="../exercises/swap-cycle">Swap Cycle</a></td>
+<td>This exercise asks you to implement a slightly different version of our friend, the <code>swap</code> function.</td>
+</tr>
+<tr>
+<td>Watch</td>
+<td>Short</td>
+<td><a href="https://www.youtube.com/watch?v=z3j-gK1u6Kg&index=6&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Strings</a></td>
+<td>Christopher Bartholomew talks about how <code>string</code>s are stored in memory, and how, under the hood, they always end with a null-terminator <code>\0</code> character.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="now-youre-ready-for">Now you're ready for <a href="../class1">Class 1</a></h4>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h1 id="module-5-source-code">Module 5 Source Code</h1>
+<p>You will find the source code for the follow-alongs that you will complete during Module 5.  We have provided links to all of the files for CS50, so you will have access to some other files that we have not included in our curriculum. We highly recommend that you try to complete them on your own before you look at the code.  </p>
+<p><a href="http://cdn.cs50.net/2015/fall/lectures/5/m/src5m/" target="_blank"><b>Lecture Week 5 Source Code</b></a></p>
+<h2 id="prep-for-class-1">Prep for Class 1</h2>
+<h4 id="scanf-0">scanf-0</h4>
+<pre><code class="language-c">/**
+ * scanf-0.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Reads a number from the user into an int.
+ *
+ * Demonstrates scanf and address-of operator.
+ */
+
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    int x;
+    printf("Number please: ");
+    scanf("%i", &amp;x);
+    printf("Thanks for the %i!\n", x);
+}</code></pre>
+<h4 id="scanf-1">scanf-1</h4>
+<pre><code class="language-c">/**
+ * scanf-1.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Reads a string from the user into memory it shouldn't.
+ *
+ * Demonstrates possible attack!
+ */
+
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    char* buffer;
+    printf("String please: ");
+    scanf("%s", buffer);
+    printf("Thanks for the %s!\n", buffer);
+}</code></pre>
+<h4 id="scanf-2">scanf-2</h4>
+<pre><code class="language-c">/**
+ * scanf-2.c
+ *
+ * David J. Malan
+ * malan@harvard.edu
+ *
+ * Reads a string from the user into an array (dangerously).
+ *
+ * Demonstrates potential buffer overflow!
+ */
+
+#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    char buffer[16];
+    printf("String please: ");
+    scanf("%s", buffer);
+    printf("Thanks for the %s!\n", buffer);
+}</code></pre>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

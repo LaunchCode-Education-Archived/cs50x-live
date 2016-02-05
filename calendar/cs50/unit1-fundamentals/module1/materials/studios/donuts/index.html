@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-1">Module 1</h5>
+<p><a href="../../class1">Back to Class 1</a></p>
+<h1 id="studio-donuts">Studio: Donuts</h1>
+<p>Welcome to your first Studio! </p>
+<p>A Studio is a coding exercise for you to do together with other students during class. The goal is to give you some more practice with the concepts you learned during the Prep Work, and to help get you started on your upcoming problem set. </p>
+<p>You should work on your Studio in pairs. Teams of 3 are also acceptable (but 2 is better). If you need help finding a team, the staff will be facilitating a &quot;match-making&quot; service.</p>
+<p>Without further ado, grab a buddy and get started!</p>
+<h3 id="team-programming">Team Programming</h3>
+<p>Once you have a team, you will both be working together on one computer (this is why pairs are a little better than 3 people). Go ahead and decide whose computer to use. Only one person at a time will be able to type, but you should both be actively engaged in the proccess. Afer a little while, switch seats and let the other person &quot;drive&quot;. Continue switching like this every so often so that each team member gets some time on the keyboard.</p>
+<p>Ready? Let's go!</p>
+<h3 id="techpowersdonuts">TechPowersDonuts</h3>
+<p>Here's the scenario:</p>
+<p>You run a hip new artisanal donut shop, the Loop Hole, which, in its short lifetime, has already rocked the donut market with
+numerous &quot;<a href="http://www.forbes.com/sites/martinzwilling/2015/03/19/will-your-business-innovation-disrupt-the-market/#2715e4857a0b58b4f1954f56" target="_blank">disruptions</a>&quot;, including:</p>
+<ul>
+<li>a minimalist menu consisting of just one type of donut per day: Manager's Special... always Manager's Special.</li>
+<li>giving customers the option to order fractional amounts of donuts, e.g. 1.7 donuts, please.</li>
+<li>a progressive pay-what-you-want pricing system, in which the customer pays what s/he thinks is a fair price. (Of
+course, you do provide a &quot;suggested price&quot;.)</li>
+</ul>
+<p>Now it's time to implement your latest innovation, an app via which users can pre-order donuts remotely from the
+convenience of... the command-line terminal on their computer.</p>
+<p>In a file called <code>donuts.c</code>, write a program which introduces the flavor of the day, and then takes the user's order. </p>
+<p>Taking their order involves asking two questions:</p>
+<ol>
+<li>How many donuts do they want to buy?</li>
+<li>How much do you want to pay per donut?</li>
+</ol>
+<p>Finally, inform the user of the total cost of their order. Don't forget to include sales-tax, which is, let's say, 5%.</p>
+<p>Here's an example of how the finished program should behave:</p>
+<pre><code class="language-nohighlight">$ ./donuts
+Welcome to the Loop Hole!
+Today's Manager's Special is:
+Crunch Jelly: A traditional jelly donut in which the jelly filling is made entirely of Capn' Crunch Berries Oops All Berries
+How many would you like? 3.33333
+How much would you like to pay per donut (suggested price is $4.35 each)? 2.5
+Ok, let me prepare that for you....
+After tax, your total is: $8.74999125
+Thank you for snacking! Loop back around here soon!</code></pre>
+<p>Notice that the total price <code>$8.74999125</code> went way beyond 2 decimal places. Obviously it would be a little nicer to round that to $8.75. Within the next week or two, you'll be introduced to the tools you need to do that sort of thing. But for now, don't worry about it.</p>
+<p>(Also, don't be concerned if your program gives an answer with a <em>slightly</em> different number of decimal places than the example program above. This is just a precision issue.)</p>
+<p>For the Manager's Special, you can make something up (you are the Manager, after all), or just use the Crunch Berries example. Whatever you decide, you can simply hard-code it directly into your code. In other words, the flavor doesn't actually have to change depending on what day it is. The important part of this Studio is the math involved in calculating the cost of the user's order.</p>
+<p>*To get started, you can grab a copy of these instructions from Helpful Resources <a href="../../../../../../../helpful-resources/modules/module-1.html#class-1-studio-donuts" target="_blank">here</a>.  They are formatted as comments so that you can put it at the top of your program in the CS50 IDE.  Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments. </p>
+<h3 id="how-to-submit">How to Submit</h3>
+<p>Ready to submit? Follow these steps:</p>
+<ol>
+<li>The owner of the computer should take over &quot;driving&quot; and do the typing again.</li>
+<li>The driver should log into <a href="http://labs.vocareum.com/main/main.php" target="_blank">Vocareum</a>.</li>
+<li>You should see a sidebar on the left with some assignments, including <em>Studio: Donuts</em>. If not, click on my <em>My Classes</em> in the navigation menu at the top.</li>
+<li>Click on <em>Studio: Donuts</em>.</li>
+<li>Now you are going add your teammates so you can all submit together. <strong>Important Note</strong>: DO NOT click the <em>Start Solo</em> button. If you click this, you will not be able to add your teammates to the assignment. You'll have to share the code amongst yourselves via email and then each submit individually, like a bunch of chumps.</li>
+<li>Use the <em>Partner</em> menu at the bottom to add each additional teammate.</li>
+<li>Each teammate must accept the invite. Everyone open up your own computer and log into your own Vocareum account, where you should see a notification. Click to accept the invite.</li>
+<li>The driver can now proceed to submit. Click the blue <em>Finalize Team</em> button.</li>
+<li>Click the yellow <em>My Work</em> button</li>
+<li>Click the blue <em>Upload</em> button in the lop-left, and upload your <code>donuts.c</code> file.</li>
+<li>Click the red <em>Submit</em> button.</li>
+</ol>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

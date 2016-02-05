@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-4">Module 4</h5>
+<p><a href="../../class1-prep#pointers">Back to Class 1 Prep</a></p>
+<h1 id="resource-annoying-syntax">Resource: Annoying Syntax</h1>
+<p>Pointers in C have a reputation as being very difficult to learn. But a large part of the difficulty is due to their wacky syntax. </p>
+<p>Here, we attempt to explicitly point out the wackiness, so that hopefully it does not trip you up as much as it might otherwise.</p>
+<p>There are two aspects of the syntax that are confusing:</p>
+<ol>
+<li>The fact that the asterisk <code>*</code> symbol has two different (somewhat opposite) meanings, depending on context.</li>
+<li>The existence of a common convention wherein people often put a space before the asterisk when declaring a pointer type.</li>
+</ol>
+<p>Let's look at both of these in more detail.</p>
+<h3 id="two-different-asterisks">Two Different Asterisks</h3>
+<p>The <code>*</code> character is used to do two different things:</p>
+<ol>
+<li>
+<p>To specify a pointer type.</p>
+<pre><code class="language-c">float* x;</code></pre>
+<p>Above, we declare a variable called <code>x</code> whose type is <code>float*</code>, or, in other words, &quot;pointer to a float&quot;. This means that the value of <code>x</code> is simply an address, a number representing the location in memory where a <code>float</code> is stored.
+Similarly, we can declare other pointer types in the same way:</p>
+<ul>
+<li><code>char*</code> declares a pointer to a <code>char</code></li>
+<li><code>int*</code> declares a pointer to an <code>int</code></li>
+</ul>
+</li>
+<li>
+<p>To &quot;dereference&quot; a pointer.</p>
+<p>In the above example, <code>x</code> is does not contain the actual <code>float</code> value. That value might be <code>99.9</code>, for example, but <code>x</code> is simply a &quot;reference&quot; to that <code>99.9</code>; <code>x</code> is a different number representing <strong>where</strong> the <code>99.9</code> value is stored.</p>
+<p>Ok, but what if we have a variable like <code>x</code> and we want to do stuff with the &quot;actual&quot; value, the <code>99.9</code>? This is where &quot;dereferencing&quot; is used. A dereferenced pointer means simply &quot;the actual value at that location&quot;. </p>
+<p>The syntax for dereferencing a pointer is, of course, the same stupid <code>*</code> symbol. So in this scenario where we have <code>x</code>, whose value is some big number representing a memory address, we can say <code>*x</code>, and <strong>this</strong> will be equal to <code>99.9</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>Situation</th>
+<th>Syntax</th>
+<th style="text-align: center;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(A) Declaring a pointer</td>
+<td>when first creating a variable</td>
+<td>The <code>*</code> symbol comes after the data type.</td>
+<td style="text-align: center;"><code>float* x</code></td>
+</tr>
+<tr>
+<td>(B) Dereferencing a pointer</td>
+<td>when you already have a variable, whose type is &quot;pointer to a something&quot;, and you want to get the actual value that is being pointed to</td>
+<td>The <code>*</code> symbol comes before the name of the variable</td>
+<td style="text-align: center;"><code>float actualValue = *x</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<h3 id="space-convention">Space Convention</h3>
+<p>Hopefully the above is now somewhat understandable. Unfortunately, there is one more complication that makes it extra tricky.</p>
+<p>Let's go back again to our running example,</p>
+<pre><code class="language-c">float* x;</code></pre>
+<p>This is scenario (A) from above: we are declaring a variable called <code>x</code> whose type is <code>float*</code>.</p>
+<p>Here's the twist: You will very often see the above written slightly differently:</p>
+<pre><code class="language-c">float *x;</code></pre>
+<p>This means the exact same thing. We are still creating a variable whose type is a pointer to a float. The type is written <code>float *</code> instead of <code>float*</code>, but the compiler doesn't care about the spacing. </p>
+<p>But this can be incredibly confusing because syntactically, it <em>looks</em> just like scenario (B): we have the <code>*</code> symbol directly before the name of our variable.</p>
+<p>Due to context, the compiler still understands that we are in scenario (A) here. And we humans too, unfortunately, are going to have to rely on context to understand. We cannot use a rule of thumb like &quot;if the asterisk comes directly before the variable name, we are definitely in scenario (B)&quot;</p>
+<p>There is actually a quasi-reasonable reason why seasoned C programmers follow this convention, but we won't bore / overload you with it here.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-2">Module 2</h5>
+<p><a href="../../class2">Back to Class 2</a></p>
+<h1 id="studio-craaazy-echoes">Studio: Craaazy Echoes</h1>
+<h3 id="part-1-backwards-echo">Part 1: Backwards Echo</h3>
+<p>In a file called <code>backwardsecho.c</code> write a program that accepts some command-line arguments, and then simply &quot;echoes&quot; those arguments back to the
+console. </p>
+<p>This is similar to the <a href="https://www.youtube.com/watch?v=Ja8YoR-u9TA&index=3&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU" target="_blank">argv-1</a> walkthrough from <a href="../../class2-prep" target="_blank">class 2 prep</a>, but with one twist.</p>
+<p>The twist: each string should print out backwards. </p>
+<p>For example:</p>
+<pre><code class="language-nohighlight">$ ./backwardsecho hello 64
+ohcesdrawkcab/. olleh 46</code></pre>
+<p>Notice that the order of the arguments should remain unchanged, i.e. <code>"./backwards-echo"</code> prints first, followed by
+<code>"hello"</code>, followed by <code>"46"</code>. But when it comes time to print the string, you should print its characters
+in reverse order.</p>
+<h3 id="part-2-mixed-up-echo">Part 2: Mixed-up Echo</h3>
+<p>Now for another variation on the &quot;echo&quot; theme. In a file called <code>mixedupecho.c</code> write another program that accepts some command-line arguments and then echoes them back to the console.</p>
+<p>The twist this time: the echoes should &quot;intermix&quot; with each other, like so:</p>
+<pre><code class="language-nohighlight">$ ./mixedupecho HELLO!
+.H/EmLiLxOe!dHuEpLeLcOh!oH</code></pre>
+<p>For this program, you can ignore any command-line arguments beyond the first two (including the program name itself):</p>
+<pre><code class="language-nohighlight">$ ./mixedupecho HELLO! morestuff lalala
+.H/EmLiLxOe!dHuEpLeLcOh!oH</code></pre>
+<p>Also, notice how <code>"HELLO!"</code> is shorter than <code>"./mixedupecho"</code>, and so the program &quot;wraps around&quot; and starts over again at <code>'H'</code>whenever it reaches the end of the string. </p>
+<p>How can you implement that wraparound feature? The modulo <code>%</code> operator is your friend here. </p>
+<p>Spcifically, note that <code>"HELLO!"[5]</code> yields <code>'!'</code>, and <code>"HELLO!"[6]</code> is beyond the bounds of the array. </p>
+<p>But <code>"HELLO!"[6 % 6]</code> evaluates to <code>"HELLO!"[0]</code>, which yields <code>'H'</code>.</p>
+<p>And <code>"HELLO!"[7 % 6]</code> evaluates to <code>"HELLO!"[1]</code> ...</p>
+<p>To keep things simple, you can assume that the second argument will always be shorter than the first.
+In other words, the user will never provide a string longer than <code>"./mixedupecho"</code>, which is 13 characters long.</p>
+<h3 id="bonus-optional">Bonus (Optional)</h3>
+<p>Let's take away that last part (&quot;To keep things simple...&quot;). </p>
+<p>Now you may NOT assume the second argument will be the shorter one. For example, the user might type this:</p>
+<pre><code class="language-nohighlight">$ ./mixedupecho GREENEGGSANDSPAM</code></pre>
+<p>in which case, the <em>first</em> argument will have to wrap around, and so your output should be:</p>
+<pre><code class="language-nohighlight">.G/RmEiExNeEdGuGpSeAcNhDoS.P/AmM</code></pre>
+<hr />
+<p>*You can grab a copy of these instructions from the Helpful Resources <a href="../../../../../../../helpful-resources/modules/module-2.html#class-2-studio-crazy-echoes" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

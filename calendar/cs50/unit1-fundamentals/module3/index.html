@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <p><a href="../../..">Back to Course Calendar</a></p>
+<h1 id="module-3">Module 3</h1>
+<p><strong>Pre-reqs:</strong> You should have completed <a href="../module2">Module 2</a></p>
+<h4 id="synopsis">Synopsis</h4>
+<p>In this module you will be introduced to the methods by which computer scientists analyze the efficiency of algorithms. &quot;Efficient&quot; just means &quot;fast&quot;, but a certain kind of fast. Specifically, an algorithm is deemed more efficient than another if it performs better for <strong>very large</strong> inputs; its performance on smaller inputs is not important. You will learn about &quot;asymptotic analysis&quot;, a method for classifying algorithms based on how their performance changes as the size of their inputs grows. </p>
+<p>If all that sounds a little intense, well, it is! But you won't be required to carry out a lot of asymptotic analysis yourself; you'll just need to get the hang of the basic idea. The running example throughout the module will be a comparison between a handful of different &quot;sorting&quot; algorithms, which, given a jumbled list of things, sorts the list into order as quickly as possible. You will implement one of these algorithms yourself in Problem Set 3.</p>
+<p>We will also spend some time reviewing concepts from Modules 1 and 2, so you continue getting comfortable with the fundamentals of C syntax.</p>
+<hr />
+<h3 id="steps">Steps</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Class #</th>
+<th style="text-align: center;">Date</th>
+<th style="text-align: center;">Before Class</th>
+<th style="text-align: center;">During Class</th>
+<th>Topics / Skills</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Class 1</td>
+<td style="text-align: center;">Thu 2/11</td>
+<td style="text-align: center;"><a href="./materials/class1-prep">Prep Work</a></td>
+<td style="text-align: center;"><a href="./materials/class1">In Class</a></td>
+<td>sorting algorithms, time complexity analysis, module1 review, more practice with functions</td>
+</tr>
+<tr>
+<td style="text-align: center;">Class 2</td>
+<td style="text-align: center;">Tue 2/16</td>
+<td style="text-align: center;"><a href="./materials/class2-prep">Prep Work</a></td>
+<td style="text-align: center;"><a href="./materials/class2">In Class</a></td>
+<td>recursion, merge sort, module2 review, more debugging, compiling, multiple files working together</td>
+</tr>
+<tr>
+<td style="text-align: center;">Class 3</td>
+<td style="text-align: center;">Thu 2/18</td>
+<td style="text-align: center;">Work on <a href="./materials/problem-set">Pset3</a></td>
+<td style="text-align: center;"><a href="./materials/class3">In Class</a></td>
+<td>(office hours)</td>
+</tr>
+</tbody>
+</table>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

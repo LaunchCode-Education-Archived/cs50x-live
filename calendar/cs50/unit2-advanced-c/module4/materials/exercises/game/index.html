@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-4">Module 4</h5>
+<p><a href="../../class2-prep#structs">Back to Class 2 Prep</a></p>
+<h1 id="exercise-game">Exercise: Game</h1>
+<p>In <a href="./game.c">game.c</a>, we have written a program that allows the user to play a &quot;role playing&quot; game in the terminal.</p>
+<p>The game behaves like this (it's a little long):</p>
+<pre><code class="language-nohighlight">$ ./game
+* * * DUNGEON QUEST * * *
+
+You find yourself in a dungeon ruled by dark magic
+Try to escape and reach The Altar of Yezzeron without dying!
+But before you arrive, you must boost your Zorph Wisdom to at least level 3,
+...or else the Dieties of The Altar of Yezzeron will not accept you!
+
+Current Status: 
+You are 3 miles away from The Altar of Yezzeron
+Your health is at 100 percent
+Your Zorph Wisdom is at level 1
+
+You continue walking through dark corridors...
+
+You health is slowly waning...
+
+Suddenly you discover a potion on the ground!
+Do you want to drink it? (y/n)
+y
+A devilish sickness comes over you...
+
+Current Status: 
+You are 2 miles away from The Altar of Yezzeron
+Your health is at 55 percent
+Your Zorph Wisdom is at level 1
+
+You continue walking through dark corridors...
+
+You health is slowly waning...
+
+Suddenly you discover a potion on the ground!
+Do you want to drink it? (y/n)
+y
+You feel your powers growing!
+
+Current Status: 
+You are 1 miles away from The Altar of Yezzeron
+Your health is at 45 percent
+Your Zorph Wisdom is at level 2
+
+You continue walking through dark corridors...
+
+You health is slowly waning...
+
+Suddenly you discover a potion on the ground!
+Do you want to drink it? (y/n)
+y
+You feel your powers growing!
+
+You reach The Altar of Yezzeron! The Dieties welcome you to their ethereal realm, and you join them in immortality!</code></pre>
+<p>If you take a look at the source code, this is a great example of a situation in which <code>struct</code>s are useful. Throughout the code, we make constant use of a <code>player</code> struct, which is a data model representing the character trekking through the dungeon. The structure keeps track of 3 things:</p>
+<ol>
+<li>current level of health (between 0 and 100)</li>
+<li>current distance from the destination (aka The Altar of Yezzenon)</li>
+<li>current skill level (aka Zorph Wisdom)</li>
+</ol>
+<p>Together, these 3 aspects comprise everything we need to represent the situation of the player. And any context in which we care about one of these values is likely to be a context in which we care about the other 2 as well. So it makes sense to package them all together into a single datatype. Without using a <code>struct</code> here, we would have to have 3 loose variables floating around, and our functions would have to accept 3 arguments as inputs instead of just 1.</p>
+<h3 id="your-assignment">Your Assignment</h3>
+<p>There is one thing missing in the code: we never actually defined the <code>player</code> struct. That's your job! See if you can implement the definition so that the game compiles and runs. We have left a <code>//TODO</code> where you can place your code.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

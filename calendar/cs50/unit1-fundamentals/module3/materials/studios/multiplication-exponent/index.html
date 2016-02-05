@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/cs50x-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://education.launchcode.org/cs50x-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://education.launchcode.org/cs50x-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://cs50.io/">
+                                        CS50 IDE
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://labs.vocareum.com/main/">
+                                        Vocareum
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://piazza.com/wustl/spring2016/cs50x">
+                                        Piazza
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-3">Module 3</h5>
+<p><a href="../../class2">Back to Class 2</a></p>
+<h1 id="studio-multiplication-and-exponents">Studio: Multiplication and Exponents</h1>
+<h3 id="part-1">Part 1</h3>
+<p>In this studio, you will be writing code that performs multiplication and exponents recursively.</p>
+<p>Since these two functions are separate from each other, we will use separate files for them. You may want to take a look at <a href="../../resources/spread-out">this resource about multiple files</a> before working on this studio.</p>
+<p>As a starting point you are provided with some files for the exponentiation function. <a href="expt.html">expt.c</a> includes starter code for the exponentiation function as well as some tests for multiplication and exponentiation in a main method.</p>
+<p>For this Studio, your program will have three files (<a href="expt.html">expt.c</a>, <code>mult.c</code>, and <code>mult.h</code>), as well as a (<a href="makefile.html">Makefile</a>) to run the program, and will be located within the same directory.  </p>
+<p>Makefiles are configuration files that tell <code>make</code> exactly what to do.  As your programs grow in size, <code>make</code> won’t be able to infer from context anymore how to compile your code; you’ll need to start telling <code>make</code> how to compile your program, particularly when your program contains multiple source (i.e., <code>.c</code>) files. That's what the Makefile is for.</p>
+<p>You have been supplied a <a href="makefile.html">Makefile</a> and the <a href="expt.html">expt.c</a> file. Copy them over to the IDE. </p>
+<p>If you try to run <code>make</code>, you'll see that there are some issues:</p>
+<pre><code class="language-nohighlight">~/workspace $ make
+make: *** No rule to make target `mult.c', needed by `expt'.  Stop.</code></pre>
+<p>This is because you are trying to compile a program that consists of more than one file. Unfortunately we are missing two of those files: <code>mult.c</code> and <code>mult.h</code>. </p>
+<p>Let's take a look at the <a href="makefile.html">Makefile</a>.</p>
+<pre><code class="language-c">expt: expt.c mult.c mult.h
+    clang -ggdb3 -O0 -std=c11 -Wall -Werror -o expt expt.c mult.c -lcs50 -lm</code></pre>
+<p>Line 3 of the <a href="makefile.html">Makefile</a>, tells <code>make</code> that the &quot;target&quot; called <code>expt</code> should be built by invoking the second line’s command. Moreover, that line tells <code>make</code>that <code>expt</code> is dependent on <code>expt.c</code> and <code>mult.c</code>, the implication of which is that <code>make</code> will only re-build <code>expt</code> on subsequent runs if one of those files was modified since <code>make</code> last built <code>expt</code>.  The <code>-Werror</code> flag, recall, tells clang to treat warnings (bad) as though they’re errors (worse) so that you’re forced (in a good, instructive way!) to fix them. </p>
+<p>Incidentally, know that the leading whitespace on that second line is not a sequence of spaces but, rather, a tab. Unfortunately, <code>make</code> requires that commands be preceded by tabs, so be careful not to change them to spaces, else you may encounter strange errors!</p>
+<p>Now let's look at line 1:</p>
+<pre><code class="language-c">all: expt</code></pre>
+<p>Here, the target <code>all</code> implies that you can build <code>expt</code> simply by executing <code>make</code>.</p>
+<p>And finally, line 6:</p>
+<pre><code class="language-c">clean:
+    rm -f *.o a.out core expt</code></pre>
+<p>Here, the target <code>clean</code>  allows you to delete all files ending in .o or called core (more on that soon!), or <code>expt</code>. Be careful not to add, say, <code>*.c</code> to that last line in Makefile! (Why?) Any line, incidentally, that begins with # is just a comment.</p>
+<p>Now that we've covered the <a href="makefile.html">Makefile</a>, let's move on to Part 2. (If you're still confused about Makefiles you can check <a href="https://en.wikipedia.org/wiki/Makefile" target="_blank">here</a> for more information.</p>
+<h3 id="part-2">Part 2</h3>
+<p>Your next task should be to create those missing files. Let's start with <code>mult.h</code>. This is the header file for the multiplication function, and should include the function <em>prototype</em>. A prototype defines what a function uses for its inputs and outputs, but does <em>not</em> define what the function does. It is used to tell other parts of your program what kinds of functions are available for use.</p>
+<p>To keep things simple, our multiplication function will focus on integers. Our function should take two integers as input and return an integer as output. This should be enough information to construct your prototype.</p>
+<p>Believe it or not, the header file is now complete! It may seem silly to have only a single line of code in the header file, but for this example it is sufficient. More complex programs will require more complex header files, but this is fine for now.</p>
+<h3 id="part-3">Part 3</h3>
+<p>Let's move on to <code>mult.c</code>. This file should contain the entire multiplication function. Fortunately you have already written the function definition - that's what the prototype is! Go ahead and copy it into the <code>mult.c</code> file.</p>
+<p>All that's left now is to write the function body - how do we want our multiplication function to behave? It would be easy to use the multiplication operator (<code>*</code>) and call it a day, but we're going to give you some restrictions to make this a little bit more challenging. Specifically, you are <em>not</em> allowed to use the multiplication operator. You should perform multiplication using repeated addition instead. Also, you should acommplish this using <em>recursion</em>. That means loops are not allowed for this studio.</p>
+<p>Your multiplication function should be able to handle both positive and negative integers. To make things easier, focus on only positive integers first. Once you are satisfied that multiplication works for positive values, see if you can tweak your code to make it work with negative values as well. Hint: it may be useful to create a second (perhaps non-recursive) function that checks whether the integers are positive or negative and proceeds accordingly. Be sure to ask for help if you get stuck!</p>
+<p>As always, it is important to test your code. It may be a good idea to write a simple <code>main</code> method in <code>mult.c</code> that you can use to test your <code>mult</code> function. (If you do add a main function to your <code>mult.c</code> file you can simply use the commands <code>make mult</code> and <code>./mult</code> to compile and run your program, or else you will get a <code>multiple definition of 'main'</code> error.)</p>
+<h3 id="part-4">Part 4</h3>
+<p>Once you are satisfied with your multiplication function, it is time to turn our attention to exponentiation. Exponentiation can be thought of as repeated multiplication, much like multiplication can be thought of as repeated addition. Like with the <code>mult</code> function, however, you are faced with some restrictions. The multiplication operator is still not allowed. Instead you should use the recursive <code>mult</code> function that you wrote. In order to do this, we need to tell the exponentiation function what the multiplication function looks like. We can do this by referring to the header file that we created.</p>
+<p>Header files are referenced with the <code>#include</code> statement. So to include our header file in <code>expt.c</code>, we would type <code>#include "mult.c"</code>. Go ahead and add this to the <code>expt.c</code> file now.</p>
+<p>You are now ready to use your multiplication function to compute exponents. Your solution should be recursive, so loops are still not allowed. Make sure to use your <code>mult</code> function to perform multiplication! Anywhere that you would normally use <code>*</code> should be replaced with a function call to <code>mult</code>.</p>
+<p>You should now be able to use <code>make</code> to run the provided test cases and check your work. Notice that for <code>expt</code>, the base (the first number) can be negative, but the exponent (the second number) cannot.</p>
+<p>*You can grab a copy of these instructions from Helpful Resources <a href="../../../../../../..//helpful-resources/modules/module-3.html#class-2-studio-multiplication-and-exponents" target="_blank">here</a>. They are formatted as comments so that you can put it at the top of your program in the CS50 IDE. Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
