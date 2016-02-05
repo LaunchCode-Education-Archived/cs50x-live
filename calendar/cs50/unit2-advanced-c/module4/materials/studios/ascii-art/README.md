@@ -63,7 +63,6 @@ Let's look at the full function signature:
 csvLine extractNumbers(char* line);
 ```
 Turns out we are returning something called a `csvLine`. What the heck is that? It is a `struct` that we have defined precisely for this purpose: to cluster together the 2 pieces of information that you will need regarding each line from your CSV file: 
-
 1. `hashLocations`: an array of all the x-positions in this row which should be `'#'` characters
 2. `length` an int specifying the length of the the `hashLocations` array
 
