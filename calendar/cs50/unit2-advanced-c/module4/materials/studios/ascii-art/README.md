@@ -45,7 +45,7 @@ result.txt
 Done! If you open up result.txt you should now see a cool image!
 ```
 
-In [asciiart.c](./asciiart.c) we have given you some starter code. Most significantly, we have provided a function called `extractNumbers`, which takes as input a string of comma separated integers, and returns an actual array of `int`s. For example: 
+In [asciiart.c](./asciiart.html) we have given you some starter code. Most significantly, we have provided a function called `extractNumbers`, which takes as input a string of comma separated integers, and returns an actual array of `int`s. For example: 
 ```c
 extractNumbers("3,22,401")
 ``` 
