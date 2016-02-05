@@ -1,6 +1,7 @@
 ```c
 /**
  * game.c
+ *
  */
  
 #include <cs50.h>
