@@ -11,8 +11,8 @@ So without further ado, let the learning begin!
 
 ***
 ### Steps
-Class # | Date | Before Class | During Class | Topics/Skills
-:------:|:---|:------------:|:------------:|-----------------------|
-Class 0 | Tuesday 1/19 | [Prep Work](./materials/class0-prep) | [In Class](./materials/class0) | binary, ascii, algorithms, pseudocode, Scratch
+Class # | Before Class | During Class | Topics/Skills
+:--------:|:------------:|:------------:|-----------------------|
+Class 0 | [Prep Work](./materials/class0-prep) | [In Class](./materials/class0) | binary, ascii, algorithms, pseudocode, Scratch
 
 
