@@ -48,14 +48,6 @@ In the above example, the loop will continue to run as long as there is more inf
 
 After you run your program and create a file, it may not appear in the file browser right away. To find it, right click the folder that the program is in and select "Refresh." The file that you created should then appear. Alternatively, you can use ```ls``` in the terminal.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 We've provided some starter code for you in ([displayMenu.c](./displayMenu.md)), but it's pretty minimal.
-=======
-We've provided some starter code for you in ([displayMenu.c](./displayMenu.html)), but it's pretty minimal.
->>>>>>> parent of e1a362b... sync back to master
-=======
-We've provided some starter code for you in ([displayMenu.c](./displayMenu.html)), but it's pretty minimal.
->>>>>>> parent of 553ef1a... revert to undo merge which added html files everywhere
 
 
