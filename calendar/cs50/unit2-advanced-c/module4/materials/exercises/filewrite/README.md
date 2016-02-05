@@ -2,18 +2,24 @@
 [Back to Class 2 Prep](../../class2-prep#files-hex)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Exercise: Good Burger
 
 Here we'll finish a basic program to show the user a menu from a fast food restaurant (named "Good Burger"), then take down their order, and write it into a file.
 
 We already started the program for you!  The code is in [goodburger.c](./goodburger.md).
 =======
+=======
+>>>>>>> parent of 553ef1a... revert to undo merge which added html files everywhere
 # Good Burger
 
 Here we'll finish a basic program to show the user a menu from a fast food restaurant (named "Good Burger"), then take down their order, and write it into a file.
 
 We already started the program for you!  The code is in [goodburger.c](./goodburger.html).
+<<<<<<< HEAD
 >>>>>>> parent of e1a362b... sync back to master
+=======
+>>>>>>> parent of 553ef1a... revert to undo merge which added html files everywhere
 
 The code to show the menu has already been written, you just need to fill in the code to:
 - open a file
