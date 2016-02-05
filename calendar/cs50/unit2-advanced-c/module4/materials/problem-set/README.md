@@ -1,9 +1,30 @@
-[Module 4](../..)
+#####[Module 4](../..)
 
-# Problem Set: Pset 4
+# Problem Set 4
 
 ### Synopsis
-In this problem set, you'll do (TODO someone: a few sentences, just a quick overview.)
+This problem set is difficult but very fun! There are three main components:
+* Whodunit: Here you will manipulate the pixels in an image in order to solve a murder mystery!
+* Resize: This component asks you to write a program that scales an image by a certain factor, making it 2, 3, or n times as large.
+* Recover: It turns out that when you "delete" data from a computer, the data doesn't necessarily go away. More often, it merely means that the computer will allow that chunk of memory to be overwritten in the future. In this assignment, you will search through the raw bytes of a digital camera's memory to recover a bunch of "deleted" images.
+
+Before you start coding, you will be asked to do some reading on image file formats (BMP, JPEG, etc) and answer some questions. Don't spend forever on this, but do make sure you have read enough that you can answer the questions. We do ask you to submit your answers on Vocareum.
+
+### How to submit 
+On Vocareum, you will see four assignments:
+* **Problem Set: Questions**. For this assignment submit a TXT file called questions.txt
+* **Problem Set: Whodunit**. For this assignment submit a file called whodunit.c
+* **Problem Set: Resize**. For this assignment submit a file called resize.c
+* **Problem Set: Recover**. For this assignmnet submit a file called recover.c
+
+After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum. 
+
+You can also use check50 to check the correctness of your code before submitting. Unfortunately, you won't be able to use check50 on whodunit.c, but you should know when your image is clear enough to see the picture. Obviously, check50 won't work for questions.txt either, but please submit your answers to the questions specified in the problem set spec. 
+
+If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.
+
+### Get Started
+Start working on the <a href="http://cdn.cs50.net/2015/fall/psets/4/pset4/pset4.html#getting_ready" target="_blank">Problem Set 4 Spec</a>. You may have seen some of these videos already, but feel free to review them if you want a refresher. Go get em jaguar!
 
 ### Guidance
 **For Whodunit** - If you are color vision deficient (for example, "red-green color blind"): have someone else review your results each time you try something new! The results of this problem set are often very faint. Therefore, even “trichromats” will likely have difficulty discerning the results.
@@ -53,8 +74,3 @@ It looks like this could work both ways - and it can. So, where does this become
 `fread(&mem_var, 1, 512, in_file) == 512` means 512 1-byte chunks were successfully read.  
 `fread(&mem_var, 1, 512, in_file) < 512` means that the file has ended (or an error has occurred) before all 512 chunks were read.  
 
-### Get Started
-The assignment is <a href="http://cdn.cs50.net/2015/fall/psets/4/pset4/pset4.html" target="_blank">here</a>. Go get em tiger!
-
-### How to submit 
-(TODO Jesse or someone: quick instructions.)

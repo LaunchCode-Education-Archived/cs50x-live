@@ -27,8 +27,27 @@ MENU:
 3) Philly Cheesesteak
 ```
 
-We've provided some starter code for you in ([displayMenu.c](./displayMenu.html)), but it's pretty minimal. If you need or want help, the commands and functions that you'll need are discussed in these videos: (<a href="https://www.youtube.com/watch?v=QOD2hHiHpn0&index=1&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh" target="_blank">1</a>,  <a href="https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">2</a>), so look there first!
+The `[fgets]`(https://reference.cs50.net/stdio.h/fgets) function will be very helpful. You can use this function to read in each line of your file, one line at a time.
 
+Here's an example. If you have declared a `string` variable, called, say `line`, you can "fill" it with data by calling `fgets` like so:
+```c
+fgets(line, 150, yourfile);
+```
+The `150` specifies that you want to stop reading after 150 bytes. But the cool part about `fgets` is that **if** it encounters a new line `\n` character at any point, even some time before 150 bytes, it will immediately stop and return the data up until that point. This means you will receive exactly one line of text from the file!
 
+When you use `fgets` it will read content from the file until either the specified number of bytes, a newline, or the end of the file (EOF) is reached. You'll probably want to write code that checks to see if the end of the file has been reached or not. One example of how you might check for the end of the file is as follows:
+
+```c
+while(fgets(...) != NULL)
+{
+	//do stuff
+}
+```
+
+In the above example, the loop will continue to run as long as there is more information to be read. As soon as the end of the file is reached, `fgets` will return NULL and the loop will stop.
+
+After you run your program and create a file, it may not appear in the file browser right away. To find it, right click the folder that the program is in and select "Refresh." The file that you created should then appear. Alternatively, you can use ```ls``` in the terminal.
+
+We've provided some starter code for you in ([displayMenu.c](./displayMenu.md)), but it's pretty minimal.
 
 

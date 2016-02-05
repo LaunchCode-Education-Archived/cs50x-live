@@ -1,5 +1,5 @@
 ##### Module 4
-
+[Back to Class 1](../../class1)
 # Studio: Word Grid Stretch
 
 The word grid is back with a vengence!
@@ -72,7 +72,7 @@ To get started, we suggest you try two simpler versions first:
   bbbeeeaaarrr
   ```
   
-Only after writing these little badboys should you start to think about how to combine both steps into one big badderboy.
+Only after writing these little bad boys should you start to think about how to combine both steps into one bigger badder boy.
 
 
 ### Validation

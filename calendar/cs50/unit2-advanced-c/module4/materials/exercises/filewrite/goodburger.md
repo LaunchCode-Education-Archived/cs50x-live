@@ -13,19 +13,24 @@ int main(void)
   {
     printf("Item %i: %s\n", i, menuItems[i]);
   }
-  printf("\nHow many items? ");
+  printf("\nHow many items?\n");
 
   int numItems = GetInt();
 
-  // Here's where your code goes!
+
   // PUT YOUR CODE HERE: open a file to write
 
 
+  // PUT YOUR CODE HERE: before continuing, make sure the file pointer is not NULL
+  // if it is NULL, then quit the program (return 1) instead of continuing
+  
+
   for (int i = 0; i < numItems; i++)
   {
-    printf("Which menu item would you like? ");
-    // PUT YOUR CODE HERE: Take the order number, translate it into an item, and write it
-
+    printf("Which menu item would you like?\n");
+    // PUT YOUR CODE HERE: Take the order number, translate it into an item, and write the item to the file
+    
+    // PUT YOUR CODE HERE: Write a new line ("\n") to the file 
   }
 
   // PUT YOUR CODE HERE: close the file
