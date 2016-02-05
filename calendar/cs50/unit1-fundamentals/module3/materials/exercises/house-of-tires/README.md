@@ -14,7 +14,7 @@ To do this, you should:
   * [houseoftires.c](./houseoftires.html)
   * [mathhelper.h](./mathhelperheader.html)
   * [mathhelper.c](./mathhelper.html)
-  * [Makefile](./Makefile)
+  * [Makefile](./Makefile.html)
 1. Cut the `numberOfContainers` function from `houseOfPizza.c` into `mathHelper.c`, so we can use it in both `houseOfPizza.c` and `houseOfTires.c`
 2. Add an appropriate function prototype to `mathHelper.h`
 3. Add a line to `#include` mathHelper.h in `houseOfTires.c`
