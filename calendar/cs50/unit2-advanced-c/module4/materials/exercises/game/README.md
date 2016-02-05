@@ -2,7 +2,7 @@
 [Back to Class 2 Prep](../../class2-prep#structs)
 # Exercise: Game
 
-In [game.c](./game.c), we have written a program that allows the user to play a "role playing" game in the terminal.
+In [game.c](./game.html), we have written a program that allows the user to play a "role playing" game in the terminal.
 
 The game behaves like this (it's a little long):
 
