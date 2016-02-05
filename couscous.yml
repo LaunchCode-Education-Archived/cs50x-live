@@ -1,0 +1,41 @@
+template:
+    url: https://github.com/LaunchCodeEducation/Template-Light
+# Base URL of the published website
+baseUrl: http://education.launchcode.org/cs50x-yourcitygoeshere
+
+# Used to link to the GitHub project
+github:
+    user: LaunchCodeEducation 
+    repo: cs50x-yourcitygoeshere 
+
+title: LaunchCode's CS50x - Your City
+
+# The left menu bar
+menu:
+    items:
+        calendar:
+            text: Calendar 
+            # You can use relative urls
+            relativeUrl: calendar/ 
+        howtotake:
+            text: How To Take This Class
+            relativeUrl: how-to-take-this-class/    
+        helpfulresources:
+            text: Helpful Resources
+            relativeUrl: helpful-resources/
+        ide:
+            text: CS50 IDE
+            absoluteUrl: http://cs50.io/
+            attributes: target="_blank"
+        vocareum:
+            text: Vocareum
+            absoluteUrl: http://labs.vocareum.com/main/
+            attributes: target="_blank"
+        piazza:
+            text: Piazza
+            absoluteUrl: http://piazza.com/wustl/spring2016/cs50x
+            attributes: target="_blank"
+        studentguide:  
+            text: Student Guide
+            absoluteUrl: linktoyourstudentguidegoeshere
+            attributes: target="_blank"
