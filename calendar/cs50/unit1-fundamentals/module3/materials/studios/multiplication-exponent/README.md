@@ -71,7 +71,7 @@ As always, it is important to test your code. It may be a good idea to write a s
 ### Part 4
 Once you are satisfied with your multiplication function, it is time to turn our attention to exponentiation. Exponentiation can be thought of as repeated multiplication, much like multiplication can be thought of as repeated addition. Like with the `mult` function, however, you are faced with some restrictions. The multiplication operator is still not allowed. Instead you should use the recursive `mult` function that you wrote. In order to do this, we need to tell the exponentiation function what the multiplication function looks like. We can do this by referring to the header file that we created.
 
-Header files are referenced with the `#include` statement. So to include our header file in `expt.c`, we would type `#include "mult.c"`. Go ahead and add this to the `expt.c` file now.
+Header files are referenced with the `#include` statement. So to include our header file in `expt.c`, we would type `#include "mult.h"`. Go ahead and add this to the `expt.c` file now.
 
 You are now ready to use your multiplication function to compute exponents. Your solution should be recursive, so loops are still not allowed. Make sure to use your `mult` function to perform multiplication! Anywhere that you would normally use `*` should be replaced with a function call to `mult`.
 
