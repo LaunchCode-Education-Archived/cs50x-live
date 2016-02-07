@@ -50,7 +50,7 @@ clean:
 ```
 Here, the target `clean`  allows you to delete all files ending in .o or called core (more on that soon!), or `expt`. Be careful not to add, say, `*.c` to that last line in Makefile! (Why?) Any line, incidentally, that begins with # is just a comment.
 
-Now that we've covered the [Makefile](makefile.html), let's move on to Part 2. (If you're still confused about Makefiles you can check <a href="https://en.wikipedia.org/wiki/Makefile" target="_blank">here</a> for more information.
+Now that we've covered the [Makefile](makefile.html), let's move on to Part 2. (If you're still confused about Makefiles you can check <a href="https://en.wikipedia.org/wiki/Makefile" target="_blank">here</a> for more information.)
 
 ### Part 2
 Your next task should be to create those missing files. Let's start with `mult.h`. This is the header file for the multiplication function, and should include the function *prototype*. A prototype defines what a function uses for its inputs and outputs, but does _not_ define what the function does. It is used to tell other parts of your program what kinds of functions are available for use.
