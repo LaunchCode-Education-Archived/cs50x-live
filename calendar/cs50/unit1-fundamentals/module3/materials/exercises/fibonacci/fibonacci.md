@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
   
   // compute answer and then print it
   int answer = fib(n);
-  printf("%i\n," answer);
+  printf("%i\n", answer);
 
   // all's well
   return 0;
