@@ -17,7 +17,7 @@ Recursion is a tricky, but important concept. Today we will go over the necessar
 	* Recursive step
 	* Optional helper function
 	
-2. Studio: [Multiplication and Exponents](../studios/multiplication-exponent)
+2. [Studio: Multiplication and Exponents](../studios/multiplication-exponent)
 
 ### Homework
 1. Continue working on <a href="../problem-set" target="_blank">Pset 3</a>
