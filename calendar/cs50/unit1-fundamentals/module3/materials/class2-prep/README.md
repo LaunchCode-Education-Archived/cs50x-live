@@ -57,7 +57,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=CSZLNYF4Klo" target="_blank"> Compilers</a> | Watch this short about compilers
 Watch | Shorts | <a href="http://www.youtube.com/watch?v=U3zCxnj2w8M" target="_blank"> Clang, Make</a> | Watch this short about Clang and Make, two tools used to manage the building and compilation of code projects
 Watch | Shorts | <a href="https://www.youtube.com/watch?v=ED7QtgXDShY" target="_blank"> Libraries</a> | Watch this short about libraries
-Watch | Section | <a href="https://youtu.be/XRvvitgap5Y?t=2549" target="_blank"> Compilation Process</a> | Watch this lecture on the compilation process
+Watch | Section | <a href="https://youtu.be/XRvvitgap5Y?t=2549" target="_blank"> Compilation Process</a> | Watch this lecture on the compilation process. Feel free to stop at the 59 minute mark. 
 Read | Resource | [Spread Out](../resources/spread-out) | Here's an example of a program that starts off written as one big file, but is subsequently reorganized into a few smaller, easy to understand files.
 Do | Exercise | [Delmar House of Tires](../exercises/house-of-tires) | Here we ask you to fix a program by pulling out some code from another very similar program into a new helper file, so that both programs can share the helper file and you don't have to rewrite any code.
 
