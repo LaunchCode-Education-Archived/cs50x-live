@@ -70,4 +70,4 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/3/w/notes
 
 ***
 
-##### Now you can head to [Class 2](../class2)!
+### Now you can head to [Class 2](../class2)!
