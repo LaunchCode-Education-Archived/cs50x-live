@@ -9,15 +9,15 @@ int expt(int x, int y) {
 
 int main() {
     //Test multiplication:
-    printf("2 * 2 = %i", mult(2, 2));
-    printf("3 * 9 = %i", mult(3, 9));
-    printf("-3 * 9 = %i", mult(-3, 9));
-    printf("3 * -9 = %i", mult(3, -9));
-    printf("-3 * -9 = %i", mult(-3, -9));
+    printf("2 * 2 = %i\n", mult(2, 2));
+    printf("3 * 9 = %i\n", mult(3, 9));
+    printf("-3 * 9 = %i\n", mult(-3, 9));
+    printf("3 * -9 = %i\n", mult(3, -9));
+    printf("-3 * -9 = %i\n", mult(-3, -9));
     
     //Test exponentiation:
-    printf("2^8 = %i", expt(2, 8)); //should be 256
-    printf("2^3 = %i", expt(2, 3)); //should be 8
-    printf("(-2)^3 = %i", expt(-2, 3)); //should be -8
+    printf("2^8 = %i\n", expt(2, 8)); //should be 256
+    printf("2^3 = %i\n", expt(2, 3)); //should be 8
+    printf("(-2)^3 = %i\n", expt(-2, 3)); //should be -8
 }
 ```
