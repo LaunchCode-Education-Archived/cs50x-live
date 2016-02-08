@@ -20,8 +20,8 @@ To do this, you should:
 3. Add a line to `#include` mathHelper.h in `houseoftires.c`
 4. Add a line to `#include` mathHelper.h in `houseofpizza.c`. (Actually we have already done this for you!)
 5. You can now compile your programs using the `Makefile` you copied over.  It will compile all of your programs at once for you by running the command `make`.  
- * When you copy over the makefile make sure you save it as `makefile` without using any extension. 
- * You will learn more about make files in Class 2 and [pset3](../../problem-set).
+ * When you copy over the makefile make sure you save it as `Makefile` without using any extension. 
+ * You will learn more about makefiles in Class 2 and [pset3](../../problem-set).
 
 
 After this, both houseOfPizza and houseOfTires should work correctly, and we hardly had to write any new code!
