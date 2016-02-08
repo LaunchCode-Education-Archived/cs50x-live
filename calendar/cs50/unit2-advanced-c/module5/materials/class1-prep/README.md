@@ -4,7 +4,7 @@
 
 Before coming to [Class 1](../class1), please complete the following tasks:
 
-##### Lecture:
+##### Lecture
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=RsIP1gRneOs" target="_blank">Week 5</a> |
