@@ -3,6 +3,8 @@
 
 # Studio: Word-Grid
 
+First, create a file called `wordgrid.c`.
+
 Recall that you can represent multi-dimensional data with nested arrays. For example, you can represent a grid of
 things as an array of (arrays of things).
 
