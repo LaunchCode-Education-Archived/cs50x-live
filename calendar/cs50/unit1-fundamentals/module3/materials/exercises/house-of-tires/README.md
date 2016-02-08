@@ -15,10 +15,10 @@ To do this, you should:
   * [mathhelper.h](./mathhelperheader.html)
   * [mathhelper.c](./mathhelper.html)
   * [Makefile](./makefile.html)
-1. Cut the `numberOfContainers` function from `houseOfPizza.c` into `mathHelper.c`, so we can use it in both `houseOfPizza.c` and `houseOfTires.c`
-2. Add an appropriate function prototype to `mathHelper.h`
-3. Add a line to `#include` mathHelper.h in `houseOfTires.c`
-4. Add a line to `#include` mathHelper.h in `houseOfPizza.c`. (Actually we have already done this for you!)
+1. Cut the `numberOfContainers` function from `houseofpizza.c` into `mathhelper.c`, so we can use it in both `houseofpizza.c` and `houseoftires.c`
+2. Add an appropriate function prototype to `mathhelper.h`
+3. Add a line to `#include` mathHelper.h in `houseoftires.c`
+4. Add a line to `#include` mathHelper.h in `houseofpizza.c`. (Actually we have already done this for you!)
 5. You can now compile your programs using the `Makefile` you copied over.  It will compile all of your programs at once for you by running the command `make`.  
  * When you copy over the makefile make sure you save it as `makefile` without using any extension. 
  * You will learn more about make files in Class 2 and [pset3](../../problem-set).
@@ -29,7 +29,7 @@ After this, both houseOfPizza and houseOfTires should work correctly, and we har
 Here's how the two programs should run after your edits:
 
 ```nohighlight
-$ ./houseOfPizza
+$ ./houseofpizza
 Welcome to Delmar House of Pizza!
 How many slices do you want? 12
 
@@ -38,7 +38,7 @@ That'll be 20.00!
 ```
 
 ```nohighlight
-$ ./houseOfTires
+$ ./houseoftires
 Welcome to Delmar House of Tires!
 How many tires do you want? 75
 
