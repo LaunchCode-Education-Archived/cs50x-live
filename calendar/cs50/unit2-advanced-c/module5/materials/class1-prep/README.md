@@ -9,8 +9,9 @@ Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=RsIP1gRneOs" target="_blank">Week 5</a> |
 
+***
 
-##### More on Pointers and Memory, and some tricky "gotcha"s
+##### More on Pointers and Memory / Some tricky "gotchas"
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#more_on_pointers" target="_blank">Week 5 / More On Pointers</a> | These notes show an example of how you should never dereference a pointer to some memory that you (or a function you called) did not `malloc`. If you do, you will be accessing memory that doens't belong to you, and you might get a segmentation fault.
@@ -26,6 +27,8 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=fvTsFjDuag8" target="_b
 Do | Exercise | | TODO exc make em use valgrind to find a leak, and then fix the leak
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#memory" target="_blank">Week 5, continued / Memory</a> | Stack and Heap, buffer overflow attack
 
+***
+
 ##### Recursion Review and Recursive Structs
 Task | Resource Type | Link | Instructions
 -----|------|------|------
@@ -33,6 +36,8 @@ Study | CS50 Study | <a href="https://study.cs50.net/recursion" target="_blank">
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=beqqGIdabrE&index=7&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Call Stack</a> | Watch these videos on the Call Stack, a fundamental concept in computer science that's especially helpful in understanding recursion.
 Read | Resource | [Recursive Structs](../resources/recursive-structs) | Here we provide a brief review of `struct`s, and then introduce the concept of a "recursively defined" `struct`. This is the curcial leap that allows us to create data structures such as linked lists, which you will learn about next.
 Watch | Short | <a href="https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Structs</a> | This short talks more about both regular and recursively defined `struct`s, and demonstrates an implementation of a linked list. You will see more about linked lists in the section below.
+
+***
 
 ##### Linked Lists
 Task | Resource Type | Link | Instructions
@@ -46,6 +51,8 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=HmAEzp1taIE&l
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=linked_lists" target="_blank">Linked Lists</a> |
 Read | Resource | |  TODO res: custom implementation of GetString that uses a linked list of chars, therefore doesnt need to realloc space in the same way
 Do | Exercise |  | TOD exc: make the above more efficient by inserting each new char at the beginning of the list. But this means that in order to create the String object you have to iterate backwards over the list, which means you need to make it Doubly-Linked. 
+
+***
 
 Other linked list ideas:
 * implement bubble sort
