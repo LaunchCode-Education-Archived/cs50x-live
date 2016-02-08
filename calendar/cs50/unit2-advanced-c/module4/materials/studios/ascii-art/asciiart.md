@@ -40,6 +40,8 @@ int main(void)
 			
 		//Print all of lineOut to the output file
 		
+		//Add a new line `\n` to the output file
+		
 	//Close both files
 	
 	//Insert the name of the output file in the print statement below
@@ -73,4 +75,5 @@ csvLine extractNumbers(char* line)
 	result.length = count + 1;
 	return result;
 }
+
 ```
