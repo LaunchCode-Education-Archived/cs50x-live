@@ -10,25 +10,21 @@ Task | Resource Type | Link | Instructions
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=RsIP1gRneOs" target="_blank">Week 5</a> |
 
 
-##### More on Pointers, Memory
+##### More on Pointers and Memory, and some tricky "gotcha"s
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#more_on_pointers" target="_blank">Week 5 / More On Pointers</a> | need to malloc or youll get a seg fault
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#more_on_pointers" target="_blank">Week 5 / More On Pointers</a> | These notes show an example of how you should never dereference a pointer to some memory that you (or a function you called) did not `malloc`. If you do, you will be accessing memory that doens't belong to you, and you might get a segmentation fault.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#cs50_library" target="_blank">Week 5 / CS50 Library</a> | These notes walk us through the actual source code of how the `GetString` function is implemented in the `<cs50.h>` library. It is actually very complicated because the function does not know ahead of time how long the user's input will be, so it must look through the input string and continually reallocate additional memory until reaching the end.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=l1sfaAyt6ac&list=PLhQjrBD2T381hO-XiBPrps4fzt4rVY3E8&index=1" target="_blank">scanf-0</a> | Follow along with David to get some practice using `scanf`, which is one of those functions that, rather than returning a value, instead requires you to pass a reference to some memory, and then goes and makes a "destructive" update at the address you pass in. <br>You've already seen this program, but see if you can recreate it using the pseudocode <a href="../../../../../../helpful-resources/source-code/m5-source-code.html#scanf-0" target="_blank">here.</a>
 Do | Exercise | | TODO exc: require them to implement a pass-by-ref function.
-
-##### A few pitfalls with memory
-Task | Resource Type | Link | Instructions
------|------|------|------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#memory_and_valgrind" target="_blank">Week 5 / Memory and Valgrind</a> | example use of valgrind to find a leak and an invalid write
-Watch | Short | <a href="https://www.youtube.com/watch?v=fvTsFjDuag8" target="_blank">Valgrind</a>
-Do | Exercise | | TODO exc make em use valgrind to find a leak, and then fix the leak
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#memory" target="_blank">Week 5, continued / Memory</a> | Stack and Heap, buffer overflow attack
 Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=4zS7RTnRuWY&index=2&list=PLhQjrBD2T381hO-XiBPrps4fzt4rVY3E8" target="_blank">scanf-1</a> | <br>You can find the pseudocode to start this task <a href="../../../../../../helpful-resources/source-code/m5-source-code.html#scanf-1" target="_blank">here.</a>
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=TJK6l_SBLnk&list=PLhQjrBD2T381hO-XiBPrps4fzt4rVY3E8&index=3" target="_blank">scanf-2</a> | <br>You can find the instructions to start this task <a href="../../../../../../helpful-resources/source-code/m5-source-code.html#scanf-2" target="_blank">here.</a>
 Watch | Short | <a href="https://www.youtube.com/watch?v=L02X-XNT5No" target="_blank">CS50 Library</a> | In scanf-2, David Malan left us hanging with a decent, but limited solution for getting user input. Now Nate Hardison guides you through the actual source code of the implementation for GetInt and GetString.
 Do | Exercise | | TODO exc: make them step through the library functions in debugger
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#memory_and_valgrind" target="_blank">Week 5 / Memory and Valgrind</a> | example use of valgrind to find a leak and an invalid write
+Watch | Short | <a href="https://www.youtube.com/watch?v=fvTsFjDuag8" target="_blank">Valgrind</a>
+Do | Exercise | | TODO exc make em use valgrind to find a leak, and then fix the leak
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#memory" target="_blank">Week 5, continued / Memory</a> | Stack and Heap, buffer overflow attack
 
 ##### Recursion Review and Recursive Structs
 Task | Resource Type | Link | Instructions
