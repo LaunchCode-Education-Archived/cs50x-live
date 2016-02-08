@@ -35,6 +35,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes
 Watch | Short | <a href="https://www.youtube.com/watch?v=mFptHjTT3l8&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=3" target="_blank">Trees</a>
 Watch | Short | <a href="https://www.youtube.com/watch?v=NKr6gWcXkIM&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=4" target="_blank">Tries</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=TRg9DQFu0kU&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=5" target="_blank">Tries</a>
+Watch | Short | <a href="https://www.youtube.com/watch?v=t4MSwiqfLaY", target="_blank">Recursion</a> | Zamyla talks about recursion in general, and how it can be used for "tree-like" data structures such as tries.
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=trees,tries" target="_blank">Trees, Tries</a> | 
 
 ##### Data Structures Summary
