@@ -31,6 +31,11 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=TJK6l_SBLn
 Watch | Short | <a href="https://www.youtube.com/watch?v=L02X-XNT5No" target="_blank">CS50 Library</a> | In scanf-2, David Malan left us hanging with a decent, but limited solution for getting user input. Now Nate Hardison guides you through the actual source code of the implementation for GetInt and GetString.
 Do | Exercise | | TODO exc: make them step through the library functions in debugger
 
+##### More on Recursion and Structs
+Task | Resource Type | Link | Instructions
+-----|------|------|------
+
+
 ##### Linked Lists
 Task | Resource Type | Link | Instructions
 -----|------|------|------
