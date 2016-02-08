@@ -24,7 +24,7 @@ To do this, you should:
  * You will learn more about makefiles in Class 2 and [pset3](../../problem-set).
 
 
-After this, both houseOfPizza and houseOfTires should work correctly, and we hardly had to write any new code!
+After this, the programs `houseofpizza` and `houseoftires` should both work correctly, and we hardly had to write any new code!
 
 Here's how the two programs should run after your edits:
 
