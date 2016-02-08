@@ -7,7 +7,7 @@ Before coming to [Class 1](../class1), please complete the following tasks:
 ##### Lecture
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=RsIP1gRneOs" target="_blank">Week 5</a> | This lecture continues looking at memory management, an some common "gotchas" that we have to watch out for. Additionally, we learn about linked lists, stacks and queues, which are "data structures" that provide various ways of interacting with collections of data.
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=RsIP1gRneOs" target="_blank">Week 5</a> | This lecture continues looking at memory management, and some common "gotchas" that you have to watch out for. Additionally, we learn about linked lists, stacks and queues, which are "data structures" that provide various ways of interacting with collections of data.
 
 ***
 
