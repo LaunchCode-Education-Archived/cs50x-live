@@ -72,7 +72,7 @@ argv[1][1] == '3'
 ##### Caesar:
 The key here (pun intended :wink:) is the need to understand the relationship between a char, its integer value, and a position in the alphabet.
 
-For example, the char 'A' has an ASCII (integer) value of 65, but its position in the alphabet would be 0 (in computer terms). 'B' is 65 ASCII and 1 alphabet, and so on.
+For example, the char 'A' has an ASCII (integer) value of 65, but its position in the alphabet would be 0 (in computer terms). 'B' is 66 ASCII and 1 alphabet, and so on.
 
 Initially, it seems easy to convert the number from the command line to its pair, even just using "ASCII math": enter 1 and 'A', convert using 'A' + 1 = 'B'. Easy, right?
 
