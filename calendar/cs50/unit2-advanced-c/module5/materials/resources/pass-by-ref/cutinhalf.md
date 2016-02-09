@@ -1,3 +1,10 @@
+```c
+
+/**
+ * cutinhalf.c
+ * 
+ */
+
 #include <stdio.h>
 #include <cs50.h>
 
@@ -24,3 +31,5 @@ void cutInHalf(float* n)
 {
     *n = *n / 2;
 }
+
+```
