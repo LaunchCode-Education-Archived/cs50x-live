@@ -1,3 +1,11 @@
+
+```c
+
+/**
+ * lategrade.c
+ * 
+ */
+ 
 #include <stdio.h>
 #include <cs50.h>
 
@@ -31,3 +39,4 @@ void dockPoints(assignmentGrade* grade, int daysLate)
     int pointsOff = 3 * daysLate;
     grade->score = grade->score - pointsOff;
 }
+```
