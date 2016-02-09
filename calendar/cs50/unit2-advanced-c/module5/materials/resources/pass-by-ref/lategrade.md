@@ -17,7 +17,9 @@ typedef struct
     int score;
 } assignmentGrade;
 
+
 void dockPoints(assignmentGrade* grade, int daysLate);
+
 
 int main (void)
 {
