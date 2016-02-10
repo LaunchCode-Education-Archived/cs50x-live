@@ -10,6 +10,8 @@
 #include <cs50.h>
 
 
+#define PENALTY_PER_DAY
+
 typedef struct 
 {
     char* title;
@@ -23,7 +25,7 @@ void dockPoints(assignmentGrade* grade, int daysLate);
 
 int main (void)
 {
-    assignmentGrade suzieGrade = { "Paper", "Suzie Slacker", 94 };
+    assignmentGrade suzieGrade = { "Research Paper on Oatmeal", "Suzie Slacker", 94 };
     
     printf("Suzie got a score of %i on the assignment. But you say she turned it in late?\n", suzieGrade.score);
     printf("How many days late did Suzie submit her work?\n");
@@ -38,7 +40,7 @@ int main (void)
 
 void dockPoints(assignmentGrade* grade, int daysLate)
 {
-    int pointsOff = 3 * daysLate;
+    int pointsOff = daysLate * PENALTY_PER_DAY;
     grade->score = grade->score - pointsOff;
 }
 ```
