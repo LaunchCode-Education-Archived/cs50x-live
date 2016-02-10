@@ -64,7 +64,7 @@ and in `main`, we call the `capitalizeVowels` function like this:
 capitalizeVowels(str);
 ```
 
-Question: Recall that in the previous example, we used the address-of `&` operator. How come we didn't have to do that in the function call, like this:
+Question: Recall that in the previous example, we used the address-of `&` operator. How come we didn't have to do that in this time, like so:
 
 ```c
 capitalizeVowels(&str);
