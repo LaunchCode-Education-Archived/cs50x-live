@@ -75,7 +75,7 @@ Answer: Because in this case `str` is *already* an address. The type of `str` is
   
 # 3. Late grade
 
-In this example, we pass a reference to a `struct` into our function. The program has a `struct` representing a student's grade on a homework assignment. The hard-coded situation is that a student named Suzie turned in her assignment late, so we want to retroactively change her grade to deduct points from her score.
+In this example, we pass a reference to a `struct` into our function. The program defines a `struct` representing a student's grade on a homework assignment. The hard-coded situation is that a student named Suzie turned in her assignment late, so we want to retroactively change her grade to deduct points from her score.
 
 ```nohighlight
 $ ./lategrade 
@@ -85,6 +85,8 @@ How many days late did Suzie submit her work?
 Suzie's PERMANENT RECORD has been updated to reflect the late submission.
 Her new score for the assignment is 82
 ```
+
+Go look quickly at the source code for [lategrade.c](./lategrade.html).
 
 In this case, our function takes a reference to an `assignmentRecord`, and an `int` representing how many days late Suzie was. It then updates the score of the `assignmentRecord` to reflect the late submission. The signature is this:
 
@@ -101,6 +103,7 @@ dockPoints(&suzieRecord, daysLate);
 We do use the `&` operator for `suzieRecord` here, because `suzieRecord` is just a normal struct. We need to pass in a pointer to a struct.
 
 Also notice that inside the body of the `dockPoints` function, once we have a pointer to the struct, we need to use arrow notation to update the struct's `score` field:
+
 ```c
 record->score = record->score - pointsOff;
 ```
