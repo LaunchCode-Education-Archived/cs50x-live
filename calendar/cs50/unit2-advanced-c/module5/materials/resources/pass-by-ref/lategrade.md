@@ -9,8 +9,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-
-#define PENALTY_PER_DAY
+#define PENALTY_PER_DAY 3
 
 typedef struct 
 {
@@ -18,7 +17,6 @@ typedef struct
     char* studentName;
     int score;
 } assignmentGrade;
-
 
 void dockPoints(assignmentGrade* grade, int daysLate);
 
