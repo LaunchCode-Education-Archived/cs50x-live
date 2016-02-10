@@ -10,7 +10,7 @@ Recall from Module 4 that functions generally receive copies of whatever values 
 void swap(int* x, int* y);
 ```
 
-The above signature indicates that `swap` receives the *addresses* of two `int`s: `x` is the address in memory where an `int` is stored, and so is `y`. The body of the function then goes and does the work of swapping the "real" values by re-writing the memory at those addresses.
+The above signature indicates that `swap` receives the *addresses* of two `int`s: `x` is the address in memory where an `int` is stored, and so is `y`. The body of the function then goes and does the work of swapping the "real" values by overwriting the memory at those addresses.
 
 This is a very common pattern: a function that receives a pointer to some value, and then goes to that spot in memory and updates the value there.
 
