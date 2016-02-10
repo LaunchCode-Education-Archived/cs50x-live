@@ -69,14 +69,15 @@ Question: Recall that in the previous example, we used the address-of `&` operat
 ```c
 capitalizeVowels(&str);
 ```
+?
 
-Answer: Because in this case `str` is *already* an address. The type of `str` is `char*`, i.e. pointer-to-a-`char`. So by default we are already passing a referene to the data that needs to be overwritten. If we tried to pass `&str`, that would actually be a `char**`: a pointer to a pointer to a char!
+Answer: Because in this case `str` is *already* an address. The type of `str` is `char*`, i.e. pointer-to-a-`char`. So by default we are already passing a reference to the data that needs to be overwritten. If we tried to pass `&str`, that would actually be a `char**`: a pointer to a pointer to a char!
   
 # 3. Late grade
 
 In this example, we pass a reference to a `struct` into our function. The program has a `struct` representing a student's grade on a homework assignment. The hard-coded situation is that a student named Suzie turned in her assignment late, so we want to retroactively change her grade to deduct points from her score.
 
-```c
+```nohighlight
 $ ./lategrade 
 Suzie got a score of 94 on the assignment. But you say she turned it in late?
 How many days late did Suzie submit her work?
