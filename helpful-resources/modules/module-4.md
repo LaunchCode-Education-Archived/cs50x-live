@@ -122,7 +122,7 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
   * 
   * Include the stdio library
   *
-  * Declare a function called noswap with a return-type of void and an argument list consisting of two variables called a and b of type int.
+  * Declare a function called swap with a return-type of void and an argument list consisting of two variables called a and b of type int.
   * Hint: return-type name(argument-list)
   *
   * Add main method
