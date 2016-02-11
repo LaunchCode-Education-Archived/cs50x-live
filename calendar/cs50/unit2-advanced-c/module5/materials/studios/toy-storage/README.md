@@ -2,7 +2,7 @@
 
 [Back to Class 2](../../class2)
 
-# Studio: Toy Storage
+# Studio: Toys R Accounted 4
 
 You work for a toy warehouse management company. You've got a lot of toys in your warehouse, and so it is important to keep an organized list of your inventory. Your company's organizational system is to sort each toy by the first letter of its name.
 
