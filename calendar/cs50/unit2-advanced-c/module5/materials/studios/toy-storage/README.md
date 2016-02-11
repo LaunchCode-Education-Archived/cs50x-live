@@ -58,7 +58,6 @@ Welcome, valued employee.
 Please select an option:
     a - to add a new toy to the warehouse
     q - to quit
-
 a 
 What is the name of the new toy?
 Bonestorm Videogame
@@ -68,7 +67,6 @@ Ok, Bonestorm Videogame has been added to the B's list:
 Please select an option:
     a - to add a new toy to the warehouse
     q - to quit
-
 a 
 What is the name of the new toy?
 Barbie
@@ -79,7 +77,6 @@ Ok, Barbie has been added to the B's list:
 Please select an option:
     a - to add a new toy to the warehouse
     q - to quit
-
 a
 What is the name of the new toy?
 Cup and Ball
@@ -89,7 +86,6 @@ Ok, Cup and Ball has been added to the C's list:
 Please select an option:
     a - to add a new toy to the warehouse
     q - to quit
-    
 q
 Goodbye, valued employee.
 ```
