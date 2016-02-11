@@ -13,10 +13,7 @@ Today's class will include a discussion about ...
  * Topic 2
 
 2. Studio
-  * <a href="../studios/secret-santa" target="_blank">Secret Santa</a>
-    * todo Secret Santa kind of sucks. other ideas?
-      * LL implementation of GetString()
-      * chain of messages like <a href="https://www.youtube.com/watch?v=i6LGJ7evrAg" target="_blank">LOTR Torches</a>
+  * <a href="../studios/doubly-linked-list" target="_blank">GetString with doubly linked lists</a>
 
 ### Homework
 1. [Class 2 Prep](../class2-prep) 
