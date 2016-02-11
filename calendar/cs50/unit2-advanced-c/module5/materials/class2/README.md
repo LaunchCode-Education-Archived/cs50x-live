@@ -13,7 +13,7 @@ This class will be focused on ...
   * Topic 1
   * Topic 2
 
-2. Studio: [Studio Name](../studios/)
+2. Studio: [Studio Name](../studios/toy-storage)
 
 ### Homework
 1. Continue working on [Problem Set 5](../problem-set)
