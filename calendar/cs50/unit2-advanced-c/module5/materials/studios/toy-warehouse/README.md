@@ -4,7 +4,7 @@
 
 # Studio: Toy Warehouse
 
-You work for a toy warehouse management company that sorts each toy by the first letter of its name, but keeps everything with the same first letter in a list.
+You work for a toy warehouse management company. You've got a lot of toys in your warehouse, and so it is important to keep an organized list of your inventory. Your company's organizational system is to sort each toy by the first letter of its name.
 
 So, for example, if your current inventory contained:
 * Slinky
