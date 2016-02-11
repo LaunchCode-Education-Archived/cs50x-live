@@ -13,7 +13,7 @@ Today's class will include a discussion about ...
  * Topic 2
 
 2. Studio
-  * <a href="../studios/doubly-linked-list" target="_blank">GetString with doubly linked lists</a>
+  * <a href="../studios/doubly-linked-lists" target="_blank">GetString with doubly linked lists</a>
 
 ### Homework
 1. [Class 2 Prep](../class2-prep) 
