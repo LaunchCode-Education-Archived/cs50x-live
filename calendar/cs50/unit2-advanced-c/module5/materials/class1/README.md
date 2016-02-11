@@ -9,8 +9,8 @@ For homework, you should have done [Prep for Class 1](../class1-prep)
 Today's class will include a discussion about ...
 
 1. Lecture / Q&A on the following topics
- * Topic 1
- * Topic 2
+ * Passing by Reference
+ * Linked Lists
 
 2. Studio
   * <a href="../studios/doubly-linked-lists" target="_blank">GetString with doubly linked lists</a>
