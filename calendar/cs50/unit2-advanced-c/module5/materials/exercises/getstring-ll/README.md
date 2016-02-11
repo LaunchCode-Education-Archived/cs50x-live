@@ -46,13 +46,6 @@ while ((c = fgetc(stdin)) != '\n' && c != EOF)
 	//update the number of characters
 	n++;
 }
-
-// return NULL if user provided no input
-if (n == 0 && c == EOF)
-{
-	return NULL;
-}
-...
 ```
 
 The while loop definition is exactly the same as it was in the original implementation. The body of the loop is greatly simplified. It calls a function that appends the character to the end of the list and increments the character counter. Let's take a look at the `append` function next:
@@ -87,4 +80,37 @@ void append(int c)
 
 Here's where things get interesting. The first thing `append` does is create a new node that contains the given character. We then have to add this node to our list, but we have to be careful. If the list is empty then `head` will be NULL which could lead to an error if we aren't careful. To accommodate this we check to see if the list is empty (by comparing `head` to NULL) and setting `head` if necessary.
 
-If the list is not empty, then we want to append this character to the end of the list. To do this, we first need to find the end of the list. Recall that
+If the list is not empty, then we want to append this character to the end of the list. To do this, we first need to find the end of the list. Recall that each node has a pointer to the next node in the list. This means that the last node in the list will not have anything to point to, so it will point to NULL. Our loop progresses through the list looking for this null value, then appends the new node to the end of our list.
+
+Now let's return to GetString() and finish things up:
+
+```c
+// return NULL if user provided no input
+if (n == 0 && c == EOF)
+{
+	return NULL;
+}
+
+//create a string to hold our result
+string minimal = malloc((n + 1) * sizeof(char));
+
+//iterate through the list, adding each character to the string
+node * curr = head;
+for(int i = 0; i < n; i++)
+{
+	minimal[i] = curr->n;
+	curr = curr->next;
+}
+
+// terminate string
+minimal[n] = '\0';
+
+// return string
+return minimal;
+```
+
+Now that we have a linked list that contains each character, we need to convert our linked list into a string. We first perform a check to see if the string is empty, much like the check that is performed in the original implementation of GetString().
+
+Next, we allocate some memory for our string based on the number of characters. We need to remember to include space for our string termination character.
+
+Finally, we loop through our list, adding each character to the string. Once the loop is finished, all we need to do is add the string termination character and viola! Our string is finished and returned.
