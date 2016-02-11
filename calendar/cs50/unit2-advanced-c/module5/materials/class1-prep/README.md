@@ -51,6 +51,7 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=HmAEzp1taIE&l
 Study | CS50 Study | <a href="https://study.cs50.net/linked_lists" target="_blank">Linked Lists</a> | CS50 Study gives a nice overview of linked lists.
 Read | Supplement | |  TODO res: custom implementation of GetString that uses a linked list of chars, therefore doesnt need to realloc space in the same way
 Do | Exercise |  | TOD exc: make the above more efficient by inserting each new char at the beginning of the list. But this means that in order to create the String object you have to iterate backwards over the list, which means you need to make it Doubly-Linked. 
+Do | Exercise | [Queen's English](../exercises/queens-english) | Linked lists make it very easy to insert new values into the middle of a list. Use this new power to rectify the spelling of words so that they are fit for the **honourable** presence of Her Majesty the Queen.
 
 ***
 
