@@ -77,14 +77,12 @@ Goodbye, valued employee.
 
 To do this, you’ll need to employ a Hash Table with Separate Chaining, as we saw [here](http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#hash_tables).
 
-As a data structure this entails a big array, where each item in the array is a sublist for a particular letter. Each sublist is implemented as a linked list, where each node in the list contains the name of the toy and a pointer to the next toy.
-
-So your big array will have 26 slots, one for each letter
-* the array, at index 0, will contain the list of all the toys that start with "a", 
-* the array, at index 1, will contain the list of all the toys that start with "b", 
+Your hash table will be implemented as a big array, where each item in the array is a sublist for a particular letter. So your array will have 26 slots, one for each letter
+* the array, at index 0, will contain the sublist of all the toys that start with "a", 
+* the array, at index 1, will contain the sublist of all the toys that start with "b", 
 * etc
 
-If we looked inside the array at index 1, we might expect to find a pointer to node whose `toyName` field is `"Barbie"`, and whose `next` field is a pointer to another node. 
+Each sublist is implemented as a linked list, where each node in the list contains the name of the toy and a pointer to the next toy. So we looked inside the big array at index 1, we might expect to find a pointer to node whose `toyName` field is `"Barbie"`, and whose `next` field is a pointer to another node. 
 
 The full process for storing any new item, looks like this:
 - ask for the name of the item
