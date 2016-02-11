@@ -49,8 +49,7 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=5nsKtQuT6E8" target="_b
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=ZoG2hOIoTnA&index=2&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh" target="_blank">Singly-Linked Lists</a> | Doug Lloyd jumps in with a good hearty talk on linked lists.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=HmAEzp1taIE&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh&index=3" target="_blank">Doubly-Linked Lists</a> | Doug now introduces the doubly-linked list, which allows us to walk both forwards and backwards over the list.
 Study | CS50 Study | <a href="https://study.cs50.net/linked_lists" target="_blank">Linked Lists</a> | CS50 Study gives a nice overview of linked lists.
-Read | Supplement | |  TODO res: custom implementation of GetString that uses a linked list of chars, therefore doesnt need to realloc space in the same way
-Do | Exercise |  | TOD exc: make the above more efficient by inserting each new char at the beginning of the list. But this means that in order to create the String object you have to iterate backwards over the list, which means you need to make it Doubly-Linked. 
+Read | Supplement | [GetString with lists](../exercises/getstring-ll) |  Examine an implementation of GetString() implemented with linked lists
 Do | Exercise | [Queen's English](../exercises/queens-english) | Linked lists make it very easy to insert new values into the middle of a list. Use this new power to rectify the spelling of words to ensure that they are fit to be unveiled before the **honourable** presence of Her Majesty the Queen.
 
 ***
