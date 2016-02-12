@@ -1,9 +1,4 @@
 ```c
-/** 
- * asciiart.c
- *
- */
- 
 #include <cs50.h>
 #include <string.h>
 #include <stdio.h>
@@ -31,16 +26,12 @@ int main(void)
 	
 		//Pass the line into the given extractNumbers function
 		
-		//Create a string that contains 1000 spaces using the following line of code
-		char lineOut[1000] = {' '};
 		
 		//For each value in the int array returned by extractNumbers:
 		
-			//set that position in lineOut to be a '#'
+			//put spaces in the file until the value is reached
 			
-		//Print all of lineOut to the output file
-		
-		//Add a new line `\n` to the output file
+			//put a hash in the file
 		
 	//Close both files
 	
@@ -75,5 +66,4 @@ csvLine extractNumbers(char* line)
 	result.length = count + 1;
 	return result;
 }
-
 ```

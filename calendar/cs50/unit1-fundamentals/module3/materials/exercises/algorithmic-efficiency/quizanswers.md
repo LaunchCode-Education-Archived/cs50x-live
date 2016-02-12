@@ -17,4 +17,4 @@ This algorithm's complexity is O(n<sup>2</sup>), where n is the number of rows a
 
 **What is the total time complexity of Sally’s task, in terms of ’n’ and ‘m'?**
 
-Selection sort has a efficiency of O(n<sup>2</sup>). Since notifying 1 person has an efficiency of O(1), notifying m people will have an efficiency of O(m). The total efficiency will be the efficiency of the sort combined with the efficiency of notifying everyone, or O(n<sup>2 + m). 
+Selection sort has a efficiency of O(n<sup>2</sup>). Since notifying 1 person has an efficiency of O(1), notifying m people will have an efficiency of O(m). The total efficiency will be the efficiency of the sort combined with the efficiency of notifying everyone, or O(n<sup>2</sup> + m). 
