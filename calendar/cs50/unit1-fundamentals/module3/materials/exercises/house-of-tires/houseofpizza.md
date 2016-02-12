@@ -2,7 +2,7 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <math.h>
-#include "mathHelper.h"
+#include "mathhelper.h"
 
 // TODO: cut the function from this file, and put it into mathHelper.c
 int numberOfContainers(int numberOfUnits, int unitsPerContainer)
