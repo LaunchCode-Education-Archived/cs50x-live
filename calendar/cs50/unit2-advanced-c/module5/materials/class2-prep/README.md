@@ -13,7 +13,7 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=3p_Scm7qSfU" target="
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#stacks_queues" target="_blank">Week 5 / Stacks & Queues</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#stacks_queues" target="_blank">Week 5, continued / Stacks & Queues</a> | 2 impls of a stack data structure. first built on array,has fixed capacity, second built on malloc with ability to realloc. Then 2 impls of a queue. We might want to give examples of when stacks and queues are useful.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#stacks_queues" target="_blank">Week 5, continued / Stacks & Queues</a> | These notes show how you could implement a stack and a queue, in two ways. First, using an array, and second, using `malloc`, which allows you to resize dynamically if you run out of capacity.
 Watch | Short | <a href="https://www.youtube.com/watch?v=SLOrrO7DlYo&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=2" target="_blank">Queues</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=9Tp8wHD66lw&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj" target="_blank">Stacks</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=10jRKWI9s1k&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=2" target="_blank">Queues</a>
@@ -22,11 +22,11 @@ Study | CS50 Study | <a href="https://study.cs50.net/?toc=stacks,queues" target=
 ##### Hash Tables
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#hash_tables" target="_blank">Week 5, continued / Hash Tables</a> | 2 examples, first linear probing, then an array of linked-lists
-Watch | Short | <a href="https://www.youtube.com/watch?v=h2d9b_nEzoA&index=1&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq" target="_blank">Hash Tables</a>
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=tjtFkT97Xmc&index=3&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj" target="_blank">Hash Tables</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#compression" target="_blank">Week 5, continued / Compression</a> | stripping redundancy from data storage. examples: images of flags, videos, huffman coding. Not sure where this fits in but is very cool.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#hash_tables" target="_blank">Week 5, continued / Hash Tables</a> | These notes show 2 example implementations of a hash table: first, linear probing, and second, using an array of linked-lists.
+Watch | Short | <a href="https://www.youtube.com/watch?v=h2d9b_nEzoA&index=1&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq" target="_blank">Hash Tables</a> | Lauren Carvalho briefly reviews arrays and linked lists before sequeing into a discussion of hash tables.
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=tjtFkT97Xmc&index=3&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj" target="_blank">Hash Tables</a> | Doug talks in depth about why hash tables are useful, and how to create them.
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=hashtables" target="_blank">Hash Tables</a> | 
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#compression" target="_blank">Week 5, continued / Compression</a> | *Optional* <br> These notes talk about various ways of how to strip away redundancy from data storage.
 
 ##### Trees and Tries
 Task | Resource Type | Link | Instructions
