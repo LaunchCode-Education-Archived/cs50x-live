@@ -30,3 +30,5 @@ Statement | x | y | z | px | py | pz
 
 
 You can simply write the answer out on paper, or use a spreadsheet on your computer.
+
+When you are done, you can [check your answers here](./answers.md).
