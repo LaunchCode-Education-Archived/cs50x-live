@@ -1,6 +1,6 @@
 ##### Module 4
 [Back to Prep for Class 2](../../class2-prep#files-hex)
-# Exercise: Restaurant Menus - Part 2
+# Exercise: Good Burger - Part 2
 
 Redo the [Good Burger](../filewrite/) exercise, but this time instead of using `fputs` to write to a file, use <a href="https://reference.cs50.net/stdio.h/fwrite" target="_blank">fwrite</a>.
 
