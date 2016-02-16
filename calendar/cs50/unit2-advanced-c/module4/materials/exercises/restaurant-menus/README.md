@@ -31,13 +31,13 @@ The `fgets`(https://reference.cs50.net/stdio.h/fgets) function (short for "file 
 
 Here's an example. If you have previously declared a `char*` variable, or an array of `char`s, 
 
-  like this:
-  ```c
-  char* line = malloc(sizeof(char) * 150);
-  ```
-  or like this;
-  ```c
-  char line[150];
+like this:
+```c
+char* line = malloc(sizeof(char) * 150);
+```
+or like this;
+```c
+char line[150];
   ```
 
 you can then "fill" `line` with data by calling `fgets` like so:
