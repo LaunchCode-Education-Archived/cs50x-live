@@ -11,7 +11,7 @@ So, for example, if your current inventory contained:
 * Barbie
 * Silly Putty
 * Furbie
-* Bonestorm Videogame
+* <a href="https://www.youtube.com/watch?v=AdHrgApNYWs" target="_blank">Bonestorm</a> Videogame
 * Cup and Ball
 
 ...then it would be organized into the following sublists:
