@@ -33,7 +33,7 @@ Read | Resource | [Files with Functions](../resources/file-functions) | A pretty
 Do | Exercise | [Good Burger](../exercises/filewrite) | Implement a storefront for the restaurant "Good Burger" by asking the user for their order, then writing it to a file.
 Do | Exercise | [Restaurant Menu](../exercises/restaurant-menus) | Implement a menu display for a restaurant by reading their menu from a file.
 Do | Exercise | [Good Burger - Part 2](../exercises/filewrite-2) | Redo the Good Burger exercises using `fwrite` this time instead of `fputs`
-Do | Exercise | [Restaurant Menu - Part 2](../exercises/restaurant-2) | Redo the menu exercise using `fread` instead of `fgets`
+Do | Exercise | [Restaurant Menu - Part 2](../exercises/restaurant-2) | Redo the menu exercise using `fread` instead of `fgets`. This one is pretty difficult, so don't kill yourself trying to get this right if you're having trouble with it.
 
 ***
 
