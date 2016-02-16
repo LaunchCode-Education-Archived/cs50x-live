@@ -1,6 +1,6 @@
 ##### Module 4
 
-[Back to Class 2](../class2)
+[Back to Class 2](../../class2)
 
 
 # Studio: Ascii Art
