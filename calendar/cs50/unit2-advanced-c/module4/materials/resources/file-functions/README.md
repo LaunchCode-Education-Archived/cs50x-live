@@ -4,7 +4,7 @@
 
 #Resource: Functions with Files
 
-We were just introduced to some new functions that allow us to work with multiple files. Pretty cool stuff, if you ask us. But in the process, we were just shown a bunch of new terms and types of arguments. You might have been like, "whoa, <a href="https://www.youtube.com/watch?v=Y5qKNlcUwKs" target="_blank">Nelly</a>, buffer? block? file pointer?! What is all this?" 
+We were just introduced to some new functions that allow us to work with external files. Pretty cool stuff, if you ask us. But in the process, we were just shown a bunch of new terms and types of arguments. You might have been like, "whoa, <a href="https://www.youtube.com/watch?v=Y5qKNlcUwKs" target="_blank">Nelly</a>, buffer? block? file pointer?! What is all this?" 
 
 Not to worry! We're going to go through this more slowly to better understand each of these functions and how to use them. 
 ***
