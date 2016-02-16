@@ -6,7 +6,7 @@
 
 We were just introduced to some new functions that allow us to work with multiple files. Pretty cool stuff, if you ask us. But in the process, we were just shown a bunch of new terms and types of arguments. You might have been like, "whoa, <a href="https://www.youtube.com/watch?v=Y5qKNlcUwKs" target="_blank">Nelly</a>, buffer? block? file pointer?! What is all this?" Not to worry! We're going to go through this more slowly to better understand each of these functions and how to use them. 
 
-***`fopen`
+###`fopen`
 
 The `fopen` function is used to open a file, and provides us with a file pointer we can use to access that file. Here is the generic way we use `fopen`:
 
@@ -27,7 +27,7 @@ Notice again that you must include quotes around the operation you are choosing.
 
 You must always `fopen` a file before you can do anything with it, so get used to using this function!
 
-***`fgets` and `fputs`
+###`fgets` and `fputs`
 
 These two functions complement each other and are used in similar ways. `fgets` is used to read (or "get") a string from a file, while `fputs` is used to write (or "put") a string into a file. It can be thought of "f get string" or "f put string". To use `fgets`, you'll need to make sure the file you are accessing has been opened for reading purposes (using the "r" operation); likewise, to use `fputs`, you need to make sure the file has been opened for writing purposes (using the "w" operation). 
 
@@ -56,7 +56,7 @@ __fputc__(<_char to put_> , <_file pointer_>)
 
 This will also write in one char at a time to the file you point to. 
 
-***`fread` and `fwrite`
+###`fread` and `fwrite`
 
 These functions are very similar to `fgets` and `fputs` but allow us to, in some ways, be a little more specific. Whereas `fgets` will read until it hits a new line, we can tell `fread` (and also `fwrite`) exactly how much we want it to read (or write). However, the arugments for these can be confusing, so let's go through these as well:
 
