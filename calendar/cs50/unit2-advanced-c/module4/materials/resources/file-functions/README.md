@@ -1,6 +1,6 @@
 ##### Module 4
 
-[Back to Class 2 Prep](../../class2-prep##files-hex)
+[Back to Class 2 Prep](../../class2-prep#files-hex)
 
 #Resource: Functions with Files
 
