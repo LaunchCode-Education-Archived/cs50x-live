@@ -13,7 +13,7 @@ Here's how it works: your output file will have two "colors", black and white. F
 
 The input CSV file simply specifies, for each line of text, which pixels are black.
 
-One such input file is [secretimage.csv](./secretimage.csv). Contained within these numbers and commas is a masterpiece image. What does it look like?? You'll have to write the program to find out!
+One such input file is [secretimage.csv](./secretimage.csv). Contained within these numbers and commas is a masterpiece image. What does it look like?? You'll have to write the program to find out! (You may have to zoom out and make the font size small to see the full majesty of the secret picture. You can do this in the IDE by going to 'View' from the top menu and selecting 'Font Size', then 'Decrease Font Size').
 
 Let's walk through a quick example. Say we have an input file that looked like this:
 ```nohighlight
@@ -78,5 +78,7 @@ typedef struct {
 Remember that an array is actually just a pointer under the hood. Hence, we have defined the type of `hashLocations` as `int*` rather than what you might have expected, `int[]`.
 
 In `main`, we have provided detailed pseudocode for guidance.
+
+We suggest you use the [smiley.csv](../smiley.csv) first to make sure your code is working correctly, before moving to the secret image. 
 
 This is a tricky one, good luck!
