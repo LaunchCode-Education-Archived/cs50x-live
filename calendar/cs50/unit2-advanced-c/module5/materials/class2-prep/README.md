@@ -7,7 +7,7 @@ Before coming to [Class 2](../class2), please complete the following tasks:
 ##### Lecture 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=3p_Scm7qSfU" target="_blank">Week 5, continued</a>
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=3p_Scm7qSfU" target="_blank">Week 5, continued</a> | This lecture continues discussing linked lists, and then goes on to explore a number of other data structures: stacks and queues, hash tables, trees and tries.
 
 ##### Stacks and Queues
 Task | Resource Type | Link | Instructions
@@ -25,7 +25,7 @@ Task | Resource Type | Link | Instructions
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#hash_tables" target="_blank">Week 5, continued / Hash Tables</a> | These notes show 2 example implementations of a hash table: first, linear probing, and second, using an array of linked-lists.
 Watch | Short | <a href="https://www.youtube.com/watch?v=h2d9b_nEzoA&index=1&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq" target="_blank">Hash Tables</a> | Lauren Carvalho briefly reviews arrays and linked lists before sequeing into a discussion of hash tables.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=tjtFkT97Xmc&index=3&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj" target="_blank">Hash Tables</a> | Doug talks in depth about why hash tables are useful, and how to create them.
-Study | CS50 Study | <a href="https://study.cs50.net/?toc=hashtables" target="_blank">Hash Tables</a> | 
+Study | CS50 Study | <a href="https://study.cs50.net/?toc=hashtables" target="_blank">Hash Tables</a> | Get an overview of hash tables with CS50 Study.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#compression" target="_blank">Week 5, continued / Compression</a> | *Optional* <br> These notes talk about various ways of how to strip away redundancy from data storage.
 
 ##### Trees and Tries
@@ -45,11 +45,5 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=YiwRCN_SMuA&l
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#data_structures_recap" target="_blank">Week 6 / Data Structures Recap</a> | This is from next week's lecture, but is useful now. You might also want to watch the associated video (stop at minute 14)
 Study | CS50 Study | | maybe just conglomerate all the individual data structure ones here instead of spreading them out
 
-
-Exercises for Hash Tables and Tries
-* inventory
-* 
-*
-*
 
 ### Now you're ready for [Class 2](../class2)
