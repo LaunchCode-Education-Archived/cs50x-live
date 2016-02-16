@@ -3,7 +3,7 @@
 Statement | x | y | z | px | py | pz 
 ----------|---|---|---|----|----|----
 `y = x + z;` | `7` | `16` | `9` |  `&x` |  `&y` |  `&z`
-`z = *x + 2;` | `7` | `16` | some garbage value + 2 ??? <br> aka `G` |  `&x` |  `&y` |  `&z`
+`z = *x + 2;` | `7` | `16` | some garbage value + 2 ??? <br> call this `G` from now on |  `&x` |  `&y` |  `&z`
 `px = (*py) + (*pz);` | `7` | `16` |  `G` |  `G + 16` |  `&y` |  `&z`
 `py = pz;` | `7` | `16` | `G` |  `G + 16` |  `&z` |  `&z`
 `z = (*pz) + x;` | `7` | `16` | `G + 7`  |  `G + 16` |  `&z` |  `&z`
