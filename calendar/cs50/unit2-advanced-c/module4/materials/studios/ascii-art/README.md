@@ -79,6 +79,6 @@ Remember that an array is actually just a pointer under the hood. Hence, we have
 
 In `main`, we have provided detailed pseudocode for guidance.
 
-We suggest you use the [smiley.csv](./smiley.csv) first to make sure your code is working correctly, before moving to the secret image. 
+We suggest you use the [smiley.csv](./smiley.csv) first to make sure your code is working correctly, before moving to the secret image. When your code works, it should reveal a nice smiley face :)
 
 This is a tricky one, good luck!
