@@ -80,5 +80,5 @@ string class = "CS50x"
 fwrite (class, sizeof(char) * strlen(class), 1, output)
 ```
 Here, we declare a string varible called _class_ and put "CS50x" into it. Then we tell the `fwrite` function to get the information from _class_, that is the size of memory taken up by one char multipled by the length of the string in class (in this case, "CS50x", so strlen would be 5), to write that 1 time (as specified by the '1' in the <block> argument), and write that to the file pointed to by _output_. If _output_ pointed to a file called "output.txt", when we opened that file, we should now see CS50x. If we changed the <block> value to 2, we would see CS50xCS50x. 
-
+***
 Phew. That was a lot of information. Don't expect to remember all of this for now. You can always refer back here if you need a refresher on the arguments required for all of these functions. Also, be sure to check out the documentation for these using Reference50. These can be a little technical, but it is good to get in the habit of looking here when trying to understand how to use a function. 
