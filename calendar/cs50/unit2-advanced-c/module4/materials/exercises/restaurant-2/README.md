@@ -11,7 +11,7 @@ There are some important differences between `fgets` and `fread`:
 
 Think about how these differences will shape your approach to this problem. You could read in the entire file at once, then search through the buffer looking for newlines. An alternative approach might involve reading in one character at a time, then deciding what to do with each character individually.
 
-
+This one is pretty difficult, so don't kill yourself trying to get this right if you're having trouble with it.
 
 
 
