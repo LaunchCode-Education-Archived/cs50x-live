@@ -50,7 +50,9 @@ fgets(line, 256, yourfile);
 ```
 This will read in 256 byes of data from `yourfile` and copy that data into the address pointed to by `line`. 
 
-One nice feature of `fgets` is that **if** it encounters a new line `\n` character at any point, even some time before 256 bytes, it will immediately stop and return only the data up until that point. This means you are guaranteed to receive exactly one line of text from the file. (That is, unless you try to read a line of text that actually turns out to be longer than 256 bytes. But this almost certainly won't be true. Most text files have a max line-length of around 75 characters (1 byte each). We sort of arbitrarily picked 256 here as a reasonable way of ensuring that we've got our bases covered.)
+One nice feature of `fgets` is that **if** it encounters a new line `\n` character at any point, even some time before 256 bytes, it will immediately stop and return only the data up until that point. This means you are guaranteed to receive exactly one line of text from the file. 
+
+(That is, unless you try to read a line of text that actually turns out to be longer than 256 bytes. But this almost certainly won't be true. Most text files have a max line-length of around 75 characters (1 byte each). This is why we (somewhat arbitrarily) chose 256-- because it is sufficiently greater than 75 so as to be a reasonable way of ensuring that we've got our bases covered, but not so much greater that we are wasting memory too excessively.)
 
 When you use `fgets` it will read content from the file until either the specified number of bytes, a newline, or the end of the file (EOF) is reached. You'll probably want to write code that checks to see if the end of the file has been reached or not. One example of how you might check for the end of the file is as follows:
 
