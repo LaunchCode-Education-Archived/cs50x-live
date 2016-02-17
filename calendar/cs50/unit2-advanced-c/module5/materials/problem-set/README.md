@@ -5,6 +5,20 @@
 ### Synopsis
 In this problem set, you'll do (TODO someone: a few sentences, just a quick overview.)
 
+### How to submit
+On Vocareum, you will see two assignmnets:
+* **Problem Set 5: Questions**: For this assignment, submit a TXT file called questions.txt
+* **Problem Set 5: Speller**: For this assignment, submit **three** files, dictionary.c *and* dictionary.h *and* Makefile
+
+After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum.
+
+You can use check50 to check the correctness of your code for the Speller component before submitting. Check50 won't work for questions.txt either, but please submit your answers to the questions specified in the problem set spec. 
+
+If you forget how to use Vocaruem, please refer to the Student Guide section about Vocaruem.
+
+### Get Started
+Here is the <a href="http://cdn.cs50.net/2015/fall/psets/5/pset5/pset5.html#getting_ready" target="_blank">Problem Set 5 Spec</a>. Long instructions, and lots of supplemental videos here. Remember what Shia told you: don't let your dreams be dreams - nothing is impossible!
+
 ### Guidance
 ##### General Tips
 This guidance primarily refers to the hashtable structure. However, you can select whichever structure you'd prefer. The instructions remain basically the same:
@@ -174,9 +188,3 @@ valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all ./speller ~cs50
 If all is well, you should see: `All heap blocks were freed -- no leaks are possible`
 
 Then, congratulations! You're done with this pset!
-
-### Get Started
-The assignment is <a href="http://cdn.cs50.net/2015/fall/psets/5/pset5/pset5.html" target="_blank">here</a>. Go get em tiger!
-
-### How to submit 
-(TODO Jesse or someone: quick instructions.)
