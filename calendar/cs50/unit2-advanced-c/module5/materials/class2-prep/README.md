@@ -24,29 +24,20 @@ Study | CS50 Study | <a href="https://study.cs50.net/?toc=hashtables" target="_b
 ##### Trees and Tries
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#more_data_structures" target="_blank">Week 5, Continued / More Data Strutures</a> | These notes introduce the idea of a tree data structure, which is like a linked list except that each node can point to more than one "next" node, creating a "branching" effect. 
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#tries" target="_blank">Week 5, continued / Tries</a> | These notes present an alternate way of 
-Watch | Short | <a href="https://www.youtube.com/watch?v=mFptHjTT3l8&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=3" target="_blank">Trees</a>
-Watch | Short | <a href="https://www.youtube.com/watch?v=NKr6gWcXkIM&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=4" target="_blank">Tries</a>
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=TRg9DQFu0kU&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=5" target="_blank">Tries</a>
-Watch | Short | <a href="https://www.youtube.com/watch?v=t4MSwiqfLaY", target="_blank">Recursion</a> | Zamyla talks about recursion in general, and how it can be used for "tree-like" data structures such as tries.
-Study | CS50 Study | <a href="https://study.cs50.net/?toc=trees,tries" target="_blank">Trees, Tries</a> | 
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#more_data_structures" target="_blank">Week 5, Continued / More Data Strutures</a> | These notes introduce the idea of a tree data structure, which is like a linked list except that each node can point to more than one "next" node, creating a "branching" effect.
+Watch | Short | <a href="https://www.youtube.com/watch?v=mFptHjTT3l8&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=3" target="_blank">Trees</a> | Here we learn a little more about trees, including binary search trees.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#tries" target="_blank">Week 5, continued / Tries</a> | These notes present the trie, a tree structure that provides an alternative to hash tables for storing large amounts of data while keeping lookup times very fast. 
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=TRg9DQFu0kU&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=5" target="_blank">Tries</a> | Doug talks about tries, the "holy grail" data structure in which all operations can be done in linear time.
+Watch | Short | <a href="https://www.youtube.com/watch?v=NKr6gWcXkIM&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=4" target="_blank">Tries</a> | Here we walk through a high-level example of using a trie to implement a dictionary of words.
+Watch | Short | <a href="https://www.youtube.com/watch?v=t4MSwiqfLaY", target="_blank">Recursion</a> | Zamyla talks about recursion in general, and gives some common examples of how recursion can be useful when working with tree-like data structures such as tries.
+Study | CS50 Study | <a href="https://study.cs50.net/?toc=trees,tries" target="_blank">Trees, Tries</a> | Get a recap of trees and tries on CS50 Study.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#compression" target="_blank">Week 5, continued / Compression</a> | *Optional* <br> These notes talk about various cool ways of using trees to strip away redundancy from data storage.
-
-***
-
-##### Data Structures Summary
-Task | Resource Type | Link | Instructions
------|------|------|------
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=YiwRCN_SMuA&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=4" target="_blank">Data Structures Summary</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#data_structures_recap" target="_blank">Week 6 / Data Structures Recap</a> | This is from next week's lecture, but is useful now. You might also want to watch the associated video (stop at minute 14)
-Study | CS50 Study | | maybe just conglomerate all the individual data structure ones here instead of spreading them out
 
 ***
 
 ##### Stacks and Queues (Optional)
 
-This entire section is optional:
+This entire section is **optional**:
 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
@@ -56,5 +47,15 @@ Watch | Short | <a href="https://www.youtube.com/watch?v=SLOrrO7DlYo&list=PLhQjr
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=9Tp8wHD66lw&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj" target="_blank">Stacks</a>
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=10jRKWI9s1k&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=2" target="_blank">Queues</a>
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=stacks,queues" target="_blank">Stacks, Queues</a> | 
+
+***
+
+##### Data Structures Summary
+Task | Resource Type | Link | Instructions
+-----|------|------|------
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=YiwRCN_SMuA&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=4" target="_blank">Data Structures Summary</a> | Doug gives an overview of the different data structures we have learned about.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#data_structures_recap" target="_blank">Week 6 / Data Structures Recap</a> | This is from next week's lecture, but is useful now. You might also want to watch the associated video (stop at minute 14).
+
+***
 
 ### Now you're ready for [Class 2](../class2)
