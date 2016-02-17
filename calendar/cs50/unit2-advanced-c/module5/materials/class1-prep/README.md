@@ -50,14 +50,8 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=HmAEzp1taIE&l
 Study | CS50 Study | <a href="https://study.cs50.net/linked_lists" target="_blank">Linked Lists</a> | CS50 Study gives a nice overview of linked lists.
 Read | Supplement | [GetString with lists](../exercises/getstring-ll) |  Examine an implementation of GetString() implemented with linked lists
 Do | Exercise | [Queen's English](../exercises/queens-english) | Linked lists make it very easy to insert new values into the middle of a list. Use this new power to rectify the spelling of words to ensure that they are fit to be unveiled before the **honourable** presence of Her Majesty the Queen.
+Do | Exercise | [Beacons of Gondor](../exercises/beaconsofgondor) | Use linked lists on an epic journey through Middle Earth.
 
 ***
-
-Other linked list ideas:
-* implement bubble sort
-* UK-ify strings
-* sorted list of names
-* implement getstring
-* LOTR
 
 ### Now you're ready for [Class 1](../class1)
