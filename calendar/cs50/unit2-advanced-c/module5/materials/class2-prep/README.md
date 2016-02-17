@@ -41,12 +41,12 @@ This entire section is **optional**:
 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#stacks_queues" target="_blank">Week 5 / Stacks & Queues</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#stacks_queues" target="_blank">Week 5 / Stacks & Queues</a> | These notes briefly introduce the concept of two more data structures, the stack and the queue
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#stacks_queues" target="_blank">Week 5, continued / Stacks & Queues</a> | These notes show how you could implement a stack and a queue, in two ways. First, using an array, and second, using `malloc`, which allows you to resize dynamically if you run out of capacity.
-Watch | Short | <a href="https://www.youtube.com/watch?v=SLOrrO7DlYo&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=2" target="_blank">Queues</a>
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=9Tp8wHD66lw&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj" target="_blank">Stacks</a>
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=10jRKWI9s1k&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=2" target="_blank">Queues</a>
-Study | CS50 Study | <a href="https://study.cs50.net/?toc=stacks,queues" target="_blank">Stacks, Queues</a> | 
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=9Tp8wHD66lw&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj" target="_blank">Stacks</a> | Doug gives two example implementations of a stack: first, using an array, and second, using a linked list.
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=10jRKWI9s1k&list=PLhQjrBD2T383tuTZvvexny73B9-sl2aEj&index=2" target="_blank">Queues</a> | Doug gives a very similar talk as the stacks video, this time on queues.
+Watch | Short | <a href="https://www.youtube.com/watch?v=SLOrrO7DlYo&list=PLhQjrBD2T3825srGzBvJGMWJX4PATLYaq&index=2" target="_blank">Queues</a> | Here we see another example implementation of a queue.
+Study | CS50 Study | <a href="https://study.cs50.net/?toc=stacks,queues" target="_blank">Stacks, Queues</a> | Study up on stack and queues!
 
 ***
 
