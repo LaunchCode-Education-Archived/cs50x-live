@@ -12,7 +12,7 @@ This class will be focused on ...
 1. Lecture / Q&A on the following topics:
   * Hash Tables
 
-2. Studio: [Toy Storage](../studios/toy-storage)
+2. [Studio: Toy Storage](../studios/toy-storage)
 
 ### Homework
 1. Continue working on [Problem Set 5](../problem-set)
