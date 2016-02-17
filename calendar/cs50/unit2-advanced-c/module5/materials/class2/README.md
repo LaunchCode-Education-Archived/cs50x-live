@@ -10,10 +10,9 @@ Before coming to class, you should have completed [Class 2 Prep](../class2-prep)
 This class will be focused on ...
 
 1. Lecture / Q&A on the following topics:
-  * Topic 1
-  * Topic 2
+  * Hash Tables
 
-2. Studio: [Studio Name](../studios/toy-storage)
+2. Studio: [Toy Storage](../studios/toy-storage)
 
 ### Homework
 1. Continue working on [Problem Set 5](../problem-set)
