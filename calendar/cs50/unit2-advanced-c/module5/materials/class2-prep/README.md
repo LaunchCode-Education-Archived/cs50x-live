@@ -44,9 +44,9 @@ Study | CS50 Study | | maybe just conglomerate all the individual data structure
 
 ***
 
-##### Stacks and Queues (Optional)
+##### Stacks and Queues
 
-This entire section is optional:
+**Optional --**  This entire section is optional:
 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
