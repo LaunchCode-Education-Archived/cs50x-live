@@ -70,16 +70,6 @@ int main(void)
             //      - make a variable pointing to the current first node in the linked list for this bin
             //      - to insert the new node, update its "next" pointer so that it points to the current first node
             //      - then make the table point to your new node
-            
-            printf("What is the name of the new toy?\n");
-            char* toyname = GetString();
-            node* toynode = malloc(sizeof(node));
-            toynode->name = toyname;
-            int hashkey = hashByFirstLetter(toyname);
-            node* curBeginning = table[hashkey];
-            toynode->next = curBeginning;
-            table[hashkey] = toynode;
-            curBeginning = table[hashkey];
 
             // now we report what happened
             printf("%s has been added to bin %i:", toynode->name, hashkey);
