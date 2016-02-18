@@ -1,85 +1,169 @@
 ```c
+/**
+ * toystorage.c
+ * 
+ */
+
+
 #include <stdio.h>
 #include <cs50.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
-// A node structure for use in implementing singly linked lists
+
+#define NUM_BINS 27
+
+
+// a node structure for use in implementing singly linked lists
 typedef struct node
 {
-    char* myName;
+    char* name;
     struct node* next;
 } node;
 
-int hashFunction(char* inputString){
-    // A hash function that returns an index for every string passed in
-    // For any string, returns a key based on its first letter
-    // Capitals and lowercase get the same key (e.g. 'A' and 'a' both return 0)
-    // non-letter characters share one key
+int hashByFirstLetter(char* inputString);
 
-    // get the letter
-    // treat it as an ascii number
-    int curCode = (int)(*inputString);
-    // if it's over 95, knock it down to "uppercase" territory
-    if (curCode > 95){
-        curCode -= 32;
-    }
-    // if it's a letter, return an index based on its letter
-    if (curCode > 64 && curCode < 91){
-        return (curCode - 65);
-    } else {
-        // otherwise, return the max index: 26
-        return 26;
-    }
-}
+void printBin(int binNumber, node* table[]);
 
-void printBin(int binNumber, node* table[]){
-    node* currentNode = table[binNumber];
-    printf("For bin %i:\n", binNumber);
-    while(currentNode != NULL){
-        printf("%s\n", currentNode->myName);
-        currentNode = currentNode->next;
-    }
-}
+void freeAll(node* table[]);
 
-void printAll(node* table[]){
-    printf("Contents of all bins:\n");
-    for (int i = 0; i < 27; i++){
-        printBin(i, table);
-    }
-}
 
-int main(void){
+int main(void)
+{
     // Initialize an array of pointers for use in a hash table
     int numKeys = 27;
     node* table[numKeys];
 
     // Initialize every key with a dummy node, with a string and NULL next pointer
-    for(int i = 0; i < numKeys; i++){
-        table[i] = malloc(sizeof(node));
-        table[i]->myName = "END, NO MORE ITEMS IN THIS BIN";
-        table[i]->next = NULL;
+    for(int i = 0; i < numKeys; i++)
+    {
+        table[i] = NULL;
     }
 
     // Make a loop where you ask the user if they want to put a new toy in;
     // if they input "q", stop, else, take the string as a name
-
-    while(true){
+    while(true)
+    {
+        printf("Please select an option\n\ta -- to add a new toy to the warehouse\n\tq -- to quit\n");
         char* input = GetString();
-        if(strcmp() == 0){
-            // User wants to quit, print out all contents of tables and stop
-            printAll(table);
+        
+        if(strcmp("q", input) == 0)
+        {
+            // User wants to quit, 
+            // print out all contents of tables and stop
+            printf("Contents of all bins:\n");
+            for (int i = 0; i < NUM_BINS; i++)
+            {
+                printBin(i, table);
+            }
             break;
-        } else {
+            
+        } 
+        else 
+        {
             // TODO: your code goes here! Here's what you should do:
-            // - Take the string the user just input, and get a hash key for it
-            // - using the hash key, make a new node
-            // - insert the new node at the beggining of the list of nodes at
-            //   that point in the table
-            //      - to do this, make a new node, make it's next pointer point to the
-            //        current entry in the table, then make the table point to your new node
-            // - use the built in function to print out the bin just inserted into
+            // - using malloc, make a new node
+            // - prompt the user for the name of the new toy
+            // - set your node's "name" field to the string that the user inputted
+            // - use the hashByFirstLetter function to obtain a hash key for the toy name
+            // - use this hash key to insert the new node into its proper "bin"
+            //      - make a variable pointing to the current first node in the linked list for this bin
+            //      - to insert the new node, update its "next" pointer so that it points to the current first node
+            //      - then make the table point to your new node
+            
+            printf("What is the name of the new toy?\n");
+            char* toyname = GetString();
+            node* toynode = malloc(sizeof(node));
+            toynode->name = toyname;
+            int hashkey = hashByFirstLetter(toyname);
+            node* curBeginning = table[hashkey];
+            toynode->next = curBeginning;
+            table[hashkey] = toynode;
+            curBeginning = table[hashkey];
+
+            // now we report what happened
+            printf("%s has been added to bin %i:", toynode->name, hashkey);
+            printBin(hashkey, table);
         }
     }
+    
+    // the user just quit, so let's free all the memory we malloc'ed
+    freeAll(table);
+}
 
+
+/**
+ * hashByFirstLetter
+ * 
+ * A hash function that returns an index for every string passed in
+ * For any string, returns a key based on its first letter
+ * Capitals and lowercase get the same key (e.g. 'A' and 'a' both return 0)
+ * non-letter characters share one key (26)
+ */
+int hashByFirstLetter(char* inputString)
+{
+    // A hash function that returns an index for every string passed in
+    // For any string, returns a key based on its first letter
+    // Capitals and lowercase get the same key (e.g. 'A' and 'a' both return 0)
+    // non-letter characters share one key
+
+    // get the first letter
+    char firstChar = *inputString;
+    
+    // if it's not a letter return the max index
+    if (!isalpha(firstChar))
+    {
+        return NUM_BINS - 1;
+    }
+    
+    // we have a letter. return its alphabet position
+    int ascii = (int)(toupper(firstChar));
+    return ascii - 'A';
+}
+
+
+/**
+ * printBin
+ * 
+ * prints the contents of a hash-table "bin" to the console
+ * you must tell it which bin number you want to print,
+ * and also pass a reference to the hashtable itself
+ */
+void printBin(int binNumber, node* table[])
+{
+    node* currentNode = table[binNumber];
+    if (currentNode == NULL)
+    {
+        return;
+    }
+    printf("bin %i contains:\n", binNumber);
+    while(currentNode != NULL)
+    {
+        printf("\t%s\n", currentNode->name);
+        currentNode = currentNode->next;
+    }
+    printf("\n");
+}
+
+
+/**
+ * freeAll
+ * 
+ * frees all memory in a hash-table
+ */
+void freeAll(node* table[])
+{
+    for (int i = 0; i < NUM_BINS; i++)
+    {
+        node* toynode = table[i];
+        while (toynode != NULL)
+        {
+            node* next = toynode->next;
+            free(toynode->name);
+            free(toynode);
+            toynode = next;
+        }
+    }
 }
 ```
