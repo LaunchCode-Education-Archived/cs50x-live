@@ -30,6 +30,8 @@ void freeAll(node* table[]);
 
 int main(void)
 {
+    printf("Welcome, valued employee.\n");
+    
     // Initialize an array of pointers for use in a hash table
     int numKeys = 27;
     node* table[numKeys];
@@ -50,12 +52,6 @@ int main(void)
         if(strcmp("q", input) == 0)
         {
             // User wants to quit, 
-            // print out all contents of tables and stop
-            printf("Contents of all bins:\n");
-            for (int i = 0; i < NUM_BINS; i++)
-            {
-                printBin(i, table);
-            }
             break;
             
         } 
@@ -70,6 +66,16 @@ int main(void)
             //      - make a variable pointing to the current first node in the linked list for this bin
             //      - to insert the new node, update its "next" pointer so that it points to the current first node
             //      - then make the table point to your new node
+            
+            printf("What is the name of the new toy?\n");
+            char* toyname = GetString();
+            node* toynode = malloc(sizeof(node));
+            toynode->name = toyname;
+            int hashkey = hashByFirstLetter(toyname);
+            node* curBeginning = table[hashkey];
+            toynode->next = curBeginning;
+            table[hashkey] = toynode;
+            curBeginning = table[hashkey];
 
             // now we report what happened
             printf("%s has been added to bin %i:", toynode->name, hashkey);
@@ -77,8 +83,20 @@ int main(void)
         }
     }
     
-    // the user just quit, so let's free all the memory we malloc'ed
+    // the user just quit, 
+    
+    // print a summary
+    printf("Contents of all bins:\n");
+    for (int i = 0; i < NUM_BINS; i++)
+    {
+        printBin(i, table);
+    }
+    
+    //let's remember to free all the memory we malloc'ed
     freeAll(table);
+    
+    // that's all folks
+    printf("Goodbye, valued employee.\n");
 }
 
 
