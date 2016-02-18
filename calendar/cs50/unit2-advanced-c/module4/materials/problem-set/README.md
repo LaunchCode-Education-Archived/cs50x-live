@@ -12,10 +12,10 @@ Before you start coding, you will be asked to do some reading on image file form
 
 ### How to submit 
 On Vocareum, you will see four assignments:
-* **Problem Set: Questions**. For this assignment submit a TXT file called questions.txt
-* **Problem Set: Whodunit**. For this assignment submit a file called whodunit.c
-* **Problem Set: Resize**. For this assignment submit a file called resize.c
-* **Problem Set: Recover**. For this assignmnet submit a file called recover.c
+* **Problem Set 4: Questions**. For this assignment submit a TXT file called questions.txt
+* **Problem Set 4: Whodunit**. For this assignment submit a file called whodunit.c
+* **Problem Set 4: Resize**. For this assignment submit **two** files, bmp.h *and* resize.c
+* **Problem Set 4: Recover**. For this assignmnet submit a file called recover.c
 
 After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum. 
 

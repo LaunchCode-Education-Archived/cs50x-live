@@ -64,3 +64,5 @@ She also knows the following:
 - letting any individual team member know that she’s done will take constant time, or O(1) time
 
 **What is the total time complexity of Sally’s task, in terms of ’n’ and ‘m'?**
+
+For answers to the quiz, [click here](quizanswers.html).

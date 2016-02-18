@@ -4,11 +4,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <cs50.h>
+//#include <cs50.h>
 
 #include "bmp.h"
 
-bool isDark(RGBTRIPLE pixel, int cutoff);
+int isDark(RGBTRIPLE pixel, int cutoff);
 
 int main(int argc, char* argv[])
 {
@@ -50,7 +50,7 @@ int main(int argc, char* argv[])
 
     // ensure infile is (likely) a 24-bit uncompressed BMP 4.0
     if (bf.bfType != 0x4d42 || bf.bfOffBits != 54 || bi.biSize != 40 || 
-        bi.biBitCount != 24 || bi.biCompression != 0)
+         bi.biBitCount != 24 || bi.biCompression != 0)
     {
         fclose(outptr);
         fclose(inptr);
@@ -84,7 +84,6 @@ int main(int argc, char* argv[])
         fseek(inptr, padding, SEEK_CUR);
 
         // add new line to output file
-        fputc('.', outptr);
         fputc('\n', outptr);
     }
 
@@ -99,7 +98,7 @@ int main(int argc, char* argv[])
 }
 
 
-bool isDark(RGBTRIPLE pixel, int cutoff)
+int isDark(RGBTRIPLE pixel, int cutoff)
 {
     float avg = (pixel.rgbtRed + pixel.rgbtGreen + pixel.rgbtBlue) / 3.0;
     return avg < cutoff;

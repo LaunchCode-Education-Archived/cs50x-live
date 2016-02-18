@@ -29,10 +29,11 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=nrFHGtGdOzA&l
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=QOD2hHiHpn0&index=1&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh" target="_blank">File Pointers</a> | Working with files allows us to make programs that can "save" data permanently, even after they've stopped running. Doug Lloyd shows us some core functions that we can use to work with files: `fopen`, `fclose`, `fgetc`, `fputc`, `fread`, `fwrite`.
 Watch | Short | <a href="https://www.youtube.com/watch?v=KwvObCA04dU&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">File I/O</a> | Check this short for some more examples of reading from and writing to files. Functions used: `fopen` `fclose` `fgets` `fputs`.
 Study | CS50 Study | <a href="https://study.cs50.net/?toc=io" target="_blank">file i/o</a> | CS50 Study provides an overview here of what you need to know to work with files.
+Read | Resource | [Files with Functions](../resources/file-functions) | A pretty in-depth look at each of the file i/o functions, and how to use them. 
 Do | Exercise | [Good Burger](../exercises/filewrite) | Implement a storefront for the restaurant "Good Burger" by asking the user for their order, then writing it to a file.
 Do | Exercise | [Restaurant Menu](../exercises/restaurant-menus) | Implement a menu display for a restaurant by reading their menu from a file.
 Do | Exercise | [Good Burger - Part 2](../exercises/filewrite-2) | Redo the Good Burger exercises using `fwrite` this time instead of `fputs`
-Do | Exercise | [Restaurant Menu - Part 2](../exercises/restaurant-2) | Redo the menu exercise using `fread` instead of `fgets`
+Do | Exercise | [Restaurant Menu - Part 2](../exercises/restaurant-2) | Redo the menu exercise using `fread` instead of `fgets`. This one is pretty difficult, so don't kill yourself trying to get this right if you're having trouble with it.
 
 ***
 

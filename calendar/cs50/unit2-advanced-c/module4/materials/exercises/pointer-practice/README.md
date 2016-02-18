@@ -19,13 +19,16 @@ Fill in the table below with the values that each variable will have after each 
 
 Statement | x | y | z | px | py | pz 
 ----------|---|---|---|----|----|----
-y = x + z; | ? | ? | ? |  ? |  ? |  ?
-z = `*x + 2;| ? | ? | ? |  ? |  ? |  ?
-\*px = (\*py) + (\*pz);| ? | ? | ? |  ? |  ? |  ?
-py = pz;| ? | ? | ? |  ? |  ? |  ?
-z = (\*pz) + x;| ? | ? | ? |  ? |  ? |  ?
-\*py = x + y;| ? | ? | ? |  ? |  ? |  ?
-z = (\*pz) \* (\*py);| ? | ? | ? |  ? |  ? |  ?
+`y = x + z;` | ? | ? | ? | ? | ? | ?
+`z = *px + 3;` | ? | ? | ? | ? | ? | ?
+`px = (*py) + (*pz);` | ? | ? | ? | ? | ? | ?
+`py = pz;` | ? | ? | ? | ? | ? | ?
+`z = (*pz) + x;` | ? | ? | ? | ? | ? | ?
+`*py = x + y;` | ? | ? | ? | ? | ? | ?
+`z = (*pz) * (*py);` | ? | ? | ? | ? | ? | ?
+
 
 
 You can simply write the answer out on paper, or use a spreadsheet on your computer.
+
+When you are done, you can [check your answer here](./answer.md).
