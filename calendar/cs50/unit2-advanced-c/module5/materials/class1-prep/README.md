@@ -23,8 +23,8 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=TJK6l_SBLn
 Watch | Short | <a href="https://www.youtube.com/watch?v=L02X-XNT5No" target="_blank">CS50 Library</a> | In scanf-2, David Malan left us hanging with a decent, but limited solution for getting user input. Now Nate Hardison guides us through the actual source code of the implementation for GetInt and GetString.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#memory_and_valgrind" target="_blank">Week 5 / Memory and Valgrind</a> | These notes introduce Valgrind, a program you can run on the command-line that checks your own program for memory issues such as invalid writes (when you try to access memory that doesn't belong to you), and leaks (when you allocate memory but never "give it back" by calling `free()`).
 Watch | Short | <a href="https://www.youtube.com/watch?v=fvTsFjDuag8" target="_blank">Valgrind</a> | This short explains in more detail how to use Valgrind.
-Do | Exercise | | TODO exc make em use valgrind to find a leak, and then fix the leak
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#memory" target="_blank">Week 5, continued / Memory</a> | Stack and Heap, buffer overflow attack. TODO move to class 2 prep?
+Do | Exercise | Leaky | Practice your valgrind skills to fix a program that contains a memory leak.
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#memory" target="_blank">Week 5, continued / Memory</a> | These notes tlak about the concept of the Stack and the Heap, and outline how a malicious user can pwn you with a buffer overflow attack. 
 
 ***
 
