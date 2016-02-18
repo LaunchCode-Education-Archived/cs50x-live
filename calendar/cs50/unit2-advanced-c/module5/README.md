@@ -3,7 +3,7 @@
 
 **Pre-reqs:** You should have completed [Module 4](../module4)
 
-#### Synopsis 
+### Synopsis 
 
 In this module, you will learn how to combine `struct`s and `array`s in different combinations to create data structures: collections of data that take on a variety of shapes, each suited best for certain types of programming tasks. In Problem Set 5, you will use these data structures to implement a spell checker that searches through hundreds of thousands of words as quickly as possible.
 
