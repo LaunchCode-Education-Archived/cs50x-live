@@ -3,12 +3,7 @@
 # Problem Set 5
 
 ### Synopsis
-In this problem set, you will implement a "spell checker", which identifies misspelled words in a text file. A word is considered "misspelled" if it cannot be found in a second file, the "dictionary". Your goal is to load the entire contents of the dictionary into memory in such a way that, when it comes time to start checking words, your program will be able to search through the dictionary words as quickly as possible, checking to see whether the dictionary contains the word in question. You will have ht eoption of storing the dictionary as one of 2 possible data structures:
-
-1. a hash table
-2. a trie
-
-Good luck!
+In this problem set, you will implement a "spell checker", which identifies misspelled words in a text file. A word is considered "misspelled" if it cannot be found in a second file, the "dictionary". Your goal is to load the entire contents of the dictionary into memory in such a way that, when it comes time to start checking words, your program will be able to search through the dictionary words as quickly as possible, checking to see whether the dictionary contains the word in question. You will have ht eoption of storing the dictionary as one of 2 possible data structures: a hash table, or a trie.
 
 ### How to submit
 On Vocareum, you will see two assignmnets:
