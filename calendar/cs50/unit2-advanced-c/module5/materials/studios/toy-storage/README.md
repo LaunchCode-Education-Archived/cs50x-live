@@ -93,8 +93,4 @@ The full process for storing any new item, looks like this:
 
 We’ve provided starter code in [toystorage.c](toystorage.html), including a function for hashing based on the first letter of a toy’s name, as well as a basic struct for linked lists, and an initialization of an array for use as a hash table.  We’ve also provided the code to print out the contents of a key in the hash table.
 
-To finish this program, you’ll need to write the code to:
-- use the hash function
-- add the item to the beggining of the list
-- print out the contents of that list using our provided printing function
 
