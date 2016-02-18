@@ -11,7 +11,7 @@ So, for example, if your current inventory contained:
 * Barbie
 * Silly Putty
 * Furbie
-* Bonestorm Videogame
+* <a href="https://www.youtube.com/watch?v=AdHrgApNYWs" target="_blank">Bonestorm</a> Videogame
 * Cup and Ball
 
 ...then it would be organized into the following sublists:
@@ -32,24 +32,9 @@ So, for example, if your current inventory contained:
 
 Items do not have to be listed alphabetically within a sublist-- they can be in any order. For example, look at the S list above.
 
-Help your company out by writing a program that takes in new inventory items and stores them in the proper location.
+### Your Assignment
 
-To do this, you’ll need to employ a Hash Table with Separate Chaining, as we saw [here](http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#hash_tables).
-
-The full process, for storing any new item, looks like this:
-- ask for information on the item
-- use a hash function to find it’s correct location
-- add it to the list at that location
-- print out the new inventory at that location
-
-We’ve [provided a function](toywarehouse.html) for hashing based on the first letter of a toy’s name, as well as a basic struct for linked lists, and an initialization of an array for use as a hash table.  We’ve also provided the code to print out the contents of a key in the hash table.
-
-To finish this program, you’ll need to write the code to:
-- use the hash function
-- add the item to the beggining of the list
-- print out the contents of that list using our provided printing function
-
-Usage of a correct implementation of this code will look like this:
+Help your company out by writing a program that takes in new inventory items and stores them in the proper location:
 
 ```nohighlight
 $ ./toystorage
@@ -89,3 +74,27 @@ Please select an option:
 q
 Goodbye, valued employee.
 ```
+
+To do this, you’ll need to employ a Hash Table with Separate Chaining, as we saw [here](http://cdn.cs50.net/2015/fall/lectures/5/w/notes5w/notes5w.html#hash_tables).
+
+Your hash table will be implemented as a big array, where each item in the array is a sublist for a particular letter. So your array will have 26 slots, one for each letter
+* the array, at index 0, will contain the sublist of all the toys that start with "a", 
+* the array, at index 1, will contain the sublist of all the toys that start with "b", 
+* etc
+
+Each sublist is implemented as a linked list, where each node in the list contains the name of the toy and a pointer to the next toy. So we looked inside the big array at index 1, we might expect to find a pointer to node whose `toyName` field is `"Barbie"`, and whose `next` field is a pointer to another node. 
+
+The full process for storing any new item, looks like this:
+- ask for the name of the item
+- create a struct to represent the new item
+- use a hash function to find  correct location
+- add it to the correct sublist, the one at the above location
+- print out the new inventory at that location
+
+We’ve provided starter code in [toystorage.c](toystorage.html), including a function for hashing based on the first letter of a toy’s name, as well as a basic struct for linked lists, and an initialization of an array for use as a hash table.  We’ve also provided the code to print out the contents of a key in the hash table.
+
+To finish this program, you’ll need to write the code to:
+- use the hash function
+- add the item to the beggining of the list
+- print out the contents of that list using our provided printing function
+

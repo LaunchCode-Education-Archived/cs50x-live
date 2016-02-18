@@ -21,7 +21,6 @@ Read | Resource | [Pass by Reference](../resources/pass-by-ref)| Above we used `
 Follow-Along | Walkthrough| <a href="https://www.youtube.com/watch?v=4zS7RTnRuWY&index=2&list=PLhQjrBD2T381hO-XiBPrps4fzt4rVY3E8" target="_blank">scanf-1</a> | In `scanf-0`, we were not able to confirm that the user gave us the integer we wanted. To solve this, we'll need to change plans and accept `string`s. Then later we'll be able to validate the actual type "inside" the string. But first, simply getting the `string` leads to the problem of figuring out how much memory we need to allocate. <br>You can find the pseudocode to start this task <a href="../../../../../../helpful-resources/source-code/m5-source-code.html#scanf-1" target="_blank">here.</a>
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=TJK6l_SBLnk&list=PLhQjrBD2T381hO-XiBPrps4fzt4rVY3E8&index=3" target="_blank">scanf-2</a> | This is an improvement to scanf-1. Now we simply pick an arbitrary buffer size. It works... until the user gives some input is too large. <br>You can find the instructions to start this task <a href="../../../../../../helpful-resources/source-code/m5-source-code.html#scanf-2" target="_blank">here.</a>
 Watch | Short | <a href="https://www.youtube.com/watch?v=L02X-XNT5No" target="_blank">CS50 Library</a> | In scanf-2, David Malan left us hanging with a decent, but limited solution for getting user input. Now Nate Hardison guides us through the actual source code of the implementation for GetInt and GetString.
-Do | Exercise | | TODO exc: make them step through the library functions in debugger
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/5/m/notes5m/notes5m.html#memory_and_valgrind" target="_blank">Week 5 / Memory and Valgrind</a> | These notes introduce Valgrind, a program you can run on the command-line that checks your own program for memory issues such as invalid writes (when you try to access memory that doesn't belong to you), and leaks (when you allocate memory but never "give it back" by calling `free()`).
 Watch | Short | <a href="https://www.youtube.com/watch?v=fvTsFjDuag8" target="_blank">Valgrind</a> | This short explains in more detail how to use Valgrind.
 Do | Exercise | | TODO exc make em use valgrind to find a leak, and then fix the leak
@@ -51,14 +50,8 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=HmAEzp1taIE&l
 Study | CS50 Study | <a href="https://study.cs50.net/linked_lists" target="_blank">Linked Lists</a> | CS50 Study gives a nice overview of linked lists.
 Read | Supplement | [GetString with lists](../exercises/getstring-ll) |  Examine an implementation of GetString() implemented with linked lists
 Do | Exercise | [Queen's English](../exercises/queens-english) | Linked lists make it very easy to insert new values into the middle of a list. Use this new power to rectify the spelling of words to ensure that they are fit to be unveiled before the **honourable** presence of Her Majesty the Queen.
+Do | Exercise | [Beacons of Gondor](../exercises/beaconsofgondor) | Use linked lists on an epic journey through Middle Earth.
 
 ***
-
-Other linked list ideas:
-* implement bubble sort
-* UK-ify strings
-* sorted list of names
-* implement getstring
-* LOTR
 
 ### Now you're ready for [Class 1](../class1)
