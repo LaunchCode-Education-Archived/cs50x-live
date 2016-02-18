@@ -51,39 +51,26 @@ int main(void)
         
         if(strcmp("q", input) == 0)
         {
-            // User wants to quit, 
+            // User wants to quit, so break out of the while loop
             break;
-            
         } 
-        else 
-        {
-            // TODO: your code goes here! Here's what you should do:
-            // - using malloc, make a new node
-            // - prompt the user for the name of the new toy
-            // - set your node's "name" field to the string that the user inputted
-            // - use the hashByFirstLetter function to obtain a hash key for the toy name
-            // - use this hash key to insert the new node into its proper "bin"
-            //      - make a variable pointing to the current first node in the linked list for this bin
-            //      - to insert the new node, update its "next" pointer so that it points to the current first node
-            //      - then make the table point to your new node
-            
-            printf("What is the name of the new toy?\n");
-            char* toyname = GetString();
-            node* toynode = malloc(sizeof(node));
-            toynode->name = toyname;
-            int hashkey = hashByFirstLetter(toyname);
-            node* curBeginning = table[hashkey];
-            toynode->next = curBeginning;
-            table[hashkey] = toynode;
-            curBeginning = table[hashkey];
+    
+        // TODO: your code goes here! Here's what you should do:
+        // - using malloc, make a new node
+        // - prompt the user for the name of the new toy
+        // - set your node's "name" field to the string that the user inputted
+        // - use the hashByFirstLetter function to obtain a hash key for the toy name
+        // - use this hash key to insert the new node into its proper "bin"
+        //      - make a variable pointing to the current first node in the linked list for this bin
+        //      - to insert the new node, update its "next" pointer so that it points to the current first node
+        //      - then make the table point to your new node
 
-            // now we report what happened
-            printf("%s has been added to bin %i:", toynode->name, hashkey);
-            printBin(hashkey, table);
-        }
+        // now we report what happened
+        printf("%s has been added to bin %i:", toynode->name, hashkey);
+        printBin(hashkey, table);
     }
     
-    // the user just quit, 
+    // if we're here, the user just quit, so wrap things up
     
     // print a summary
     printf("Contents of all bins:\n");
