@@ -12,8 +12,7 @@ Today's class will include a discussion about the differences beteween passing b
  * Passing by Reference
  * Linked Lists
 
-2. Studio
-  * <a href="../studios/doubly-linked-lists" target="_blank">GetString with doubly linked lists</a>
+2. [Studio: GetString with doubly linked lists](../studios/doubly-linked-lists)
 
 ### Homework
 1. [Class 2 Prep](../class2-prep) 
