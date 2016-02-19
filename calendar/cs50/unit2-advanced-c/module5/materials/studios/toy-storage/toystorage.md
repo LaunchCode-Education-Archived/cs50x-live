@@ -36,7 +36,7 @@ int main(void)
     node* table[NUM_BINS];
 
     // Initialize every key with a dummy node, with a string and NULL next pointer
-    for(int i = 0; i < NUM_BINS2; i++)
+    for(int i = 0; i < NUM_BINS; i++)
     {
         table[i] = NULL;
     }
