@@ -25,7 +25,7 @@ Do | Exercise | HTTP | TODO excs: some ideas: play around with dev tools; compar
 ##### Lecture 
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=GUtPQIDSwrA" target="_blank">Week 7</a> | We're continuing with web programming in this lecture, with a focus on HTML and a bit about web servers. The first 4 minutes have Harvard-specific content, so feel free to skip that if you want. 
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=GUtPQIDSwrA" target="_blank">Week 7 (first 18 minutes)</a> | Stop after 18 minutes. <br> The beginning of this next lecture continues to look at the architecture of the web.
 
 ***
 
