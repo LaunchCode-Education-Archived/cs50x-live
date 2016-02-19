@@ -1,5 +1,5 @@
 ##### Module 5
-[Back to Prep for Class 1](../../class1-prep)
+[Back to Prep for Class 1](../../class1-prep#linked-lists)
 # Exercise: The Beacons of Gondor
 
 Gondor calls for aid!  Will Rohan answer?
