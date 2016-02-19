@@ -90,11 +90,6 @@ int main(void)
  */
 int hashByFirstLetter(char* inputString)
 {
-    // A hash function that returns an index for every string passed in
-    // For any string, returns a key based on its first letter
-    // Capitals and lowercase get the same key (e.g. 'A' and 'a' both return 0)
-    // non-letter characters share one key
-
     // get the first letter
     char firstChar = *inputString;
     
@@ -119,17 +114,22 @@ int hashByFirstLetter(char* inputString)
  */
 void printBin(int binNumber, node* table[])
 {
+    // get the appropriate list from the table
     node* currentNode = table[binNumber];
+    
+    // if the list is empty, don't bother continuing
     if (currentNode == NULL)
     {
         return;
     }
+    
+    // walk over the list and print a line for each of its nodes 
     printf("bin %i contains:\n", binNumber);
-    while(currentNode != NULL)
+    do
     {
         printf("\t%s\n", currentNode->name);
         currentNode = currentNode->next;
-    }
+    } while(currentNode != NULL);
     printf("\n");
 }
 
@@ -141,14 +141,23 @@ void printBin(int binNumber, node* table[])
  */
 void freeAll(node* table[])
 {
+    // for each entry in the table...
     for (int i = 0; i < NUM_BINS; i++)
     {
+        // get the head of the list
         node* toynode = table[i];
+        
+        // walk over the entire list and free all the nodes
         while (toynode != NULL)
         {
+            // grab a reference to the next node (we'll need this in a sec)
             node* next = toynode->next;
+            
+            // free the current node and its associated data
             free(toynode->name);
             free(toynode);
+            
+            // walk to the next node
             toynode = next;
         }
     }
