@@ -33,11 +33,10 @@ int main(void)
     printf("Welcome, valued employee.\n");
     
     // Initialize an array of pointers for use in a hash table
-    int numKeys = 27;
-    node* table[numKeys];
+    node* table[NUM_BINS];
 
     // Initialize every key with a dummy node, with a string and NULL next pointer
-    for(int i = 0; i < numKeys; i++)
+    for(int i = 0; i < NUM_BINS2; i++)
     {
         table[i] = NULL;
     }
