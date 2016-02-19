@@ -1,6 +1,6 @@
 ##### Module 5
 
-[Back to Class 1 Prep](../../class1-prep)
+[Back to Class 1 Prep](../../class1-prep#recursion-review-and-recursive-structs)
 
 # Resource: Recursively Defined Structs
 
