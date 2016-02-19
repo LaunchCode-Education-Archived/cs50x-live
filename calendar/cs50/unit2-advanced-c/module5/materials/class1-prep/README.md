@@ -49,7 +49,7 @@ Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=ZoG2hOIoTnA&i
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=HmAEzp1taIE&list=PLhQjrBD2T382ZqJSoJqAnX7dXVi5-YaRh&index=3" target="_blank">Doubly-Linked Lists</a> | Doug now introduces the doubly-linked list, which allows us to walk both forwards and backwards over the list.
 Study | CS50 Study | <a href="https://study.cs50.net/linked_lists" target="_blank">Linked Lists</a> | CS50 Study gives an overview of linked lists.
 Read | Resource | [GetString with lists](../exercises/getstring-ll) | Examine an implementation of GetString() implemented with linked lists
-Do | Exercise | [Queen's English](../exercises/queens-english) | Linked lists make it very easy to insert new values into the middle of a list. Use this new power to rectify the spelling of words to ensure that they are fit to be unveiled before the **honourable** presence of Her Majesty the Queen.
+Do | Exercise | [Queen's English](../exercises/queensenglish) | Linked lists make it very easy to insert new values into the middle of a list. Use this new power to rectify the spelling of words to ensure that they are fit to be unveiled before the **honourable** presence of Her Majesty the Queen.
 Do | Exercise | [Beacons of Gondor](../exercises/beaconsofgondor) | Use linked lists on an epic journey through Middle Earth.
 
 ***
