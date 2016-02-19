@@ -45,9 +45,10 @@ Please select an option:
     q - to quit
 a 
 What is the name of the new toy?
-Bonestorm Videogame
-Ok, Bonestorm Videogame has been added to the B's list:
-    - Bonestorm Videogame
+Slinky
+Ok, Slinky has been added to bin 18
+bin 18 contains:
+    - Slinky
 
 Please select an option:
     a - to add a new toy to the warehouse
@@ -55,23 +56,33 @@ Please select an option:
 a 
 What is the name of the new toy?
 Barbie
-Ok, Barbie has been added to the B's list:
+Ok, Barbie has been added to bin 1
+bin 1 contains:
     - Barbie
-    - Bonestorm Videogame
 
 Please select an option:
     a - to add a new toy to the warehouse
     q - to quit
-a
+a 
 What is the name of the new toy?
-Cup and Ball
-Ok, Cup and Ball has been added to the C's list:
-    - Cup and Ball
-  
+Bonestorm Videogame
+Ok, Bonestorm Videogame has been added to bin 1
+bin 1 contains:
+    - Bonestorm Videogame
+    - Barbie
+
 Please select an option:
     a - to add a new toy to the warehouse
     q - to quit
 q
+Current contents of all bins:
+bin 1 contains:
+    - Bonestorm Videogame
+    - Barbie
+    
+bin 18 contains:
+    - Slinky
+
 Goodbye, valued employee.
 ```
 
@@ -82,15 +93,13 @@ Your hash table will be implemented as a big array, where each item in the array
 * the array, at index 1, will contain the sublist of all the toys that start with "b", 
 * etc
 
-Each sublist is implemented as a linked list, where each node in the list contains the name of the toy and a pointer to the next toy. So we looked inside the big array at index 1, we might expect to find a pointer to node whose `toyName` field is `"Barbie"`, and whose `next` field is a pointer to another node. 
+Each sublist is implemented as a linked list, where each node in the list contains the name of the toy and a pointer to the next toy. So we looked inside the big array at index 1, we might expect to find a pointer to node whose `name` field is `"Bonestorm Videogame"`, and whose `next` field is a pointer to the "Barbie" node. 
 
 The full process for storing any new item, looks like this:
 - ask for the name of the item
 - create a struct to represent the new item
-- use a hash function to find  correct location
+- use a hash function to find correct location where this toy belongs
 - add it to the correct sublist, the one at the above location
 - print out the new inventory at that location
 
-We’ve provided starter code in [toystorage.c](toystorage.html), including a function for hashing based on the first letter of a toy’s name, as well as a basic struct for linked lists, and an initialization of an array for use as a hash table.  We’ve also provided the code to print out the contents of a key in the hash table.
-
-
+We’ve provided starter code in [toystorage.c](toystorage.html), including a function for hashing based on the first letter of a toy’s name, as well as a basic struct for linked lists, and an initialization of an array to use as a hash table.  We’ve also provided the code to print out the contents of a key in the hash table.
