@@ -32,14 +32,8 @@ int main(void)
 {
     printf("Welcome, valued employee.\n");
     
-    // Initialize an array of pointers for use in a hash table
-    node* table[NUM_BINS];
-
-    // Initialize every key with a dummy node, with a string and NULL next pointer
-    for(int i = 0; i < NUM_BINS; i++)
-    {
-        table[i] = NULL;
-    }
+    // Initialize an array of (initially null) pointers for use in a hash table. 
+    node* table[NUM_BINS] = { NULL };
 
     // Make a loop where you ask the user if they want to put a new toy in;
     // if they input "q", stop, else, take the string as a name
