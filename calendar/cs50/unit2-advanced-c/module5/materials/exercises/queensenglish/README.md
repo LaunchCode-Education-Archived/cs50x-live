@@ -1,5 +1,5 @@
 ##### Module 5
-[Back to Prep for Class 1](../../class1-prep)
+[Back to Prep for Class 1](../../class1-prep#linked-lists)
 # Exercise: Queen’s English
 
 One of the fundamental strengths of linked lists is the ability to insert items into the middle of the list quickly, in O(1) time.  Let’s practice making insertions into a linked list.
