@@ -11,15 +11,18 @@ This problem set is difficult but very fun! There are three main components:
 Before you start coding, you will be asked to do some reading on image file formats (BMP, JPEG, etc) and answer some questions. Don't spend forever on this, but do make sure you have read enough that you can answer the questions. We do ask you to submit your answers on Vocareum.
 
 ### How to submit 
-On Vocareum, you will see four assignments:
-* **Problem Set 4: Questions**. For this assignment submit a TXT file called questions.txt
+On Vocareum, you will see three assignments:
 * **Problem Set 4: Whodunit**. For this assignment submit a file called whodunit.c
 * **Problem Set 4: Resize**. For this assignment submit **two** files, bmp.h *and* resize.c
 * **Problem Set 4: Recover**. For this assignmnet submit a file called recover.c
 
+Do not spend too much time on Whodunit. As soon as you can see the image, you should move on (even if you don't recognize the person) .
+
+You do not need to submit the questions from the problem set (questions.txt), but we do highly encourage you to find the answers to those. If you find yourself having trouble with some part of the assignment, it may mean that you need to look over the questions and make sure you know the answers to them.  
+
 After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum. 
 
-You can also use check50 to check the correctness of your code before submitting. Unfortunately, you won't be able to use check50 on whodunit.c, but you should know when your image is clear enough to see the picture. Obviously, check50 won't work for questions.txt either, but please submit your answers to the questions specified in the problem set spec. 
+You can also use check50 to check the correctness of your code before submitting. Unfortunately, you won't be able to use check50 on whodunit.c, but you should know when your image is clear enough to see the "verdict". 
 
 If you forget how to use Vocaruem, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocaruem.
 
