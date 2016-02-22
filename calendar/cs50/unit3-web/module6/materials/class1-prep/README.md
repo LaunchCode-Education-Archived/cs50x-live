@@ -9,6 +9,8 @@ Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=KWxwYbaAWxs" target="_blank">Week 6</a> | David travels to Yale to deliver this lecture. The first portion of the video (until 3:37) has unrelated announcements, as does minutes 14:00-15:44, so feel free to fast forward through those. You'll also review some portion of the video that you should have seen during the previous Module. The rest of the lecture is dedicated to our transition to web programming (exciting!). 
 
+***
+
 ##### Architecture of the Web
 Task | Resource Type | Link | Instructions
 -----|------|------|------
@@ -22,6 +24,8 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=iy6xhPB12V8&index=4&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">HTTP</a> | Doug talks about HTTP, including the most common response codes a server will give back when responding to a request.
 Follow-Along | Resource | cURL | TODO written walkthrough using cURL. try google.com without the www, get a 301, then do the real site, very messy, but can be piped to an html file and previewed. 
 Do | Exercise | HTTP | TODO excs: some ideas: play around with dev tools; compare source with full response; Quiz?
+
+***
 
 ##### Lecture 
 Task | Resource Type | Link | Instructions
