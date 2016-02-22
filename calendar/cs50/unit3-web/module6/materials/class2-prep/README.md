@@ -8,7 +8,7 @@ Before coming to [Class 2](../class2), please complete the follow tasks:
 ##### Lecture
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Watch | Lecture | <a href="https://youtu.be/GUtPQIDSwrA?t=1085" target="_blank">Week 7 (starting at 18:00)</a> | The second half of this lecture dives into a variety of examples of HTML and CSS.
+Watch | Lecture | <a href="https://youtu.be/GUtPQIDSwrA?t=1085" target="_blank">Week 7 (starting at 18 minutes)</a> | The second half of this lecture dives into a variety of examples of HTML and CSS.
 
 ***
 
