@@ -13,7 +13,7 @@ When you want to preview an HTML file in the IDE, here's what to do:
 1. Right-click on the file and choose "Preview"
   <img src="1preview.png"/>
 
-2. In the resulting tab, click "Pop Out into New Window"
+2. This opens up a preview of your page in a new tab in your IDE. But some features, such as the search we are trying to execute here, will not work until we leave the IDE entirely. To get a new browser window, click "Pop Out into New Window"
   <img src="2popout.png"/>
 
 3. Now you have a new tab in your browser (totally outside the IDE) which contains your web page!
