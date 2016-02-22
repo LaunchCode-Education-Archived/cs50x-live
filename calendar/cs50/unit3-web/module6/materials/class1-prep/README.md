@@ -19,9 +19,15 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=oS_NAORY2Jw&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M&index=1" target="_blank">Internet Primer</a> | Here Doug gives a high-level overview of "how the internet works"
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#tcp_ip" target="_blank">Week 6 / TCP/IP</a> | Read the notes for the "TCP/IP" section. This will go to a lower level to talk about how data is represented when it's sent around the world. <br>Stop when you get to the *HTTP Requests* header.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=m-xgBan9V0U&index=2&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">IP</a> | Doug talks in depth about IP, the protocol that determines how data travels around the globe from one computer to another. | cant directly connect every computer to every other, how to minimize number of connections? ; routers ; packets ; connectionless protocol
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=uXa08E2gIa8&index=3&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">TCP</a> | Doug talks about TCP, the protocol that compliments IP by guaranteeing delivery, and by specifying the *category* of communication to which a message pertains. | 
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=uXa08E2gIa8&index=3&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">TCP</a> | Doug talks about TCP, the protocol that compliments IP by guaranteeing delivery, and by specifying the *category* of communication to which a message pertains. 
+
+##### HTTP and Servers
+Task | Resource Type | Link | Instructions
+-----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#http_requests" target="_blank">Week 6 / HTTP Requests</a> | Read the notes about HTTP, which is the protocol that web browsers and web servers use to talk to each other.<br>Stop when you get to the *HTML* header. 
+Watch | Short | <a href="https://www.youtube.com/watch?v=hU4XuBe50K4&index=23&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">HTTP</a> | David Malan shows us the HTTP interaction that occurs when we visit Google's homepage: our browser sends a **request** to Google's server, asking to see the home page, and the server sends back a **response** containing the HTML code for the page.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=iy6xhPB12V8&index=4&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">HTTP</a> | Doug talks about HTTP, including the most common response codes a server will give back when responding to a request.
+Read | Resource | GET | TODO Resource: Quickly explain how the `/` in `GET / HTTP/1.1` represents which page you want. Give some examples that are not the root page.
 Follow-Along | Resource | cURL | TODO written walkthrough using cURL. try google.com without the www, get a 301, then do the real site, very messy, but can be piped to an html file and previewed. 
 Do | Exercise | HTTP | TODO excs: some ideas: play around with dev tools; compare source with full response; Quiz?
 
@@ -34,13 +40,12 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=GUtPQIDSwrA" target="
 
 ***
 
-##### Architecture of the Web, continued
+##### HTTP and Servers, continued
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#http" target="_blank">Week 7 / HTTP</a> | Read the "HTTP" notes for a quick review of the `GET` request.<br>Stop when you get to the *HTML* header.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#web_servers" target="_blank">Week 7 / Web Servers</a> | Read over these notes, which talk about how web servers work. You can follow along to host your own web page through the CS50 IDE.<br>Stop when you get to the *Working with HTML* header.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#html" target="_blank">Week 7 / HTML</a> | Read the "HTML" notes to read how we can inspect the source code for any web page (in this case, Facebook), and why it looks the way it does.<br>Stop when you get to the *Web Servers* header.
-Watch | Short | <a href="https://www.youtube.com/watch?v=hU4XuBe50K4&index=23&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">HTTP</a>
 
 ***
 ### Now you're ready for [Class 1](../class1)
