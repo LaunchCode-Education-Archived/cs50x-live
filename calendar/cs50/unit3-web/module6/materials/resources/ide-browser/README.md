@@ -10,3 +10,11 @@ For example, in <a>search</>, the way in which David opens his HTML file is diff
 
 When you want to preview an HTML file in the IDE, here's what to do:
 
+1. Right-click on the file and choose "Preview"
+  <img src="1preview.png"/>
+
+2. In the resulting tab, click "Pop Out into New Window"
+  <img src="2popout.png"/>
+
+3. Now you have a new tab in your browser (totally outside the IDE) which contains your web page!
+  <img src="3result.png"/>
