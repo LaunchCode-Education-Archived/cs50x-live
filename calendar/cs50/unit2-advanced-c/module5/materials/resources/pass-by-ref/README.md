@@ -1,6 +1,6 @@
 ##### Module 5
 
-[Back to Class 1 Prep](../../class1-prep)
+[Back to Class 1 Prep](../../class1-prep#more-on-pointers-and-memory--some-tricky-gotchas)
 
 # Resource: Pass by Reference
 
