@@ -25,7 +25,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=GgpyVgkW_x
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=qyJXI2v7N8k&index=12&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">list</a> | <br>You can find the pseudocode to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-list" target="_blank">here</a>.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=s1_kxTs5GfI&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=13" target="_blank">paragraphs</a> | <br>You can find the pseudocode to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-paragraphs" target="_blank">here</a>.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=DQLbgo7Rzpg&index=19&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">table</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-table" target="_blank">here</a>.
-Do | Exercise | | Todo
+Do | Exercise | [Favorite Websites](../exercises/favorite-websites) | Practice your HTML skills by recreating a mock-up of a web page that we provide.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#working_with_html" target="_blank">Week 7 / Working with HTML</a> | These notes review the examples from above, and also introduce HTML forms and CSS, which we will see next!
 
 *** 
