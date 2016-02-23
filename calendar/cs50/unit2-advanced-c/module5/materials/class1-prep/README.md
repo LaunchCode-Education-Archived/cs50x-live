@@ -34,7 +34,7 @@ Task | Resource Type | Link | Instructions
 Study | CS50 Study | <a href="https://study.cs50.net/recursion" target="_blank">recursion</a> | Review these materials detailing how recursion works.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=beqqGIdabrE&index=7&list=PLhQjrBD2T383tGruv374_Yee84qbXeJjq" target="_blank">Call Stack</a> | Doug demonstrates an example of what "The Stack" looks like when you call a recursive function.
 Read | Resource | [Recursive Structs](../resources/recursive-structs) | Here we provide a brief review of `struct`s, and then introduce the concept of a "recursively defined" `struct`. This is the crucial development that allows us to create data structures such as linked lists, which you will learn about next.
-Watch | Short | <a href="https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Structs</a> | This short talks more about both regular and recursively defined `struct`s, and demonstrates an implementation of a linked list. You will see much more about linked lists in the next section below.
+Watch | Short | <a href="https://www.youtube.com/watch?v=EzRwP7NV0LM&index=7&list=PLhQjrBD2T381pcj3Ph49iiDkrhZ9FHpHP" target="_blank">Structs</a> | Rewatch this short, which talks more about both regular and recursively defined `struct`s, and demonstrates an implementation of a linked list. You will see much more about linked lists in the next section below.
 
 ***
 
