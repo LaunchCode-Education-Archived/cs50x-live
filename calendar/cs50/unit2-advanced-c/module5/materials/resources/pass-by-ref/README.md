@@ -1,6 +1,6 @@
 ##### Module 5
 
-[Back to Class 1 Prep](../class1-prep)
+[Back to Class 1 Prep](../../class1-prep)
 
 # Resource: Pass by Reference
 
