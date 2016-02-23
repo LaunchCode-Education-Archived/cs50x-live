@@ -102,9 +102,9 @@ This is task is very similar to scanf-0, please follow the instructions below. <
   * Include the stdio library
   *
   * Add main method
-  *    Declare a pointer called buffer of type char 
+  *    Declare a pointer called s of type char 
   *    Print "String please: " 
-  *    Scan the user input using "buffer" as the value for the placeholder %s
+  *    Scan the user input using "s" as the value for the placeholder %s
   *    Print "Thanks for the %s!\n" 
   * 
   * You will find instructions to complete this task in the video. 
