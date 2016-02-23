@@ -14,30 +14,30 @@ typedef struct
     char* title;
     char* studentName;
     int score;
-} assignmentGrade;
+} assignmentRecord;
 
-void dockPoints(assignmentGrade* grade, int daysLate);
+void dockPoints(assignmentRecord* record, int daysLate);
 
 #define PENALTY_PER_DAY 3
 
 int main (void)
 {
-    assignmentGrade suzieGrade = { "Research Paper on Oatmeal", "Suzie Slacker", 94 };
+    assignmentRecord suzieRecord = { "Research Paper on Oatmeal", "Suzie Slacker", 94 };
     
-    printf("Suzie got a score of %i on the assignment. But you say she turned it in late?\n", suzieGrade.score);
+    printf("Suzie got a score of %i on the assignment. But you say she turned it in late?\n", suzieRecord.score);
     printf("How many days late did Suzie submit her work?\n");
     int daysLate = GetInt();
     
-    dockPoints(&suzieGrade, daysLate);
+    dockPoints(&suzieRecord, daysLate);
 
     printf("Suzie's PERMANENT RECORD has been updated to reflect the late submission.\n");
-    printf("Her new score for the assignment is %i\n", suzieGrade.score);
+    printf("Her new score for the assignment is %i\n", suzieRecord.score);
 }
 
 
-void dockPoints(assignmentGrade* grade, int daysLate)
+void dockPoints(assignmentRecord* record, int daysLate)
 {
     int pointsOff = daysLate * PENALTY_PER_DAY;
-    grade->score = grade->score - pointsOff;
+    record->score = record->score - pointsOff;
 }
 ```
