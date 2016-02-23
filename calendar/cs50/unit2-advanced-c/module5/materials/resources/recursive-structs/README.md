@@ -176,7 +176,7 @@ typedef struct
 
 Hopefully that makes sense.
 
-There's actually one small complication. The compiler will not be able to handle the above code without some extra help on our part. The problem is that, because we are trying to use `team*` inside the definition of `team` itelf, the compiler says "Hey I don't know what a team is yet. You cant use that type." So on recursively defined structs like this, we have to add a little bit of syntax to tell the compiler "Trust me, there is going to be a type called team." We do this like so:
+There's actually one small complication. The compiler will not be able to handle the above code without some extra help on our part. The problem is that, because we are trying to use `team*` inside the definition of `team` itelf, the compiler says "Hey I don't know what a team is yet. You can't use that type." So on recursively defined structs like this, we have to add a little bit of syntax to tell the compiler "Trust me, there is going to be a type called team." We do this like so:
 
 ```c
 typedef struct team // we add the word "team" to the end of this line
