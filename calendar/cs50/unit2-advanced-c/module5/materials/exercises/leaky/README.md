@@ -51,6 +51,7 @@ See if you can figure out where the leak is and fix it!
 A couple notes:
 * Notice above how, when we run Valgrind, we still have to interact with our program and provide input when it prompts us for our first name and last name.
 * If you want more details on the problem, you can rerun valgrind with the `leak-check` flag set to `full`, like this:
+  
   ```nohighlight
   valgrind --leak-check=full ./leaky
   ```
