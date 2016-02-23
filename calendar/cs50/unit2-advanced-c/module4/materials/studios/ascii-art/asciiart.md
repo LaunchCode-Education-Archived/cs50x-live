@@ -61,7 +61,7 @@ csvLine extractNumbers(char* line)
 		hV[i] = atoi(token);
 		i++;
 	}
-	struct csvLine result;
+	csvLine result;
 	result.hashLocations = hV;
 	result.length = count + 1;
 	return result;
