@@ -28,18 +28,6 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=DQLbgo7Rzp
 Do | Exercise | [Favorite Websites](../exercises/favorite-websites) | Practice your HTML skills by recreating a mock-up of a web page that we provide.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#working_with_html" target="_blank">Week 7 / Working with HTML</a> | These notes review the examples from above, and also introduce HTML forms and CSS, which we will see next!
 
-*** 
-
-##### HTML Forms
-Task | Resource Type | Link | Instructions
------|------|------|------
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=RQ2_TIXBo00&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=14" target="_blank">search-0</a> | <br>You can find the pseudocode to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-0" target="_blank">here</a>.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=14jiSM4CMtY&index=15&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">search-1</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-1" target="_blank">here</a>.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=uqsKEAAvpTA&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=16" target="_blank">search-2</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-2" target="_blank">here</a>.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=P7oACLRGnEg&index=17&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">search-3</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-3" target="_blank">here</a>.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=AI2nKW7_pck&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=18" target="_blank">search-4</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-4" target="_blank">here</a>.
-Do | Exercise | | Todo
-
 ***
 
 ##### CSS
@@ -51,6 +39,18 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=-7wiXVMh4X
 Do | Exercise | | TODO exc: give them a doc with styles scattered throughout the source, ask them to move it all to a separate css file.
 Watch | Short | <a href="https://www.youtube.com/watch?v=kg0ZOmUREwc&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ&index=15" target="_blank">CSS</a> | 
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=RNhQyOd29gk&index=5&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">CSS</a>
+
+*** 
+
+##### HTML Forms, More CSS
+Task | Resource Type | Link | Instructions
+-----|------|------|------
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=RQ2_TIXBo00&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=14" target="_blank">search-0</a> | <br>You can find the pseudocode to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-0" target="_blank">here</a>.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=14jiSM4CMtY&index=15&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">search-1</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-1" target="_blank">here</a>.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=uqsKEAAvpTA&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=16" target="_blank">search-2</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-2" target="_blank">here</a>.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=P7oACLRGnEg&index=17&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">search-3</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-3" target="_blank">here</a>.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=AI2nKW7_pck&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=18" target="_blank">search-4</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-4" target="_blank">here</a>.
+Do | Exercise | | Todo
 
 ***
 
