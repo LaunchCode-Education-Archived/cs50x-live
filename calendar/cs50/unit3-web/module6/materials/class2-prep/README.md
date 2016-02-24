@@ -30,7 +30,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes
 
 ***
 
-##### CSS
+##### Styles and CSS
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=TKZlfZDF8Y4&index=1&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">css-0</a> | <br>You can find the pseudocode to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-css-0" target="_blank">here</a>.
@@ -40,17 +40,19 @@ Do | Exercise | | TODO exc: give them a doc with styles scattered throughout the
 Watch | Short | <a href="https://www.youtube.com/watch?v=kg0ZOmUREwc&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ&index=15" target="_blank">CSS</a> | 
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=RNhQyOd29gk&index=5&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">CSS</a>
 
+
 *** 
 
-##### HTML Forms, More CSS
+##### HTML Forms, More with Styles
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=RQ2_TIXBo00&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=14" target="_blank">search-0</a> | <br>You can find the pseudocode to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-0" target="_blank">here</a>.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=14jiSM4CMtY&index=15&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">search-1</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-1" target="_blank">here</a>.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=uqsKEAAvpTA&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=16" target="_blank">search-2</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-2" target="_blank">here</a>.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=P7oACLRGnEg&index=17&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">search-3</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-3" target="_blank">here</a>.
-Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=AI2nKW7_pck&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=18" target="_blank">search-4</a> | <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-4" target="_blank">here</a>.
-Do | Exercise | | Todo
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=RQ2_TIXBo00&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=14" target="_blank">search-0</a> | Follow along as David uses a `<form>` to implement the front-end of a search engine. <br>You can find the pseudocode to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-0" target="_blank">here</a>.
+Do | Exercise |  | Todo something with a form
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=14jiSM4CMtY&index=15&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">search-1</a> | Here David adds an inline style atribute to his search engine so that the content is centered in the page. <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-1" target="_blank">here</a>.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=uqsKEAAvpTA&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=16" target="_blank">search-2</a> | Now David pulls out that inline style attribute to a style tag at the top of the page, therby avoiding the sloppiness of mixing content and aesthetics. <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-2" target="_blank">here</a>.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=P7oACLRGnEg&index=17&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">search-3</a> | In this video, David factors out his style tag even further away, into a separate `.css` file, so that in the future he will have the option to resuse the same styles in multiple HTML pages.<br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-3" target="_blank">here</a>.
+Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=AI2nKW7_pck&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=18" target="_blank">search-4</a> | In this video, David does a few new things: he adds a fancy image to the page; he divides his page up into three sections using `<div>` tags, and then he styles each of those divs separately by giving them unique `id` attributes. <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-4" target="_blank">here</a>.
+Do | Exercise | | TODO give them an html file, and a mockup of the same page nicely styled. Ask them to write the necessary CSS to achieve the effects.
 
 ***
 
