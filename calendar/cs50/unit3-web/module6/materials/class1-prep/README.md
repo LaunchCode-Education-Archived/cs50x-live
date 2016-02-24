@@ -21,6 +21,8 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=m-xgBan9V0U&index=2&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">IP</a> | Doug talks in depth about IP, the protocol that determines how data travels around the globe from one computer to another. | cant directly connect every computer to every other, how to minimize number of connections? ; routers ; packets ; connectionless protocol
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=uXa08E2gIa8&index=3&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">TCP</a> | Doug talks about TCP, the protocol that compliments IP by guaranteeing delivery, and by specifying the *category* of communication to which a message pertains. 
 
+***
+
 ##### HTTP and Servers
 Task | Resource Type | Link | Instructions
 -----|------|------|------
