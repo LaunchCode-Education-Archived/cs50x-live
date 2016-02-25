@@ -13,11 +13,11 @@ By the end of this module you will have completed [Problem Set 6](./materials/pr
 
 ### Steps
 
-Class # | Before Class | During Class | Topics/Skills
-:--------:|:------------:|:------------:|-----------------------|
-**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | architecture of the web, traceroute, TCP/IP, HTTP |
-**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | more HTTP, HTML, HTML forms, CSS |
-**Class 3**| Work on [Problem Set 6](./materials/problem-set) | [In Class](./materials/class3) | (office hours!)|
+Class # | Date | Before Class | During Class | Topics/Skills
+:--------:|:---:|:------------:|:------------:|-----------------------|
+Class 1 | TBD | [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | architecture of the web, traceroute, TCP/IP, HTTP |
+Class 2 | TBD | [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | more HTTP, HTML, HTML forms, CSS |
+Class 3 | TBD |  Work on [Problem Set 6](./materials/problem-set) | [In Class](./materials/class3) | (office hours!)|
 
 
 ### Resources (by type)
