@@ -79,7 +79,7 @@ void append(int c)
 }
 ```
 
-Here's where things get interesting. The first thing `append` does is create a new node that contains the given character. We then have to add this node to our list, but we have to be careful. If the list is empty then `head` will be NULL which could lead to an error if we aren't careful. To accommodate this we check to see if the list is empty (by comparing `head` to NULL) and setting `head` if necessary.
+Here's where things get interesting. The first thing `append` does is create a new node that contains the given character. We then have to add this node to our list, but we have to be careful. If the list is empty then `head` will be NULL which could lead to an error if we aren't careful. To accommodate this we check to see if the list is empty (by comparing `head` to NULL) and setting `head` to `newNode` if necessary.
 
 If the list is not empty, then we want to append this character to the end of the list. To do this, we first need to find the end of the list. Recall that each node has a pointer to the next node in the list. This means that the last node in the list will not have anything to point to, so it will point to NULL. Our loop progresses through the list looking for this null value, then appends the new node to the end of our list.
 
