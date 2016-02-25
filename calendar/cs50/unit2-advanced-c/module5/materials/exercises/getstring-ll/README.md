@@ -16,6 +16,7 @@ typedef struct node
     struct node* next;
 }
 node;
+```
 
 Since there is only one link to a node (called *next*) this is a **singly-linked list**. This detail is important since later we will need to add nodes to this list for each character that is given by the user.
 
