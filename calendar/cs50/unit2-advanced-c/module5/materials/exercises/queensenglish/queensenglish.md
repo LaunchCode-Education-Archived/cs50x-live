@@ -36,7 +36,6 @@ char* listToString(node* firstChar)
     node* current = firstChar;
     while(current != NULL)
     {
-        printf("inc total len, saw char: %c\n", current->myChar);
         totalLen++;
         current = current->next;
     }
