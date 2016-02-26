@@ -37,6 +37,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=TKZlfZDF8Y
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=VwCSw2ts388&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=2" target="_blank">css-1</a> | <br>You can find the pseudocode to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-css-1" target="_blank">here</a>.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=-7wiXVMh4XY&index=3&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">css-2</a> | <br>You can find the pseudocode to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-css-2" target="_blank">here</a>.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=RNhQyOd29gk&index=5&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">CSS</a>
+Do | Exercise | | TODO make them factor out some inline styles into a separate css file 
 
 
 *** 
@@ -51,7 +52,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=uqsKEAAvpT
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=P7oACLRGnEg&index=17&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">search-3</a> | In this video, David factors out his style tag even further away, into a separate `.css` file, so that in the future he will have the option to resuse the same styles in multiple HTML pages.<br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-3" target="_blank">here</a>.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=AI2nKW7_pck&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=18" target="_blank">search-4</a> | In this video, David does a few new things: he adds a fancy image to the page; he divides his page up into three sections using `<div>` tags, and then he styles each of those divs separately by giving them unique `id` attributes. <br>You can find instructions to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-search-4" target="_blank">here</a>.
 Watch | Short | <a href="https://www.youtube.com/watch?v=kg0ZOmUREwc&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ&index=15" target="_blank">CSS</a> | 
-Do | Exercise | | TODO give them an html file, and a mockup of the same page nicely styled. Ask them to write the necessary CSS to achieve the effects.
+Do | Exercise | [Stylish Favorite Websites](../exercises/stylish-favorite-websites) | Practice your CSS skills by recreating another mockup.
 
 ***
 
