@@ -8,7 +8,7 @@ Remember that HTML page we made earlier, with our 3 favorites websites? We went 
 
 <img src="favorites-style.png"/>
 
-Gorgeous, right?
+What's that? It's beautiful? Aw thanks! (I know.)
 
 See if you can recreate these styles.
 
