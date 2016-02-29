@@ -29,9 +29,7 @@ Task | Resource Type | Link | Instructions
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#http_requests" target="_blank">Week 6 / HTTP Requests</a> | Read the notes about HTTP, which is the protocol that web browsers and web servers use to talk to each other.<br>Stop when you get to the *HTML* header. 
 Watch | Short | <a href="https://www.youtube.com/watch?v=hU4XuBe50K4&index=23&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">HTTP</a> | David Malan shows us the HTTP interaction that occurs when we visit Google's homepage: our browser sends a **request** to Google's server, asking to see the home page, and the server sends back a **response** containing the HTML code for the page.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=iy6xhPB12V8&index=4&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">HTTP</a> | Doug talks about HTTP, including the most common response codes a server will give back when responding to a request.
-Read | Resource | GET | TODO Resource: Quickly explain how the `/` in `GET / HTTP/1.1` represents which page you want. Give some examples that are not the root page.
-Follow-Along | Resource | cURL | TODO written walkthrough using cURL. try google.com without the www, get a 301, then do the real site, very messy, but can be piped to an html file and previewed. 
-Do | Exercise | HTTP | TODO excs: some ideas: play around with dev tools; compare source with full response; Quiz?
+Follow-Along | Resource | [cURL](../resources/curl) | Use a program called `cURL` to play around sending HTTP data on the command-line.
 
 ***
 
