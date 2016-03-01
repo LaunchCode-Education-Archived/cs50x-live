@@ -3,9 +3,7 @@
 
 **Pre-reqs:** You should have completed [Module 5](../../unit2-advanced-c/module5)
 
-#### Synopsis 
-
-
+### Synopsis 
 
 By the end of this module you will have completed [Problem Set 6](./materials/problem-set).
 
