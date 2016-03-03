@@ -1,7 +1,7 @@
 [Back to Course Calendar](../../..)
 # Module 6
 
-**Pre-reqs:** You should have completed [Module 5](../../unit2-advanced-c/module5)
+**Pre-reqs:** You should have completed [Module 3](../../unit1-fundamentals/module3)
 
 ### Synopsis 
 
