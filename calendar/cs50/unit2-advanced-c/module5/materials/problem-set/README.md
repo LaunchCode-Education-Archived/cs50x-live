@@ -6,8 +6,7 @@
 In this problem set, you will implement a "spell checker", which identifies misspelled words in a text file. A word is considered "misspelled" if it cannot be found in a second file, the "dictionary". Your goal is to load the entire contents of the dictionary into memory in such a way that, when it comes time to start checking words, your program will be able to search through the dictionary words as quickly as possible, checking to see whether the dictionary contains the word in question. You will have the option of storing the dictionary as one of 2 possible data structures: a hash table, or a trie.
 
 ### How to submit
-On Vocareum, you will see two assignmnets:
-* **Problem Set 5: Questions**: For this assignment, submit a TXT file called questions.txt
+On Vocareum, you will see one assignmnet:
 * **Problem Set 5: Speller**: For this assignment, submit **three** files, dictionary.c *and* dictionary.h *and* Makefile
 
 After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly! Remember, you can ignore the instructions on the Harvard spec on how to submit; we only care about your submission on Vocareum.
