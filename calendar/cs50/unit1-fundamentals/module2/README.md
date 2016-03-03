@@ -23,7 +23,7 @@ Class # | Date | Before Class | During Class | Topics/Skills
 :--------:|:---:|:------------:|:------------:|-----------------------|
 Class 1 | TBD | [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | chars, functions, scope, strings, modulo|
 Class 2 | TBD | [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | more strings, arrays, command-line arguments |
-Class 3 | TBD | Complete [Soft Skills Prep](./materials/soft-skills)<br>Work on [Problem Set 2](./materials/problem-set) | [In Class](./materials/class3) | (office hours!)|
+Class 3 | TBD | Work on [Problem Set 2](./materials/problem-set) | [In Class](./materials/class3) | (office hours!)|
 
 
   
