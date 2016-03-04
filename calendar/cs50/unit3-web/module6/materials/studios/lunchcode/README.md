@@ -6,7 +6,7 @@
 
 Today we are going to be working once again with CS50's API, specifically the Food API. Your assignment for today is to build a front end page for users to query the API. 
 
-In the previous studio, you used a page from the cs50 docs:
+From the previous studio, you might remember interacting with this page from the cs50 docs:
 
 <img src="lunchcode3.png"/>
 
