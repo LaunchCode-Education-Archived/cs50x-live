@@ -66,7 +66,20 @@ Try changing the `type` from `"text"` to `"hidden"`, and you should see the inpu
 
 ### The Other Forms
 
+Once you have the Menu form working, go ahead and add the Recipes and Nutrition Facts forms as well. 
+
+For the `portions:` field on your Nutrition Facts form, you can use:
+
+```html
+<input type="number" ... />
+```
+
+to make that fancy input element with the up and down `^` / `v` buttons
+
 ### The Page Heading
+
+Once you have created all the forms, add that big LunchCode heading and tagline.
 
 ### Styles
 
+Finally, create a `styles.css` file and style your page!
