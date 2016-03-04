@@ -54,7 +54,7 @@ If you add that `<input>` element, you should now find that your form takes you 
 
 ### Hidden Inputs
 
-*But wait!* you say, *The mockup above doesn't show any extra field for the API key. It just has one field for "meal:"! How does the mockup version function properly without that field? Is this a giant hoax? Conspiracy?* 
+*But wait!* you say, *The mockup above we are trying to copy does not have any extra field for the API key. The mockup contains only one field for `"meal:"`! How did this mockup function properly without that extra field? Is this a giant hoax? Conspiracy?* 
 
 Great question (although you may have gotten carried away at the end, there). It turns out that our mockup *does*  have an input element like the one above-- you just don't see it. There is a special type of input available for precisely this purpose: when you want to include an HTTP parameter to your form's submission url, but you don't actually need the user to see anything or tell you anything. This type is called the `"hidden"` :
 
