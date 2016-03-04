@@ -36,6 +36,25 @@ You may have noticed that the form currently does not *go* anywhere. Clicking on
 
 ### Authentication
 
+After you implement the form so that submission takes the user to the Food API, you will presumably run into an error message about "authentication parameters missing". You probably remember from last studio that the solution to this was to include your personal API key as a parameter in the url:
+
+```
+...&key=123456789...
+```
+
+where `123456789` is your API key. We can do the same thing here by including another `<input>` field in the form, like this:
+
+```
+<input name="key" value="123456789"/>
+```
+
+If you add that `<input>` element, you should now find that your form takes you to the promised land of menus data.
+
+*But wait!* you say, *The mockup above doesn't show any extra field for the API key. It just has one field for "meal:"! How does the mockup version function properly without that field? Is this a giant hoax? Conspiracy?* 
+
+Great question (although you may have gotten carried away at the end, there). The secret to 
+
+
 ### The Other Forms
 
 ### The Page Heading
