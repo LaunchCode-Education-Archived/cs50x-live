@@ -46,6 +46,8 @@ Task | Resource Type | Link | Instructions
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#http" target="_blank">Week 7 / HTTP</a> | Read the "HTTP" notes for a quick review of the `GET` request.<br>Stop when you get to the *HTML* header.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#web_servers" target="_blank">Week 7 / Web Servers</a> | Read over these notes, which talk about how web servers work. You can follow along to host your own web page through the CS50 IDE.<br>Stop when you get to the *Working with HTML* header.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#html" target="_blank">Week 7 / HTML</a> | Read the "HTML" notes to read how we can inspect the source code for any web page (in this case, Facebook), and why it looks the way it does.<br>Stop when you get to the *Web Servers* header.
+Study | CS50 Study | <a href="https://study.cs50.net/http" target="_blank">http</a> |
+
 
 ***
 ### Now you're ready for [Class 1](../class1)
