@@ -24,7 +24,9 @@ Upon filling out one of the forms and clicking its `SEND REQUEST` button, a user
 
 ### Getting Started
 
-We've given you a little starter code in <a href="lunchcode.html" target="_blank">lunchcode.html</a>. Click that link, and you should see, in a new browser tab, a very plain form that says "Menus". OK, so that's what the page looks like, but where is the actual starter code?? Well, here's the thing: we sent you a link to an HTML file, so your browser went ahead and did what it always does when opening an HTML file: it rendered the page! 
+We've given you a little starter code in <a href="lunchcode.html" target="_blank">lunchcode.html</a>. Click that link, and you should see, in a new browser tab, a very plain form that says "Menus". 
+
+OK, so that's what the page looks like, but where is the actual starter code?? Well, here's the thing: we sent you a link to an HTML file, so your browser went ahead and did what it always does when opening an HTML file: it rendered the page! 
 
 But no matter, this is a good opportunity to remind you that you can always view the *source* code for any HTML page by <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/notes7m/notes7m.html#html" target="_blank">using your browser's developer tools</a>.
 
