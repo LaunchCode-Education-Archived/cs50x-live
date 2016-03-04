@@ -30,7 +30,7 @@ We can read to and write from the "fields" or "members" of an instance by using 
 ```c
 printf("In a shock upset, our beloved %s %s actually won!\n", spoons.city, spoons.name);
 spoons.wins = spoons.wins + 1;
-forks.wins = forks.wins - 1;
+forks.losses = forks.losses + 1;
 printf("%s's record is now %i and %i\n", spoons.city, spoons.wins, spoons.losses);
 ```
 
