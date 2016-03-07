@@ -78,8 +78,3 @@ If we want to add additional fields to our request, we simply need to add more `
 ```
 
 
-to <a href="google.com" target="_blank">google.com</a> right now.
-
-### Use a Form to Construct an HTTP Request
-
-
