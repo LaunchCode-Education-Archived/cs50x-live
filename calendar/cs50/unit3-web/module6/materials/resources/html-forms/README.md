@@ -38,8 +38,8 @@ HTTP Ingredient | Description | Example Value | HTML Form Example
 |----|----|----|----|
 `Host` | Where is the request being sent? | `https://www.google.com` | `<form action="https://www.google.com" ... />` |
 `Endpoint` or `Path` | Which part of the host site do you want to talk to? | `/search` | `<form action="https://www.google.com/search" ... />` <br> notice we tacked `/search` onto the end |
-`Method` | What type HTTP request is this? | `GET` | `<form ... method="get" />` |
-additional `Field`s | Any other info that you need to send, as a name + value pair | What do we want to search for? (`q`) <br> How about pandas! <br> `q` + `pandas` | `<input name="q" value="pandas"/>` |
+`Method` | What type of HTTP request is this? | `GET` | `<form ... method="get" />` |
+additional `Field`s | Any other info that you need to send, as a name + value pair | What do we want to search for? <br> How about pandas! <br> `q` + `pandas` | `<input name="q" value="pandas"/>` |
 
 ### Sending the Request
 
