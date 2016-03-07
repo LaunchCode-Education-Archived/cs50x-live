@@ -53,14 +53,18 @@ The user's browser, when sending the request, will also update the URL in its ad
 
 Notice that the resulting URL (also known as the "query string" for our request) contains a lot of the request's info.
 
-Specifically, notice that the host and endpoint make up the beginning of the url, followed by a `?` mark, followed by the additional field(s).
+Specifically, notice that the host and endpoint make up the beginning of the url, followed by a `?` mark, followed by the additional field(s). 
 
-HTTP Ingredient | HTML Form Example | Resulting Query String
-|----|----|----|
-`Host` | `<form action="https://www.google.com" ... />` | `https://www.google.com`
-`Endpoint` or `Path` | `<form action="https://www.google.com/search" ... />` <br> notice we tacked `/search` onto the end | `https://www.google.com/search`
-additional `Field`s | `<input name="q" value="panda"/>` <br> `<input name="fruit" value="banana"/>` | `https://www.google.com/search?q=pandas&fruit=banana` <br> Notice that multiple fields are separated with a `&` symbol.
-`Method` | `<form ... method="get" />` | N/A. The `Method` will does show up in the query string, but it does have an important effect on it: If your `method` is `POST` rather than `GET`, then the additional `Field`s like (`q=panda`) will not show up in the resulting query string. This is for security purposes in situations where you don't want sensitive information visible in the URL.
+If there is more than one additional field, they will be separated with a `&` symbol:
+
+`https://www.google.com/search?q=pandas&fruit=banana`
+
+Host | Endpoint | (`?`) | Field 1 | (`&`) | Field 2 
+|----|----|----|----|----
+`https://www.google.com` | `/search` | `?` | `q=pandas` | `fruit=banana` 
+
+
+As an aside, what about the HTTP `method` (ours was `GET`) -- is that refleted in the URL? It is not. But although the query string does not display the method, it is affected by it. If your `method` is `POST` rather than `GET`, then the additional `Field`s like (`q=panda`) will not show up in the string. This is for security purposes in situations where you don't want sensitive information visible in the URL.
 
 
 ### Adding More Fields
