@@ -79,4 +79,15 @@ For instance, let's say we wanted to do an *image* search. It turns out that the
 </form>
 ```
 
+Check out <a href="./image-search-0.htm1" target="_blank"l>image-search-0.html</a> to see this in action.
+
+### Hidden Inputs
+
+In <a href="./image-search-0.htm1" target="_blank"l>image-search-0.html</a>, the resulting form looks kind of silly because we added that extra input, so the user now sees a text field with `"isch"` inside it. We don't actually want the user to see this field, or to be able to change it. There is a special input type, `"hidden"`, which allows us to fix this problem by including additional fields to our request, but without actually rendering anything visible to the screen:
+
+```html
+<input name="tbm" value="isch" type="hidden"/>
+```
+
+Check out <a href="./image-search-1.html" target="_blank"l>image-search-1.html</a> to see the result. The extra `<input>` is no longer visible, but we still are able to do an image search and look at pictures of pandas.
 
