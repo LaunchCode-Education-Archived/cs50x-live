@@ -29,12 +29,14 @@ An HTML form is simply a nice, user-friendly way of constructing and sending tha
 
 There are a handful of ingredients we need in order to create the request:
 
-HTTP Ingredient | Description | Example Value | HTML Form Example | Resulting Query String
-|----|----|----|----|----|
-`Host` | Where is the request being sent? | `https://www.google.com` | `<form action="https://www.google.com" ... />` | `https://www.google.com`
-`Endpoint` or `Path` | Which part of the host site do you want to talk to? | `/search` | `<form action="https://www.google.com/search" ... />` <br> notice we tacked `/search` onto the end | `https://www.google.com/search`
-`Method` | What type HTTP request is this? | `GET` | `<form ... method="GET" />` | N/A
-additional `Field`s | Anything other info that you need to send, as a key, value pair | What do we want to search for? How about pandas! <br> `q`, `pandas` | `<input name="q" value="panda"/>` | `https://www.google.com/search?q=pandas`
+HTTP Ingredient | Description | Example Value | HTML Form Example
+|----|----|----|----|
+`Host` | Where is the request being sent? | `https://www.google.com` | `<form action="https://www.google.com" ... />` |
+`Endpoint` or `Path` | Which part of the host site do you want to talk to? | `/search` | `<form action="https://www.google.com/search" ... />` <br> notice we tacked `/search` onto the end |
+`Method` | What type HTTP request is this? | `GET` | `<form ... method="GET" />` |
+additional `Field`s | Any other info that you need to send, as a name + value pair | What do we want to search for? (`q`) <br> How about pandas! <br> `q` + `pandas` | `<input name="q" value="pandas"/>` |
+
+### Sending the Request
 
 When the user clicks the `<input type="submit" />` button, the request will constructed and sent! 
 
