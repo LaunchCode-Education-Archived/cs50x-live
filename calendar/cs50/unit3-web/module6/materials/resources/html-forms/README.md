@@ -40,18 +40,21 @@ When the user clicks the `<input type="submit" />` button, the request will cons
 
 ### Query String
 
-The user's browser, when sending the request, will update the URL in its address bar at the top of the page, indicating that the user has "left" the previous page is now "visiting" the page at this URL:
+The user's browser, when sending the request, will also update the URL in its address bar at the top of the window, to indicate that the user has "left" the previous page and is now visiting this new page:
 
 `https://www.google.com/search?q=pandas`
 
-Notice that most of the information from the request is in fact present in the url (also known as the request's "query string").
+Notice that the resulting URL (also known as the "query string" for our request) contains a lot of the request's info.
 
 HTTP Ingredient | HTML Form Example | Resulting Query String
 |----|----|----|
 `Host` | `<form action="https://www.google.com" ... />` | `https://www.google.com`
 `Endpoint` or `Path` | `<form action="https://www.google.com/search" ... />` <br> notice we tacked `/search` onto the end | `https://www.google.com/search`
 additional `Field`s | `<input name="q" value="panda"/>` | `https://www.google.com/search?q=pandas`
-`Method` | `<form ... method="GET" />` | N/A. The `method` does nto show up in the query string, but it does have an effect on it. If you use `POST`, then the additonal fields (such as `"q=pandas"`) will not show up in the resulting query string. This is for security purposes.
+`Method` | `<form ... method="GET" />` | N/A. The `Method` will does show up in the query string, but it does have an important effect on it: If your `method` is `POST` rather than `GET`, then the additional `Field`s like (`q=panda`) will not show up in the resulting query string. This is for security purposes if you don't want sensitive information visible in the URL.
+
+
+
 
 
 
