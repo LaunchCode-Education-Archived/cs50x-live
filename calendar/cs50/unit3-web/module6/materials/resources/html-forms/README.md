@@ -27,7 +27,7 @@ GET /search HTTP/1.1
 Host: https://www.google.com
 ```
 
-An HTML form is simply a nice, user-friendly way of constructing and sending that HTTP request.
+A `<form>` is simply a nice, user-friendly way of constructing and sending that HTTP request.
 
 
 ### Constructing the Request
