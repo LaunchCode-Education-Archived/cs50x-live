@@ -65,11 +65,13 @@ additional `Field`s | `<input name="q" value="panda"/>` <br> `<input name="fruit
 
 ### Adding More Fields
 
-If we want to add additional fields to our request, we simply need to add more `<input>` elements to our form. For instance, let's say we wanted to do an *image* search for pandas. It turns out that the way to specify a google image search is to include another field in your request: the `"tbm"` field should have a value of `"isch"` (I have no idea what those keywords mean, I just know it works). We want our url to look like this https://www.google.com/search?q=pandas&tbm=isch. So we simply need to add another input:
+If we want to add additional fields to our request, we simply need to add more `<input>` elements to our form. 
+
+For instance, let's say we wanted to do an *image* search. It turns out that the way to specify a google image search is to include another field in your request: the `"tbm"` field should have a value of `"isch"` (I have no idea what those keywords mean, I just know it works). We want our url to look like this https://www.google.com/search?q=pandas&tbm=isch. So we simply need to add another input:
 
 ```html
 <form action="https://www.google.com/search" method="get">
-    <input name="q" value="pandas" type="text"/>
+    <input name="q" type="text"/>
     <br/>
     <input name="tbm" value="isch" type="text"/>
     <br/>
