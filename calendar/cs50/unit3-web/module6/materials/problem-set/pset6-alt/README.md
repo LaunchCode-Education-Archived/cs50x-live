@@ -1,6 +1,6 @@
 ##### [Module 6](../../../)
 
-# Pset 6 Alt
+# Problem Set 6 (Alternative)
 
 TODO
 
