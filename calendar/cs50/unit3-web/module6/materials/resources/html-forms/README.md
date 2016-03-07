@@ -87,7 +87,7 @@ Check out <a href="./image-search-0.html" target="_blank"l>image-search-0.html</
 
 ### Hidden Inputs
 
-In <a href="./image-search-0.htm1" target="_blank"l>image-search-0.html</a>, the resulting form looks kind of silly because we added that extra input, so the user now sees a text field with `"isch"` inside it.
+In <a href="./image-search-0.html" target="_blank"l>image-search-0.html</a>, the resulting form looks kind of silly because we added that extra input, so the user now sees a text field with `"isch"` inside it.
 
 We don't actually want the user to see this field, or to be able to change it. There is a special input type, `"hidden"`, which allows us to fix this problem by including additional fields to our request, but without actually rendering anything visible to the screen:
 
