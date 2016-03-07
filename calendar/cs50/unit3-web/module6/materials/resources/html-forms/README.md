@@ -4,11 +4,16 @@
 
 # Resource: HTML Forms
 
-In the [search-0]() walkthrough, David Malan uses an HTML `<form>` to create his own "front end" for Google's search service.
+In the [search-0](https://www.youtube.com/watch?v=RQ2_TIXBo00&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=14) walkthrough, David Malan uses an HTML `<form>` to create his own "front end" for Google's search service.
 
-Here is the source code of his HTML page:
+Here is the source code of his HTML form:
 
 ```html
+<form action="https://www.google.com/search" method="get">
+    <input name="q" type="text"/>
+    <br/>
+    <input type="submit" value="CS50 Search"/>
+</form>
 ```
 
 Let's take a miute to break this down. 
@@ -33,7 +38,7 @@ HTTP Ingredient | Description | Example Value | HTML Form Example
 |----|----|----|----|
 `Host` | Where is the request being sent? | `https://www.google.com` | `<form action="https://www.google.com" ... />` |
 `Endpoint` or `Path` | Which part of the host site do you want to talk to? | `/search` | `<form action="https://www.google.com/search" ... />` <br> notice we tacked `/search` onto the end |
-`Method` | What type HTTP request is this? | `GET` | `<form ... method="GET" />` |
+`Method` | What type HTTP request is this? | `GET` | `<form ... method="get" />` |
 additional `Field`s | Any other info that you need to send, as a name + value pair | What do we want to search for? (`q`) <br> How about pandas! <br> `q` + `pandas` | `<input name="q" value="pandas"/>` |
 
 ### Sending the Request
@@ -53,7 +58,7 @@ HTTP Ingredient | HTML Form Example | Resulting Query String
 `Host` | `<form action="https://www.google.com" ... />` | `https://www.google.com`
 `Endpoint` or `Path` | `<form action="https://www.google.com/search" ... />` <br> notice we tacked `/search` onto the end | `https://www.google.com/search`
 additional `Field`s | `<input name="q" value="panda"/>` | `https://www.google.com/search?q=pandas`
-`Method` | `<form ... method="GET" />` | N/A. The `Method` will does show up in the query string, but it does have an important effect on it: If your `method` is `POST` rather than `GET`, then the additional `Field`s like (`q=panda`) will not show up in the resulting query string. This is for security purposes if you don't want sensitive information visible in the URL.
+`Method` | `<form ... method="get" />` | N/A. The `Method` will does show up in the query string, but it does have an important effect on it: If your `method` is `POST` rather than `GET`, then the additional `Field`s like (`q=panda`) will not show up in the resulting query string. This is for security purposes if you don't want sensitive information visible in the URL.
 
 
 
