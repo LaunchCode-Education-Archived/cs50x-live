@@ -12,7 +12,7 @@ Before coming to class, you should have done [Class 2 Prep](../class2-prep)
   * HMTL
   * CSS
   * HTML Forms
-2. Studio: [LunchCode](../studios/lunchcode)
+2. [Studio: LunchCode](../studios/lunchcode)
 
 ### Homework
 
