@@ -37,7 +37,6 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=TKZlfZDF8Y
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=VwCSw2ts388&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=2" target="_blank">css-1</a> | <br>You can find the pseudocode to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-css-1" target="_blank">here</a>.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=-7wiXVMh4XY&index=3&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">css-2</a> | <br>You can find the pseudocode to start creating the program <a href="../../../../../../helpful-resources/modules/module-6.html#class-2-task-css-2" target="_blank">here</a>.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=RNhQyOd29gk&index=5&list=PLhQjrBD2T382PCsb1fFV7aSujdErpyr6M" target="_blank">CSS</a>
-Do | Exercise | | TODO make them factor out some inline styles into a separate css file 
 
 *** 
 
