@@ -47,7 +47,7 @@ When the user clicks the `<input type="submit" />` button, the request will cons
 
 ### Query String
 
-The user's browser, when sending the request, will also update the URL in its address bar at the top of the window, to indicate that the user has "left" the previous page and is now visiting this new page:
+The user's browser, when sending the request, will also update the URL in its address bar at the top of the window, to indicate that the user has "left" the previous page and is now "visiting" this new page:
 
 `https://www.google.com/search?q=pandas`
 
