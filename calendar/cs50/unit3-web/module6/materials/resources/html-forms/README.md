@@ -53,16 +53,29 @@ The user's browser, when sending the request, will also update the URL in its ad
 
 Notice that the resulting URL (also known as the "query string" for our request) contains a lot of the request's info.
 
+Specifically, notice that the host and endpoint make up the beginning of the url, followed by a `?` mark, followed by the additional field(s).
+
 HTTP Ingredient | HTML Form Example | Resulting Query String
 |----|----|----|
 `Host` | `<form action="https://www.google.com" ... />` | `https://www.google.com`
 `Endpoint` or `Path` | `<form action="https://www.google.com/search" ... />` <br> notice we tacked `/search` onto the end | `https://www.google.com/search`
-additional `Field`s | `<input name="q" value="panda"/>` | `https://www.google.com/search?q=pandas`
-`Method` | `<form ... method="get" />` | N/A. The `Method` will does show up in the query string, but it does have an important effect on it: If your `method` is `POST` rather than `GET`, then the additional `Field`s like (`q=panda`) will not show up in the resulting query string. This is for security purposes if you don't want sensitive information visible in the URL.
+additional `Field`s | `<input name="q" value="panda"/>` <br> `<input name="fruit" value="banana"/>` | `https://www.google.com/search?q=pandas&fruit=banana` <br> Notice that multiple fields are separated with a `&` symbol.
+`Method` | `<form ... method="get" />` | N/A. The `Method` will does show up in the query string, but it does have an important effect on it: If your `method` is `POST` rather than `GET`, then the additional `Field`s like (`q=panda`) will not show up in the resulting query string. This is for security purposes in situations where you don't want sensitive information visible in the URL.
 
 
+### Adding More Fields
 
+If we want to add additional fields to our request, we simply need to add more `<input>` elements to our form. For instance, let's say we wanted to do an *image* search for pandas. It turns out that the way to specify a google image search is to include another field in your request: the `"tbm"` field should have a value of `"isch"` (I have no idea what those keywords mean, I just know it works). We want our url to look like this https://www.google.com/search?q=pandas&tbm=isch. So we simply need to add another input:
 
+```html
+<form action="https://www.google.com/search" method="get">
+    <input name="q" value="pandas" type="text"/>
+    <br/>
+    <input name="tbm" value="isch" type="text"/>
+    <br/>
+    <input type="submit" value="CS50 Search"/>
+</form>
+```
 
 
 to <a href="google.com" target="_blank">google.com</a> right now.
@@ -70,4 +83,3 @@ to <a href="google.com" target="_blank">google.com</a> right now.
 ### Use a Form to Construct an HTTP Request
 
 
-https://www.google.com/search?q=pandas&site=imghp
