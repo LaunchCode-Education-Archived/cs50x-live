@@ -19,6 +19,10 @@ type something in the channel
 
 Introduce the API
 
+Go to Vocareum to get the key
+
+Try posting with the curl request and see the result.
+
 
 ### Your Mission
 
@@ -34,6 +38,40 @@ That's not super interesting, but back in our channel, we should now see this:
 
 <img src="screenshots/zamylapost.png"/>
 
+
+### Starter code
+
+talk about the JS
+
+
+### Debugging
+
+If you're having trouble, the developer tools are a nice place to do some debugging. 
+
+Show network tabs screenshots
+
+
+### Adding Styles
+
+css joke gif
+
+http://www.w3schools.com/css/css_form.asp
+
+google stuff
+
+
+### How to Submit
+
+
+### 
+
+
+
+
+
+
+
+***
 
 TODO
 
