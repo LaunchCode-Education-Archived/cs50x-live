@@ -1,72 +1,21 @@
-.card {
-	margin: 100px;
-	padding: 100px;
-	border-width: 2px;
-	border-color: #ccc;
-	box-shadow: 1px 1px 5px #ccc;
-}
-
-.field {
-	margin-bottom: 30px; 
-	margin-top: 30px;
-}
-
-input {
-	width: 100%;
-    padding: 12px;
-    border-color: teal;
-    border-style: solid;
-    border-width: 2px;
-    color: teal;
-	font-size: 16px;
-	box-sizing: border-box;
-}
-
-label {
-	color: white;
-	font-family: helvetica;
-	background: teal;
-	margin-top: 20px;
-	padding: 6px;
-}
-
-select {
-	width: 200px;
-	height: 30px;
-	border-color: teal;
-    border-width: 2px;
-    border-radius: 4px;
-    color: teal;
-    font-size: 14px;
-    text-align: center;
-}
-
-.heading {
-	background: #604560;
-	padding: 50px;
-	font-family: helvetica;
-	color: white;
-	text-align: center;
-}
-
-#button {
-	font-size: 16px;
-	background: orange;
-	border-width: 0;
-	border-radius: 4px;
-	color: white;
-	box-shadow: 5px 5px 5px #ccc;
-}
-
 body {
 	margin: 0;
 	font-size: 16px;
 	font-family: helvetica;
 }
 
-.footer {
-	background: teal;
-	padding: 20px;
-	text-align: right;
-	color: white;
+.card {
+	margin: 100px;
+	padding: 100px;
+	box-shadow: 1px 1px 5px #ccc;
 }
+
+.heading {
+	padding: 50px;
+	color: white;
+	background: #604560;
+	text-align: center;
+}
+
+
+
