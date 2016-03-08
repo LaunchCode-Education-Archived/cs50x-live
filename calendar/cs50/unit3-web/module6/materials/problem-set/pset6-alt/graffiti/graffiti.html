@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>	
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+	<div class="heading">
+		<h1>Graffiti Wall</h1>
+		<h4>Add your voice to the Pset6-Alt wall</h4>
+	</div>
+
+	<div class="card">
+	<form id="slackForm" method="POST" action="https://hooks.slack.com/services/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" >
+		<div class="field">
+			<label>username</label>
+			<br/>
+			<input name="username" type="text"/>
+		</div>
+		
+		<div class="field">
+			<label>avatar</label>
+			<br/>
+			<select name="icon_emoji" form="slackForm">
+				<option value=":ghost:">Ghost</option>
+				<option value=":banana:">Banana</option>
+			</select>
+		</div>
+
+		<div class="field">
+			<label>message</label>
+			<br/>
+			<input name="text" type="text"/>
+		</div>
+
+		<input name="channel" value="#pset6-alt" type="hidden"/>
+		<input type="hidden" id="payload" name="payload"/>
+		<br/>
+
+		<input id="button" type="submit" value="Tag the Wall!"/>
+	</form>
+	</div>
+
+
+	<div class="footer">
+		<p>"Everyone's doing it!"</p>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script src="constructRequest.js"></script>
+</body>
