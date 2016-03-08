@@ -2,6 +2,8 @@
 
 # Problem Set 6 (Alternative)
 
+<img src="screenshots/graffiti.png"/>
+
 TODO
 
 Something involving cURL and HTML!
