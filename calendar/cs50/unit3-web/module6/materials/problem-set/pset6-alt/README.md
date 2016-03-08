@@ -2,7 +2,38 @@
 
 # Problem Set 6 (Alternative)
 
+This assignment is gong to be very similar to the [LunchCode]() studio. You will create an HTML page with a form that allows the user to interact with an API.
+
+This time we will use the API to Slack, a chatroom service. By filling out the form, users will be able to post messages to a group conversation.
+
+### Slack
+
+Introduce slack
+
+Get them signed up
+
+type something in the channel
+
+
+### Slack API
+
+Introduce the API
+
+
+### Your Mission
+
+Your job is to create a form that will post messages to this slack channel. It should look like this:
+
 <img src="screenshots/graffiti.png"/>
+
+When the user clicks the orange "Tag the Wall" button, the form should submit a "POST" request to the Slack API, and receive a response like this:
+
+<img src="screenshots/response.png"/>
+
+That's not super interesting, but back in our channel, we should now see this:
+
+<img src="screenshots/zamylapost.png"/>
+
 
 TODO
 
