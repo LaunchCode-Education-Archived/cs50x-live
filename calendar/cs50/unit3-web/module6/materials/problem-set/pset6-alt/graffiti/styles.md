@@ -1,3 +1,6 @@
+`styles.css`
+
+```css
 body {
 	margin: 0;
 	font-size: 16px;
@@ -16,6 +19,6 @@ body {
 	background: #604560;
 	text-align: center;
 }
-
+```
 
 
