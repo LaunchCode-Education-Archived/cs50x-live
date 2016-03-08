@@ -44,6 +44,11 @@ That's not super interesting, but back in our channel, we should now see this:
 talk about the JS
 
 
+### Select
+
+talk about `<select>`
+
+
 ### Debugging
 
 If you're having trouble, the developer tools are a nice place to do some debugging. 
