@@ -1,6 +1,6 @@
 .card {
-	margin: 50px;
-	padding: 50px;
+	margin: 100px;
+	padding: 100px;
 	border-width: 2px;
 	border-color: #ccc;
 	box-shadow: 1px 1px 5px #ccc;
@@ -42,7 +42,7 @@ select {
 }
 
 .heading {
-	background: #646;
+	background: #604560;
 	padding: 50px;
 	font-family: helvetica;
 	color: white;
@@ -59,7 +59,6 @@ select {
 }
 
 body {
-	padding: 0;
 	margin: 0;
 	font-size: 16px;
 	font-family: helvetica;
