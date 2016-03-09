@@ -68,13 +68,39 @@ The last thing in our page is a handful of `<script>` tags to run some Javascrip
 
 ### Javascript
 
-What's the deal with this Javascript stuff? Javascript is a programming language that can be run inside a browser. You will learn much more about Javascript in Module 8, and if you go on to do more web development work, especially on the front-end, you will spend lots of time writing JS. 
+What's the deal with this Javascript stuff? Javascript is a programming language that can be executed inside a browser. Javascript is executed by inserting a `<script>` tag in an HTML page. You will learn much more about Javascript in Module 8, and if you go on to do more web development work, especially on the front-end, you will spend lots of time writing JS. 
 
-Of course you have not yet learned any JS, so we have provided you with all of the necessary code, in a file called <a href="constructRequest.html">constructRequest.js</a>. But let's briefly go over what the script does and why we need it in the first place.
+Of course you have not yet learned it yet, so we have provided you with all of the necessary code, which you can see at the bottom of the file. Don't worry about trying to understand it line by line, but let's briefly go over what the script does and why we need it in the first place.
 
-The `constructRequest.js` script is performing one particular, crucial task. Our overall goal in this project is send over to Slack an HTTP request containing a few pieces of information, like the name of the channel we want to post to, the username of the poster, and the text content of their message. But recall that the *format* in which the API is expecting to receive that information is very particular. Namely, Slack is expecting an HTTP request with just *one* additional field, called "payload", *inside of which* are the key value pairs describing the information above. 
+The script here performs one very crucial task. Our overall goal in this project is send over to Slack an HTTP request containing a few pieces of information, like the name of the channel we want to post to, the username of the poster, and the text content of their message. But recall that the *format* in which the API is expecting to receive that information is very particular. Namely, Slack is expecting an HTTP request with just *one* additional field, called "payload", *inside of which* are the key value pairs describing the information above. 
 
-This is not what an HTML form, left to its own devices, is going to give us. The form wants to create a *separate* field for each of its `<input>` elements. So our script's job is to remedy the situation. The script establishes a function that will be called as soon as the form's submit button is clicked. That function will be executed right before the request is sent out. What the function does is, it combs through each of the `<input>` elements in the form and collects their data, and compiles all that data into a JSON string. Finally, it inserts into the form a *new* `<input>` whose `name` is `"payload"` and whose `value` is that JSON string. Now, when the request is sent, it will contain the "pyload" field that Slack is looking for.
+This is not what an HTML form, left to its own devices, is going to give us. The form wants to create a *separate* field for each of its `<input>` elements. So our script's job is to remedy the situation by converting from one format to the other. It does so by establishing a function that will be called as soon as the form's submit button is clicked. That function will be executed right before the request is sent out. What the function does is, it combs through each of the `<input>` elements in the form and collects their data, and compiles all that data into a JSON string. Finally, it inserts into the form a *new* `<input>` whose `name` is `"payload"` and whose `value` is that JSON string. Now, when the request is sent, it will contain the "payload" field that Slack is looking for.
+
+Phew! That was a mouthful. The key takeaway is that an HTML form on its own would not have sent our data in a format that Slack understands, but thanks to this additonal bit of javascript code, you can now write your form in the same style as any other form, including the one you did back in the Studio.
+
+### The Essentials
+
+Ok, time to get to it! 
+
+As always, you should first try to accomplish the most stripped-down, barebones task possible, and then move on to adding additional fanciness in small increments. 
+
+With that in mind, your first task is to scrawl a basic rudimentary message on the wall. Recall that there are only two pieces of info that Slack absoultely requires: 
+
+* the name of the channel
+* the text of the message
+
+So your first step is to get those bits of data into your request. Additionally, as always, you'll need the url for the host and endpoint, and the method type (do you think we want "GET" or "POST" here?)
+
+
+### Debugging
+
+If you're having trouble, the developer tools are a nice place to do some debugging. 
+
+In Chrome, the `Network` tab allows you to inspect HTTP requests and responses coming in and out. That sounds useful! 
+
+<img src="screenshots/devtools.png"/>
+
+<img src="screenshots/devtools2.png"/>
 
 
 
@@ -82,12 +108,6 @@ This is not what an HTML form, left to its own devices, is going to give us. The
 
 talk about `<select>`
 
-
-### Debugging
-
-If you're having trouble, the developer tools are a nice place to do some debugging. 
-
-Show network tabs screenshots
 
 
 ### Adding Styles
@@ -102,8 +122,6 @@ google stuff
 ### How to Submit
 
 
-### 
-
 
 
 
@@ -112,7 +130,7 @@ google stuff
 
 ***
 
-TODO
+### Old Notes:
 
 Something involving cURL and HTML!
 
