@@ -9,7 +9,7 @@ function populatePayloadField() {
 	var formData = getFormData();
 	jsonString = JSON.stringify(formData);
 	document.getElementById("payload").value = jsonString;
-};
+}
 
 function getFormData() {
 	var object = {};
