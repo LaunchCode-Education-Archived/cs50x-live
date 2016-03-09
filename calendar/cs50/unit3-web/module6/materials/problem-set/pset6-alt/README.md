@@ -19,16 +19,22 @@ type something in the channel
 
 Slack has a vast API for doing all kinds of fancy cool stuff. We're going to use one particular feature, their <a>Incoming Web Hooks</a>, which simply allows external programs to post messages to a channel. For example, you might 
 
-Go take a look at the <a>#GraffitiWall</a> channel, which we have set up specifically for the assignment. The idea is that this channel is just a big shared "graffiti wall" on which hundreds of CS50xers will come together and share pearls of wisdom such as:
+Go take a look at the <a href="https://launchcodecommunity.slack.com/messages/pset6-graffitiwall/" target="_blank">#pset6-graffitiwall</a> channel, which we have set up specifically for the assignment. This channel will serve as a big shared "graffiti wall" on which you and hundreds of other CS50xers will come together and share pearls of wisdom such as:
 
 * "Testing 123..."
 * "asdf"
 * "malan wuz hear"
 * "Why is this not working?"
 * "omg it actually worked jk lol"
-* "MALAN RULEZ"
+* "malan rulez!"
 
 It's gonna be wild.
+
+### The Slack API
+
+Before we start building the page, let's take a few minutes to get comfortable with this API.
+
+
 
 Go to Vocareum to get the key
 
