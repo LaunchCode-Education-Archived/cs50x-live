@@ -30,6 +30,8 @@
 	
 	<!-- ...and then our own script -->
 	<script type="text/javascript">
+	
+		// first get a reference to the form
 		var slackForm = document.getElementById("slackForm");
 
 		// right before the form submits, execute the function called populatePayloadField
@@ -51,7 +53,7 @@
 			console.log(slackForm);
 		}
 		
-		// helper function to return a javascript object containing all the form's fields
+		// a helper function to return a javascript object containing all the form's fields
 		function getFormData() {
 			var object = {};
 			var fields = $("#slackForm").serializeArray();
