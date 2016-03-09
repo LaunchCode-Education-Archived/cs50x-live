@@ -19,12 +19,15 @@ type something in the channel
 
 Slack has a vast API for doing all kinds of fancy cool stuff. We're going to use one particular feature, their <a>Incoming Web Hooks</a>, which simply allows external programs to post messages to a channel. For example, you might 
 
-Go take a look at the <a>#GraffitiWall</a> channel, which we have set up specifically for this assignment. The idea is that this channel is just a big shared graffiti wall on which hundreds of CS50xers can come together and share pearls of wisdom and dirty jokes such as
+Go take a look at the <a>#GraffitiWall</a> channel, which we have set up specifically for this assignment. The idea is that this channel is just a big shared "graffiti wall" on which hundreds of CS50xers can come together and share pearls of wisdom and dirty jokes such as
 
 * "Testing 123..."
 * "asdf"
+* "malan wuz hear"
 * "Why is this not working?"
 * "OMG it worked!"
+* "malan rulez!"
+* "does anybody else think 'malan' is really annoying"
 
 It's gonna be wild.
 
