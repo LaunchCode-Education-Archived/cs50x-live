@@ -4,7 +4,7 @@
 
 This problem set is going to be very similar to the [LunchCode]() studio. You will create an HTML page with a form that allows the user to interact with an API.
 
-This time we will use the API to <a href="slack.com" target="_blank">Slack</a>, a chatroom service. By filling out the form, users will be able to post messages to a group conversation.
+This time we will use the API to <a href="https://slack.com" target="_blank">Slack</a>, a chatroom service. By filling out the form, users will be able to post messages to a group conversation.
 
 ### Slack
 
@@ -59,15 +59,15 @@ We have given you some starter code in <a href="graffiti.html" target="_blank">g
 
 Up in the `<head>`, we have a `<title>`, followed by a `<link>` to a css stylesheet, which we have also gotten started for you in <a href="styles.html" target="_blank">styles.css</a>.
 
-Next, in the `<body>`, we have a `<div>` with the page heading and tagline. Below that is the heart of the matter, another `<div>` inside of which is the `<form>` where all the action will happen. Currently there is nothing inside the form other than an `id` attribute, and a strange `<input type="hidden" .../>`. More on that in a minute. 
-
-The last thing in our page is a handful of `<script>` tags to run some Javascript code.
+Next, in the `<body>`, we have a `<div>` with the page heading and tagline. Below that is the heart of the matter, another `<div>` inside of which is the `<form>` where all the action will happen. Currently there is nothing inside the form -- that's where you come in!
 
 ### Javascript
 
-What's the deal with this Javascript stuff? Javascript is a programming language that can be executed inside a browser. Javascript is executed by inserting a `<script>` tag in an HTML page. You will learn much more about Javascript in Module 8, and if you go on to do more web development work, especially on the front-end, you will spend lots of time writing JS. 
+But first, notice that last thing in our page is a handful of `<script>` tags. These will allow us to run a bit of Javascript code when our page loads.
 
-Of course you have not yet learned it yet, so we have provided you with all of the necessary code, which you can see at the bottom of the file. Don't worry about trying to understand it line by line, but let's briefly go over what the script does and why we need it in the first place.
+So what's the deal with the Javascript? Javascript is a programming language that can be executed inside a browser. Javascript is executed by inserting a `<script>` tag in an HTML page, as you can you see here. You will learn much more about Javascript in Module 8, and if you go on to do more web development work, especially on the front-end, you will spend lots of time writing JS. 
+
+Of course you have not yet learned it yet, so we have provided you with all of the necessary code, which is right there at the bottom of the `graffiti.html` file. Don't worry about trying to understand it line by line, but let's briefly go over what the script does and why we need it in the first place.
 
 The script here performs one very crucial task. Our overall goal in this project is send over to Slack an HTTP request containing a few pieces of information, like the name of the channel we want to post to, the username of the poster, and the text content of their message. But recall that the *format* in which the API is expecting to receive that information is very particular. Namely, Slack is expecting an HTTP request with just *one* additional field, called "payload", *inside of which* are the key value pairs describing the information above. 
 
@@ -81,7 +81,7 @@ Ok, time to get to it!
 
 As always, you should first try to accomplish the most stripped-down, barebones task possible, and then move on to adding additional fanciness in small increments. 
 
-With that in mind, your first task is to scrawl a basic rudimentary message on the wall. Recall that there are only two pieces of info that Slack absoultely requires: 
+With that in mind, your first task is to scrawl a basic rudimentary message on the wall. Recall that there are only two pieces of info that Slack absolutely requires: 
 
 * the name of the channel
 * the text of the message
@@ -98,7 +98,6 @@ In Chrome, the `Network` tab allows you to inspect HTTP requests and responses c
 <img src="screenshots/devtools.png"/>
 
 <img src="screenshots/devtools2.png"/>
-
 
 
 ### Select
