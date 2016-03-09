@@ -25,7 +25,7 @@ Go take a look at the <a>#GraffitiWall</a> channel, which we have set up specifi
 * "asdf"
 * "malan wuz hear"
 * "Why is this not working?"
-* "OMG it worked!"
+* "OMG it actually worked lol"
 * "malan rulez!"
 
 It's gonna be wild.
