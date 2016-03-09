@@ -47,7 +47,7 @@ When the user clicks the orange "Scrawl on the Wall" button, the form should sub
 
 That's not super interesting, but back in our channel, we should now see this:
 
-<img src="screenshots/zamylapost.png"/>
+<img src="screenshots/eatyourveg.png"/>
 
 
 ### Starter code
