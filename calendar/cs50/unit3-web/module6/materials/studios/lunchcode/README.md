@@ -34,7 +34,7 @@ Go ahead and copy the source over into a new file in your IDE.
 
 ### Action
 
-You may have noticed that the form currently does not *go* anywhere. Clicking on the `SEND REQUEST` button simply causes the page to refresh. Your first step is to fix that. You want users to be taken to somewhere upon submitting the form. Where they should go, and how to implement that feature, we will leave for you to figure out! For a refresher on form submission, see the <a href="http://cdn.cs50.net/2015/fall/lectures/7/m/src7m/search-0.html.src" target="_blank">search-0 source code<a> from the <a href="https://www.youtube.com/watch?v=RQ2_TIXBo00&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd&index=14" target="_blank">Walkthrough video</a> in which David wrote a front-end to Google's search service. 
+You may have noticed that the form currently does not *go* anywhere. Clicking on the `SEND REQUEST` button simply causes the page to refresh. Your first step is to fix that. You want users to be taken to somewhere upon submitting the form. Where they should go, and how to implement that feature, we will leave for you to figure out! For a refresher on form submission, see the <a href="../../resources/html-forms" target="_blank">HTML Forms resource</a>. 
 
 ### Authentication
 
