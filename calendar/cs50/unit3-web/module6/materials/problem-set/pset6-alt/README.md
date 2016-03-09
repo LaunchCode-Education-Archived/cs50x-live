@@ -8,12 +8,11 @@ This time we will use the API to Slack, a chatroom service. By filling out the f
 
 ### Slack
 
-Slack, if you're not familiar, is a chatroom service. The easiest way to see is to check it out! 
+Slack, if you're not familiar, is a chatroom service designed for teams of people to communicate on group projects. The easiest way to see is to check it out! 
 
-Help them join LaunchCode Community or another team.
+We have a slack team called LaunchCode Community which you should totally should have joined already! But if not, <a href="https://launchcode-community.herokuapp.com" target="_blank">click here</a> to get the invite.
 
-type something in the channel
-
+Once you have created an account and signed in, you should see a chatroom with some messages posted, and a box at the bottom to post your own message. You've been dropped into the #general channel, but there are other channels for more specific topics (each channel is its own chatroom). Click the `Channels` link in the left-hand menu to see a list of all our channels. Scroll down and find the #cs50-general channel and try that one (or just <a>click here</a> if you got lost there). In this channel you'll find friendly folks talking about CS50x and helping each other, lovely stuff like that. Click the `Join Channel` button. Now you can post here too. If you're feeling not-shy, go ahead and say hello!
 
 ### Graffiti
 
@@ -32,9 +31,7 @@ It's gonna be wild.
 
 ### The Slack API
 
-Before we start building the page, let's take a few minutes to get comfortable with this API.
-
-
+Let's take a few minutes to get comfortable with this API.
 
 Go to Vocareum to get the key
 
