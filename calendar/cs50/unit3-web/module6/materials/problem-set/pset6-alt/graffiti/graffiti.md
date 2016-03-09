@@ -15,10 +15,10 @@
 
 	<div class="card">
 		
-		<!-- Don't change the id. Our JS script is expecting "slackForm". -->
+		<!-- Don't change the id. Our JS script below is looking for "slackForm". -->
 		<form id="slackForm"> 
 			
-			<!-- TODO: add the necessary fields and a submit button -->
+			<!-- TODO: add the necessary fields, action, submit button, etc -->
 	
 		</form>
 	</div>
