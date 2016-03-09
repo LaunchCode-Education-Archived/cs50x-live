@@ -58,7 +58,24 @@ That's not super interesting, but over in our #pset6-graffitiwall channel on Sla
 
 ### Starter code
 
-talk about the JS
+We have given you some starter code in <a href="graffiti.html" target="_blank">graffiti.html</a>. Copy this code into a new file in your IDE, and take a look.
+
+Up in the `<head>`, we have a `<title>`, followed by a `<link>` to a css stylesheet, which we have also gotten started for you in <a href="styles.html" target="_blank">styles.css</a>.
+
+Next, in the `<body>`, we have a `<div>` with the page heading and tagline. Below that is the heart of the matter, another `<div>` inside of which is the `<form>` where all the action will happen. Currently there is nothing inside the form other than an `id` attribute, and a strange `<input type="hidden" .../>`. More on that in a minute. 
+
+The last thing in our page is a handful of `<script>` tags to run some Javascript code.
+
+### Javascript
+
+What's the deal with this Javascript stuff? Javascript is a programming language that can be run inside a browser. You will learn much more about Javascript in Module 8, and if you go on to do more web development work, especially on the front-end, you will spend lots of time writing JS. 
+
+Of course you have not yet learned any JS, so we have provided you with all of the necessary code, in a file called <a href="constructRequest.html">constructRequest.js</a>. But let's briefly go over what the script does and why we need it in the first place.
+
+The `constructRequest.js` script is performing one particular, crucial task. Our overall goal in this project is send over to Slack an HTTP request containing a few pieces of information, like the name of the channel we want to post to, the username of the poster, and the text content of their message. But recall that the *format* in which the API is expecting to receive that information is very particular. Namely, Slack is expecting an HTTP request with just *one* additional field, called "payload", *inside of which* are the key value pairs describing the information above. 
+
+This is not what an HTML form, left to its own devices, is going to give us. The form wants to create a *separate* field for each of its `<input>` elements. So our script's job is to remedy the situation. The script establishes a function that will be called as soon as the form's submit button is clicked. That function will be executed right before the request is sent out. What the function does is, it combs through each of the `<input>` elements in the form and collects their data, and compiles all that data into a JSON string. Finally, it inserts into the form a *new* `<input>` whose `name` is `"payload"` and whose `value` is that JSON string. Now, when the request is sent, it will contain the "pyload" field that Slack is looking for.
+
 
 
 ### Select
