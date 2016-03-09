@@ -51,7 +51,7 @@ When the user clicks the orange "Scrawl on the Wall" button, the form should sub
 
 <img src="screenshots/response.png"/>
 
-That's not super interesting, but back in our channel, we should now see this:
+That's not super interesting, but over in our #pset6-graffitiwall channel on Slack, we should now see this:
 
 <img src="screenshots/eatyourveg.png"/>
 
