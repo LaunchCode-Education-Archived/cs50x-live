@@ -2,9 +2,9 @@
 
 # Problem Set 6 (Alternative)
 
-This assignment is gong to be very similar to the [LunchCode]() studio. You will create an HTML page with a form that allows the user to interact with an API.
+This problem set is going to be very similar to the [LunchCode]() studio. You will create an HTML page with a form that allows the user to interact with an API.
 
-This time we will use the API to Slack, a chatroom service. By filling out the form, users will be able to post messages to a group conversation.
+This time we will use the API to <a href="slack.com" target="_blank">Slack</a>, a chatroom service. By filling out the form, users will be able to post messages to a group conversation.
 
 ### Slack
 
@@ -12,7 +12,7 @@ Slack, if you're not familiar, is a chatroom service designed for teams of peopl
 
 We have a slack team called LaunchCode Community which you should totally should have joined already! But if not, <a href="https://launchcode-community.herokuapp.com" target="_blank">click here</a> to get the invite.
 
-Once you have created an account and signed in, you should see a chatroom with some messages posted, and a box at the bottom to post your own message. You've been dropped into the #general channel, but there are other channels for more specific topics (each channel is its own chatroom). Click the `Channels` link in the left-hand menu to see a list of all our channels. Scroll down and find the #cs50-general channel and try that one (or just <a>click here</a> if you got lost there). In this channel you'll find friendly folks talking about CS50x and helping each other, lovely stuff like that. Click the `Join Channel` button. Now you can post here too. If you're feeling not-shy, go ahead and say hello!
+Once you have created an account and signed in, you should see a chatroom with some messages posted, and a box at the bottom to post your own message. You've been dropped into the `#general` channel, but there are other channels for more specific topics (each channel is its own chatroom). Click the `Channels` link in the left-hand menu to see a list of all our channels. Scroll down and find the `#cs50-general` channel and try that one (or just <a href="https://launchcodecommunity.slack.com/messages/cs50-general/" target="_blank">click here</a> if you got lost there). In this channel you'll find friendly folks talking about CS50x and helping each other, lovely stuff like that. Click the `Join Channel` button. Now you can post here too. If you're feeling not-shy, go ahead and say hello!
 
 ### Graffiti
 
@@ -40,7 +40,7 @@ Try posting with the curl request and see the result.
 
 ### Your Mission
 
-Your job is to create an HTML page with a form that will post messages to the #GraffitWall channel. Your page should look something like this:
+Your job is to create an HTML page with a form that will post messages to the `#pset6-graffitiwall` channel. Your page should look something like this:
 
 <img src="screenshots/graffiti.png"/>
 
