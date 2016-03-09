@@ -20,9 +20,6 @@
 			
 			<!-- TODO: add the necessary fields and a submit button -->
 	
-	
-			<!-- this hidden payload input is here so that our JS script can add the correct fields to our HTTP request -->
-			<input type="hidden" name="payload" id="payload"/>
 		</form>
 	</div>
 
