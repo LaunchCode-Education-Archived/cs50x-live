@@ -15,18 +15,18 @@ Help them join LaunchCode Community or another team.
 type something in the channel
 
 
-### Slack API
+### Graffiti
 
 Slack has a vast API for doing all kinds of fancy cool stuff. We're going to use one particular feature, their <a>Incoming Web Hooks</a>, which simply allows external programs to post messages to a channel. For example, you might 
 
-Go take a look at the <a>#GraffitiWall</a> channel, which we have set up specifically for this assignment. The idea is that this channel is just a big shared "graffiti wall" on which hundreds of CS50xers can come together and share pearls of wisdom such as:
+Go take a look at the <a>#GraffitiWall</a> channel, which we have set up specifically for the assignment. The idea is that this channel is just a big shared "graffiti wall" on which hundreds of CS50xers can come together and share pearls of wisdom such as:
 
 * "Testing 123..."
 * "asdf"
 * "malan wuz hear"
 * "Why is this not working?"
-* "OMG it actually worked lol"
-* "malan rulez!"
+* "omg jk it actually worked lol"
+* "malan RULEZ!"
 
 It's gonna be wild.
 
@@ -37,7 +37,7 @@ Try posting with the curl request and see the result.
 
 ### Your Mission
 
-Your job is to create a form that will post messages to this slack channel. It should look like this:
+Your job is to create an HTML page with a form that will post messages to the #GraffitWall channel. Your page should look something like this:
 
 <img src="screenshots/graffiti.png"/>
 
