@@ -4,7 +4,7 @@
 
 This problem set is going to be very similar to the [LunchCode]() studio. You will create an HTML page with a form that allows the user to interact with an API.
 
-This time we will use the API to <a href="https://slack.com" target="_blank">Slack</a>, a chatroom service. By filling out and submitting the form on your page, users will be able to post messages to a group conversation.
+This time we will use the API to <a href="https://slack.com" target="_blank">Slack</a>, a chatroom service. Your page will enable users to post messages to a group conversation.
 
 ### Slack
 
