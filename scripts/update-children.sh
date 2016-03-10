@@ -45,7 +45,7 @@ for CHILD in "${CHILDREN[@]}"; do
 		git checkout gh-pages
 		
 		COMMIT_MSG="auto merge triggered by build number ${TRAVIS_BUILD_NUMBER}"
-		git pull -q --commit -m "${COMMIT_MSG}" upstream/master
+		git pull -q --commit --no-edit upstream master
 
 		# if merge conflicts, deal with it
 		if [[ $? != 0 ]]; then
