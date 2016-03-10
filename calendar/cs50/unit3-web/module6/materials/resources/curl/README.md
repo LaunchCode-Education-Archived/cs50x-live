@@ -104,7 +104,7 @@ The document has moved
 
 You will learn all about HTML starting next class, but for now, suffice it to say that an internet browser like Chrome or Firefox would be able to interpret the code above and render a page onto the window like this:
 
-<img href="./301.png"/>
+<img src="./301.png"/>
 
 where that "[here](http://www.google.com)" link points to `http://www.google.com`.
 
