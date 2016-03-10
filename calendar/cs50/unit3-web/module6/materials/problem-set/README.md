@@ -1,6 +1,6 @@
 [Module 6](../..)
 
-# Problem Set: Pset 6
+# Problem Set 6
 
 ### A Fork in the Road
 
