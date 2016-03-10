@@ -41,6 +41,7 @@ for CHILD in "${CHILDREN[@]}"; do
 
 	pushd "${CHILD}"
 		git remote add upstream "file://${TRAVIS_BUILD_DIR}"
+		git remote -v
 		git checkout gh-pages
 		
 		COMMIT_MSG="auto merge triggered by build number ${TRAVIS_BUILD_NUMBER}"
