@@ -13,7 +13,7 @@ Before coming to class, you should have done [Class 1 Prep](../class1-prep)
     * What your browser does
     * What the server does
     * How HTTP manages this conversation
-2. Studio: [Food Finder](../studios/food-finder)
+2. [Studio: Food Finder](../studios/food-finder)
 
 ### Homework
 
