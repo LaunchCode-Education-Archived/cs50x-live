@@ -102,18 +102,29 @@ In Chrome, the `Network` tab allows you to inspect HTTP requests and responses c
 
 ### Select
 
-talk about `<select>`
+Once you've got the basics working, you can add some more stuff. 
 
+The "low hanging fruit" here is the `username` field. Once you've made it this far, you should know the drill for how to add that.
 
+After the username, we also want the user to be able to choose an avatar image. Slack will let us 
 
-### Adding Styles
+In our mockup image, you might have noticed that we use a little dropdown widget:
 
-css joke gif
+<img src="select.png"/>
 
-http://www.w3schools.com/css/css_form.asp
+How do you make one of those? Introducing another new HTML tag, the `<select>`. Check out <a href="http://www.w3schools.com/tags/tag_select.asp" target="_blank">W3 Schools / Select</a> for an example. 
 
-google stuff
+### CSS
 
+Once you've got all the functionality working, time to make it shine!
+
+The styling on this mockup is a bit more challenging than the assignments you've done so far, and we maybe sorta used some CSS properties you haven't learned about yet. So we're throwing you into the deep end and letting you  here. But that's probably the best way to learn CSS. You say, how do I change the border color? Then you google "css border color" and figure it out.
+
+A great place to start is this article: <a href="http://www.w3schools.com/css/css_form.asp">W3 Schools / CSS Forms</a>.
+
+After you match the mockup, feel free to get creative and style your page however you like!
+
+Good luck! CSS can be <a href="http://imgur.com/gallery/Q3cUg29" target="_blank">frustrating</a>, but can also be loads of fun.
 
 ### How to Submit
 
