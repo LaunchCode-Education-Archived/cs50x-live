@@ -56,8 +56,9 @@ This is a format called JSON. JSON lists key value pairs separated by a colon, a
 
 Once you have everything set up, use <a href="https://manual.cs50.net/api/food/">the documentation</a> to form requests that will answer the following questions:
 
-* What items were on the menu for breakfast yesterday?
-* Examine this menu item:
+**Question 1**: What items were on the menu for breakfast yesterday?
+
+**Question 2**: Examine this menu item:
 
 ```nohighlight
 {
@@ -73,6 +74,8 @@ Once you have everything set up, use <a href="https://manual.cs50.net/api/food/"
 
 Write a request that determines how many calories are in five portions this item.
 
-* Write a request that looks up the ingredients for Taco Nacho Salad. Try this request in two ways: one that uses JSON for the results and one that uses XML. Compare the two result sets and take note of the similarities and differences between them.
+**Question 3**: Write a request that looks up the ingredients for Taco Nacho Salad. Try this request in two ways: one that uses JSON for the results and one that uses XML. Compare the two result sets and take note of the similarities and differences between them. Your answer to this question should include 2 requests: one for JSON, and one for XML.
 
-Once you are finished, put your requests into a text file called **requests.txt** and upload that file to Vocareum. You should have four requests total.
+###How to Submit
+
+Once you are finished, put your requests into a text file called **requests.txt** and upload that file to Vocareum. You should have the answers to the 3 questions. 
