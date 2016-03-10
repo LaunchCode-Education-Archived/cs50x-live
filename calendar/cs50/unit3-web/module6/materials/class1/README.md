@@ -13,9 +13,9 @@ Before coming to class, you should have done [Class 1 Prep](../class1-prep)
     * What your browser does
     * What the server does
     * How HTTP manages this conversation
-2. Studio: [Curl Quest](../studios/food-finder)
+2. Studio: [Food Finder](../studios/food-finder)
 
 ### Homework
 
-1. Complete [Prep Work for Class 2](../class2-prep)
+1. Work on [Problem Set 6](../problem-set)
 
