@@ -1,16 +1,24 @@
 #! /bin/bash
 
+if [ "$(git config --get remote.origin.url)" -ne "git@github.com:LaunchCodeEducation/cs50x-live.git" ]; then
+	echo "not running on child"
+	exit 0
+fi
+
+if [ "$(git rev-parse --abbrev-ref HEAD)" -ne "master" ]; then
+	echo "not running on non-master branch"
+	exit 0
+fi
 
 git fetch --unshallow
-
-git config --global user.email "kegan+ci@launchcode.org"
-git config --global user.name "launch-ci"
 
 if [[ $? != 0 ]]; then
 	echo "unable to 'deepen' repository"
 	exit 2
 fi
 
+git config --global user.email "kegan+ci@launchcode.org"
+git config --global user.name "launch-ci"
 
 CHILD_SSH_KEY="${TRAVIS_BUILD_DIR}/scripts/deploy_ssh_key"
 
@@ -41,10 +49,7 @@ for CHILD in "${CHILDREN[@]}"; do
 
 	pushd "${CHILD}"
 		git remote add upstream "file://${TRAVIS_BUILD_DIR}"
-		git remote -v
 		git checkout gh-pages
-		
-		COMMIT_MSG="auto merge triggered by build number ${TRAVIS_BUILD_NUMBER}"
 		git pull -q --commit --no-edit upstream master
 
 		# if merge conflicts, deal with it
@@ -61,7 +66,6 @@ for CHILD in "${CHILDREN[@]}"; do
 		# commit and push
 		git commit -a -m "automatically building html using couscous triggered by build number ${TRAVIS_BUILD_NUMBER}"
 		# git push origin gh-pages
-		git log
 
 	popd
 done
