@@ -1,0 +1,7 @@
+language: php
+php: 
+- "5.4"
+sudo: false
+script:
+- ./scripts/update-children.sh
+
