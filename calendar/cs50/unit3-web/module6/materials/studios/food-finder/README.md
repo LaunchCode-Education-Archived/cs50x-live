@@ -5,7 +5,7 @@
 
 The CS50 staff have created a few APIs that are available for students to play with. API stands for Application Program Interface. An API provides a consistent way to access a program. The programmer (that's you!) provides a request to the API using a **method**, providing **parameters** that specify what exactly is being requested. If it sounds similar to using functions in C, that's because it is! The biggest difference for this studio is that the requests are sent over the web instead of using C.
 
-For this studio we are going to use the <a href="https://manual.cs50.net/api/food/">Food API</a>** for meals served at Harvard to answer some basic questions.
+For this studio we are going to use the <a href="https://manual.cs50.net/api/food/">Food API</a> for meals served at Harvard to answer some basic questions.
 
 ### Setting Up
 
