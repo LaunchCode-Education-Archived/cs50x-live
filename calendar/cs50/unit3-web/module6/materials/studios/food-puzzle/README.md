@@ -6,7 +6,7 @@
 The CS50 staff have created a few APIs that are available for students to play with. They have:
 * **Courses API** for courses offered at Harvard
 * **Food API** for meals served at Harvard
-* **Maps API** for map data of Harvard's campus
+* **Maps API** for map data about Harvard's campus
 
 We are going to use the Food API to solve a puzzle!
 
@@ -14,7 +14,11 @@ We are going to use the Food API to solve a puzzle!
 
 Link to proper things
 
-Explain about needing API key, walk them through that process
+*Explain about needing API key, walk them through that process*
+
+You'll notice that you need an "API key" in order to proceed.
+
+https://docs.cs50.net/signup
 
 ### Using the API
 
