@@ -65,7 +65,7 @@ for CHILD in "${CHILDREN[@]}"; do
 
 		# commit and push
 		git commit -a -m "automatically building html using couscous triggered by build number ${TRAVIS_BUILD_NUMBER}"
-		# git push origin gh-pages
+		git push origin gh-pages
 
 	popd
 done
