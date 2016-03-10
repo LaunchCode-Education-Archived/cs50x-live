@@ -118,7 +118,7 @@ ok
 
 Hey, that sounds pretty ok! And indeed, if you go over to the `#pset6-graffitiwall` channel, you should now see a message there!
 
-<img src="curlresult1.png"/>
+<img src="screenshots/curlresult.png"/>
 
 We did something!
 
@@ -140,7 +140,7 @@ $ curl -X POST --data 'payload={"text": "Howdily doodily!", "username": "Ned Fla
 
 which should result in a slack post like this:
 
-<img src="curlresult2.png"/>
+<img src="screenshots/curlresult2.png"/>
 
 We were able to specify a username and "avatar" using the `"username"` and `"icon_emoji"` keys.
 
