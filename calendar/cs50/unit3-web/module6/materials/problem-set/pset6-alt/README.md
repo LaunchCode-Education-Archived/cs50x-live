@@ -2,18 +2,17 @@
 
 # Problem Set 6 (Alternative)
 
-This assignment is gong to be very similar to the [LunchCode]() studio. You will create an HTML page with a form that allows the user to interact with an API.
+This problem set is going to be very similar to the [LunchCode]() studio. You will create an HTML page with a form that allows the user to interact with an API.
 
-This time we will use the API to Slack, a chatroom service. By filling out the form, users will be able to post messages to a group conversation.
+This time we will use the API to <a href="https://slack.com" target="_blank">Slack</a>, a chatroom service. By filling out the form, users will be able to post messages to a group conversation.
 
 ### Slack
 
-Slack, if you're not familiar, is a chatroom service. The easiest way to see is to check it out! 
+Slack, if you're not familiar, is a chatroom service designed for teams of people to communicate on group projects. The easiest way to see is to check it out! 
 
-Help them join LaunchCode Community or another team.
+We have a slack team called LaunchCode Community which you should totally should have joined already! But if not, <a href="https://launchcode-community.herokuapp.com" target="_blank">click here</a> to get the invite.
 
-type something in the channel
-
+Once you have created an account and signed in, you should see a chatroom with some messages posted, and a box at the bottom to post your own message. You've been dropped into the `#general` channel, but there are other channels for more specific topics (each channel is its own chatroom). Click the `Channels` link in the left-hand menu to see a list of all our channels. Scroll down and find the `#cs50-general` channel and try that one (or just <a href="https://launchcodecommunity.slack.com/messages/cs50-general/" target="_blank">click here</a> if you got lost there). In this channel you'll find friendly folks talking about CS50x and helping each other, lovely stuff like that. Click the `Join Channel` button. Now you can post here too. If you're feeling not-shy, go ahead and say hello!
 
 ### Graffiti
 
@@ -32,9 +31,7 @@ It's gonna be wild.
 
 ### The Slack API
 
-Before we start building the page, let's take a few minutes to get comfortable with this API.
-
-
+Let's take a few minutes to get comfortable with this API.
 
 Go to Vocareum to get the key
 
@@ -43,7 +40,7 @@ Try posting with the curl request and see the result.
 
 ### Your Mission
 
-Your job is to create an HTML page with a form that will post messages to the #GraffitWall channel. Your page should look something like this:
+Your job is to create an HTML page with a form that will post messages to the `#pset6-graffitiwall` channel. Your page should look something like this:
 
 <img src="screenshots/graffiti.png"/>
 
@@ -62,15 +59,15 @@ We have given you some starter code in <a href="graffiti.html" target="_blank">g
 
 Up in the `<head>`, we have a `<title>`, followed by a `<link>` to a css stylesheet, which we have also gotten started for you in <a href="styles.html" target="_blank">styles.css</a>.
 
-Next, in the `<body>`, we have a `<div>` with the page heading and tagline. Below that is the heart of the matter, another `<div>` inside of which is the `<form>` where all the action will happen. Currently there is nothing inside the form other than an `id` attribute, and a strange `<input type="hidden" .../>`. More on that in a minute. 
-
-The last thing in our page is a handful of `<script>` tags to run some Javascript code.
+Next, in the `<body>`, we have a `<div>` with the page heading and tagline. Below that is the heart of the matter, another `<div>` inside of which is the `<form>` where all the action will happen. Currently there is nothing inside the form -- that's where you come in!
 
 ### Javascript
 
-What's the deal with this Javascript stuff? Javascript is a programming language that can be executed inside a browser. Javascript is executed by inserting a `<script>` tag in an HTML page. You will learn much more about Javascript in Module 8, and if you go on to do more web development work, especially on the front-end, you will spend lots of time writing JS. 
+But first, notice that last thing in our page is a handful of `<script>` tags. These will allow us to run a bit of Javascript code when our page loads.
 
-Of course you have not yet learned it yet, so we have provided you with all of the necessary code, which you can see at the bottom of the file. Don't worry about trying to understand it line by line, but let's briefly go over what the script does and why we need it in the first place.
+So what's the deal with the Javascript? Javascript is a programming language that can be executed inside a browser. Javascript is executed by inserting a `<script>` tag in an HTML page, as you can you see here. You will learn much more about Javascript in Module 8, and if you go on to do more web development work, especially on the front-end, you will spend lots of time writing JS. 
+
+Of course you have not yet learned it yet, so we have provided you with all of the necessary code, which is right there at the bottom of the `graffiti.html` file. Don't worry about trying to understand it line by line, but let's briefly go over what the script does and why we need it in the first place.
 
 The script here performs one very crucial task. Our overall goal in this project is send over to Slack an HTTP request containing a few pieces of information, like the name of the channel we want to post to, the username of the poster, and the text content of their message. But recall that the *format* in which the API is expecting to receive that information is very particular. Namely, Slack is expecting an HTTP request with just *one* additional field, called "payload", *inside of which* are the key value pairs describing the information above. 
 
@@ -84,7 +81,7 @@ Ok, time to get to it!
 
 As always, you should first try to accomplish the most stripped-down, barebones task possible, and then move on to adding additional fanciness in small increments. 
 
-With that in mind, your first task is to scrawl a basic rudimentary message on the wall. Recall that there are only two pieces of info that Slack absoultely requires: 
+With that in mind, your first task is to scrawl a basic rudimentary message on the wall. Recall that there are only two pieces of info that Slack absolutely requires: 
 
 * the name of the channel
 * the text of the message
@@ -103,21 +100,31 @@ In Chrome, the `Network` tab allows you to inspect HTTP requests and responses c
 <img src="screenshots/devtools2.png"/>
 
 
-
 ### Select
 
-talk about `<select>`
+Once you've got the basics working, you can add some more stuff. 
 
+The "low hanging fruit" here is the `username` field. Once you've made it this far, you should know the drill for how to add that.
 
+After the username, we also want the user to be able to choose an avatar image. Slack will let us 
 
-### Adding Styles
+In our mockup image, you might have noticed that we use a little dropdown widget:
 
-css joke gif
+<img src="select.png"/>
 
-http://www.w3schools.com/css/css_form.asp
+How do you make one of those? Introducing another new HTML tag, the `<select>`. Check out <a href="http://www.w3schools.com/tags/tag_select.asp" target="_blank">W3 Schools / Select</a> for an example. 
 
-google stuff
+### CSS
 
+Once you've got all the functionality working, time to make it shine!
+
+The styling on this mockup is a bit more challenging than the assignments you've done so far, and we maybe sorta used some CSS properties you haven't learned about yet. So we're throwing you into the deep end and letting you  here. But that's probably the best way to learn CSS. You say, how do I change the border color? Then you google "css border color" and figure it out.
+
+A great place to start is this article: <a href="http://www.w3schools.com/css/css_form.asp">W3 Schools / CSS Forms</a>.
+
+After you match the mockup, feel free to get creative and style your page however you like!
+
+Good luck! CSS can be <a href="http://imgur.com/gallery/Q3cUg29" target="_blank">frustrating</a>, but can also be loads of fun.
 
 ### How to Submit
 

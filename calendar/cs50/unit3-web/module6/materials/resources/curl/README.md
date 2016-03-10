@@ -1,5 +1,5 @@
 ##### Module 6 
-[Back to Class 1 Prep](../../class1-prep)
+[Back to Class 1 Prep](../../class1-prep#http-and-servers)
 
 # Follow Along: cURL
 
@@ -104,7 +104,7 @@ The document has moved
 
 You will learn all about HTML starting next class, but for now, suffice it to say that an internet browser like Chrome or Firefox would be able to interpret the code above and render a page onto the window like this:
 
-<img href="./301.png"/>
+<img src="./301.png"/>
 
 where that "[here](http://www.google.com)" link points to `http://www.google.com`.
 
@@ -137,7 +137,7 @@ If you run the above command, and all goes well, you should see an ungodly barra
 
 From the first line, `HTTP/1.1 200 OK` we can see that this time we got back a `200 OK` response code, indicating that everything is peachy. 
 
-Below the headers are the Great Wall of Text, which, in fact, perfectly valid HTML, namely the HTML that describes google's homepage!
+Below the headers are the Great Wall of Text, which is, in fact, perfectly valid HTML, namely the HTML that describes google's homepage!
 
 Let's verify this for ourselves. Using the `-o` option, we can tell cURL to pipe its output into a file for us. We want to  pipe the output into an HTML file called, say, `google.html`. Run the following:
 
