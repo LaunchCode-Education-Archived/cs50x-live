@@ -43,11 +43,106 @@ where `123456789` represents a unique identifier to our `#pset6-graffitiwall` ch
 
 The overall url we want is simply the endpoint tacked onto the host: `https://hooks.slack.com/services/123456789`
 
-Let's open up a terminal window and try to connect to this url. If you run the following command:
+Let's open up a terminal window and try to connect to this url. The following command
 
 `curl https://hooks.slack.com/services/123456789`
 
-you should get a response of `no payload received`. Slack is telling us that we didn't give it the information it needs: namely,  It turns out the Slack API wants an argument called "payload"
+is a start, but there are a few things missing. 
+
+First, Slack specifies that they want an HTTP POST request, not a GET (which is what cURL uses by default). Let's specify that we want to make a POST request. We do this using the `-X` flag:
+
+```nohighlight
+$ curl -X POST https://hooks.slack.com/services/123456789
+```
+
+If you run that command, you should get a response of `no payload received`. We're getting closer. the problem now is that Slack is telling us that we didn't give it the information it needs: namely, if we're trying to post something to a channel, we must specify the contents of our message. The name of this field is `"text"`, and we provide a string value as our message. A natural first attempt would be to do something like this:
+
+```nohighlight
+$ curl -X POST https://hooks.slack.com/services/123456789?text=hello
+```
+
+But this will result in the same bitter rejection again: "no payload received". What's going on? It runs out that Slack wants this additional data in the form of a JSON string, rather than a normal field appended to a request. Recall that JSON is just a format for representing key/value pairs of information using `{` curly braces `}` and colons `:`, like this:
+
+```nohighlight
+{ 
+    "name": "Harold",
+    "icecream": "strawberry",
+    "anotherKey": "anotherValue",
+}
+```
+
+In our case we just have one piece of data:
+
+```nohighlight
+{ 
+    "text": "hello"
+}
+```
+
+which can be consdensed into 
+
+```nohighlight
+{ "text": "hello" }
+```
+
+because JSON does not require the whtiespace.
+
+Slack wants this JSON to be the value associated with the key name "payload", so how about this?
+
+```nohighlight
+$ curl -X POST https://hooks.slack.com/services/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?payload={"text": "hello"}
+```
+
+Almost there! This results in a response like
+
+```nohighlight
+curl: (3) [globbing] unmatched brace in column 87
+curl: (3) [globbing] unmatched close brace/bracket in column 6
+```
+
+The problem is that there are certain characters, such as `{`, that you can't put directly inside a url. But `curl` gives us another avenue for attaching data to an HTTP request, the `--data` flag:
+
+```nohighlight
+$ curl -X POST --data 'payload={"text": "hello"}' https://hooks.slack.com/services/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
+```
+
+Notice that we must wrap this part `'payload={"text": "hello"}'` in `'`single quotes`'`.
+
+This command should receive a response of
+
+```nohighlight
+ok
+```
+
+That sounds pretty ok! If you go over to the `#pset6-graffitiwall` channel, you should indeed now see a message there!
+
+<img src="curlresult1.png"/>
+
+Now let's spice it up a bit. Slack gives you the option of passing over a few more pieces of information. Let's try a payload like this:
+
+```nohighlight
+{ 
+    "text": "Howdily doodily!",
+    "username": "Ned Flanders",
+    "icon_emoji": ":smile:"
+}
+```
+
+which creates a curl request like this:
+
+```nohighlight
+$ curl -X POST --data 'payload={"text": "Howdily doodily!", "username": "Ned Flanders", "icon_emoji": ":smile:"}' https://hooks.slack.com/services/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
+```
+
+which results in a slack post like this:
+
+<img src="curlresult2.png"/>
+
+We were able to specify a username and "avatar" using the `"username"` and `"icon_emoji"` keys.
+
+Howdily doodily indeed! 
+
+For the `icon_emoji`, notice that we provided as special syntax with the name of the emoji ("smiley") wrapped in colons. Slack has a list of available emojis with their corresponding names which you can find <a href="">here</a>
 
 ### Your Mission
 
