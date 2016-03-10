@@ -1,6 +1,6 @@
 ##### [Module 6](../../../)
 
-# Problem Set 6 (Alternative)
+# Problem Set 6 Alt
 
 This problem set is going to be very similar to the [LunchCode]() studio. You will create an HTML page with a form that allows the user to interact with an API.
 
