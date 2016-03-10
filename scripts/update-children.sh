@@ -40,8 +40,9 @@ for CHILD in "${CHILDREN[@]}"; do
 	fi
 
 	pushd "${CHILD}"
-		git remote add upstream "${TRAVIS_BUILD_DIR}"
+		git remote add upstream "file://${TRAVIS_BUILD_DIR}"
 		git checkout gh-pages
+		
 		COMMIT_MSG="auto merge triggered by build number ${TRAVIS_BUILD_NUMBER}"
 		git pull -q --commit -m "${COMMIT_MSG}" upstream master
 
