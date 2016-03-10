@@ -4,13 +4,13 @@
 
 This problem set is going to be very similar to the [LunchCode]() studio. You will create an HTML page with a form that allows the user to interact with an API.
 
-This time we will use the API to <a href="https://slack.com" target="_blank">Slack</a>, a chatroom service. By filling out the form, users will be able to post messages to a group conversation.
+This time we will use the API to <a href="https://slack.com" target="_blank">Slack</a>, a chatroom service. By filling out and submitting the form on your page, users will be able to post messages to a group conversation.
 
 ### Slack
 
 Slack, if you're not familiar, is a chatroom service designed for teams of people to communicate on group projects. The easiest way to see is to check it out! 
 
-We have a slack team called LaunchCode Community which you should totally should have joined already! But if not, <a href="https://launchcode-community.herokuapp.com" target="_blank">click here</a> to get the invite.
+We have a slack team called LaunchCode Community which you should totally join if you haven't already! <a href="https://launchcode-community.herokuapp.com" target="_blank">Click here</a> to get an invite.
 
 Once you have created an account and signed in, you should see a chatroom with some messages posted, and a box at the bottom to post your own message. You've been dropped into the `#general` channel, but there are other channels for more specific topics (each channel is its own chatroom). Click the `Channels` link in the left-hand menu to see a list of all our channels. Scroll down and find the `#cs50-general` channel and try that one (or just <a href="https://launchcodecommunity.slack.com/messages/cs50-general/" target="_blank">click here</a> if you got lost there). In this channel you'll find friendly folks talking about CS50x and helping each other, lovely stuff like that. Click the `Join Channel` button. Now you can post here too. If you're feeling not-shy, go ahead and say hello!
 
@@ -106,19 +106,17 @@ Once you've got the basics working, you can add some more stuff.
 
 The "low hanging fruit" here is the `username` field. Once you've made it this far, you should know the drill for how to add that.
 
-After the username, we also want the user to be able to choose an avatar image. Slack will let us 
-
-In our mockup image, you might have noticed that we use a little dropdown widget:
+After the username, we also want the user to be able to choose an avatar image. For this field, you might have noticed in our mockup image that we use a little dropdown widget:
 
 <img src="screenshots/select.png"/>
 
-How do you make one of those? Introducing another new HTML tag, the `<select>`. Check out <a href="http://www.w3schools.com/tags/tag_select.asp" target="_blank">W3 Schools / Select</a> for an example. 
+How do you make one of those? Time to introduce a new HTML tag, the `<select>`. Check out <a href="http://www.w3schools.com/tags/tag_select.asp" target="_blank">W3 Schools / Select</a> for guidance. 
 
 ### CSS
 
 Once you've got all the functionality working, time to make it shine!
 
-The styling on this mockup is a bit more challenging than the assignments you've done so far, and we maybe sorta used some CSS properties you haven't learned about yet. So we're throwing you into the deep end and letting you  here. But that's probably the best way to learn CSS. You say, how do I change the border color? Then you google "css border color" and figure it out.
+The styling on this mockup is a bit more challenging than the assignments you've done so far, and we maybe sorta used some CSS properties you haven't learned about yet. So we're throwing you into the deep end here. But that's probably the best way to learn CSS. You say, *hmm, how do I add a shadow behind my button?*, and then you google "css shadow button" and figure it out.
 
 A great place to start is this article: <a href="http://www.w3schools.com/css/css_form.asp">W3 Schools / CSS Forms</a>.
 
@@ -128,45 +126,7 @@ Good luck! CSS can be <a href="http://imgur.com/gallery/Q3cUg29" target="_blank"
 
 ### How to Submit
 
+On Vocareum, click the assignment titled **Problem Set 6 Alt: Graffiti**.
 
+Submit your `graffiti.html` and `styles.css` files.
 
-
-
-
-
-
-***
-
-### Old Notes:
-
-Something involving cURL and HTML!
-
-Should reinforce the material covered in the 
-<a href="../../class1-prep" target="_blank">prep</a>
-<a href="../../class2-prep" target="_blank">work</a>.
-
-Should require 5+ hours of work for most students.
-
-## The Notes for the cURL part
-
-#### The Workflow
-
-The flow for the curl part of the PSET should be this:
-
-1. Intro the part of the HTTP protocol that we want to talk about
-2. Translate that to curl invocation
-3. Execute the command, and have students look at stdout from terminal and from browser
-
-#### The Activities
-
-I have a couple of suggestions of possible APIs to interact with, here are a few:
-
-- [SWAPI](swapi.co) GET only, no auth
-- [GitHub](https://developer.github.com/v3/)
-- [WikiMedia](https://en.wikipedia.org/w/api.php)
-- Google Search
-- Slack??
-- Twitter??
-
-Because we are going to focus on HTML and CSS in this PSET, I suggest that we focus on
-the services that return HTML instead of JSON. 
