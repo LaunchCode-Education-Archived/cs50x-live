@@ -1,10 +1,13 @@
 #! /bin/bash
 
-openssl aes-256-cbc -K $encrypted_30536b4245ad_key -iv $encrypted_30536b4245ad_iv -in scripts/deploy_ssh_key.enc -out scripts/deploy_ssh_key -d
+CHILD_SSH_KEY="${TRAVIS_BUILD_DIR}/scripts/deploy_ssh_key"
+
+openssl aes-256-cbc -K $encrypted_30536b4245ad_key -iv $encrypted_30536b4245ad_iv -in scripts/deploy_ssh_key.enc -out "${CHILD_SSH_KEY}" -d
 
 
 eval $(ssh-agent)
-ssh-add "${TRAVIS_BUILD_DIR}/scripts/deploy_ssh_key"
+chmod 400 "${CHILD_SSH_KEY}"
+ssh-add "${CHILD_SSH_KEY}"
 
 
 PREFIX="git@github.com:LaunchCodeEducation"

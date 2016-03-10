@@ -4,4 +4,6 @@ php:
 sudo: false
 script:
 - ./scripts/update-children.sh
-
+branches:
+  only:
+    - master
