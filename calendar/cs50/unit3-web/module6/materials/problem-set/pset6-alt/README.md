@@ -31,11 +31,13 @@ It's gonna be wild.
 
 ### The Slack API
 
-Let's take a few minutes to get comfortable with this API. First, quickly read through the <a href="https://api.slack.com/incoming-webhooks" target="_blank">Incoming Web Hooks</a> documentation page.
+Let's take a few minutes to get comfortable with this API. 
 
-Remember the basic ingredients we need in order to send an HTTP request: the host server, the endpoint on that host, the type of HTTP method we want to use (GET or POST), and any other data we need to send.
+First, quickly read through the <a href="https://api.slack.com/incoming-webhooks" target="_blank">Incoming Web Hooks</a> documentation page.
 
-According to the docs, the host that we want to talk to is `https://hooks.slack.com`
+Remember the basic ingredients we need in order to send an HTTP request: the host server, the endpoint on that host, the type of HTTP method we want to use (GET or POST), and any additional data we need to send.
+
+According to the Slack docs, the host that we want to talk to is `https://hooks.slack.com`
 
 The endpoint is `/services/123456789`
 
