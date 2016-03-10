@@ -146,7 +146,7 @@ We were able to specify a username and "avatar" using the `"username"` and `"ico
 
 Howdily doodily indeed! 
 
-For the `icon_emoji`, notice that we provided as special syntax with the name of the emoji ("smiley") wrapped in colons. Slack has a list of available emojis with their corresponding names which you can find <a href="">here</a>
+For the `icon_emoji`, notice that we provided as special syntax with the name of the emoji ("smiley") wrapped in colons. Slack has a list of available emojis with their corresponding names which you can find <a href="http://www.emoji-cheat-sheet.com/">here</a>
 
 ### Your Mission
 
