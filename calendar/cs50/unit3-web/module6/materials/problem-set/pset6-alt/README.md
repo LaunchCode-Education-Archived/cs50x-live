@@ -110,7 +110,7 @@ After the username, we also want the user to be able to choose an avatar image. 
 
 In our mockup image, you might have noticed that we use a little dropdown widget:
 
-<img src="select.png"/>
+<img src="screenshots/select.png"/>
 
 How do you make one of those? Introducing another new HTML tag, the `<select>`. Check out <a href="http://www.w3schools.com/tags/tag_select.asp" target="_blank">W3 Schools / Select</a> for an example. 
 
