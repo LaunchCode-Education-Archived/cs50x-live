@@ -2,7 +2,10 @@
 
 openssl aes-256-cbc -K $encrypted_30536b4245ad_key -iv $encrypted_30536b4245ad_iv -in scripts/deploy_ssh_key.enc -out scripts/deploy_ssh_key -d
 
-export GIT_SSH_COMMAND="ssh -i ${TRAVIS_BUILD_DIR}/scripts/deploy_ssh_key"
+
+eval $(ssh-agent)
+ssh-add "${TRAVIS_BUILD_DIR}/scripts/deploy_ssh_key"
+
 
 PREFIX="git@github.com:LaunchCodeEducation"
 CHILDREN=("cs50x-stlouis")
