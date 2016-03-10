@@ -17,5 +17,5 @@ Before coming to class, you should have done [Class 1 Prep](../class1-prep)
 
 ### Homework
 
-1. Work on [Problem Set 6](../problem-set)
+1. Complete [Prep Work for Class 2](../class2-prep)
 
