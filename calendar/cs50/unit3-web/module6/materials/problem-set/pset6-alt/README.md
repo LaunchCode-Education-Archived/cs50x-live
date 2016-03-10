@@ -44,7 +44,7 @@ Your job is to create an HTML page with a form that will post messages to the `#
 
 <img src="screenshots/graffiti.png"/>
 
-When the user clicks the orange "Scrawl on the Wall" button, the form should submit a "POST" request to the Slack API, and receive a response like this:
+When the user clicks the orange "Scrawl on the Wall" button, the form should submit a request to the Slack API, and receive a response like this:
 
 <img src="screenshots/response.png"/>
 
