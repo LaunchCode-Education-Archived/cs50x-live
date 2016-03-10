@@ -77,6 +77,7 @@ echo "there were ${#FAILURES[@]} failures"
 
 if [[ ${#FAILURES[@]} != 0 ]]; then
 	echo "failures were ${FAILURES[*]}"
+	exit 1
 fi
 
 popd
