@@ -78,4 +78,4 @@ Write a request that determines how many calories are in five portions this item
 
 ###How to Submit
 
-Once you are finished, put your requests into a text file called **requests.txt** and upload that file to Vocareum. You should have the answers to the 3 questions. 
+Once you are finished, put your requests into a text file called **requests.txt** and upload that file to Vocareum. Your should include the answers to all 3 questions. 
