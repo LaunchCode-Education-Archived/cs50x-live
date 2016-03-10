@@ -63,13 +63,13 @@ If you run that command, you should get a response of `no payload received`. We'
 $ curl -X POST https://hooks.slack.com/services/123456789?text=hello
 ```
 
-But this will result in the same bitter rejection again: "no payload received". What's going on? It runs out that Slack wants this additional data in the form of a JSON string, rather than a normal field appended to a request. Recall that JSON is just a format for representing key/value pairs of information using `{` curly braces `}` and colons `:`, like this:
+But this will result in the same bitter rejection again: "no payload received". What's going on? It turns out that Slack wants this additional data in the form of a JSON string, rather than a normal field appended to a request. Recall that JSON is just a format for representing key/value pairs of information using `{` curly braces `}` and colons `:`, like this:
 
 ```nohighlight
 { 
     "name": "Harold",
     "icecream": "strawberry",
-    "anotherKey": "anotherValue",
+    "anotherKey": "anotherValue"
 }
 ```
 
@@ -92,10 +92,10 @@ because JSON does not require the whtiespace.
 Slack wants this JSON to be the value associated with the key name "payload", so how about this?
 
 ```nohighlight
-$ curl -X POST https://hooks.slack.com/services/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?payload={"text": "hello"}
+$ curl -X POST https://hooks.slack.com/services/123456789?payload={"text": "hello"}
 ```
 
-Almost there! This results in a response like
+Almost there! The above attempt results in a response like:
 
 ```nohighlight
 curl: (3) [globbing] unmatched brace in column 87
@@ -108,7 +108,7 @@ The problem is that there are certain characters, such as `{`, that you can't pu
 $ curl -X POST --data 'payload={"text": "hello"}' https://hooks.slack.com/services/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
 ```
 
-Notice that we must wrap this part `'payload={"text": "hello"}'` in `'`single quotes`'`.
+Notice that we must wrap the `'payload={"text": "hello"}'` portion in `'`single quotes`'`.
 
 This command should receive a response of
 
@@ -116,11 +116,13 @@ This command should receive a response of
 ok
 ```
 
-That sounds pretty ok! If you go over to the `#pset6-graffitiwall` channel, you should indeed now see a message there!
+Hey, that sounds pretty ok! And indeed, if you go over to the `#pset6-graffitiwall` channel, you should now see a message there!
 
 <img src="curlresult1.png"/>
 
-Now let's spice it up a bit. Slack gives you the option of passing over a few more pieces of information. Let's try a payload like this:
+We did something!
+
+Now let's spice this up a bit. Slack gives you the option of passing over a few more pieces of information. Let's try a payload like this:
 
 ```nohighlight
 { 
@@ -130,13 +132,13 @@ Now let's spice it up a bit. Slack gives you the option of passing over a few mo
 }
 ```
 
-which creates a curl request like this:
+which we will insert into our curl request like this:
 
 ```nohighlight
 $ curl -X POST --data 'payload={"text": "Howdily doodily!", "username": "Ned Flanders", "icon_emoji": ":smile:"}' https://hooks.slack.com/services/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
 ```
 
-which results in a slack post like this:
+which should result in a slack post like this:
 
 <img src="curlresult2.png"/>
 
