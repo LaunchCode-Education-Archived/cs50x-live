@@ -3,6 +3,9 @@
 
 git fetch --unshallow
 
+git config --global user.email "kegan+ci@launchcode.org"
+git config --global user.name "launch-ci"
+
 if [[ $? != 0 ]]; then
 	echo "unable to 'deepen' repository"
 	exit 2
