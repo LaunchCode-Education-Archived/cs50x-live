@@ -1,5 +1,14 @@
 #! /bin/bash
 
+
+git fetch --unshallow
+
+if [[ $? != 0 ]]; then
+	echo "unable to 'deepen' repository"
+	exit 2
+fi
+
+
 CHILD_SSH_KEY="${TRAVIS_BUILD_DIR}/scripts/deploy_ssh_key"
 
 openssl aes-256-cbc -K $encrypted_30536b4245ad_key -iv $encrypted_30536b4245ad_iv -in scripts/deploy_ssh_key.enc -out "${CHILD_SSH_KEY}" -d
