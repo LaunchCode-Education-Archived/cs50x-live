@@ -61,11 +61,11 @@ for CHILD in "${CHILDREN[@]}"; do
 		fi
 
 		# eat couscous
-		"${TRAVIS_BUILD_DIR}/couscous" generate
+		"${TRAVIS_BUILD_DIR}/update-website.sh" #generate
 
 		# commit and push
-		git commit -a -m "automatically building html using couscous triggered by build number ${TRAVIS_BUILD_NUMBER}"
-		git push origin gh-pages
+		#git commit -a -m "automatically building html using couscous triggered by build number ${TRAVIS_BUILD_NUMBER}"
+		#git push origin gh-pages
 
 	popd
 done
