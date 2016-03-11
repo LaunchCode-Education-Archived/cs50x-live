@@ -33,7 +33,7 @@ menu:
             attributes: target="_blank"
         vocareum:
             text: Vocareum
-            absoluteUrl: http://labs.vocareum.com/main/
+            absoluteUrl: https://labs.vocareum.com/home/login.php
             attributes: target="_blank"
         piazza:
             text: Piazza
