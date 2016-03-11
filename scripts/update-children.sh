@@ -1,22 +1,27 @@
 #! /bin/bash
 
+# we hsoudl only run this script on the master branch of the "generic" parent repo
+
 if [ "$(git config --get remote.origin.url)" -ne "git@github.com:LaunchCodeEducation/cs50x-live.git" ]; then
-	echo "not running on child"
+	echo "I am aborting because this is a child repo"
 	exit 0
 fi
 
 if [ "$(git rev-parse --abbrev-ref HEAD)" -ne "master" ]; then
-	echo "not running on non-master branch"
+	echo "I am aborting because this is not the master branch"
 	exit 0
 fi
 
+# deepen the repository
 git fetch --unshallow
 
 if [[ $? != 0 ]]; then
-	echo "unable to 'deepen' repository"
+	echo "unable to deepen repository"
 	exit 2
 fi
 
+
+# configure local permissions so that we can push to github
 git config --global user.email "kegan+ci@launchcode.org"
 git config --global user.name "launch-ci"
 
@@ -32,8 +37,6 @@ ssh-add "${CHILD_SSH_KEY}"
 
 PREFIX="git@github.com:LaunchCodeEducation"
 CHILDREN=("cs50x-stlouis" "cs50x-kansascity")
-
-
 FAILURES=()
 
 TEMPDIR=$(mktemp -d)
@@ -41,18 +44,24 @@ pushd "${TEMPDIR}"
 
 
 for CHILD in "${CHILDREN[@]}"; do
+	echo
+	echo "I will now attempt to propogate changes downstream to ${CHILD}"
+
 	git clone "${PREFIX}/${CHILD}"
 
 	if [[ $? != 0 ]]; then
+		echo "unable to clone"
 		exit 1
 	fi
 
 	pushd "${CHILD}"
 		git remote add upstream "file://${TRAVIS_BUILD_DIR}"
 		git checkout gh-pages
+		echo
+		echo "Now I will attempt to merge in changes from upstream (cs50x-live)"
 		git pull -q --commit --no-edit upstream master
 
-		# if merge conflicts, deal with it
+		# if merge conflicts,
 		if [[ $? != 0 ]]; then
 			# add this to FAILURES array
 			FAILURES+="${CHILD}"
@@ -60,23 +69,16 @@ for CHILD in "${CHILDREN[@]}"; do
 			continue
 		fi
 
-		# eat couscous
-		"${TRAVIS_BUILD_DIR}/update-website.sh" #generate
-
-		# commit and push
-		#git commit -a -m "automatically building html using couscous triggered by build number ${TRAVIS_BUILD_NUMBER}"
-		#git push origin gh-pages
+		# run the update-website script
+		"${TRAVIS_BUILD_DIR}/update-website.sh"
 
 	popd
 done
 
-echo 
-echo 
-echo
-echo "there were ${#FAILURES[@]} failures" 
-
+# if there were any failures, report them and cuase build failure
 if [[ ${#FAILURES[@]} != 0 ]]; then
-	echo "failures were ${FAILURES[*]}"
+	echo
+	echo "The following child repos failed: ${FAILURES[*]}"
 	exit 1
 fi
 
