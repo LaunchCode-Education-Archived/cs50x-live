@@ -34,7 +34,6 @@ PREFIX="git@github.com:LaunchCodeEducation"
 CHILDREN=("cs50x-stlouis" "cs50x-kansascity")
 
 
-
 FAILURES=()
 
 TEMPDIR=$(mktemp -d)
