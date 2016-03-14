@@ -5,7 +5,15 @@
 
 #### Synopsis 
 
-By the end of this module you will have completed [Problem Set 7](./materials/problem-set).
+In Module 6 you got a bit of experience building the front end of a website. You learned how to build an HTML page with a form that sends HTTP requests out to an external server somewhere (like Google or an API exposed by Slack or CS50).
+
+But what if we ourselves want to dictate what response should come back from that request? For example, if a user on Susan's blog page clicks the button called "archived articles", he wants to see an archive of all the articles Susan has written. So instead of sending a request to Google or somewhere, the button should cause a request to get sent to Susan's very own back end, which she has written herself, so she can handle that request and say "Oh, you want those articles? Well, here you go!" 
+
+In order to implement your own back end like Susan, you will learn, in this module, a new language called PHP. PHP is a very popular back end web prgramming language, which has some similarities to C, but some new features as well. You will be happy to discover that PHP simplifies a lot of tasks that were very tedious to accomplish in C (though the same could be said for most modern, higher-level languages. Now that you've done C, everything else should look a little friendlier by comparison!)
+
+In addition to a back end, most websites have a database. Going back to Susan's articles for a second, the database is the location where all of her archived articles actually live. In order to respond to the user with the contents of one such article, her back end would have to "query" the database to find it. This module will also introduce a language called SQL (Structured Query Language) for interacting with your database.
+
+In Problem Set 7, you will put all these new skills to good use, building your own website called CS50 Finance, which allows users to buy and sell shares of make-believe stock on the stock market, and manage their portfolio.
 
 *** 
 
