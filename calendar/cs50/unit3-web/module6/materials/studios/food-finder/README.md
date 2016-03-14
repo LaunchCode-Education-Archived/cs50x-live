@@ -11,7 +11,7 @@ For this studio we are going to use the <a href="https://manual.cs50.net/api/foo
 
 You'll notice that you need an "API key" in order to proceed.
 
-https://docs.cs50.net/signup
+<a href="https://docs.cs50.net/signup" target="_blank">https://docs.cs50.net/signup</a>
 
 Fill out the form in the link above. You will then be sent an email to verify your account. Go to the link in the email and login then click the API credentials link at the top of the page. You should then see something that says:
 
