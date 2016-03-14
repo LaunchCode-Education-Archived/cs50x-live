@@ -72,7 +72,7 @@ Once you have everything set up, use <a href="https://manual.cs50.net/api/food/"
 }
 ```
 
-Write a request that determines how many calories are in five portions this item.
+Write a request that determines how many calories are in five portions of this item.
 
 **Question 3**: Write a request that looks up the ingredients for Taco Nacho Salad. Try this request in two ways: one that uses JSON for the results and one that uses XML. Compare the two result sets and take note of the similarities and differences between them. Your answer to this question should include 2 requests: one for JSON, and one for XML.
 
