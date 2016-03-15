@@ -12,7 +12,7 @@ From the previous studio, you might remember interacting with this page from the
 
 Today your job is to build a very similar page. Here is a mockup:
 
-<img src=lunchcode1.png/>
+<img src="lunchcode1.png"/>
 
 As you can see, our page contains three `<form>` elements, one for each of the three "endpoints" of the food API: `/facts`, `/menus`, and `/recipes`.
 
