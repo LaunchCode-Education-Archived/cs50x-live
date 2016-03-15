@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
   <html>
     <title>Image Search</title>
   <head>
