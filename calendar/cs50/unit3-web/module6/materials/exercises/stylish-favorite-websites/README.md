@@ -1,6 +1,6 @@
 ##### Module 6
 
-[Back to Class 2 Prep](../class2-prep)
+[Back to Class 2 Prep](../../class2-prep#html-forms-more-with-styles)
 
 # Exercise: Stylish Favorite Websites
 
