@@ -53,7 +53,7 @@ Apache started successfully!
 Your site is now available at https://ide50-jharvard.c9users.io
 ```
 
-This starts up an Apache server. The server will listen for incoming requests at `https://ide50-jharvard.c9users.io` (but with your username instead of `jharvard`), and respond the output of files inside the `/helloserver/` directory (or one of its subfolders, if we make some subfolders). 
+This starts up an Apache server. The server will listen for incoming requests at `https://ide50-jharvard.c9users.io` (but with your username instead of `jharvard`), and respond with the output of files inside the `/helloserver/` directory (or one of its subfolders, if we make some subfolders). 
 
 At this point you normally would be able to visit `https://ide50-jharvard.c9users.io` in any internet browser window, but in our case there is an extra hurdle in the way: you have to log in to Cloud9. Go ahead and try visiting that url, and you should see a login prompt. We don't have Cloud9 usernames (you used your edX credentials to sign up), so you will not be able to login here.
 
@@ -63,7 +63,22 @@ Specifically, you should see an ugly page that says *Index of /* at the top, and
 
 Visit the file by clicking the link (or by typing `https://ide50-jharvard.cs50.io/helloserver.php` in the address bar). You should see a page that says "Hello!" !
 
+### Recap
 
+So what's happening here?
+
+When we visit `https://ide50-jharvard.cs50.io/helloserver.php`, our browser sends an HTTP request like this:
+
+```nohighlight
+GET /helloserver.php HTTP/1.1
+https://ide50-jharvard.cs50.io
+```
+
+Our server (`apache50`) is listening for requests just like this. When the request comes in, the server looks for a file called `helloserver.php` inside of its working directory (which we told it should be `~/workspace/module7/followalongs/helloserver` back when we ran the command to start it).
+
+OK, so the server succeeds in finding a `helloserver.php` file. What happens next? The server sends the file back to the browser? 
+
+Almost, but not quite. The server does not send file itself, but rather it responds with an HTTP request which contains *the result of running the file*. Recall that the output when we ran this file on the command line was "Hello!"
 
 
 
