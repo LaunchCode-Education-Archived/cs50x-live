@@ -64,7 +64,7 @@ Host | Endpoint | (`?`) | Field 1 | (`&`) | Field 2
 `https://www.google.com` | `/search` | `?` | `q=pandas` | `&` | `fruit=banana` 
 
 
-As an aside, what about the HTTP `method` (ours was `GET`) -- is that refleted in the URL? It is not. But although the query string does not display the method, it is affected by it. If your `method` is `POST` rather than `GET`, then the additional `Field`s like (`q=panda`) will not show up in the string. This is for security purposes in situations where you don't want sensitive information visible in the URL.
+As an aside, what about the HTTP `method` (ours was `GET`) -- is that reflceted in the URL? It is not. But although the query string does not display the method, it is affected by it. If your `method` is `POST` rather than `GET`, then the additional `Field`s like (`q=panda`) will not show up in the string. This is for security purposes in situations where you don't want sensitive information visible in the URL.
 
 
 ### Adding More Fields
