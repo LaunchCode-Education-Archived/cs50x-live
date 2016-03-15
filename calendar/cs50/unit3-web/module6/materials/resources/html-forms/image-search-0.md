@@ -1,4 +1,4 @@
-`image-search-1.html`
+`image-search-1.html` 
 
 ```html
 <!DOCTYPE html>
