@@ -1,7 +1,4 @@
-`image-search-1.html`
 
-```html
-<!DOCTYPE html>
   <html>
     <title>Image Search</title>
   <head>
@@ -17,4 +14,4 @@
   </form>
   </body>
 </html>
-```
+
