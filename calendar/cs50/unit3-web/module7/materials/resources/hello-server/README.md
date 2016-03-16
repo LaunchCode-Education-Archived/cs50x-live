@@ -26,7 +26,7 @@ $ touch helloserver/helloserver.php
 Now open up that new file, and add the following line:
 
 ```php
-<?php echo "Hello!\n" ?>
+<?php print("Hello!\n"); ?>
 ```
 
 ### Run it
