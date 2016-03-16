@@ -14,7 +14,7 @@ As usual, copy over [hello-form.php](./hello-form.html) and [hello-response.php]
 
 Just like last time, the form is already done, but `hello-response.php` has 3 TODOs. 
 
-Last time, if the user failed to provide one of the fields we were looking for, we simply redirected them back to the form page. This time we want to keep the user on the current page, and explain to them that they messed up, and provide a link back to the form which they can click after reading our message.
+In our previous version, if the user failed to provide one of the fields we were looking for, we simply redirected them back to the form page. This time we want to keep the user on the current page, and explain to them that they messed up, and provide a link back to the form which they can click after reading our message.
 
 Of course the above should only happen if the user actually did mess up. Otherwise, we should still greet them as normal. You'll notice that in this version, we do the `if / endif` logic mixed inside with the HTML, rather than getting it out of the way first at the top of the file. That's because, as mentioned, we are definitely returning some HTML content either way (unlike last time, when we potentially wanted to exit the script prematurely).
 
