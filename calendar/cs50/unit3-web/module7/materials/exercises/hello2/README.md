@@ -12,4 +12,4 @@ As usual, copy over [hello-form.php](./hello-form.html) and [hello-response.php]
 
 ### Assignment
 
-Just like last time, the form is already done, but `hello-response.php` has 3 TODOs. Get to work!
+Just like last time, the form is already done, but `hello-response.php` has 3 TODOs. The TODOs should be pretty self explanatory here. Just fill them in, using the walkthrough video above as guidance.
