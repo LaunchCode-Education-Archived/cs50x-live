@@ -1,4 +1,4 @@
-`index.php`
+`hello-form.php`
 
 ```php
 <!DOCTYPE html>
@@ -7,7 +7,7 @@
         <title>Hello 1</title>
     </head>
     <body>
-        <form action="hello1.php" method="GET">
+        <form action="hello-response.php" method="GET">
             <label>Say</label>
             <select name="greeting">
                 <option value="">*[Select a greeting]</option>
