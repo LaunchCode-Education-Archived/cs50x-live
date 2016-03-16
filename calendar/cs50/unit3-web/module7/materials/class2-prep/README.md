@@ -8,8 +8,18 @@ Before coming to [Class 2](../class2), please complete the following tasks:
 ##### Lecture
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Watch | Lecture | <a href="https://youtu.be/rJeP65u84ec?t=1045" target="_blank">Week 8</a> | Starts at 17:25
+Watch | Lecture | <a href="https://youtu.be/rJeP65u84ec" target="_blank">Week 8</a> | 
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=yoDrhOZCKWo" target="_blank">Week 8, continued</a>
+
+***
+
+##### PHP Interpreter, Permissions
+Task | Resource Type | Link | Instructions
+-----|------|------|------
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#php" target="_blank">Week 8 / PHP</a> | review of interp, shebang, variable interpolation
+Read | Resource | | TODO chmod
+Do | Exercise | | TODO variable interpolation
+
 
 ***
 
