@@ -8,7 +8,6 @@ Before coming to [Class 1](../class1), please complete the following tasks:
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=h_zmq88Ae3k" target="_blank">Week 7, continued</a> | This lecture will be a crash course introduction to a programming language called PHP, which is often used for web programming. 
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=rJeP65u84ec" target="_blank">Week 8</a> | Stop at 17:25
 
 ***
 
@@ -40,7 +39,6 @@ Do | Exercise | [Hello 1](../exercises/hello1) | In this exercise, we build on o
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=csboq6ZtqkI&index=6&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">froshims-2</a> | Here, instead of automatically redirecting the user, our backend script returns some HTML with a helpful error message and a clickable link to take them back to the form.<br>You can find pseudocode to start this program <a href="../../../../../../helpful-resources/modules/module-7.html#class-1-task-froshims-2" target="_blank">here</a>.
 Do | Exercise | [Hello 2](../exercises/hello2) | Once again, we mirror the froshims walkthroughs in our own Hello site. This time you will provide a helpful message if the user filled out the form incorrectly.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=mVs7EkALBuw&index=7&list=PLhQjrBD2T381f7IlC090UL9JN-PJfGoLd" target="_blank">froshims-3</a> | Finally, David shows how we can take some action with the successfully registered students: if they filled out the entire form, our backend script sends them a confirmation email.<br>You can find pseudocode to start this program <a href="../../../../../../helpful-resources/modules/module-7.html#class-1-task-froshims-3" target="_blank">here</a>.
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#php" target="_blank">Week 8 / PHP</a> | review of interp, shebang, variable interpolation
 
 ***
 
