@@ -3,19 +3,14 @@
 ```php
 <?php
 
-session_start();
-
-if (!empty($_GET["username"]))
-{
-    $_SESSION["username"] = $_GET["username"];
-}
+// TODO start a session
 
 
-if (empty($_SESSION["username"]))
-{
-    header("Location: ./form.php");
-    exit;
-}
+// TODO if the user provided a "username" field, set the session's "username" key to the value they provided
+
+
+// TODO if the session still does not have a value for the "username" key, then redirect the user back to the form
+
 
 ?>
 
