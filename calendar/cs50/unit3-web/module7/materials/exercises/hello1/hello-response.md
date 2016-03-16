@@ -20,7 +20,6 @@ endif
 
 <!DOCTYPE html>
 <head>
-    <title>Well hello there</title>
 </head>
 <body>
     Hello, <?php print($username); ?>!
