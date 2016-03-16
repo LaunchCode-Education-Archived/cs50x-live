@@ -4,7 +4,7 @@
 <?php 
 
 $username = $_GET["username"];
-echo("Hello, $username!");
+print("Hello, $username!");
 
 ?>
 ```
