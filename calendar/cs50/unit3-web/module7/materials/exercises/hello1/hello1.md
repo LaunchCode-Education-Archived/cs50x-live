@@ -1,10 +1,11 @@
-`hello0.php`
+`hello1.php`
 
 ```php
 <?php 
 
+$greeting = $_GET["greeting"];
 $username = $_GET["username"];
-echo("Hello, $username!");
+echo("$greeting, $username!");
 
 ?>
 ```
