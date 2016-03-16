@@ -4,12 +4,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello 0</title>
+        <title>Hello 1</title>
     </head>
     <body>
         <form action="hello1.php" method="GET">
             <label>Say</label>
             <select name="greeting">
+                <option value="">*[Select a greeting]</option>
                 <option value="Hello">Hello</option>
                 <option value="Hi">Hi</option>
                 <option value="Top o' the mornin">Top o' the mornin</option>
