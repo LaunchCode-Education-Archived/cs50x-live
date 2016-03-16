@@ -25,4 +25,3 @@ Class # | Before Class | During Class | Topics / Skills
 **Class 2** | [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | The MVC Paradigm, SQL
 **Class 3** | Continue [Problem Set 7](./materials/problem-set) | [In Class](./materials/class3) | (office hours)
 
-https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Sending_and_retrieving_form_data
