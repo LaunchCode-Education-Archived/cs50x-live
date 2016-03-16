@@ -16,8 +16,7 @@ Let's take a look at what we have so far. Start up a server in your current dire
 apache50 start ./
 ```
 
-Now visit `ide50-jharvard.cs50.io` in a web browser. You should arrive on a page with a basic HTML form, that says "Say hello to _____". When you fill in the blank with a name (let's say "Zamyla") and submit the form, you should arrive at a different page, `hello0.php`, which says "Hello, Zamyla!"
-
+Now visit `ide50-jharvard.cs50.io` in a web browser. You should arrive at `index.php`, a page with a basic HTML form that reads "Say hello to _____". When you fill in the blank with a name (let's say "Zamyla") and submit the form, you should arrive at a different page, `hello0.php`, which says "Hello, Zamyla!"
 
 ### Assignment
 
