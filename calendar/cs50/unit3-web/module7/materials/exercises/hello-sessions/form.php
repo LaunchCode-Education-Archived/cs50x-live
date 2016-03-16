@@ -1,14 +1,14 @@
-`index.php`
+`form.php`
 
 ```php
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello 0</title>
+        <title>Hello Sessions</title>
     </head>
     <body>
-        <form action="hello0.php" method="GET">
-            <label>Say hello to</label>
+        <form action="response.php" method="GET">
+            <label>Your name:</label>
             <input type="text" name="username"/>
             <input type="submit" value="Submit"/>
         </form>
