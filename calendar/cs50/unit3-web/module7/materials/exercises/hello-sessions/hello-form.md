@@ -7,7 +7,7 @@
         <title>Hello Sessions</title>
     </head>
     <body>
-        <form action="response.php" method="GET">
+        <form action="hello-response.php" method="GET">
             <label>Your name:</label>
             <input type="text" name="username"/>
             <input type="submit" value="Submit"/>
