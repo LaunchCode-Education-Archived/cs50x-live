@@ -20,7 +20,7 @@ As mentioned above, your aim is to implement the back end such that, even if the
 
 If there is no "whatever they said previously", because this is the first time submitting the form, then you should simply redirect them back to the form (you don't have to give a helpful error message).
 
-Let's walk through an example. Say David Malan visits your site:
+Let's walk through an example. Suppose David Malan visits your site:
 
 1. The first thing he does is submit the form without entering anything. Your site should redirect him back to the form.
 2. After arriving back at the form, David types his name and clicks Submit. He should now see a message with his name inserted into it.
