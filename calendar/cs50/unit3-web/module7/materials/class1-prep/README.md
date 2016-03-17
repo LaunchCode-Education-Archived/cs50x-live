@@ -45,7 +45,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=mVs7EkALBu
 ##### Sessions, Cookies
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Watch | Short | <a href="https://www.youtube.com/watch?v=YxOAJ3ekqH4&index=30&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">PHP Sessions</a>
+Watch | Short | <a href="https://www.youtube.com/watch?v=YxOAJ3ekqH4&index=30&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">PHP Sessions</a> | Tommy talks about PHP Sessions, a built-in technology that uses cookies to allow you to remember data about your user for a longer period of time than just the current page they are one.
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=D0lQ9u5d3gA&list=PLhQjrBD2T3810Z6sRJdj148H0ANU2jJcO&index=1" target="_blank">counter</a> | An example site that makes use of PHP sessions.<br>You can find pseudocode to start this program <a href="../../../../../../helpful-resources/modules/module-7.html#class-1-task-counter" target="_blank">here</a>.
 Do | Exercise | [Hello Sessions](../exercises/hello-sessions) | Practice working with PHP sessions by doing another variation on the Hello! theme.
 
