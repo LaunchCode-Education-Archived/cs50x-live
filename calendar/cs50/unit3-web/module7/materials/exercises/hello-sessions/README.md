@@ -14,9 +14,9 @@ As usual, [hello-form.php](./hello-form.html) is already done. It simply contain
 
 And as usual [hello-response](./hello-response.html) is partially done, but contains 3 TODOs! 
 
-As mentioned above, your aim is to implement the back end such that, even if the user did not provide a name, your site will remember whatever they said last time, and say Hello to that previous name instead.
+As mentioned above, your aim is to implement the back end such that, even if the user did not provide a name, your site will remember whatever they said previously, and say Hello to that previous name instead.
 
-If there was no "last time", because this is the first time submitting the form, then you should rimply redirect them back to the form (you can skip the helpful error message here).
+If there is no "whatever they said previously", because this is the first time submitting the form, then you should rimply redirect them back to the form (you can skip the helpful error message here).
 
 So for example, let's say David Malan visits your site:
 
