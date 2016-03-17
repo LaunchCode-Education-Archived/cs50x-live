@@ -4,14 +4,14 @@
 
 Before coming to [Class 1](../class1), please complete the following tasks:
 
-##### Lecture
+#### Lecture
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Lecture | <a href="https://www.youtube.com/watch?v=h_zmq88Ae3k" target="_blank">Week 7, continued</a> | This lecture will be a crash course introduction to a programming language called PHP, which is often used for web programming. 
 
 ***
 
-##### PHP Syntax
+#### PHP Syntax
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=abUuRqYUUaY&index=1&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av" target="_blank">PHP Syntax</a> | Doug guides you through the basics of PHP syntax. He also introduces some new tools that PHP allows, such as: associative arrays, foreach loops, and default values for function arguments. Finally, he walks through some small example PHP programs in the IDE-- you might find it useful to treat this section as a Follow-Along exercise, copying and tinkering with the programs in your own workspace.
@@ -24,7 +24,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes
 
 ***
 
-##### PHP on the Web
+#### PHP on the Web
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/notes7w/notes7w.html#using_php_for_web_programming" target="_blank">Week 7, continued / Using PHP for Web Programming</a> | Read these notes, which review how we can use PHP to write code that generates web pages. 
@@ -42,7 +42,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=mVs7EkALBu
 
 ***
 
-##### Sessions, Cookies
+#### Sessions, Cookies
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Watch | Short | <a href="https://www.youtube.com/watch?v=YxOAJ3ekqH4&index=30&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">PHP Sessions</a> | Tommy talks about PHP Sessions, a built-in technology that uses cookies to allow you to remember data about your user for a longer period of time than just the current page they are one.
