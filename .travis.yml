@@ -7,3 +7,10 @@ script:
 branches:
   only:
     - master
+notifications:
+  email:
+    recipients: 
+      - jesse@launchcode.org
+    on_success: never
+    on_failure: change
+    
