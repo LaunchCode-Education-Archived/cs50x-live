@@ -18,7 +18,7 @@ And as usual [hello-response](./hello-response.html) is partially done, but cont
 
 As mentioned above, your aim is to implement the back end such that, even if the user did not provide a name, your site will remember whatever they said previously, and say Hello to that previous name instead.
 
-If there is no "whatever they said previously", because this is the first time submitting the form, then you should simply redirect them back to the form (you don't have to give a helpful error message).
+If there is no "whatever they said previously", because this is their first time submitting the form, then you should simply redirect them back to the form (you don't have to give a helpful error message).
 
 Let's walk through an example. Suppose David Malan visits your site:
 
