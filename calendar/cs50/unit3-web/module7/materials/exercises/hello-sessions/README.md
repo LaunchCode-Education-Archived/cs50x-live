@@ -10,8 +10,18 @@ This time, we will (almost) never have to worry about the user leaving a form fi
 
 ### Starter Code
 
-As usual, [hello-form.php](./hello-form.html) is already done. It simply contains a form askingthe user for their name (We don't care about customizing the greeting this time).
+As usual, [hello-form.php](./hello-form.html) is already done. It simply contains a form asking the user for their name (We don't care about customizing the greeting this time).
 
 And as usual [hello-response](./hello-response.html) is partially done, but contains 3 TODOs! 
 
+As mentioned above, your aim is to implement the back end such that if the user did not provide a name, your site will remember whatever they said last time, and say Hello to that previous name instead.
+
+If there was no "last time", because this is the first time submitting the form, then you should rimply redirect them back to the form (you can skip the helpful error message here).
+
+So for example, let's say David Malan visits your site:
+
+1. The first thing he does is submit the form without entering anything. Your site should redirect him back to the form.
+2. After arriving back at the form, David types his name and clicks Submit. He should now see a message with his name inserted into it.
+3. Next time, David again neglects to type anything. But, upon submitting, he still sees a message with his name inserted into it.
+4. Finally, David goes back and types "Zamyla" into the form. Upon submission, he sees a message with Zamyla inserted into it.
 
