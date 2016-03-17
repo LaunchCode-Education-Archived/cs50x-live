@@ -1,5 +1,5 @@
 
-```
+``` HTML
 <!DOCTYPE html>
 <html>
     <head>
