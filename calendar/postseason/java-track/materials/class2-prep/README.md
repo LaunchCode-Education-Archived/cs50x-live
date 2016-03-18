@@ -17,7 +17,7 @@ Do | Exercise | Writing Tests | Get practice writing tests for some of your clas
 Task | Resource Type | Link  | Instructions
 --------------|------|------|-------------
 Watch | Follow Along | I/O Basics | Follow along with Doug as he incorporates some I/O functionality into one of his classes.
-Read | Resource | [Scanner Tutorial]http://www.cs.utexas.edu/users/ndale/Scanner.html | This scanner tutorial shows several different ways of getting user input.
+Read | Resource | [Scanner Tutorial](http://www.cs.utexas.edu/users/ndale/Scanner.html) | This scanner tutorial shows several different ways of getting user input.
 Read | Resource | [Files Documentation](https://docs.oracle.com/javase/tutorial/essential/io/file.html) | The Java documentation shows many different ways of reading and writing files.
 
 #### Now you're ready for [Class 2](../class2)
