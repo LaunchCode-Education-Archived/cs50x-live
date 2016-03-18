@@ -8,7 +8,7 @@
     </head>
     <body>
         <form action="./mult_table.php" method="POST"/>
-            <input type="number" name="n" value="1"/>
+            <input type="number" value="1"/>
             <input type="submit"/>
         <form>
     </body>
