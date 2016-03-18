@@ -14,11 +14,19 @@ As Doug says, your assignment is to create a pair of PHP files, `mult_form.php` 
 
 We've already started both files. Copy <a href="./mult_form.html" target="_blank">mult_form.php</a> and <a href="./mult_form.html" target="_blank">mult_form.php</a> into your IDE.
 
-The form is almost done. There is one thing missing! If you don't spot it right away, it should become clear once you get started.
+### Assignment
+
+The form is almost done. There is one crucial piece that we forgot! If you don't spot it right away, it should become clear later after you get started.
 
 Over in `mult_table.php`, you have some TODOs. We have placed some basic skeleten code to create the `<table>`, but currently the result is simply 10 rows of `#` characters.
 
 For a refresher on how the `<table>` tag works, here is a good reference with some examples: http://www.w3schools.com/html/html_tables.asp
 
+Good luck!
+
+
+### Rectangularize
+
+Once you have a basic n by n square, your next step is to extend the site to be hipper (less square). Add a second field to the form for another number. One number should represent the width, and the other one the height. Then, when rendering the table, make it a rectangle with the dimensions specified.
 
 
