@@ -24,7 +24,7 @@ Upon filling out one of the forms and clicking its `SEND REQUEST` button, a user
 
 ### Getting Started
 
-We've given you a little starter code in <a href="lunchcode.md" target="_blank">lunchcode.md</a>. Copy the code over into a file called lunchcode.html in your IDE. When you preview that link you should see a very plain form that says "Menus". 
+We've given you a little starter code in <a href="lunchcode.html" target="_blank">lunchcode.html</a>. Copy the code over into a file called lunchcode.html in your IDE. When you preview that link you should see a very plain form that says "Menus". 
 
 OK, so that's what the page looks like, but where is the actual starter code?? Well, here's the thing: we sent you a link to an HTML file, so your browser went ahead and did what it always does when opening an HTML file: it rendered the page! 
 
