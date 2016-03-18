@@ -46,10 +46,11 @@ Task | Resource Type | Link | Instructions
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=BPOH5WLf3yM&index=4&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av" target="_blank">SQL</a> | Doug talks about databases and SQL, bushing on all these topics: phpmyadmin, the SQL data types, primary keys, the basic SQL query commands: INSERT, SELECT, UPDATE, and DELETE, selecting with JOIN, and the `query` funciton in php
 Watch | Short | <a href="https://www.youtube.com/watch?v=G58ujNjWEJY&index=44&list=PLhQjrBD2T380dhmG9KMjsOQogweyjEeVQ" target="_blank">SQL</a> | Christopher goes over the main SQL commands using delicious cupcakes.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes8w/notes8w.html#sql" target="_blank">Week 8, continued / SQL</a> | make sure they're comfortable using that cs50 query function
-|||| TODO res SQL cheatsheet?
+Read | Resource | <a href="" target="_blank">W3 Schools / SQL Quick Reference</a> | This is a nice SQL syntax cheatsheet to have in your pocket.
 |||| TODO exc: SQL stuff. Maybe use Chris Bay's node workshopper?
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes8w/notes8w.html#transactions" target="_blank">Week 8, continued / Transactions</a> | Sometimes you need to "lock" your SQL operations together into transactions, so that multiple operations are guaranteed to happen in sequence without interruption. 
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes8w/notes8w.html#transactions" target="_blank">Week 8, continued / Transactions</a> | These notes explain how sometimes you need to "lock" your SQL operations together into transactions, so that multiple operations are guaranteed to happen in sequence without interruption.
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes8w/notes8w.html#sql_injection" target="_blank">Week 8, continued / SQL Injection</a> | You should never interpolate user input directly into the strings that hold your SQL queries. Doing so makes you vulnerable to a SQL injection attack! 
+Read | Resource | <a href="http://www.w3schools.com/sql/sql_injection.asp" target="_blank">W3 Schools / SQL Injection</a> | **This is optional** <br/> This article provides a nice explanation of how SQL injection attacks work.
 
 ***
 
