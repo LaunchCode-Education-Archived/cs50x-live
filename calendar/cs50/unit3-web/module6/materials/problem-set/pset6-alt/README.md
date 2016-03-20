@@ -167,7 +167,7 @@ That's not super interesting, but over in our #pset6-graffitiwall channel on Sla
 
 We have given you some starter code in <a href="graffiti/graffiti.html" target="_blank">graffiti.html</a>. Copy this code into a new file in your IDE, and take a look.
 
-Up in the `<head>`, we have a `<title>`, followed by a `<link>` to a css stylesheet, which we have also gotten started for you in <a href="styles.html" target="_blank">styles.css</a>.
+Up in the `<head>`, we have a `<title>`, followed by a `<link>` to a css stylesheet, which we have also gotten started for you in <a href="graffiti/styles.html" target="_blank">styles.css</a>.
 
 Next, in the `<body>`, we have a `<div>` with the page heading and tagline. Below that is the heart of the matter, another `<div>` inside of which is the `<form>` where all the action will happen. Currently there is nothing inside the form -- that's where you come in!
 
