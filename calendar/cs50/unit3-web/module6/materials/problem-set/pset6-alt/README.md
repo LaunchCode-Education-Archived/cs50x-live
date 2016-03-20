@@ -135,7 +135,7 @@ Now let's spice this up a bit. Slack gives you the option of passing over a few 
 which we will insert into our curl request like this:
 
 ```nohighlight
-$ curl -X POST --data 'payload={"text": "Howdily doodily!", "username": "Ned Flanders", "icon_emoji": ":smile:"}' https://hooks.slack.com/services/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
+$ curl -X POST --data 'payload={"text": "Howdily doodily!", "username": "Ned Flanders", "icon_emoji": ":smile:"}' https://hooks.slack.com/services/123456789
 ```
 
 which should result in a slack post like this:
