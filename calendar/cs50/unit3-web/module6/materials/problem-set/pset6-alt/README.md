@@ -233,7 +233,7 @@ Good luck! CSS can be <a href="http://imgur.com/gallery/Q3cUg29" target="_blank"
 
 ### How to Submit
 
-On Vocareum, click the assignment titled **Problem Set 6 Alt: Graffiti**.
+On Vocareum, find the assignment titled **Problem Set 6 Alt: Graffiti**.
 
 Submit your `graffiti.html` and `styles.css` files.
 
