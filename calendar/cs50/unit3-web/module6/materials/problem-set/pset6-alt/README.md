@@ -105,7 +105,7 @@ curl: (3) [globbing] unmatched close brace/bracket in column 6
 The problem is that there are certain characters, such as `{`, that you can't put directly inside a url. But `curl` gives us another avenue for attaching data to an HTTP request, the `--data` flag:
 
 ```nohighlight
-$ curl -X POST --data 'payload={"text": "hello"}' https://hooks.slack.com/services/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
+$ curl -X POST --data 'payload={"text": "hello"}' https://hooks.slack.com/services/123456789
 ```
 
 Notice that we must wrap the `'payload={"text": "hello"}'` portion in `'`single quotes`'`.
