@@ -2,7 +2,7 @@
 
 # Problem Set 6 Alt
 
-This problem set is going to be very similar to the [LunchCode]() studio. You will create an HTML page with a form that allows the user to interact with an API.
+This problem set is going to be very similar to the [LunchCode](../../studios/lunchcode) studio. You will create an HTML page with a form that allows the user to interact with an API.
 
 This time we will use the API to <a href="https://slack.com" target="_blank">Slack</a>, a chatroom service. Your page will enable users to post messages to a group conversation.
 
