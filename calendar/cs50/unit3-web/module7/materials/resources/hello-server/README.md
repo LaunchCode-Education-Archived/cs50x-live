@@ -118,7 +118,6 @@ php helloserver/facebook.php
   <h1>This is Facebook</h1>
   <p>You have 3000 friends!</p>
 </body>
-</head>
 </html>
 ```
 
@@ -163,7 +162,6 @@ php helloserver/facebook.php
   <h1>This is Facebook</h1>
   <p>You have 3005 friends!</p>
 </body>
-</head>
 </html>
 ```
 
