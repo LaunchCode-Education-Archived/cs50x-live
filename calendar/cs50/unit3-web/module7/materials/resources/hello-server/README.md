@@ -121,7 +121,7 @@ php helloserver/facebook.php
 </html>
 ```
 
-And if you visit `https://ide50-jharvard.cs50.io/facebook.php` in a browser, you should see that HTML rendered as a web page.
+Here you can see that the output of this file is simply the HTML that is written in it. And if you visit `https://ide50-jharvard.cs50.io/facebook.php` in a browser, you should see that HTML rendered as a web page.
 
 ### Inserting PHP
 
