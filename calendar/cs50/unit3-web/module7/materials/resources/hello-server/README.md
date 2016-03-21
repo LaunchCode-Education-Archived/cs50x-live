@@ -165,7 +165,7 @@ php helloserver/facebook.php
 </html>
 ```
 
-Using PHP we were able to do a some math and dynamically generate our output based on the result of the math. Heyo!
+Using PHP, we were able to do a some math and dynamically generate our output based on the result of the math. Heyo!
 
 This example is still very over-simplified and contrived, but in the next few follow alongs and exercises you will see some much more realistic scenarios where you will have to generate your response by taking into account some input from the user.
 
