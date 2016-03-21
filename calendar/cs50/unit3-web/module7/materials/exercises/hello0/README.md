@@ -6,7 +6,7 @@
 
 ### Starter Code
 
-This exercises has some starter code. Copy over these two files into your IDE: [index.php](./index.php) and [hello0.php](./hello0.html).
+This exercises has some starter code. Copy over these two files into your IDE: [hello-form.php](./hello-form.html) and [hello-response.php](./hello-response.html).
 
 We've given you the front end and back end to very basic Hello World website, which simply asks the user for their name and then says hello to that person.
 
@@ -16,7 +16,7 @@ Let's take a look at what we have so far. Start up a server in your current dire
 apache50 start ./
 ```
 
-Now visit `ide50-jharvard.cs50.io` in a web browser. You should arrive at `index.php`, a page with a basic HTML form that reads "Say hello to _____". When you fill in the blank with a name (let's say "Zamyla") and submit the form, you should arrive at a different page, `hello0.php`, which says "Hello, Zamyla!"
+Now visit `ide50-jharvard.cs50.io/hello-form.php` in a web browser.  You should see a page with a basic HTML form that reads "Say hello to _____". When you fill in the blank with a name (let's say "Zamyla") and submit the form, you should arrive at a different page, `hello-response.php`, which says "Hello, Zamyla!"
 
 ### Assignment
 
