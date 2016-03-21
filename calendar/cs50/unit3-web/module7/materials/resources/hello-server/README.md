@@ -127,7 +127,7 @@ Here you can see that the output of this file is simply the HTML that is written
 
 But we didn't come all this way just to return static HTML. After all, if we wanted that, we might as well just use a `.html` file. The beauty of returning HTML content from within a programming language like PHP is that we can dynamically decide exactly what content we want to respond with.
 
-How do we make those dynamic manipulations to our content? It's just a matter of switching over to PHP mode by using those magic `<?php` `?>` delimiters. 
+How do we make those dynamic manipulations to our content? It's just a matter of switching over to "PHP mode" by using those magic `<?php` `?>` delimiters. 
 
 Here's an example: in `facebook.php`, replace this line:
 
