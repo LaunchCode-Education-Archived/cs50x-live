@@ -26,8 +26,8 @@ Do | Exercise | | TODO variable interpolation
 ##### MVC
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=XdCxfJki4t4&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av&index=3" target="_blank">MVC</a>
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#mvc" target="_blank">Week 8 / MVC</a> 
+Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=XdCxfJki4t4&list=PLhQjrBD2T380EySS3Y9fBANbblTRxT5Av&index=3" target="_blank">MVC</a> | The MVC (Model - View - Controller) paradigm is a philosophy of how to organize your application. In this video Doug explains why we want to use the MVC system, and what each of the three roles (M, V and C) is responsible for. He also shows how we can use the `chmod` command to set appropriate permissions on the various parts of our application. 
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#mvc" target="_blank">Week 8 / MVC</a> | These notes introduce MVC and run through an example of restructuring a project to use it. (You will see this in more detail in the Walkthrough videso below).
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=3Jy0OIaHviI&index=2&list=PLhQjrBD2T3810Z6sRJdj148H0ANU2jJcO" target="_blank">mvc-0</a> | To start, we make a site with a series of very similar pages of hard-coded HTML. Surely this can be improved!<br>You can find pseudocode to start this program <a href="../../../../../../helpful-resources/modules/module-7.html#class-2-task-mvc-0" target="_blank">here</a>.
 Follow Along | Walkthrough | <a href="https://www.youtube.com/watch?v=OwY_kl87bxY&list=PLhQjrBD2T3810Z6sRJdj148H0ANU2jJcO&index=3" target="_blank">mvc-1</a> | First, we factor out much of the repeated HTML into one "header" and "footer" template.<br>You can find pseudocode to start this program <a href="../../../../../../helpful-resources/modules/module-7.html#class-2-task-mvc-1" target="_blank">here</a>.
 |||| TODO res and exc: `extract` in PHP (possibly move to class 1 prep)
