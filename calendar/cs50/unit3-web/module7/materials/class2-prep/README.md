@@ -13,7 +13,7 @@ Watch | Lecture | <a href="https://www.youtube.com/watch?v=yoDrhOZCKWo" target="
 
 ***
 
-##### More PHP, File Permissions
+##### A Little More PHP
 Task | Resource Type | Link | Instructions
 -----|------|------|------
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#php" target="_blank">Week 8 / PHP</a> | review of interp, shebang, variable interpolation
