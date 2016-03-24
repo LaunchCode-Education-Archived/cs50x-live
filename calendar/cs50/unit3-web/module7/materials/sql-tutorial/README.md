@@ -15,4 +15,4 @@ Once you have an account, do these two lessons:
 * <a href="https://www.codecademy.com/en/courses/learn-sql/lessons/manipulation/exercises/sql" target="_blank">Manipulation</a>
 * <a href="https://www.codecademy.com/en/courses/learn-sql/lessons/queries/exercises/queries" target="_blank">Queries</a>
 
-These should take about 10 to 15 inutes each.
+These should take about 10 minutes each.
