@@ -1,12 +1,14 @@
 #! /bin/bash
 
-# we hsoudl only run this script on the master branch of the "generic" parent repo
+# we should only run this script on the master branch of the "generic" parent repo
 
+# check generic parent repo
 if [ "$(git config --get remote.origin.url)" -ne "git@github.com:LaunchCodeEducation/cs50x-live.git" ]; then
 	echo "I am aborting because this is a child repo"
 	exit 0
 fi
 
+# check master branch
 if [ "$(git rev-parse --abbrev-ref HEAD)" -ne "master" ]; then
 	echo "I am aborting because this is not the master branch"
 	exit 0
@@ -36,7 +38,7 @@ ssh-add "${CHILD_SSH_KEY}"
 
 
 PREFIX="git@github.com:LaunchCodeEducation"
-CHILDREN=("cs50x-stlouis" "cs50x-kansascity")
+CHILDREN=("cs50x-stlouis" "cs50x-kansascity" "cs50x-maryville")
 FAILURES=()
 
 TEMPDIR=$(mktemp -d)
@@ -57,6 +59,7 @@ for CHILD in "${CHILDREN[@]}"; do
 	pushd "${CHILD}"
 		git remote add upstream "file://${TRAVIS_BUILD_DIR}"
 		git checkout gh-pages
+		git pull origin gh-pages
 		echo
 		echo "Now I will attempt to merge in changes from upstream (cs50x-live)"
 		git pull -q --commit --no-edit upstream master

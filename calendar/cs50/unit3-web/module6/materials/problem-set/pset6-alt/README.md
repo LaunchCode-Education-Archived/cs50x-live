@@ -2,7 +2,7 @@
 
 # Problem Set 6 Alt
 
-This problem set is going to be very similar to the [LunchCode]() studio. You will create an HTML page with a form that allows the user to interact with an API.
+This problem set is going to be very similar to the [LunchCode](../../studios/lunchcode) studio. You will create an HTML page with a form that allows the user to interact with an API.
 
 This time we will use the API to <a href="https://slack.com" target="_blank">Slack</a>, a chatroom service. Your page will enable users to post messages to a group conversation.
 
@@ -105,7 +105,7 @@ curl: (3) [globbing] unmatched close brace/bracket in column 6
 The problem is that there are certain characters, such as `{`, that you can't put directly inside a url. But `curl` gives us another avenue for attaching data to an HTTP request, the `--data` flag:
 
 ```nohighlight
-$ curl -X POST --data 'payload={"text": "hello"}' https://hooks.slack.com/services/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
+$ curl -X POST --data 'payload={"text": "hello"}' https://hooks.slack.com/services/123456789
 ```
 
 Notice that we must wrap the `'payload={"text": "hello"}'` portion in `'`single quotes`'`.
@@ -135,7 +135,7 @@ Now let's spice this up a bit. Slack gives you the option of passing over a few 
 which we will insert into our curl request like this:
 
 ```nohighlight
-$ curl -X POST --data 'payload={"text": "Howdily doodily!", "username": "Ned Flanders", "icon_emoji": ":smile:"}' https://hooks.slack.com/services/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
+$ curl -X POST --data 'payload={"text": "Howdily doodily!", "username": "Ned Flanders", "icon_emoji": ":smile:"}' https://hooks.slack.com/services/123456789
 ```
 
 which should result in a slack post like this:
@@ -165,9 +165,9 @@ That's not super interesting, but over in our #pset6-graffitiwall channel on Sla
 
 ### Starter code
 
-We have given you some starter code in <a href="graffiti.html" target="_blank">graffiti.html</a>. Copy this code into a new file in your IDE, and take a look.
+We have given you some starter code in <a href="graffiti/graffiti.html" target="_blank">graffiti.html</a>. Copy this code into a new file in your IDE, and take a look.
 
-Up in the `<head>`, we have a `<title>`, followed by a `<link>` to a css stylesheet, which we have also gotten started for you in <a href="styles.html" target="_blank">styles.css</a>.
+Up in the `<head>`, we have a `<title>`, followed by a `<link>` to a css stylesheet, which we have also gotten started for you in <a href="graffiti/styles.html" target="_blank">styles.css</a>.
 
 Next, in the `<body>`, we have a `<div>` with the page heading and tagline. Below that is the heart of the matter, another `<div>` inside of which is the `<form>` where all the action will happen. Currently there is nothing inside the form -- that's where you come in!
 
@@ -233,7 +233,7 @@ Good luck! CSS can be <a href="http://imgur.com/gallery/Q3cUg29" target="_blank"
 
 ### How to Submit
 
-On Vocareum, click the assignment titled **Problem Set 6 Alt: Graffiti**.
+On Vocareum, find the assignment titled **Problem Set 6 Alt: Graffiti**.
 
 Submit your `graffiti.html` and `styles.css` files.
 
