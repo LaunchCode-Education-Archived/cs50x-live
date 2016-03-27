@@ -14,11 +14,9 @@ This is a big, hearty studio, with lots of work to do. Oh boy!
 
 First, let's go over what you are trying to accomplish.
 
-The home page is simply a form where users can input their name and choose a greeting:
+The home page is simply a form where users can input their name and choose a greeting (If you did the [Class 1 Prep](../../class1-prep), this should feel very familiar!):
 
 <img src="screenshots/sup-ruth-form.png" />
-
-If you did the [Class 1 Prep](../../class1-prep), this should feel very familiar! 
 
 Upon submitting the form, the user should be warmly greeted:
 
