@@ -1,7 +1,7 @@
 ##### Module 7
 [Back to Class 1 Prep](../../class1-prep)
 
-# Resource: `htmlspecialchars`
+# Resource: htmlspecialchars
 
 Going back to our continuing Hello example, let's now introduce a little wrinkle.
 
