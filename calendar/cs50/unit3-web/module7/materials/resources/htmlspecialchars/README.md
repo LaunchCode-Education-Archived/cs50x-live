@@ -5,7 +5,7 @@
 
 Going back to our continuing Hello example, let's now introduce a little wrinkle.
 
-Suppose we have a mischevious user who does types something like this:
+Suppose we have a mischievous user who types something like this:
 
 <img src="screenshots/rascal-form.png" />
 
