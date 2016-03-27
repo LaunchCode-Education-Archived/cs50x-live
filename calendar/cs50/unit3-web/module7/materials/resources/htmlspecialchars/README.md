@@ -16,7 +16,7 @@ You see what that rascal is doing? If we handle the form submission like this:
 
 $greeting = $_GET["greeting"];
 $username = $_GET["username"];
-print("$greeting, {$username}!");
+print("{$greeting}, {$username}!");
 
 ?>
 ```
@@ -38,7 +38,7 @@ In our script, let's pass the user input through the `htmlspecialchars` function
 
 $greeting = $_GET["greeting"];
 $username = $_GET["username"];
-$message = htmlspecialchars("$greeting, {$username}!");
+$message = htmlspecialchars("{$greeting}, {$username}!");
 print($message);
 
 ?>
