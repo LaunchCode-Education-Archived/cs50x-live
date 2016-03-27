@@ -4,7 +4,7 @@
 
 # Studio: Greetings
 
-Today you will use your new SQL skills to build a full website with a PHP back end and a database that persists user data!
+Today you will use your new SQL skills to build a full website with a PHP back end *and* a database that persists user data!
 
 Your site will also follow good MVC conventions.
 
@@ -12,9 +12,38 @@ This is a big, hearty studio, with lots of work to do. Oh boy!
 
 ### The Goal
 
-Here is what we are trying to accomplish:
+Here is what you are trying to accomplish:
 
-TODO screenshots and explanation
+The home page is simply a form where users can input their name and choose a greeting:
+
+<img src="sup-ruth-form.png" />
+
+If you did the Prep Work for class 1, this should feel very familiar! 
+
+Upon submitting the form, the user should be warmly greeted:
+
+<img src="sup-ruth-response.png" />
+
+Notice that the site also reports how many times a particular greeting has been used. If someone else (named, say, Moe) were to come along and select "What is up" at this point, he should see this:
+
+<img src="sup-moe-response.png"/>
+
+How does the site keep track of this? By using a database, of course! You will build a database table to store greetings, where each greeting will have a `text` field with a value like `"What is up"` and a `num_times` field with a value like `5`. More on that later.
+
+Another feature to notice is that the form on the homepage should also give users the option of creating their own "custom" greeting, rather than choosing from one of the "pre-made" greetings in the drop-down menu:
+
+<img src="lizards-form.png"/>
+
+Claudia should see a response like this:
+
+<img src="lizards-response.png"/>
+
+(As you can see, your site doesn't have to be smart about English numbering syntax. You can say "1th" and "2th" instead of "1st" and "2nd").
+
+One last thing to note is that when a user creates a custom greeting like "I like lizards", that new greeting should then be permanently added to the database, and subsequently should be available as an option in the dropdown menu:
+
+<img src="lizards-select.png"/>
+
 
 ### Starter Code
 
@@ -80,9 +109,9 @@ Over in the `includes/` folder is just one file, `helpers.php`, which contains a
 
 ##### The `views/` Folder
 
-If you glance through the source code for the two public pages, `index.php` and `greet.php`, you might notice that neither contains any HTML. That's because, as per MVC, we want those Controller files to handle our core "business logic" only-- we do not want the Controllers to worry about the details of how stuff looks on screen. Any code specifying how stuff looks should be factored out into separate "template" View files, which our Controllers simply combine together to assemble the overall response that ultimately gets returned back to the client. 
+If you glance through the source code for the two public pages, `index.php` and `greet.php`, you might notice that neither contains any HTML. That's because, as per MVC, we want those Controller files to handle our core "business logic" only-- we do not want the Controllers to worry about the details of how stuff looks on screen. Any code specifying how stuff looks should be factored out into separate "template" View files, which our Controllers will simply combine together to assemble the overall response that ultimately gets sent back to the client. 
 
-For example, notice that at the bottom of each of those Controller files is a section where we "render stuff", by passing various template files to the the `render()` function from `helpers.php`. There are 4 such templates in the `views/` folder:
+For example, notice that at the bottom of each of those Controller files is a section where we "render stuff", by passing the names of various template files to the the `render()` function from `helpers.php`. There are 4 such template files in the `views/` folder:
 * `header.php` is some basic boilerplate HTML that goes at the top of a page
 * `footer.php` is similar basic HTML for the bottom of a page
 * `greeting_form.php` is the form that users fill out when they visit the home page
@@ -94,15 +123,13 @@ Both Controllers follow a similar pattern of rendering the `header.php` and `foo
 
 The `vendor` folder is where we have placed all 3rd-party code that other people wrote that we would like to use in our project. 
 
-There is really only one 3rd-party library that we are using directly, and that is a small library written by the CS50 folks in a file called `CS50.php`. This library simplifies the process of connecting to and interacting with a database, freeing us to focus our SQL queries instead of the grunt work required to set up a connection, authenticate ourselves, and so on.
+There is really only one 3rd-party library that we are using directly, and that is a small library written by the CS50 folks in a file called `CS50.php`. This CS50 library shields us from many of the low-level details involved in connecting to and interacting with a database, which will free us to focus on our SQL queries instead of the grunt work required to set up a connection, authenticate ourselves, and so on.
 
 Incidentally, there are a bunch more libraries in this folder, because the CS50 library itself is dependent on them. But we don't have to care about that for the purposes of this project.
 
-### Getting Started
+### Setting Up the Database
 
-Here we go!
-
-The first thing to do is to create your database. Follow along as we walk you though how to do that. 
+The first thing to do is to create the database. Follow along as we walk you though how to do that. 
 
 First, start up your apache server:
 
@@ -129,9 +156,9 @@ This server establishes a communication channel between our back end and our dat
 
 But we don't yet have a database! Let's create one.
 
-If you head over `https://ide50-jharvard.cs50.io` (with your username instead of "jharvard"), you will see a big orange error on the screen. This is because we don't have a database yet. Go to the address bar and add `/phpmyadmin` onto the end of your url, yielding `https://ide50-jharvard.cs50.io/phpmyadmin`, and hit Enter.
+If you head over `https://ide50-jharvard.cs50.io` (with your username instead of "jharvard"), you will see a big orange error on the screen. No problem, this is just because you don't have a database yet. Go to the address bar and add `/phpmyadmin` onto the end of your url, yielding `https://ide50-jharvard.cs50.io/phpmyadmin`, and hit Enter.
 
-You should now arrive at a login screen for something called phpMyAdmin. phpMyAdmin is a tool that allows you to manage your MySQL database. Let's log in. You can find your username and password by running some magic commands in the terminal:
+You should now arrive at a login screen for something called phpMyAdmin. phpMyAdmin is a tool that allows you to manage your MySQL databases. Let's log in. You can find your username and password by running some magic commands in the terminal:
 
 ```nohighlight
 $ username50 
@@ -173,5 +200,29 @@ CREATE TABLE IF NOT EXISTS `greetings` (
 INSERT INTO greetings (text) VALUES('Hello');
 INSERT INTO greetings (text) VALUES('Cheers');
 INSERT INTO greetings (text) VALUES('What is up');
-
 ```
+
+Essentially, we are creating a new database called `module7studio`, within which we are creating a new table called `greetings`, and finally we are adding a few rows to the `greetings` table. 
+
+Look over the code for a sec, make sure it makes sense, and then execute the code by clicking Go at the bottom right.
+
+You should now be able to click on a table called `greetings`, which you can browse and see that it contains some data, the three rows we inserted!
+
+* json.config
+
+### Getting Started
+
+Now we are finally at the point where you can visit the site. 
+
+Go back to the root page, `https://ide50-jharvard.cs50.io`. You should now see a log statement detailing the contents of the database. Indeed, we are looking at the output of `index.php`. (Recall that the apache server, upon finding a file with the special name `"index"`, automatically takes the user there.) 
+
+* var_dump
+* query()
+* render() isn't working. Fix it!
+* Other TODOs
+
+
+
+
+
+
