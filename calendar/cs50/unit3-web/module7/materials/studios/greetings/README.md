@@ -129,7 +129,9 @@ Incidentally, there are a bunch more libraries in this folder, because the CS50 
 
 ### Setting Up the Database
 
-The first thing to do is to create the database. Follow along as we walk you though how to do that. 
+The first thing to do is to set up the database. Follow along as we walk you though how to do that. 
+
+##### MySQL Server
 
 First, start up your apache server:
 
@@ -155,6 +157,8 @@ not closed cleanly.
 This server establishes a communication channel between our back end and our database, so that we can read from and write to the database.
 
 But we don't yet have a database! Let's create one.
+
+##### Create the Database in phpMyAdmin
 
 If you head over `https://ide50-jharvard.cs50.io` (with your username instead of "jharvard"), you will see a big orange error on the screen. No problem, this is just because you don't have a database yet. Go to the address bar and add `/phpmyadmin` onto the end of your url, yielding `https://ide50-jharvard.cs50.io/phpmyadmin`, and hit Enter.
 
@@ -208,17 +212,47 @@ Look over the code for a sec, make sure it makes sense, and then execute the cod
 
 You should now be able to click on a table called `greetings`, which you can browse and see that it contains some data, the three rows we inserted!
 
-* json.config
+##### Add Authenticaion to config.json
 
-### Getting Started
+There is one file we didn't talk about previously, `config.json`. Open it up now, and you'll see it is a very small chunk of JSON, with some TODOs. This is simply a place where we put our MySQL credentials, which the CS50 library will use in order to establish its connection to the MySQL server. 
 
-Now we are finally at the point where you can visit the site. 
+Go ahead and add your username and password to this file, and save it.
 
-Go back to the root page, `https://ide50-jharvard.cs50.io`. You should now see a log statement detailing the contents of the database. Indeed, we are looking at the output of `index.php`. (Recall that the apache server, upon finding a file with the special name `"index"`, automatically takes the user there.) 
+### Check It Out
 
-* var_dump
-* query()
-* render() isn't working. Fix it!
+Now we are finally at the point where you can visit the site!
+
+Go back to the root page, `https://ide50-jharvard.cs50.io`. You should now see a log statement detailing the contents of the database. Indeed, we are looking at the output of `index.php`. (Recall that even though we aren't directly visiting `/index.php` in the URL, the apache server, upon finding a file with the special name `"index"`, automatically takes the user there.) 
+
+##### The `var_dump()` function
+
+Look at the source code for `index.php`, and you will see that the output on the page is coming from two lines near the top of the file:
+
+```php
+print("This is what we have in the database right now:");
+var_dump($greeting_rows);
+```
+
+The second line uses an awesome php function valled `var_dump()` to render to the screen a nicely formatted, human-readable string describing the contents of our local `$greeting_rows` variable. Whenever you're trying to debug, make liberal use of the `var_dump()` function.
+
+##### The `query()` function
+
+Looking up, we can see that the `$greeting_rows` variable came from this line:
+
+```php
+$greeting_rows = CS50::query("SELECT * FROM greetings");
+```
+
+This is where the magic happens. The CS50 library exposes a function called `query()` which allows you to make SQL queries on your database. You simply pass in a string with the SQL code, and the function will execute the query and return the results. For more one this function, see the <a href="http://cdn.cs50.net/2015/fall/lectures/8/w/notes8w/notes8w.html#sql" target="_blank">lecture notes from Week 8 / SQL</a>.
+
+(Don't worry too much about the `CS50::` syntax. The `query()` function is "inside of" an "object" or "class" called `CS50`, and so any time you want to use the function, you have to prepend `CS50::`.)
+
+### Get to Work
+
+After `index.php` gets the current data from the deatabase and dumps it to the screen, the next few lines call the `render()` function. But on screen, nothing seems to be showing up!
+
+That's because `render()` is incomplete. That is your first task! Fill in the TODOs so that `render()` actually causes templates to show up on screen. You might find David Malan's `mvc-3` program provides a helpful example from which you can more-or-less copy. (See the <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/src8m/mvc/3/helpers.php.src" target="_blank">source code</a> and the <a href="https://www.youtube.com/watch?v=5juddGp7D9g&index=5&list=PLhQjrBD2T3810Z6sRJdj148H0ANU2jJcO" target="_blank">walkthrough video</a>
+
 * Other TODOs
 
 
