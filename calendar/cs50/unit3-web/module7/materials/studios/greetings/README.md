@@ -101,23 +101,23 @@ The `public/` directory contains our Controllers, the pages that our site makes 
 * `index.php`, our "home page", displays a form where the user can submit her name and choose a greeting
 * `greet.php` is the file that receives and handles the submission of the form.
 
-##### The `includes/` Folder
-
-Over in the `includes/` folder is just one file, `helpers.php`, which contains a few helper functions:
-* `render()` receives the name of a "template" file, and optionally some extra data that the template file will need. This function should check to see if the template file actually exists, and if so, render it by simply calling `require()` on it.
-* `create_new_greeting()` receives a string representing a new custom greeting fom the user (e.g. "I like lizards"). It should add a new row to the database for that string, but only after checking to make sure the database does not *already* contain a greeting with identical text.
-
 ##### The `views/` Folder
 
 If you glance through the source code for the two public pages, `index.php` and `greet.php`, you might notice that neither contains any HTML. That's because, as per MVC, we want those Controller files to handle our core "business logic" only-- we do not want the Controllers to worry about the details of how stuff looks on screen. Any code specifying how stuff looks should be factored out into separate "template" View files, which our Controllers will simply combine together to assemble the overall response that ultimately gets sent back to the client. 
 
-For example, notice that at the bottom of each of those Controller files is a section where we "render stuff", by passing the names of various template files to the the `render()` function from `helpers.php`. There are 4 such template files in the `views/` folder:
+For example, notice that at the bottom of each of those Controller files is a section where we "render stuff", by passing the names of various template files to the the `render()` function from `helpers.php` (more on that soon). There are 4 such template files in the `views/` folder:
 * `header.php` is some basic boilerplate HTML that goes at the top of a page
 * `footer.php` is similar basic HTML for the bottom of a page
 * `greeting_form.php` is the form that users fill out when they visit the home page
 * `greeting_display.php` is the greeting that users see after submitting the form
 
 Both Controllers follow a similar pattern of rendering the `header.php` and `footer.php` Views first and last respectively, with a more interesting piece of content sandwiched in between.
+
+##### The `includes/` Folder
+
+Over in the `includes/` folder is just one file, `helpers.php`, which contains a few helper functions:
+* `render()`, as mentioned before, receives the name of a "template" file, and optionally some extra data that the template file will need. This function should check to see if the template file actually exists, and if so, render it by simply calling `require()` on it.
+* `create_new_greeting()` receives a string representing a new custom greeting fom the user (e.g. "I like lizards"). It should add a new row to the database for that string, but only after checking to make sure the database does not *already* contain a greeting with identical text.
 
 ##### The `vendor/` folder
 
