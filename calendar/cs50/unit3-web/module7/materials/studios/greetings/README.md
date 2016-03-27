@@ -251,9 +251,22 @@ This is where the magic happens. The CS50 library exposes a function called `que
 
 After `index.php` gets the current data from the deatabase and dumps it to the screen, the next few lines call the `render()` function. But on screen, nothing seems to be showing up!
 
-That's because `render()` is incomplete. That is your first task! Fill in the TODOs so that `render()` actually causes templates to show up on screen. You might find David Malan's `mvc-3` program provides a helpful example from which you can more-or-less copy. (See the <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/src8m/mvc/3/helpers.php.src" target="_blank">source code</a> and the <a href="https://www.youtube.com/watch?v=5juddGp7D9g&index=5&list=PLhQjrBD2T3810Z6sRJdj148H0ANU2jJcO" target="_blank">walkthrough video</a>
+That's because `render()` is incomplete. That is your first task! Fill in the TODOs so that `render()` actually causes templates to show up on screen. You might find David Malan's `mvc-3` program provides a helpful example from which you can more-or-less copy. (See the <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/src8m/mvc/3/helpers.php.src" target="_blank">source code</a> and the <a href="https://www.youtube.com/watch?v=5juddGp7D9g&index=5&list=PLhQjrBD2T3810Z6sRJdj148H0ANU2jJcO" target="_blank">walkthrough video</a> for guidance).
 
-* Other TODOs
+### Other TODOs
+
+Once you get `render()` up and running, you should see a `<form>` on the screen! At that point, your next few TODOs will become apparent. Keep on working your way through all the TODOs (everything that needs to be done is documented in the source files) until your site contains all the features described above.
+
+### How to Submit
+
+Compress your `greetings` directory into a `.zip` file:
+
+```nohighlight
+cd ~/workspace/module7/studios
+zip greetings.zip greetings
+```
+
+Upload `greetings.zip` on Vocareum, in the assignment titled **Studio: Greetings**.
 
 
 
