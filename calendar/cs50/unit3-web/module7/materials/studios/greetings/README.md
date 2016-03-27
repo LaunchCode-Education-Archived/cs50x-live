@@ -166,5 +166,12 @@ CREATE TABLE IF NOT EXISTS `greetings` (
   UNIQUE KEY text (text)
 ) ENGINE=InnoDB;
 
+--
+-- Add some data to table `greetings`
+--
+
+INSERT INTO greetings (text) VALUES('Hello');
+INSERT INTO greetings (text) VALUES('Cheers');
+INSERT INTO greetings (text) VALUES('What is up');
 
 ```
