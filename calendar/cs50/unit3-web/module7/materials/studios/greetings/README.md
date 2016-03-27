@@ -18,7 +18,7 @@ The home page is simply a form where users can input their name and choose a gre
 
 <img src="screenshots/sup-ruth-form.png" />
 
-If you did the Prep Work for class 1, this should feel very familiar! 
+If you did the [Class 1 Prep](../../class1-prep), this should feel very familiar! 
 
 Upon submitting the form, the user should be warmly greeted:
 
