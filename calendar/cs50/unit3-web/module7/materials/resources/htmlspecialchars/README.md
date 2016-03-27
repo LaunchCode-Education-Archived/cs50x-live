@@ -50,11 +50,15 @@ When we do this, the `$message` variable actually now looks like this:
 "Hello, &lt;h1&gt;li'l Rascal!&lt;/h1&gt;"
 ```
 
-which looks like gobbledygook to us, but the browser understands it to mean *OK, I should treat this '<' character as a literal '<' character and not try to interpret it as the beginning of a tag*, and so on, for each of the "special characters" that have a syntacic function in HTML.
+which looks like gobbledygook to us, but the browser understands it to mean:
+
+*OK, I should treat this '<' character as a literal '<' character and not try to interpret it as the beginning of a tag*
+
+and so on, for each of the "special characters" that have a syntacic function in HTML.
 
 Now our Rascal user sees this on his screen:
 
-<img src="rascal-response2.png" />
+<img src="screenshots/rascal-response2.png" />
 
 That's better!
 
