@@ -16,33 +16,33 @@ Here is what you are trying to accomplish:
 
 The home page is simply a form where users can input their name and choose a greeting:
 
-<img src="sup-ruth-form.png" />
+<img src="screenshots/sup-ruth-form.png" />
 
 If you did the Prep Work for class 1, this should feel very familiar! 
 
 Upon submitting the form, the user should be warmly greeted:
 
-<img src="sup-ruth-response.png" />
+<img src="screenshots/sup-ruth-response.png" />
 
 Notice that the site also reports how many times a particular greeting has been used. If someone else (named, say, Moe) were to come along and select "What is up" at this point, he should see this:
 
-<img src="sup-moe-response.png"/>
+<img src="screenshots/sup-moe-response.png"/>
 
 How does the site keep track of this? By using a database, of course! You will build a database table to store greetings, where each greeting will have a `text` field with a value like `"What is up"` and a `num_times` field with a value like `5`. More on that later.
 
 Another feature to notice is that the form on the homepage should also give users the option of creating their own "custom" greeting, rather than choosing from one of the "pre-made" greetings in the drop-down menu:
 
-<img src="lizards-form.png"/>
+<img src="screenshots/lizards-form.png"/>
 
 Claudia should see a response like this:
 
-<img src="lizards-response.png"/>
+<img src="screenshots/lizards-response.png"/>
 
 (As you can see, your site doesn't have to be smart about English numbering syntax. You can say "1th" and "2th" instead of "1st" and "2nd").
 
 One last thing to note is that when a user creates a custom greeting like "I like lizards", that new greeting should then be permanently added to the database, and subsequently should be available as an option in the dropdown menu:
 
-<img src="lizards-select.png"/>
+<img src="screenshots/lizards-select.png"/>
 
 
 ### Starter Code
