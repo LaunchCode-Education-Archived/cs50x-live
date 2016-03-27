@@ -54,7 +54,7 @@ which looks like gobbledygook to us, but the browser understands it to mean:
 
 *OK, I should treat this '<' character as a literal '<' character and not try to interpret it as the beginning of a tag*
 
-and so on, for each of the "special characters" that have a syntacic function in HTML.
+and so on, for each of the "special characters" that have a syntactic function in HTML.
 
 Now our Rascal user sees this on his screen:
 
