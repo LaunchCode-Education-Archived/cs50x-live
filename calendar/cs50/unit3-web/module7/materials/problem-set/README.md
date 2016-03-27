@@ -30,7 +30,7 @@ The structure of this project is very similar to the project you created in the 
 
 ### Get Started
 
-Click on the greedy shark to view the Pset Spec:
+This greedy shark has instructions for you. Click to view:
 
 <a href="http://cdn.cs50.net/2015/fall/psets/7/pset7/pset7.html" target="_blank">
   <img src="http://orig07.deviantart.net/87e1/f/2011/099/7/d/wall_street_shark_by_jjpoatree-d3dl9ba.png" />
