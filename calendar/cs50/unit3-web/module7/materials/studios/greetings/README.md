@@ -1,6 +1,6 @@
 ##### Module 7
 
-[Back to Class 2](../class2)
+[Back to Class 2](../../class2)
 
 # Studio: Greetings
 
