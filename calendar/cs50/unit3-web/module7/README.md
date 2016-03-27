@@ -21,7 +21,7 @@ In Problem Set 7, you will put all these new skills to good use, building your o
 
 Class # | Date| Before Class | During Class | Topics / Skills
 :------:|:----:|:--------------:|:--------------:|----------------
-Class 1 | TBD | [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | PHP syntax, PHP on the Web, sessions, cookies
+Class 1 | TBD | [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | PHP syntax, PHP on the Web, sessions & cookies
 Class 2 | TBD | [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | The MVC Paradigm, SQL
 Class 3 | TBD | Continue [Problem Set 7](./materials/problem-set) | [In Class](./materials/class3) | (office hours!)
 
