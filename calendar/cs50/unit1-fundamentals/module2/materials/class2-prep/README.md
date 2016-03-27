@@ -7,7 +7,7 @@ Before coming to [Class 2](../class2), please work your way through the followin
 #### Lecture
  Task | Resource Type| Link | Instructions
 ------|------|------|-------------
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=kEAH6u1ODNI" target="_blank">Week 2, continued</a> | Watch the week's second lecture, with Rob Bowden filling in for David. 
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=7ATGN54sSVQ" target="_blank">Week 2, continued</a> | Watch the week's second lecture, with Rob Bowden filling in for David. 
 
 ***
 
