@@ -8,16 +8,15 @@ Before coming to [Class 2](../class2), please complete the following tasks:
 ##### Lecture
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Watch | Lecture | <a href="https://youtu.be/rJeP65u84ec" target="_blank">Week 8</a> | 
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=yoDrhOZCKWo" target="_blank">Week 8, continued</a>
+Watch | Lecture | <a href="https://youtu.be/rJeP65u84ec" target="_blank">Week 8</a> | This lectures talks a little more about PHP before covering MVC, a "paradigm" for how to architect a large software application. Finally, we are also intorduced to SQL, a language for querying databases.
+Watch | Lecture | <a href="https://www.youtube.com/watch?v=yoDrhOZCKWo" target="_blank">Week 8, continued</a> | This lecture deals with SQL in depth.
 
 ***
 
 ##### A Little More PHP
 Task | Resource Type | Link | Instructions
 -----|------|------|------
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#php" target="_blank">Week 8 / PHP</a> | review of interp, shebang, variable interpolation
-Do | Exercise | | TODO variable interpolation
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/notes8m/notes8m.html#php" target="_blank">Week 8 / PHP</a> | These notes review the role that the PHP Interpreter plays (kind of like the compiler in C, but a little different). They also discuss the `chmod` command for managing permissions on files. Finally, we are also introduced to string "interpolation", an alternative way of inserting values into strings in PHP.
 Read | Resource | <a href="http://www.w3schools.com/php/func_array_extract.asp" target="_blank">W3 Schools / extract()</a> | In an upcoming walkthrough, David will use the `extract()` function. Read this article to learn what it does and see some examples.
 Read | Resource | <a href="http://www.hackingwithphp.com/4/15/5/default-parameters" target="_blank">PHP Default Parameters</a> | In an upcoming walkthrough, David will use a feature of PHP that allows you to specify "default values" for arguments that are passed into functions. Read this article to see some examples of how this works.
 
