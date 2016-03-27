@@ -12,7 +12,7 @@ This is a big, hearty studio, with lots of work to do. Oh boy!
 
 ### The Goal
 
-Here is what you are trying to accomplish:
+First, let's go over what you are trying to accomplish.
 
 The home page is simply a form where users can input their name and choose a greeting:
 
