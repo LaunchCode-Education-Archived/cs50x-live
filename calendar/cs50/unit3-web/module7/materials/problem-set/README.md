@@ -36,3 +36,5 @@ This greedy shark has instructions for you. Click to view:
   <img src="http://orig07.deviantart.net/87e1/f/2011/099/7/d/wall_street_shark_by_jjpoatree-d3dl9ba.png" />
 </a>
 
+After you look over the Spec, you might also find it helpful to check out <a href="https://study.cs50.net/mvc" target="_blank">CS50 Study / MVC</a> (we didn't include it in the prep work because it makes heavy use of this Problem Set as an example.)
+
