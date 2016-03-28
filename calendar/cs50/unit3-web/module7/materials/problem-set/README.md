@@ -14,15 +14,18 @@ Your site will use a PHP backend with a MySQL database to store user accounts an
 
 ### How to submit 
 
-When finished, compress your project into a zip file:
+1. When ready to submit, "export" your MySQL database (i.e., save it into a text file) by executing the commands below, where username is your own username, pasting your MySQL password when prompted for a password. (Recall that you can see your MySQL password by clicking the ⓘ icon toward CS50 IDE’s top-right corner.) For security, you won’t see the password as you paste it.
 
-```nohighlight
-$ zip pzet7.zip pset7
-```
+  ```nohighlight
+  cd ~/workspace/pset7
+  mysqldump -u username -p pset7 > pset7.sql
+  ```
+  
+  If you type ls thereafter, you should see that you have a new file called pset7.sql in ~/workspace/pset7. (If you realize later that you need to make a change to your database and re-export it, you can delete pset7.sql with rm pset7.sql, then re-export as before.)
+  
+2. On the CS50 IDE's "file browser" menu on the left side of the page (not within a terminal window), control-click or right-click your pset7 folder and then select Download. You should find that your browser has downloaded `pset7.tar`, a "tarball" that’s similar in spirit to a ZIP file.
 
-Then download the zip file from your IDE.
-
-On Vocareum, upload `pset7.zip` into the assignment titled **Problem Set 7: Finance**.
+3. On Vocareum, upload `pset7.tar` into the assignment titled **Problem Set 7: Finance**.
 
 ### Guidance
 
