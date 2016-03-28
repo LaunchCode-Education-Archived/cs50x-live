@@ -49,7 +49,7 @@ We have provided you with some starter code. Download it using the `wget` comman
 
 ```nohighlight
 $ cd ~/workspace/module7/studios/
-$ wget education.launchcode.org/calendar/cs50/unit3-web/module7/materials/studios/greetings/greetings.zip
+$ wget https://github.com/LaunchCodeEducation/cs50x-live/blob/master/calendar/cs50/unit3-web/module7/materials/studios/greetings/greetings.zip
 ```
 
 Unzip the `.zip` archive, confirm that you now have a `greetings` directory, and then delete the archive:
