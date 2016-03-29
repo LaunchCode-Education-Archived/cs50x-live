@@ -11,8 +11,7 @@ Before coming to class please complete [Class 1 Prep](../class1-prep)
   * associative arrays
   * superglobal constants like `$_GET`, `$_POST`, and `$_SESSION`
   * PHP and HTML together in a file
-2. Studios
-  * [Mult Table](../studios/mult-table)
+2. [Studio: Mult Table](../studios/mult-table)
 
 ### Homework
 1. [Prep for Class 2](../class2-prep) 
