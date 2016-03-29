@@ -12,7 +12,7 @@ For today's studio, we are going to borrow an exercise that Doug Lloyd suggested
 
 As Doug says, your assignment is to create a pair of PHP files, `mult_form.php` and `mult_table.php`. The form should contain one field for the user to enter a number. When the form is submitted, the user should be taken to the other page, which displays an `n by n` mulitplication table.
 
-We've already started both files. Copy <a href="./mult_form.html" target="_blank">mult_form.php</a> and <a href="./mult_form.html" target="_blank">mult_form.php</a> into your IDE.
+We've already started both files. Copy <a href="./mult_form.html" target="_blank">mult_form.php</a> and <a href="./mult_table.html" target="_blank">mult_table.php</a> into your IDE.
 
 ### Assignment
 
