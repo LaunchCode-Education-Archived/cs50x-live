@@ -29,4 +29,7 @@ Good luck!
 
 Once you have a basic n by n grid, your next step is to extend the site to be more hip and less square. Add a second field to the form for another number. This new number should represent the height of the resulting table, and the old one should represent the width. When rendering the table now, make sure it is a rectangle with the dimensions specified on the form.
 
+### How to Submit
+
+When you're done, submit both **mult_form.php** *and* **mult_table.php** to Vocareum.
 
