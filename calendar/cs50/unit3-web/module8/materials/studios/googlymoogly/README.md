@@ -18,7 +18,7 @@ If the user tries to submit the form without typing anything in at all, you shou
 
 <img src="screenshots/invalid-noname.png"/>
 
-If they do provide a name, then they are free to submit the form, provided, of course, that their search query matches teh Golden Googly Moogly Rule. 
+If they do provide a name, then they are free to submit the form... provided, of course, that their search query matches the Golden Googly Moogly Rule. 
 
 <img src="screenshots/invalid-chars.png"/>
 
