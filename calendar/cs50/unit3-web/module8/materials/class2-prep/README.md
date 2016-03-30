@@ -39,6 +39,9 @@ Task | Resouce Type | Link | Instructions
 -----|------|------|------
 Follow-Along | Seminar | <a href="https://www.youtube.com/watch?v=bQXKCMdVT6o" target="_blank">jQuery</a> | jQuery is a Javascript library that makes it much easier to do a wide variety of things in Javascript. We've made this a **Follow-Along** task because Vipul, the speaker, notes that his presentation is fairly interactive and should be followed along with.
 
+
+https://www.youtube.com/watch?v=CbSKqL4J1QI
+
 ***
 
 ### Security
