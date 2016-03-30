@@ -104,11 +104,12 @@ In `css/styles.css`, there isn't much, just a few styles to color things red:
 
 `validate.js` is where you come in. We have some code there in place, but there are 6 `TODO`s left for you.
 
-In this ssignment you will probably use the following properties and functions:
+There are a lot of equally valid methods available for traversing and manipulating the DOM, but you will probably use the following properties and functions:
 
 *For DOM Elements*
 * `innerHTML`
 * `className`
+* `getElementById()` (watch out! capital I, lowercase d)
 * `querySelector()`
 
 *For Arrays and Strings*
