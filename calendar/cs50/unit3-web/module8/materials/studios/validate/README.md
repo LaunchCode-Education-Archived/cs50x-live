@@ -10,9 +10,7 @@ Today you will get some practice using JavaScript to manipulate the DOM. Your JS
 
 You have a brilliant idea for a new search engine, the Googly Moogly. It's kinda like Google, but better. With Googly Moogly, users are only allowed to search for things using letters from their own name. 
 
-Your patent lawyer is drafting the paperwork as we speak.
-
-In the mean time, let's build this thing. It should look like this:
+Your patent lawyer is drafting the paperwork as we speak, but in the mean time, let's build this thing. It should look like this:
 
 <img src="screenshots/blank.png"/>
 
