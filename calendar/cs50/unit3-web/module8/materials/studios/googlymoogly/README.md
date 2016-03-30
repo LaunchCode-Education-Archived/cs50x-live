@@ -4,7 +4,7 @@
 
 # Studio: Googly Moogly
 
-Today you will get some practice using JavaScript to manipulate the DOM. Your JS script will perform client-side validation on an HTML form, kind of like these <a href="https://www.youtube.com/watch?v=eViManaIKkQ&index=9&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">Walkthroughs</a>, but instead of reporting feedback with an annoying `alert()` message, you will provide a nice user experience by modifying the HTML content to include a helpful annotation on whichever field(s) the user messed up.
+Today you will get some practice using JavaScript to manipulate the DOM. Your JS script will perform client-side validation on an HTML form, kind of like this <a href="https://www.youtube.com/watch?v=r2iaKDH79oQ&index=8&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">Walkthrough</a>, but instead of reporting feedback with an annoying `alert()` message, you will provide a nice user experience by modifying the HTML content to include a helpful annotation on whichever field(s) the user messed up.
 
 ### The Goal
 
