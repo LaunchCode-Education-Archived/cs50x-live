@@ -261,7 +261,7 @@ Compress your `greetings` directory into a `.zip` file:
 
 ```nohighlight
 cd ~/workspace/module7/studios
-zip greetings.zip greetings
+zip -r greetings.zip greetings
 ```
 
 Upload `greetings.zip` on Vocareum, in the assignment titled **Studio: Greetings**.
