@@ -4,11 +4,15 @@
 
 # Studio: Validate
 
-Today you will get some practice using JavaScript to manipulate the DOM. Your JS script will perform client-side validation on an HTML form, kind of like these <a href="https://www.youtube.com/watch?v=eViManaIKkQ&index=9&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">Walkthroughs</a>, but instead of reporting feedback via an annoying `alert()` message, you will modify the HTML content to include a helpful annotation on whichever field(s) the user messed up.
+Today you will get some practice using JavaScript to manipulate the DOM. Your JS script will perform client-side validation on an HTML form, kind of like these <a href="https://www.youtube.com/watch?v=eViManaIKkQ&index=9&list=PLhQjrBD2T382FjybRNOXyEdsjP9CNKJgb" target="_blank">Walkthroughs</a>, but instead of reporting feedback with an annoying `alert()` message, you will provide a nice user experience by modifying the HTML content to include a helpful annotation on whichever field(s) the user messed up.
 
 ### The Goal
 
-TODO Googly themes
+You have a brilliant idea for a new search engine, the Googly Moogly. It's kinda like Google, but better. With Googly Moogly, users are only allowed to search for things using letters from their own name. 
+
+Your patent lawyer is drafting the paperwork as we speak.
+
+In the mean time, let's build this thing. It should look like this:
 
 <img src="screenshots/blank.png"/>
 
@@ -16,7 +20,7 @@ If the user tries to submit the form without typing anything in at all, you shou
 
 <img src="screenshots/invalid-noname.png"/>
 
-If they do provide a name, then they are free to submit the form, but only if their search query matches Googly Moogly's Golden Rool. 
+If they do provide a name, then they are free to submit the form, provided, of course, that their search query matches teh Golden Googly Moogly Rule. 
 
 <img src="screenshots/invalid-chars.png"/>
 
@@ -26,12 +30,14 @@ Now let's say Crazy Steve tries this:
 
 <img src="screenshots/invalid-casesensitive.png"/>
 
-What's wrong with "raves"? Turns out Googly Moogly is a case-sensitive beast. So `"S"` is allowed, but not `"s"`. This should actually make it easier for you to implement. Thanks, Goog.
+What's wrong with "raves"? Well, turns out Googly Moogly is a case-sensitive beast. (This was all your brilliant idea, but we're just reminding you of the details). So anyway `"S"` is allowed, but not `"s"`. This should actually make it easier for you to implement.
 
-Finally, Steve gets it right:
+When Steve finally gets it right, like this:
 
 <img src="screenshots/valid.png"/>
 
-and he is whisked away to learn about raveS:
+he should be whisked away to learn about raveS:
 
 <img src="screenshots/google.png"/>
+
+### Starter Code
