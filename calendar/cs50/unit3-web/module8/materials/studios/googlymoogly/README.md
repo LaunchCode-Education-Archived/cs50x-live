@@ -104,9 +104,7 @@ In `css/styles.css`, there isn't much, just a few styles to color things red:
 
 `validate.js` is where you come in. We have some code there in place, but there are 6 `TODO`s left for you.
 
-You might have noticed that the way we've set things up is not perfectly analagous to the <a href="" target="_blank">form-1</a> Walkthrough example mentioned earlier. That's because our situation is a little different. 
-
-There are a lot of equally valid ways to "query the DOM" i.e. to access and inspect and modify the elements composing your HTML page. In this ssignment you will probably use the following properties and functions:
+In this ssignment you will probably use the following properties and functions:
 
 *For DOM Elements*
 * `innerHTML`
@@ -118,6 +116,7 @@ There are a lot of equally valid ways to "query the DOM" i.e. to access and insp
 * `push()`
 * `indexOf()`
 
+So google those (or googlymoogle them!) as needed.
 
 ### How to Submit
 
