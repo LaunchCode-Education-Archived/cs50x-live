@@ -28,7 +28,7 @@ Now let's say Crazy Steve tries this:
 
 <img src="screenshots/invalid-casesensitive.png"/>
 
-What's wrong with "raves"? Well, turns out Googly Moogly is a case-sensitive beast. (This was all your brilliant idea, but we're just reminding you of the details). So anyway `"S"` is allowed, but not `"s"`. This should actually make it easier for you to implement.
+What's wrong with "raves"? Well, turns out Googly Moogly is a case-sensitive beast. (This was all your idea, we're just reminding you of the details). So anyway `"S"` is allowed, but not `"s"`. This should actually make it easier for you to implement.
 
 When Steve finally gets it right, like this:
 
