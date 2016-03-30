@@ -10,7 +10,7 @@ Today you will get some practice using JavaScript to manipulate the DOM. Your JS
 
 <img src="screenshots/blank.png"/>
 
-<img src="screenshots/noname.png"/>
+<img src="screenshots/invalid-noname.png"/>
 
 <img src="screenshots/invalid-chars.png"/>
 
