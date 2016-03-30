@@ -39,3 +39,86 @@ he should be whisked away to learn about raveS:
 <img src="screenshots/google.png"/>
 
 ### Starter Code
+
+Grab our starter code as follows:
+
+```nohighlight
+$ cd ~/workspace/module8/studios
+$ wget https://education.launchcode.org/cs50x-stlouis/calendar/cs50/unit3-web/module8/materials/studios/googlymoogly/googlymoogly.zip
+```
+
+Then unzip the archive and delete it:
+
+```nohighlight
+$ unzip googlymoogly.zip
+$ ls 
+googlymoogly/ googlymoogly.zip
+rm googlymoogly.zip
+```
+
+The contents of the directory look like this:
+
+```nohighlight
+$ cd googlymoogly
+$ tree
+.
+├── css
+│   └── styles.css
+├── index.html
+└── scripts
+    └── validate.js
+```
+
+Nothing crazy here, just an `index.html` file, along with a stylesheet and a JS script.
+
+We have already done `index.html` and `styles.css`. The only file you will need to work in is `validate.js`.
+
+### A Brief Tour
+
+Open up the files in your IDE and check out what we've got so far.
+
+##### HTML
+
+In `index.html` we have, of course, a page with a `<form>`. Inside the form are two fields:
+* one for the user's name 
+* and one for the "query", the term she wants to search for. 
+
+Each of those fields really requires three components:
+* an `<input>` where the user can type
+* a `<label>` describing what this field is all about (e.g., "What's your name?")
+* another `<label>` to provide feedback if the user screwed up (e.g., "You must tell me your name!")
+
+Because these three tags are really subparts that make up a cohesive unit, we have wrapped them in a `<div>` tag that will serve as their "container". 
+
+So the form is really composed of two `<div>`s, one for each field.
+
+##### CSS
+
+In `css/styles.css`, there isn't much, just a few styles to color things red:
+* The `.feedback-error` class represents feedback `<label>`s that are reporting errors. Their text color is set to red
+* The `.input-invalid` class represents `<input>`s that were filled out improperly. They have a red border around them.
+* The `.container-field` class represents those "container" `<div>`s discussed above. The have a bit of margin underneath them to add a little separation between multiple fields.
+
+
+##### JavaScript
+
+`validate.js` is where you come in. We have some code there in place, but there are 6 `TODO`s left for you.
+
+You might have noticed that the way we've set things up is not perfectly analagous to the <a href="" target="_blank">form-1</a> Walkthrough example mentioned earlier. That's because our situation is a little different. 
+
+There are a lot of equally valid ways to "query the DOM" i.e. to access and inspect and modify the elements composing your HTML page. In this ssignment you will probably use the following properties and functions:
+
+*For DOM Elements*
+* `innerHTML`
+* `className`
+* `querySelector()`
+
+*For Arrays and Strings*
+* `length`
+* `push()`
+* `indexOf()`
+
+
+### How to Submit
+
+Submit your `validate.js` file on Vocareum for the assignment titled **Studio: Googly Moogly**
