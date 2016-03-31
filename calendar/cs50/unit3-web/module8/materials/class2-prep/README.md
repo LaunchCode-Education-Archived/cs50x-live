@@ -47,9 +47,7 @@ Watch | Seminar | Programmer's Introduction to APIs https://www.youtube.com/watc
 ### Security
 Task | Resouce Type | Link | Instructions
 -----|------|------|------
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=bpfiIlYzVGs" target="_blank">Week 10</a> | about security
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/notes10m/notes10m.html#security" target="_blank">Week 10 / Security</a> | 
-Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/notes10m/notes10m.html#defenses" target="_blank">Week 10 / Defenses</a>
+Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/notes10m/notes10m.html#security" target="_blank">Week 10 / Security</a> and <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/notes10m/notes10m.html#defenses" target="_blank">Week 10 / Defenses</a> | The week 10 Lecture deals with some of the vulnerabilities of our data on the web, and how we can (sort of try to) protect ourselves from the threats. You can optionally watch the video as well, if you like. |
 
 ***
 
