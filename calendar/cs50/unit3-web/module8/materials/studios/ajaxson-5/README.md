@@ -88,7 +88,7 @@ the result will be a GIF on our page!
 
 ##### Adding Params: tag
 
-But artisan lollipops is a topic for another time, beacuse today is all about the Jacksons. To specify the topic of interest, we simply need to add another data parameter with the key "tag" and the value "jackson+5":
+But artisan lollipops is a topic for another time, beacause today is all about the Jacksons. To specify the topic of interest, we simply need to add another data parameter with the key "tag" and the value "jackson+5":
 
 ```nohighlight
 $ curl -G http://api.giphy.com/v1/gifs/random -d api_key=dc6zaTOxFJmzC -d tag=jackson+5
@@ -98,7 +98,7 @@ which should respond with a GIF like this one:
 
 <img src="http://media2.giphy.com/media/BrzAAl0VMNkk/giphy.gif" />
 
-
+Much better!
 
 ### The Goal
 
@@ -110,19 +110,19 @@ Upon submitting the form, the user should briefly see an indication that somethi
 
 <img src="screenshots/loading.png"/>
 
-After a quick second, a GIF should appear!
+After a little while, the user should see a GIF appear!
 
 <img src="screenshots/moonwalk.png"/>
 
-If the user clicks the button again, even with the same search term, she should see a new GIF:
+If the user clicks the button again, even with the same search term, a new request hsould be sent, yielding a (probably) new GIF:
 
 <img src="screenshots/cowboy.png"/>
 
-The gif should ideally be relevant to both the search term and the Jackson 5 (or at least Michael), but depending on the search term you might find that only one or the other could be satisfied. For example, a third click might yield this:
+The gif should ideally be relevant to both the user's search term ("dance" in this case) and the Jackson 5 (or at least Michael), but depending on the search term, and just luck-of-the-draw, you might find that only one or the other could be satisfied. For example, a third click might yield this:
 
 <img src="screenshots/mariodance.png"/>
 
-Dance: check. Jackson: not so much. That's OK if the results don't quite work out, as long as you put in the effort and heart and soul (where "effort and heart and soul" means your form submitted a request that looks like "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=jackson+5+dance").
+Dance: check. Jacksons: not so much. That's OK if the results don't quite work out, as long as you put in the effort and heart and soul (where "effort and heart and soul" means your form submitted a request Giphy a request in which the "tag" key had a value of `"Jackson 5 dance"`).
 
 Finally, it is possible that something might go wrong in the proccess of making the request. If so, you should report an error to the user, like so:
 
