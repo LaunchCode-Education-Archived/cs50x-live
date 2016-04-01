@@ -34,7 +34,7 @@ Let's try adding the this magic string as a parameter to url, along with the key
 
 ```nohighlight
 $ curl http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC
-{"data":{"type":"gif","id":"2sRsQBlp32UCI","url":"http:\/\/giphy.com\/gifs\/no-i-dont-approve-2sRsQBlp32UCI","image_original_url":"http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/giphy.gif","image_url":"http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/giphy.gif","image_mp4_url":"http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/giphy.mp4","image_frames":"12","image_width":"500","image_height":"282","fixed_height_downsampled_url":"http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/200_d.gif","fixed_height_downsampled_width":"355","fixed_height_downsampled_height":"200","fixed_width_downsampled_url":"http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/200w_d.gif","fixed_width_downsampled_width":"200","fixed_width_downsampled_height":"113","fixed_height_small_url":"http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/100.gif","fixed_height_small_still_url":"http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/100_s.gif","fixed_height_small_width":"177","fixed_height_small_height":"100","fixed_width_small_url":"http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/100w.gif","fixed_width_small_still_url":"http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/100w_s.gif","fixed_width_small_width":"100","fixed_width_small_height":"56","username":"","caption":""},"meta":{"status":200,"msg":"OK"}}
+{"data":{"type":"gif","id":"RBLigAVE0xJte","url":"http:\/\/giphy.com\/gifs\/food-dessert-etc-RBLigAVE0xJte","image_original_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/giphy.gif","image_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/giphy.gif","image_mp4_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/giphy.mp4","image_frames":"35","image_width":"245","image_height":"180","fixed_height_downsampled_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/200_d.gif","fixed_height_downsampled_width":"272","fixed_height_downsampled_height":"200","fixed_width_downsampled_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/200w_d.gif","fixed_width_downsampled_width":"200","fixed_width_downsampled_height":"147","fixed_height_small_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/100.gif","fixed_height_small_still_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/100_s.gif","fixed_height_small_width":"136","fixed_height_small_height":"100","fixed_width_small_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/100w.gif","fixed_width_small_still_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/100w_s.gif","fixed_width_small_width":"100","fixed_width_small_height":"73","username":"","caption":""},"meta":{"status":200,"msg":"OK"}}
 ```
 
 We got some stuff! It's not very readable, but if we paste it into a <a href="http://jsonprettyprint.com" target="_blank">json prettifyer</a>, we can see the structure very clearly:
@@ -43,14 +43,14 @@ We got some stuff! It's not very readable, but if we paste it into a <a href="ht
 {
   "data": {
     "type": "gif",
-    "id": "2sRsQBlp32UCI",
-    "url": "http:\/\/giphy.com\/gifs\/no-i-dont-approve-2sRsQBlp32UCI",
-    "image_original_url": "http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/giphy.gif",
-    "image_url": "http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/giphy.gif",
-    "image_mp4_url": "http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/giphy.mp4",
-    "image_frames": "12",
-    "image_width": "500",
-    "image_height": "282",
+    "id": "RBLigAVE0xJte",
+    "url": "http:\/\/giphy.com\/gifs\/food-dessert-etc-RBLigAVE0xJte",
+    "image_original_url": "http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/giphy.gif",
+    "image_url": "http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/giphy.gif",
+    "image_mp4_url": "http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/giphy.mp4",
+    "image_frames": "35",
+    "image_width": "245",
+    "image_height": "180",
     ...
   },
   "meta": {
@@ -62,21 +62,21 @@ We got some stuff! It's not very readable, but if we paste it into a <a href="ht
 
 That's a lot of data for just one GIF. For our purposes, the only thing we care about is the value of the `"image_url"` key, which is inside of the `"data"` key:
 
-http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/giphy.gif
+http:\/\/media3.giphy.com\/media\/RBLigAVE0xJte\/giphy.gif
 
 If we fix up the "escaped" forward slashes, we get a valid url to a GIF!
 
-http://media3.giphy.com/media/2sRsQBlp32UCI/giphy.gif
+http://media3.giphy.com/media/RBLigAVE0xJte/giphy.gif
 
 If we set this url to the `"src"` attribute of an `<img>` tag in HTML, like so:
 
 ```html
-<img src="http://media3.giphy.com/media/2sRsQBlp32UCI/giphy.gif"/>
+<img src="http://media1.giphy.com/media/RBLigAVE0xJte/giphy.gif"/>
 ```
 
 the result will be a GIF on our page!
 
-<img src="http://media3.giphy.com/media/2sRsQBlp32UCI/giphy.gif"/>
+<img src="http://media3.giphy.com/media/RBLigAVE0xJte/giphy.gif"/>
 
 * host
 * random endpoint
