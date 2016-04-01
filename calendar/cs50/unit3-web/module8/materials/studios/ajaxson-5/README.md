@@ -16,9 +16,19 @@ Upon submitting the form, the user should briefly see an indication that somethi
 
 <img src="screenshots/loading.png"/>
 
-After a brief second, a GIF should appear!
+After a quick second, a GIF should appear!
 
-<img src="screenshots/gif.png"/>
+<img src="screenshots/moonwalk.png"/>
 
-The gif should ideally be relevant to both the user's search query and the Jackson 5, but depending on the search query you 
+If the user clicks the button again, even with the same search term, they should see a new GIF:
+
+<img src="screenshots/cowboy.png"/>
+
+The gif should ideally be relevant to both the search term and the Jackson 5 (or at least Michael), but depending on the search term you might find that only one or the other could be satisfied. For example, click number 3 might yield this:
+
+<img src="screenshots/mariodance.png"/>
+
+Dance: check. Jackson: not so much. 
+
+
 
