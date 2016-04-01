@@ -112,15 +112,15 @@ Upon submitting the form, the user should briefly see an indication that somethi
 
 After a little while, the user should see a GIF appear!
 
-<img src="screenshots/moonwalk.png"/>
+<img src="screenshots/dance.png"/>
 
 If the user clicks the button again, even with the same search term, a new request should be sent, yielding a (probably) new GIF:
 
-<img src="screenshots/cowboy.png"/>
+<img src="screenshots/dance2.png"/>
 
 The gif should ideally be relevant to both the user's search term ("dance" in this case) and the Jackson 5 (or at least Michael), but depending on the search term, and just luck-of-the-draw, you might find that only one or the other could be satisfied. For example, a third click might yield this:
 
-<img src="screenshots/mariodance.png"/>
+<img src="screenshots/dance3.png"/>
 
 Dance: check. Jacksons: not so much. That's OK if the results don't quite work out, as long as you put in the effort and heart and soul (where "effort and heart and soul" means your form submitted to Giphy a request in which the "tag" key had a value of `"Jackson 5 dance"`).
 
