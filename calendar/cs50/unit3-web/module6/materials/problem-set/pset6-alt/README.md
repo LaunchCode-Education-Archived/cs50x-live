@@ -41,7 +41,7 @@ According to the Slack docs, the host that we want to talk to is `https://hooks.
 
 The endpoint is `/services/123456789`
 
-where `123456789` represents a unique identifier to our `#pset6-graffitiwall` channel. The actual channel ID is available on Vocareum. Click on the assignment titled **Problem Set 6 Alt: Graffiti**, and you will see it.
+where `123456789` represents a unique identifier to our `#pset-graffitiwall` channel. The actual channel ID is available on Vocareum. Click on the assignment titled **Problem Set 6 Alt: Graffiti**, and you will see it.
 
 The overall url we want is simply the endpoint tacked onto the host: `https://hooks.slack.com/services/123456789`
 
@@ -150,7 +150,7 @@ For the `icon_emoji`, notice that we provided as special syntax with the name of
 
 ### Your Mission
 
-Your job is to create an HTML page with a form that will post messages to the `#pset6-graffitiwall` channel. Your page should look something like this:
+Your job is to create an HTML page with a form that will post messages to the `#pset-graffitiwall` channel. Your page should look something like this:
 
 <img src="screenshots/graffiti.png"/>
 
@@ -158,7 +158,7 @@ When the user clicks the orange "Scrawl on the Wall" button, the form should sub
 
 <img src="screenshots/response.png"/>
 
-That's not super interesting, but over in our #pset6-graffitiwall channel on Slack, we should now see this:
+That's not super interesting, but over in our #pset-graffitiwall channel on Slack, we should now see this:
 
 <img src="screenshots/eatyourveg.png"/>
 
