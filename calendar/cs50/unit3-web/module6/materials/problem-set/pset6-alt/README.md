@@ -202,9 +202,9 @@ If you're having trouble, the developer tools are a nice place to do some debugg
 
 In Chrome, the `Network` tab allows you to inspect HTTP requests and responses coming in and out. That sounds useful! 
 
-<img src="screenshots/devtools.png"/>
+<img src="screenshots/developertools.png"/>
 
-<img src="screenshots/devtools2.png"/>
+<img src="screenshots/developertools2.png"/>
 
 
 ### Select
