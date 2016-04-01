@@ -41,7 +41,7 @@ According to the Slack docs, the host that we want to talk to is `https://hooks.
 
 The endpoint is `/services/123456789`
 
-where `123456789` represents a unique identifier to our `#pset-graffitiwall` channel. The actual channel ID is available on Vocareum. Click on the assignment titled **Problem Set 6 Alt: Graffiti**, and you will see it.
+where `123456789` represents a unique identifier to our `#pset-graffitiwall` channel. The actual channel ID is available on Vocareum. Click on the assignment titled **Problem Set: Graffiti**, and you will see it.
 
 The overall url we want is simply the endpoint tacked onto the host: `https://hooks.slack.com/services/123456789`
 
