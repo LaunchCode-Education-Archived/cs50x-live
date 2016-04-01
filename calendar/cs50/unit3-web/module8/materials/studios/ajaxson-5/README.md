@@ -114,7 +114,7 @@ After a little while, the user should see a GIF appear!
 
 <img src="screenshots/moonwalk.png"/>
 
-If the user clicks the button again, even with the same search term, a new request hsould be sent, yielding a (probably) new GIF:
+If the user clicks the button again, even with the same search term, a new request should be sent, yielding a (probably) new GIF:
 
 <img src="screenshots/cowboy.png"/>
 
@@ -122,7 +122,7 @@ The gif should ideally be relevant to both the user's search term ("dance" in th
 
 <img src="screenshots/mariodance.png"/>
 
-Dance: check. Jacksons: not so much. That's OK if the results don't quite work out, as long as you put in the effort and heart and soul (where "effort and heart and soul" means your form submitted a request Giphy a request in which the "tag" key had a value of `"Jackson 5 dance"`).
+Dance: check. Jacksons: not so much. That's OK if the results don't quite work out, as long as you put in the effort and heart and soul (where "effort and heart and soul" means your form submitted to Giphy a request in which the "tag" key had a value of `"Jackson 5 dance"`).
 
 Finally, it is possible that something might go wrong in the proccess of making the request. If so, you should report an error to the user, like so:
 
@@ -131,8 +131,23 @@ Finally, it is possible that something might go wrong in the proccess of making 
 ### Starter Code
 
 * get it
-* brief tour
-* no css
+
+##### Brief Tour
+
+In `index.html` we have three things:
+* a `<form>` where the user can type a search query and request a new GIF
+* an `<img>` where the GIF will live
+* a `<p>` that we can use to report feedback about the image loading or an error having occured.
+
+There is no CSS. If you want to style your page after you've implemented the functionality, feel free!
+
+The work to do is in `request-gif.js`.
+* document.ready
+* submit handler
+* query DOM
+* params object
+* ajax request
+* manipulate DOM, toggling visibility
 
 ### Guidance
  
@@ -140,6 +155,7 @@ Finally, it is possible that something might go wrong in the proccess of making 
   * `$.ajax()`
   * `$().attr()`
   * `$().html()`
+  * `$().val()`
   * `$().submit()`
   * `$().find()`
   * making a js object
