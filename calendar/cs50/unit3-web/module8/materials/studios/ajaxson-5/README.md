@@ -23,7 +23,7 @@ We recieved a 404 Not Found response from Giphy. Maybe they ran out of GIFs?
 
 ##### The Endpoint
 
-Actually, the problem is that we need to choose an "endpoint" to indicate which specific service we want. The endpoints are all listed in the documentation linked above, if you want to check them out. For this assignment, we will use the Random endpoint, which responds to every request with randomly chosen GIF related to a particular topic (unless you don't provide a specific topic, in which case you might get anything at all). 
+Actually, the problem is that we need to choose an "endpoint" to indicate which specific service we want. The endpoints are all listed in the documentation linked above, so check them out if you are interested. For this assignment, we will use the Random endpoint, which, upon receiving a request, responds with a randomly chosen GIF related to a particular topic (unless you don't provide a specific topic, in which case you'll get back a *very* random GIF). 
 
 The url for the Random endpoint is simply `/random`, so let's try this:
 
@@ -36,7 +36,7 @@ This time we got a different error, 403 Forbidden. Like most APIs, Giphy require
 
 ##### Adding Params: api_key
 
-Let's authorize ourselves by including in our request a parameter whose value is this magic string and whose key name key name "api_key".
+Let's authorize ourselves by including in our request a parameter whose value is that magic string and whose key name key name "api_key".
 
 We can associate data with our curl request by using the -d flag:
 
@@ -47,7 +47,7 @@ $ curl -G http://api.giphy.com/v1/gifs/random -d api_key=dc6zaTOxFJmzC
 
 We got some stuff! It's not very readable, but if we paste it into a <a href="http://jsonprettyprint.com" target="_blank">json prettifyer</a>, we can see the structure very clearly:
 
-```json
+```nohighlight
 {
   "data": {
     "type": "gif",
