@@ -60,19 +60,23 @@ We got some stuff! It's not very readable, but if we paste it into a <a href="ht
 }
 ```
 
-That's a lot of data for just one GIF. For our purposes, the only thing we care about is the value of the `"image_url"` key, which is inside of the `"data"` key.
+That's a lot of data for just one GIF. For our purposes, the only thing we care about is the value of the `"image_url"` key, which is inside of the `"data"` key:
 
 http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/giphy.gif
+
+If we fix up the "escaped" forward slashes, we get a valid url to a GIF!
+
+http://media3.giphy.com/media/2sRsQBlp32UCI/giphy.gif
 
 If we set this url to the `"src"` attribute of an `<img>` tag in HTML, like so:
 
 ```html
-<img src="http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/giphy.gif"/>
+<img src="http://media3.giphy.com/media/2sRsQBlp32UCI/giphy.gif"/>
 ```
 
 the result will be a GIF on our page!
 
-<img src="http:\/\/media3.giphy.com\/media\/2sRsQBlp32UCI\/giphy.gif"/>
+<img src="http://media3.giphy.com/media/2sRsQBlp32UCI/giphy.gif"/>
 
 * host
 * random endpoint
