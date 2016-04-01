@@ -204,7 +204,7 @@ In Chrome, the `Network` tab allows you to inspect HTTP requests and responses c
 
 <img src="screenshots/developertools.png"/>
 
-<img src="screenshots/developertools2.png"/>
+<img src="screenshots/developtools2.png"/>
 
 
 ### Select
