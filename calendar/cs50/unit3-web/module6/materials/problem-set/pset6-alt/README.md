@@ -1,6 +1,6 @@
 ##### [Module 6](../../../)
 
-# Problem Set 6 Alt
+# Problem Set: Graffiti
 
 This problem set is going to be very similar to the [LunchCode](../../studios/lunchcode) studio. You will create an HTML page with a form that allows the user to interact with an API.
 
@@ -18,7 +18,7 @@ Once you have created an account and signed in, you should see a chatroom with s
 
 Slack has a vast API for doing all kinds of fancy cool stuff. We're going to use one particular feature, their <a href="https://api.slack.com/incoming-webhooks" target="_blank">Incoming Web Hooks</a> endpoint, which simply allows an external program to post messages to a channel. For example, participants in a `#civic-hacking` channel might write a program that automatically posts updates of local elections around the country as the results come in.
 
-Go take a look at the <a href="https://launchcodecommunity.slack.com/messages/pset6-graffitiwall/" target="_blank">#pset6-graffitiwall</a> channel, which we have set up specifically for the assignment. This channel will serve as a big shared "graffiti wall" on which you and hundreds of other CS50xers will come together and share pearls of wisdom such as:
+Go take a look at the <a href="https://launchcodecommunity.slack.com/messages/pset-graffitiwall/" target="_blank">#pset-graffitiwall</a> channel, which we have set up specifically for the assignment. This channel will serve as a big shared "graffiti wall" on which you and hundreds of other CS50xers will come together and share pearls of wisdom such as:
 
 * "Testing 123..."
 * "asdf"
@@ -116,7 +116,7 @@ This command should receive a response of
 ok
 ```
 
-Hey, that sounds pretty ok! And indeed, if you go over to the `#pset6-graffitiwall` channel, you should now see a message there!
+Hey, that sounds pretty ok! And indeed, if you go over to the `#pset-graffitiwall` channel, you should now see a message there!
 
 <img src="screenshots/curlresult.png"/>
 
@@ -233,7 +233,7 @@ Good luck! CSS can be <a href="http://imgur.com/gallery/Q3cUg29" target="_blank"
 
 ### How to Submit
 
-On Vocareum, find the assignment titled **Problem Set 6 Alt: Graffiti**.
+On Vocareum, find the assignment titled **Problem Set: Graffiti**.
 
 Submit your `graffiti.html` and `styles.css` files.
 
