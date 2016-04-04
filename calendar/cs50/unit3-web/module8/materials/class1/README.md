@@ -9,7 +9,10 @@ For homework, you should have done [Prep for Class 1](../class1-prep)
 Today's class will include a discussion about ...
 
 1. Lecture / Q&A on the following topics
-  * Topics
+  * Javascript: basic syntax
+  * Objects in JavaScript
+  * JavaScript runs "client side" or "on the front end". What does this mean, and what does it allow us to do?
+  * The DOM: a JavaScript object that represents the contents of your HTML page.
 
 2. Studio: [Studio Name](../studios/)
 
