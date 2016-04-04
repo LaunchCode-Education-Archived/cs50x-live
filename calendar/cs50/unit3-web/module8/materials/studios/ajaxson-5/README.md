@@ -207,7 +207,6 @@ You may find the following jQuery functions helpful:
 * `$(someSelector).attr()`
 * `$(someSelector).html()`
 * `$(someSelector).val()`
-* `$(someSelector).submit()`
 * `$(someSelector).find()`
 
 ### How to Submit
