@@ -36,7 +36,7 @@ This time we got a different error, 403 Forbidden. Like most APIs, Giphy require
 
 ##### Adding Params: api_key
 
-Let's authorize ourselves by including in our request a parameter whose value is that magic string and whose key name key name "api_key".
+Let's authorize ourselves by including in our request a parameter whose value is that magic string and whose key name is "api_key".
 
 We can associate data with our curl request by using the -d flag:
 
@@ -130,18 +130,40 @@ Finally, it is possible that something might go wrong in the proccess of making 
 
 ### Starter Code
 
-* get it
+You can download the starter code here:
+
+```nohighlight
+$ cd ~/workspace/module8/studios/
+$ wget https://education.launchcode.org/calendar/cs50/unit3-web/module8/materials/studios/ajaxson-5/ajaxson-5.zip
+$ unzip ajaxson-5.zip
+```
+
+You should now see a directory called `ajaxson5/`. If so, you can delete the archive and `cd` into the folder:
+
+```nohighlight
+$ rm ajaxson-5.zip
+$ cd ajaxson-5/
+```
 
 ##### Brief Tour
 
-In `index.html` we have three things:
+Look inside the folder:
+
+```nohighlight
+$ ls 
+index.html request-gif.js
+```
+
+and you should see only two files: `index.html` and `request-gif.js`.
+
+(There is no CSS. If you want to style your page after you've implemented the functionality, feel free!)
+
+In `index.html` we have three main things:
 * a `<form>` where the user can type a search query and request a new GIF
-* an `<img>` where the GIF will live
+* an `<img>` where the GIF will be displayed
 * a `<p>` that we can use to report feedback about the image loading or an error having occured.
 
-There is no CSS. If you want to style your page after you've implemented the functionality, feel free!
-
-The work to do is in `request-gif.js`.
+You will do all your work inside `request-gif.js`.
 * document.ready
 * submit handler
 * query DOM
