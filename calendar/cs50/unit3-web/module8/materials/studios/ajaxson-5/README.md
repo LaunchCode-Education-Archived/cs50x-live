@@ -184,6 +184,7 @@ which uses jQuery to search the DOM for our form (by querying for an element who
 The above line is, itself, inside of another callback, an annonymous function that we pass to jQuery's `document.ready()` function. This ensures that we do not execute that line until the HTML document has finished loading and is "ready" (because if we don't wait, then this code might execute before the `<form>` has loaded, in which case our `$("#form-gif-request")` query will fail to find anything).
 
 Let's continue on to the `fetchAndDisplayGif()` function. This is where you will do all your work. You will see a handful of TODOs sprinkled throughout the body of this function. The code that is in there currently provides a skeleton for the following gameplan:
+
 1. query the DOM to figure out what the user typed
 2. make an ajax request
 3. when the request comes back, modify the DOM so that the new GIF is shown.
