@@ -25,13 +25,6 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=HGVqC6hlqF
 
 ***
 
-### JS Review
-Task | Resouce Type | Link | Instructions
------|------|------|------
-Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a> | Study up! Review the basics of JavaScript with CS50 study.
-
-***
-
 ### jQuery
 Task | Resouce Type | Link | Instructions
 -----|------|------|------
