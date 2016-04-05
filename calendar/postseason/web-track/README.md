@@ -17,14 +17,19 @@ project should include a subset of these features:
 
 
 Open Questions:
-* 
+* How to deal with API keys without a back-end?
+* Setup
+* How to integrate git with presentation of content?
 
+Setup Environment
+* get a text editor (atom, sublime, textmate)
+* 
 
 ### Resources
 
 |Link | Topics | Notes|
 |----|--------|------|
-http://billpatrianakos.me/blog/2016/02/15/securing-api-keys-in-a-javascript-single-page-app/ | AJAX, APIs | How to deal with API keys without a back-end?
+http://billpatrianakos.me/blog/2016/02/15/securing-api-keys-in-a-javascript-single-page-app/ | AJAX, APIs | might answer the api key question
 http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/ | Bootstrap | Pretty solid tutorial, W3-esque, very in-depth, not great layout, needs to be prefaced with a better intro
 http://learntocodewith.me/getting-started/topics/bootstrap/ | Bootstrap | Decent intro / explanation / motivation
 
