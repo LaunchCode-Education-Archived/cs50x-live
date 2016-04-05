@@ -28,9 +28,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=HGVqC6hlqF
 ### JS Review
 Task | Resouce Type | Link | Instructions
 -----|------|------|------
-Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a>
-Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JYIKYnbdu4E&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=2" target="_blank">JavaScript</a> | (Optional) You might want to rewatch this.
-Do | Exercise | JS Practice | TODO exc: a few exercises to practice using js (See Doug: JS)
+Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a> | Study up! Review the basics of JavaScript with CS50 study.
 
 ***
 
@@ -39,7 +37,7 @@ Task | Resouce Type | Link | Instructions
 -----|------|------|------
 Watch | Seminar | <a href="https://www.youtube.com/watch?v=bQXKCMdVT6o" target="_blank">jQuery</a> | jQuery is a Javascript library that makes it much easier to do a wide variety of things in Javascript. Watch this seminar for a broad introduction.
 Do | Exercise | <a>Codecademy / jQuery</a> | Head off to codecademy to get your feet wet with jQuery.
-Do | Exercise | [Quoogly Moogly](../exercises/quooglymoogly) | This is optional <br> Hone your jQuery skills by rewriting your solution to the Googly Moogly studio in jQuery.
+Do | Exercise | [Quoogly Moogly](../exercises/quooglymoogly) | **This is optional** <br> Hone your jQuery skills by rewriting your solution to the Googly Moogly studio using jQuery instaed of vanilla JS.
 
 ***
 
