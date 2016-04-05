@@ -12,7 +12,7 @@ This project touches on pretty much every facet of web development we have learn
 * an interactive front end using JavaScript along with jQuery and a few other JavaScript libraries, using AJAX to receive data from...
 * a back end, written in PHP, providing data sourced from both a SQL database and two Google APIs
 
-The assignment is called Mashup, because it involves "mashing together" a large group of third-party services, taking advantage of code that other people have already written, so that your work is less about doing one thing in depth, and more about wiring all the services together in a cohesive way.
+The assignment is called Mashup, because it involves "mashing together" a large number of third-party services, taking advantage of code that other people have already written, so that your work is less about doing one thing in depth, and more about wiring all the services together in a cohesive way.
 
 ### How to submit 
 
