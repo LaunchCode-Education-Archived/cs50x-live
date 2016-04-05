@@ -37,10 +37,9 @@ Do | Exercise | JS Practice | TODO exc: a few exercises to practice using js (Se
 ### jQuery
 Task | Resouce Type | Link | Instructions
 -----|------|------|------
-Follow-Along | Seminar | <a href="https://www.youtube.com/watch?v=bQXKCMdVT6o" target="_blank">jQuery</a> | jQuery is a Javascript library that makes it much easier to do a wide variety of things in Javascript. We've made this a **Follow-Along** task because Vipul, the speaker, notes that his presentation is fairly interactive and should be followed along with.
-
-
-Watch | Seminar | Programmer's Introduction to APIs https://www.youtube.com/watch?v=CbSKqL4J1QI
+Watch | Seminar | <a href="https://www.youtube.com/watch?v=bQXKCMdVT6o" target="_blank">jQuery</a> | jQuery is a Javascript library that makes it much easier to do a wide variety of things in Javascript. Watch this seminar for a broad introduction.
+Do | Exercise | <a>Codecademy / jQuery</a> | Head off to codecademy to get your feet wet with jQuery.
+Do | Exercise | [Quoogly Moogly](../exercises/quooglymoogly) | This is optional <br> Hone your jQuery skills by rewriting your solution to the Googly Moogly studio in jQuery.
 
 ***
 
@@ -50,11 +49,6 @@ Task | Resouce Type | Link | Instructions
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/10/m/notes10m/notes10m.html" target="_blank">Week 10</a> | Read the notes from the Week 10 Lecture, which deals with the insecurity of our data on the web, and how we can (sort of try to) protect ourselves from the threats. You can optionally watch the video as well, if you like. |
 
 ***
-
-### Review
-Task | Resouce Type | Link | Instructions
------|------|------|------
-Watch | Andi's Section | <a href="https://www.youtube.com/watch?v=UuNuJ4Q6b-s&feature=youtu.be" target="_blank">Week 9</a> | (Optional.) Andi talks about Javascript, objects, the DOM, AJAX, and Pset 8.
 
 
 ### Now you're ready for [Class 2](../class2)
