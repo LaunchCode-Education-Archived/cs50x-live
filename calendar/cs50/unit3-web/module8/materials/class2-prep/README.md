@@ -30,7 +30,6 @@ Task | Resouce Type | Link | Instructions
 -----|------|------|------
 Read | Seminar | <a href="http://cdn.cs50.net/2012/fall/seminars/jquery/jquery.pdf" target="_blank">jQuery</a> | Read the slides from a CS50 Seminar talk on jQuery. jQuery is a Javascript library that makes it much easier to do a wide variety of things in Javascript. <br> Feel free to also <a href="http://cs50.tv/2012/fall/seminars/jquery/jquery-720p.mp4">watch the seminar here</a>.
 Do | Exercise | [Codecademy / jQuery](../exercises/codecademy-jquery) | Head off to Codecademy to get some practice using jQuery.
-Read | Resource | [Quoogly Moogly](../resources/quooglymoogly) | To demonstrate the utility of jQuery, we present a solution to the Googly Moogly studio, rewritten to use jQuery instead of vanilla JS.
 
 ***
 
