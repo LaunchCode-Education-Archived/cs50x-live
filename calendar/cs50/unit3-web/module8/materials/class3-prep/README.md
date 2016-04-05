@@ -19,8 +19,9 @@ Every year, CS50 TAs and alums give tons of presentations on cool topics, everyt
 Here are some that we think look good: 
 * <a href="https://manual.cs50.net/seminars/#javascript_frameworks_why_and_how" target="_blank">JavaScript Frameworks: Why and How?</a>
 * <a href="https://manual.cs50.net/seminars/#a_programmer_s_introduction_to_apis" target="_blank">A Programmer's Introduction to APIs</a> 
-* <a href="https://manual.cs50.net/seminars/#building_dynamic_web_apps_with_laravel" target="_blank">Building Dynamic Web Apps with Laravel</a> 
+* <a href="https://manual.cs50.net/seminars/#how_and_why_you_should_use_git" target="_blank">How and Why You Should Use Git</a>
 * <a href="https://manual.cs50.net/seminars/#android_apps_now_with_jelly_beans" target="_blank">Android Apps (Now With Jelly Beans!)</a> 
+* <a href="https://manual.cs50.net/seminars/#building_dynamic_web_apps_with_laravel" target="_blank">Building Dynamic Web Apps with Laravel</a> 
 * <a href="https://manual.cs50.net/seminars/#web_security_active_defense" target="_blank">Web Security: Active Defense</a> 
 
 
