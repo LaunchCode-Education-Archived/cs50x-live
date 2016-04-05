@@ -8,7 +8,7 @@ For this problem set, you will create a website that overlays local news headlin
 
 This is what you will ultimately build: https://mashup.cs50.net
 
-This project touches on pretty much every facet of web development we have learned over the past 3 modules. Your website will have:
+This project touches on pretty much every facet of web development we have learned in Module 6, 7 and 8. Your website will have:
 * an interactive front end using JavaScript along with jQuery and a few other JavaScript libraries, using AJAX to receive data from...
 * a back end, written in PHP, providing data sourced from both a SQL database and two Google APIs
 
