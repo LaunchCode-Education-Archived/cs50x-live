@@ -28,7 +28,7 @@ Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=HGVqC6hlqF
 ### jQuery
 Task | Resouce Type | Link | Instructions
 -----|------|------|------
-Watch | Seminar | <a href="https://www.youtube.com/watch?v=bQXKCMdVT6o" target="_blank">jQuery</a> | jQuery is a Javascript library that makes it much easier to do a wide variety of things in Javascript. Watch this seminar for a broad introduction.
+Read | Seminar | <a href="http://cdn.cs50.net/2012/fall/seminars/jquery/jquery.pdf" target="_blank">jQuery</a><a href="https://www.youtube.com/watch?v=bQXKCMdVT6o" target="_blank">jQuery</a> | Read the slides from a CS50 Seminar talk on jQuery. jQuery is a Javascript library that makes it much easier to do a wide variety of things in Javascript. <br> Feel free to also <a href="http://cs50.tv/2012/fall/seminars/jquery/jquery-720p.mp4">watch the seminar here</a>.
 Do | Exercise | <a>Codecademy / jQuery</a> | Head off to codecademy to get your feet wet with jQuery.
 Do | Exercise | [Quoogly Moogly](../exercises/quooglymoogly) | **This is optional** <br> Hone your jQuery skills by rewriting your solution to the Googly Moogly studio using jQuery instaed of vanilla JS.
 
