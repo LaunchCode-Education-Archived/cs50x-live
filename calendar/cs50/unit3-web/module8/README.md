@@ -18,8 +18,8 @@ In Problem Set 8 you will combine all these new skills (and more PHP) to create 
 
 Class # | Date| Before Class | During Class | Topics/Skills
 :--------:|:---:|:------------:|:------------:|-----------------------|
-Class 1 | 4/12 |[Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | Javascript, the DOM, validating forms on the front-end |
-Class 2 | 4/14 | [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | AJAX, jQuery, Security |
-Class 3 | 4/19 | [Prep Work](./materials/class3-prep) <br> Work on [Problem Set 8](./materials/problem-set) | [In Class](./materials/class3) | (Office Hours!)
+Class 1 | TBD |[Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | Javascript, the DOM, validating forms on the front-end |
+Class 2 | TBD | [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | AJAX, jQuery, Security |
+Class 3 | TBD | [Prep Work](./materials/class3-prep) <br> Work on [Problem Set 8](./materials/problem-set) | [In Class](./materials/class3) | (Office Hours!)
 
 
