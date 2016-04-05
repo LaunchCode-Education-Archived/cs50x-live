@@ -14,7 +14,7 @@ Today's class will include a discussion about ...
   * JavaScript runs "client side" or "on the front end". What does this mean, and what does it allow us to do?
   * The DOM: a JavaScript object that represents the contents of your HTML page.
 
-2. Studio: [Studio Name](../studios/)
+2. Studio: [Googly Moogly](../studios/googlymoogly)
 
 ### Homework
 1. [Class 2 Prep](../class2-prep) 
