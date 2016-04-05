@@ -3,7 +3,7 @@
 
 # Exercise : Codecademy / jQuery
 
-Once again, it's time to take a field trip over to Codecademy to get our hands dirty writing some code, this time to learn jQuery!
+Once again, it's time to take a field trip over to Codecademy to get your hands dirty writing some code, this time to learn jQuery!
 
 Do the following three lessons:
 * <a href="https://www.codecademy.com/en/courses/web-beginner-en-bay3D/resume?curriculum_id=50a3fad8c7a770b5fd0007a1">Introduction to jQuery</a> (13 exercises)
