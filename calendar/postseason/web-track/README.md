@@ -16,5 +16,11 @@ project should include a subset of these features:
 * a JS framework like Angular
 
 
+### Resources
+
+|Link | Topics | Notes|
+|----|--------|------|
+http://billpatrianakos.me/blog/2016/02/15/securing-api-keys-in-a-javascript-single-page-app/ | AJAX, APIs | How to deal with API keys without a back-end?
+
 
 
