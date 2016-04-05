@@ -19,7 +19,7 @@ Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes
 Read | Lecture Notes | <a href="http://cdn.cs50.net/2015/fall/lectures/9/m/notes9m/notes9m.html#json" target="_blank">Week 9 / JSON</a> | JSON, which stands for Javascript Object Notation, is a format for passing data around. JSON structures data as a big Javscript object of key-value pairs.
 Watch | Doug's Playlist | <a href="https://www.youtube.com/watch?v=JYIKYnbdu4E&list=PLhQjrBD2T383ql2IPhxwnJqu1EjcMXulK&index=2" target="_blank">JavaScript</a> | Doug talks about Javascript, including the following topics: objects, iteration, the fact that weakly typed languages can make things trickier sometimes, anonymous functions, the `array.map()` function, and event handlers.
 Study | CS50 Study | <a href="https://study.cs50.net/javascript" target="_blank">javascript</a> | Study up! Review the basics of JavaScript with CS50 study.
-Do | Exercise | <a href="https://www.codecademy.com/courses/javascript-beginner-en-9Sgpi/0/1" target="_blank">Codecademy / Javascript Arrays and Objects | Head off to Codecademy to get your fingers busy writing javascript, and get a brief introduction to Objects in JS.
+Do | Exercise | [Codecademy / Javascript](../exercises/codecademy-js) | Head off to Codecademy to get your fingers busy writing javascript, and get a brief introduction to Objects in JS.
 
 ***
 
