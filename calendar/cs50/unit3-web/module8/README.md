@@ -20,6 +20,6 @@ Class # | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
 **Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | Javascript, the DOM, validating forms on the front-end |
 **Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | AJAX, jQuery, Security |
-**Class 3**| Work on [Problem Set 8](./materials/problem-set) <br>[Prep Work (Optional)](./materials/class3-prep) | [In Class](./materials/class3) | (Office Hours!)
+**Class 3**| Work on [Problem Set 8](./materials/problem-set) <br>[Prep Work](./materials/class3-prep) | [In Class](./materials/class3) | (Office Hours!)
 
 
