@@ -22,9 +22,4 @@ Class # | Before Class | During Class | Topics/Skills
 **Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | AJAX, jQuery, Security |
 **Class 3**| Work on [Problem Set 8](./materials/problem-set) | [In Class](./materials/class3) | (Office Hours!)
 
-***
-
-
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=OkYga_a-9cQ" target="_blank">Week 10, continued</a> | Yale professor, unclear if we care about this one
-Watch | Lecture | <a href="https://www.youtube.com/watch?v=7q3VIoQinCs" target="_blank">Week 11</a> | Yale professor again, not sure we care
 
