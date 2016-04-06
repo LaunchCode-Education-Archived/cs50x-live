@@ -37,7 +37,7 @@ Pedagogy Ideas
 
 |Link | Topics | Notes|
 |----|--------|------|
-[http://billpatrianakos.me/blog/2016/02/15/securing-api-keys-in-a-javascript-single-page-app/](securing api keys in a blah blah) | AJAX, APIs | might answer the api key question
+[http://billpatrianakos.me/blog/2016/02/15/securing-api-keys-in-a-javascript-single-page-app/]() | AJAX, APIs | might answer the api key question
 http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/ | Bootstrap | Pretty solid tutorial, W3-esque, very in-depth, not great layout, needs to be prefaced with a better intro
 http://learntocodewith.me/getting-started/topics/bootstrap/ | Bootstrap | Decent intro / explanation / motivation
 http://webdesign.tutsplus.com/articles/designing-for-a-responsive-web--webdesign-3850 | Responsiveness | Written for designers, but gives a good overview of the problem / motivation
