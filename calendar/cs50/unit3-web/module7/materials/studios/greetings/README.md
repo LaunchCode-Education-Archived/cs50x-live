@@ -247,7 +247,7 @@ This is where the magic happens. The CS50 library exposes a function called `que
 
 ### Get to Work
 
-After `index.php` gets the current data from the deatabase and dumps it to the screen, the next few lines call the `render()` function. But on screen, nothing seems to be showing up!
+After `index.php` gets the current data from the database and dumps it to the screen, the next few lines call the `render()` function. But on screen, nothing seems to be showing up!
 
 That's because `render()` is incomplete. That is your first task! Fill in the TODOs so that `render()` actually causes templates to show up on screen. You might find David Malan's `mvc-3` program provides a helpful example from which you can more-or-less copy. (See the <a href="http://cdn.cs50.net/2015/fall/lectures/8/m/src8m/mvc/3/helpers.php.src" target="_blank">source code</a> and the <a href="https://www.youtube.com/watch?v=5juddGp7D9g&index=5&list=PLhQjrBD2T3810Z6sRJdj148H0ANU2jJcO" target="_blank">walkthrough video</a> for guidance).
 
