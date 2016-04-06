@@ -1,5 +1,7 @@
 ##### Module 7
 
+[Back to Class 2 Prep](../../class2-prep#sql)
+
 # Resource: SQL Tutorial
 
 Let's get you some practice writing SQL queries.
