@@ -255,6 +255,13 @@ That's because `render()` is incomplete. That is your first task! Fill in the TO
 
 Once you get `render()` up and running, you should see a `<form>` on the screen! At that point, your next few TODOs will become apparent. Keep on working your way through all the TODOs (everything that needs to be done is documented in the source files) until your site contains all the features described above.
 
+Note: There is one TODO that asks you to insert a new entry into the database (this occurs when a user typed their own custom greeting into the form). In the TODO message, we ask you to insert the new greeting, BUT ONLY if the same greeting does not already exist in the database (e.g., if the user typed "Hello", then don't insert anything because we already have an entry for "Hello"). Just to be clear, our intention is not that you accomplish this task in one giant SQL query, but rather that you use multiple steps:
+
+    1. first, using PHP, get the text of all existing entries from the database
+    2. iterate through the existing greetings to make sure this new custom greeting does not already exist.
+    3. if not, then insert the new greeting into the database. (otherwise, do nothing)
+    
+
 ### How to Submit
 
 Compress your `greetings` directory into a `.zip` file:
