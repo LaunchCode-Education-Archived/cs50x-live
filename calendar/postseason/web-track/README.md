@@ -27,7 +27,11 @@ Setup Environment
 
 JS Weirdness
 * `===` vs `==`
-* 
+* scope (for example, [this](https://classroom.udacity.com/courses/ud989/lessons/3417188540/concepts/34803486710923))
+
+Pedagogy Ideas
+* use dev tools as repl
+
 
 ### Resources
 
@@ -38,5 +42,7 @@ http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/ | Bootstrap | Pretty
 http://learntocodewith.me/getting-started/topics/bootstrap/ | Bootstrap | Decent intro / explanation / motivation
 http://webdesign.tutsplus.com/articles/designing-for-a-responsive-web--webdesign-3850 | Responsiveness | Written for designers, but gives a good overview of the problem / motivation
 http://learn.shayhowe.com/advanced-html-css/responsive-web-design/ | Responsiveness | a Tutorial / Article. Kinda good? 
-
+http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design | Responsiveness | ARticle. Might be the winner for introducing the topic
+http://discover-devtools.codeschool.com/levels/1?locale=en | Chrome Dev Tools | Interactive Course | Seems great
+https://classroom.udacity.com/courses/ud110/lessons/3310298553/concepts/31806585980923 | AJAX, APIs | Interactive Course | Seems legit, has a project
 
