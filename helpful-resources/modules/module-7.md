@@ -485,8 +485,8 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
         Body 
           H1 Lectures H1
           UL
-            LI Link "week0.php" Lectures Link LI
-            LI Link "week1.php" Syllabus Link LI
+            LI Link "week0.php" Week 0 Link LI
+            LI Link "week1.php" Week 1 Link LI
           UL
         Body
      HTML 
@@ -605,8 +605,8 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
   PHP Require "header.php" PHP
   
   UL
-    LI Link "week0.php" Lectures Link LI
-    LI Link "week1.php" Syllabus Link LI
+    LI Link "week0.php" Week 0 Link LI
+    LI Link "week1.php" Week 1 Link LI
   UL
   
   PHP Require "footer.php" PHP
@@ -739,8 +739,8 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
     PHP PHP Call the function renderHeader() using the input ["title" => "CS50"]) PHP PHP
 
     UL
-      LI Link "week0.php" Lectures Link LI
-      LI Link "week1.php" Syllabus Link LI
+      LI Link "week0.php" Week 0 Link LI
+      LI Link "week1.php" Week 1 Link LI
     UL
     
     PHP Call the function renderFooter() using the input "footer" PHP
@@ -874,8 +874,8 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
   PHP Call the function render() using the inputs "header" and ["title" => "Lectures"]  PHP
 
     UL
-      LI Link "week0.php" Lectures Link LI
-      LI Link "week1.php" Syllabus Link LI
+      LI Link "week0.php" Week 0 Link LI
+      LI Link "week1.php" Week 1 Link LI
     UL
           
   PHP Call the function render() using the input "footer" PHP
@@ -1009,8 +1009,8 @@ Copy the pseudocode to the CS50 IDE and use the information below to name the fi
   PHP Call the function render() using the inputs "header" and ["title" => "Lectures"]  PHP
 
     UL
-      LI Link "week0.php" Lectures Link LI
-      LI Link "week1.php" Syllabus Link LI
+      LI Link "week0.php" Week 0 Link LI
+      LI Link "week1.php" Week 1 Link LI
     UL
           
   PHP Call the function render() using the input "footer" PHP
@@ -1150,8 +1150,8 @@ You can choose to copy `mvc/4` using the command `cp -r 4 5` when you are in the
   PHP Call the function render() using the inputs "header" and ["title" => "Lectures"]  PHP
 
     UL
-      LI Link "week0.php" Lectures Link LI
-      LI Link "week1.php" Syllabus Link LI
+      LI Link "week0.php" Week 0 Link LI
+      LI Link "week1.php" Week 1 Link LI
     UL
           
   PHP Call the function render() using the input "footer" PHP
