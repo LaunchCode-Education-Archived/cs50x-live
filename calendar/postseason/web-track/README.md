@@ -45,4 +45,4 @@ http://learn.shayhowe.com/advanced-html-css/responsive-web-design/ | Responsiven
 http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design | Responsiveness | ARticle. Might be the winner for introducing the topic
 http://discover-devtools.codeschool.com/levels/1?locale=en | Chrome Dev Tools | Interactive Course | Seems great
 https://classroom.udacity.com/courses/ud110/lessons/3310298553/concepts/31806585980923 | AJAX, APIs | Interactive Course | Seems legit, has a project
-
+http://girldevelopit.github.io/gdi-featured-intermediate-html-css/#/95 | Semantic HTML, Advanced CSS | 
