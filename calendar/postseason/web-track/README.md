@@ -37,12 +37,12 @@ Pedagogy Ideas
 
 |Link | Topics | Notes|
 |----|--------|------|
-[http://billpatrianakos.me/blog/2016/02/15/securing-api-keys-in-a-javascript-single-page-app/]() | AJAX, APIs | might answer the api key question
-http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/ | Bootstrap | Pretty solid tutorial, W3-esque, very in-depth, not great layout, needs to be prefaced with a better intro
-http://learntocodewith.me/getting-started/topics/bootstrap/ | Bootstrap | Decent intro / explanation / motivation
-http://webdesign.tutsplus.com/articles/designing-for-a-responsive-web--webdesign-3850 | Responsiveness | Written for designers, but gives a good overview of the problem / motivation
-http://learn.shayhowe.com/advanced-html-css/responsive-web-design/ | Responsiveness | a Tutorial / Article. Kinda good? 
-http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design | Responsiveness | ARticle. Might be the winner for introducing the topic
-http://discover-devtools.codeschool.com/levels/1?locale=en | Chrome Dev Tools | Interactive Course | Seems great
-https://classroom.udacity.com/courses/ud110/lessons/3310298553/concepts/31806585980923 | AJAX, APIs | Interactive Course | Seems legit, has a project
-http://girldevelopit.github.io/gdi-featured-intermediate-html-css/#/95 | Semantic HTML, Advanced CSS | 
+[js api keys](http://billpatrianakos.me/blog/2016/02/15/securing-api-keys-in-a-javascript-single-page-app/) | AJAX, APIs | might answer the api key question
+[tutorial republic bootstrap](http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/) | Bootstrap | Pretty solid tutorial, W3-esque, very in-depth, not great layout, needs to be prefaced with a better intro
+[learntocodewithme bootstrap](http://learntocodewith.me/getting-started/topics/bootstrap/) | Bootstrap | Decent intro / explanation / motivation
+[tutsplus responsiveness](http://webdesign.tutsplus.com/articles/designing-for-a-responsive-web--webdesign-3850) | Responsiveness | Written for designers, but gives a good overview of the problem / motivation
+[shayhowe responsive](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/) | Responsiveness | a Tutorial / Article. Kinda good? 
+[treehouse responsive](http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design) | Responsiveness | ARticle. Might be the winner for introducing the topic
+[codeschool discover dev tools](http://discover-devtools.codeschool.com/levels/1?locale=en) | Chrome Dev Tools | Interactive Course | Seems great
+[udacity ajax](https://classroom.udacity.com/courses/ud110/lessons/3310298553/concepts/31806585980923) | AJAX, APIs | Interactive Course | Seems legit, has a project
+[girldevelopit itermediate htmlcss](http://girldevelopit.github.io/gdi-featured-intermediate-html-css/#/95) | Semantic HTML, Advanced CSS | 
