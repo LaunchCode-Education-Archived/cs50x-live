@@ -38,8 +38,7 @@ Taking their order involves asking two questions:
 
 1. How many donuts do they want to buy?
 2. How much do you want to pay per donut?
-
-Finally, inform the user of the total cost of their order. Don't forget to include sales-tax, which is, let's say, 5%.
+3. Inform the user of the total cost of their order. Don't forget to include sales-tax, which is, let's say, 5%.
 
 Here's an example of how the finished program should behave:
 
@@ -68,7 +67,8 @@ For the Manager's Special, you can make something up (you are the Manager, after
 Ready to submit? Follow these steps:
 
 1. The owner of the computer should take over "driving" and do the typing again.
-2. The driver should log into <a href="http://labs.vocareum.com/main/main.php" target="_blank">Vocareum</a>.
+2. Download your `donuts.c` file from the CS50 IDE, by right-clicking on the file (in the left-side menu) and selecting "Download". You should now have a copy of the file on your computer, probably in your Downloads folder.
+2. Log into <a href="http://labs.vocareum.com/main/main.php" target="_blank">Vocareum</a>.
 3. You should see a sidebar on the left with some assignments, including *Studio: Donuts*. If not, click on my *My Classes* in the navigation menu at the top.
 4. Click on *Studio: Donuts*.
 6. Now you are going add your teammates so you can all submit together. **Important Note**: DO NOT click the *Start Solo* button. If you click this, you will not be able to add your teammates to the assignment. You'll have to share the code amongst yourselves via email and then each submit individually, like a bunch of chumps.
