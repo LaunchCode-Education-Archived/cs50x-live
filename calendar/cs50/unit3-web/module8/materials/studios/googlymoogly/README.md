@@ -44,7 +44,7 @@ Grab our starter code as follows:
 
 ```nohighlight
 $ cd ~/workspace/module8/studios
-$ wget https://education.launchcode.org/cs50x-stlouis/calendar/cs50/unit3-web/module8/materials/studios/googlymoogly/googlymoogly.zip
+$ wget http://education.launchcode.org/cs50x-stlouis/calendar/cs50/unit3-web/module8/materials/studios/googlymoogly/googlymoogly.zip
 ```
 
 Then unzip the archive and delete it:
