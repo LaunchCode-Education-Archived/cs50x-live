@@ -3,7 +3,7 @@
 
 ### Schedule
 
-Class | Prep Work | During Class | Topics | Studio TODOs
+Class | Prep Work | During Class | Topics | Studio Tasks
 |------|-----------|--------------|-------|-------------|
 Class 0 |  | Help with Setup | text editor, basic git, dev tools | none 
 Class 1 | | Work on Studio 1; Go over solution to Studio 1 | Semantic HTML; AJAX; jQuery DOM manipulations; basic CSS (box model)?; | on page load, make AJAX call, on success insert content onto page, on list item click, add to other list
