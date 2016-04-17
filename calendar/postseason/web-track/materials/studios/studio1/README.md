@@ -6,9 +6,15 @@
 
 ### Goal
 
+TODO
+
 ### Starter Code
 
+TODO
+
 ### The Movie DB API
+
+TODO
 
 ### Assignment
 
