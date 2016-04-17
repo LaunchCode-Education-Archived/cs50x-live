@@ -4,10 +4,11 @@
 ### Schedule
 
 Class | Prep Work | During Class | Topics | Studio TODOs
-------|-----------|--------------|-------
+|------|-----------|--------------|-------|-------------|
 Class 0 |  | Help with Setup | text editor, basic git, dev tools | none 
 Class 1 | | | Semantic HTML; AJAX; jQuery DOM manipulations; basic CSS (box model)?; | on page load, make AJAX call, on success insert content onto page, on list item click, add to other list
-Class 2 | | |
+Class 2 | | | CSS (box model, other essentials), misc review of JS, AJAX, forms | For each browsing movie item, add overview paragraph; impl form where user can seach for movies by title; add some rudimentary css (try to set ourselves up for responsiveness failure); handle errors?
+Class 3 | | | Bootstrap (btn, jumbotron, BS forms and lists); Responsiveness (understand the basic problem); A little functional JS? | Prettify the page by bootstrapping; allow user to remove items from watchlist by clicking them
 
 
 
