@@ -10,8 +10,8 @@ Class 1 | | | Semantic HTML; AJAX; jQuery DOM manipulations; basic CSS (box mode
 Class 2 | | | CSS (box model, other essentials), misc review of JS, AJAX, forms | For each browsing movie item, add overview paragraph; impl form where user can seach for movies by title; add some rudimentary css (try to set ourselves up for responsiveness failure); handle errors?
 Class 3 | | | Bootstrap (btn, jumbotron, BS forms and lists); Responsiveness (understand the basic problem); A little functional JS? | Prettify the page by bootstrapping; allow user to remove items from watchlist by clicking them
 Class 4 | | | Chaining API calls, surviving "callback hell"; CSS inline-block,  | Include poster images along with movie items, make UI fancy in other ways (inline BS panels for watchlist items, mouseover FX
-Class 5 | | Botstrap grid; bootstrap carousel; jquery bind | Implement Bootstrap carousel (refactor to remove browse list; jQuery bind(), use bootstrap grid cols for browsing section); handle failures?
-
+Class 5 | | | Botstrap grid; bootstrap carousel; jquery bind | Implement Bootstrap carousel (refactor to remove browse list; jQuery bind(), use bootstrap grid cols for browsing section); handle failures?
+Class 6 (maybe insert earlier) | | | Special talks on: Advanced JS (modules, `this`, and promises); Full-stack (how to set up a backend ala C$50 Finance); Advanced CSS and UX (TODO decide on some stuff)
 
 
 
