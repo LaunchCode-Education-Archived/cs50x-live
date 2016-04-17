@@ -6,7 +6,7 @@
 Class | Prep Work | During Class | Topics | Studio Tasks
 |------|-----------|--------------|-------|-------------|
 Class 0 |  | Help with Setup | text editor, basic git, dev tools | none 
-Class 1 | | Work on Studio 1; Go over solution to Studio 1 | Semantic HTML; AJAX; jQuery DOM manipulations; basic CSS (box model)?; | on page load, make AJAX call, on success insert content onto page, on list item click, add to other list
+Class 1 | | Work on Studio 1; Go over solution to Studio 1 | Semantic HTML; AJAX; jQuery DOM manipulations | on page load, make AJAX call, on success insert content onto page, on list item click, add to other list
 Class 2 | | Work on Studio 2; Go over solution to Studio 2 | CSS (box model, other essentials), misc review of JS, AJAX, forms | For each browsing movie item, add overview paragraph; impl form where user can seach for movies by title; add some rudimentary css (try to set ourselves up for responsiveness failure); handle errors?
 Class 3 | | Work on Studio 3; Go over solution to Studio 3 | Bootstrap (btn, jumbotron, BS forms and lists); Responsiveness (understand the basic problem); A little functional JS? | Prettify the page by bootstrapping; allow user to remove items from watchlist by clicking them
 Class 4 | | Work on Studio 4; Go over solution to Studio 4 | Chaining API calls, surviving "callback hell"; CSS inline-block,  | Include poster images along with movie items, make UI fancy in other ways (inline BS panels for watchlist items, mouseover FX
