@@ -1,6 +1,28 @@
 # Web Track! 
 
 
+### Schedule
+
+Class | Prep Work | During Class | Topics
+------|-----------|--------------|-------
+Class 0 |  | Help with Setup | text editor, basic git, dev tools
+Class 1 | | | Semantic HTML; basic CSS (box model)? 
+
+
+
+
+
+### Topics / skills that must be covered
+
+* git competency
+* dev tools competency
+* understand the box model
+* 
+
+*** 
+
+### Notes 
+
 topic: front-end focused web development
 
 goal: student should be able to build a project similar to pset 8 (or maybe weather cat+)
