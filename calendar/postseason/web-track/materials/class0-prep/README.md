@@ -12,7 +12,7 @@ Do | Exercise | [Setup](../exercises/setup) | Here we guide you through a couple
 ### Chrome Developer Tools
 Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|
-Do | Interactive Course | <a href="http://discover-devtools.codeschool.com" target="_blank">Code School / Discover Dev Tools</a> | Wrok through this interactive tutorial on how to harness the power of the Chrome Browser's developer tools.
+Do | Interactive Course | <a href="http://discover-devtools.codeschool.com" target="_blank">Code School / Discover Dev Tools</a> | Work your way through this interactive tutorial on how to harness the power of the Chrome Browser's developer tools.
 
 ### Git
 Task | Resource Type | Link | Instructions
