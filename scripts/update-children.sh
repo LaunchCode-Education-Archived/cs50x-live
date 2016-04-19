@@ -38,7 +38,7 @@ ssh-add "${CHILD_SSH_KEY}"
 
 
 PREFIX="git@github.com:LaunchCodeEducation"
-CHILDREN=("cs50x-stlouis" "cs50x-kansascity" "cs50x-maryville")
+CHILDREN=("cs50x-stlouis" "cs50x-kansascity" "cs50x-maryville" "cs50x-rhodeisland")
 FAILURES=()
 
 TEMPDIR=$(mktemp -d)

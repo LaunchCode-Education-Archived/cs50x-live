@@ -134,7 +134,7 @@ You can download the starter code here:
 
 ```nohighlight
 $ cd ~/workspace/module8/studios/
-$ wget http://education.launchcode.org/calendar/cs50/unit3-web/module8/materials/studios/ajaxson-5/ajaxson-5.zip
+$ wget http://education.launchcode.org/cs50x-stlouis/calendar/cs50/unit3-web/module8/materials/studios/ajaxson-5/ajaxson-5.zip
 $ unzip ajaxson-5.zip
 ```
 
