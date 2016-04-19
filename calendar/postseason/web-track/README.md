@@ -2,7 +2,7 @@
 
 ### Synopsis
 
-This skill track is a deep-dive into the world of front-end web development.
+This skill track is a deep-dive into the world of front-end web development!
 
 Over the course of the track, we will build a class project together. Each day for studio, you will add a little bit more onto the project. By the end of the track, you will have built, from scratch, the front end of a website that allows users to keep a running "movie watchlist", so they don't forget all the movies they want to watch. Click here for demo of the finished product: <a href="http://education.launchcode.org/flicklist" target="_blank"/>FlickList</a>.
 
