@@ -18,7 +18,7 @@ Today's class will include a discussion on unit testing and why it is so importa
 	* What can a GUI do for me?
 	* How do we create GUIs for our applications?
 
-2. Studio: TBA
+2. Studio: [This is only a test](../studios/test)
 
 ### Homework
 1. Get started on [Problem Set 9 / Courses and Students](../problem-set-9/).
