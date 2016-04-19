@@ -15,7 +15,7 @@ Class | Date | Prep Work | During Class | Topics
 Class 0 | TBD | [Class 0 Prep](../materials/class0-prep) | [In Class](../materials/class0) | Git, Chrome dev tools, themoviedb API | 
 Class 1 | TBD | Class 1 Prep | In Class | Semantic HTML; review of AJAX, andjQuery DOM manipulations | 
 Class 2 | TBD | Class 2 Prep | In Class | CSS (box model, other essentials), misc review of JS, forms, more AJAX |
-Class 3 | TBD | Class 3 Prep | In Class](../materials/class3) | Bootstrap; Responsiveness (understand the basic problem); A little functional JS | 
+Class 3 | TBD | Class 3 Prep | In Class | Bootstrap; Responsiveness (understand the basic problem); A little functional JS | 
 Class 4 | TBD | Class 4 Prep | In Class | Chaining API calls, surviving "callback hell"; Some more advanced CSS  |
 Class 5 | TBD | Class 5 Prep | In Class | Botstrap grid; the Bootstrap carousel component; jQuery bind | 
 Class 6 | TBD | Class 6 Prep | In Class | Special talks on: Advanced JS (modules, `this`, and promises); Full-stack (how to set up a backend like C$50 Finance); Advanced CSS and UX (SASS, CSS best practices, more cool Bootstrap components) |
