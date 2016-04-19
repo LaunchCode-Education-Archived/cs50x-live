@@ -7,8 +7,8 @@ Before coming to [Class 1](../class1), please complete the following tasks:
 #### Setting up for Java
 Task | Resource Type | Link  | Instructions
 --------------|------|------|-------------
-Do | Exercise | Install Eclipse | Read this tutorial about installing a Java IDE, Eclipse, on your computer.
-Do | Exercise | Setup Git | This tutorial will walk you through the steps to setup your own git repository so that you can work on the examples and psets.
+Do | Exercise | [Install Eclipse](../exercises/eclipse) | Read this tutorial about installing a Java IDE, Eclipse, on your computer.
+Do | Exercise | [Setup Git](../exercises/git) | This tutorial will walk you through the steps to setup your own git repository so that you can work on the examples and psets.
 *** 
 
 #### Introduction to Java
