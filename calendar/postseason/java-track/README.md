@@ -1,4 +1,4 @@
-[Back to Course Calendar](../../..)
+[Back to Course Calendar](../../)
 
 # Java Track
 
