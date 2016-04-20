@@ -22,6 +22,7 @@ Once you complete these classes, you will be well equipped to create a final pro
 
 Class # | Date | Before Class | During Class | Topics/Skills
 :------:|:----:|:------------:|:------------:|-----------------------|
+Class 0 | *TBD* | [Prep Work](./materials/class0-prep) | (setup, office hours) | Getting set up
 Class 1 | *TBD* | [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | Objects, classes
 Class 2 | *TBD* | [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | Unit tests, I/O
 Class 3 | *TBD* | Work on [Problem Set 9](./materials/problem-set-9) | [In Class](./materials/class3) | (office hours)
