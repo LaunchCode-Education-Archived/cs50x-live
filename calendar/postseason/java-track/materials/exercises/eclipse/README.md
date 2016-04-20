@@ -1,6 +1,6 @@
 ##### Java Track
 
-[Back to Class 1 prep](../../class1-prep)
+[Back to Class 0 prep](../../class0-prep)
 
 
 # Exercise: Eclipse
