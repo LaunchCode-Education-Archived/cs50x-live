@@ -69,7 +69,7 @@ README.md  css/  index.html  js/
 
 There's some code in here! Open up index.html and take a very brief look. Seems like a lot of stuff. In fact, the entire finished project is all here. See for yourself: open up this page in the browser by clicking preview, or by running the apche50 server and then visiting `ide50-jharvard.cs50.io`). 
 
-Why did we give you the finished product? Well, this is a Git repo, so in fact, the entire history of the project is actually present. In order to start from the beginning, you just have to go back in time!
+Why did we give you the finished product? Well, this is a Git repo, so in fact, the entire history of the project is actually present. To start from the beginning, you just have to go back in time!
 
 We have created 6 *branches* at various points in the history of the project, one for each Studio. You will complete each studio from a different one of these "jumping off points". 
 
