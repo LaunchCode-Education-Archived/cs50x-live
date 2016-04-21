@@ -15,7 +15,11 @@ Do | Studio (Module 8) | <a href="../../../../cs50/unit3-web/module8/materials/s
 Do | Prep Work | <a href="../class0-prep" target="_blank">Class 0 Prep</a> | If you have not already done the Prep Work for Class 0 of this Track, try to speed through it now. It's not as large as a typical Prep Work.
 
 ### Git Branches
+Task | Resource Type | Link | Instructions
+-----|---------------|------|-------------
 Read | Article | <a href="https://www.atlassian.com/git/tutorials/using-branches/" target="_blank">Using Branches</a> | Read this articel for an intro to the concept of *branches* in Git.
 
 ### jQuery
+Task | Resource Type | Link | Instructions
+-----|---------------|------|-------------
 Do | Interactive Course | <a href="https://www.udacity.com/course/intro-to-jquery--ud245" target="_blank">Udacity / Intro to jQuery</a> | Take this online course on the basics of using jQuery to manipulate the DOM of your HTML page. (You will need to sign up for an account with Udacity if you don't have one already).
