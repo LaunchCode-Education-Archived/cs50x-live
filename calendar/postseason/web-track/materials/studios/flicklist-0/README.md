@@ -302,5 +302,5 @@ To https://github.com/jesseilev/flicklist.git
  * [new branch]      studio0-my-work -> studio0-my-work
 ```
 
-If you go back and revisit github.com/jharvard/flicklist, you should now see your new branch up there!
+If you go back and revisit https://github.com/jharvard/flicklist, you should now see your new branch up there!
 
