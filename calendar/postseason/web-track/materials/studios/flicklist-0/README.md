@@ -85,7 +85,7 @@ origin	https://github.com/jharvard/flicklist.git (fetch)
 origin	https://github.com/jharvard/flicklist.git (push)
 ```
 
-Our local repo here has a reference to a remote repo at `https://github.com/jharvard/flicklist.git` (which it refers to as "origin"). But it does not have any references to the "upstream" granddady-of-them-all repo. Let's remedy that:
+Your local repo here has a reference to a remote repo at `https://github.com/jharvard/flicklist.git` (which it refers to as "origin"). But it does not have any references to the "upstream" granddady-of-them-all repo. Let's remedy that:
 
 ```nohighlight
 $ git remote add upstream https://github.com/LaunchCodeEducation/flicklist.git
@@ -93,7 +93,7 @@ $ git remote add upstream https://github.com/LaunchCodeEducation/flicklist.git
 
 This says, "Hey git, there's another remote repository that you should know about. Let's call it "upstream", and it lives at this url: https://github.com/LaunchCodeEducation/flicklist.git.
 
-Re-logging the remotes should now reveal that we have a reference to both of them:
+Logging `git remote` again should now reveal that you have a local reference to both of the remotes:
 
 ```nohighlight
 $ git remote -v
@@ -102,6 +102,8 @@ origin  https://github.com/jharvard/flicklist.git (push)
 upstream        https://github.com/LaunchCodeEducation/flicklist (fetch)
 upstream        https://github.com/LaunchCodeEducation/flicklist (push)
 ```
+
+That's better!
 
 ##### Fetch the Branch from Upstream
 
@@ -113,8 +115,6 @@ From https://github.com/LaunchCodeEducation/flicklist
  * branch            studio0    -> FETCH_HEAD
  * [new branch]      studio0    -> upstream/studio0
 ```
-
-##### Switch to the New Branch
 
 Next, create a new local branch from the `upstream/studio0` branch:
 
@@ -145,7 +145,9 @@ Switched to branch 'studio0'
 Your branch is up-to-date with 'upstream/studio0'.
 ```
 
-Git informs us that we have "switched to" the other branch. Close and reopen `index.html`, and you should see a big change! You might also notice that the `css/` directory has disappeared entirely. We have officially time traveled into the past!
+Git informs us that we have "switched to" the other branch. If you close and reopen `index.html`, you should see a big change! You might also notice that the `css/` directory has disappeared entirely. And if you preview the webpage in the browser again, you will see that the fancy movie content has reverted to some very basic text.
+
+We have officially time traveled into the past!
 
 
 ### Starter Code
