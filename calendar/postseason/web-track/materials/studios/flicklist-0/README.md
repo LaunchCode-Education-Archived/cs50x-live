@@ -10,9 +10,9 @@ First, you will use Git to grab the starter code for the project. (This will be 
 
 Next, you will register for an API key with themoviedb.org, an open source database of movies. Finally you'll plug your key into the code, and see some results!
 
-### Work Individually
+### Submit Individually
 
-Today, it is best if you complete this studio on your own, rather than with a partner.
+Today, it is best if you complete this studio on your own computer, rather than with a partner. You are still encouraged to work together with others, but each coder should have their own computer open.
 
 ### Gitting Started
 
