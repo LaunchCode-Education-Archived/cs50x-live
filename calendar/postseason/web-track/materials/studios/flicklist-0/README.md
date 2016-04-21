@@ -189,7 +189,7 @@ For today, the only things you need to do are:
 
 ### TheMovieDB API
 
-TheMovieDB is an freely available database of movies and TV shows. We will use their API as the source of our project's data. This API, like most, requires that you register and obtain a key in order to use it. 
+TheMovieDB is a freely available database of movies and TV shows. We will use their API as the source of our project's data. This API, like most, requires that you register and obtain a key in order to use it. 
 
 Here's how to nab that key:
 
@@ -277,7 +277,7 @@ $ git commit -m "finish FlickList 0 studio"
  2 files changed, 2 insertions(+), 2 deletions(-)
 ```
 
-The convention is to write your commit messages present tense rather than past tense (e.g. "finish" rather than "finished").
+The convention is to write your commit messages using the present tense rather than past tense (e.g. "finish" rather than "finished").
 
 If you check your status one more time, you should see this:
 
