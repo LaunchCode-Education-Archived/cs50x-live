@@ -15,8 +15,8 @@ Over the course of building this project, you will solidify your comfort with th
 Class | Date | Prep Work | During Class | Topics
 |------|----|----------|--------------|-------|
 Class 0 | TBD | [Class 0 Prep](./materials/class0-prep) | [In Class](./materials/class0) | Git, Chrome dev tools, themoviedb API | 
-Class 1 | TBD | Class 1 Prep | In Class | Semantic HTML; review of AJAX, jQuery DOM manipulations | 
-Class 2 | TBD | Class 2 Prep | In Class | CSS (box model, other essentials), misc review of JS, forms, more AJAX |
+Class 1 | TBD | Class 1 Prep | In Class | review of AJAX, jQuery DOM manipulations; branches in Git | 
+Class 2 | TBD | Class 2 Prep | In Class | Semantic HTML; CSS (box model, other essentials), misc review of JS, forms, more AJAX |
 Class 3 | TBD | Class 3 Prep | In Class | Bootstrap; Responsiveness; functional JS | 
 Class 4 | TBD | Class 4 Prep | In Class | Chaining API calls, surviving "callback hell"; more advanced CSS  |
 Class 5 | TBD | Class 5 Prep | In Class | Bootstrap grid; the Bootstrap carousel component; jQuery bind | 
