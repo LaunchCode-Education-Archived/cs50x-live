@@ -38,7 +38,7 @@ You should now be taken to a new, nearly identical project page. But instead of 
 
 ##### Clone your Fork
 
-Now that you have your own *remote* repository hosted on GitHub, it's time to start working on it! To do so, you will *clone* the remote repo onto your local machine (the CS50 IDE). 
+Now that you have your own *remote* repository hosted on GitHub, it's time to start working on it. To do so, you will *clone* the remote repo onto your local machine (the CS50 IDE). 
 
 Open up the terminal in your IDE, and type the following:
 
@@ -54,7 +54,7 @@ Resolving deltas: 100% (32/32), done.
 Checking connectivity... done.
 ```
 
-You should now see a new folder!
+You should now see a new folder.
 
 ```nohighlight
 $ ls
