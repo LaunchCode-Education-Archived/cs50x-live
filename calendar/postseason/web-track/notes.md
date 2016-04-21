@@ -72,3 +72,4 @@ Pedagogy Ideas
 [udacity ajax](https://classroom.udacity.com/courses/ud110/lessons/3310298553/concepts/31806585980923) | AJAX, APIs | Interactive Course | Seems legit, has a project
 [girldevelopit itermediate htmlcss](http://girldevelopit.github.io/gdi-featured-intermediate-html-css/#/95) | Semantic HTML, Advanced CSS | 
 [W3.org / Character Encodings](http://www.w3.org/International/questions/qa-what-is-encoding) | characcter encodings | Article. Good for explaining `<meta charset="utf-8"/>`
+https://www.atlassian.com/git/tutorials/using-branches/git-checkout
