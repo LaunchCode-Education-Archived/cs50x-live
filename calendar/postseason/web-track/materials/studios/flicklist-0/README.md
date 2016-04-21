@@ -18,7 +18,7 @@ Today, it is best if you complete this studio on your own computer, rather than 
 
 ### Gitting Started
 
-On all Studio assignments from now on, you are going to use Git and GitHub for obtaining starter code, working on it, and submitting it (kind of. You're still going to use Vocareum also.) 
+On all Studio assignments from now on, you are going to use Git and GitHub for obtaining starter code, working on your code, and submitting it (although you will still submit on Vocareum as well).
 
 Now we are about to to walk you through exactly what to do, with only a minimal amount of accompanying explanation. You are probably going to feel overwhelmed by Git-related jargon. Don't worry! Just try to absorb what you can, and trust that the gaps will fill in over time.
 
