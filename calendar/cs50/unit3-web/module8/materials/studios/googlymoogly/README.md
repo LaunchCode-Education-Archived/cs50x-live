@@ -119,6 +119,18 @@ There are a lot of equally valid methods available for traversing and manipulati
 
 So google those (or googlymoogle them!) as needed.
 
+One more small thing to note. Recall that if the user types an invalid search term, you must inform the user of the invalid characters they used:
+
+<img src="screenshots/invalid-chars.png"/>
+
+This is actually very easy to do in Javascript. Because JS is "weakly typed", you can concatonate an array onto a string, and it won't complain: it will simply convert the array into a comma-separated string automatically. For example:
+
+```js
+var favNums = [7, 16, 1000];
+console.log("My favorite numbers are: " + favNums);
+// --> My favorite numbers are: 7,16,1000
+```
+
 ### How to Submit
 
 Submit your `validate.js` file on Vocareum for the assignment titled **Studio: Googly Moogly**
