@@ -22,5 +22,5 @@ Do | Interactive Course | <a href="https://www.udacity.com/course/intro-to-jquer
 ### Git Branches
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Read | Article | <a href="https://www.atlassian.com/git/tutorials/using-branches/" target="_blank">Using Branches</a> | Read this articel for an intro to the concept of *branches* in Git.
+Read | Article | <a href="https://www.atlassian.com/git/tutorials/using-branches/" target="_blank">Using Branches</a> | Read this article for an intro to the concept of *branches* in Git.
 
