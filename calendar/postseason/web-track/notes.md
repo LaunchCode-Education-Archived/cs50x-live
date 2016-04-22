@@ -74,3 +74,5 @@ Pedagogy Ideas
 [W3.org / Character Encodings](http://www.w3.org/International/questions/qa-what-is-encoding) | characcter encodings | Article. Good for explaining `<meta charset="utf-8"/>`
 http://webdesign.tutsplus.com/courses/semantic-html-how-to-structure-web-pages | semantic html | interactive course
 https://www.atlassian.com/git/tutorials/using-branches/git-checkout
+
+http://stackoverflow.com/questions/25465880/how-can-i-publish-old-html-commits-in-my-gh-pages-branch-online
