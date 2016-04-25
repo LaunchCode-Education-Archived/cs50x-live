@@ -102,9 +102,19 @@ There is another object nearby, called `model`. This is where we will store all 
 * `watchlistItems`, an array (initially empty) that represents all the movies on the user's watchlist
 * `browseItems`, an array (also initally empty) that holds all the movies we want to make available to the user for browsing.
 
-Moving down the page, the `discoverMovies()` function is very similar to the function called `testTheAPI()` from last time: it makes an AJAX request to TheMovieDB's API, and after receiving a response, logs it to the console. But there is now a little bit more code inside that `success` function. 
+Moving down the page, the `discoverMovies` function is very similar to the function called `testTheAPI` from last time: it makes an AJAX request to TheMovieDB's API, and after receiving a response, logs it to the console. But there is now a little bit more code inside that `success` function. 
 * First of all, there is a TODO! We want you to write a line here such that, whenever a response comes back from the API, you update the `model` variable so that its `.browseList` property is equal to the list of movies in the response.
-* After updating the model, we invoke a function called `callback()`. Where did that function come from? It turns out it was passed into us as an argument to `discoverMovies()`. The idea of a <a href="https://en.wikipedia.org/wiki/Callback_(computer_programming)" target="_blank">callback</a> is that whoever is invoking `discoverMovies()` can decide what should happen after the response comes back from the API. 
+* After updating the model, we invoke a function called `callback`. Where did that function come from? It turns out it was passed into us as an argument to `discoverMovies`. JS allows us to pass functions around as arguments to other functions. The idea of a <a href="https://en.wikipedia.org/wiki/Callback_(computer_programming)" target="_blank">callback</a> is that whoever is invoking `discoverMovies` can pass in a block of code to specify what should happen after the response comes back.
+
+To see this in action, scroll down to the bottom of the file, and you'll see where `discoverMovies` is used. When the document is loaded, we execute this line:
+
+```js
+discoverMovies(render);
+```
+
+which invokes `discoverMovies()` and passes something called `render` as the callback. In other words, we are saying: Go fetch some results from the API, and when you get a response back, invoke this other function called `render`. 
+
+Scroll up a bit, and you'll see that the `render` function is defined directly above. The purpose of this function is to re-display everything in the DOM based on the current information stored in the `model` variable. It is mostly empty so far, but contains a handful of TODOs. 
 
 ### Assignment
 
