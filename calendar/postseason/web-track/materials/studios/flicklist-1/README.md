@@ -85,7 +85,26 @@ The beginning of this file is more or less the same as last time. The only chang
 
 which explicitly defines that our document should use the Unicode character encoding. (If curious, you can read more about character encoding <a href="http://www.w3.org/International/questions/qa-what-is-encoding" target="_blank">here</a>). Generally try to remember to add this line in your HTML, or you might get some strange results when your page attempts to display obscure characters. But for now, don't waste a ton of brainpower worrying about this topic.
 
+The body of the document now has three main parts:
+* a `<header>` to display the project title and tagline
+* a `<section>` to display the movies that are on the user's watchlist
+* a TODO, where you will implement another `<section>`, this one to display a browsable list of popular movies
 
+The `<header>` and `<section>` tags might look unfamiliar to you. They are relatively new additions to HTML. They serve a similar role as the `<div>`: a container for other tags, so you can group your document into chunks. The difference is that a `<div>` does not indicate *what kind of content* it contains, whereas these new tags do: the `<header>` indicates that it is meant to serve as a title or heading above some other content; the `<section>` indicates a discrete section of your document. Using these tags instead of `<div>`s makes it more immediately obvious how your document is structured and what role the various chunks are playing. As much as possible, it is generally best practice to make your HTML "semantically meaningful" like this. You will learn a bit more about "Semantic HTML" in later Prep Work.
+
+##### flicklist.js
+
+Let's now talk about what's changed in`flicklist.js`. 
+
+The beginning of the file still contains that `api` object, one of whose properties, `token`, currently has a value of `"TODO"`, which you should yet again replace with your personal api key.
+
+There is another object nearby, called `model`. This is where we will store all the data we need to keep track of. You can see that this object has two properties:
+* `watchlistItems`, an array (initially empty) that represents all the movies on the user's watchlist
+* `browseItems`, an array (also initally empty) that holds all the movies we want to make available to the user for browsing.
+
+Moving down the page, the `discoverMovies()` function is very similar to the function called `testTheAPI()` from last time: it makes an AJAX request to TheMovieDB's API, and after receiving a response, logs it to the console. But there is now a little bit more code inside that `success` function. 
+* First of all, there is a TODO! We want you to write a line here such that, whenever a response comes back from the API, you update the `model` variable so that its `.browseList` property is equal to the list of movies in the response.
+* After updating the model, we invoke a function called `callback()`. Where did that function come from? It turns out it was passed into us as an argument to `discoverMovies()`. The idea of a <a href="https://en.wikipedia.org/wiki/Callback_(computer_programming)" target="_blank">callback</a> is that whoever is invoking `discoverMovies()` can decide what should happen after the response comes back from the API. 
 
 ### Assignment
 
