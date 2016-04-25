@@ -135,7 +135,7 @@ To help wrap your head around all this, do the following exercise:
 
 ### Assignment
 
-Work your way through the following TODOs:
+Work your way through the TODOs in the starter code. Each task is numbered, indicating the order in which you should work on them. The tasks are as follows:
 
 ##### 0. Add your API key to the `api` variable
 
@@ -147,13 +147,66 @@ In `index.html`, add another `<section>` very similar to the watchlist section a
 
 ##### 2. Update the model when AJAX request succeeds
 
-Inside the `discoverMovies` function, in the `success`
+Inside the `discoverMovies` function, when a successul response comes back, we are currently logging the response to the console, but we are not actually doing anythign useful with the data. Your job is to update the `model` variable, filling its `.browseItems` property with the newly received list of movies.
 
 ##### 3. Insert a list item for each movie on the browse list
 
+The rest of your TODOs are inside the `render` function. For these, jQuery is your best friend. 
+
+On this one, we are asking you to create a list item `<li>` for each movie in the browse list, and append that list item to the `<ul>` inside the browse section on the document. The list item for now should jsut contain the title of the movie.
+
+You might be wondering: we had you assign an id to the section, but not the `<ul>` inside the section, so how can you obtain a reference to the `<ul>`? Just like CSS, jQuery allows you to traverse the DOM using <a>descendant selectors</a>, for example:
+
+```js
+$("#essay p")
+```
+
+yields all `<p>` tags who are descendents (children, or children's children...) of the element whose id is "essay". 
+
+To complete this task, you will need to make use of jQuery's <a href="http://api.jquery.com/append/" target="_blank">append</a> and <a href="http://api.jquery.com/text/" target="_blank">text</a> functions. 
+
+The following code demonstrates how to add a link to the bottom of every descendant paragraph inside the "essay" element:
+
+```js
+var googleLink = $("<a></a>").text("Click me!").attr("href", "google.com");
+$("#essay p").append(googleLink);
+```
+
+Ultimately, you should be generating HTML that looks something like this:
+
+```html
+<ul>
+  <li>
+    <p>The Night Before Christmas</p>
+  <li>
+  <li>
+    <p>The Morning After Christmas</p>
+  </li>
+  <li>
+    <p>Eyes Wide Shut</p>
+  </li>
+  ...
+</ul>
+```
+
 ##### 4. Each browse list item should contain a button
 
+Once you have list items displaying the titles of all the movies, the next step is to add a button to each item. The button should say "Add to watchlist".
+
+This step should be pretty simple. Just append another item inside the list item, after the movie title.
+
 ##### 5. Add click handlers to the buttons
+
+Once those buttons are showing up, your next task is to make them actually do something. Use jQuery's <a href="http://api.jquery.com/click/" target="_blank">click</a> function to register a "click handler" on each button. This is another one of those functions where you pass in a "callback", in order to specify exactly what should happen when the click event occurs. You'll want to pass in an "annonymous function" that appends to `model.browseItems` whichever movie was clicked, and then re-invokes `render`. For example, here's an annonymous function logs stuff to the console and calls some other function whenever a button is clicked: 
+
+```js
+// assuming you have a button called myButton
+myButton.click(function() {
+  console.log("You clicked my button!");
+  console.log("I love you!");
+  releaseTheHounds();
+});
+```
 
 ##### 6. Insert a list item for each movie on the Watchlist
 
