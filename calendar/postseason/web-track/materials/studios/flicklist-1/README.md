@@ -31,7 +31,7 @@ On branch studio0-my-work
 nothing to commit, working directory clean
 ```
 
-(We are assuming you will still be on the `studio0-my-work` branch from last time. But if you're on a different branch, that's fine, as long as you see "nothing to commit, working directory clean". If you do have unstaged or uncommitted changes, commit them now. If you need guidance, see [here](../flicklist-1#how-to-submit).)
+(We are assuming you will still be on the `studio0-my-work` branch from last time. But if you're on a different branch, that's fine, as long as you see "nothing to commit, working directory clean". If you do have unstaged or uncommitted changes, commit them now. If you need guidance, see [here](../flicklist-0#how-to-submit).)
 
 Now let's checkout a new branch from the contents of `upstream/studio1`:
 
