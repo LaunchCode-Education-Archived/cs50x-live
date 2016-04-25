@@ -15,6 +15,29 @@ Here is what you are trying to accomplish: <a href="http://htmlpreview.github.io
 
 ### Starter Code
 
+##### Obtaining the Starter Code
+
+##### A Brief Tour
+
+
+
 ### Assignment
+
+Work your way through the following TODOs:
+
+##### 1. Add a browsing section
+
+##### 2. Update the model when AJAX request succeeds
+
+##### 3. Insert a list item for each movie on the browse list
+
+##### 4. Each browse list item should contain a button
+
+##### 5. Add click handlers to the buttons
+
+##### 6. Insert a list item for each movie on the Watchlist
+
+##### 7. Clear out the old list elements before re-rendering
+
 
 ### How to Submit
