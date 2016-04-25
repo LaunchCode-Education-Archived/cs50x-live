@@ -90,21 +90,21 @@ The body of the document now has three main parts:
 * a `<section>` to display the movies that are on the user's watchlist
 * a TODO, where you will implement another `<section>`, this one to display a browsable list of popular movies
 
-The `<header>` and `<section>` tags might look unfamiliar to you. They are relatively new additions to HTML. They serve a similar role as the `<div>`: a container for other tags, so you can group your document into chunks. The difference is that a `<div>` does not indicate *what kind of content* it contains, whereas these new tags do: the `<header>` indicates that it is meant to serve as a title or heading above some other content; the `<section>` indicates a discrete section of your document. Using these tags instead of `<div>`s makes it more immediately obvious how your document is structured and what role the various chunks are playing. As much as possible, it is generally best practice to make your HTML "semantically meaningful" like this. You will learn a bit more about "Semantic HTML" in later Prep Work.
+The `<header>` and `<section>` tags might look unfamiliar to you. They are relatively new additions to the HTML language. Similar to the `<div>`, these tags serve as a container for other tags, so you can group your document into chunks. The difference is that a `<div>` does not indicate *what kind of content* it contains, whereas these new tags do: the `<header>` indicates that it is meant to serve as a title or heading above some other content; the `<section>` indicates a discrete section of your document. Using these tags instead of `<div>`s makes it more immediately obvious how your document is structured and what kind of role each of the various chunks is playing. As much as possible, it is generally best practice to make your HTML "semantically meaningful" like this. You will learn a bit more about "Semantic HTML" in later Prep Work.
 
 ##### flicklist.js
 
-Let's now talk about what's changed in`flicklist.js`. 
+Let's now talk `flicklist.js`. 
 
-The beginning of the file still contains that `api` object, one of whose properties, `token`, currently has a value of `"TODO"`, which you should yet again replace with your personal api key.
+The beginning of the file still contains that `api` object, one of whose properties, `token`, currently has a value of `"TODO"`, which you should once again replace with your personal api key.
 
 There is another object nearby, called `model`. This is where we will store all the data we need to keep track of. You can see that this object has two properties:
 * `watchlistItems`, an array (initially empty) that represents all the movies on the user's watchlist
 * `browseItems`, an array (also initally empty) that holds all the movies we want to make available to the user for browsing.
 
-Moving down the page, the `discoverMovies` function is very similar to the function called `testTheAPI` from last time: it makes an AJAX request to TheMovieDB's API, and after receiving a response, logs it to the console. But there is now a little bit more code inside that `success` function. 
-* First of all, there is a TODO! We want you to write a line here such that, whenever a response comes back from the API, you update the `model` variable so that its `.browseList` property is equal to the list of movies in the response.
-* After updating the model, we invoke a function called `callback`. Where did that function come from? It turns out it was passed into us as an argument to `discoverMovies`. JS allows us to pass functions around as arguments to other functions. The idea of a <a href="https://en.wikipedia.org/wiki/Callback_(computer_programming)" target="_blank">callback</a> is that whoever is invoking `discoverMovies` can pass in a block of code to specify what should happen after the response comes back.
+Moving down the page, the `discoverMovies` function is very similar to the function called `testTheAPI` from last time: it makes an AJAX request to TheMovieDB's API, and after receiving a response, logs it to the console. But there is now a little bit more code inside that `success` function:
+* First of all, there is a TODO! We want you to write a line here such that, whenever a response comes back from the API, you update the `model` variable so that its `.browseItems` property is equal to the list of movies in the response.
+* After updating the model, we invoke a function called `callback`. Where did that function come from? It turns out it was passed into us as an argument to `discoverMovies`. A very powerful feature of JS is the ability to pass functions around as arguments to other functions. The idea of a <a href="https://en.wikipedia.org/wiki/Callback_(computer_programming)" target="_blank">callback</a> is that whoever is invoking `discoverMovies` can pass in a block of code to specify what should happen after the response comes back.
 
 To see this in action, scroll down to the bottom of the file, and you'll see where `discoverMovies` is used. When the document is loaded, we execute this line:
 
@@ -112,17 +112,41 @@ To see this in action, scroll down to the bottom of the file, and you'll see whe
 discoverMovies(render);
 ```
 
-which invokes `discoverMovies()` and passes something called `render` as the callback. In other words, we are saying: Go fetch some results from the API, and when you get a response back, invoke this other function called `render`. 
+which invokes `discoverMovies` and passes in something called `render` as the callback. In other words, we are saying: Go fetch some results from the API, and when you get a response back, invoke this other function called `render`. 
 
 Scroll up a bit, and you'll see that the `render` function is defined directly above. The purpose of this function is to re-display everything in the DOM based on the current information stored in the `model` variable. It is mostly empty so far, but contains a handful of TODOs. 
+
+##### Debugger Walkthrough
+
+To help wrap your head around all this, do the following exercise:
+1. Preview the page in the Chrome browser
+2. Open the developer tools
+3. Click the "Sources Tab"
+4. Locate `flicklist.js` and click on that. You should see the source code appear.
+5. Expand the sub-window displaying the source code to be a little bigger, so you can actually see the code.
+6. Add breakpoints to the following lines: 
+  * line 21
+  * line 27
+  * line 45
+  * line 69
+7. Refresh the page.
+8. You should hit your first breakpoint (line 69.) Click the continue button and you should hit another breakpoint. At each breakpoint, click the Step-Over button a few times to get a feel for what's happening, and then click Continue button and observe which section of code fires next.
 
 ### Assignment
 
 Work your way through the following TODOs:
 
+##### 0. Add your API key to the `api` variable
+
+Just like last time.
+
 ##### 1. Add a browsing section
 
+In `index.html`, add another `<section>` very similar to the watchlist section above. You should give your section an `id` so that you can refer to it later and manipulate its contents. You should also put an empty `<ul>` inside, where you will later insert those list items for the browsable movies.
+
 ##### 2. Update the model when AJAX request succeeds
+
+Inside the `discoverMovies` function, in the `success`
 
 ##### 3. Insert a list item for each movie on the browse list
 
