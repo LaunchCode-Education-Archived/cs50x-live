@@ -15,8 +15,6 @@ Here is what you are trying to accomplish: <a href="http://htmlpreview.github.io
 
 ### Starter Code
 
-##### Obtaining the Starter Code
-
 Navigate to the proper directory:
 
 ```nohighlight
@@ -59,7 +57,7 @@ Switched to a new branch 'studio1'
 You can use whichever you feel more comfortable with.)
   
 
-##### A Brief Tour
+### A Brief Tour
 
 Welcome to the studio1 branch!
 
