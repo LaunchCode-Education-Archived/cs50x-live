@@ -119,6 +119,7 @@ Scroll up a bit, and you'll see that the `render` function is defined directly a
 ##### Debugger Walkthrough
 
 To help wrap your head around all this, do the following exercise:
+
 1. Preview the page in the Chrome browser
 2. Open the developer tools
 3. Click the "Sources Tab"
