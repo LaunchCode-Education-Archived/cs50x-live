@@ -18,7 +18,7 @@ Class 0 | TBD | [Class 0 Prep](./materials/class0-prep) | [In Class](./materials
 Class 1 | TBD | [Class 1 Prep](./materials/class1-prep) | In Class | review of AJAX, jQuery DOM manipulations; branches in Git | 
 Class 2 | TBD | Class 2 Prep | In Class | Semantic HTML; CSS (box model, other essentials), misc review of JS, forms, more AJAX |
 Class 3 | TBD | Class 3 Prep | In Class | Bootstrap; Responsiveness; functional JS | 
-Class 4 | TBD | Class 4 Prep | In Class | Chaining API calls, surviving "callback hell"; more advanced CSS  |
+Class 4 | TBD | Class 4 Prep | In Class | Chaining API calls, surviving "callback hell", more advanced CSS  |
 Class 5 | TBD | Class 5 Prep | In Class | Bootstrap grid; the Bootstrap carousel component; jQuery bind | 
 Class 6 | TBD | Class 6 Prep | In Class | Special talks on a few advanced topics to help you with the Problem Set |
 
