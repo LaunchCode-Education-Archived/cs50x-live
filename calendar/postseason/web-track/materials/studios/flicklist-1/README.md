@@ -197,10 +197,10 @@ This step should be pretty simple. Just append another item inside the list item
 
 ##### 5. Add click handlers to the buttons
 
-Once those buttons are showing up, your next task is to make them actually do something. Use jQuery's <a href="http://api.jquery.com/click/" target="_blank">click</a> function to register a "click handler" on each button. This is another one of those functions where you pass in a "callback", in order to specify exactly what should happen when the click event occurs. You'll want to pass in an "annonymous function" that appends to `model.browseItems` whichever movie was clicked, and then re-invokes `render`. For example, here's an annonymous function logs stuff to the console and calls some other function whenever a button is clicked: 
+Once those buttons are showing up, your next task is to make them actually do something. Use jQuery's <a href="http://api.jquery.com/click/" target="_blank">click</a> function to register a "click handler" on each button. This is another one of those functions where you pass in a "callback", in order to specify exactly what should happen when the click event occurs. You'll want to pass in a function that accomplishes two things: appends to `model.browseItems` whichever movie was clicked, and then re-invokes `render`. Here is an example of a button whose click handler contains an "annonymous function" that accomplishes some tasks: 
 
 ```js
-// assuming you have a button called myButton
+var myButton = $("<button></button>").text("Click if you dare");
 myButton.click(function() {
   console.log("You clicked my button!");
   console.log("I love you!");
@@ -208,9 +208,23 @@ myButton.click(function() {
 });
 ```
 
+Whenever `myButton` is clicked, the console will log "You clicked my button!", followed by "I love you!", and then some other function called `releaseTheHounds` will execute.
+
 ##### 6. Insert a list item for each movie on the Watchlist
+
+Now that your buttons wired up and pushing new movies onto `model.watchlistItems`, the next step is to render those watchlist movies on the screen so the user can see them. 
+
+Create a similar `forEach` loop to iterate over `model.watchlistItems` and append content to the `<ul>` inside the watchlist `<section>`.
+
+Once you've finished, you should start to see movies appearing on the watchlist whenever you click the buttons! You will probably notice some weird behavior, where the same movie shows up multiple times after a few clicks. You might also notice that the browse list is grwoing longer and longer! You will tackle that next.
 
 ##### 7. Clear out the old list elements before re-rendering
 
+You're seeing repeats of the same movies because each time `render` is executed, it re-renders *every* movie in the watchlist, not just the newly added movie. Similarly, the browse list is re-appending every single movie onto the DOM, even though they were already there.
+
+To fix this, simply add some code at the beginning of the function which clears both lists. Use jQuery's <a href="http://api.jquery.com/empty/" target="_blank">empty</a> function, which deletes all the child nodes of an element. 
+
+You may think this is an inefficient way having the browser render stuff, and in fact, you are right. After all, why should we delete all 20 items from the browse list, only to re-add them an instant later? Fortunately, the operations we are doing here are small enough that the inefficiency won't lead to a drop in performance significant enough to hurt the user experience. And the benefit of this monolithic `render` function is that we don't have to worry about which particular event we are responding to (Did a response come back from the API? Did the user just click a button? Which button?). All we have to worry about is, given the current state of the model, this is what our view should look like. The mental simplicity that this system affords us will grow more and more valuable as our program grows in complexity. 
 
 ### How to Submit
+
