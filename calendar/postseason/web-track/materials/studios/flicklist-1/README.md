@@ -3,15 +3,17 @@
 
 # Studio: FlickList 1
 
-In [the previous Studio](../flicklist-0), you forked the project repository and added your API key to the javascript file. When the page loaded, our script sent an AJAX request to themoviedb.org, and a few seconds later, received a response containing a bunch of javascript objects dsecribing popular movies, which were logged to the console. You poked through this array of movie objects to answer a quiz question when submitting your assignment.
+In [the previous Studio](../flicklist-0), you forked the project repository and added your API key to the source code.
 
-Today, you're going to get started adding some real functionality to the code base. By the end of this studio, users will see a browseable list of movies on the screen. Each movie will have a "Add to Watchlist" button, which, when clicked, will cause that movie to show up on another area of the screen where the user's Watchlist is displayed.
+Today, you will start adding some real functionality to the code base. By the end of this studio, users will see a browseable list of movies on the screen. Each movie will have a "Add to Watchlist" button, which, when clicked, will cause that movie to show up on another area of the screen where the user's Watchlist is displayed.
 
 ### Demo
 
 Here is what you are trying to accomplish: <a href="http://htmlpreview.github.io/?https://github.com/LaunchCodeEducation/flicklist/blob/ba335b0509258c7e4dc51779f9baa536f914c07b/index.html" target="_blank">FlickList 1 Demo</a>. Take a minute to play around with the demo so you understand what your goal is.
 
 ### More about Branches
+
+
 
 ### Starter Code
 
@@ -228,3 +230,78 @@ You may think this is an inefficient way having the browser render stuff, and in
 
 ### How to Submit
 
+##### Commit and Push on Git
+
+If you run the `git status` command, you should see that you now have *unstaged* changes:
+
+```nohighlight
+$ git status
+On branch studio1-my-work
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+        modified:   js/flicklist.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+We can stage these changes with the `add` command:
+
+```nohighlight
+$ git add --all
+```
+
+The `--all` adds all (both of) the unstaged files, so you don't have to type them one by one.
+
+If you check your status again now, you should see:
+
+```nohighlight
+$ git status
+On branch studio1-my-work
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+        modified:   js/flicklist.js
+```
+
+Both files are now staged for committing. Go ahead and make a commit, using the -m flag to remind your future self (and others looking at your code) what changes you made during this commit:
+
+```nohighlight
+$ git commit -m "finish FlickList 1 studio"
+[studio1-my-work 46db232] finish FlickList 1 studio
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+```
+
+The convention is to write your commit messages using the present tense rather than past tense (e.g. "finish" rather than "finished").
+
+If you check your status one more time, you should see this:
+
+```nohighlight
+$ git status
+On branch studio1-my-work
+nothing to commit, working directory clean
+```
+
+Finally, *push* your changes to your remote repo:
+
+```nohighlight
+$ git push origin studio1-my-work
+Counting objects: 62, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (22/22), 2.36 KiB | 0 bytes/s, done.
+Total 22 (delta 6), reused 0 (delta 0)
+To https://github.com/jharvard/flicklist.git
+ * [new branch]      studio1-my-work -> studio1-my-work
+```
+
+If you go back and revisit https://github.com/jharvard/flicklist, you should now see your new branch up there!
+
+##### Submit on Vocareum
+
+On Vocareum, click on the assignment called **Studio: FlickList 1**.
+
+You should see a file called `studio1.txt`, on which a secret quiz question awaits! Write your anser into that file, and click submit.
