@@ -22,6 +22,11 @@ Task | Resource Type | Link | Instructions
 Read | Article | <a href="http://cryto.net/~joepie91/blog/2015/05/04/functional-programming-in-javascript-map-filter-reduce/" target="_blank">Functional Programming in JS</a> | One area in which "functional programming" shines is for manipulating and transforming arrays. This article gives a good intro into some common functions for operating on arrays: `map`, `filter` and `reduce`. 
 Do | Exercises | <a href="https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map" target="_blank">Iterate over Arrays with map</a> <br/> <a href="https://www.freecodecamp.com/challenges/filter-arrays-with-filter" target="_blank">Filter Arrays with filter</a> | These FreeCodeCamp exercises will give you some practice using `map` and `filter`.
 
+### AJAX
+Task | Resource Type | Link | Instructions
+-----|---------------|------|-------------
+Do | Interactive Course | <a href="https://classroom.udacity.com/courses/ud110/" target="_blank">Udacity / Intro to AJAX</a> | You don't have to do this entire course right now-- it takes approximately 12 hours. Just start at the beginning and work for an hour or so. If you're still feeling fuzzy on the concept of AJAX, remember that this is here so you can keep working on it later.
+
 ### Semantic HTML
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
