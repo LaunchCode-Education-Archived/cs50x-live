@@ -74,20 +74,20 @@ But the contents of those files is a little different. Let's take a look. Open u
 
 ##### index.html
 
-The beginning of this file is more or less the same as last time. The only change is that we've added is this line:
-
-```html
-<meta charset="utf-8"/>
-```
-
-which explicitly defines that our document should use the Unicode character encoding. (If curious, you can read more about character encoding <a href="http://www.w3.org/International/questions/qa-what-is-encoding" target="_blank">here</a>). Generally try to remember to add this line in your HTML, or you might get some strange results when your page attempts to display obscure characters. But for now, don't waste a ton of brainpower worrying about this topic.
-
 The body of the document now has three main parts:
 * a `<header>` to display the project title and tagline
 * a `<section>` to display the movies that are on the user's watchlist
 * a TODO, where you will implement another `<section>`, this one to display a browsable list of popular movies
 
 The `<header>` and `<section>` tags might look unfamiliar to you. They are relatively new additions to the HTML language. Similar to the `<div>`, these tags serve as a container for other tags, so you can group your document into chunks. The difference is that a `<div>` does not indicate *what kind of content* it contains, whereas these new tags do: the `<header>` indicates that it is meant to serve as a title or heading above some other content; the `<section>` indicates a discrete section of your document. Using these tags instead of `<div>`s makes it more immediately obvious how your document is structured and what kind of role each of the various chunks is playing. As much as possible, it is generally best practice to make your HTML "semantically meaningful" like this. You will learn a bit more about "Semantic HTML" in later Prep Work.
+
+You might also notice that although the top of this file is almost the same as last time, there is one small change-- we've added is this line:
+
+```html
+<meta charset="utf-8"/>
+```
+
+What this does is explicitly defines that our document should use the Unicode character encoding. If curious, you can read more about character encoding <a href="http://www.w3.org/International/questions/qa-what-is-encoding" target="_blank">here</a>. Generally try to remember to add this line in your HTML, or you might get some strange results when your page attempts to display obscure characters. But for now, don't waste a ton of brainpower worrying about this topic.
 
 ##### flicklist.js
 
