@@ -291,14 +291,12 @@ Finally, *push* your changes to your remote repo:
 
 ```nohighlight
 $ git push origin studio0-my-work
-Username for 'https://github.com': jharvard
-Password for 'https://jesseilev@github.com': 
 Counting objects: 62, done.
 Delta compression using up to 8 threads.
 Compressing objects: 100% (20/20), done.
 Writing objects: 100% (22/22), 2.36 KiB | 0 bytes/s, done.
 Total 22 (delta 6), reused 0 (delta 0)
-To https://github.com/jesseilev/flicklist.git
+To https://github.com/jharvard/flicklist.git
  * [new branch]      studio0-my-work -> studio0-my-work
 ```
 
