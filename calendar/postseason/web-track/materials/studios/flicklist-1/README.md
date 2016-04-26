@@ -11,10 +11,6 @@ Today, you will start adding some real functionality to the code base. By the en
 
 Here is what you are trying to accomplish: <a href="http://htmlpreview.github.io/?https://github.com/LaunchCodeEducation/flicklist/blob/ba335b0509258c7e4dc51779f9baa536f914c07b/index.html" target="_blank">FlickList 1 Demo</a>. Take a minute to play around with the demo so you understand what your goal is.
 
-### More about Branches
-
-
-
 ### Starter Code
 
 Navigate to the proper directory:
