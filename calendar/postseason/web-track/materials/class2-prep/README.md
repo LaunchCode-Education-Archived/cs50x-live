@@ -27,7 +27,8 @@ Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Do | Interactive Course | <a href="http://webdesign.tutsplus.com/courses/semantic-html-how-to-structure-web-pages" target="_blank">Tuts Plus / Semantic HTML</a>
 
-Preventing Default Event Action
+### Preventing Default Event Actions
+Task | Resource Type | Link | Instructions
+-----|---------------|------|-------------
 Read | Article | <a href="http://www.w3schools.com/jsref/event_preventdefault.asp">W3 Schools / Event Prevent Default</a> | 
 
- * AJAX
