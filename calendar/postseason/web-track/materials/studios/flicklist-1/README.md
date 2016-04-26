@@ -293,10 +293,10 @@ To https://github.com/jharvard/flicklist.git
  * [new branch]      studio1-my-work -> studio1-my-work
 ```
 
-If you go back and revisit https://github.com/jharvard/flicklist, you should now see your new branch up there!
+If you go back and revisit github.com/jharvard/flicklist, you should now see your new branch up there! Specificially, near the top-left of the screen, you should see a dropdown menu that says "Branch: master". Click that dropdown and you should see an option for "studio1-my-work". Click on that branch, and you should now see the code you just worked on. Copy the current url in your browser's address bar (you are about to paste that url into Vocareum).
 
 ##### Submit on Vocareum
 
 On Vocareum, click on the assignment called **Studio: FlickList 1**.
 
-You should see a file called `studio1.txt`, on which a secret quiz question awaits! Write your anser into that file, and click submit.
+You should see a file called `studio1.txt`. In this file, provide us a link to the work you just pushed to GitHub. Then click "Submit".
