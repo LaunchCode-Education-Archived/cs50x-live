@@ -14,7 +14,7 @@ Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Do | Exercises | <a href="https://www.freecodecamp.com/challenges/adjusting-the-padding-of-an-element" target="_blank">Adjusting the Padding of an Element</a> <br/> <a href="https://www.freecodecamp.com/challenges/adjust-the-margin-of-an-element" target="_blank">Adjust the Margin of an Element</a> | These exercises on FreeCodeCamp will give you practice adjusting the `margin` and `padding` CSS attributes.
 Read | Article | <a href="http://www.w3schools.com/css/css_boxmodel.asp" target="_blank"> W3 Schools / CSS Box Model </a> | Read this article on the Box Model, the system for determining how the `margin`, `border`, and `padding` attributes work together to determine the overall sizing and spacing of an element.
-Do | Exercises | <a href="https://www.freecodecamp.com/challenges/inherit-styles-from-the-body-element" target="_blank">Inherit Styles from the Body Element</a> <br/> <a href="https://www.freecodecamp.com/challenges/prioritize-one-style-over-another" target="_blank">Prioritize One Style Over Another</a> <br/> <a href="https://www.freecodecamp.com/challenges/override-styles-in-subsequent-css"  target="_blank">Override Styles in Subsequent CSS</a> </br> <a href="https://www.freecodecamp.com/challenges/override-class-declarations-by-styling-id-attributes" target="_blank">Override Class Declarations by Styling ID Attributes</a> | These exercises on FreeCodeCamp will give you 
+Do | Exercises | <a href="https://www.freecodecamp.com/challenges/inherit-styles-from-the-body-element" target="_blank">Inherit Styles from the Body Element</a> <br/> <a href="https://www.freecodecamp.com/challenges/prioritize-one-style-over-another" target="_blank">Prioritize One Style Over Another</a> <br/> <a href="https://www.freecodecamp.com/challenges/override-styles-in-subsequent-css"  target="_blank">Override Styles in Subsequent CSS</a> </br> <a href="https://www.freecodecamp.com/challenges/override-class-declarations-by-styling-id-attributes" target="_blank">Override Class Declarations by Styling ID Attributes</a> | These exercises on FreeCodeCamp will give you some experience with various ways that styles declarations can override and take precedence over one another. Using these techniques will help you maintain concise, readable CSS code.
  
 ### Functional JavaScript
 Task | Resource Type | Link | Instructions
@@ -25,10 +25,5 @@ Do | Exercises | <a href="https://www.freecodecamp.com/challenges/iterate-over-a
 ### Semantic HTML
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Do | Interactive Course | <a href="http://webdesign.tutsplus.com/courses/semantic-html-how-to-structure-web-pages" target="_blank">Tuts Plus / Semantic HTML</a>
-
-### Preventing Default Event Actions
-Task | Resource Type | Link | Instructions
------|---------------|------|-------------
-Read | Article | <a href="http://www.w3schools.com/jsref/event_preventdefault.asp">W3 Schools / Event Prevent Default</a> | 
+Do | Interactive Course | <a href="http://webdesign.tutsplus.com/courses/semantic-html-how-to-structure-web-pages" target="_blank">Tuts Plus / Semantic HTML</a> | This tutorial course introduces the concept of Semantic HTML.
 
