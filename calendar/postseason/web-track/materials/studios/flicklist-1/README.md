@@ -32,7 +32,7 @@ nothing to commit, working directory clean
 Now let's fetch the `studio1` branch from the upstream repo:
 
 ```nohighlight
-$ git fetch upstream/studio1
+$ git fetch upstream studio1
 From https://github.com/LaunchCodeEducation/flicklist
  * branch            studio1    -> FETCH_HEAD
 ```
