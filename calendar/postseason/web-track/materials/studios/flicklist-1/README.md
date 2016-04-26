@@ -44,20 +44,19 @@ From https://github.com/LaunchCodeEducation/flicklist
 and then switch to a new local branch with the contents of 
 
 ```nohighlight
-$ git checkout -b studio1 upstream/studio1
-Branch studio1 set up to track remote branch studio1 from upstream.
-Switched to a new branch 'studio1'
+$ git checkout -b studio1-my-work upstream/studio1
+Branch studio1-my-work set up to track remote branch studio1 from upstream.
+Switched to a new branch 'studio1-my-work'
 ```
 
 (Just an aside: The `-b` flag allows you to create and switch to a branch in one line. It's just a fancier version of this:
 ```nohighlight
-$ git branch studio1 upstream/studio1
-Branch studio1 set up to track remote branch studio1 from upstream.
-$ git checkout studio1
-Switched to a new branch 'studio1'
+$ git branch studio1-my-work upstream/studio1
+Branch studio1-my-work set up to track remote branch studio1 from upstream.
+$ git checkout studio1-my-work
+Switched to a new branch 'studio1-my-work'
 ```
 You can use whichever you feel more comfortable with.)
-  
 
 ### A Brief Tour
 
