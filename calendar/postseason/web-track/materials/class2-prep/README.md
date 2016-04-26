@@ -8,11 +8,6 @@ Before coming to Class 2, please complete the following tasks:
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Follow Along | Exercise | <a href="../studios/flicklist-1/staff-solution" target="_blank">FlickList 1 Solution</a> | 
- 
-### Semantic HTML
-Task | Resource Type | Link | Instructions
------|---------------|------|-------------
-* semantic HTML
 
 ### CSS Box Model
 Task | Resource Type | Link | Instructions
@@ -32,10 +27,13 @@ Task | Resource Type | Link | Instructions
 ### Functional JavaScript
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-  * http://cryto.net/~joepie91/blog/2015/05/04/functional-programming-in-javascript-map-filter-reduce/
-  * https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map
-  * https://www.freecodecamp.com/challenges/filter-arrays-with-filter
+Read | Article | <a href="http://cryto.net/~joepie91/blog/2015/05/04/functional-programming-in-javascript-map-filter-reduce/" target="_blank">Functional Programming in JS</a>
+Do | Exercises | <a href="https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map" target="_blank">Iterate over Arrays with map</a> <br/> <a href="https://www.freecodecamp.com/challenges/filter-arrays-with-filter" target="_blank">Filter Arrays with filter</a>
 
+### Semantic HTML
+Task | Resource Type | Link | Instructions
+-----|---------------|------|-------------
+Do | Interactive Course | <a href="http://webdesign.tutsplus.com/courses/semantic-html-how-to-structure-web-pages" target="_blank">Tuts Plus / Semantic HTML</a>
 
  * preventDefault
 
