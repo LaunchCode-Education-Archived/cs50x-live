@@ -10,4 +10,4 @@ Before coming to class, please complete [Class 1 Prep](../class1-prep).
 * Afterwards, we will go over the staff solution to the studio.
 
 ### Homework
-[Class 2 Prep](../class2-prep)
+Class 2 Prep
