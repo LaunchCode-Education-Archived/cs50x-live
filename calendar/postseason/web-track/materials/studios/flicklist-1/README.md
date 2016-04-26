@@ -37,7 +37,7 @@ From https://github.com/LaunchCodeEducation/flicklist
  * branch            studio1    -> FETCH_HEAD
 ```
 
-and then switch to a new local branch with the contents of 
+and then checkout a new local branch with the contents of upstream/studio1
 
 ```nohighlight
 $ git checkout -b studio1-my-work upstream/studio1
