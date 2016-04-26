@@ -9,20 +9,12 @@ Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
 Follow Along | Exercise | <a href="../studios/flicklist-1/staff-solution" target="_blank">FlickList 1 Solution</a> | 
 
-### CSS Box Model
+### CSS Box Model, Style Precendance
 Task | Resource Type | Link | Instructions
 -----|---------------|------|-------------
-Do | Exercise | https://www.freecodecamp.com/challenges/adjusting-the-padding-of-an-element
-Do | Exercise | https://www.freecodecamp.com/challenges/adjust-the-margin-of-an-element
+Do | Exercises | <a href="https://www.freecodecamp.com/challenges/adjusting-the-padding-of-an-element" target="_blank">Adjusting the Padding of an Element</a> <br/> <a href="https://www.freecodecamp.com/challenges/adjust-the-margin-of-an-element" target="_blank">Adjust the Margin of an Element</a>
 Read | Article | <a href="http://www.w3schools.com/css/css_boxmodel.asp" target="_blank"> W3 Schools / CSS Box Model </a> | 
-
-### CSS Inheritence, Overriding
-Task | Resource Type | Link | Instructions
------|---------------|------|-------------
-  * https://www.freecodecamp.com/challenges/inherit-styles-from-the-body-element
-  * https://www.freecodecamp.com/challenges/prioritize-one-style-over-another
-  * https://www.freecodecamp.com/challenges/override-styles-in-subsequent-css
-  * https://www.freecodecamp.com/challenges/override-class-declarations-by-styling-id-attributes
+Do | Exercises | <a href="https://www.freecodecamp.com/challenges/inherit-styles-from-the-body-element" target="_blank">Inherit Styles from the Body Element</a> <br/> <a href="https://www.freecodecamp.com/challenges/prioritize-one-style-over-another" target="_blank">Prioritize One Style Over Another</a> <br/> <a href="https://www.freecodecamp.com/challenges/override-styles-in-subsequent-css"  target="_blank">Override Styles in Subsequent CSS</a> </br> <a href="https://www.freecodecamp.com/challenges/override-class-declarations-by-styling-id-attributes" target="_blank">Override Class Declarations by Styling ID Attributes</a>
  
 ### Functional JavaScript
 Task | Resource Type | Link | Instructions
