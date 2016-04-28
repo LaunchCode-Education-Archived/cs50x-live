@@ -11,7 +11,7 @@ Watch | Follow Along | Working with Interfaces | Watch as Doug uses interfaces t
 Read | Resource | [What is an interface?](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html) | This resource explains what interfaces are and why you should use them.
 Read | Resource | [Java documentation for interfaces](https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html) | This resource goes into detail about how to create interfaces.
 Read | Resource | [Interfaces vs. Inheritance] (http://stackoverflow.com/questions/8531292/why-to-use-interfaces-multiple-inheritance-vs-interfaces-benefits-of-interface) | A Stack Overflow post explaining the difference between interfaces and inheritance.
-Do | Exercises | TBD | Make them write a simple interface, implement a class with it (Netflix)?
+Do | Exercises | [Strategy Pattern](../exercises/strategy-pattern) | This exercise will give you a brief introduction to Artificial intelligence and the strategy pattern.
 *** 
 
 #### Exceptions
@@ -20,6 +20,6 @@ Task | Resource Type | Link  | Instructions
 Watch | Follow Along | Throwing and handling Exceptions | Follow along with Doug as he adds exception handling to his program.
 Read | Resource | [Java Exception Lesson](https://docs.oracle.com/javase/tutorial/essential/exceptions/) | This resource contains many different examples of how exceptions can be used.
 Read | Resource | [Exceptions tutorial](http://www.tutorialspoint.com/java/java_exceptions.htm) | Another exception tutorial that focuses on data validation.
-Do | Exercise | I take Exception to that! | Have them revisit one of their previous programs and add some exceptions
+Do | Exercise | [I take Exception to that!](../exercises/exception) | Keep your robots in line by implementing some exception handling.
 
 #### Now you're ready for [Class 5](../class5)

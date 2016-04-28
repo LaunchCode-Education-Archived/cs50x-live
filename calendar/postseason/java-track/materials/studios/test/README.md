@@ -9,7 +9,7 @@ In the [previous studio](../studios/class-design) you were tasked with designing
 
 Your task for this studio is simple: design unit tests for these objects. You should create at least one unit test for each method in your classes.
 
-You can use the tests provided in [this walkthrough]() as a template for your tests.
+You can use the tests provided in [this walkthrough](https://youtu.be/2OftyGm6C7Y) as a template for your tests.
 
 ## Submission
 
