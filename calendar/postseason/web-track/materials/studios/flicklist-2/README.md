@@ -9,7 +9,7 @@ Along the way, hopefully you will continue to get more comfortable with jQuery, 
 
 ### Demo
 
-Here is a demo of what you are trying to accomplish: <a href="http://htmlpreview.github.io/?https://github.com/LaunchCodeEducation/flicklist/blob/f3dae711763c73f56267ac35e076c56383183829/index.html" target="_blank">FlickList 2 Demo</a>. Play around with the demo for a minute and get familiar with its features.
+Here is a demo of what you are trying to accomplish: <a href="http://htmlpreview.github.io/?https://github.com/LaunchCodeEducation/flicklist/blob/f3dae711763c73f56267ac35e076c56383183829/index.html" target="_blank">FlickList 2 Demo</a>. Play around with the demo for a minute and get familiar with its features. Also, keep the demo open in a separate window, so you can refer to it while working on the assignment.
 
 Note the following additions since last time:
 * In the browse list, each movie is accompanied by a paragraph summarizing its plot.
@@ -51,25 +51,92 @@ Switched to a new branch 'studio2-my-work'
 
 ##### 0. API key
 
+As usual, add your api key to the object near the top of `flicklist.js`.
+
 ##### 1. Add a Description Paragraph to Each Browselist Item
+
+On the browse list, let's spice up those list items by displaying some more data about the movies. Using jQuery, create a `<p>` with a description of the movie's plot. You can find this description as a string somewhere inside the movie object. Just as the title is accessbile via the property `movie.original_title`, the description is a different property. What's the name of the property? You'll have to use a `console.log` statement to poke around and find out. (It's not `movie.description`). Once you have created the paragraph, append it to `itemView` below the title and above the "Add to Watchlist" button.
 
 ##### 2. Disable Buttons
 
+Next, implement this feature: an "Add to Watchlist" button should be disabled if the movie in question is already present in the user's watchlist. 
+
+To determine whether the movie is already present, you can use the javascript array function `indexOf`, which returns the index of a thing in an array, unless the thing is not found, in which case `-1` is returned. For example:
+
+```js
+var nums = [0, 7, 5, 2];
+nums.indexOf(5) // returns 2
+nums.indexOf(5000) // returns -1
+```
+
+To disable the button, you can use jQuery's `prop` function, e.g.
+```js
+var nuclearReactor = $("#nuclear-reactor");
+nuclearReactor.prop("disabled", true);
+```
+
+Once you have this working, take a quick note of the CSS rule we used in order to achive the visual effect. We lower the `opacity` property (in otherwords, transparency) of disabled buttons. In order to select for only disabled buttons, we used the `:disabled` <a href="http://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">pseudoclass</a>.
+
 ##### 3. Give Watchlist Items a Class Attribute
+
+Next, it's time to apply some styles to thosewatchlist `<li>`s, so that they are big orange bricks. But first, in order to do that, we'll need to give them a `class` attribute, so that our CSS can select them. Inside the `render` function, within the `forEach` iteration over `model.watchlistItems`, use the jQuery `attr` function to give the `itemView` variable a class of `"item-watchlist"`.
+
+Verify that you succeeded as follows: In your browser window, add some movies to the watchlist. Then, open up the dev tools, go to the Console tab, and type this:
+
+```js
+$(".item-watchlist")
+```
+
+followed by the Enter key. You should see an array with some `<li>`s inside it, one for each watchlist item! You should not see an empty array, i.e. `[]`.
 
 ##### 4. Style the Watchlist Items as Orange Bricks
 
+Now that your watchlist items have a class attribute, you can apply styles to them. Open up `styles.css`, and create a new class selector for elements with the class "item-watchlist" (hint: CSS selectors are the same as jQuery selectors). Add some styles until your watchlist tiems resemble those orange bricks from the demo. One style you'll definitely want to apply is:
+
+```css
+display: inline-block;
+```
+
+This is what enables that left-to-right flow pattern. (See this <a href="http://stackoverflow.com/questions/8969381/what-is-the-difference-between-display-inline-and-display-inline-block" target="_blank">Stack Overflow post</a> for a nice overview of the differences between `block`, `inline`, and `inline-block`).
+
+You'll also need to apply a few other styles: a lot of padding, a little bit of margin on <a href="http://stackoverflow.com/questions/356759/a-mnemonic-for-the-order-of-css-margin-and-padding-shorthand-properties" target="_blank">just the right and bottom edges</a>, and the colors obviously need to change.
+
 ##### 5. Change the Text Color to Gray
 
-##### 6. Style the Buttons
+Next, create a css rule that will set a baseline default of gray for the color of all text in the body of the document. To accomplish this, you only have to make one rule! you don't have to go and start adding declarations to each and every selector in the CSS file. You simply have to apply the style to some common container, and then all descendants of the container will automatically inherit the same style.
 
-##### 7. Add a Form to the Page
+##### 6. Add a Form to the Page
+
+The last new feature we need to add is a `<form>`, with a text field and a submit button, via which users can search for particular movies. 
+
+The first step to implementing this feature is simply to add the form to `index.html`. Go ahead and do that now. Your form does not need any of the usual attributes, like `action` or `method`, because we are going to intercept and cancel its submit event anyway. The one attribute you should give the form is an `id` equal to `"form-search"`. Inside the form, you should have two `<input>`s: one, a text field, and the other, a submit button.
+
+##### 7. Style the Buttons
+
+Very briefly, let's jump back over to `styles.css` and apply some styles to the buttons, both the "Add to Watchlist" buttons and the "Search by Title" submit button on the form
+
+Notice how the selector here includes `input[type=submit]` in order to select for both normal buttons and submit buttons on forms.
 
 ##### 8. Add a Submit Handler to the Form
 
+Once your form is present on the page, the next step is to give it a submit handler. We want to specify that when the user presses the submit button, the `searchMovies` function (which you will implement next) gets invoked, using the search term that the user typed in, with `render` as the callback to be executed after receiving a response from the api.
+
+As you can see, we use jQuery's `.submit` function, which is very similar to `.click` in that it allows you to pass in a function to be executed whenever a form is submitted. You must:
+* A: fill in the jQuery selector so that we are calling `.submit` on our form
+* B: within the submit handler function, fill in another jQuery selector to figure out what the user typed into the search bar. For this task you must use a selector very similar to the example in `styles.css` for the submit button (`input[type=submit]`).
+* C: also within the body of the submit handler function, invoke the `searchMovies` function and pass in the arguments it needs.
+
+If you've done everything correctly you should be able to see some output on the console. Search for "cocounut" and you should see a log statement that reads: "searching for movies with 'coconut' in their title...".
+
 ##### 9. Implement the `searchMovies` Function
 
+Finally, let's implement this function in `flicklist.js`. As a starting point, you can follow in the footsteps of the `discoverMovies` function. But a few things must be different:
+* You will send the request to a slightly different url (we want to talk to a different "endpoint" on the API)
+* Your `data` object must include another property, `query`, whose value will be the search term the user typed in (e.g. "coconut")
+
 ### How to Submit
+
+Just like last time, commit your work on Git and push to a new branch on your GitHub repo. Then, submit a link to your repo on Vocareum.
 
 ##### Commit and Push
 
