@@ -9,7 +9,7 @@ Here is a demo of what you are trying to accomplish: <a href="http://htmlpreview
 
 Note the following additions since last time:
 * In the browse list, each movie is accompanied by a paragraph summarizing its plot.
-* Once the user clicks the "Add to Watchlist" button for a movie, the button then becomes disabled, thereby preventing the same movie from being added more than once.
+* Once the user clicks the "Add to Watchlist" button for a movie, the button then becomes disabled, preventing the same movie from being added more than once.
 * In the watchlist, each movie is represented by an orange rectangle. These rectangles line up next to each other from left to right, without skipping down to a new line until they run out of space on the right-hand side of their container.
 * The page has some styles and is a little prettier than before.
 * At the top of the browselist, there is a search bar which users can use to search for particular movies. Upon submitting the form, the browse list repopulates full of movies with matching titles.
