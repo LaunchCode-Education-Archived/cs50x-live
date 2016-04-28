@@ -1,7 +1,7 @@
 ##### Web Track
 [Back to Class 2 Prep](../../../class2-prep)
 
-# Studio Solution: FlickList 1
+# Studio Solution: FlickList 2
 
 The goal of this exercise is to make sure you are familar and comfortable with our staff solution to the previous studio, because when you work on the upcoming studio, you will be more-or-less starting where our solution left off.
 
@@ -15,16 +15,16 @@ Open up the terminal in your IDE, and navigate to your `/flicklist` directory:
 $ cd ~/workspace/web-track/studios/flicklist
 ```
 
-Checkout a new branch called `studio1-followalong` off of `upstream/studio1`:
+Checkout a new branch called `studio2-followalong` off of `upstream/studio2`:
 
 ```nohighlight
-$ git checkout -b studio1-followalong upstream/studio1
-Branch studio1-followalong set up to track remote branch studio1 from upstream.
-Switched to a new branch 'studio1-followalong'
+$ git checkout -b studio2-followalong upstream/studio2
+Branch studio2-followalong set up to track remote branch studio2 from upstream.
+Switched to a new branch 'studio2-followalong'
 ```
 
 Our solution to this studio can be found here:
-https://github.com/LaunchCodeEducation/flicklist/tree/studio1-staff-solution
+https://github.com/LaunchCodeEducation/flicklist/tree/studio2-staff-solution
 
 Your job now is just to literally copy our solution into your source code. 
 
