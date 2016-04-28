@@ -8,10 +8,10 @@
 Here is a demo of what you are trying to accomplish: <a href="http://htmlpreview.github.io/?https://github.com/LaunchCodeEducation/flicklist/blob/f3dae711763c73f56267ac35e076c56383183829/index.html" target="_blank">FlickList 2 Demo</a>. Play around with the demo for a minute and get familiar with its features.
 
 Note the following additions since last time:
-* The page has some styles and is a little prettier than last time.
 * In the browse list, each movie is accompanied by a paragraph summarizing its plot.
 * Once the user clicks the "Add to Watchlist" button for a movie, the button then becomes disabled, thereby preventing the same movie from being added more than once.
 * In the watchlist, each movie is represented by an orange rectangle. These rectangles line up next to each other from left to right, without skipping down to a new line until they run out of space on the right-hand side of their container.
+* The page has some styles and is a little prettier than before.
 * At the top of the browselist, there is a search bar which users can use to search for particular movies. Upon submitting the form, the browse list repopulates full of movies with matching titles.
 
 ### Git Yer Hands on the Starter Code
@@ -39,8 +39,30 @@ Switched to a new branch 'studio2-my-work'
 
 ### A Brief Tour
 
-##### 
+##### index.html
+##### flicklist.js
+##### styles.css
 
 ### Assignment
+
+##### 0. API key
+
+##### 1. Add a Description Paragraph to Each Browselist Item
+
+##### 2. Disable Buttons
+
+##### 3. Give Watchlist Items a Class Attribute
+
+##### 4. Style the Watchlist Items as Orange Bricks
+
+##### 5. Change the Text Color to Gray
+
+##### 6. Style the Buttons
+
+##### 7. Add a Form to the Page
+
+##### 8. Add a Submit Handler to the Form
+
+##### 9. Implement the `searchMovies` Function
 
 ### How to Submit
