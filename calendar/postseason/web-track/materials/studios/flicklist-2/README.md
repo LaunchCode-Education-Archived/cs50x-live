@@ -43,9 +43,62 @@ Switched to a new branch 'studio2-my-work'
 
 ### A Brief Tour
 
+Our project now looks like this:
+
+```nohighlight
+$ tree
+.
+├── css
+│   └── styles.css
+├── index.html
+└── js
+    └── flicklist.js
+```
+
+Notice the new directory, `css`, which contains a stylesheet, `styles.css`. 
+
+Let's look briefly at each of our files:
+
 ##### index.html
+
+The HTML file has only changed slightly since we last left it:
+* In the `<head>` there is now a link to our stylesheet. 
+* In the browse section, we have a TODO, asking you to create a `<form>` for the user to search for movies
+* At the bottom, we have a `<script>` tag inside of which is some partially completed JS code with some more TODOs. This is where you will specify what the form should do when the user clicks the submit button.
+
 ##### flicklist.js
+
+Our javascript file is also pretty similar to last time, with just a few changes:
+* There is a new function, `searchMovies`, which will be invoked as part of the submit handler on the form (see above). The body of this function is pretty empty (so far!).
+* The `render` function has a few TODOs for you.
+
+Also notice inside `render` that we have re-written some of the jQuery code in a style that might seem a little funny. For example, this line:
+
+```js
+var button = $("<button></button>")
+   .text("Add to Watchlist")
+   .click(function() {
+     model.watchlistItems.push(movie);
+     render();
+   });
+```
+
+or this one:
+
+```js
+var itemView = $("<li></li>")
+   .append($("<hr/>"))
+   .append(title)
+   .append(button);
+```
+
+This is a common style for lines of code in which you are chaining together a bunch of jQuery method calls one after the other. When these chains become long enough, there comes a point where they will annoyingly run off the right edge of the screen. To mitigate that, the convention is to place each subsequennt method call on its own new line, indented once.
+
 ##### styles.css
+
+Finally, open up the new stylesheet. As you can see, we've already gotten started applying some styles to the page.
+
+As a quick exercise, go preview the page in your browser right now, and open up Dev Tools. In the Elements tab, notice that one of the things you can inspect is the styles of your elements. You can even change the styles and see the results immediately! Spend a minute playing and tinkering with the styles we have added.
 
 ### Assignment
 
