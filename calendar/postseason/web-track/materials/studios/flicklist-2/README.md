@@ -49,6 +49,8 @@ Switched to a new branch 'studio2-my-work'
 
 ### Assignment
 
+Work your way through the TODOs in the source code. The tasks are numbered. You should work on them in the order prescribed, as follows:
+
 ##### 0. API key
 
 As usual, add your api key to the object near the top of `flicklist.js`.
