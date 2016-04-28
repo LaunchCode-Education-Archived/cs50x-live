@@ -3,7 +3,9 @@
 
 # Studio: FlickList 2
 
-Today we will add a hodge-podge of miscellaneous new features to our movie site. We'll include some CSS to apply styles to the page, and build on our interaction with the API. Along the way, hopefully you will continue to get more comfortable with jQuery, CSS, AJAX, making API calls, and working with HTML forms.
+Today we will add a hodge-podge of miscellaneous new features to our movie site. We'll include some CSS to apply styles to the page, and build on our interaction with the API. 
+
+Along the way, hopefully you will continue to get more comfortable with jQuery, CSS, AJAX, making API calls, and working with HTML forms.
 
 ### Demo
 
