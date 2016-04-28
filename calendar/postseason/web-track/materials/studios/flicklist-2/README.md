@@ -16,7 +16,7 @@ Note the following additions since last time:
 
 ### Git Yer Hands on the Starter Code
 
-Same procedure as usual here. First, fetch the upstream studio2 branch:
+Same procedure as usual here. First, fetch the studio2 branch from upstream:
 
 ```nohighlight
 $ git fetch upstream studio2
