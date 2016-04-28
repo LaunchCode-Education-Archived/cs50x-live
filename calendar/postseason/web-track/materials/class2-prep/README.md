@@ -2,7 +2,7 @@
 
 # Class 2 Prep 
 
-Before coming to Class 2, please complete the following tasks:
+Before coming to [Class 2](../class2), please complete the following tasks:
 
 ### Studio Recap
 Task | Resource Type | Link | Instructions
