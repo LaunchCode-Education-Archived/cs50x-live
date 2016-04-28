@@ -66,3 +66,10 @@ Switched to a new branch 'studio2-my-work'
 ##### 9. Implement the `searchMovies` Function
 
 ### How to Submit
+
+##### Commit and Push
+
+
+##### Submit on Vocareum
+
+On Vocareum, click the assignment titled **Studio: FlickList 2**. In your `/work` directory you should see a file called `studio2.txt`. Open up this file and fill in the link to your work on GitHub.
