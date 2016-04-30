@@ -194,6 +194,7 @@ To make the AJAX request, we use jQuery's `ajax()` function. In some of the CS50
 * `data` -- any extra data that we want to send along with our request (in our case, the api_key and tag)
 * `success` -- a callback function to execute when the response comes back
 * `error` -- an alternative callback function, if something went wrong, to handle the error
+
 There are many more settings you can configure, but those are the core things we care about in this case. 
 
 The last section of this function is a TODO where we instruct you to give the user a "Loading..." message while they wait for the response to come back. You might be wondering: Why are we displaying a loading message AFTER we've already done the whole request and handled the response in the `success()` (or `error()`) function? Remember, those callback functions will not actually be *executed* until later, after the response comes back. Just because the `success()` function is defined *above* line 53 does not mean that it will actually be invoked before line 53.
