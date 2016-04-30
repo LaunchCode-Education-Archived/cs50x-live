@@ -12,10 +12,10 @@ You are going to use the <a href="https://github.com/Giphy/GiphyAPI" target="_bl
 
 ##### The host
 
-The host url we want is `http://api.giphy.com/v1/gifs/`. Let's try sending a GET request to that url. Try entering the following command into your terminal:
+The host url we want is `https://api.giphy.com/v1/gifs/`. Let's try sending a GET request to that url. Try entering the following command into your terminal:
 
 ```nohighlight
-$ curl -G http://api.giphy.com/v1/gifs/
+$ curl -G https://api.giphy.com/v1/gifs/
 {"meta":{"status":404,"msg":"Not Found!"}}
 ```
 
@@ -28,7 +28,7 @@ Actually, the problem is that we need to choose an "endpoint" to indicate which 
 The url for the Random endpoint is simply `/random`, so let's try this:
 
 ```nohighight
-$ curl -G http://api.giphy.com/v1/gifs/random
+$ curl -G https://api.giphy.com/v1/gifs/random
 {"meta":{"status":403,"msg":"Forbidden"}}
 ```
 
@@ -41,7 +41,7 @@ Let's authorize ourselves by including in our request a parameter whose value is
 We can associate data with our curl request by using the -d flag:
 
 ```nohighlight
-$ curl -G http://api.giphy.com/v1/gifs/random -d api_key=dc6zaTOxFJmzC
+$ curl -G https://api.giphy.com/v1/gifs/random -d api_key=dc6zaTOxFJmzC
 {"data":{"type":"gif","id":"RBLigAVE0xJte","url":"http:\/\/giphy.com\/gifs\/food-dessert-etc-RBLigAVE0xJte","image_original_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/giphy.gif","image_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/giphy.gif","image_mp4_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/giphy.mp4","image_frames":"35","image_width":"245","image_height":"180","fixed_height_downsampled_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/200_d.gif","fixed_height_downsampled_width":"272","fixed_height_downsampled_height":"200","fixed_width_downsampled_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/200w_d.gif","fixed_width_downsampled_width":"200","fixed_width_downsampled_height":"147","fixed_height_small_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/100.gif","fixed_height_small_still_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/100_s.gif","fixed_height_small_width":"136","fixed_height_small_height":"100","fixed_width_small_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/100w.gif","fixed_width_small_still_url":"http:\/\/media1.giphy.com\/media\/RBLigAVE0xJte\/100w_s.gif","fixed_width_small_width":"100","fixed_width_small_height":"73","username":"","caption":""},"meta":{"status":200,"msg":"OK"}}
 ```
 
@@ -91,7 +91,7 @@ the result will be a GIF on our page!
 But artisan lollipops is a topic for another time, beacause today is all about the Jacksons. To specify the topic of interest, we simply need to add another data parameter with the key "tag" and the value "jackson+5":
 
 ```nohighlight
-$ curl -G http://api.giphy.com/v1/gifs/random -d api_key=dc6zaTOxFJmzC -d tag=jackson+5
+$ curl -G https://api.giphy.com/v1/gifs/random -d api_key=dc6zaTOxFJmzC -d tag=jackson+5
 ```
 
 which should respond with a GIF like this one:
