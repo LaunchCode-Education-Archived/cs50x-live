@@ -18,7 +18,7 @@ There is a problem with the code: it uses that `3.14159...` value as a magic num
 
 We fixed this problem in a new version, [pizza-1.c](./pizza-1.html). But that version still wasn't perfect... 
 
-Eventually, after a couple more improvements, we arrived a a nice solution in [pizza-3.c](./pizza-3.c=html).
+Eventually, after a couple more improvements, we arrived a a nice solution in [pizza-3.c](./pizza-3.html).
 
 In the table below, we summarize the evolution of our program as we continually improved it. Click on each link to see the changes that we made.
 
