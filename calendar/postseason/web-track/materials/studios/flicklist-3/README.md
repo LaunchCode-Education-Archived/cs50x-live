@@ -3,6 +3,8 @@
 
 # Studio: FlickList 3
 
+Today you will add a little bit more functionality to the project, but the main improvements will be aesthetic. You will Bootstrapify the page, using the Bootstrap library to apply a bunch of nice styles, as well as a responsive Bootstrap Grid layout.
+
 ### Demo
 
 Here is a demo of what you are trying to accomplish: <a href="" target="_blank">FlickList 3 Demo</a>. Play around with the demo for a minute and get familiar with its features. Also, keep the demo open in a separate window, so you can refer to it while working on the assignment.
