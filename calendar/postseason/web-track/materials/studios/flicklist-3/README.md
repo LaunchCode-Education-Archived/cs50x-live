@@ -50,15 +50,87 @@ Let's look briefly at what has changed in each of our files:
 
 ### Assignment
 
-Work your way through the TODOs in the source code. The tasks are numbered. You should work on them in the order prescribed, as follows:
+The source code has a bunch of TODOs. There are more total tasks than in previous studios, but many of them are very small. 
 
-##### 0. API key
+Work your way, in order, through the following tasks:
+
+#### 0. API key
 
 As usual, add your api key to the object near the top of `flicklist.js`.
 
-##### 1. 
+#### 1. An "I watched it" Button
 
-##### 2. 
+In flicklist.js, inside the `render` function, add a button to each Watchlist item. When clicked, the appropriate movie should be removed from `model.watchlistItems`, and `render` should be called again.
+
+TODO explain `splice`
+
+#### 2. Bootstrap Makeover Party
+
+Bootstrap comes with a ton of nice pre-made CSS styles "right out of the box". We simply need to give our elements the appropriate class names, and they will automagically change appearence. There are a bunch of places all around the project where you will do this.
+
+##### 2a. Include the Library
+
+The first step is to simply include the Bootstrap library in our project, at the top of `index.html`. 
+
+On their website, Bootstrap even <a href="http://getbootstrap.com/getting-started/" target="_blank">provides us</a> the exact `<link>` tag we need to copy/paste into our project in order to grab the library from their CDN:
+
+```html
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+```
+
+##### 2b. Style the Page Header
+
+The first Bootstrap class we'll use is <a href="http://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp" target="_blank">Jumbotron</a>, which is used for creating a big, bold, attention-grabbing block of text. Use it to style the `<header>` at the top of the page. 
+
+Next, add the "text-muted" class to the subtitle, so it stands out a little less.
+
+##### 2c. Customize the Jumbotron
+
+In addition to just using Bootstrap classes as they are, we can also customize them to fit our needs. Doing so is as simple as adding our own CSS selector for `.jumbotron`, and specifying whatever styles we want to overwrite. 
+
+Do that now, in `styles.css`. Make the jumbotron class have centered text (rather than left-aligned). 
+
+Also, the jumbotron by default has a margin of 30 pixels. This is going to become a little much if the user is on a smaller screen. Change the bottom margin to a value of `1%`. This both reduces the margin, and makes it "fluid", calculating it as a percentage of the width, rather than a fixed value.
+
+##### 2d. Style the Browse List
+
+This task involves changing code in both `index.html` and `flicklist.js`.
+
+Read more about <a href="http://v4-alpha.getbootstrap.com/components/list-group/" target="_blank">Bootstrap Lists</a> and <a href="http://v4-alpha.getbootstrap.com/components/buttons/" target="_blank">Bootstrap Buttons</a> for guidance.
+
+##### 2e. Style the Form
+
+For guidance, read more about <a>Boostrap Inputs</a>, especially <a>Button Add-ons</a>.
+
+##### 2f. Style the Watchlist
+
+This one's very simple. In index.html, just give the watchlist `<ul>` a class of <a href="http://getbootstrap.com/css/#inline" target="_blank">list-inline</a>. Remember that whole `"inline-block"` shenanigans we did last time? This class was made specifically for lists like the kind we're doing here.
+
+##### 2g. Style the Watchlist Items
+
+In `flicklist.js`, restyle the watchlist items using <a href="http://getbootstrap.com/components/#panels-heading" target="_blank">Bootstrap Panels</a>.
+
+##### 2h. Customize the Watchlist Items
+
+Let's customize these things a little more. Each `<li>` should have:
+* no padding at all
+* a little bit of margin on the right and bottom edges
+* a width of exactly 160 pixels
+
+##### 2i. Style the "I watched it" Buttons
+
+Make 'em red. Here is the section on <a href="http://v4-alpha.getbootstrap.com/components/buttons/" target="_blank">Bootstrap Buttons</a> again.
+
+##### 2j. Customize the "I watched it" Buttons
+
+We want the button to fill the entire width of the container, and sit 10px below its upper neighbor.
+
+#### 3. Responsive Grid Layout
+
+#### 4. Poster Images
+
+#### 5. Remove Dead Code
 
 ### How to Submit
 
