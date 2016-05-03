@@ -1,13 +1,13 @@
 ##### [Web Track](../..)
 
-# Class 2
+# Class 3
 
 ### Before Class
-Before coming to class, please complete [Class 2 Prep](../class1-prep).
+Before coming to class, please complete [Class 3 Prep](../class3-prep).
 
 ### During Class
-* First, work on today's studio: [FlickList 2](../studios/flicklist-2)
+* First, work on today's studio: [FlickList 3](../studios/flicklist-3)
 * Afterwards, we will go over the staff solution to the studio.
 
 ### Homework
-Class 3 Prep
+Class 4 Prep
