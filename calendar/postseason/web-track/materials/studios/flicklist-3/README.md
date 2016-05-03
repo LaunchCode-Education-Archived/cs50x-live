@@ -1,16 +1,17 @@
 ##### Web Track
-[Back to Class 2](../../class2)
+[Back to Class 3](../../class3)
 
-# Studio: FlickList 2
-
-
+# Studio: FlickList 3
 
 ### Demo
 
-Here is a demo of what you are trying to accomplish: <a href="http://htmlpreview.github.io/?https://github.com/LaunchCodeEducation/flicklist/blob/f3dae711763c73f56267ac35e076c56383183829/index.html" target="_blank">FlickList 2 Demo</a>. Play around with the demo for a minute and get familiar with its features. Also, keep the demo open in a separate window, so you can refer to it while working on the assignment.
+Here is a demo of what you are trying to accomplish: <a href="" target="_blank">FlickList 3 Demo</a>. Play around with the demo for a minute and get familiar with its features. Also, keep the demo open in a separate window, so you can refer to it while working on the assignment.
 
 Note the following additions since last time:
-
+* Watchlist items have an "I watched it" button, which allows the user to cross that movie off their list.
+* Watchlist items have pictures!
+* The page layout changes responsively with the size of the screen. When the widnow is sufficiently wide, the browse list shows up in its own column, to the right of of the Watchlist. Otherwise, the browse list is positioned below the Watchlist as before. (Try this now if you haven't already. Open the demo and play modify the window size, and observe how the page layout responds.)
+* Various stylistic changes
 
 ### Starter Code
 
@@ -36,7 +37,6 @@ Switched to a new branch 'studio3-my-work'
 ```
 
 ### A Brief Tour
-
 
 Let's look briefly at what has changed in each of our files:
 
