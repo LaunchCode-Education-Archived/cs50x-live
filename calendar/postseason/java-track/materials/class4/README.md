@@ -17,8 +17,8 @@ For homework, you should have done [Prep for Class 4](../class4-prep)
 	* What components can GUIs have?
 	* How do we create GUIs?
 
-2. Studio: [Face Lift](../studios/face-lift)
+2. Studio: [Quiz Time!](../studios/quiz-time)
 
 ### Homework
 1. [Class 5 Prep](../class5-prep) 
-2. Get started on [Problem Set 10](../problem-set-10/).
+2. Get started on your [final project](../final-project/).

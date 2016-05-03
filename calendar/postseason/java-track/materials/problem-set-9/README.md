@@ -1,4 +1,4 @@
-##### [Module 2](../..)
+##### [Java Track](../..)
 
 # PSET: Student and Course
 
