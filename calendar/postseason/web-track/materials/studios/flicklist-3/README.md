@@ -7,7 +7,7 @@ Today you will add a little bit more functionality to the project, but the main 
 
 ### Demo
 
-Here is a demo of what you are trying to accomplish: <a href="https://github.com/LaunchCodeEducation/flicklist/blob/b19ea10df9355f8079047e8b1f48e0a8e31a2ba9/index.html" target="_blank">FlickList 3 Demo</a>. Play around with the demo for a minute and get familiar with its features. Also, keep the demo open in a separate window, so you can refer to it while working on the assignment.
+Here is a demo of what you are trying to accomplish: <a href="http://htmlpreview.github.io/?https://github.com/LaunchCodeEducation/flicklist/blob/b19ea10df9355f8079047e8b1f48e0a8e31a2ba9/index.html" target="_blank">FlickList 3 Demo</a>. Play around with the demo for a minute and get familiar with its features. Also, keep the demo open in a separate window, so you can refer to it while working on the assignment.
 
 Note the following additions since last time:
 * Watchlist items have an "I watched it" button, which allows the user to cross that movie off their list.
