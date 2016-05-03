@@ -148,6 +148,12 @@ Uh-oh! Things don't look so great for these devices. Why not? Our layout is resp
 
 It turns out there is one more little tag we need to add to the top of our html file:
 
+##### 3c. Center items in the Watchlist
+
+Notice how on some really skinny screens, like the iPhone5, there is only enough horizontal space to fit one Watchlist item per block. It looks especially silly because the items are all floating to the left, so there is a lot of space to their right. We can fix this by simply applying a `text-align: center` style to the `<ul>` container. 
+
+Now the items center themselves!
+
 ```html
 <meta name=viewport content="width=device-width, initial-scale=1">
 ```
