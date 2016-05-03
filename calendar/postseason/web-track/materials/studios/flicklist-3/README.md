@@ -44,9 +44,48 @@ Let's look briefly at what has changed in each of our files:
 
 ##### index.html
 
+In `index.html`, the only important change is that we have wrapped our two `<section>`s together inside a `<div>` tag with a class of "main-content". We have also removed the "big-header" id from the `<header>` at the top of our page. Since we'll be using Bootstrap to style this header, we no longer need to give it an id. 
+
 ##### flicklist.js
 
+The only change in `flicklist.js` is that the `api` object at the top of the file now has an extra property:
+
+```js
+var api = {
+  root: "https://api.themoviedb.org/3",
+  token: "TODO", // TODO 0 add your api key
+
+  /**
+   * Given a movie object, returns the url to its poster image
+   */
+  posterUrl: function(movie) {
+    // TODO 4b
+    // implement this function
+
+    return "http://images5.fanpop.com/image/photos/25100000/movie-poster-rapunzel-and-eugene-25184488-300-450.jpg" 
+  }
+}
+```
+
+The object now has three properties: `api.root`, `api.token`, and `api.posterUrl`. But `posterUrl` is a tad special, because rather than a simple primitive type like a string or int, `api.posterUrl` is a function!
+
+You can call this function like you would call any other:
+
+```js
+var myMovie = {}; // pretend we have some movie object lying around
+var url = api.posterUrl(myMovie);
+console.log(url); // => logs http://images5.fanpop.com/image/photos/25100000/movie-poster-rapunzel-and-eugene-25184488-300-450.jpg
+```
+
+One of your tasks will be to implement this function so that it returns, for a given movie, the url to a jpg somewhere on the internet where that movie's poster image lives.
+
 ##### styles.css
+
+We've made a few small changes here, like making the backgorund color of the browse section black, and adjusting a jew margin and padding values. 
+
+Notice that in some cases we use a new unit of measurement, the percent, for specifying values. For example, all sections now have a `padding: 2%;" rule. Using 2% rather than a rigid pixel value means that the exact padding changes depending on the width of the container of the section. This helps make our page more responsive, because a certain number of pixels, like say 20px, might seem too small when the screen is very large, but might be too much once the screen is very small.
+
+Finally, notice that we specify `<hr>` elements to have a border color of `rgba(128,128,128,0.2)`. This gives the `<hr>` a translucent gray color.
 
 ### Assignment
 
@@ -92,6 +131,8 @@ In addition to just using Bootstrap classes as they are, we can also customize t
 Do that now, in `styles.css`. Make the jumbotron class have centered text (rather than left-aligned). 
 
 Also, the jumbotron by default has a margin of 30 pixels. This is going to become a little much if the user is on a smaller screen. Change the bottom margin to a value of `1%`. This both reduces the margin, and makes it "fluid", calculating it as a percentage of the width, rather than a fixed value.
+
+Finally, note that this customization only works because in the head of `index.html`, we include our own stylesheet AFTER including Bootstrap. 
 
 ##### 2d. Style the Browse List
 
