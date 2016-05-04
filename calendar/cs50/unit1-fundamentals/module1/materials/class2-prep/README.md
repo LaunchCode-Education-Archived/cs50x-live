@@ -65,4 +65,4 @@ Read | Resource | [Convoluted](../resources/convoluted) | An example of good vs 
 ***
 
 ### Now you're ready for [Class 2](../class2)!
-
+ 
