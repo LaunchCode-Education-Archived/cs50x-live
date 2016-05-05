@@ -1,7 +1,8 @@
 ##### [Web Track](../..)
 
-# Class 4 Prep
+# Class 5 Prep
 
+Before coming to class 5, please complete the following tasks:
 
 ### Higher Order Functions
 
