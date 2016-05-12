@@ -97,7 +97,7 @@
 | Name | Structure | Example | Explanation | 
 | :------- | :-------- | :-------- | :--------: |
 | while | `while( condition )` <br> `{ ` <br> &nbsp;&nbsp; `statement(s); ` <br> `}` | `while( i < 4 )` <br> `{ ` <br> &nbsp;&nbsp; `printf("%i", i); ` <br> `}` | If `i = 1` the loop will print `1 2 3` and then terminate. |
-| do while | `do ` <br> `{ ` <br> &nbsp;&nbsp; `statement(s); ` <br> `}` <br> `while( condition )`  | `do ` <br> `{ ` <br> &nbsp;&nbsp; `printf("Positive Number: ");` <br> &nbsp;&nbsp; `n = GetInt()` <br> `}` <br> `while( i < 1 )`  | The user will be continuously <br> prompted until they enter a positive number. <br> The loop will terminate when the user enters a number greater than 0 |
+| do while | `do ` <br> `{ ` <br> &nbsp;&nbsp; `statement(s); ` <br> `}` <br> `while( condition );`  | `do ` <br> `{ ` <br> &nbsp;&nbsp; `printf("Positive Number: ");` <br> &nbsp;&nbsp; `n = GetInt()` <br> `}` <br> `while( i < 1 );`  | The user will be continuously <br> prompted until they enter a positive number. <br> The loop will terminate when the user enters a number greater than 0 |
 | for | `for ( init; condition; iteration)` <br> `{` <br> &nbsp;&nbsp; `statement(s);` <br> `}`  | `for ( int i = 1; i < 4; i++)` <br> `{` <br> &nbsp;&nbsp; `printf("%i", i);` <br> `}` | `i` is initialized to 1 and will continue to <br> execute the statements until `i = 3`. <br> `i++` increments the variable `i` for each iteration of the loop. <br> The loop will print `1 2 3 ` and terminate. |
 
 #Functions
