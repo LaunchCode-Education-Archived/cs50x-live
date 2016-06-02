@@ -160,7 +160,7 @@ When the user clicks the orange "Scrawl on the Wall" button, the form should sub
 
 That's not super interesting, but over in our #pset-graffitiwall channel on Slack, we should now see this:
 
-<img src="screenshots/eatyourveg.png"/>
+<img src="screenshots/helloworld.png"/>
 
 
 ### Starter code
@@ -204,7 +204,7 @@ In Chrome, the `Network` tab allows you to inspect HTTP requests and responses c
 
 <img src="screenshots/developertools.png"/>
 
-<img src="screenshots/developtools2.png"/>
+<img src="screenshots/developertools2.png"/>
 
 
 ### Select
