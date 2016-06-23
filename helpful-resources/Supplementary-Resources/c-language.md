@@ -68,8 +68,8 @@
 | `!=` | Inequality |
 | `<` | Less Than |
 | `>` | Greater Than |
-| `<=` | Greater Than or Equal To |
-| `>=` | Less Than or Equal To |
+| `>=` | Greater Than or Equal To |
+| `<=` | Less Than or Equal To |
 
 |Logical Operators | Description |
 | :------- | :--------: |
