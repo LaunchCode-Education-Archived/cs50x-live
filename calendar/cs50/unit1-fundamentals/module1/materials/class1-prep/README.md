@@ -43,7 +43,7 @@ Watch | Section | <a href="https://www.youtube.com/watch?v=kpSLlIj97Ss&feature=y
 Follow-Along | Walkthrough | <a href="https://www.youtube.com/watch?v=ox6eTsi8dKA&list=PLhQjrBD2T383fi16gN97XlrTwdxDq2QWZ&index=4" target="_blank">f2c</a> |  Follow along with David Malan to create a program that converts temperatures in Farenheit to Celsius. <br> *The psuedocode for this Follow-Along is <a href="../../../../../../helpful-resources/modules/module-1.html#class-1-task-f2c" target="_blank"> here</a>.
 Do | Exercise | [Percent](../exercises/percent) | Try the *Percent* exercise to practice using floating-point numbers.
 Watch | Short | <a href="https://www.youtube.com/watch?v=aUxqesKDdEc" target="_blank">Precedence</a>|  Watch this short on Precedence / order of operations. <br> Stop at the 3:05 minute mark (if you go beyond, you'll hear about more advanced topics we won't be talking about for several weeks). <br> You can check the Helpful Resources page C Language <a href="../../../../../../helpful-resources/Supplementary-Resources/c-language.html#precedence" target="_blank">here</a> for a cheatsheet of the topics covered in the video. 
-Do | Exercise | [Marathon](../exercises/marathon) |  Fix a program that tells the user how much more time they have to run in a marathon. It's mostly written already, with a key bug.
+Do | Exercise | [Marathon](../exercises/marathon) |  Fix a program that tells the user how much more time they have to run in a marathon. It's mostly written already, with a key bug. 
 
 ***
 
