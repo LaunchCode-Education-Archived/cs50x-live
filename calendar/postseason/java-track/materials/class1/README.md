@@ -24,4 +24,4 @@ Today's class will include a discussion about Objects and Classes, as well as a 
 
 ### Homework
 1. [Class 2 Prep](../class2-prep) 
-2. Get started on [Problem Set 9 / Courses and Students](../problem-set-1/).
+2. Get started on [Problem Set 9 / Courses and Students](../problem-set-9/).
