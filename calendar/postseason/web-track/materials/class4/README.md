@@ -1,13 +1,19 @@
 ##### [Web Track](../..)
 
-# Class 2
+# Class 4
 
 ### Before Class
-Before coming to class, please complete [Class 2 Prep](../class1-prep).
+Before coming to class, please complete [Class 4 Prep](../class4-prep).
 
 ### During Class
-* First, work on today's studio: [FlickList 2](../studios/flicklist-2)
-* Afterwards, we will go over the staff solution to the studio.
+
+Office Hours. Use this time to catch up on:
+* previous Studios from this track
+* previous Prep work from this track
+* Module 8 studios
+* CS50 Problem Sets
+
+Mentors will circulate and provide help. We will also hold a Q&A session as a group and do live walkthroughs of any problems people want help with.
 
 ### Homework
-Class 3 Prep
+[Class 5 Prep](../class5-prep)

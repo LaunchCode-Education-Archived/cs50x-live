@@ -142,7 +142,7 @@ Read more about <a href="http://v4-alpha.getbootstrap.com/components/list-group/
 
 ##### 2e. Style the Form
 
-For guidance, read more about <a>Boostrap Inputs</a>, especially <a>Button Add-ons</a>.
+For guidance, read more about <a href="http://v4-alpha.getbootstrap.com/components/input-group/" target="_blank">Boostrap Input Groups</a>, especially <a href="http://v4-alpha.getbootstrap.com/components/input-group/#button-addons" target="_blank">Button Addons</a>.
 
 ##### 2f. Style the Watchlist
 
@@ -202,7 +202,26 @@ From now on, this is another one of those tags that you probably want to include
 
 #### 4. Poster Images
 
-The last task to tackle is to add poster images to the Watchlist items. 
+The last task to tackle is to add poster images to the Watchlist items. This involves two parts:
+
+##### 4a. Add Image Element to Watchlist Item
+
+Inside `render`, use jQuery to make an `<img>` element, and set its `src` attribute equal to the result calling of the `posterUrl` function inside the `api` object at the top of the file. When calling the function, don't forget to pass your movie in as an argument. 
+
+Once you have the element, append it inside the "body" portion of the Bootstrap panel (rather than the "heading" portion).
+
+Also, give the image element a class of "img-responsive". This is another Bootstrap class that does some work for us, for example setting the element's width to be 100% of its container (and not more! otherwise it will stick out past the bounds of the container).
+
+##### 4b. Implement the posterUrl function
+
+Now we have to actually implement that function. Currently it just returns a hard-coded url. We want to examine the movie that was passed in, and figure out what the actual url should be. 
+
+To help you figure that out, here are three example urls to real movie posters:
+* http://image.tmdb.org/t/p/w300//jjBgi2r5cRt36xF6iNUEhzscEcb.jpg
+* http://image.tmdb.org/t/p/w300//kqjL17yufvn9OVLyXYpvtyrFfak.jpg
+* http://image.tmdb.org/t/p/w300//nBNZadXqJSdt05SHLqgT0HuC5Gm.jpg
+
+Use a console.log statement to print a movie object and poke around and see if you can find anything that might help construct the full url for a particular movie.
 
 #### 5. Remove Dead Code
 

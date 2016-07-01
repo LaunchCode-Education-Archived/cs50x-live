@@ -31,3 +31,5 @@ Your job now is just to literally copy our solution into your source code.
 Don't type the whole thing at once. Implement one little piece at a time and test the code to see what changes. As you go, make a note of any pieces of our solution that you don't understand.
 
 Keep going until you've completed the whole studio.
+
+<a href="https://youtu.be/elnqgp3J2Ow" target="_blank">Click here</a> for a video walkthrough of the solution.
