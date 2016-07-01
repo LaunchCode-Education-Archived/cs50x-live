@@ -17,9 +17,9 @@ Class | Date | Prep Work | During Class | Topics
 Class 0 | TBD | [Class 0 Prep](./materials/class0-prep) | [In Class](./materials/class0) | Git, Chrome dev tools, themoviedb API | 
 Class 1 | TBD | [Class 1 Prep](./materials/class1-prep) | [In Class](./materials/class1) | review of AJAX, jQuery DOM manipulations; branches in Git | 
 Class 2 | TBD | [Class 2 Prep](./materials/class2-prep) | [In Class](./materials.class2) | Semantic HTML; CSS (box model, other essentials), functional JS, more AJAX |
-Class 3 | TBD | Class 3 Prep | In Class | Bootstrap; Responsiveness | 
-Class 4 | TBD | Class 4 Prep | In Class | Chaining API calls, surviving "callback hell", more advanced CSS  |
-Class 5 | TBD | Class 5 Prep | In Class | Bootstrap grid; the Bootstrap carousel component; jQuery bind | 
-Class 6 | TBD | Class 6 Prep | In Class | Special talks on a few advanced topics to help you with the Problem Set |
+Class 3 | TBD | [Class 3 Prep](./materials/class3-prep) | [In Class](./materials/class3) | Bootstrap; Responsiveness | 
+Class 4 | TBD | [Class 4 Prep](./materials/class4-prep) | [In Class](./materials/class4) | Chaining API calls, surviving "callback hell", more advanced CSS  |
+Class 5 | TBD | [Class 5 Prep](./materials/class5-prep) | [In Class](./materials/class5) | Bootstrap grid; the Bootstrap carousel component; jQuery bind | 
+Class 6 | TBD | Class 6 Prep | [In Class](./materials/class6) | Special talks on a few advanced topics to help you with the Problem Set |
 
 
