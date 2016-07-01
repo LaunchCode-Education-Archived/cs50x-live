@@ -1,197 +1,266 @@
 ##### Web Track
-[Back to Class 2](../../class2)
+[Back to Class 6](../../class6)
 
-# Studio: FlickList 2
+# Studio: FlickList 5
 
-Today we will add a hodge-podge of miscellaneous new features to our movie site. We'll include some CSS to apply styles to the page, and build on our interaction with the API. 
-
-Along the way, hopefully you will continue to get more comfortable with jQuery, CSS, AJAX, making API calls, and working with HTML forms.
+In today's (final!) studio, you will add some finishing touches to the project. The changes are mostly cosmetic, but they will require you to refactor a significant chunk of your html and javascript code.
 
 ### Demo
 
-Here is a demo of what you are trying to accomplish: <a href="http://htmlpreview.github.io/?https://github.com/LaunchCodeEducation/flicklist/blob/f3dae711763c73f56267ac35e076c56383183829/index.html" target="_blank">FlickList 2 Demo</a>. Play around with the demo for a minute and get familiar with its features. Also, keep the demo open in a separate window, so you can refer to it while working on the assignment.
+Here is a demo of what you are trying to accomplish: <a href="http://htmlpreview.github.io/?https://github.com/LaunchCodeEducation/flicklist/blob/636afdd8442225455cef24ea4a8560705a17313c/index.html" target="_blank">FlickList 5 Demo</a> (note: I noticed some weird behavior with this demo on Safari, so be sure to open it up in Chrome). Play around with the demo for a minute and get familiar with its features. Also, keep the demo open in a separate window, so you can refer to it while working on the assignment.
 
 Note the following additions since last time:
-* In the browse list, each movie is accompanied by a paragraph summarizing its plot.
-* Once the user clicks the "Add to Watchlist" button for a movie, the button then becomes disabled, preventing the same movie from being added more than once.
-* In the watchlist, each movie is represented by an orange rectangle. These rectangles line up next to each other from left to right, without skipping down to a new line until they run out of space on the right-hand side of their container.
-* The page has some styles and is a little prettier than before.
-* At the top of the browselist, there is a search bar which users can use to search for particular movies. Upon submitting the form, the browse list repopulates full of movies with matching titles.
+* The proverbial furniture has been rearranged. The two sections (watchlist and browse) are no longer arranged in side-by-side columns; instead the browse section has moved back to its former home, below the watchlist section.
+* The browse section is way different. Rather than displaying all the movies at once inside a list, now only one movie is shown at a time. The user can cycle through movies using a fancy UI "carousel", which displays the movie posters along with buttons for sliding back and forth between movies. Each time the carousel slides, the movie title and description update to reflect the newly active movie whose poster has slid into view. 
+* The browse section layout uses the Bootstrap grid system, in fact a *nested* grid: At the macro level, the section is split into (A) a column on the left for the movie info and carousel, and (B) a column on the right for the search form. Diving into that first column, it is further subdivided into (A-1) a column on the left for the movie title and overview, and (A-2) a column on the right for the carousel and the "Add to Watchlist" button.
 
-### Git Yer Hands on the Starter Code
 
-Same procedure as usual here. First, fetch the studio2 branch from upstream:
+### Starter Code
+
+Same procedure as usual. First, fetch the studio5 branch from upstream:
 
 ```nohighlight
-$ git fetch upstream studio2
+$ git fetch upstream studio5
 remote: Counting objects: 21, done.
 remote: Compressing objects: 100% (15/15), done.
 remote: Total 21 (delta 6), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (21/21), done.
 From https://github.com/LaunchCodeEducation/flicklist
- * branch            studio2    -> FETCH_HEAD
-   74b1223..fe10c4f  studio2    -> upstream/studio2
+ * branch            studio5    -> FETCH_HEAD
+   74b1223..fe10c4f  studio5    -> upstream/studio5
 ```
 
 Then, checkout a new local branch:
 
 ```nohighlight
-$ git checkout -b studio2-my-work upstream/studio2
-Branch studio2-my-work set up to track remote branch studio2 from upstream.
-Switched to a new branch 'studio2-my-work'
+$ git checkout -b studio5-my-work upstream/studio5
+Branch studio5-my-work set up to track remote branch studio5 from upstream.
+Switched to a new branch 'studio5-my-work'
 ```
 
 ### A Brief Tour
 
-Our project now looks like this:
-
-```nohighlight
-$ tree
-.
-├── css
-│   └── styles.css
-├── index.html
-└── js
-    └── flicklist.js
-```
-
-Notice the new directory, `css`, which contains a stylesheet, `styles.css`. 
-
-Let's look briefly at each of our files:
+Here's what has changed since last time:
 
 ##### index.html
 
-The HTML file has only changed slightly since we last left it:
-* In the `<head>` there is now a link to our stylesheet. 
-* In the browse section, we have a TODO, asking you to create a `<form>` for the user to search for movies
-* At the bottom, we have a `<script>` tag inside of which is some partially completed JS code with some more TODOs. This is where you will specify what the form should do when the user clicks the submit button.
+The two-column layout has already been removed for you. Notice how the two sections are no longer inside a "row" div, and no longer have class names like "col-md-7", and the "main-content" div no longer has a class of "fluid-container". 
+
+There is some additional code in the script at the bottom of the page. More on that later.
 
 ##### flicklist.js
 
-Our javascript file is also pretty similar to last time, with just a few changes:
-* There is a new function, `searchMovies`, which will be invoked as part of the submit handler on the form (see above). The body of this function is pretty empty (so far!).
-* The `render` function has a few TODOs for you.
+Nothing new here.
 
-Also notice inside `render` that we have re-written some of the jQuery code in a style that might seem a little funny. For example, this line:
+##### styles.css
+
+A couple minor changes, not worth talking about.
+
+### Assignment
+
+For this studio, there are some tasks that do not explicitly have TODO comments in the source code (it would be too messy / ambiguous as to where to place the comment). So follow the steps as outlined here:
+
+#### 0. API key
+
+You know what to do.
+
+#### 1. Rearrange to use grid
+
+For starters, let's just try to implement this new grid layout in the browse section. In `index.html`, build out the following structure:
+
+```nohighglight
++-----------------------------------------------------------------------------------------------------+
+|                                           Browse Section                                            |
+| +-----------------------------------------------------------+ +-----------------------------------+ |
+| |         Container A (67% width)                           | |          Container B (33%)        | |
+| | +------------------------------+ +----------------------+ | |      (header and search form)     | |
+| | |     Conainer A-1 (58%)       | | Container A-2 (42%)  | | |                                   | |
+| | |                              | |                      | | |                                   | |
+| | +------------------------------+ +----------------------+ | |                                   | |
+| +-----------------------------------------------------------+ +-----------------------------------+ |
++-----------------------------------------------------------------------------------------------------+
+```
+
+This will involve adding some things, moving some things, and deleting some things. 
+
+Eventually the poster image carousel will live in Container A-2, and over in Container A-1 we will display the title and overview of the the currently visible movie poster. But for now, just ignore that, and implement this scaffolding. 
+
+A few things to point out:
+* Note that your search form ("Search by Topic") and header ("Browse Movies") should be placed inside Container B.
+* Give Container A-1 an attribute of `id="browse-info"`
+* Place A-1 and A-2 inside a Bootstrap <a href="http://getbootstrap.com/components/#wells" target="_blank">well</a> by wrapping the entire row that holds A-1 and A-2 inside a wrapper div with `class="well"`
+* Don't be afraid of breaking what you currently have. 
+* Google "Bootstrap Grid" if you need a refresher.
+* Feel free to open the Studio Demo in your browser and inspect its HTML with the dev tools.
+
+#### 2. Add Some Dummy Data
+
+Next, let's hard-code some fake content into your HTML page. Later you will delete this and use jQuery to add the real content dynamically, but this intermediate step should help clarify how to do that.
+
+In `index.html`, add the following content:
+* inside Container A-1, place an `<h4>` element with the text "Twilight", followed by an `<hr/>`, followed by a fake overview paragraph about Twilight. Make sure your overview paragraph is an accurate description of the plot of the movie, jk.
+* inside Container A-2, add a placeholder `<img>` (with an "src" equal to "https://pbs.twimg.com/profile_images/378800000576832113/3e69602eab961fd19b89cc65ea9bd2e8.jpeg"), followed by a button that says "Add to Watchlist" and has an attribute of `id="add-to-watchlist"`.
+
+#### 3. Create the Carousel
+
+Now for the fun part: inside Container A-2, create a Bootstrap Carousel. How the heck does one do that? It's essentially just like the other Bootstrap components we've already seen, but more complex, and composed of multiple elements rather than just one. You simply create some elements and wire them up with them the right class and id names and other attributes, and Bootstrap will work behind the scenes to make everything function properly. 
+
+Actually, for this task we are going to need to include Bootstrap's javascript library (we currently only have their CSS). So the first step is to head to <a href="http://getbootstrap.com/getting-started/#download-cdn" target="_blank">the bootstrap site</a> and copy/paste their "Latest compiled and minified JavaScript" into the top of `index.html`.
+
+Now it's time to create the carousel. Check out <a href="http://codepen.io/jesselaunchcode/pen/ZWZyeX" target="_blank">this Codepen example</a> (which I made, and which mirrors exactly what you want to do (make sure you expand the "html" window on Codepen so you don't go insane trying to read from a tiny box)), and also <a href="http://www.w3schools.com/bootstrap/bootstrap_carousel.asp" target="_blank">this W3 Schools example</a> (which has some extra stuff we don't care about, but provides explanations of the various parts, which you should read). 
+
+Build your carousel, and fill it with 3 movie poster images, using posters from the internet <a href="http://sumnersunsettheatre.com/wp-content/uploads/Minions-poster.jpg" target="_blank">like this</a>. Give your carousel an attribute of `id=browse-carousel` Make sure to also include the left and right "data slide" buttons, and make sure they work.
+
+Finally add this rule to your `styles.css` file:
+
+```css
+#browse-carousel {
+	max-width: 300px;
+	margin: auto;
+}
+```
+
+which will ensure that the carousel does not get annoyingly large, and is centered horizontally in its container.
+
+#### 4. New Model Property
+
+Now that you have the page layout and the carousel all set up, it's time to feed your app the actual movie data. You will do this by refactoring some of your javascript code in `flicklist.js`.
+
+The big change is that we no longer want the browse section to display a *list* of movies. We only want to display one at a time. Our underlying model should still use a list (i.e. `model.browseItems`) because we want to keep track of all the movies and have them around-- it's just that user will only visibily see one at a time. 
+
+This means that our `model` object will need a third property. Not only do we need to keep track of the list of browse items, we also need to keep track of *which item*, at any given moment, is the "active" one on display. 
+
+Add another property to the `model` variable. Name the property `activeMovieIndex`, and set it equal to `0`. This number represents which item from the browseItems array is currently active. So for example, because we start off with `0`, this means the first item in the array is the active movie.
+
+##### 5. Refactor the render Function
+
+The old `render` function, when adding the content to the browse section, iterates over each item in `model.browselist`. This doesn't really make sense anymore since we only want to display one browse item at any given time.
+
+##### 5a. Delete the old Code!
+
+Go ahead and delete this whole block of code:
+
+```js
+model.browseItems.forEach(function(movie) {
+  ...
+});
+
+```
+
+Gasp! (Actually, just comment it out. But cut and paste it to the bottom of the file or somewhere else out of the way.)
+
+
+##### 5b. Figure out the Current Active Movie
+
+Now let's get started building a fresh implementation of displaying the browse section. You should still be inside the `render` function, in the same place where the dust is still settling from decimating the old code.
+
+First, we will need to know which movie object is the currently active one. Make a variable:
+
+```js
+var activeMovie =   // TODO fill this in
+```
+
+and give it the correct value. (Remember, you have a list of browse items, and you have a number telling you which index is the active index).
+
+##### 5c. Title and Overview
+
+Next, replace the hard-coded "Twilight" content with the actual title and overview for the currently active movie. (Remember, you gave the container an id of "browse-info".)
+
+
+##### 5d. Revive the "Add to Watchlist" Button
+
+Previously we created a new button for each browse item, but now we just have one permanent button which you have already added to the HTML page. But that button doesn't work and is ugly. Bring it back to life!
+
+Your old code looked like this:
 
 ```js
 var button = $("<button></button>")
    .text("Add to Watchlist")
+   .attr("class", "btn btn-primary")
    .click(function() {
      model.watchlistItems.push(movie);
      render();
-   });
+   })
+   .prop("disabled", model.watchlistItems.indexOf(movie) !== -1);
 ```
 
-or this one:
+You pretty much want to do all that same stuff here. The only difference is that instead of *creating a new button* and storing it in a variable, you just need to modify the existing button (Remember, you gave it an id attribute).
+
+##### 5e. Fill the Carousel
+
+Now let's fill the carousel with movie poster images. Here's some starter code:
 
 ```js
-var itemView = $("<li></li>")
-   .append($("<hr/>"))
-   .append(title)
-   .append(button);
+// fill carousel with posters
+var posters = model.browseItems.map(function(movie) {
+ // TODO 
+ // return a list item with an img inside  
+});
+$("TODO").append(posters);
 ```
 
-This is a common style for lines of code in which you are chaining together a bunch of jQuery method calls one after the other. When these chains become long enough, there comes a point where they will annoyingly run off the right edge of the screen. To mitigate that, the convention is to place each subsequennt method call on its own new line, indented once.
+As you can see, we are mapping over the browseItems to create an array of elements. Then we are appending those elements into the carousel. 
 
-##### styles.css
+Inside the `map` callback, you should break that down into two steps: first, create a poster image (you can look up to remember how you did that in the watchlist), and then append it into an `<li>`. Remember, your `<li>` needs to have a special class name of `"item"` in order for the Bootstrap carousel to recognize it.
 
-Finally, open up the new stylesheet. As you can see, we've already gotten started applying some styles to the page.
+You also must fill in that jQuery selector to make sure you are appending the list items into the apropriate place.
 
-As a quick exercise, go preview the page in your browser right now, and open up Dev Tools. In the Elements tab, notice that one of the things you can inspect is the styles of your elements. You can even change the styles and see the results immediately! Spend a minute playing and tinkering with the styles we have added.
+##### 5f. Activate the Correct Poster Item
 
-### Assignment
+The carousel also requires that exactly one list item also has a class of `"active"`.
 
-Work your way through the TODOs in the source code. The tasks are numbered. You should work on them in the order prescribed, as follows:
-
-##### 0. API key
-
-As usual, add your api key to the object near the top of `flicklist.js`.
-
-##### 1. Add a Description Paragraph to Each Browselist Item
-
-On the browse list, let's spice up those list items by displaying some more data about the movies. Using jQuery, create a `<p>` with a description of the movie's plot. You can find this description as a string somewhere inside the movie object. Just as the title is accessbile via the property `movie.original_title`, the description is a different property. What's the name of the property? You'll have to use a `console.log` statement to poke around and find out. (It's not `movie.description`). Once you have created the paragraph, append it to `itemView` below the title and above the "Add to Watchlist" button.
-
-##### 2. Disable Buttons
-
-Next, implement this feature: an "Add to Watchlist" button should be disabled if the movie in question is already present in the user's watchlist. 
-
-To determine whether the movie is already present, you can use the javascript array function `indexOf`, which returns the index of a thing in an array, unless the thing is not found, in which case `-1` is returned. For example:
+Here's a freebie:
 
 ```js
-var nums = [0, 7, 5, 2];
-nums.indexOf(5) // returns 2
-nums.indexOf(5000) // returns -1
+posters[model.activeMovieIndex].addClass("active");
 ```
 
-To disable the button, you can use jQuery's `prop` function, e.g.
-```js
-var nuclearReactor = $("#nuclear-reactor");
-nuclearReactor.prop("disabled", true);
-```
+Just add the above line. But don't paste it, type it out yourself!
 
-Once you have this working, take a quick note of the CSS rule we used in order to achive the visual effect. We lower the `opacity` property (in otherwords, transparency) of disabled buttons. In order to select for only disabled buttons, we used the `:disabled` <a href="http://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">pseudoclass</a>.
+##### 6. Respond to Carousel Sliding
 
-##### 3. Give Watchlist Items a Class Attribute
+Your page should now have a working carousel with actual movie data in it. 
 
-Next, it's time to apply some styles to thosewatchlist `<li>`s, so that they are big orange bricks. But first, in order to do that, we'll need to give them a `class` attribute, so that our CSS can select them. Inside the `render` function, within the `forEach` iteration over `model.watchlistItems`, use the jQuery `attr` function to give the `itemView` variable a class of `"item-watchlist"`.
+There is still one bug, which is that whenever the carousel slides to show a new movie poster, the rest of the app fails to respond. The title, overview, and everything else continue to show the previous movie.
 
-Verify that you succeeded as follows: In your browser window, add some movies to the watchlist. Then, open up the dev tools, go to the Console tab, and type this:
+To solve this problem we must, actively respond whenever the carousel has slid to a new movie. We have already started this for you in the script at the bottom of `index.html`:
 
 ```js
-$(".item-watchlist")
+$("#browse-carousel").on("slid.bs.carousel", function() {
+   console.log("the carousel just slid!");
+   var newIndex = $("#browse-carousel").find(".active").index();
+   // TODO 
+   // update the model and then re-render
+});
 ```
 
-followed by the Enter key. You should see an array with some `<li>`s inside it, one for each watchlist item! You should not see an empty array, i.e. `[]`.
+This code block uses a jQuery function called `on` which allows us to register a callback that will be executed whenever a certain event happens. In our case the event is the carousel sliding, which Bootstrap makes available under the name "slid.bs.carousel". This is just like a normal button with a `click` handler, but the `on` function lets you specify any event, not just a click. In fact, you actually can use `on` with buttons. The following two code blocks are equivalent:
 
-##### 4. Style the Watchlist Items as Orange Bricks
-
-Now that your watchlist items have a class attribute, you can apply styles to them. Open up `styles.css`, and create a new class selector for elements with the class "item-watchlist" (hint: CSS selectors are the same as jQuery selectors). Add some styles until your watchlist tiems resemble those orange bricks from the demo. One style you'll definitely want to apply is:
-
-```css
-display: inline-block;
+```js
+$("#mybutton").on("click", function() {
+   console.log("somebody clicked my button!");
+});
 ```
 
-This is what enables that left-to-right flow pattern. (See this <a href="http://stackoverflow.com/questions/8969381/what-is-the-difference-between-display-inline-and-display-inline-block" target="_blank">Stack Overflow post</a> for a nice overview of the differences between `block`, `inline`, and `inline-block`).
+```js
+$("#mybutton").click(function() {
+   console.log("somebody clicked my button!");
+});
+```
 
-You'll also need to apply a few other styles: a lot of padding, a little bit of margin on <a href="http://stackoverflow.com/questions/356759/a-mnemonic-for-the-order-of-css-margin-and-padding-shorthand-properties" target="_blank">just the right and bottom edges</a>, and the colors obviously need to change.
+Anyway, whenever the carousel has slid to a new position, that annonymous function will be executed. We've left a TODO in there for you. The goal is to update the model (remember that your model must keep track of the current active movie index), and then re-render everything. In the line above the TODO, we've already done the hard part of figuring out what the new carousel index is, by using some new jQuery functions, `find` and `index`, whose purpose you can hopefully infer from their usage here.
 
-##### 5. Change the Text Color to Gray
+Once you've got this working, your page should update its content whenever the carousel slides!
 
-Next, create a css rule that will set a baseline default of gray for the color of all text in the body of the document. To accomplish this, you only have to make one rule! you don't have to go and start adding declarations to each and every selector in the CSS file. You simply have to apply the style to some common container, and then all descendants of the container will automatically inherit the same style.
+##### 7. CSS
 
-##### 6. Add a Form to the Page
+The last step is to add some CSS and make everything look tidy. No guidance on this one! You got this. Just compare your version to the demo and rig up some CSS rules to make it work.
 
-The last new feature we need to add is a `<form>`, with a text field and a submit button, via which users can search for particular movies. 
-
-The first step to implementing this feature is simply to add the form to `index.html`. Go ahead and do that now. Your form does not need any of the usual attributes, like `action` or `method`, because we are going to intercept and cancel its submit event anyway. The one attribute you should give the form is an `id` equal to `"form-search"`. Inside the form, you should have two `<input>`s: one, a text field, and the other, a submit button.
-
-##### 7. Style the Buttons
-
-Very briefly, let's jump back over to `styles.css` and apply some styles to the buttons, both the "Add to Watchlist" buttons and the "Search by Title" submit button on the form
-
-Notice how the selector here includes `input[type=submit]` in order to select for both normal buttons and submit buttons on forms.
-
-##### 8. Add a Submit Handler to the Form
-
-Once your form is present on the page, the next step is to give it a submit handler. We want to specify that when the user presses the submit button, the `searchMovies` function (which you will implement next) gets invoked, using the search term that the user typed in, with `render` as the callback to be executed after receiving a response from the api.
-
-As you can see, we use jQuery's `.submit` function, which is very similar to `.click` in that it allows you to pass in a function to be executed whenever a form is submitted. You must:
-* A: fill in the jQuery selector so that we are calling `.submit` on our form
-* B: within the submit handler function, fill in another jQuery selector to figure out what the user typed into the search bar. For this task you must use a selector very similar to the example in `styles.css` for the submit button (`input[type=submit]`).
-* C: also within the body of the submit handler function, invoke the `searchMovies` function and pass in the arguments it needs.
-
-If you've done everything correctly you should be able to see some output on the console. Search for "cocounut" and you should see a log statement that reads: "searching for movies with 'coconut' in their title...".
-
-##### 9. Implement the `searchMovies` Function
-
-Finally, let's implement this function in `flicklist.js`. As a starting point, you can follow in the footsteps of the `discoverMovies` function. But a few things must be different:
-* You will send the request to a slightly different url (we want to talk to a different "endpoint" on the API)
-* Your `data` object must include another property, `query`, whose value will be the search term the user typed in (e.g. "coconut")
+One hint, regarding your carousel: remember that a `<ul>`, by default, has some padding on the left side.
 
 ### How to Submit
 
-Just like last time, commit your work on Git and push to a new branch on your GitHub repo. Then, submit a link to your repo on Vocareum.
+As usual, commit your work on Git and push to a new branch on your GitHub repo. Then, submit a link to your repo on Vocareum.
 
 ##### Commit and Push
 
@@ -199,7 +268,7 @@ If you run the `git status` command, you should see that you now have *unstaged*
 
 ```nohighlight
 $ git status
-On branch studio2-my-work
+On branch studio5-my-work
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -223,7 +292,7 @@ If you check your status again now, you should see:
 
 ```nohighlight
 $ git status
-On branch studio2-my-work
+On branch studio5-my-work
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
         modified:   css/styes.css
@@ -234,8 +303,8 @@ Changes to be committed:
 All the files are now staged for committing. Go ahead and make a commit, using the -m flag to remind your future self (and others looking at your code) what changes you made during this commit:
 
 ```nohighlight
-$ git commit -m "finish FlickList 2 studio"
-[studio2-my-work 46db232] finish FlickList 2 studio
+$ git commit -m "finish FlickList 5 studio"
+[studio2-my-work 46db232] finish FlickList 5 studio
  2 files changed, 2 insertions(+), 2 deletions(-)
 ```
 
@@ -245,25 +314,62 @@ If you check your status one more time, you should see this:
 
 ```nohighlight
 $ git status
-On branch studio2-my-work
+On branch studio5-my-work
 nothing to commit, working directory clean
 ```
 
 Finally, *push* your changes to your remote repo:
 
 ```nohighlight
-$ git push origin studio2-my-work
+$ git push origin studio5-my-work
 Counting objects: 62, done.
 Delta compression using up to 8 threads.
 Compressing objects: 100% (20/20), done.
 Writing objects: 100% (22/22), 2.36 KiB | 0 bytes/s, done.
 Total 22 (delta 6), reused 0 (delta 0)
 To https://github.com/jharvard/flicklist.git
- * [new branch]      studio2-my-work -> studio2-my-work
+ * [new branch]      studio5-my-work -> studio5-my-work
 ```
 
 If you go back and revisit github.com/jharvard/flicklist, you should now see your new branch up there! Specificially, near the top-left of the screen, you should see a dropdown menu that says "Branch: master". Click that dropdown and you should see an option for "studio2-my-work". Click on that branch, and you should now see the code you just worked on. Copy the current url in your browser's address bar (you are about to paste that url into Vocareum).
 
 ##### Submit on Vocareum
 
-On Vocareum, click the assignment titled **Studio: FlickList 2**. In your `/work` directory you should see a file called `studio2.txt`. Open up this file and fill in the link to your work on GitHub.
+On Vocareum, click the assignment titled **Studio: FlickList 5**. In your `/work` directory you should see a file called `studio5.txt`. Open up this file and fill in the link to your work on GitHub.
+
+
+#### Publish your Work using Github Pages!
+
+Lastly, let's put your work on display so you can show it off! Github has a feature called Github Pages, which makes it really easy to host your front-end projects on the real, live internet. You simply need to give your repository a branch with with the special name "gh-pages". 
+
+Let's do that now. First, create the new branch locally:
+
+```nohighlight
+$ git checkout -b gh-pages
+Switched to a new branch 'gh-pages'
+```
+
+(Notice that we didn't specify where the new branch should copy from, so by default it used the current studio5-my-work branch, which is what we want).
+
+Now we want to push this branch up to your remote repository. There is one slight complication, which is that when you forked our LaunchCodeEducation/flicklist repo back in Studio 0, your fork also received all of our branches, including our own gh-pages branch. So your remote in fact already has a (out of date) gh-pages branch. So first, delete that one:
+
+```nohighlight
+$ git push --delete origin gh-pages
+To https://github.com/jharvard/flicklist.git
+ - [deleted]         gh-pages
+```
+
+and now you can then push this local one:
+
+```nohighlight
+$ git push origin gh-pages
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 686 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+To https://github.com/jharvard/flicklist.git
+ * [new branch]      gh-pages -> gh-pages
+```
+
+Now you (or anyone) can view your project! Just visit this url http://jharvard.github.io/flicklist (where jharvard is your username).
