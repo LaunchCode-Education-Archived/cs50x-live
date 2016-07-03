@@ -18,6 +18,7 @@ Like FlickList and Pset8, build some kind of front-end for displaying data from 
 
 Stuff we didnt really talk about:
 * <a href="https://www.udacity.com/course/object-oriented-javascript--ud015" target="_blank">object-oriented Javascript</a>
+* * Using the <a href="https://github.com/lukehoban/es6features" target="_blank">new features</a> in ES6, the latest version of Javascript
 * <a href="http://eloquentjavascript.net/10_modules.html" target="_blank">modules</a>
 * Managing <a href="http://callbackhell.com" target="_blank">callback hell</a> with and without using a cool JS feature called <a href="http://blog.parse.com/learn/engineering/whats-so-great-about-javascript-promises/" target="_blank">Promises</a>
 
@@ -25,7 +26,7 @@ I generally recommend these resources for learning more Javascript:
 * <a href="https://eloquentjavascript.net" target="_blank">Eloquent Javascript</a>
 * <a href="https://www.freecodecamp.com" target="_blank">FreeCodeCamp</a>
 
-##### CSS
+#### CSS
 
 Stuff we didn't really talk about:
 * CSS Preprocessors like <a href="http://lesscss.org">LESS</a> and <a>SASS</a>
@@ -35,7 +36,7 @@ I generally recommend these resources for learning HTML and CSS
 * <a href="http://learn.shayhowe.com/html-css/" target="_blank">Shay How</a>
 
 
-##### A Javascript Framework
+#### A Javascript Framework
 
 As your project grows from 500 lines of code to 5,000 to 50,000, it becomes exponentially harder to "manage the complexity". Every time you try to add a new feature you end up breaking 5 things. 
 
@@ -45,7 +46,7 @@ Some popular frameworks are:
 * <a href="https://angularjs.org" target="_blank">AngularJS</a>
 * <a href="http://emberjs.com" target="_blank">EmberJS</a>
 * <a href="https://facebook.github.io/react/" target="_blank">ReactJS</a> (technically is <a href="http://blog.andrewray.me/reactjs-for-stupid-people/" target="_blank">not exactly a framework</a> by itself)
-* <a href="https://elm-lang.org" target="_blank">Elm</a> (this is actually an entirely new language that compiles to Javascript. You won't find a lot of jobs in Elm (yet...), but it's highly enjoyable (a personal favorite of mine) and quite possibly a much better way of writing web apps, time will tell)
+* <a href="https://elm-lang.org" target="_blank">Elm</a> (Check this out if you like new experimental things. Elm is actually an entirely different language that compiles to Javascript (meaning you write your source code in Elm, and it spits out a giant Javascript file taht you never actually need to look at). You won't find a lot of jobs in Elm (yet...), but it's highly enjoyable and quite possibly a much better way of writing web apps, time will tell.)
 
 This site, <a href="http://todomvc.com" target="_blank">TodoMVC</a> shows you how to build the same Todo List app in a variety of different frameworks.
 
