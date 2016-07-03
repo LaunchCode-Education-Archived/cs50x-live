@@ -10,4 +10,4 @@ Before coming to class, please complete [Class 5 Prep](../class5-prep).
 * Afterwards, we will <a href="https://youtu.be/UMJuzGMK0DQ" target="_blank">go over the staff solution to the studio</a>.
 
 ### Homework
-Class 5 Prep
+No homework! Get caught up on stuff.
