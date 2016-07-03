@@ -14,12 +14,12 @@ Over the course of building this project, you will solidify your comfort with th
 
 Class | Date | Prep Work | During Class | Topics
 |------|----|----------|--------------|-------|
-Class 0 | TBD | [Class 0 Prep](./materials/class0-prep) | [In Class](./materials/class0) | Git, Chrome dev tools, themoviedb API | 
-Class 1 | TBD | [Class 1 Prep](./materials/class1-prep) | [In Class](./materials/class1) | review of AJAX, jQuery DOM manipulations; branches in Git | 
-Class 2 | TBD | [Class 2 Prep](./materials/class2-prep) | [In Class](./materials.class2) | Semantic HTML; CSS (box model, other essentials), functional JS, more AJAX |
-Class 3 | TBD | Class 3 Prep | In Class | Bootstrap; Responsiveness | 
-Class 4 | TBD | Class 4 Prep | In Class | Chaining API calls, surviving "callback hell", more advanced CSS  |
-Class 5 | TBD | Class 5 Prep | In Class | Bootstrap grid; the Bootstrap carousel component; jQuery bind | 
-Class 6 | TBD | Class 6 Prep | In Class | Special talks on a few advanced topics to help you with the Problem Set |
+Class 0 | TBD | [Class 0 Prep](./materials/class0-prep) | [In Class](./materials/class0) | Git, Chrome dev tools | 
+Class 1 | TBD | [Class 1 Prep](./materials/class1-prep) | [In Class](./materials/class1) | Module 8 review; jQuery; branches in Git | 
+Class 2 | TBD | [Class 2 Prep](./materials/class2-prep) | [In Class](./materials.class2) | CSS (box model, other essentials); functional JS; AJAX; Semantic HTML |
+Class 3 | TBD | [Class 3 Prep](./materials/class3-prep) | [In Class](./materials/class3) | Responsiveness; Bootstrap; more AJAX | 
+Class 4 | TBD | [Class 4 Prep](./materials/class4-prep) | [In Class](./materials/class4) | Sometimes a lack of topics is the most advanced topic of all. |
+Class 5 | TBD | [Class 5 Prep](./materials/class5-prep) | [In Class](./materials/class5) | Even more AJAX; More practice with functional style and higher-order functions in JS   | 
+Class 6 | TBD | No prep | [In Class](./materials/class6) | the Bootstrap carousel component; jQuery bind |
 
 
